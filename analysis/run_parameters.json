@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-10-03T15:22:12.740505+00:00",
+  "seed": 20261003,
+  "knockdown_fraction_assumption": 0.9,
+  "model": "Genome-wide K562 CRISPR response transfer with count-noise suppression and fixed 0.3 shrinkage",
+  "versions": {
+    "vcc-cli": "0.2.2",
+    "anndata": "0.13.4",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "pandas": "3.0.1",
+    "duckdb": "1.4.4",
+    "pyarrow": "23.0.1"
+  },
+  "script_sha256": "3e172506d9d88472940d736070834678d6a59edcf8515a4636e574608f2ed8ef",
+  "limitations": [
+    "No challenge perturbation ground truth: no local VCC score.",
+    "Transferred effects cover only reference-measured genes and targets.",
+    "No induction in genes absent from all context controls.",
+    "Cell-line and assay differences can limit transfer."
+  ]
+}

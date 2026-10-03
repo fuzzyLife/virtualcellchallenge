@@ -218,3 +218,28 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Competition data and local runtime (rebuild or download; retain small specs)
+/.competition_env/
+*.h5ad
+*.vcc
+*.partial
+*.parquet
+/analysis/reference_model_arrays.npz
+
+# Saved third-party pages, assets and extracted full text
+/*.html
+/*.pdf
+/*_files/
+/analysis/2025.09.12.675911v1.full.txt
+/analysis/downloads.txt
+/analysis/FAQ.txt
+/analysis/leaders.txt
+/analysis/Virtual Cell Challenge*.txt
+
+# Rejected reference exploration and download caches
+/reference/README.md
+/reference/dataset.toml
+/reference/feature_names.json
+/reference/public_parquet_footer.bin
+/reference/duckdb_extensions/

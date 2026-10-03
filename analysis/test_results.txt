@@ -1,0 +1,4 @@
+Command: .competition_env\Scripts\python.exe test_submission.py
+Result: 5 tests passed.
+Checks: balanced guide/library sampling; reproducibility and 200 seeds with no duplicate quantile-bin samples; integer response simulation without input mutation; reference feature mapping and unknown-target fallback; streamed CSR H5AD roundtrip with 64-bit pointers and official vcc prep.
+All synthetic test files were temporary and are not submissions.

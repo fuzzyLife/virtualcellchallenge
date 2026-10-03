@@ -1,0 +1,31 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\prediction.vcc",
+  "bytes": 3306905600,
+  "sha256": "d236c64869488827f54012a0e10de68aad05c6d97142674a561969483618371e",
+  "official_prep_passed": true,
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2083470063,
+    "schema": 1
+  },
+  "prediction_validation": {
+    "n_cells": 360000,
+    "n_genes": 18533,
+    "nnz": 2083470063,
+    "maximum_cell_counts": 52457,
+    "groups": 900,
+    "cells_per_group": 400,
+    "all_stored_counts": "positive integers",
+    "gene_order": "exact match",
+    "context_target_cell_counts": "exact match"
+  },
+  "elapsed_seconds": 689.3417484760284,
+  "leaderboard_score": -0.276289857599391,
+  "uploaded": true,
+  "submission_entry_id": "QQnFEBGlOk2pFFwkgtJL",
+  "submission_status": "published",
+  "leaderboard_result_file": "analysis/leaderboard_result.json",
+  "upload_status_source": "User-provided VCC CLI output on 2026-10-03"
+}
