@@ -1,0 +1,261 @@
+{
+  "created_utc": "2026-10-03T17:24:29.633428+00:00",
+  "scope": "Provided controls and predicted cells only; no hidden challenge response labels.",
+  "limitations": [
+    "Provided controls may differ from held-out scoring controls.",
+    "Predictions are compared with all provided controls, including sampled input cells; not an independent performance validation.",
+    "Increasing DE calls is not evidence of correct biology or an improved leaderboard score.",
+    "The small target selection is an effect-strength coverage diagnostic, not a random panel estimate."
+  ],
+  "rank_kernel_test": {
+    "passed": true,
+    "columns": 19,
+    "maximum_pvalue_difference": 0.0
+  },
+  "source": {
+    "targets_total": 300,
+    "targets_covered": 260,
+    "gene_fraction_covered": 0.41444990017806077,
+    "gene_count_covered": 7681,
+    "source_context_correlations": {
+      "A": {
+        "source_profile_correlations": {
+          "K562": 0.33668928442321866
+        },
+        "source_weights_before_per_target_renormalization": {
+          "K562": 1.0
+        },
+        "downstream_lfc_quantiles": {
+          "min": -0.7777173913043478,
+          "p05": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p95": 0.0,
+          "max": 0.7157336967348076
+        }
+      },
+      "B": {
+        "source_profile_correlations": {
+          "K562": 0.2647044640534375
+        },
+        "source_weights_before_per_target_renormalization": {
+          "K562": 1.0
+        },
+        "downstream_lfc_quantiles": {
+          "min": -0.7777173913043478,
+          "p05": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p95": 0.0,
+          "max": 0.7157336967348076
+        }
+      },
+      "C": {
+        "source_profile_correlations": {
+          "K562": 0.3203399442225731
+        },
+        "source_weights_before_per_target_renormalization": {
+          "K562": 1.0
+        },
+        "downstream_lfc_quantiles": {
+          "min": -0.7777173913043478,
+          "p05": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.0,
+          "p95": 0.0,
+          "max": 0.7157336967348076
+        }
+      }
+    },
+    "identical_effect_multipliers_across_contexts": true,
+    "downstream_pair_count": 2304069,
+    "nonzero_downstream_pair_fraction": 0.0644772357077848,
+    "downstream_pairs_above_absolute_log2": {
+      "0.01": 80194,
+      "0.05": 9830,
+      "0.1": 1871,
+      "0.2": 378,
+      "0.5": 25
+    },
+    "covered_targets_pairs_above_point1_quantiles": {
+      "min": 0.0,
+      "p05": 1.0,
+      "p25": 2.0,
+      "median": 4.0,
+      "p75": 10.0,
+      "p95": 22.14999999999995,
+      "max": 38.0
+    },
+    "scored_axis_coverage": {
+      "A": {
+        "tested_gene_count": 9929,
+        "reference_covered_tested_genes": 7094,
+        "reference_covered_tested_fraction": 0.7144727565716588
+      },
+      "B": {
+        "tested_gene_count": 9626,
+        "reference_covered_tested_genes": 6881,
+        "reference_covered_tested_fraction": 0.7148348223561188
+      },
+      "C": {
+        "tested_gene_count": 10124,
+        "reference_covered_tested_genes": 7058,
+        "reference_covered_tested_fraction": 0.6971552745950217
+      }
+    }
+  },
+  "selected_targets": [
+    "EEF1A2",
+    "NT5DC1",
+    "API5",
+    "DCP2",
+    "ABCD1",
+    "AGO1"
+  ],
+  "api_status": {
+    "retrieved": false
+  },
+  "prediction_path": "prediction.h5ad",
+  "input_package_sha256": "d236c64869488827f54012a0e10de68aad05c6d97142674a561969483618371e",
+  "group_summary": [
+    {
+      "context": "A",
+      "variant": "sampled_controls",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "A",
+      "variant": "stronger_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 0.5,
+      "mean": 7.666666666666667,
+      "max": 43
+    },
+    {
+      "context": "A",
+      "variant": "submitted",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.8333333333333334,
+      "max": 5
+    },
+    {
+      "context": "A",
+      "variant": "target_only",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "A",
+      "variant": "zero_aware_original_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 1.3333333333333333,
+      "max": 8
+    },
+    {
+      "context": "B",
+      "variant": "sampled_controls",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "B",
+      "variant": "stronger_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 1.0,
+      "mean": 10.166666666666666,
+      "max": 54
+    },
+    {
+      "context": "B",
+      "variant": "submitted",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 1.1666666666666667,
+      "max": 7
+    },
+    {
+      "context": "B",
+      "variant": "target_only",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "B",
+      "variant": "zero_aware_original_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 1.1666666666666667,
+      "max": 7
+    },
+    {
+      "context": "C",
+      "variant": "sampled_controls",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "C",
+      "variant": "stronger_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 1.0,
+      "mean": 10.5,
+      "max": 56
+    },
+    {
+      "context": "C",
+      "variant": "submitted",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 1.1666666666666667,
+      "max": 6
+    },
+    {
+      "context": "C",
+      "variant": "target_only",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 0.0,
+      "max": 0
+    },
+    {
+      "context": "C",
+      "variant": "zero_aware_original_transfer",
+      "count": 6,
+      "min": 0,
+      "median": 0.0,
+      "mean": 1.5,
+      "max": 8
+    }
+  ],
+  "script_sha256": "477f5f1da85394c936952dbf8d45340ab9dcdcad6f3a4e2d0603a52fb7b7724d"
+}

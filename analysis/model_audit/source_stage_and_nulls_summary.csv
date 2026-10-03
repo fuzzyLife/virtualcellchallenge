@@ -1,0 +1,9 @@
+kind,stage,source_cells_median,source_cells_mean,source_cells_min,source_cells_max,nonzero_downstream_genes_median,nonzero_downstream_genes_mean,nonzero_downstream_genes_min,nonzero_downstream_genes_max,genes_gt_point1_at_shrinkage_point3_median,genes_gt_point1_at_shrinkage_point3_mean,genes_gt_point1_at_shrinkage_point3_min,genes_gt_point1_at_shrinkage_point3_max,genes_gt_point1_at_full_strength_median,genes_gt_point1_at_full_strength_mean,genes_gt_point1_at_full_strength_min,genes_gt_point1_at_full_strength_max
+non_targeting_null,less_threshold,180.5,183.15,47,344,4817.0,4816.2,4722,5078,111.5,122.1,34,268,1601.5,1617.725,1190,2097
+non_targeting_null,original_threshold,180.5,183.15,47,344,455.5,450.75,371,614,1.0,2.075,0,10,60.5,61.95,38,132
+non_targeting_null,raw,180.5,183.15,47,344,7681.0,7681.0,7681,7681,714.0,866.025,238,2359,4029.5,4135.45,3044,5612
+non_targeting_null,reliability_only,180.5,183.15,47,344,7681.0,7681.0,7681,7681,350.5,363.45,131,686,3296.0,3325.225,2627,4082
+perturbed,less_threshold,176.0,187.08461538461538,37,1745,4880.5,4922.173076923077,4717,5469,137.0,145.04615384615386,8,459,1760.5,1753.6461538461538,329,2605
+perturbed,original_threshold,176.0,187.08461538461538,37,1745,516.0,571.3846153846154,361,1239,4.0,7.196153846153846,0,38,81.5,99.92307692307692,20,316
+perturbed,raw,176.0,187.08461538461538,37,1745,7680.0,7680.157692307693,7680,7681,793.5,947.3576923076923,12,2898,4266.0,4274.826923076923,930,6101
+perturbed,reliability_only,176.0,187.08461538461538,37,1745,7680.0,7680.157692307693,7680,7681,382.0,404.1307692307692,12,1039,3488.5,3462.7884615384614,861,4620

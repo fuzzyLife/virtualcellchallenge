@@ -70,11 +70,12 @@ class PageText(HTMLParser):
 
 def inventory(root, analysis):
     """Inspect and hash every original project file; distinguish web assets/data."""
-    ignored = {'.competition_env', 'reference', 'analysis', '__pycache__', '.git', '.agents', '.codex'}
+    ignored = {'.competition_env', 'reference', 'analysis', '__pycache__', '.git', '.agents', '.codex', 'experiments'}
     created = {'build_submission.py', 'download_reference.py', 'test_submission.py',
                'requirements-competition.txt', 'COMPETITION_ANALYSIS.md',
                'prediction.h5ad', 'prediction.vcc', 'prediction.h5ad.partial',
-               'prediction.vcc.partial', 'RUN_SUBMISSION.ps1'}
+               'prediction.vcc.partial', 'RUN_SUBMISSION.ps1', 'audit_prediction.py',
+               'audit_source_stages.py', 'pilot_orion.py', 'plot_model_audit.py', 'MODEL_IMPROVEMENT.md'}
     rows = []
     from pypdf import PdfReader
     for path in sorted(root.rglob('*')):
@@ -198,7 +199,7 @@ def guide_stratified_sample(guides, libraries, n, rng):
     return selected
 
 
-def reference_model(root, genes, targets, analysis):
+def reference_model(root, genes, targets, analysis, shrinkage=.3, noise_z=1.96):
     """Transfer verified genome-wide K562 pseudobulk responses, with source-construct checks."""
     source = root/'reference'/'K562_gwps_raw_bulk_01.h5ad'
     with h5py.File(source, 'r') as f:
@@ -245,7 +246,7 @@ def reference_model(root, genes, targets, analysis):
         # This is a conservative noise approximation, not a DE significance test.
         noise_variance = (1/np.maximum(n*mean,1) +
                           1/np.maximum(control_n*basal_mean,1))/(np.log(2)**2)
-        effect = np.sign(effect)*np.maximum(np.abs(effect)-1.96*np.sqrt(noise_variance),0)
+        effect = np.sign(effect)*np.maximum(np.abs(effect)-noise_z*np.sqrt(noise_variance),0)
         effect = np.clip(effect,-3,3)
         return effect*n/(n+50), n
     # Independent promoter/transcript-targeting constructs for the same source
@@ -278,7 +279,7 @@ def reference_model(root, genes, targets, analysis):
     # Distinct promoter/transcript constructs are different interventions,
     # not technical replicates. Record their agreement diagnostic, but do not
     # treat it as cross-context validation or tune transfer from that proxy.
-    transfer_alpha = .3
+    transfer_alpha = shrinkage
     effects = np.zeros((1,len(targets),len(shared)),dtype=np.float64)
     available = np.zeros((1,len(targets)),dtype=bool)
     counts = np.zeros((1,len(targets)),dtype=np.float64)
@@ -299,7 +300,8 @@ def reference_model(root, genes, targets, analysis):
                'targets_with_reference':int(available.sum()),'targets_total':len(targets),
                'core_control_profiles':int(controls.sum()), 'source_control_cells':int(cells[controls].sum()),
                'source_construct_agreement_diagnostic':selected,'transfer_settings':choice,
-               'transfer_shrinkage_assumption':'Fixed 0.3 log2-effect shrinkage after Poisson-noise soft thresholding; cross-context accuracy is unvalidated.',
+               'transfer_shrinkage_assumption':f'Fixed {shrinkage} log2-effect shrinkage after Poisson-noise soft thresholding; cross-context accuracy is unvalidated.',
+               'noise_z_assumption':noise_z,
                'validation_scope':'Exploratory source K562 construct agreement only; separate promoter interventions are not independent technical replicates. No cross-context validation or VCC score.',
                'candidates':records, 'source_file_sha256':sha256(source)}
     write_json(analysis/'reference_model.json',summary)
@@ -352,6 +354,44 @@ def simulate_counts(x, rows, factors, rng):
     if (sums <= 0).any() or sums.max(initial=0) > MAX_COUNTS:
         raise ValueError('Predicted library size outside competition limits')
     return pred
+
+
+def simulate_counts_zero_aware(x, rows, factors, rng, mean_raw, mean_library):
+    """Add upward counts across cells, including zeros, with depth-scaled rates.
+
+    The added Poisson mean is the context's raw gene mean times (factor-1)
+    and a cell library factor. Downward binomial thinning stays unchanged.
+    This fixes zero-locking of increases, but is an unvalidated distribution
+    assumption and does not establish an improved biological prediction.
+    """
+    mean_raw = np.asarray(mean_raw, dtype=np.float64)
+    if mean_raw.shape != factors.shape or not np.isfinite(mean_raw).all() or (mean_raw < 0).any():
+        raise ValueError('Invalid context gene means')
+    if not np.isfinite(mean_library) or mean_library <= 0:
+        raise ValueError('Invalid context library mean')
+    original = x[rows]
+    library_scale = np.asarray(original.sum(axis=1, dtype=np.int64)).ravel()/mean_library
+    result = simulate_counts(x, rows, np.minimum(factors, 1.), rng)
+    increased = np.flatnonzero(factors > 1)
+    for start in range(0, len(increased), 128):
+        columns = increased[start:start+128]
+        rates = library_scale[:, None]*(mean_raw[columns]*(factors[columns]-1))[None, :]
+        additions = rng.poisson(rates)
+        row_index, col_index = np.nonzero(additions)
+        if len(row_index):
+            values = additions[row_index, col_index]
+            if values.max() > np.iinfo(np.int32).max:
+                raise ValueError('Added count overflows int32')
+            extra = sparse.csr_matrix((values.astype(np.int64), (row_index, columns[col_index])), shape=result.shape)
+            result = result.astype(np.int64)+extra
+    if result.data.max(initial=0) > np.iinfo(np.int32).max:
+        raise ValueError('Predicted count overflows int32')
+    result = result.astype(np.int32)
+    result.eliminate_zeros()
+    libraries = np.asarray(result.sum(axis=1, dtype=np.int64)).ravel()
+    if (libraries <= 0).any() or libraries.max(initial=0) > MAX_COUNTS:
+        raise ValueError('Predicted library size outside competition limits')
+    return result
 
 
 class SparseH5Writer:
@@ -433,6 +473,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--seed', type=int, default=20261003)
+    parser.add_argument('--output-dir', type=Path, help='Separate experiment outputs; relative paths are resolved under --root')
+    parser.add_argument('--transfer-shrinkage', type=float, default=.3)
+    parser.add_argument('--noise-z', type=float, default=1.96)
+    parser.add_argument('--upward-mode', choices=['proportional', 'zero-aware'], default='proportional')
     parser.add_argument('--knockdown', type=float, default=.9)
     parser.add_argument('--analysis-only', action='store_true')
     parser.add_argument('--package-only', action='store_true')
@@ -441,10 +485,21 @@ def main():
     root = args.root.resolve()
     if not 0 < args.knockdown < 1:
         parser.error('--knockdown must be strictly between 0 and 1')
-    analysis = root/'analysis'
-    analysis.mkdir(exist_ok=True)
-    h5ad = root/'prediction.h5ad'
-    package = root/'prediction.vcc'
+    if not 0 <= args.transfer_shrinkage <= 1 or not np.isfinite(args.transfer_shrinkage):
+        parser.error('--transfer-shrinkage must lie between 0 and 1')
+    if not np.isfinite(args.noise_z) or args.noise_z < 0:
+        parser.error('--noise-z must be nonnegative and finite')
+    output = root if args.output_dir is None else (root/args.output_dir).resolve()
+    changed = (args.transfer_shrinkage != .3 or args.noise_z != 1.96 or
+               args.upward_mode != 'proportional' or args.seed != 20261003 or args.knockdown != .9)
+    if changed and output == root and not args.analysis_only and not args.package_only:
+        parser.error('Changed model settings require a separate --output-dir to preserve first-submission files')
+    if args.seed < 0:
+        parser.error('--seed must be nonnegative')
+    analysis = output/'analysis'
+    analysis.mkdir(parents=True, exist_ok=True)
+    h5ad = output/'prediction.h5ad'
+    package = output/'prediction.vcc'
     manifest, genes, targets = read_spec(root)
     contexts = manifest['contexts']
     n = manifest['cells_per_pert']
@@ -459,7 +514,7 @@ def main():
         if not args.analysis_only:
             if not (root/'reference'/'K562_gwps_raw_bulk_01.h5ad').exists():
                 subprocess.run([sys.executable, str(root/'download_reference.py'), '--root', str(root)], check=True)
-            model = reference_model(root, genes, targets, analysis)
+            model = reference_model(root, genes, targets, analysis, args.transfer_shrinkage, args.noise_z)
             context_labels = np.repeat(contexts, len(targets)*n)
             target_labels = np.tile(np.repeat(targets, n), len(contexts))
             obs = pd.DataFrame({'target_gene': pd.Categorical(target_labels, categories=targets),
@@ -481,7 +536,11 @@ def main():
                 for ti, target in enumerate(targets):
                     rng = np.random.default_rng(np.random.SeedSequence([args.seed, ci, ti]))
                     rows = guide_stratified_sample(guides, libs, n, rng)
-                    block = simulate_counts(x, rows, factors[ti], rng)
+                    if args.upward_mode == 'zero-aware':
+                        block = simulate_counts_zero_aware(x, rows, factors[ti], rng,
+                                stats['mean_raw_count'].to_numpy(), float(libs.mean()))
+                    else:
+                        block = simulate_counts(x, rows, factors[ti], rng)
                     writer.append(block)
                     target_index = int(np.flatnonzero(genes == target)[0])
                     source_mean = float(x[rows, target_index].mean())
@@ -517,7 +576,9 @@ def main():
                     ['vcc-cli', 'anndata', 'numpy', 'scipy', 'h5py', 'pandas', 'duckdb', 'pyarrow']}
         write_json(analysis/'run_parameters.json', {'created_utc': datetime.now(timezone.utc).isoformat(),
                     'seed': args.seed, 'knockdown_fraction_assumption': args.knockdown,
-                    'model': 'Genome-wide K562 CRISPR response transfer with count-noise suppression and fixed 0.3 shrinkage',
+                    'model': 'Genome-wide K562 CRISPR response transfer with configurable suppression and count simulation',
+                    'transfer_shrinkage': args.transfer_shrinkage, 'noise_z': args.noise_z,
+                    'upward_mode': args.upward_mode, 'output_dir': str(output),
                     'versions': versions, 'script_sha256': sha256(Path(__file__)),
                     'limitations': ['No challenge perturbation ground truth: no local VCC score.',
                                    'Transferred effects cover only reference-measured genes and targets.',

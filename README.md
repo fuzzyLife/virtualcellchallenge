@@ -71,7 +71,7 @@ Generation and validation took approximately 11.5 minutes on the original workst
 
 ## Published leaderboard result
 
-The user supplied the successful CLI output on October 3, 2026. Upload took 13 minutes 10 seconds; scoring finished with status **published**. These results have not been independently fetched from the API, and rank can change as other teams submit.
+The user supplied the successful CLI output on October 3, 2026. Upload took 13 minutes 10 seconds; scoring finished with status **published**. The scores were subsequently confirmed through the CLI API; rank was 1141 at that query. The table preserves rank 1140 at publication, and rank can change as other teams submit.
 
 | Metric | Published score |
 |---|---:|
@@ -88,7 +88,7 @@ Partition: `val`. Panel: `vcc2026-val-1`. Anchor set: `vcc2026-valA-r4+vcc2026-v
 
 Scores are scaled against a competition baseline (0) and a split-half experimental replicate (1); the overall score is the unweighted mean of the six components. Expression accuracy is clamped to [0, 1], so its reported zero is a score floor, not zero prediction error. Direction fidelity penalizes incorrect signs and insufficient numbers of predicted responding genes. See the [official metric definitions](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md).
 
-The model performed below baseline overall, principally because of direction fidelity. Poor transfer from K562 to the anonymous contexts is a plausible explanation, but the aggregate scores cannot distinguish wrong directions, insufficient DE calls or other modeling problems. No improvement has yet been implemented or submitted. A useful next experiment is a matched control-only comparison and an audit of the simulator's predicted DE calls.
+The model performed below baseline overall, principally because of direction fidelity. Poor transfer from K562 to the anonymous contexts is a plausible explanation, but the aggregate scores cannot distinguish wrong directions, insufficient DE calls or other modeling problems. The subsequent audit inspected all 900 groups and added separate experiments and a candidate zero-aware simulator. No second model has been selected or submitted; see [MODEL_IMPROVEMENT.md](MODEL_IMPROVEMENT.md).
 
 ## Project files
 
@@ -168,3 +168,15 @@ The documented allowance is two daily submissions, with one in flight. Avoid res
 - [Original Replogle et al. processed Perturb-seq release](https://plus.figshare.com/articles/dataset/20029387), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); pinned metadata and provenance are tracked.
 
 Coverage is partial, tissue/assay differences can invalidate transferred effects, and the simulator cannot create counts for a gene absent in a sampled input cell. Its Poisson noise approximation does not capture all biological or technical variation. File validation and passing tests establish pipeline correctness, not predictive accuracy; the published leaderboard result is the available performance evidence.
+
+## Subsequent model audit
+
+[MODEL_IMPROVEMENT.md](MODEL_IMPROVEMENT.md) records the step-by-step audit, measured failure mechanisms, component changes and next reference-data work. Of 900 groups, 629 call no significant downstream genes against provided controls; all contexts average below one call per target. Relaxing source suppression mostly adds changes also seen in untreated source groups. Ten focused tests now pass.
+
+New scripts: `audit_prediction.py`, `audit_source_stages.py`, `pilot_orion.py` and `plot_model_audit.py`. The generator supports isolated `--output-dir` experiments, configurable `--transfer-shrinkage` and `--noise-z`, and optional `--upward-mode zero-aware`. Original settings remain the defaults.
+
+A 699 MB Orion pilot was SHA-256 verified and compared on a common gene axis. Its guide library covers all targets, but the pilot has inadequate cells per target for fitting responses. A separate public CD4 T-cell summary covers 291 targets and includes independent donor/guide agreement. These are candidates for the next data step, not evidence of an improved leaderboard score.
+
+![Model audit](analysis/model_audit/audit_overview.png)
+
+Changed model parameters require a separate output directory, even with `--force`, to protect the first-submission files.

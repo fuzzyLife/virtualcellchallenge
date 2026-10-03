@@ -243,3 +243,9 @@ __marimo__/
 /reference/feature_names.json
 /reference/public_parquet_footer.bin
 /reference/duckdb_extensions/
+
+# Reproducible numeric model caches for versioned experiments
+/experiments/**/reference_model_arrays.npz
+
+# Downloaded external pilot tables; provenance and derived audit records are tracked
+/reference/cd4_probe/

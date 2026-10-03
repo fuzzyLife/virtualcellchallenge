@@ -1,0 +1,60 @@
+{
+  "dataset": "Xaira-Therapeutics/X-Atlas-Orion",
+  "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+  "representative_file": "data/HCT116_Batch1.parquet",
+  "file_bytes": 327620255,
+  "rows": 18549,
+  "row_groups": 1,
+  "schema": "gene_token_id: list<element: int64>\n  child 0, element: int64\ngene_expression: list<element: double>\n  child 0, element: double\ncell_barcode: string\nsample: string\nnum_features: int64\nguide_target: string\ngene_target: string\nn_genes_by_counts: int64\ntotal_counts: double\ntotal_counts_mt: double\npct_counts_mt: double\npass_guide_filter: int64\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 1589",
+  "footer_bytes_transferred": 65544,
+  "column_sizes": [
+    {
+      "name": "gene_token_id.list.element",
+      "compressed_bytes": 223406149
+    },
+    {
+      "name": "gene_expression.list.element",
+      "compressed_bytes": 103415472
+    },
+    {
+      "name": "cell_barcode",
+      "compressed_bytes": 179401
+    },
+    {
+      "name": "sample",
+      "compressed_bytes": 101
+    },
+    {
+      "name": "num_features",
+      "compressed_bytes": 102
+    },
+    {
+      "name": "guide_target",
+      "compressed_bytes": 173674
+    },
+    {
+      "name": "gene_target",
+      "compressed_bytes": 98252
+    },
+    {
+      "name": "n_genes_by_counts",
+      "compressed_bytes": 51252
+    },
+    {
+      "name": "total_counts",
+      "compressed_bytes": 104754
+    },
+    {
+      "name": "total_counts_mt",
+      "compressed_bytes": 39291
+    },
+    {
+      "name": "pct_counts_mt",
+      "compressed_bytes": 144605
+    },
+    {
+      "name": "pass_guide_filter",
+      "compressed_bytes": 102
+    }
+  ]
+}

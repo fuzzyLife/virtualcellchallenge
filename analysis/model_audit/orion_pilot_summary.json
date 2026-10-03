@@ -1,0 +1,50 @@
+{
+  "dataset": "Xaira-Therapeutics/X-Atlas-Orion",
+  "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+  "bytes_downloaded_or_reused": 698765186,
+  "file_sha256": {
+    "gene_metadata.parquet": "33900a0dbaeafb84601c7c8ba7c6642c440774fc3f49613dab11cf1f2bf0fdbf",
+    "HCT116_Batch1.parquet": "a7a6918ecda30343e3f9262bcfb654bf077170d2e99c7bcd0c8b9f963764f13b",
+    "HEK293T_Batch1.parquet": "bc97ddfeef8df72fbd7aa03cf8e5fd1a6293e0d467735e5e59ce907df49af8d1"
+  },
+  "gene_metadata_columns": [
+    "ensembl_id",
+    "gene_name",
+    "gene_token_id"
+  ],
+  "shared_gene_symbols": 18106,
+  "license": "CC BY-NC-SA 4.0",
+  "source": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion",
+  "scope": "One representative sequencing batch from each cell line, not the complete atlas.",
+  "limitations": [
+    "Guide-library coverage does not imply adequate response coverage in this pilot.",
+    "Shared-symbol comparison does not resolve every historical gene alias.",
+    "Basal similarity alone does not validate transfer of perturbation responses."
+  ],
+  "cell_lines": {
+    "HCT116": {
+      "pilot_cells": 18549,
+      "control_cells": 891,
+      "targets_with_any_cells": 168,
+      "targets_with_at_least_30_cells": 0,
+      "context_log_cpm_correlations": {
+        "A": 0.7585376470063793,
+        "B": 0.7833743182571158,
+        "C": 0.8129017016785499
+      },
+      "maximum_control_count_sum_discrepancy": 0.0
+    },
+    "HEK293T": {
+      "pilot_cells": 22731,
+      "control_cells": 1079,
+      "targets_with_any_cells": 160,
+      "targets_with_at_least_30_cells": 0,
+      "context_log_cpm_correlations": {
+        "A": 0.7529786079157362,
+        "B": 0.7607526465973187,
+        "C": 0.741988991611646
+      },
+      "maximum_control_count_sum_discrepancy": 0.0
+    }
+  }
+}

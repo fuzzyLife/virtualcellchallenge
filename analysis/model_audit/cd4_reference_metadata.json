@@ -1,0 +1,293 @@
+{
+  "source": "https://github.com/emdann/GWT_perturbseq_analysis_2025",
+  "paper": "https://doi.org/10.1016/j.cell.2026.08.002",
+  "bucket_listing_url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/?list-type=2&prefix=marson2025_data/&max-keys=1000",
+  "objects": [
+    {
+      "key": "marson2025_data/D1_Rest.assigned_guide.h5ad",
+      "bytes": 142828875662,
+      "etag": "\"524decb848ce000c103b21b61b22e764-8514\""
+    },
+    {
+      "key": "marson2025_data/D1_Stim48hr.assigned_guide.h5ad",
+      "bytes": 156246167022,
+      "etag": "\"52303f8c4d736b2d4a7b48c7a0947b3d-9313\""
+    },
+    {
+      "key": "marson2025_data/D1_Stim8hr.assigned_guide.h5ad",
+      "bytes": 154774003188,
+      "etag": "\"4616f819ba94a1084f0a947ba860beb4-9226\""
+    },
+    {
+      "key": "marson2025_data/D2_Rest.assigned_guide.h5ad",
+      "bytes": 140574804978,
+      "etag": "\"304e845aa97ec03e5aa389e35df60a35-8379\""
+    },
+    {
+      "key": "marson2025_data/D2_Stim48hr.assigned_guide.h5ad",
+      "bytes": 137554355000,
+      "etag": "\"d8e5b0510a8ac8518e5401ee7cc7ccf1-8199\""
+    },
+    {
+      "key": "marson2025_data/D2_Stim8hr.assigned_guide.h5ad",
+      "bytes": 172796432870,
+      "etag": "\"80129a77f84b011d0dcd8e546f5138f9-5150\""
+    },
+    {
+      "key": "marson2025_data/D3_Rest.assigned_guide.h5ad",
+      "bytes": 138149946574,
+      "etag": "\"15a555deb21fe5cb8e0579344a86e52a-8235\""
+    },
+    {
+      "key": "marson2025_data/D3_Stim48hr.assigned_guide.h5ad",
+      "bytes": 137830572362,
+      "etag": "\"9c7667662eb64b1e87a4e2e215fee811-8216\""
+    },
+    {
+      "key": "marson2025_data/D3_Stim8hr.assigned_guide.h5ad",
+      "bytes": 142656069026,
+      "etag": "\"5571ceee22c618919716c88a7285ee2b-8503\""
+    },
+    {
+      "key": "marson2025_data/D4_Rest.assigned_guide.h5ad",
+      "bytes": 118609904492,
+      "etag": "\"27f4103f28edf9cd15e64e247cd9a507-7070\""
+    },
+    {
+      "key": "marson2025_data/D4_Stim48hr.assigned_guide.h5ad",
+      "bytes": 159231588926,
+      "etag": "\"092ed7c43003bcf46241496afaf84a6f-9491\""
+    },
+    {
+      "key": "marson2025_data/D4_Stim8hr.assigned_guide.h5ad",
+      "bytes": 134582395766,
+      "etag": "\"68e209d3c6b9c2cc500040337bd7e245-8022\""
+    },
+    {
+      "key": "marson2025_data/GWCD4i.DE_stats.by_donors.h5mu",
+      "bytes": 16866278447,
+      "etag": "\"1f405d8c2d202c6e845c1d11e59f2e47-2011\""
+    },
+    {
+      "key": "marson2025_data/GWCD4i.DE_stats.by_guide.h5mu",
+      "bytes": 29424424894,
+      "etag": "\"2e6705636ebaa276c7bc7c5a148ad096-3508\""
+    },
+    {
+      "key": "marson2025_data/GWCD4i.DE_stats.h5ad",
+      "bytes": 16786240107,
+      "etag": "\"c9ff52fcc6d6ce8a387a76dc757a5b97-2002\""
+    },
+    {
+      "key": "marson2025_data/GWCD4i.pseudobulk_merged.h5ad",
+      "bytes": 44566657140,
+      "etag": "\"010c14e0af0dccbc2524529d28ca517e-5313\""
+    },
+    {
+      "key": "marson2025_data/data_sharing_readme.md",
+      "bytes": 26759,
+      "etag": "\"0919489793f206e7cc23418362a1acc8\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D1_Rest.assigned_guide.jsonld",
+      "bytes": 5781,
+      "etag": "\"5467b39ab83fad3ca900522174fb36c4\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D1_Stim48hr.assigned_guide.jsonld",
+      "bytes": 5793,
+      "etag": "\"a9bb4094d9740b116277b78e4eee30a9\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D1_Stim8hr.assigned_guide.jsonld",
+      "bytes": 5790,
+      "etag": "\"7405ff45cc5c30d85f77dfce98a953d3\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D2_Rest.assigned_guide.jsonld",
+      "bytes": 5781,
+      "etag": "\"787a887eeacffdf5b151040c9f50c270\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D2_Stim48hr.assigned_guide.jsonld",
+      "bytes": 5793,
+      "etag": "\"2170adc2b79482e1bd9ddd61634fad41\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D2_Stim8hr.assigned_guide.jsonld",
+      "bytes": 5790,
+      "etag": "\"ff2865724494498b4467b35f07889c6a\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D3_Rest.assigned_guide.jsonld",
+      "bytes": 5781,
+      "etag": "\"842dd0d3e9f4ecc588756df292564d1e\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D3_Stim48hr.assigned_guide.jsonld",
+      "bytes": 5793,
+      "etag": "\"b8c90448fbbd8e59d3a506be87546d93\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D3_Stim8hr.assigned_guide.jsonld",
+      "bytes": 5790,
+      "etag": "\"8866ee036edfba999cb92717c828fca1\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D4_Rest.assigned_guide.jsonld",
+      "bytes": 5781,
+      "etag": "\"fba25085b7fc04f2a8649a4b1a98379c\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D4_Stim48hr.assigned_guide.jsonld",
+      "bytes": 5793,
+      "etag": "\"c56a02c50de670db796f4b6e40c62634\""
+    },
+    {
+      "key": "marson2025_data/metadata/marson_D4_Stim8hr.assigned_guide.jsonld",
+      "bytes": 5790,
+      "etag": "\"7e7b98cc4cab0b0bded31c7d68fded55\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/CD4T_aging_signature_DE_results_full.suppl_table.csv",
+      "bytes": 1988893,
+      "etag": "\"b8e372ecc73bfe68ee8699f5c9b1d12b\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/DE_stats.suppl_table.csv",
+      "bytes": 7276533,
+      "etag": "\"7e97202a40cbd8981416be12daa36931\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/IL10IL21bulkRNAseq_DESeq2_results_bygene.csv",
+      "bytes": 15090886,
+      "etag": "\"dd8ef773898cd4f0b71046a09571289b-2\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/IL10IL21bulkRNAseq_DESeq2_results_byguide.csv",
+      "bytes": 30549723,
+      "etag": "\"fc160093ded43e44200a55e360b8e740-4\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/IL10_IL21_arrayed_validation_combined.csv",
+      "bytes": 5291,
+      "etag": "\"8b4c5b6bb7e6cd6e0a5c76bfb91b6028\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/K562_comparison.suppl_table.csv",
+      "bytes": 969086,
+      "etag": "\"bf93fed88d8ba874ea342c055918af2e\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/QC_summaries_per_sample_lane.csv",
+      "bytes": 60515,
+      "etag": "\"0c5b3a3fbfefb9f8e736a1678228ad6d\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/Th1Th2_validation_summary.suppl_table.csv",
+      "bytes": 20872,
+      "etag": "\"a5512f0e7be66deb7088a34c59a1cbd1\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/Th1Th2bulkRNAseq_DESeq2_results.csv.gz",
+      "bytes": 45347130,
+      "etag": "\"8c0502c40e7c356e167b5daf8568f7a2-6\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/Th2_Th1_polarization_signature_DE_results_full.suppl_table.csv",
+      "bytes": 6155771,
+      "etag": "\"edcde503b28ce396c7495719c8a5ba8b\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/aging_prediction_condition_comparison_regulator_coefficients.csv",
+      "bytes": 1224277,
+      "etag": "\"9f89f82e4ea620a1e8108780df933533\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/clusterTCR_deseq2_results.csv.gz",
+      "bytes": 19633746,
+      "etag": "\"d3945c541e21f9d9ebc7b8f3148fbef8-3\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/cluster_autoimmune_enrichment_results.suppl_table.csv",
+      "bytes": 975501,
+      "etag": "\"6cf0581ee1713d0cd057c6c8e96ac2cb\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/clustering_downstream_genes.csv.gz",
+      "bytes": 19694461,
+      "etag": "\"4334035862ef98393e5364f947cb5e4f-3\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/clustering_results_and_annotations.csv",
+      "bytes": 121625,
+      "etag": "\"aa84af2744d2b5b15022c2e7ac7876cc\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/guide_kd_efficiency.suppl_table.csv",
+      "bytes": 13319852,
+      "etag": "\"c85756a15c399dfdfd0bc99fe13698f4-2\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/guide_offtarget_analysis_results.csv",
+      "bytes": 2166078,
+      "etag": "\"4b1b3786e15dcf9b185e87117215ea9b\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/md_for_manuscript/Supplementary_Table_11_IL10IL21_flow_cytometry_validation.md",
+      "bytes": 6897,
+      "etag": "\"dcb8cff5600a1e9dc239ce86d2f18d1c\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/md_for_manuscript/Supplementary_Table_12_Proliferation_IL10IL21_validation.md",
+      "bytes": 4645,
+      "etag": "\"151d5debfc576185ddb6c8750ef00376\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/md_for_manuscript/Supplementary_Table_1_Sample_metadata.md",
+      "bytes": 4643,
+      "etag": "\"3c45d07f0ae59af0c06ec15964162393\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/md_for_manuscript/Supplementary_Table_23_followup_donor_metadata.md",
+      "bytes": 1830,
+      "etag": "\"000cda04a1268a65d6ec416562a7efd5\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/polarization_prediction_condition_comparison_regulator_coefficients.csv",
+      "bytes": 2639223,
+      "etag": "\"4ecfa82c4db3d9abd131da7d8d2dc978\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/proliferation_stats_IL10IL21.csv",
+      "bytes": 3433,
+      "etag": "\"5a71da39896cf6783fec6659169d7260\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/sample_metadata.suppl_table.csv",
+      "bytes": 2966,
+      "etag": "\"29ca85689789eaff35d255bc0f0db0ad\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/sgrna_library_metadata.suppl_table.csv",
+      "bytes": 9935249,
+      "etag": "\"593e3c41641451b3076680b1a025ad02-2\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/stabl_constructs.csv",
+      "bytes": 45180,
+      "etag": "\"ab61bc1c7604385a8cf93dd01f95574a\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/table_name_conversion.md",
+      "bytes": 2276,
+      "etag": "\"f23925e81ff41239fbffca6b7c344c31\""
+    },
+    {
+      "key": "marson2025_data/suppl_tables/validation_donor_metadata.csv",
+      "bytes": 1185,
+      "etag": "\"fefc58cd4396ef88c9a22cfafd3f94a9\""
+    }
+  ],
+  "expression_data_downloaded": false
+}
