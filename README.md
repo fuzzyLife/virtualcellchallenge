@@ -253,3 +253,22 @@ Both independent three-cluster fits recover A, B and C perfectly: each cluster c
 ```
 
 Three focused tests and an independent validator cover original identifiers, gene order, SHA-256 provenance, metric/composition consistency, raw-count reranking, saved-model assignments, PCA coordinates and full-gene sample silhouettes. These results characterize the supplied controls; they do not establish anonymous cell identities or perturbation-response accuracy.
+
+## External controls mapped into the A/B/C rank space
+
+`extract_external_mapping_controls.py` recovers the previously selected 4,393 external observations from pinned local files and checksum-verified cached CD4 ranges, without further downloads. These comprise 503 K562 pseudobulk groups, 891 HCT116 cells, 1,079 HEK293T cells, 1,536 H1 cells and 384 CD4 pseudobulk groups. Source-unit sums recover the previously verified pooled control profiles.
+
+A valid shared space uses **7,447 jointly measured genes**, because the external releases do not all measure the original 18,533-gene axis. `map_external_rank_controls.py` reranks all 55,200 competition cells on that common axis, fits label-blind spherical clusters and eight PCs using competition controls only, freezes the model, and projects the external observations. Zeros are retained; there is no pseudocount, log, CPM or missing-symbol imputation. The shared-axis clusters still recover A/B/C perfectly (context ARI and repeat ARI 1.0).
+
+Closest-context fractions are CD4→A 100%, H1→C 98.96%, K562→A 100%, HCT116→C 97.64% and HEK293T→A 97.03%. K562/CD4 fractions count pseudobulk observations, not individual represented cells. All external observations fall outside every context's empirical 95th-percentile region in eight PCs, so these are relative basal matches rather than literal membership or established cell identities. The stronger pooled-profile matches are CD4–A (Spearman 0.717) and H1–C (0.702); H1–B remains 0.656. Other source matches are weaker.
+
+[EXTERNAL_RANK_MAPPING.md](EXTERNAL_RANK_MAPPING.md) documents sources, coverage, unit definitions, frozen projection, distribution-shift checks, output schemas and reproduction. [EXTERNAL_RANK_MAPPING_RESULTS.md](EXTERNAL_RANK_MAPPING_RESULTS.md) records all fractions, pooled comparisons, CD4 condition sensitivity and figures. Complete observation-level coordinates, metadata and similarities are in `analysis/external_rank_mapping/external_control_units_mapped.csv`; all 55,200 competition coordinates are also saved. The original full-gene clustering and prediction files are retained.
+
+```cmd
+.\.competition_env\Scripts\python.exe -m unittest test_external_rank_mapping -v
+.\.competition_env\Scripts\python.exe extract_external_mapping_controls.py
+.\.competition_env\Scripts\python.exe map_external_rank_controls.py --seed 20261004 --threads 12
+.\.competition_env\Scripts\python.exe validate_external_rank_mapping.py
+```
+
+The independent validator checks all identifiers, source rows, hashes and assignment summaries, reranks original competition and external observations, verifies frozen model projections and shift distances, and recalculates all pooled-profile Spearman correlations. Focused tests check measured-zero/duplicate-symbol handling, fixed projection and corrupt/missing offline ranges.

@@ -277,3 +277,6 @@ __marimo__/
 /reference/h1_response/
 /experiments/v3_context_ensemble/*.log
 !/experiments/**/analysis/*.pdf
+
+# Reproducible external control mapping count cache
+/reference/external_mapping/

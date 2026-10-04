@@ -1,0 +1,138 @@
+{
+  "created_utc": "2026-10-04T14:30:35.362251+00:00",
+  "seed": 20261004,
+  "threads": 12,
+  "competition_cells": 55200,
+  "genes": 7447,
+  "external_units": 4393,
+  "competition_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "competition_context_ARI": 1.0,
+  "repeat_ARI": 1.0,
+  "blind_cluster_to_context": {
+    "0": "A",
+    "1": "B",
+    "2": "C"
+  },
+  "fit_scope": "Competition only; external rows never influence PCA or clusters",
+  "gene_policy": "Intersection of measured symbols across all five references and competition; no imputation",
+  "count_transform": "Average tied raw ranks, centered and unit normalized; no added constant/log/CPM",
+  "source_gene_coverage": {
+    "K562": 7681,
+    "HCT116": 18106,
+    "HEK293T": 18106,
+    "H1": 18077,
+    "CD4": 17771
+  },
+  "original_full_rank_model_sha256": "db5eb515e45710ffeb0e98fda46332940f6a340569ae970015acaf75b7d82273",
+  "refinement_history": [
+    {
+      "iteration": 0,
+      "changed_cells": 55200,
+      "sum_centroid_rho": 40899.92100594938
+    },
+    {
+      "iteration": 1,
+      "changed_cells": 0,
+      "sum_centroid_rho": 40900.46935917437
+    }
+  ],
+  "repeat_refinement_history": [
+    {
+      "iteration": 0,
+      "changed_cells": 55200,
+      "sum_centroid_rho": 40899.30916686356
+    },
+    {
+      "iteration": 1,
+      "changed_cells": 0,
+      "sum_centroid_rho": 40900.46935917437
+    }
+  ],
+  "versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "h5py": "3.16.0",
+    "pyarrow": "23.0.1"
+  },
+  "scripts": {
+    "extract_external_mapping_controls.py": "8614a39d0b9aae4fd47ccd61e74622a3e638fb8e626f00a878de54861ccdc826",
+    "map_external_rank_controls.py": "339204479c11b2a116b732782c884d577ae98e8b2efe7dbe04adf9bff8413887",
+    "test_external_rank_mapping.py": "f3cd5d82c4a33d8549faa401310c2425dc019e68e378627d09d6ec322168b81f",
+    "validate_external_rank_mapping.py": "b518df64e74551cce3799c8760376706003f98da80fc5c56be9c7f02ddecdc5c"
+  },
+  "outputs": {
+    "competition_cells_shared_space.csv": {
+      "bytes": 10583632,
+      "sha256": "79dbc98b4435839d81fea0ba21af8323e62dea2cc5f9462893e6e460a8450901"
+    },
+    "competition_cluster_composition.csv": {
+      "bytes": 104,
+      "sha256": "4ec018a3bf5909e02129075a874121b2aa8653fefd8eeff2cc84daf3edc7a8b3"
+    },
+    "external_control_extraction.json": {
+      "bytes": 44890,
+      "sha256": "f185a7ac77528bdbfc2ab816a8f6a63b5dadad668a3778731883969775b1e0ab"
+    },
+    "external_control_units_mapped.csv": {
+      "bytes": 1860269,
+      "sha256": "17788b4c1b24b820d52d9ee0c2f892e12b06c99a58cbd08d1f800dc62dbdf821"
+    },
+    "external_mapping_summary.csv": {
+      "bytes": 1694,
+      "sha256": "4ed6b548a1b3ff217566ace43efbca46564d6a65136365f22679600410e3211b"
+    },
+    "external_mapping_summary.pdf": {
+      "bytes": 23355,
+      "sha256": "3dafc2a35f78aeaadd695e3e48dbbb8d7e84dbed7b9c9ed2217d08cbdd044385"
+    },
+    "external_mapping_summary.png": {
+      "bytes": 135304,
+      "sha256": "59e851633d0c6c4a638a56a3902ccbf16ac5dd55856b117280864010c0313dc0"
+    },
+    "external_rank_projection.pdf": {
+      "bytes": 136578,
+      "sha256": "d54d4df3ac6c8e5b8f14fa238be888689495fc53ee12a4e5429b8f1b8aec033b"
+    },
+    "external_rank_projection.png": {
+      "bytes": 699777,
+      "sha256": "6ec36843a863b8413c3b5f906fae7021827fd2235ef314e6a7e1e69b12576a69"
+    },
+    "frozen_shared_rank_model.npz": {
+      "bytes": 504181,
+      "sha256": "8468f2b8cc19811e0ec8800dc9a908dc0e5e5f67cc3ebd68a4986b9866cdb576"
+    },
+    "gene_axis.csv": {
+      "bytes": 54250,
+      "sha256": "5e976b8894d313d7594f4d08070d5ae94db35d42b68df0c0c555133283987b8f"
+    },
+    "pca_variance.csv": {
+      "bytes": 150,
+      "sha256": "0b34c82627396d01f0f798298a34a08770f09958e1ab23f2920ecc1bc22545f3"
+    },
+    "pooled_profiles_mapped.csv": {
+      "bytes": 4470,
+      "sha256": "029d7e87556aa08234573ded8188dc731d38794296456278ffd56b8271dce9fa"
+    },
+    "pooled_raw_counts.csv": {
+      "bytes": 734248,
+      "sha256": "5043f3f34afbcd693f76e627175f3a5a9e2f5026e8f4b65a2826c591f4a4749c"
+    }
+  }
+}
