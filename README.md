@@ -272,3 +272,24 @@ Closest-context fractions are CD4→A 100%, H1→C 98.96%, K562→A 100%, HCT116
 ```
 
 The independent validator checks all identifiers, source rows, hashes and assignment summaries, reranks original competition and external observations, verifies frozen model projections and shift distances, and recalculates all pooled-profile Spearman correlations. Focused tests check measured-zero/duplicate-symbol handling, fixed projection and corrupt/missing offline ranges.
+
+
+## Verified 300-target ZIP, target-only clustering and lineage markers
+
+The supplied `vcc_2026_300_target_matrix.zip` contains all 300 target genes and 18,400 controls per A/B/C context. `analyze_target_archive.py` verifies all **16,560,000 counts exactly against the original H5AD matrices**, with zero mismatches; ZIP CRC, gene coverage/order and integer counts also pass. The CSV has no cell IDs; IDs are attached from the completely verified within-context source order. The original ZIP is kept locally as an input with its checksum recorded in the audit.
+
+Blind clustering of all 55,200 controls uses average tied ranks on only these 300 raw-count genes, keeping zeros and adding no pseudocount or normalization. Both three-cluster seeds give the same partition: **55,190 cells (99.9819%) agree with A/B/C**, with ten low-depth B cells joining A (context ARI 0.999457, repeat ARI 1.0). Those cells have 737–1,298 full-library counts and 8–27 detected target genes; the earlier full-gene clustering correctly groups them with B.
+
+Full-library CPM and pairwise rank AUC identify 37 strong dataset-relative enriched genes under explicit thresholds: 20 in A, 5 in B and 12 in C. Leading markers are A: SMARCA5/PIN1/HDAC1/MARCKSL1/EZH2; B: VIM/PTMS/ACLY/ABCD1/SND1; C: S100A11/PRNP/FXYD5/RAB5A/PATL1. KIF21B in A is the only target meeting the stricter detection-restriction rule. Complete 900-row tables are saved for both fitted clusters and original contexts. Enriched expression does not imply universal tissue specificity.
+
+An additional 50-gene original-matrix check supports a T-cell-like program in A (CD3D/CD3E/TRAC), mixed epithelial/mesenchymal-associated expression in B (VIM plus KRT8/KRT18), and an epithelial program in C (EPCAM/CDH1/keratins with very low VIM). S100A11 and FXYD5 alone are not diagnostic epithelial markers, and chromatin/mitosis expression alone cannot establish tissue of origin. Lineage hypotheses are documented with primary-source links in [TARGET_LINEAGE_INTERPRETATION.md](TARGET_LINEAGE_INTERPRETATION.md).
+
+Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_target_archive.py`. [TARGET_ARCHIVE_AUDIT.md](TARGET_ARCHIVE_AUDIT.md) describes every step, inputs, marker rules, limitations and output schemas; [TARGET_ARCHIVE_RESULTS.md](TARGET_ARCHIVE_RESULTS.md) contains numeric results and figures. Per-cell IDs, all marker metrics, count-depth sensitivity, models, audit hashes and PNG/PDF figures are under `analysis/target_archive_audit/`.
+
+```cmd
+.\.competition_env\Scripts\python.exe -m unittest test_target_archive -v
+.\.competition_env\Scripts\python.exe analyze_target_archive.py --seed 20261004 --threads 12
+.\.competition_env\Scripts\python.exe validate_target_archive.py
+```
+
+Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.

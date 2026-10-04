@@ -1,0 +1,48 @@
+{
+  "file": "vcc_2026_300_target_matrix.zip",
+  "sha256": "e263e405105c54ec5e2e576c33eeacdef8b490dc32d917d408274fda52b1e361",
+  "member": "vcc_2026_300_target_matrix.csv",
+  "member_sha256": "3f39ef51aa035e4c681f7a11b5ea903d5d985785b8b217b1289be9db5d9a469f",
+  "member_bytes": 66809125,
+  "crc32": 2427692221,
+  "zip_crc_valid": true,
+  "rows": 55200,
+  "gene_columns": 300,
+  "missing_targets": [],
+  "unexpected_genes": [],
+  "duplicate_columns": false,
+  "gene_order_matches_target_list": true,
+  "finite_nonnegative_integer_values": true,
+  "cell_ids_in_archive": false,
+  "broader_markers_unmeasured": [],
+  "original_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "context": "A",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "context": "B",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "context": "C",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    }
+  ],
+  "values_checked": 16560000,
+  "mismatched_values": 0,
+  "status": "passed",
+  "row_identity_policy": "CSV contains no cell IDs; exact source row order verified independently within each context; original IDs attached from that ordering"
+}

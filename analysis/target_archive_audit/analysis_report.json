@@ -1,0 +1,633 @@
+{
+  "created_utc": "2026-10-04T15:13:49.068325+00:00",
+  "archive_sha256": "e263e405105c54ec5e2e576c33eeacdef8b490dc32d917d408274fda52b1e361",
+  "cells": 55200,
+  "targets": 300,
+  "zip_value_mismatches": 0,
+  "seed": 20261004,
+  "threads": 12,
+  "context_ARI": 0.9994566497632311,
+  "repeat_ARI": 1.0,
+  "correctly_grouped_cells": 55190,
+  "disagreeing_cells": 10,
+  "cluster_to_context": {
+    "2": "A",
+    "1": "B",
+    "0": "C"
+  },
+  "context_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "context": "A",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "context": "B",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "context": "C",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    }
+  ],
+  "refinement_histories": {
+    "k2_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 35958.82894607633
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 35959.32926799357
+      }
+    ],
+    "k3_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 38252.72088639438
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 38253.398361861706
+      }
+    ],
+    "k4_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 38290.42831149697
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 211,
+        "sum_centroid_rho": 38292.392546504736
+      },
+      {
+        "iteration": 2,
+        "changed_cells": 137,
+        "sum_centroid_rho": 38292.75425386429
+      },
+      {
+        "iteration": 3,
+        "changed_cells": 139,
+        "sum_centroid_rho": 38293.015832692385
+      },
+      {
+        "iteration": 4,
+        "changed_cells": 172,
+        "sum_centroid_rho": 38293.370652750134
+      },
+      {
+        "iteration": 5,
+        "changed_cells": 292,
+        "sum_centroid_rho": 38294.047719821334
+      },
+      {
+        "iteration": 6,
+        "changed_cells": 536,
+        "sum_centroid_rho": 38295.84425419569
+      },
+      {
+        "iteration": 7,
+        "changed_cells": 885,
+        "sum_centroid_rho": 38299.91361275315
+      },
+      {
+        "iteration": 8,
+        "changed_cells": 1145,
+        "sum_centroid_rho": 38306.07309770584
+      },
+      {
+        "iteration": 9,
+        "changed_cells": 1054,
+        "sum_centroid_rho": 38311.97135452926
+      },
+      {
+        "iteration": 10,
+        "changed_cells": 821,
+        "sum_centroid_rho": 38315.57318766415
+      },
+      {
+        "iteration": 11,
+        "changed_cells": 551,
+        "sum_centroid_rho": 38317.39903987944
+      },
+      {
+        "iteration": 12,
+        "changed_cells": 389,
+        "sum_centroid_rho": 38318.202612012625
+      },
+      {
+        "iteration": 13,
+        "changed_cells": 282,
+        "sum_centroid_rho": 38318.59794378281
+      },
+      {
+        "iteration": 14,
+        "changed_cells": 197,
+        "sum_centroid_rho": 38318.807574272156
+      },
+      {
+        "iteration": 15,
+        "changed_cells": 127,
+        "sum_centroid_rho": 38318.908038914204
+      },
+      {
+        "iteration": 16,
+        "changed_cells": 88,
+        "sum_centroid_rho": 38318.958007484674
+      },
+      {
+        "iteration": 17,
+        "changed_cells": 72,
+        "sum_centroid_rho": 38318.98477303982
+      },
+      {
+        "iteration": 18,
+        "changed_cells": 48,
+        "sum_centroid_rho": 38319.00449849665
+      },
+      {
+        "iteration": 19,
+        "changed_cells": 26,
+        "sum_centroid_rho": 38319.01335386932
+      },
+      {
+        "iteration": 20,
+        "changed_cells": 19,
+        "sum_centroid_rho": 38319.01757195592
+      },
+      {
+        "iteration": 21,
+        "changed_cells": 13,
+        "sum_centroid_rho": 38319.01946550608
+      },
+      {
+        "iteration": 22,
+        "changed_cells": 8,
+        "sum_centroid_rho": 38319.021300300956
+      },
+      {
+        "iteration": 23,
+        "changed_cells": 8,
+        "sum_centroid_rho": 38319.02173176408
+      },
+      {
+        "iteration": 24,
+        "changed_cells": 5,
+        "sum_centroid_rho": 38319.02291856706
+      },
+      {
+        "iteration": 25,
+        "changed_cells": 6,
+        "sum_centroid_rho": 38319.02378049493
+      },
+      {
+        "iteration": 26,
+        "changed_cells": 6,
+        "sum_centroid_rho": 38319.02432794869
+      },
+      {
+        "iteration": 27,
+        "changed_cells": 10,
+        "sum_centroid_rho": 38319.0249504745
+      },
+      {
+        "iteration": 28,
+        "changed_cells": 9,
+        "sum_centroid_rho": 38319.02541992068
+      },
+      {
+        "iteration": 29,
+        "changed_cells": 12,
+        "sum_centroid_rho": 38319.02625435591
+      },
+      {
+        "iteration": 30,
+        "changed_cells": 11,
+        "sum_centroid_rho": 38319.02799928188
+      },
+      {
+        "iteration": 31,
+        "changed_cells": 7,
+        "sum_centroid_rho": 38319.029312327504
+      },
+      {
+        "iteration": 32,
+        "changed_cells": 3,
+        "sum_centroid_rho": 38319.03046301007
+      },
+      {
+        "iteration": 33,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38319.03029605746
+      },
+      {
+        "iteration": 34,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38319.03014881909
+      },
+      {
+        "iteration": 35,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38319.03086577356
+      },
+      {
+        "iteration": 36,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38319.03055918217
+      },
+      {
+        "iteration": 37,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38319.030989483
+      },
+      {
+        "iteration": 38,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38319.03138118982
+      },
+      {
+        "iteration": 39,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38319.031352072954
+      },
+      {
+        "iteration": 40,
+        "changed_cells": 0,
+        "sum_centroid_rho": 38319.03157377243
+      }
+    ],
+    "k6_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 38386.673453465104
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 1563,
+        "sum_centroid_rho": 38395.75554257631
+      },
+      {
+        "iteration": 2,
+        "changed_cells": 1290,
+        "sum_centroid_rho": 38400.073322847486
+      },
+      {
+        "iteration": 3,
+        "changed_cells": 1497,
+        "sum_centroid_rho": 38405.97780780494
+      },
+      {
+        "iteration": 4,
+        "changed_cells": 1506,
+        "sum_centroid_rho": 38413.06626357138
+      },
+      {
+        "iteration": 5,
+        "changed_cells": 1270,
+        "sum_centroid_rho": 38418.54262313247
+      },
+      {
+        "iteration": 6,
+        "changed_cells": 971,
+        "sum_centroid_rho": 38421.72964556515
+      },
+      {
+        "iteration": 7,
+        "changed_cells": 770,
+        "sum_centroid_rho": 38423.32991595566
+      },
+      {
+        "iteration": 8,
+        "changed_cells": 626,
+        "sum_centroid_rho": 38424.220157027245
+      },
+      {
+        "iteration": 9,
+        "changed_cells": 506,
+        "sum_centroid_rho": 38424.75863045454
+      },
+      {
+        "iteration": 10,
+        "changed_cells": 371,
+        "sum_centroid_rho": 38425.113431960344
+      },
+      {
+        "iteration": 11,
+        "changed_cells": 329,
+        "sum_centroid_rho": 38425.35376486182
+      },
+      {
+        "iteration": 12,
+        "changed_cells": 274,
+        "sum_centroid_rho": 38425.56004013121
+      },
+      {
+        "iteration": 13,
+        "changed_cells": 238,
+        "sum_centroid_rho": 38425.730425179005
+      },
+      {
+        "iteration": 14,
+        "changed_cells": 213,
+        "sum_centroid_rho": 38425.86889800429
+      },
+      {
+        "iteration": 15,
+        "changed_cells": 178,
+        "sum_centroid_rho": 38426.002957090735
+      },
+      {
+        "iteration": 16,
+        "changed_cells": 171,
+        "sum_centroid_rho": 38426.12251019478
+      },
+      {
+        "iteration": 17,
+        "changed_cells": 183,
+        "sum_centroid_rho": 38426.229803949594
+      },
+      {
+        "iteration": 18,
+        "changed_cells": 156,
+        "sum_centroid_rho": 38426.32790787518
+      },
+      {
+        "iteration": 19,
+        "changed_cells": 150,
+        "sum_centroid_rho": 38426.414108648896
+      },
+      {
+        "iteration": 20,
+        "changed_cells": 143,
+        "sum_centroid_rho": 38426.505462661386
+      },
+      {
+        "iteration": 21,
+        "changed_cells": 134,
+        "sum_centroid_rho": 38426.57707116008
+      },
+      {
+        "iteration": 22,
+        "changed_cells": 113,
+        "sum_centroid_rho": 38426.63981334865
+      },
+      {
+        "iteration": 23,
+        "changed_cells": 94,
+        "sum_centroid_rho": 38426.684337839484
+      },
+      {
+        "iteration": 24,
+        "changed_cells": 85,
+        "sum_centroid_rho": 38426.71929861605
+      },
+      {
+        "iteration": 25,
+        "changed_cells": 63,
+        "sum_centroid_rho": 38426.74340505898
+      },
+      {
+        "iteration": 26,
+        "changed_cells": 56,
+        "sum_centroid_rho": 38426.76116363704
+      },
+      {
+        "iteration": 27,
+        "changed_cells": 40,
+        "sum_centroid_rho": 38426.77519930899
+      },
+      {
+        "iteration": 28,
+        "changed_cells": 45,
+        "sum_centroid_rho": 38426.78477860987
+      },
+      {
+        "iteration": 29,
+        "changed_cells": 40,
+        "sum_centroid_rho": 38426.79805597663
+      },
+      {
+        "iteration": 30,
+        "changed_cells": 52,
+        "sum_centroid_rho": 38426.80908741057
+      },
+      {
+        "iteration": 31,
+        "changed_cells": 47,
+        "sum_centroid_rho": 38426.82445976138
+      },
+      {
+        "iteration": 32,
+        "changed_cells": 33,
+        "sum_centroid_rho": 38426.835023105145
+      },
+      {
+        "iteration": 33,
+        "changed_cells": 22,
+        "sum_centroid_rho": 38426.842033311725
+      },
+      {
+        "iteration": 34,
+        "changed_cells": 20,
+        "sum_centroid_rho": 38426.846224591136
+      },
+      {
+        "iteration": 35,
+        "changed_cells": 13,
+        "sum_centroid_rho": 38426.84937566519
+      },
+      {
+        "iteration": 36,
+        "changed_cells": 11,
+        "sum_centroid_rho": 38426.85099925101
+      },
+      {
+        "iteration": 37,
+        "changed_cells": 5,
+        "sum_centroid_rho": 38426.85290564597
+      },
+      {
+        "iteration": 38,
+        "changed_cells": 4,
+        "sum_centroid_rho": 38426.853583559394
+      },
+      {
+        "iteration": 39,
+        "changed_cells": 3,
+        "sum_centroid_rho": 38426.85401301086
+      },
+      {
+        "iteration": 40,
+        "changed_cells": 3,
+        "sum_centroid_rho": 38426.85401175916
+      },
+      {
+        "iteration": 41,
+        "changed_cells": 2,
+        "sum_centroid_rho": 38426.85455714166
+      },
+      {
+        "iteration": 42,
+        "changed_cells": 3,
+        "sum_centroid_rho": 38426.85469947755
+      },
+      {
+        "iteration": 43,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38426.8548297137
+      },
+      {
+        "iteration": 44,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38426.85525856912
+      },
+      {
+        "iteration": 45,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38426.8547731787
+      },
+      {
+        "iteration": 46,
+        "changed_cells": 0,
+        "sum_centroid_rho": 38426.85553996265
+      }
+    ],
+    "k3_repeat1": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 38252.14545637369
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 1,
+        "sum_centroid_rho": 38253.39974229038
+      },
+      {
+        "iteration": 2,
+        "changed_cells": 0,
+        "sum_centroid_rho": 38253.398361861706
+      }
+    ]
+  },
+  "rank_method": "All 300 genes, raw average tied ranks, centered unit vectors; no pseudocount/log/CPM in clustering",
+  "marker_method": "Full-library CPM for descriptive AUC and mean ratios, raw-count detection and means; no pseudocounts; no population p-values",
+  "panel_enriched_rule": "Minimum AUC against either other cluster >=0.8, CPM fold >=2 over largest other mean, detection >=0.25",
+  "detection_restricted_rule": "Detection >=0.5 in group and <=0.05 in either other group; not tissue specificity",
+  "panel_enriched_counts": {
+    "A": 20,
+    "B": 5,
+    "C": 12
+  },
+  "detection_restricted_counts": {
+    "A": 1,
+    "B": 0,
+    "C": 0
+  },
+  "targets_with_no_enriched_group": 263,
+  "versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "scripts": {
+    "analyze_target_archive.py": "38994080f6bb99df572e3e0f2bc10649979eab9bb2fa7d7fc462966ff8f600a1",
+    "test_target_archive.py": "bf961ee8df0cd6e26b338604bbd2946f52be61d2995a5deccfd3950b0cc9518b",
+    "validate_target_archive.py": "1432a87375988d10882954c21983b228904855fa3426f692304d2e25b3806a9b"
+  },
+  "outputs": {
+    "archive_validation.json": {
+      "bytes": 1689,
+      "sha256": "090752463c6350424c40721fdc40398a87c6dda55bb5bdbb105c177dc41f9638"
+    },
+    "broader_lineage_expression_summary.csv": {
+      "bytes": 14848,
+      "sha256": "fa05502959de8753a0f4ccc7bf18e0d6a2509223a67f7528d62b5c24ed0fe663"
+    },
+    "broader_lineage_markers.pdf": {
+      "bytes": 28002,
+      "sha256": "35eb1a0ba980377b50eafe82dbfbd899ae235bbda9754fca8f00c499b8e29ed2"
+    },
+    "broader_lineage_markers.png": {
+      "bytes": 216503,
+      "sha256": "2c68e36ee2acf9945819ea09bbfaf209f300f8f92add0baab1116a47ca005074"
+    },
+    "cells_disagreeing_with_context.csv": {
+      "bytes": 2255,
+      "sha256": "8594010952045467f360e0f422f2b27a0588b0425e08b5625b751d7595585c34"
+    },
+    "cluster_composition.csv": {
+      "bytes": 108,
+      "sha256": "10b3e1e5100d8606e4f1dad49340ecc84a9da6371bab12595cfc7075d2b82baa"
+    },
+    "cluster_metrics.csv": {
+      "bytes": 533,
+      "sha256": "27d81b882efa9cc7c4c8ecb6c6d342022c2ae8ae0ae96441efb4804965c7caa4"
+    },
+    "gene_axis.csv": {
+      "bytes": 2205,
+      "sha256": "03d90b65f0ed6dfab07a94ce63eba5078db82443d854865517b17df6d99e1db2"
+    },
+    "marker_depth_quintiles.csv": {
+      "bytes": 27507,
+      "sha256": "7b5c9b056aa226f1e459d6664a9983e6600c974c448ae42e0f8be7e2e2b818dd"
+    },
+    "pca_variance.csv": {
+      "bytes": 151,
+      "sha256": "45220bd0ddcf8df15a258e262a55e8b4e2e7c44173c1667511743486f5f94169"
+    },
+    "per_cell_target300_clusters.csv": {
+      "bytes": 10329799,
+      "sha256": "98f82c9e1ec6c886da605f4683af54ac216b8311055bc8e85670b87620374e50"
+    },
+    "target300_clusters_markers.pdf": {
+      "bytes": 265102,
+      "sha256": "8c123932e1d3b9ce4d0d1ed9cd8d0e0b3771016691ec9034e4fbf1bff582a9d3"
+    },
+    "target300_clusters_markers.png": {
+      "bytes": 1056065,
+      "sha256": "40795bf74a74bacfe6b1dfb9ee2f7079a29446bf1052a4731038adaaaf8e99ee"
+    },
+    "target300_cluster_markers.csv": {
+      "bytes": 231739,
+      "sha256": "e73ae2d21de6899031adfdc5c1152ee75fc71664979427a087191577ef3831de"
+    },
+    "target300_context_markers.csv": {
+      "bytes": 231000,
+      "sha256": "99a00bacf7938e2913475ded5d6108015a4cf64d42cf4abd195610eb021f7179"
+    },
+    "target300_expression_summary.csv": {
+      "bytes": 73250,
+      "sha256": "2edd4e81ced66f8db6b02a6ab4bd857bfa9f537db9ed42037ca68de5e16038fa"
+    },
+    "target300_rank_models.npz": {
+      "bytes": 35143,
+      "sha256": "db2fa17ca90b73ce52506d20ff0f2365c81df5eb2cf9786c2e7809e32038fbaa"
+    },
+    "top10_enriched_cluster_markers.csv": {
+      "bytes": 6710,
+      "sha256": "7aee652bd2c1a865819544fe7e04a7aa18447d44190ab901a584c557918bac85"
+    }
+  }
+}
