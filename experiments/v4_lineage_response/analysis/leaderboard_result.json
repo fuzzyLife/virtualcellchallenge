@@ -1,0 +1,39 @@
+{
+  "source": "User-provided CLI publication output, independently confirmed by read-only vcc --json status.",
+  "reported_date": "2026-10-04",
+  "recorded_utc": "2026-10-04T18:11:22.956573+00:00",
+  "entry_id": "w5criCkgkCWj1QOgP08E",
+  "model_name": "Lineage-guided response coverage v4",
+  "final_status": "published",
+  "rank_at_publication": 977,
+  "rank_at_api_check": 975,
+  "overall": -0.05067391016092112,
+  "metrics": {
+    "pds": 0.25530201756101617,
+    "mse": 0.0,
+    "nmae": 0.06753871251359793,
+    "fid": -0.6838546480756342,
+    "reach": 0.08684858992027715,
+    "jac": -0.02987813288478362
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.6164622816796729,
+    "expr_mse_unbiased_capped_norm": 1.2477329106975619,
+    "de_wilcoxon_lfc_nmae": 0.9591643465249794,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.3092352249796117,
+    "de_wilcoxon_direction_reach_raw": 0.15639088812013432,
+    "de_wilcoxon_sig_jaccard": 0.01973085404110772
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "b2cd9da4388d43937a016581b91a84f2c005b2f713fb5f0eae4d5fe1737f015b",
+  "upload_bytes": 3309240320,
+  "upload_duration_seconds": 800,
+  "overall_change_from_v2": 0.1726515513682149,
+  "overall_change_from_first": 0.22561594743846988,
+  "raw_expression_error_relative_change_from_v2": 0.23014896380367,
+  "fidelity_fraction_of_overall_gain_from_v2": 0.7592923627691992,
+  "interpretation": "All five non-expression scaled metrics improve; raw expression error worsens while its scaled score stays at zero. Overall remains negative; fidelity is the largest negative component. Multiple model changes prevent attributing the gain to one change. V3 has no recorded leaderboard score.",
+  "readiness_record_scope": "submission_ready.json is the immutable generation-time snapshot; this separate publication record is the current upload/scoring evidence."
+}

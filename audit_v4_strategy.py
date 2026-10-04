@@ -75,11 +75,18 @@ def document_results():
     model_validation=json.loads((A/'model_validation.json').read_text())
     model=json.loads((A/'reference_model.json').read_text())
     assert ready['official_prep_passed'] and independent['passed'] and model_validation['passed']
-    assert not ready['uploaded']
+    # Readiness preserves generation-time status; publication is recorded separately.
+    publication_path=A/'leaderboard_result.json'
+    publication=json.loads(publication_path.read_text()) if publication_path.exists() else None
+    if publication:
+        assert publication['final_status']=='published' and publication['package_sha256']==ready['sha256']
+    status_text=(f"Published as `{publication['entry_id']}` with overall score **{publication['overall']:.6f}**. "
+        f"Rank was {publication['rank_at_publication']} at publication and {publication['rank_at_api_check']} at the recorded API check; ranks change over time."
+        if publication else 'It has not been uploaded or scored.')
     records=pd.read_csv(A/'target_response_sources.csv')
     response=pd.read_csv(A/'v3_v4_selected_response_audit.csv')
-    text='# V4: upload-ready lineage-guided response submission\n\n'
-    text+='The new candidate is generated, officially packaged and independently validated. It has not been uploaded or scored. The package is isolated in `experiments/v4_lineage_response/`; the earlier submission files retain their original locations.\n\n'
+    text=('# V4: published lineage-guided response submission\n\n' if publication else '# V4: upload-ready lineage-guided response submission\n\n')
+    text+='The new candidate is generated, officially packaged and independently validated. '+status_text+' The package is isolated in `experiments/v4_lineage_response/`; the earlier submission files retain their original locations.\n\n'
     text+='| Check | Completed result |\n|---|---|\n'
     items=[('Package','`experiments/v4_lineage_response/prediction.vcc`'),('Package bytes',f"{ready['bytes']:,} ({ready['bytes']/1024**3:.2f} GiB)"),
         ('H5AD bytes',f"{(OUT/'prediction.h5ad').stat().st_size:,}"),('Shape','360,000 cells x 18,533 genes'),('Groups','900, exactly 400 cells each'),
@@ -87,14 +94,29 @@ def document_results():
         ('Official CLI preparation',f"Passed; CLI {ready['package_meta']['cli_version']}"),('Regression tests','23 passed'),
         ('Original source control rows','All 360,000 verified; 400 unique rows per group; 46 balanced guides'),
         ('Independent count expectation checks',f"{independent['independent_gene_count_expectations']:,} across {len(independent['independent_count_expectation_groups'])} groups, with complete deterministic count replay"),
-        ('All final model effects','16,679,700 independently assembled'),('Generation and packaging time',f"{ready['elapsed_seconds']/60:.1f} minutes"),('Leaderboard result','Not yet available')]
+        ('All final model effects','16,679,700 independently assembled'),('Generation and packaging time',f"{ready['elapsed_seconds']/60:.1f} minutes"),('Leaderboard result',f"Published; overall {publication['overall']:.6f}" if publication else 'Not yet available')]
     text+=''.join(f'| {key} | {value} |\n' for key,value in items)
     text+='\nPackage SHA-256:\n\n```text\n'+ready['sha256']+'\n```\n\n'
+    published_section=''
+    if publication:
+        comparison=pd.read_csv(A/'leaderboard_comparison.csv')
+        published_section='## Published validation result\n\n'
+        published_section+='The first, V2 and V4 scores use the same validation panel and anchor set. No V3 submission score is recorded, so there is no V3 leaderboard comparison.\n\n'
+        published_section+='| Scaled component | First | V2 | V4 | Change from V2 |\n|---|---:|---:|---:|---:|\n'
+        for row in comparison.itertuples():
+            published_section+=f'| {row.metric} | {row.first:.6f} | {row.v2:.6f} | {row.v4:.6f} | {row.change_from_v2:+.6f} |\n'
+        raw=publication['raw_metrics'];previous=json.loads((ROOT/'experiments/v2_cd4_hybrid/analysis/published_api_status.json').read_text())
+        published_section+=f"\nOverall improved by **{publication['overall_change_from_v2']:+.6f}** versus V2 and **{publication['overall_change_from_first']:+.6f}** versus the first entry. All five non-expression scaled components improve. Direction fidelity accounts arithmetically for {publication['fidelity_fraction_of_overall_gain_from_v2']:.1%} of the overall gain; this is a score contribution, not causal attribution to a model change.\n\n"
+        published_section+=f"Raw expression error worsens from {previous['expr_mse_unbiased_capped_norm']:.6f} to {raw['expr_mse_unbiased_capped_norm']:.6f} ({publication['raw_expression_error_relative_change_from_v2']:+.1%}), although the scaled expression score stays at zero. Zero is a clamped leaderboard score, not zero prediction error. Raw direction-fidelity yield rises from {previous['de_wilcoxon_direction_fidelity_yield_raw']:.6f} to {raw['de_wilcoxon_direction_fidelity_yield_raw']:.6f}; it is response-budget-normalized yield rather than sign precision. Raw significant-set Jaccard rises from {previous['de_wilcoxon_sig_jaccard']:.6f} to {raw['de_wilcoxon_sig_jaccard']:.6f}, leaving substantial response-set mismatch.\n\n"
+        published_section+='V4 is the best of the three published project submissions on this validation panel. Overall remains below the zero-score anchor, with direction fidelity the largest negative component. The package changes lineage policy, effect strength, transfer priors and control sampling together; aggregate scores cannot isolate which change helped, which context remains weak, or whether residual fidelity loss comes from missed responses or wrong directions. The next experiments should balance response coverage with expression error using source validation and controlled ablations.\n\n'
+        published_section+='Records: `leaderboard_result.json`, `published_api_status.json`, `leaderboard_comparison.csv` and `raw_metric_comparison.csv` in the candidate analysis folder. `submission_ready.json` preserves the generation-time snapshot; the separate publication record records completed upload and scoring. Upload took 13 minutes 20 seconds. [Official scoring definitions](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md).\n\n'
+        published_section+='Record or refresh the read-only API confirmation and regenerate these tables with the root script `record_v4_result.py`:\n\n```cmd\n.\\.competition_env\\Scripts\\python.exe record_v4_result.py\n```\n\nThe supplied publication rank is preserved separately from the current API rank. This command does not upload, regenerate predictions, or alter the package.\n\n'
+        text+=published_section
     text+='## Strategy\n\nA uses supported CD4 responses with a donor-calibrated target-specific gain of 1 instead of V3\'s 0.5. K562 fills unsupported coordinates. B/C use measured H1 responses for 13 targets; other targets use 0.5 CD4 target-specific effect + the existing 0.3-shrunk K562 effect + 0.5 shared H1 response. These are response-estimator coefficients, not cell-type fractions. Gene/target expression compatibility moderates weakly expressed coordinates. Every group starts from a separately seeded, guide/depth-stratified draw of 400 original controls.\n\n'
     text+='Nested CD4 selection increases the direction-yield proxy from 0.02324 to 0.17701, with predicted response calls increasing from 2.81 to 31.86 per source contrast. Relative squared error changes from 0.98425 to 1.00436. Public H1 direct validation retains the V3 estimator (relative squared error 0.80299). The cross-lineage selection procedure has direction-yield proxy 0.40430 and relative squared error 1.02142; the final fixed candidate has 1.01191. These are source-domain tradeoffs using a stated 400-cell normal call proxy, not competition scores or proof of improved B/C predictions.\n\n'
     text+='All 284 previously covered targets retain modeled downstream effects in A. B/C have response estimates for all 300 through the shared prior, including targets with no direct source measurements. The H1 prior is based on only 13 selected interventions and may not represent the hidden panel. More predicted response genes do not establish correct signs or a better leaderboard result.\n\n'
     text+='Complete derivation, objective, fold separation, source limitations and reproduction: [V4_MODEL_STRATEGY.md](V4_MODEL_STRATEGY.md).\n\n'
-    text+='## Submit from Windows Command Prompt\n\nReuse the existing VCC login:\n\n```cmd\ncd /d L:\\promec\\Animesh\\Download\\Virtual\n.\\.competition_env\\Scripts\\python.exe -m vcc submit .\\experiments\\v4_lineage_response\\prediction.vcc -m "Lineage-guided response coverage v4" --wait\n```\n\n'
+    text+=('## Completed upload command (Windows Command Prompt)' if publication else '## Submit from Windows Command Prompt')+'\n\n'+('The command below already succeeded; rerunning it creates another submission.' if publication else 'Reuse the existing VCC login:')+'\n\n```cmd\ncd /d L:\\promec\\Animesh\\Download\\Virtual\n.\\.competition_env\\Scripts\\python.exe -m vcc submit .\\experiments\\v4_lineage_response\\prediction.vcc -m "Lineage-guided response coverage v4" --wait\n```\n\n'
     text+='## Actual generated-response diagnostic\n\nThe table compares six deliberately selected targets in each context against the provided controls using the control-mean >5 CPM filter, two-sided Wilcoxon and within-target BH, excluding the own target. It measures predicted response activity rather than hidden response accuracy.\n\n'
     from analyze_target_rank_correlations import table
     text+=table(response)+'\n\n![V4 strategy and diagnostics](experiments/v4_lineage_response/analysis/v4_strategy_audit.png)\n\n'
@@ -103,9 +125,14 @@ def document_results():
     (ROOT/'V4_SUBMISSION.md').write_text(text,encoding='utf-8')
     readme=ROOT/'README.md';text=readme.read_text(encoding='utf-8');heading='\n## V4 lineage-guided response coverage candidate\n'
     if heading in text:text=text[:text.index(heading)]
-    text+=heading+'\nThe completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` ('+f"{ready['bytes']:,} bytes; {ready['bytes']/1024**3:.2f} GiB"+'). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. It has not been uploaded or scored. [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.\n\n'
+    text+=heading+'\nThe completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` ('+f"{ready['bytes']:,} bytes; {ready['bytes']/1024**3:.2f} GiB"+'). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. '+status_text+' [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.\n\n'
     text+='The model uses the marker-supported T-cell-like program to prefer CD4 responses for A, strengthens donor-supported target effects to address response undercoverage, and uses public H1 direct responses plus held-target-calibrated transfer/shared responses for B/C. It applies explicit basal gene/target expression gates and independently draws 400 real controls per target with guide/depth balance. Source selection improves direction-coverage proxies with a documented squared-error tradeoff; it does not establish a better hidden leaderboard score. [V4_MODEL_STRATEGY.md](V4_MODEL_STRATEGY.md) documents every step and exact reproduction.\n\n'
     text+='New root code is `fit_lineage_submission.py`, `test_lineage_submission.py`, `validate_v4.py` and `audit_v4_strategy.py`; `build_submission.py` adds the isolated `lineage-response` mode and complete original-row provenance. All 23 tests passed. Independent validation recalculates all public-source response components, reassembles all 16,679,700 model effects, verifies all 360,000 original control-row/guide/depth records and checks '+f"{independent['independent_gene_count_expectations']:,}"+' gene-count expectations with exact selected-cell generation replay. Model/package provenance and evidence are retained in the candidate analysis folder.\n'
-    readme.write_text(text,encoding='utf-8')
+    if publication:
+        text+='\n'+published_section
+        old='Two submissions have been uploaded, scored, and published, both with weak predictive performance. A third candidate now uses a context-specific source ensemble with independent source validation; see [V3_SUBMISSION.md](V3_SUBMISSION.md).'
+        new=f"Three submissions (first, V2 and V4) have been published. V4 is the best so far on the validation panel, with overall score {publication['overall']:.6f}; direction fidelity and expression error remain weaknesses. No V3 submission score is recorded. See [V4_SUBMISSION.md](V4_SUBMISSION.md) for the published comparison and reproducibility."
+        text=text.replace(old,new)
+    readme.write_text(text.rstrip()+'\n',encoding='utf-8')
 
 if __name__=='__main__':main()

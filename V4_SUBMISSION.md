@@ -1,6 +1,6 @@
-# V4: upload-ready lineage-guided response submission
+# V4: published lineage-guided response submission
 
-The new candidate is generated, officially packaged and independently validated. It has not been uploaded or scored. The package is isolated in `experiments/v4_lineage_response/`; the earlier submission files retain their original locations.
+The new candidate is generated, officially packaged and independently validated. Published as `w5criCkgkCWj1QOgP08E` with overall score **-0.050674**. Rank was 977 at publication and 975 at the recorded API check; ranks change over time. The package is isolated in `experiments/v4_lineage_response/`; the earlier submission files retain their original locations.
 
 | Check | Completed result |
 |---|---|
@@ -17,13 +17,43 @@ The new candidate is generated, officially packaged and independently validated.
 | Independent count expectation checks | 389,193 across 21 groups, with complete deterministic count replay |
 | All final model effects | 16,679,700 independently assembled |
 | Generation and packaging time | 28.3 minutes |
-| Leaderboard result | Not yet available |
+| Leaderboard result | Published; overall -0.050674 |
 
 Package SHA-256:
 
 ```text
 b2cd9da4388d43937a016581b91a84f2c005b2f713fb5f0eae4d5fe1737f015b
 ```
+
+## Published validation result
+
+The first, V2 and V4 scores use the same validation panel and anchor set. No V3 submission score is recorded, so there is no V3 leaderboard comparison.
+
+| Scaled component | First | V2 | V4 | Change from V2 |
+|---|---:|---:|---:|---:|
+| overall | -0.276290 | -0.223325 | -0.050674 | +0.172652 |
+| pds | 0.019644 | 0.103042 | 0.255302 | +0.152260 |
+| mse | 0.000000 | 0.000000 | 0.000000 | +0.000000 |
+| nmae | 0.016006 | 0.032352 | 0.067539 | +0.035186 |
+| fid | -1.665331 | -1.470413 | -0.683855 | +0.786558 |
+| reach | 0.033874 | 0.041380 | 0.086849 | +0.045469 |
+| jac | -0.061932 | -0.046314 | -0.029878 | +0.016436 |
+
+Overall improved by **+0.172652** versus V2 and **+0.225616** versus the first entry. All five non-expression scaled components improve. Direction fidelity accounts arithmetically for 75.9% of the overall gain; this is a score contribution, not causal attribution to a model change.
+
+Raw expression error worsens from 1.014294 to 1.247733 (+23.0%), although the scaled expression score stays at zero. Zero is a clamped leaderboard score, not zero prediction error. Raw direction-fidelity yield rises from 0.074675 to 0.309235; it is response-budget-normalized yield rather than sign precision. Raw significant-set Jaccard rises from 0.013545 to 0.019731, leaving substantial response-set mismatch.
+
+V4 is the best of the three published project submissions on this validation panel. Overall remains below the zero-score anchor, with direction fidelity the largest negative component. The package changes lineage policy, effect strength, transfer priors and control sampling together; aggregate scores cannot isolate which change helped, which context remains weak, or whether residual fidelity loss comes from missed responses or wrong directions. The next experiments should balance response coverage with expression error using source validation and controlled ablations.
+
+Records: `leaderboard_result.json`, `published_api_status.json`, `leaderboard_comparison.csv` and `raw_metric_comparison.csv` in the candidate analysis folder. `submission_ready.json` preserves the generation-time snapshot; the separate publication record records completed upload and scoring. Upload took 13 minutes 20 seconds. [Official scoring definitions](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md).
+
+Record or refresh the read-only API confirmation and regenerate these tables with the root script `record_v4_result.py`:
+
+```cmd
+.\.competition_env\Scripts\python.exe record_v4_result.py
+```
+
+The supplied publication rank is preserved separately from the current API rank. This command does not upload, regenerate predictions, or alter the package.
 
 ## Strategy
 
@@ -35,9 +65,9 @@ All 284 previously covered targets retain modeled downstream effects in A. B/C h
 
 Complete derivation, objective, fold separation, source limitations and reproduction: [V4_MODEL_STRATEGY.md](V4_MODEL_STRATEGY.md).
 
-## Submit from Windows Command Prompt
+## Completed upload command (Windows Command Prompt)
 
-Reuse the existing VCC login:
+The command below already succeeded; rerunning it creates another submission.
 
 ```cmd
 cd /d L:\promec\Animesh\Download\Virtual

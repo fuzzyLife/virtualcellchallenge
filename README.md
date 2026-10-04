@@ -1,6 +1,6 @@
 # Virtual Cell Challenge 2026
 
-This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Two submissions have been uploaded, scored, and published, both with weak predictive performance. A third candidate now uses a context-specific source ensemble with independent source validation; see [V3_SUBMISSION.md](V3_SUBMISSION.md).
+This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Three submissions (first, V2 and V4) have been published. V4 is the best so far on the validation panel, with overall score -0.050674; direction fidelity and expression error remain weaknesses. V3 remains an unsubmitted candidate. See [V4_SUBMISSION.md](V4_SUBMISSION.md) for the published comparison and reproducibility.
 
 ## Completed work
 
@@ -296,8 +296,38 @@ Three focused tests passed. Independent validation repeats every one of the 16,5
 
 ## V4 lineage-guided response coverage candidate
 
-The completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` (3,309,240,320 bytes; 3.08 GiB). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. It has not been uploaded or scored. [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.
+The completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` (3,309,240,320 bytes; 3.08 GiB). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. Published as `w5criCkgkCWj1QOgP08E` with overall score **-0.050674**. Rank was 977 at publication and 975 at the recorded API check; ranks change over time. [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.
 
 The model uses the marker-supported T-cell-like program to prefer CD4 responses for A, strengthens donor-supported target effects to address response undercoverage, and uses public H1 direct responses plus held-target-calibrated transfer/shared responses for B/C. It applies explicit basal gene/target expression gates and independently draws 400 real controls per target with guide/depth balance. Source selection improves direction-coverage proxies with a documented squared-error tradeoff; it does not establish a better hidden leaderboard score. [V4_MODEL_STRATEGY.md](V4_MODEL_STRATEGY.md) documents every step and exact reproduction.
 
 New root code is `fit_lineage_submission.py`, `test_lineage_submission.py`, `validate_v4.py` and `audit_v4_strategy.py`; `build_submission.py` adds the isolated `lineage-response` mode and complete original-row provenance. All 23 tests passed. Independent validation recalculates all public-source response components, reassembles all 16,679,700 model effects, verifies all 360,000 original control-row/guide/depth records and checks 389,193 gene-count expectations with exact selected-cell generation replay. Model/package provenance and evidence are retained in the candidate analysis folder.
+
+## Published validation result
+
+The first, V2 and V4 scores use the same validation panel and anchor set. No V3 submission score is recorded, so there is no V3 leaderboard comparison.
+
+| Scaled component | First | V2 | V4 | Change from V2 |
+|---|---:|---:|---:|---:|
+| overall | -0.276290 | -0.223325 | -0.050674 | +0.172652 |
+| pds | 0.019644 | 0.103042 | 0.255302 | +0.152260 |
+| mse | 0.000000 | 0.000000 | 0.000000 | +0.000000 |
+| nmae | 0.016006 | 0.032352 | 0.067539 | +0.035186 |
+| fid | -1.665331 | -1.470413 | -0.683855 | +0.786558 |
+| reach | 0.033874 | 0.041380 | 0.086849 | +0.045469 |
+| jac | -0.061932 | -0.046314 | -0.029878 | +0.016436 |
+
+Overall improved by **+0.172652** versus V2 and **+0.225616** versus the first entry. All five non-expression scaled components improve. Direction fidelity accounts arithmetically for 75.9% of the overall gain; this is a score contribution, not causal attribution to a model change.
+
+Raw expression error worsens from 1.014294 to 1.247733 (+23.0%), although the scaled expression score stays at zero. Zero is a clamped leaderboard score, not zero prediction error. Raw direction-fidelity yield rises from 0.074675 to 0.309235; it is response-budget-normalized yield rather than sign precision. Raw significant-set Jaccard rises from 0.013545 to 0.019731, leaving substantial response-set mismatch.
+
+V4 is the best of the three published project submissions on this validation panel. Overall remains below the zero-score anchor, with direction fidelity the largest negative component. The package changes lineage policy, effect strength, transfer priors and control sampling together; aggregate scores cannot isolate which change helped, which context remains weak, or whether residual fidelity loss comes from missed responses or wrong directions. The next experiments should balance response coverage with expression error using source validation and controlled ablations.
+
+Records: `leaderboard_result.json`, `published_api_status.json`, `leaderboard_comparison.csv` and `raw_metric_comparison.csv` in the candidate analysis folder. `submission_ready.json` preserves the generation-time snapshot; the separate publication record records completed upload and scoring. Upload took 13 minutes 20 seconds. [Official scoring definitions](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md).
+
+Record or refresh the read-only API confirmation and regenerate these tables with the root script `record_v4_result.py`:
+
+```cmd
+.\.competition_env\Scripts\python.exe record_v4_result.py
+```
+
+The supplied publication rank is preserved separately from the current API rank. This command does not upload, regenerate predictions, or alter the package.
