@@ -1,0 +1,65 @@
+{
+  "A": {
+    "context": "A",
+    "model": "Lineage-guided, response-coverage-calibrated perturbation model v4",
+    "mixture_weights": {
+      "policy": "CD4 primary with unsupported-gene K562 fallback",
+      "cd4_conditions": {
+        "CD4_Rest": 0.2165259530607734,
+        "CD4_Stim8hr": 0.2045112888050947,
+        "CD4_Stim48hr": 0.5789627581341319
+      }
+    },
+    "downstream_lfc_quantiles": {
+      "min": -1.4555456638336182,
+      "p05": -0.06165148727595806,
+      "p25": 0.0,
+      "median": 0.0,
+      "p75": 0.0,
+      "p95": 0.06191047001630064,
+      "max": 1.571224331855774
+    }
+  },
+  "B": {
+    "context": "B",
+    "model": "Lineage-guided, response-coverage-calibrated perturbation model v4",
+    "mixture_weights": {
+      "policy": "H1 direct estimates when measured; H1 shared prior plus held-target-calibrated CD4/K562 transfer otherwise",
+      "cd4_conditions": {
+        "CD4_Rest": 0.17838080562889463,
+        "CD4_Stim8hr": 0.28650409353102635,
+        "CD4_Stim48hr": 0.5351151008400791
+      }
+    },
+    "downstream_lfc_quantiles": {
+      "min": -1.9254345893859863,
+      "p05": -0.04630403444170952,
+      "p25": -0.0028670658357441425,
+      "median": 0.0,
+      "p75": 0.0032186571042984724,
+      "p95": 0.050242347829043826,
+      "max": 2.013704776763916
+    }
+  },
+  "C": {
+    "context": "C",
+    "model": "Lineage-guided, response-coverage-calibrated perturbation model v4",
+    "mixture_weights": {
+      "policy": "H1 direct estimates when measured; H1 shared prior plus held-target-calibrated CD4/K562 transfer otherwise",
+      "cd4_conditions": {
+        "CD4_Rest": 0.0494604105833357,
+        "CD4_Stim8hr": 0.07697813273788602,
+        "CD4_Stim48hr": 0.8735614566787783
+      }
+    },
+    "downstream_lfc_quantiles": {
+      "min": -1.9254345893859863,
+      "p05": -0.04854702055454254,
+      "p25": -0.0036388675216585398,
+      "median": 0.0,
+      "p75": 0.003906989004462957,
+      "p95": 0.05270719192922114,
+      "max": 2.013704776763916
+    }
+  }
+}

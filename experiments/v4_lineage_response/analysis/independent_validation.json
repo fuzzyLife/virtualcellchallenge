@@ -1,0 +1,138 @@
+{
+  "passed": true,
+  "official_package_validated": true,
+  "package_sha256_matches": true,
+  "all_900_groups_validated": true,
+  "all_360000_source_control_rows_verified": true,
+  "independent_count_expectation_groups": [
+    {
+      "context": "A",
+      "target_gene": "ABCD1",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "AKT2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "ASCC2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "KIF21B",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "SMARCA5",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "ZNF280C",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "A",
+      "target_gene": "ZRANB3",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "ABCD1",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "AKT2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "ASCC2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "KIF21B",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "SMARCA5",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "ZNF280C",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "B",
+      "target_gene": "ZRANB3",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "ABCD1",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "AKT2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "ASCC2",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "KIF21B",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "SMARCA5",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "ZNF280C",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    },
+    {
+      "context": "C",
+      "target_gene": "ZRANB3",
+      "gene_count_expectations": 18533,
+      "exact_generated_cell_replay": true
+    }
+  ],
+  "independent_gene_count_expectations": 389193,
+  "validator_sha256": "06490c13f0634b0328dbbd25e55205ad9ba5dd217ae2812e1f8eeb69ade15160",
+  "scope": "Full submission validity, source provenance, independent count expectations and deterministic replay; no hidden-label accuracy claim"
+}

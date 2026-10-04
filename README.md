@@ -293,3 +293,11 @@ Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_t
 ```
 
 Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.
+
+## V4 lineage-guided response coverage candidate
+
+The completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` (3,309,240,320 bytes; 3.08 GiB). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. It has not been uploaded or scored. [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.
+
+The model uses the marker-supported T-cell-like program to prefer CD4 responses for A, strengthens donor-supported target effects to address response undercoverage, and uses public H1 direct responses plus held-target-calibrated transfer/shared responses for B/C. It applies explicit basal gene/target expression gates and independently draws 400 real controls per target with guide/depth balance. Source selection improves direction-coverage proxies with a documented squared-error tradeoff; it does not establish a better hidden leaderboard score. [V4_MODEL_STRATEGY.md](V4_MODEL_STRATEGY.md) documents every step and exact reproduction.
+
+New root code is `fit_lineage_submission.py`, `test_lineage_submission.py`, `validate_v4.py` and `audit_v4_strategy.py`; `build_submission.py` adds the isolated `lineage-response` mode and complete original-row provenance. All 23 tests passed. Independent validation recalculates all public-source response components, reassembles all 16,679,700 model effects, verifies all 360,000 original control-row/guide/depth records and checks 389,193 gene-count expectations with exact selected-cell generation replay. Model/package provenance and evidence are retained in the candidate analysis folder.

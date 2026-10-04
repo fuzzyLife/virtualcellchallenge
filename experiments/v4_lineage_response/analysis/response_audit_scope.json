@@ -1,0 +1,14 @@
+{
+  "targets": [
+    "AKT2",
+    "SMARCA5",
+    "VIM",
+    "S100A11",
+    "FXYD5",
+    "KIF21B"
+  ],
+  "groups_each_version": 18,
+  "method": "Original controls; CPM >5 filter; cached exact two-sided Wilcoxon with ties, continuity and within-target BH; own target excluded",
+  "limitation": "Counts of predicted response genes measure model activity, not correct directions, recall, overlap or leaderboard scores; provided controls differ from hidden scoring controls",
+  "script_sha256": "759ccdb7a1d30a6773e611cb813d15414a480928117770c4f2fe1ae03bb9d163"
+}

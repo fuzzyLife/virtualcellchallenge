@@ -1,0 +1,27 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v4_lineage_response\\prediction.vcc",
+  "bytes": 3309240320,
+  "sha256": "b2cd9da4388d43937a016581b91a84f2c005b2f713fb5f0eae4d5fe1737f015b",
+  "official_prep_passed": true,
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2085901209,
+    "schema": 1
+  },
+  "prediction_validation": {
+    "n_cells": 360000,
+    "n_genes": 18533,
+    "nnz": 2085901209,
+    "maximum_cell_counts": 52673,
+    "groups": 900,
+    "cells_per_group": 400,
+    "all_stored_counts": "positive integers",
+    "gene_order": "exact match",
+    "context_target_cell_counts": "exact match"
+  },
+  "elapsed_seconds": 1696.1159694194794,
+  "leaderboard_score": null,
+  "uploaded": false
+}

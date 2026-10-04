@@ -1,0 +1,141 @@
+{
+  "selected": {
+    "specific_gain": 0.7,
+    "prior_gain": 0.0
+  },
+  "nested_procedure": {
+    "loss": 0.10220605029262214,
+    "zero_loss": 0.12728239709545913,
+    "selection_score": 0.9605118345897304,
+    "direction_fidelity_proxy": 0.752774698101353,
+    "jaccard_proxy": 0.12837261235402386,
+    "mean_predicted_calls": 703.7692307692307,
+    "mean_reference_calls": 354.38461538461536,
+    "relative_zero_loss": 0.8029865293624989
+  },
+  "v3_fixed_baseline": {
+    "loss": 0.10220605029262214,
+    "zero_loss": 0.12728239709545913,
+    "selection_score": 0.9605118345897304,
+    "direction_fidelity_proxy": 0.752774698101353,
+    "jaccard_proxy": 0.12837261235402386,
+    "mean_predicted_calls": 703.7692307692307,
+    "mean_reference_calls": 354.38461538461536,
+    "setting": {
+      "specific_gain": 0.7,
+      "prior_gain": 0.0
+    },
+    "candidate": 0,
+    "relative_zero_loss": 0.8029865293624989
+  },
+  "changed_estimator_supported": false,
+  "nested_folds": [
+    {
+      "fold": 0,
+      "candidate": 0,
+      "setting": {
+        "specific_gain": 0.7,
+        "prior_gain": 0.0
+      },
+      "contrasts": 5,
+      "loss": 0.08713128152340066,
+      "zero_loss": 0.08936021609403572,
+      "relative_zero_loss": 0.9750567459652347,
+      "direction_fidelity_proxy": 0.6854040188559773,
+      "jaccard_proxy": 0.06214456719695262,
+      "mean_predicted_calls": 229.2,
+      "mean_reference_calls": 30.799999999999997,
+      "sign_accuracy_on_reference_DE": 1.0,
+      "selection_score": 0.7600202130703126,
+      "train_targets": [
+        "AKT2",
+        "HSBP1",
+        "MTA1",
+        "RNF2",
+        "SIN3B",
+        "SMARCA5",
+        "TRAPPC6A",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "MED13",
+        "SHPRH",
+        "STAT6",
+        "TARBP2",
+        "TWF2"
+      ]
+    },
+    {
+      "fold": 1,
+      "candidate": 0,
+      "setting": {
+        "specific_gain": 0.7,
+        "prior_gain": 0.0
+      },
+      "contrasts": 4,
+      "loss": 0.12160615378130231,
+      "zero_loss": 0.18195166339096322,
+      "relative_zero_loss": 0.6683431825517566,
+      "direction_fidelity_proxy": 0.8613340183675385,
+      "jaccard_proxy": 0.23162988993111266,
+      "mean_predicted_calls": 1439.5,
+      "mean_reference_calls": 945.0,
+      "sign_accuracy_on_reference_DE": 1.0,
+      "selection_score": 1.2587923170227728,
+      "train_targets": [
+        "AKT2",
+        "HSBP1",
+        "MED13",
+        "RNF2",
+        "SHPRH",
+        "STAT6",
+        "TARBP2",
+        "TWF2",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "MTA1",
+        "SIN3B",
+        "SMARCA5",
+        "TRAPPC6A"
+      ]
+    },
+    {
+      "fold": 2,
+      "candidate": 0,
+      "setting": {
+        "specific_gain": 0.7,
+        "prior_gain": 0.0
+      },
+      "contrasts": 4,
+      "loss": 0.10164940776546882,
+      "zero_loss": 0.12001585705173427,
+      "relative_zero_loss": 0.8469664781184009,
+      "direction_fidelity_proxy": 0.7284287268918869,
+      "jaccard_proxy": 0.1079003912232741,
+      "mean_predicted_calls": 561.25,
+      "mean_reference_calls": 168.25,
+      "sign_accuracy_on_reference_DE": 1.0,
+      "selection_score": 0.9128458790559606,
+      "train_targets": [
+        "MED13",
+        "MTA1",
+        "SHPRH",
+        "SIN3B",
+        "SMARCA5",
+        "STAT6",
+        "TARBP2",
+        "TRAPPC6A",
+        "TWF2"
+      ],
+      "test_targets": [
+        "AKT2",
+        "HSBP1",
+        "RNF2",
+        "ZNF714"
+      ]
+    }
+  ],
+  "targets": 13,
+  "scope": "Target-held-out, disjoint public H1 batches; 400-cell normal call proxy compared with actual source Wilcoxon calls; not challenge accuracy"
+}

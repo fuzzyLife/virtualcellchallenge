@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "source_data_checksums_passed": true,
+  "all_16679700_effect_values_assembled_independently": true,
+  "all_source_effect_values_recomputed": {
+    "k562_effect_values": 2304300,
+    "cd4_context_effect_values": 9101700,
+    "h1_direct_and_prior_values": 10846200
+  },
+  "nested_target_fold_checks": [
+    {
+      "source": "cd4_selection",
+      "targets": 72,
+      "folds": 5,
+      "held_target_overlap": false
+    },
+    {
+      "source": "h1_selection",
+      "targets": 13,
+      "folds": 3,
+      "held_target_overlap": false
+    },
+    {
+      "source": "cross_lineage_selection",
+      "targets": 13,
+      "folds": 13,
+      "held_target_overlap": false
+    }
+  ],
+  "fitter_sha256": "616a5ad4bb7dc0cd5f5e163a3135f2286a2296356a2715ff15822bda873f21e2",
+  "validator_sha256": "06490c13f0634b0328dbbd25e55205ad9ba5dd217ae2812e1f8eeb69ade15160",
+  "scope": "Source/numerical validation and 400-cell call proxies, not a hidden-label competition score"
+}

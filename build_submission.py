@@ -100,6 +100,12 @@ def inventory(root, analysis):
             text = re.sub(r'\n\s*\n', '\n', ''.join(parser.parts))
             (analysis / (path.stem + '.txt')).write_text(text, encoding='utf-8')
             role = 'saved competition documentation' if 'Cell.html' not in path.name else '2026 Cell commentary'
+        elif path.suffix.lower() == '.py':
+            role = 'project analysis/model code; hashed for run provenance'
+        elif path.suffix.lower() == '.md':
+            role = 'project methods, results or reproduction documentation'
+        elif path.suffix.lower() == '.zip':
+            role = 'user-provided count extraction; original H5AD matrices supply this model input'
         else:
             # Browser JavaScript, styles, SVGs and images are page dependencies,
             # not prediction/training code. Inspect text assets for provenance.
@@ -496,7 +502,7 @@ def main():
     parser.add_argument('--output-dir', type=Path, help='Separate experiment outputs; relative paths are resolved under --root')
     parser.add_argument('--transfer-shrinkage', type=float, default=.3)
     parser.add_argument('--noise-z', type=float, default=1.96)
-    parser.add_argument('--reference-kind', choices=['k562', 'cd4-hybrid', 'context-ensemble'], default='k562')
+    parser.add_argument('--reference-kind', choices=['k562', 'cd4-hybrid', 'context-ensemble', 'lineage-response'], default='k562')
     parser.add_argument('--upward-mode', choices=['proportional', 'zero-aware'], default='proportional')
     parser.add_argument('--knockdown', type=float, default=.9)
     parser.add_argument('--analysis-only', action='store_true')
@@ -535,7 +541,10 @@ def main():
         if not args.analysis_only:
             if not (root/'reference'/'K562_gwps_raw_bulk_01.h5ad').exists():
                 subprocess.run([sys.executable, str(root/'download_reference.py'), '--root', str(root)], check=True)
-            if args.reference_kind == 'context-ensemble':
+            if args.reference_kind == 'lineage-response':
+                from fit_lineage_submission import fit_model
+                model = fit_model(root, genes, targets, analysis)
+            elif args.reference_kind == 'context-ensemble':
                 from fit_context_ensemble import fit_model
                 model = fit_model(root, genes, targets, analysis)
             elif args.reference_kind == 'cd4-hybrid':
@@ -551,6 +560,7 @@ def main():
             partial = h5ad.with_suffix('.h5ad.partial')
             writer = SparseH5Writer(partial, obs, genes)
         diagnostics, pred_records = {}, []
+        control_row_records = []
         for ci, context in enumerate(contexts):
             log(f'Analysing control context {context}')
             x, guides, libs, mean_cpm, summary, stats = load_control(root, context, genes, manifest)
@@ -574,6 +584,10 @@ def main():
                 for ti, target in enumerate(targets):
                     rng = np.random.default_rng(np.random.SeedSequence([args.seed, ci, ti]))
                     rows = common_rows if common_rows is not None else guide_stratified_sample(guides, libs, n, rng)
+                    if args.reference_kind == 'lineage-response':
+                        control_row_records.append(pd.DataFrame({'context': context, 'target_gene': target,
+                            'prediction_cell_offset': np.arange(n), 'source_control_row': rows,
+                            'ntc_id': guides[rows], 'original_total_counts': libs[rows]}))
                     if args.upward_mode == 'zero-aware':
                         block = simulate_counts_zero_aware(x, rows, factors[ti], rng,
                                 stats['mean_raw_count'].to_numpy(), float(libs.mean()))
@@ -607,6 +621,8 @@ def main():
             log('Control analysis complete; no prediction requested')
             return
         writer.close()
+        if control_row_records:
+            pd.concat(control_row_records, ignore_index=True).to_csv(analysis/'prediction_control_rows.csv', index=False)
         partial.replace(h5ad)
         pd.DataFrame(pred_records).to_csv(analysis/'prediction_group_statistics.csv', index=False)
         write_json(analysis/'context_transfer_diagnostics.json', diagnostics)
