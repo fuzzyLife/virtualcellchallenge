@@ -1,0 +1,328 @@
+{
+  "passed": true,
+  "complete_rows": 55200,
+  "all_cell_ids_and_guides_match": true,
+  "all_summary_medians_and_defined_counts_match": true,
+  "all_pairwise_valid_gene_counts_match": true,
+  "all_output_csv_checksums_match": true,
+  "independent_actual_cell_pairs_checked": 45,
+  "pooled_matrix_pairs_checked": 64,
+  "actual_cell_checks": [
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "spearman": 0.2716512104774649,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "spearman": 0.2679155923565202,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "spearman": 0.2737299190944585,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "spearman": 0.3731628154123814,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "spearman": 0.4435924520766245,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "spearman": 0.38955932305378393,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "spearman": 0.3606377285973949,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "spearman": 0.3594660449777582,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "spearman": 0.35352764546136134,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "spearman": 0.5098340800032781,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "spearman": 0.2653053988216493,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "spearman": 0.2568542766873697,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "spearman": 0.2515752537060752,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "spearman": 0.34780570417871437,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "spearman": 0.4900352061134258,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "spearman": 0.1811746295959264,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "spearman": 0.32040865669034974,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "spearman": 0.3339437380400499,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "spearman": 0.49223432146515234,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "spearman": 0.46860521148794526,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "spearman": 0.23455554237042317,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "spearman": 0.305329627548875,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "spearman": 0.33713506700783974,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "spearman": 0.42115230335482545,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "spearman": 0.3690148326270245,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "spearman": 0.16983219992637053,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "spearman": 0.21330434255635652,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "spearman": 0.2762654421657216,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "spearman": 0.42569833933685736,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "spearman": 0.3956226095655358,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "spearman": 0.2001563794495022,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "spearman": 0.3102731592283325,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "spearman": 0.29123635750733495,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "spearman": 0.5081690996809063,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "spearman": 0.4600667294549814,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "spearman": 0.15721478111398524,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "spearman": 0.23185868838332407,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "spearman": 0.21415193826169762,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "spearman": 0.36921837014987435,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "spearman": 0.3870204528544073,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "spearman": 0.21022319345354445,
+      "valid_gene_pairs": 231
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "spearman": 0.31161490916826073,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "spearman": 0.2787905087880615,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "spearman": 0.3973213659884111,
+      "valid_gene_pairs": 300
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "spearman": 0.42254667439855276,
+      "valid_gene_pairs": 300
+    }
+  ],
+  "validator_sha256": "051537628dd1d41fc5a8bad8d2c4df8f57d7a591d79912d7bfb18779730fa49c"
+}

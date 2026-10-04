@@ -1,0 +1,187 @@
+{
+  "created_utc": "2026-10-04T11:14:25.572780+00:00",
+  "competition_cells": 55200,
+  "requested_target_genes": 300,
+  "gene_order": "pert_counts.csv original order",
+  "method": "Pairwise-complete Spearman on original counts, average ranks for ties",
+  "min_valid_pairs": 2,
+  "zero_policy": "Measured zeros retained as valid tied observations",
+  "missing_policy": "Unmeasured source symbols and nonfinite pairs omitted before computing ranks; no imputation",
+  "transforms": [],
+  "reference_scope": "Five previously prepared pooled non-targeting profiles; no new reference sampling",
+  "reference_valid_target_genes": {
+    "K562": 231,
+    "HCT116": 300,
+    "HEK293T": 300,
+    "H1": 300,
+    "CD4": 300
+  },
+  "reference_provenance": {
+    "K562": {
+      "source": {
+        "source": "Replogle et al. 2022 original processed genome-wide Perturb-seq release",
+        "article_url": "https://api.figshare.com/v2/articles/20029387",
+        "article_doi": "10.25452/figshare.plus.20029387.v1",
+        "file_id": 35774443,
+        "file_name": "K562_gwps_raw_bulk_01.h5ad",
+        "download_url": "https://ndownloader.figshare.com/files/35774443",
+        "bytes": 374587922,
+        "md5": "4570b53c9d62ff6df281e622f0350060",
+        "license": {
+          "value": 1,
+          "name": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/"
+        },
+        "challenge_ground_truth_used": false
+      },
+      "source_sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+      "control_groups": 503,
+      "control_cells": 75094,
+      "selection": "non-targeting, core_control, at least 30 cells; raw pseudobulk mean times membership",
+      "name": "K562",
+      "genes": 8246,
+      "profile_sha256": "d9be2c6f960110bd037a00baa48d1f75ed442f3d46497552e19e6f769dfb43de",
+      "normalization": "pool original counts, normalize to CPM; sum duplicate gene symbols"
+    },
+    "HCT116": {
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch1.parquet",
+      "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+      "source_sha256": "a7a6918ecda30343e3f9262bcfb654bf077170d2e99c7bcd0c8b9f963764f13b",
+      "gene_metadata_sha256": "33900a0dbaeafb84601c7c8ba7c6642c440774fc3f49613dab11cf1f2bf0fdbf",
+      "control_cells": 891,
+      "scope": "All passing controls in Batch1 only, not the full atlas",
+      "name": "HCT116",
+      "genes": 38584,
+      "profile_sha256": "262583888a6cd264060e0d4c5f18dc7221d5c878e503937a80032cc67381bf9a",
+      "normalization": "pool original counts, normalize to CPM; sum duplicate gene symbols"
+    },
+    "HEK293T": {
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HEK293T_Batch1.parquet",
+      "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+      "source_sha256": "bc97ddfeef8df72fbd7aa03cf8e5fd1a6293e0d467735e5e59ce907df49af8d1",
+      "gene_metadata_sha256": "33900a0dbaeafb84601c7c8ba7c6642c440774fc3f49613dab11cf1f2bf0fdbf",
+      "control_cells": 1079,
+      "scope": "All passing controls in Batch1 only, not the full atlas",
+      "name": "HEK293T",
+      "genes": 38584,
+      "profile_sha256": "e1c6db1302b96441539f350dbe017cbab5574edfc971b5d674bca278f1f881f4",
+      "normalization": "pool original counts, normalize to CPM; sum duplicate gene symbols"
+    },
+    "H1": {
+      "remote": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+        "bytes": 15482497461,
+        "etag": "\"-CKCuwqrMwpEDEAE=\""
+      },
+      "remote_range_bytes_used": 893397429,
+      "downloaded_this_run": 732430336,
+      "eligible_controls": 38176,
+      "selected_control_rows": 1536,
+      "per_stratum_limit": 32,
+      "stratification": [
+        "batch"
+      ],
+      "selection": "first source-ordered eligible controls per stratum; all competition cells are analyzed",
+      "control_cells": 1536,
+      "scope": "H1 2025 train release only",
+      "name": "H1",
+      "genes": 18080,
+      "profile_sha256": "a79093033e474592ea78121a69b4dc3d47c6521a1b2cff6e8a60cb40e478a08c",
+      "normalization": "pool original counts, normalize to CPM; sum duplicate gene symbols"
+    },
+    "CD4": {
+      "remote": {
+        "url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.pseudobulk_merged.h5ad",
+        "bytes": 44566657140,
+        "etag": "\"010c14e0af0dccbc2524529d28ca517e-5313\""
+      },
+      "remote_range_bytes_used": 112277620,
+      "downloaded_this_run": 95682560,
+      "eligible_controls": 10303,
+      "selected_control_rows": 384,
+      "per_stratum_limit": 32,
+      "stratification": [
+        "culture_condition",
+        "donor_id",
+        "10xrun_id"
+      ],
+      "selection": "first source-ordered eligible controls per stratum; all competition cells are analyzed",
+      "control_cells": 34620,
+      "scope": "CD4 non-targeting pseudobulks spanning donors, runs and all three culture conditions",
+      "name": "CD4",
+      "genes": 18129,
+      "profile_sha256": "befbd7df3da31016493aaefbc7ab2c86d9b446f5e7cd01617a3f6e92382f90b7",
+      "normalization": "pool original counts, normalize to CPM; sum duplicate gene symbols"
+    }
+  },
+  "competition_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "cells": 18400
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "cells": 18400
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "cells": 18400
+    }
+  ],
+  "target_list_sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+  "script_sha256": "5ea29490602fa196b85914bc7cd6171ff1c17ac7e27e806931485e5ba7bb8861",
+  "versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4",
+    "h5py": "3.16.0"
+  },
+  "python": "3.14.3",
+  "all_expected_rows_present": true,
+  "unique_context_cell_ids": true,
+  "undefined_per_cell_correlations": {
+    "K562": 0,
+    "HCT116": 0,
+    "HEK293T": 0,
+    "H1": 0,
+    "CD4": 0
+  },
+  "outputs": {
+    "context_reference_summary.csv": {
+      "bytes": 2392,
+      "sha256": "ec0e897c92464ef6b1193274342c414d0713308c8ac027dc0eeac7398b7d03c5"
+    },
+    "guide_reference_summary.csv": {
+      "bytes": 36468,
+      "sha256": "0e4745c9bbde2039e48a56f11a0b25afad156ee923a15f03a4980a8e89d03e24"
+    },
+    "per_cell_target_rank_correlations.csv": {
+      "bytes": 10704974,
+      "sha256": "ff60038ae494ac1dd4c06363e91c014d49598148bfc3fca3cdfa3dfcec87d086"
+    },
+    "pooled_profile_rank_correlations.csv": {
+      "bytes": 1225,
+      "sha256": "5ffaff8e30d3f584d7f84824dfa78d58e11f5f2271c2c8997db49cb9c59b0621"
+    },
+    "pooled_profile_valid_gene_counts.csv": {
+      "bytes": 387,
+      "sha256": "d6f9c326ef4f79a0a7ef12198fbececc446009826f9f36b3d55ac4cad51bd759"
+    },
+    "pooled_raw_target_profiles.csv": {
+      "bytes": 21814,
+      "sha256": "329b576bbd0d5d544ec472b32e6b5cac39158bccb2589006f35b27d0b51fb570"
+    },
+    "target_gene_coverage.csv": {
+      "bytes": 9831,
+      "sha256": "cbe03b336f514f62eacf6a79435b4c0cefeb4943ad26f1059ecf9f0d476e83ae"
+    },
+    "target_reference_raw_profiles.csv": {
+      "bytes": 14802,
+      "sha256": "f897a68c358198f5c1da5e9af360b995e24f6de6b9736a330884d6af8a43bd40"
+    }
+  }
+}

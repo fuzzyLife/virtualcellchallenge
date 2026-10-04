@@ -213,3 +213,11 @@ The generator validates and packages locally; it does not upload. Original root-
 Results, per-cell CSVs, provenance, and a comparison figure are saved under `analysis/cell_reference_correlations/`. This checks basal similarity; it does not establish anonymous cell identities or validate knockdown-response transfer.
 
 The completed five-reference comparison uses 7,447 common genes. Median cell-to-reference correlations favor CD4 for A (0.4821) and H1 for B/C (0.4635/0.4766). All 55,200 output rows passed independent identifier, summary and checksum validation, with 45 actual-cell/reference spot checks and three focused tests. See [CELL_REFERENCE_CORRELATION_RESULTS.md](CELL_REFERENCE_CORRELATION_RESULTS.md) for the full tables and sensitivity analyses.
+
+## Rank correlations restricted to the 300 target genes
+
+`analyze_target_rank_correlations.py` repeats the per-cell comparison with raw values and pairwise-complete Spearman correlation, using exactly the targets in `pert_counts.csv`. No pseudocounts, transforms, normalization or missing-value imputation are applied. Measured zeros are retained as tied ranks. Each coefficient has a valid-gene count and status; K562 covers 231 targets and the other references cover 300.
+
+See [TARGET_RANK_CORRELATIONS.md](TARGET_RANK_CORRELATIONS.md) for exact reproduction steps and [TARGET_RANK_CORRELATION_RESULTS.md](TARGET_RANK_CORRELATION_RESULTS.md) for regenerated results. Numeric outputs are in `analysis/target_rank_correlations/`.
+
+All 55,200 rows passed validation, including 45 independent original-count comparisons and 64 pooled-profile pairs; three focused tests passed. Median target-panel correlations favor CD4 for A and H1 for B. C is close between CD4 and H1, with the median-cell and pooled summaries favoring different references. See the method document for the completed-run interpretation.
