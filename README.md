@@ -183,7 +183,7 @@ Changed model parameters require a separate output directory, even with `--force
 
 ## Second submission candidate: donor-calibrated CD4 hybrid
 
-The candidate is generated separately in `experiments/v2_cd4_hybrid/`. [V2_SUBMISSION.md](V2_SUBMISSION.md) records its source extraction, independent donor calibration, settings, validation and upload command. It combines eligible CD4 responses with K562 fallbacks, covering 284 targets and 11,163 measured genes across sources. Fifteen pipeline/model tests pass. Its leaderboard score is not known until uploaded and scored.
+The candidate is generated separately in `experiments/v2_cd4_hybrid/`. [V2_SUBMISSION.md](V2_SUBMISSION.md) records its source extraction, independent donor calibration, settings, validation and upload command. It combines eligible CD4 responses with K562 fallbacks, covering 284 targets and 11,163 measured genes across sources. Fifteen pipeline/model tests pass. It is published as `ENmII1VynYrgpB2KICPC`, with overall score **-0.223325** versus **-0.276290** for the first submission (+0.052964). Publication rank was 1105. Direction fidelity remains the largest negative component.
 
 Reproduce source extraction and generation in Command Prompt:
 
@@ -194,7 +194,7 @@ Reproduce source extraction and generation in Command Prompt:
 .\.competition_env\Scripts\python.exe validate_v2.py
 ```
 
-After a successful build, upload the new package with:
+V2 is already published. Its completed upload command is documented below; a changed future candidate should use its own output folder:
 
 ```cmd
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v2_cd4_hybrid\prediction.vcc -m "Donor-calibrated CD4 hybrid v2" --wait

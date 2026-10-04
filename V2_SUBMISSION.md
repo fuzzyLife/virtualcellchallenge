@@ -1,6 +1,6 @@
 # V2 submission: donor-calibrated CD4 hybrid
 
-Generated for the validation panel `vcc2026-val-1` on 2026-10-04. The candidate is separate from the first submission; its leaderboard score is unknown until uploaded and scored.
+Generated for the validation panel `vcc2026-val-1` on 2026-10-04. The candidate is separate from the first submission; it is published with overall score -0.22332546152913602 (entry `ENmII1VynYrgpB2KICPC`).
 
 ## Model and evidence
 
@@ -71,4 +71,24 @@ Official prep and package validation passed. File: `experiments/v2_cd4_hybrid/pr
 
 SHA-256: `faa73819d4638e4179d9d2b8dac726a1516cfce5d85a867a87c1e152c1b39656`.
 
-The new package is ready and has not been uploaded. Its checksum differs from the original package. Full readiness and official package metadata are in `experiments/v2_cd4_hybrid/analysis/submission_ready.json`.
+The package was uploaded successfully and the entry is published. Its checksum differs from the original package. Full readiness and official package metadata are in `experiments/v2_cd4_hybrid/analysis/submission_ready.json`.
+
+## Published leaderboard result
+
+Entry `ENmII1VynYrgpB2KICPC` was published on 2026-10-04. Rank was 1105 in the upload output and 1104 at the subsequent read-only API check; rank changes as other entries change. The panel and anchor set match the first submission.
+
+| Scaled component | First | V2 | Change |
+|---|---:|---:|---:|
+| overall | -0.276290 | -0.223325 | +0.052964 |
+| pds | 0.019644 | 0.103042 | +0.083398 |
+| mse | 0.000000 | 0.000000 | +0.000000 |
+| nmae | 0.016006 | 0.032352 | +0.016347 |
+| fid | -1.665331 | -1.470413 | +0.194919 |
+| reach | 0.033874 | 0.041380 | +0.007505 |
+| jac | -0.061932 | -0.046314 | +0.015618 |
+
+The overall gain is +0.052964. All five non-expression scaled components improve. Raw expression error also improves, from 1.023018 to 1.014294, but remains on the zero-score floor. Raw discrimination rises from 0.509915 to 0.547923, still fairly close to chance (0.5). Raw direction-fidelity yield rises from 0.017572 to 0.074675; this measures correct significant calls relative to the larger response budget, not the fraction of predicted signs that are correct. Raw significant-set Jaccard rises from 0.007733 to 0.013545.
+
+V2 is a measurable improvement on this validation panel and remains below the zero-score anchor. The comparison changes reference data, filtering, coverage, transfer and simulation together, so it cannot attribute the gain to one component. Direction fidelity remains the dominant negative term. Next improvements should address context-dependent response transfer and correctly directed response coverage, while checking source specificity. Aggregate metrics cannot separate missed responses from wrong predicted directions.
+
+Records: `leaderboard_result.json`, `published_api_status.json` and `leaderboard_comparison.csv` in the experiment analysis directory. The first submission's historical result is retained.

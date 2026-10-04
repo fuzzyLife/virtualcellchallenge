@@ -1,0 +1,27 @@
+{
+  "source": "User-provided CLI publication output, independently confirmed by read-only vcc status --json.",
+  "reported_date": "2026-10-04",
+  "recorded_utc": "2026-10-04T07:38:52.772683+00:00",
+  "entry_id": "ENmII1VynYrgpB2KICPC",
+  "model_name": "Donor-calibrated CD4 hybrid v2",
+  "final_status": "published",
+  "rank_at_publication": 1105,
+  "rank_at_api_check": 1104,
+  "overall": -0.22332546152913602,
+  "metrics": {
+    "pds": 0.10304185012157518,
+    "mse": 0,
+    "nmae": 0.03235229245340384,
+    "fid": -1.4704126743204722,
+    "reach": 0.041379655933523975,
+    "jac": -0.04631389336284677
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "faa73819d4638e4179d9d2b8dac726a1516cfce5d85a867a87c1e152c1b39656",
+  "upload_bytes": 3307438080,
+  "upload_duration_seconds": 789,
+  "overall_change_from_first": 0.05296439607025499,
+  "interpretation": "All five non-expression scaled components improve; expression scaled score remains zero despite modestly lower raw error. Direction-fidelity yield improves but remains the dominant negative component. Raw fidelity is yield normalized by response budget, not simple sign precision."
+}
