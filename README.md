@@ -237,3 +237,19 @@ Validation passed for all 55,200 cell rows, 120,000 sampled pair rows and 900 ge
 Five nested target-grouped donor folds selected the same CD4 uncertainty estimator: relative source error 0.984254 versus V2 0.986857. H1 held-target/disjoint-batch selection error is 0.802987 relative to zero response. These are source-domain results, not hidden VCC accuracy estimates. All contexts have downstream estimates for 284 targets. Each context uses a common set of 400 distinct, guide/depth-balanced controls across its targets to reduce baseline sampling differences. Generation uses the existing zero-aware integer simulator and is isolated in `experiments/v3_context_ensemble/`.
 
 Root code: `extract_h1_responses.py`, `fit_context_ensemble.py`, `test_context_ensemble.py`, `validate_v3.py`, `audit_v3_effects.py` and `plot_v3_strategy.py`, plus the ensemble integration in `build_submission.py`. Source/model axes, fold separation, checksums and control templates passed validation; all 19 generation/model regression tests passed. The 3,305,861,120-byte package passed official preparation, complete count/label validation and 333,594 independent gene-count expectation checks across 18 selected groups. It is ready at `experiments/v3_context_ensemble/prediction.vcc`; package checksum and validation evidence are recorded in the candidate's `analysis/` directory. No new leaderboard score is available until upload and scoring.
+
+## Complete-matrix rank clustering of A/B/C controls
+
+`cluster_full_rank_matrix.py` clusters all 55,200 original cells together on all 18,533 measured genes using raw average-rank Spearman geometry. Zeros remain valid tied measurements; there are no pseudocounts, log transforms, gene filters or count normalization. Context labels are withheld from fitting. Full-gene spherical clustering is evaluated at K=2..6 and K=3 is repeated with a second seed. PCA is used only to display the fitted cells.
+
+Both independent three-cluster fits recover A, B and C perfectly: each cluster contains all 18,400 cells of one context, with no mixing (ARI/NMI/purity 1.0). All-peer mean correlations are approximately 0.63 within contexts and 0.44–0.51 across contexts. Higher K mostly isolates single cells; K=6 additionally separates 1,013 B cells. The 1,500-cell silhouette sample omits singleton clusters, so its tied K=3/4/5 scores do not prove that the full partitions are equally good. Count-depth gradients remain within the clusters, and context separation may include batch effects.
+
+[Methods and reproduction](FULL_RANK_CLUSTERING.md) and [results](FULL_RANK_CLUSTERING_RESULTS.md) document every step. `analysis/full_rank_clustering/per_cell_full_rank_clusters.csv` contains the original cell IDs, every fitted cluster assignment, depth/detection, centroid correlations/margins, exact all-peer context means and eight display PCs. Other outputs include complete composition tables, convergence histories, depth/guide diagnostics, source/output hashes, saved centroids and a PNG/PDF figure.
+
+```cmd
+.\.competition_env\Scripts\python.exe -m unittest test_full_rank_clustering -v
+.\.competition_env\Scripts\python.exe cluster_full_rank_matrix.py --seed 20261004 --threads 12
+.\.competition_env\Scripts\python.exe validate_full_rank_clustering.py
+```
+
+Three focused tests and an independent validator cover original identifiers, gene order, SHA-256 provenance, metric/composition consistency, raw-count reranking, saved-model assignments, PCA coordinates and full-gene sample silhouettes. These results characterize the supplied controls; they do not establish anonymous cell identities or perturbation-response accuracy.

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "all_cell_identifier_checks": 55200,
+  "original_full_gene_cells_spot_checked": 60,
+  "cluster_assignments_spot_checked": 360,
+  "scipy_spearman_cell_pair_checks": 105,
+  "silhouette_sample_independently_reranked_cells": 1500,
+  "silhouette_scores_checked": 6,
+  "checks": "Input/output/script SHA256, gene axis, all IDs, compositions, ARI/NMI/purity, all fits converged, six-model assignments and PCA from raw rows"
+}

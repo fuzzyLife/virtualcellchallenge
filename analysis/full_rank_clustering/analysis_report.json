@@ -1,0 +1,202 @@
+{
+  "created_utc": "2026-10-04T13:48:14.109664+00:00",
+  "seed": 20261004,
+  "threads": 12,
+  "cells": 55200,
+  "genes": 18533,
+  "inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "cells": 18400,
+      "genes": 18533,
+      "nonfinite_values": 0
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "cells": 18400,
+      "genes": 18533,
+      "nonfinite_values": 0
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "cells": 18400,
+      "genes": 18533,
+      "nonfinite_values": 0
+    }
+  ],
+  "method": "Full-gene unit-centered average ranks, MiniBatchKMeans initialization, exact spherical refinement",
+  "metric": "Spearman rho = dot(unit-centered ranks); silhouette distance = 1 - rho",
+  "missing_policy": "All provided values verified finite; reject any missing value rather than impute",
+  "transform": "No pseudocount, log, CPM, gene filtering, or gene standardization; zeros are tied valid values",
+  "labels_used_for_fit": false,
+  "pca_used_for_fit": false,
+  "silhouette_sample_cells": 1500,
+  "silhouette_context_labels": 0.26977232098579407,
+  "k3_repeat_ARI": 1.0,
+  "best_sample_silhouette_k": 3,
+  "guide_within_context_NMI": {
+    "A": 0.0,
+    "B": 0.0,
+    "C": 0.0
+  },
+  "versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.14.3",
+  "elapsed_seconds": 206.28570849998505,
+  "scripts": {
+    "cluster_full_rank_matrix.py": "e4ea7125ce4646f281841f063081b90629ab5d391f8b5bd19577a3a3bde93897",
+    "test_full_rank_clustering.py": "a2c7979760ac2d9886a211646f2b78c5b2e986b3198db3b09668821231627260",
+    "validate_full_rank_clustering.py": "6e2e16a568c3517084b1d73b0fcb6450f581d86f7eb775adf615032b18b3f915"
+  },
+  "refinement_history": {
+    "k2_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 42403.336552768946
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 42403.61640062928
+      }
+    ],
+    "k3_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 43866.391768455505
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 43866.80204561353
+      }
+    ],
+    "k4_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 43866.59874925017
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 43867.010667324066
+      }
+    ],
+    "k5_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 43866.82774952054
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 43867.23855692148
+      }
+    ],
+    "k6_repeat0": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 43912.02189448476
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 3,
+        "sum_centroid_rho": 43912.78753620386
+      },
+      {
+        "iteration": 2,
+        "changed_cells": 0,
+        "sum_centroid_rho": 43912.78930363059
+      }
+    ],
+    "k3_repeat1": [
+      {
+        "iteration": 0,
+        "changed_cells": 55200,
+        "sum_centroid_rho": 43865.965652644634
+      },
+      {
+        "iteration": 1,
+        "changed_cells": 0,
+        "sum_centroid_rho": 43866.80204561353
+      }
+    ]
+  },
+  "outputs": {
+    "all_peer_context_mean_correlations.csv": {
+      "bytes": 261,
+      "sha256": "de65242eba9d76f3b84f6c89220312daa87bc9fbf06a1a8415e7a01dfc9d751a"
+    },
+    "cluster_composition_all_fits.csv": {
+      "bytes": 1344,
+      "sha256": "38f2d24279b239871dc84b1136b9f470b0e6f8294c08157e1186a9db9264860f"
+    },
+    "cluster_composition_k3.csv": {
+      "bytes": 218,
+      "sha256": "6783fbee5dbd8be9c620714c435edccf16e8d2e65ab3fe1991bbc7d9da97e92a"
+    },
+    "cluster_metrics.csv": {
+      "bytes": 793,
+      "sha256": "43adf53b2654ed346ec0352c5a5c01a2f7ec872b2f4c628d56801edd10d44952"
+    },
+    "cluster_models.npz": {
+      "bytes": 1722052,
+      "sha256": "db5eb515e45710ffeb0e98fda46332940f6a340569ae970015acaf75b7d82273"
+    },
+    "depth_quintile_composition.csv": {
+      "bytes": 690,
+      "sha256": "008bda2d35c8074335755fcc359bfdc136239857d2d332beb69a004fa0e7e7ea"
+    },
+    "full_rank_clusters.pdf": {
+      "bytes": 90713,
+      "sha256": "ce702991c6992fd161203d9f0d105d56a2b3e8fe94730fa522430f060541c3f4"
+    },
+    "full_rank_clusters.png": {
+      "bytes": 453144,
+      "sha256": "328894b638e1b2683b62323972b2f62c16b8078fc01a92e95efa5c5f6dc131a9"
+    },
+    "gene_axis.csv": {
+      "bytes": 137829,
+      "sha256": "5822df63a0c7bc171f52d2d42cef5635ecef36cb87a9599723031dc63a2f2238"
+    },
+    "guide_composition.csv": {
+      "bytes": 11893,
+      "sha256": "645e1369a8a96847b4c51e31a840a8d420861ee512ca90658c9833ef70c05f49"
+    },
+    "pca_variance.csv": {
+      "bytes": 152,
+      "sha256": "d939421b76a64fc2d760a76d2e7f6f120031d29cdedd41ef5cabf693676f122d"
+    },
+    "pc_depth_correlations.csv": {
+      "bytes": 1904,
+      "sha256": "02b065123c8d849fdaedca3ee33864ada221c99a9327d8df8339190e175c90c0"
+    },
+    "per_cell_full_rank_clusters.csv": {
+      "bytes": 14603077,
+      "sha256": "387a3c754d642d3c31ae8732f5043d8c7dbd51e43636205e2e2198dc21a34a88"
+    },
+    "silhouette_sample.csv": {
+      "bytes": 31217,
+      "sha256": "b946b9a94ed398e9d3a53d4f80b49b77a6ac7a6dbbe2eb60cbe473029a75fb6e"
+    },
+    "within_context_dispersion.csv": {
+      "bytes": 1279,
+      "sha256": "ce0343ce0d57bad70decfcffc4ec91cfeefaffed9d8eaa9043f591cc18c40bb5"
+    }
+  },
+  "report_render_note": "Text rendering refactored after the numerical run to derive higher-K descriptions from observed tables; numerical fitting code and outputs unchanged."
+}
