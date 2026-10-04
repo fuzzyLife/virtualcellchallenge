@@ -201,3 +201,7 @@ V2 is already published. Its completed upload command is documented below; a cha
 ```
 
 The generator validates and packages locally; it does not upload. Original root-level prediction files remain the first submission.
+
+## Single CSV of supplied competition controls
+
+`competition_controls_combined.csv` combines every supplied raw count and control-cell identifier, with genes as rows and context-prefixed cell columns. It also contains target-list flags and panel annotations. See [COMBINED_CSV.md](COMBINED_CSV.md) for the schema, training limitations and streaming loader. Regenerate with `export_competition_csv.py`; verification is recorded in `analysis/combined_csv_export.json`. The large CSV and temporary cache are excluded from Git.

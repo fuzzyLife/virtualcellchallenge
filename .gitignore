@@ -254,3 +254,7 @@ __marimo__/
 /experiments/**/analysis/*.txt
 !/experiments/**/analysis/test_results.txt
 !/experiments/**/analysis/official_prep_stderr.txt
+
+# Full competition CSV export and temporary sparse transpose cache
+/competition_controls_combined.csv
+/analysis/competition_csv_cache/

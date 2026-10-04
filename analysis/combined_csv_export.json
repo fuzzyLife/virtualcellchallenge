@@ -1,0 +1,90 @@
+{
+  "created_utc": "2026-10-04T08:33:31.968142+00:00",
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\competition_controls_combined.csv",
+  "bytes": 2076031902,
+  "layout": "genes_as_rows_cells_as_columns",
+  "gene_rows": 18533,
+  "cell_columns": 55200,
+  "annotation_columns": [
+    "gene_name",
+    "gene_index_1based",
+    "is_requested_knockdown_target",
+    "requested_target_index_1based",
+    "requested_cells_per_target_context",
+    "season",
+    "partition",
+    "panel_id",
+    "source_url",
+    "count_unit",
+    "observed_target_gene",
+    "has_observed_knockdown_responses",
+    "panel_gene_count",
+    "panel_target_count",
+    "panel_required_cells_per_target",
+    "panel_required_prediction_cells_total",
+    "context_A_control_cells",
+    "context_A_control_guides",
+    "context_A_ground_truth_cells_declared",
+    "context_A_gene_total_raw_count",
+    "context_A_gene_detected_control_cells",
+    "context_B_control_cells",
+    "context_B_control_guides",
+    "context_B_ground_truth_cells_declared",
+    "context_B_gene_total_raw_count",
+    "context_B_gene_detected_control_cells",
+    "context_C_control_cells",
+    "context_C_control_guides",
+    "context_C_ground_truth_cells_declared",
+    "context_C_gene_total_raw_count",
+    "context_C_gene_detected_control_cells"
+  ],
+  "total_columns": 55231,
+  "requested_target_genes": 300,
+  "provided_control_cells": {
+    "A": 18400,
+    "B": 18400,
+    "C": 18400
+  },
+  "numeric_gene_major_int32_sha256": "92f55ac8be08b138d675b3bb1af0ff91b57f6d002a14b6a0438868ccc1d4c376",
+  "csv_sha256": "595a7f693b4638627059abbe82c58b468d39f95b4733c09430682c12f8892013",
+  "source_files": {
+    "manifest.json": {
+      "bytes": 715,
+      "sha256": "2c2b5d425df817ca35e9edf08282d12494ce42913ba824375bf0f98a1cc676f5"
+    },
+    "gene_names.csv": {
+      "bytes": 119295,
+      "sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201"
+    },
+    "pert_counts.csv": {
+      "bytes": 1906,
+      "sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276"
+    },
+    "context_A.h5ad": {
+      "bytes": 224973316,
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    "context_B.h5ad": {
+      "bytes": 210966111,
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    "context_C.h5ad": {
+      "bytes": 226056691,
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  },
+  "scope": "All provided competition control count matrices and metadata; no observed knockdown-response labels, external references or generated predictions.",
+  "count_transformation": "None: raw counts retained exactly, implicit sparse zeros serialized as zeros.",
+  "validation": {
+    "completed": true,
+    "every_numeric_value_roundtripped": true,
+    "every_gene_and_cell_identifier_checked": true,
+    "all_cell_totals_match": true,
+    "all_context_gene_totals_match": true,
+    "nonzeros": 319671238,
+    "gene_rows": 18533,
+    "target_flags": 300
+  },
+  "export_script_sha256": "90afd284f2bad33998abd7184f97e1a0a88063c61914d324008784a6c64908be",
+  "synthetic_transpose_and_corruption_test_passed": true
+}
