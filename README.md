@@ -205,3 +205,11 @@ The generator validates and packages locally; it does not upload. Original root-
 ## Single CSV of supplied competition controls
 
 `competition_controls_combined.csv` combines every supplied raw count and control-cell identifier, with genes as rows and context-prefixed cell columns. It also contains target-list flags and panel annotations. See [COMBINED_CSV.md](COMBINED_CSV.md) for the schema, training limitations and streaming loader. Regenerate with `export_competition_csv.py`; verification is recorded in `analysis/combined_csv_export.json`. The large CSV and temporary cache are excluded from Git.
+
+## Per-cell similarity to five external references
+
+`prepare_reference_controls.py` and `analyze_cell_reference_correlations.py` compare every A/B/C control cell with pooled non-targeting expression profiles from K562, HCT116, HEK293T, H1 and CD4. The primary Pearson comparison uses log1p(CPM) on a single common measured gene axis, with Spearman and other sensitivity analyses. All 55,200 competition cells are retained. External references are batch-limited or deterministically sampled, as detailed in [CELL_REFERENCE_CORRELATIONS.md](CELL_REFERENCE_CORRELATIONS.md).
+
+Results, per-cell CSVs, provenance, and a comparison figure are saved under `analysis/cell_reference_correlations/`. This checks basal similarity; it does not establish anonymous cell identities or validate knockdown-response transfer.
+
+The completed five-reference comparison uses 7,447 common genes. Median cell-to-reference correlations favor CD4 for A (0.4821) and H1 for B/C (0.4635/0.4766). All 55,200 output rows passed independent identifier, summary and checksum validation, with 45 actual-cell/reference spot checks and three focused tests. See [CELL_REFERENCE_CORRELATION_RESULTS.md](CELL_REFERENCE_CORRELATION_RESULTS.md) for the full tables and sensitivity analyses.

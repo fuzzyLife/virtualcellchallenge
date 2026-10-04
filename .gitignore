@@ -258,3 +258,13 @@ __marimo__/
 # Full competition CSV export and temporary sparse transpose cache
 /competition_controls_combined.csv
 /analysis/competition_csv_cache/
+
+# External control-profile preparation and temporary extraction diagnostics
+/reference/control_profiles/
+/analysis/*control_inspection.txt
+/analysis/cd4_data_sharing_readme.txt
+/analysis/reference_*extension.txt
+/analysis/reference_controls_*.log
+/analysis/cell_reference_correlations/*.log
+/analysis/correlation_results_extension.txt
+/analysis/cell_reference_correlations_run.log

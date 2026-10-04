@@ -1,0 +1,327 @@
+{
+  "passed": true,
+  "complete_rows": 55200,
+  "complete_cell_ids_guides_and_contexts_match": true,
+  "all_numeric_values_finite": true,
+  "all_output_csv_sha256_match": true,
+  "all_summary_medians_and_winner_counts_match": true,
+  "independent_original_count_spot_checks": [
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "pearson": 0.30792605222076197,
+      "spearman": 0.3566588612111331
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "pearson": 0.30673196384181906,
+      "spearman": 0.3436176884277007
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "pearson": 0.30318050014182163,
+      "spearman": 0.3340997301348575
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "pearson": 0.37792739804414627,
+      "spearman": 0.42125762400932576
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "pearson": 0.48314589105185457,
+      "spearman": 0.5389630840987811
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "pearson": 0.30175927689498844,
+      "spearman": 0.3514468500659758
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "pearson": 0.31179764952090505,
+      "spearman": 0.35105252110406265
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "pearson": 0.3151611171440576,
+      "spearman": 0.341285682673932
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "pearson": 0.3859681231514914,
+      "spearman": 0.4278894549942881
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "pearson": 0.4670106592995803,
+      "spearman": 0.5277634613998617
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "pearson": 0.26100775915631386,
+      "spearman": 0.30088625397425367
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "pearson": 0.2675470995497253,
+      "spearman": 0.2947111858889292
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "pearson": 0.2670328879068662,
+      "spearman": 0.28561976138788764
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "pearson": 0.3503306510202781,
+      "spearman": 0.37864318470498204
+    },
+    {
+      "context": "A",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "pearson": 0.4510120638742412,
+      "spearman": 0.5031609440273723
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "pearson": 0.24700540315497652,
+      "spearman": 0.29900530299905564
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "pearson": 0.33024420500226653,
+      "spearman": 0.36285187245341655
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "pearson": 0.3188299078694187,
+      "spearman": 0.3365560802869061
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "pearson": 0.5004418666254205,
+      "spearman": 0.5436376196075393
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "pearson": 0.43137259856559657,
+      "spearman": 0.4908485296020932
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "pearson": 0.24331975479594867,
+      "spearman": 0.27579136968905754
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "pearson": 0.300238202675296,
+      "spearman": 0.3251455872971179
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "pearson": 0.28691407045103656,
+      "spearman": 0.30867005340137943
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "pearson": 0.4355187908583348,
+      "spearman": 0.47573451765498953
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "pearson": 0.36722753286815185,
+      "spearman": 0.4254894611979508
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "pearson": 0.23283047715952412,
+      "spearman": 0.2700153989271173
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "pearson": 0.3074162205332021,
+      "spearman": 0.3291251303806926
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "pearson": 0.29339435932365726,
+      "spearman": 0.30766707314184716
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "pearson": 0.4422182305934433,
+      "spearman": 0.4811222471645167
+    },
+    {
+      "context": "B",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "pearson": 0.3912395527703307,
+      "spearman": 0.4515331958825382
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "K562",
+      "pearson": 0.27381996737215253,
+      "spearman": 0.3295974812072575
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "HCT116",
+      "pearson": 0.4110781329156564,
+      "spearman": 0.4315488970763807
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "HEK293T",
+      "pearson": 0.32208268356583913,
+      "spearman": 0.3375827355964728
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "H1",
+      "pearson": 0.5588346245378912,
+      "spearman": 0.5993595103991383
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 0,
+      "reference": "CD4",
+      "pearson": 0.48469996736972487,
+      "spearman": 0.5527234519272214
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "K562",
+      "pearson": 0.24022672151192756,
+      "spearman": 0.27330351049184765
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "HCT116",
+      "pearson": 0.3552908269518596,
+      "spearman": 0.3775740266502761
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "HEK293T",
+      "pearson": 0.28152884474455847,
+      "spearman": 0.29200880328233614
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "H1",
+      "pearson": 0.47065515166559235,
+      "spearman": 0.5110176077079946
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 9199,
+      "reference": "CD4",
+      "pearson": 0.4125441870369762,
+      "spearman": 0.4780511398041793
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "K562",
+      "pearson": 0.2509834881202815,
+      "spearman": 0.28382421360375343
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "HCT116",
+      "pearson": 0.3462585531372768,
+      "spearman": 0.3651966131708914
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "HEK293T",
+      "pearson": 0.2935360636698722,
+      "spearman": 0.3010047108394391
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "H1",
+      "pearson": 0.4701152170274237,
+      "spearman": 0.5107457471989736
+    },
+    {
+      "context": "C",
+      "cell_index_0based": 18399,
+      "reference": "CD4",
+      "pearson": 0.39063578691581746,
+      "spearman": 0.4486869701123053
+    }
+  ],
+  "real_cell_reference_pairs_checked": 45,
+  "validator_sha256": "b3fc9ba93c931222b4e47172e26f377569341726c197021200968c2cb5da0c58"
+}
