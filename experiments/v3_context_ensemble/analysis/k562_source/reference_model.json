@@ -1,0 +1,64 @@
+{
+  "source_cell_lines": [
+    "K562"
+  ],
+  "source_genes": 8248,
+  "unique_source_genes": 8246,
+  "shared_genes": 7681,
+  "targets_with_reference": 260,
+  "targets_total": 300,
+  "core_control_profiles": 503,
+  "source_control_cells": 75094,
+  "source_construct_agreement_diagnostic": {
+    "shrinkage": 0.0,
+    "relative_lfc_mse": 1.0,
+    "n_gene_comparisons": 2642102,
+    "n_construct_pairs": 172
+  },
+  "transfer_settings": {
+    "shrinkage": 0.3,
+    "temperature": 0.0
+  },
+  "transfer_shrinkage_assumption": "Fixed 0.3 log2-effect shrinkage after Poisson-noise soft thresholding; cross-context accuracy is unvalidated.",
+  "noise_z_assumption": 1.96,
+  "validation_scope": "Exploratory source K562 construct agreement only; separate promoter interventions are not independent technical replicates. No cross-context validation or VCC score.",
+  "candidates": [
+    {
+      "shrinkage": 0.0,
+      "relative_lfc_mse": 1.0,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    },
+    {
+      "shrinkage": 0.15,
+      "relative_lfc_mse": 1.0144438594036402,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    },
+    {
+      "shrinkage": 0.3,
+      "relative_lfc_mse": 1.0738877188072806,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    },
+    {
+      "shrinkage": 0.5,
+      "relative_lfc_mse": 1.223146198012134,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    },
+    {
+      "shrinkage": 0.7,
+      "relative_lfc_mse": 1.4524046772169887,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    },
+    {
+      "shrinkage": 1.0,
+      "relative_lfc_mse": 1.946292396024268,
+      "n_gene_comparisons": 2642102,
+      "n_construct_pairs": 172
+    }
+  ],
+  "source_file_sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db"
+}

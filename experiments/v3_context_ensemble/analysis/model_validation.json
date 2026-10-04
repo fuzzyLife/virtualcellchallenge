@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "context_specific_effect_shape": [
+    3,
+    300,
+    18533
+  ],
+  "outer_target_fold_leakage_check": true,
+  "cd4_nested_relative_zero_loss": 0.9842544354338111,
+  "v2_cd4_relative_zero_loss": 0.9868574155121146,
+  "h1_nested_relative_zero_loss": 0.8029865293624989,
+  "template_checks": [
+    {
+      "context": "A",
+      "cells": 400,
+      "guides": 46,
+      "min_cells_per_guide": 8,
+      "max_cells_per_guide": 9,
+      "depth_ks_statistic": 0.019130434782608674,
+      "template_depth_mean": 21026.578125,
+      "all_controls_depth_mean": 21133.53581521739
+    },
+    {
+      "context": "B",
+      "cells": 400,
+      "guides": 46,
+      "min_cells_per_guide": 8,
+      "max_cells_per_guide": 9,
+      "depth_ks_statistic": 0.01804347826086955,
+      "template_depth_mean": 19922.36328125,
+      "all_controls_depth_mean": 19989.939891304348
+    },
+    {
+      "context": "C",
+      "cells": 400,
+      "guides": 46,
+      "min_cells_per_guide": 8,
+      "max_cells_per_guide": 9,
+      "depth_ks_statistic": 0.018695652173913058,
+      "template_depth_mean": 21131.240234375,
+      "all_controls_depth_mean": 21156.536304347825
+    }
+  ],
+  "model_sha256": "437dc6f263a0823420640e82ad0ecdc1a1fa577fa75853f910f4458f43511735",
+  "validator_sha256": "2dad6ecdb70b399bf06e502f8a5ff73d1d086cd9ef640dac01be1cc53c4c94a6",
+  "scope": "Source-only validation; no challenge perturbation labels or VCC score"
+}

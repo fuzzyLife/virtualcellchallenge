@@ -274,3 +274,6 @@ __marimo__/
 
 /analysis/target_cell_dispersion_run.log
 /analysis/target_cell_dispersion/*.log
+/reference/h1_response/
+/experiments/v3_context_ensemble/*.log
+!/experiments/**/analysis/*.pdf

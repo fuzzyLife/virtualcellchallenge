@@ -1,0 +1,13 @@
+{
+  "scope": "Against supplied controls only, NOT response accuracy or a VCC score",
+  "targets": [
+    "ABCD1",
+    "AKT2",
+    "ALG12",
+    "POR",
+    "SMARCA5",
+    "ZNF526"
+  ],
+  "selection": "Four source-energy quantiles, one H1 target and one K562-only target; deliberately nonrandom",
+  "rank_test": "Existing independently checked CPM Mann-Whitney/BH audit; not a local competition scorer"
+}

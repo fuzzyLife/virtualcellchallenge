@@ -1,0 +1,15 @@
+{
+  "conditions": {
+    "Rest": 194,
+    "Stim8hr": 206,
+    "Stim48hr": 204
+  },
+  "measured_genes": 10113,
+  "targets_any_condition": 223,
+  "settings": {
+    "kind": "eb",
+    "tau2": 0.04,
+    "alpha": 0.5,
+    "prior": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-04T12:41:47.110368+00:00",
+  "seed": 20261005,
+  "knockdown_fraction_assumption": 0.9,
+  "model": "Context-specific uncertainty-calibrated CD4 condition ensemble with measured H1 and conservative K562 fallback",
+  "reference_kind": "context-ensemble",
+  "transfer_shrinkage": 0.3,
+  "noise_z": 1.96,
+  "upward_mode": "zero-aware",
+  "output_dir": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v3_context_ensemble",
+  "versions": {
+    "vcc-cli": "0.2.2",
+    "anndata": "0.13.4",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "pandas": "3.0.1",
+    "duckdb": "1.4.4",
+    "pyarrow": "23.0.1"
+  },
+  "script_sha256": "d6249f1c16c87eb31bdcdf52dcedc892cd03cc7444d3e3ba4bfdbbacbf5ca77b",
+  "limitations": [
+    "No challenge perturbation ground truth: no local VCC score.",
+    "Transferred effects cover only reference-measured genes and targets.",
+    "No induction in genes absent from all context controls.",
+    "Cell-line and assay differences can limit transfer."
+  ]
+}

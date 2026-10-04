@@ -1,0 +1,27 @@
+test_analysis_outputs_are_isolated_from_input_root (test_submission.SubmissionTests.test_analysis_outputs_are_isolated_from_input_root) ... ok
+test_cached_rank_test_matches_scipy_with_ties_and_zeros (test_submission.SubmissionTests.test_cached_rank_test_matches_scipy_with_ties_and_zeros) ... ok
+test_changed_model_cannot_overwrite_first_submission_root (test_submission.SubmissionTests.test_changed_model_cannot_overwrite_first_submission_root) ... ok
+test_factors_mapping_and_unseen_target_fallback (test_submission.SubmissionTests.test_factors_mapping_and_unseen_target_fallback) ... ok
+test_quantile_bin_boundaries_never_duplicate_cells (test_submission.SubmissionTests.test_quantile_bin_boundaries_never_duplicate_cells) ... ok
+14:36:53 Reference coverage 1/2 targets, 4 genes; source construct pairs 0; transfer shrinkage 0.3
+14:36:53 Reference coverage 1/2 targets, 4 genes; source construct pairs 0; transfer shrinkage 0.7
+test_reference_suppression_and_shrinkage_are_separate_settings (test_submission.SubmissionTests.test_reference_suppression_and_shrinkage_are_separate_settings) ... ok
+test_simulation_response_and_unchanged_input (test_submission.SubmissionTests.test_simulation_response_and_unchanged_input) ... ok
+test_stratification_balance_and_reproducibility (test_submission.SubmissionTests.test_stratification_balance_and_reproducibility) ... ok
+test_stream_roundtrip_and_official_package (test_submission.SubmissionTests.test_stream_roundtrip_and_official_package) ... ok
+test_zero_aware_increases_activate_zeros_and_preserve_expected_mean (test_submission.SubmissionTests.test_zero_aware_increases_activate_zeros_and_preserve_expected_mean) ... ok
+test_alignment_handles_reordered_axes_and_excludes_own_target (test_cd4_model.CD4Tests.test_alignment_handles_reordered_axes_and_excludes_own_target) ... ok
+Selected donor settings {'fdr_threshold': 0.01, 'transfer_shrinkage': 1.0, 'relative_lfc_mse': 0.0, 'selected_direction_pairs': 20, 'selected_direction_agreement': 1.0, 'contrasts': 20, 'targets': 20, 'genes': 21}
+test_donor_selection_uses_downstream_agreement_not_on_target (test_cd4_model.CD4Tests.test_donor_selection_uses_downstream_agreement_not_on_target) ... ok
+test_hybrid_averages_conditions_and_preserves_unmeasured_fallback (test_cd4_model.CD4Tests.test_hybrid_averages_conditions_and_preserves_unmeasured_fallback) ... ok
+test_missing_basal_avoids_invented_context_correlations (test_cd4_model.CD4Tests.test_missing_basal_avoids_invented_context_correlations) ... ok
+test_quality_filters_reject_each_known_failure (test_cd4_model.CD4Tests.test_quality_filters_reject_each_known_failure) ... ok
+test_blending_renormalizes_measured_gene_support (test_context_ensemble.ContextEnsembleTests.test_blending_renormalizes_measured_gene_support) ... ok
+test_context_specific_model_requires_named_context (test_context_ensemble.ContextEnsembleTests.test_context_specific_model_requires_named_context) ... ok
+test_target_folds_do_not_split_conditions (test_context_ensemble.ContextEnsembleTests.test_target_folds_do_not_split_conditions) ... ok
+test_uncertainty_shrinkage_and_zero_anchor (test_context_ensemble.ContextEnsembleTests.test_uncertainty_shrinkage_and_zero_anchor) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 19.919s
+
+OK

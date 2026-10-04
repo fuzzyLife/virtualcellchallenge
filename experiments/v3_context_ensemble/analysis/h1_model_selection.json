@@ -1,0 +1,36 @@
+{
+  "selected": {
+    "alpha": 0.7,
+    "noise_z": 1.0,
+    "relative_zero_loss": 0.8029865293624991,
+    "targets": 13
+  },
+  "nested_target_holdout_relative_zero_loss": 0.8029865293624989,
+  "accepted_targets": 13,
+  "source_targets": 13,
+  "validation_targets": 13,
+  "scope": "Disjoint public 2025 source batches, not challenge or cross-cell-type validation",
+  "source": {
+    "source": {
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+      "bytes": 15482497461,
+      "etag": "\"-CKCuwqrMwpEDEAE=\""
+    },
+    "public_release": "2025 training only",
+    "selection": "First source-ordered 32 controls per batch; first N target cells per target/batch, adaptive bounded plan",
+    "target_cells_per_batch": 2,
+    "targets": 13,
+    "selected_cells": 2772,
+    "control_cells": 1536,
+    "genes": 18080,
+    "range_bytes_used": 1635264949,
+    "downloaded_this_run": 741867520,
+    "byte_budget": 2147483648,
+    "counts_sha256": "6d2f9389735ee1c29dc6b71fee55c4b5b0067af8e95c3fc9e034bee414bd3a33",
+    "selected_cells_sha256": "b43c1cd3ef36767ece5f2fb55b5d70f6d291f6bfe09f4aa2f5a2a79856fa7bc0",
+    "gene_names_sha256": "78be667f0e5c7b515d8403fda699f3aed19dc7207a2ccf9233b0b927a4a90723",
+    "script_sha256": "660d9fb626eab5eaf9691bf1c764f0b4e2660a31ecc70db226f130578c353f63"
+  },
+  "gene_response_definition": "Batch-matched mean CPM log2 ratio with 1-CPM continuity value; sampling SE soft threshold; genes with control CPM <=5 excluded",
+  "quality": "At least 40 selected cells and >=30% measured source on-target reduction; requires nonzero settings and held-target selection error below zero response"
+}

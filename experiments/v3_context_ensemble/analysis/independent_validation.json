@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "all_groups": 900,
+  "cells_per_group": 400,
+  "shape": [
+    360000,
+    18533
+  ],
+  "source_model_validation_passed": true,
+  "official_prep_passed": true,
+  "package_sha256_matches": true,
+  "independent_count_expectation_groups": [
+    {
+      "context": "A",
+      "target_gene": "ABCD1",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21026.255
+    },
+    {
+      "context": "A",
+      "target_gene": "AKT2",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21034.26
+    },
+    {
+      "context": "A",
+      "target_gene": "ALG12",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21021.9575
+    },
+    {
+      "context": "A",
+      "target_gene": "POR",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21017.915
+    },
+    {
+      "context": "A",
+      "target_gene": "SMARCA5",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 20839.0725
+    },
+    {
+      "context": "A",
+      "target_gene": "ZNF526",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 20975.9725
+    },
+    {
+      "context": "B",
+      "target_gene": "ABCD1",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19920.16
+    },
+    {
+      "context": "B",
+      "target_gene": "AKT2",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19926.5625
+    },
+    {
+      "context": "B",
+      "target_gene": "ALG12",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19919.46
+    },
+    {
+      "context": "B",
+      "target_gene": "POR",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19905.105
+    },
+    {
+      "context": "B",
+      "target_gene": "SMARCA5",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19963.9
+    },
+    {
+      "context": "B",
+      "target_gene": "ZNF526",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 19876.6275
+    },
+    {
+      "context": "C",
+      "target_gene": "ABCD1",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21130.835
+    },
+    {
+      "context": "C",
+      "target_gene": "AKT2",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21121.0575
+    },
+    {
+      "context": "C",
+      "target_gene": "ALG12",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21129.9925
+    },
+    {
+      "context": "C",
+      "target_gene": "POR",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21102.9925
+    },
+    {
+      "context": "C",
+      "target_gene": "SMARCA5",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21243.8925
+    },
+    {
+      "context": "C",
+      "target_gene": "ZNF526",
+      "group_cells": 400,
+      "unchanged_gene_sums_exact": true,
+      "count_expectations_within_tolerance": true,
+      "gene_tests": 18533,
+      "mean_library": 21104.5075
+    }
+  ],
+  "sampled_gene_count_expectation_checks": 333594,
+  "validator_sha256": "2dad6ecdb70b399bf06e502f8a5ff73d1d086cd9ef640dac01be1cc53c4c94a6",
+  "scope": "Numerical validity and simulation checks; no hidden-label accuracy estimate"
+}

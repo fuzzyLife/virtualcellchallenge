@@ -1,0 +1,26 @@
+{
+  "contexts": [
+    {
+      "context": "A",
+      "targets_with_nonzero_downstream_estimate": 284,
+      "downstream_pairs_above_abs_lfc_0p01": 1602188,
+      "downstream_pairs_above_abs_lfc_0p1": 27681,
+      "mean_target_effect_rms": 0.019233072686827453
+    },
+    {
+      "context": "B",
+      "targets_with_nonzero_downstream_estimate": 284,
+      "downstream_pairs_above_abs_lfc_0p01": 1601537,
+      "downstream_pairs_above_abs_lfc_0p1": 31769,
+      "mean_target_effect_rms": 0.019672466801753316
+    },
+    {
+      "context": "C",
+      "targets_with_nonzero_downstream_estimate": 284,
+      "downstream_pairs_above_abs_lfc_0p01": 1646847,
+      "downstream_pairs_above_abs_lfc_0p1": 35697,
+      "mean_target_effect_rms": 0.02073505715645159
+    }
+  ],
+  "scope": "Modeled effects only; more changes are not evidence of accuracy"
+}

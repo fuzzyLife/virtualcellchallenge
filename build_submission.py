@@ -76,7 +76,9 @@ def inventory(root, analysis):
                'prediction.h5ad', 'prediction.vcc', 'prediction.h5ad.partial',
                'prediction.vcc.partial', 'RUN_SUBMISSION.ps1', 'audit_prediction.py',
                'audit_source_stages.py', 'pilot_orion.py', 'plot_model_audit.py', 'MODEL_IMPROVEMENT.md',
-               'extract_cd4_reference.py', 'build_cd4_model.py', 'test_cd4_model.py', 'validate_v2.py'}
+               'extract_cd4_reference.py', 'build_cd4_model.py', 'test_cd4_model.py', 'validate_v2.py',
+               'competition_controls_combined.csv', 'extract_h1_responses.py',
+               'fit_context_ensemble.py', 'test_context_ensemble.py', 'validate_v3.py'}
     rows = []
     from pypdf import PdfReader
     for path in sorted(root.rglob('*')):
@@ -315,8 +317,18 @@ def reference_model(root, genes, targets, analysis, shrinkage=.3, noise_z=1.96):
     return effects, available, basal[None,:], dest_positions, choice, ['K562'], summary
 
 
-def context_factors(mean_cpm, model, genes, targets, knockdown):
+def context_factors(mean_cpm, model, genes, targets, knockdown, context=None):
     effects, available, basal, positions, choice, lines, _ = model
+    if model[6].get('context_specific', False):
+        if context not in lines:
+            raise ValueError('Context-specific model requires its named context')
+        ci = lines.index(context)
+        factors = np.exp2(effects[ci].astype(np.float64))
+        for ti, target in enumerate(targets):
+            factors[ti, int(np.flatnonzero(genes == target)[0])] = 1-knockdown
+        return factors, {'context': context, 'model': model[6]['model'],
+            'mixture_weights': model[6]['context_mixture_weights'][context],
+            'downstream_lfc_quantiles': quantiles(effects[ci].ravel())}
     local = mean_cpm[positions]
     local = local*1e6/local.sum()
     has_basal = model[6].get('basal_profile_available', True)
@@ -484,7 +496,7 @@ def main():
     parser.add_argument('--output-dir', type=Path, help='Separate experiment outputs; relative paths are resolved under --root')
     parser.add_argument('--transfer-shrinkage', type=float, default=.3)
     parser.add_argument('--noise-z', type=float, default=1.96)
-    parser.add_argument('--reference-kind', choices=['k562', 'cd4-hybrid'], default='k562')
+    parser.add_argument('--reference-kind', choices=['k562', 'cd4-hybrid', 'context-ensemble'], default='k562')
     parser.add_argument('--upward-mode', choices=['proportional', 'zero-aware'], default='proportional')
     parser.add_argument('--knockdown', type=float, default=.9)
     parser.add_argument('--analysis-only', action='store_true')
@@ -523,7 +535,10 @@ def main():
         if not args.analysis_only:
             if not (root/'reference'/'K562_gwps_raw_bulk_01.h5ad').exists():
                 subprocess.run([sys.executable, str(root/'download_reference.py'), '--root', str(root)], check=True)
-            if args.reference_kind == 'cd4-hybrid':
+            if args.reference_kind == 'context-ensemble':
+                from fit_context_ensemble import fit_model
+                model = fit_model(root, genes, targets, analysis)
+            elif args.reference_kind == 'cd4-hybrid':
                 from build_cd4_model import fit_model
                 model = fit_model(root, genes, targets, analysis, args.transfer_shrinkage, args.noise_z)
             else:
@@ -544,11 +559,21 @@ def main():
             gene_frames.append(stats)
             stats.to_csv(analysis/f'gene_statistics_{context}.csv', index=False)
             if not args.analysis_only:
-                factors, diag = context_factors(mean_cpm, model, genes, targets, args.knockdown)
+                factors, diag = context_factors(mean_cpm, model, genes, targets, args.knockdown, context=context)
                 diagnostics[context] = diag
+                common_rows = None
+                if args.reference_kind == 'context-ensemble':
+                    template = pd.read_csv(analysis/f'control_template_{context}.csv')
+                    common_rows = template.control_row.to_numpy(dtype=np.int64)
+                    if len(common_rows) != n or len(np.unique(common_rows)) != n:
+                        raise ValueError('Invalid shared control template')
+                    if not np.array_equal(template.ntc_id.to_numpy(), guides[common_rows]):
+                        raise ValueError('Shared control template guide mismatch')
+                    if not np.array_equal(template.total_counts.to_numpy(), libs[common_rows]):
+                        raise ValueError('Shared control template counts mismatch')
                 for ti, target in enumerate(targets):
                     rng = np.random.default_rng(np.random.SeedSequence([args.seed, ci, ti]))
-                    rows = guide_stratified_sample(guides, libs, n, rng)
+                    rows = common_rows if common_rows is not None else guide_stratified_sample(guides, libs, n, rng)
                     if args.upward_mode == 'zero-aware':
                         block = simulate_counts_zero_aware(x, rows, factors[ti], rng,
                                 stats['mean_raw_count'].to_numpy(), float(libs.mean()))
