@@ -221,3 +221,11 @@ The completed five-reference comparison uses 7,447 common genes. Median cell-to-
 See [TARGET_RANK_CORRELATIONS.md](TARGET_RANK_CORRELATIONS.md) for exact reproduction steps and [TARGET_RANK_CORRELATION_RESULTS.md](TARGET_RANK_CORRELATION_RESULTS.md) for regenerated results. Numeric outputs are in `analysis/target_rank_correlations/`.
 
 All 55,200 rows passed validation, including 45 independent original-count comparisons and 64 pooled-profile pairs; three focused tests passed. Median target-panel correlations favor CD4 for A and H1 for B. C is close between CD4 and H1, with the median-cell and pooled summaries favoring different references. See the method document for the completed-run interpretation.
+
+## Cell-level dispersion on the target panel
+
+`analyze_target_cell_dispersion.py` extends the 300-target Spearman analysis with per-cell external-reference dispersion, leave-one-out correlation to the cell's own context, and exact per-cell mean/SD against every other A/B/C cell. It computes all-pair means/SDs without storing a full pair matrix; 120,000 sampled pairs provide individual examples and approximate percentiles. Five external references are additionally compared on the same 231 genes. Raw-count variance for each target, count-depth associations and guide summaries are included.
+
+All 55,200 cells are included. Within-context cell-pair mean correlations are 0.4698/0.4949/0.4761 for A/B/C, higher than cross-context means (0.2378â€“0.3168). B has the largest within-context pair SD (0.0969). Correlation varies strongly with count depth, so these descriptive results do not isolate biological heterogeneity. See [TARGET_CELL_DISPERSION.md](TARGET_CELL_DISPERSION.md) for reproduction and [TARGET_CELL_DISPERSION_RESULTS.md](TARGET_CELL_DISPERSION_RESULTS.md) for tables and the figure. Outputs are in `analysis/target_cell_dispersion/`.
+
+Validation passed for all 55,200 cell rows, 120,000 sampled pair rows and 900 gene-variance rows. Independent checks included 27 explicitly enumerated all-peer mean/SD comparisons, 45 shared-axis reference correlations, nine leave-one-out correlations and 36 individual pairs against SciPy. Five focused tests passed; evidence is in `analysis/target_cell_dispersion/validation.json` and `test_results.txt`.

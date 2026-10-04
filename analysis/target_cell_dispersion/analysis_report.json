@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-04T11:39:08.967632+00:00",
+  "cells": 55200,
+  "target_genes": 300,
+  "common_reference_genes": 231,
+  "method": "Pairwise-valid Spearman on raw counts, average ties; measured zeros retained; no transforms",
+  "cell_peer_moments": "Exact first/second moments over every valid peer cell, excluding self; 300 genes; population SD",
+  "cell_pair_quantiles": "Uniform pairs with replacement, self excluded, same-context unordered; sampled quantiles only",
+  "sample_pairs_per_group": 20000,
+  "seed": 20261004,
+  "constant_cell_vectors": 0,
+  "external_scope": "Previously prepared pooled profiles, not individual external cells",
+  "raw_count_variance": "Sample variance ddof=1; depth-sensitive raw-count Fano factor, not biological overdispersion estimate",
+  "inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "cells": 18400
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "cells": 18400
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "cells": 18400
+    }
+  ],
+  "target_list_sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+  "previous_report_sha256": "9a9e1bdf5b2cb6071d82c5afe075b2f0b33080f5e0524320fd7ceabf317b4d5f",
+  "script_sha256": "2c83ab9db087d1816d8141bd61af5026705e7415a767db16a00fcfee6b20296a",
+  "outputs": {
+    "cell_dispersion.pdf": {
+      "bytes": 26537,
+      "sha256": "cd16b2dc2dfbfaeee7d90ada946672bf6a1b222946f35b0179ec4f914b9fc017"
+    },
+    "cell_dispersion.png": {
+      "bytes": 176173,
+      "sha256": "3ba7ff13caee22d11c628cda5d1b4d9a2fa587aa6cd1564d8fe269683c31eed7"
+    },
+    "cell_pair_dispersion_summary.csv": {
+      "bytes": 1877,
+      "sha256": "6a3d86794529483f6b2cd07df80a0f0ab52a1b6fb7f5c0789df5224dde073153"
+    },
+    "correlation_dispersion_summary.csv": {
+      "bytes": 10842,
+      "sha256": "02abc99371dc7102320caa2fec692c19404646b4fc387bfb7af7526fca30670f"
+    },
+    "count_depth_associations.csv": {
+      "bytes": 1660,
+      "sha256": "303d3fddd8822e3750799fc969df445b89b06f7a746dbbd58bf8b5b356385461"
+    },
+    "gene_axis.csv": {
+      "bytes": 3799,
+      "sha256": "fbe78ed2947466099ab4f2894449b24533b813d148c0a03e876ccc85ab6a4bec"
+    },
+    "guide_dispersion.csv": {
+      "bytes": 15255,
+      "sha256": "71a60447ae8c28d2f8f3a0214b718dd8279509e75071d7d1dae3a719e7eb8baa"
+    },
+    "highest_reference_fractions.csv": {
+      "bytes": 579,
+      "sha256": "16778d6ba16125af6490e218a3b8a261f24cd5fa71df509259268a90435e7d34"
+    },
+    "per_cell_dispersion.csv": {
+      "bytes": 26976795,
+      "sha256": "abae6915f38c17bd9fbb2ef3d5374831def215ac3fb2be00515a368e2c31dbb7"
+    },
+    "sampled_individual_cell_pair_correlations.csv": {
+      "bytes": 7238078,
+      "sha256": "44ee605ae19d1724cb440db23dda8bc127447182f3b367ba4098bcbbfc523284"
+    },
+    "target_gene_count_dispersion.csv": {
+      "bytes": 98111,
+      "sha256": "b14b9c5100a5fdfb8b967affd883922c659817abf887013ae7fcac09442f2d10"
+    }
+  }
+}

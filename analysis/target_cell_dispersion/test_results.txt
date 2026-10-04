@@ -1,0 +1,10 @@
+test_pairwise_missing_zeros_and_ties (test_target_rank_correlations.TargetRankTests.test_pairwise_missing_zeros_and_ties) ... ok
+test_rerank_after_pairwise_removal (test_target_rank_correlations.TargetRankTests.test_rerank_after_pairwise_removal) ... ok
+test_undefined_and_scale_invariance (test_target_rank_correlations.TargetRankTests.test_undefined_and_scale_invariance) ... ok
+test_exact_moments_exclude_self_and_constants (test_target_cell_dispersion.DispersionTests.test_exact_moments_exclude_self_and_constants) ... ok
+test_leave_one_out_and_missing_axis (test_target_cell_dispersion.DispersionTests.test_leave_one_out_and_missing_axis) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.023s
+
+OK
