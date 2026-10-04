@@ -1,0 +1,56 @@
+{
+  "model": "Donor-calibrated significant CD4 condition consensus, with K562 fallback",
+  "targets_with_reference": 284,
+  "targets_with_cd4": 223,
+  "cd4_shared_genes": 10113,
+  "k562_shared_genes": 7681,
+  "union_shared_genes": 11163,
+  "cd4_settings": {
+    "fdr_threshold": 0.2,
+    "transfer_shrinkage": 0.3,
+    "relative_lfc_mse": 0.9868574155121146,
+    "selected_direction_pairs": 96494,
+    "selected_direction_agreement": 0.7269156631500404,
+    "contrasts": 138,
+    "targets": 72,
+    "genes": 10273
+  },
+  "k562_fallback_shrinkage": 0.7,
+  "noise_z_assumption": 1.96,
+  "condition_weighting": "Square-root source cell counts; no anonymous context assignment",
+  "quality_filters": "At least 100 cells, significant on-target, two guides, no flagged cis/distal off-target or low target expression",
+  "basal_profile_available": false,
+  "validation_scope": "Disjoint public CD4 donors only, not VCC or cross-context performance.",
+  "source_subsets": [
+    {
+      "subset": "merged.npz",
+      "rows": 854,
+      "genes": 10282,
+      "bytes_downloaded": 217402608,
+      "sha256": "40c50d43e8b4ce8fedb281abe6b31ff1d1ce0cf2dc35e0cc4f5c4692c7e5af96",
+      "source": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.DE_stats.h5ad",
+      "source_size": 16786240107,
+      "source_etag": "\"c9ff52fcc6d6ce8a387a76dc757a5b97-2002\""
+    },
+    {
+      "subset": "CE0006864_CE0008162.npz",
+      "rows": 190,
+      "genes": 10273,
+      "bytes_downloaded": 54241440,
+      "sha256": "5afa24ff5da5a91eecfd249d0f2be5328142f28a9058d0a377c4d6d57cbafda4",
+      "source": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.DE_stats.by_donors.h5mu",
+      "source_size": 16866278447,
+      "source_etag": "\"1f405d8c2d202c6e845c1d11e59f2e47-2011\""
+    },
+    {
+      "subset": "CE0008678_CE0010866.npz",
+      "rows": 190,
+      "genes": 10273,
+      "bytes_downloaded": 54241440,
+      "sha256": "ad592de03295af4086e4ef39026280b13b631fac96f4128d879045a3220238ee",
+      "source": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.DE_stats.by_donors.h5mu",
+      "source_size": 16866278447,
+      "source_etag": "\"1f405d8c2d202c6e845c1d11e59f2e47-2011\""
+    }
+  ]
+}

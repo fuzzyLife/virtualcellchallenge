@@ -1,0 +1,73 @@
+context,target_gene,variant,source_status,significant_downstream_genes,significant_up,significant_down,mean_library,selected_reference_effect_rms
+A,TXNDC16,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,20973.3875,0.0
+A,TXNDC16,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,20973.3875,0.0
+A,DBF4B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21041.285,0.004187249916512631
+A,DBF4B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,21037.9175,0.004187249916512631
+A,DRG2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21135.35,0.005469128968946775
+A,DRG2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,21129.925,0.005469128968946775
+A,ZNF740,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21171.03,0.00698453578033073
+A,ZNF740,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,21172.7725,0.00698453578033073
+A,TMEM41B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21175.115,0.008799962683996984
+A,TMEM41B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,3,3,0,21172.865,0.008799962683996984
+A,EPC2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21345.0425,0.012090662696605062
+A,EPC2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,1,1,0,21350.2525,0.012090662696605062
+A,R3HCC1L,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21067.6625,0.016683412619109907
+A,R3HCC1L,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,9,8,1,21089.8025,0.016683412619109907
+A,SMARCA5,first_submission,CD4 with K562 unmeasured-gene fallback,4,3,1,21215.515,0.08274379623480695
+A,SMARCA5,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,558,277,281,20922.87,0.08274379623480695
+A,ALG12,first_submission,K562 fallback,0,0,0,20948.875,0.008231359940348026
+A,ALG12,v2_cd4_hybrid,K562 fallback,2,1,1,20944.22,0.008231359940348026
+A,ANKZF1,first_submission,K562 fallback,0,0,0,21382.6025,0.009664632739062862
+A,ANKZF1,v2_cd4_hybrid,K562 fallback,1,0,1,21383.8225,0.009664632739062862
+A,ABCD1,first_submission,target-only fallback,0,0,0,21018.0475,0.0
+A,ABCD1,v2_cd4_hybrid,target-only fallback,0,0,0,21018.0475,0.0
+A,ANKRD52,first_submission,target-only fallback,0,0,0,21217.965,0.0
+A,ANKRD52,v2_cd4_hybrid,target-only fallback,0,0,0,21217.965,0.0
+B,TXNDC16,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,20040.395,0.0
+B,TXNDC16,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,20040.395,0.0
+B,DBF4B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,19968.2925,0.004187249916512631
+B,DBF4B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,1,1,0,19964.2025,0.004187249916512631
+B,DRG2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,20088.68,0.005469128968946775
+B,DRG2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,20082.275,0.005469128968946775
+B,ZNF740,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,19877.4,0.00698453578033073
+B,ZNF740,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,19878.205,0.00698453578033073
+B,TMEM41B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,19997.345,0.008799962683996984
+B,TMEM41B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,4,4,0,20005.5075,0.008799962683996984
+B,EPC2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,19898.095,0.012090662696605062
+B,EPC2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,1,1,0,19908.2525,0.012090662696605062
+B,R3HCC1L,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,19989.245,0.016683412619109907
+B,R3HCC1L,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,6,4,2,20002.715,0.016683412619109907
+B,SMARCA5,first_submission,CD4 with K562 unmeasured-gene fallback,2,2,0,19965.1,0.08274379623480695
+B,SMARCA5,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,549,271,278,19936.9375,0.08274379623480695
+B,ALG12,first_submission,K562 fallback,0,0,0,20057.3725,0.008231359940348026
+B,ALG12,v2_cd4_hybrid,K562 fallback,0,0,0,20054.5275,0.008231359940348026
+B,ANKZF1,first_submission,K562 fallback,1,0,1,20015.7075,0.009664632739062862
+B,ANKZF1,v2_cd4_hybrid,K562 fallback,1,0,1,20015.6625,0.009664632739062862
+B,ABCD1,first_submission,target-only fallback,0,0,0,20024.57,0.0
+B,ABCD1,v2_cd4_hybrid,target-only fallback,0,0,0,20024.57,0.0
+B,ANKRD52,first_submission,target-only fallback,0,0,0,19986.1425,0.0
+B,ANKRD52,v2_cd4_hybrid,target-only fallback,0,0,0,19986.1425,0.0
+C,TXNDC16,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21141.045,0.0
+C,TXNDC16,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,21141.045,0.0
+C,DBF4B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21048.96,0.004187249916512631
+C,DBF4B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,2,2,0,21043.9725,0.004187249916512631
+C,DRG2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21152.0175,0.005469128968946775
+C,DRG2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,0,0,0,21150.4925,0.005469128968946775
+C,ZNF740,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21164.2,0.00698453578033073
+C,ZNF740,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,2,2,0,21165.385,0.00698453578033073
+C,TMEM41B,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21053.07,0.008799962683996984
+C,TMEM41B,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,1,1,0,21063.8975,0.008799962683996984
+C,EPC2,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,20971.8625,0.012090662696605062
+C,EPC2,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,1,1,0,20983.6975,0.012090662696605062
+C,R3HCC1L,first_submission,CD4 with K562 unmeasured-gene fallback,0,0,0,21167.88,0.016683412619109907
+C,R3HCC1L,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,2,0,2,21175.03,0.016683412619109907
+C,SMARCA5,first_submission,CD4 with K562 unmeasured-gene fallback,3,3,0,21225.84,0.08274379623480695
+C,SMARCA5,v2_cd4_hybrid,CD4 with K562 unmeasured-gene fallback,506,310,196,21208.8125,0.08274379623480695
+C,ALG12,first_submission,K562 fallback,0,0,0,21068.725,0.008231359940348026
+C,ALG12,v2_cd4_hybrid,K562 fallback,0,0,0,21069.695,0.008231359940348026
+C,ANKZF1,first_submission,K562 fallback,0,0,0,21011.6875,0.009664632739062862
+C,ANKZF1,v2_cd4_hybrid,K562 fallback,2,1,1,21012.595,0.009664632739062862
+C,ABCD1,first_submission,target-only fallback,0,0,0,21253.745,0.0
+C,ABCD1,v2_cd4_hybrid,target-only fallback,0,0,0,21253.745,0.0
+C,ANKRD52,first_submission,target-only fallback,0,0,0,21212.8,0.0
+C,ANKRD52,v2_cd4_hybrid,target-only fallback,0,0,0,21212.8,0.0

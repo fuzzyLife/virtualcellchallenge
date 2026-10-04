@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-04T06:53:06.080191+00:00",
+  "seed": 20261003,
+  "knockdown_fraction_assumption": 0.9,
+  "model": "Donor-calibrated significant CD4 condition consensus, with K562 fallback",
+  "reference_kind": "cd4-hybrid",
+  "transfer_shrinkage": 0.7,
+  "noise_z": 1.96,
+  "upward_mode": "zero-aware",
+  "output_dir": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v2_cd4_hybrid",
+  "versions": {
+    "vcc-cli": "0.2.2",
+    "anndata": "0.13.4",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "pandas": "3.0.1",
+    "duckdb": "1.4.4",
+    "pyarrow": "23.0.1"
+  },
+  "script_sha256": "11ad1ba479b91709874fd1805f156790034c9e06d10b3fc61072e6085a474155",
+  "limitations": [
+    "No challenge perturbation ground truth: no local VCC score.",
+    "Transferred effects cover only reference-measured genes and targets.",
+    "No induction in genes absent from all context controls.",
+    "Cell-line and assay differences can limit transfer."
+  ]
+}

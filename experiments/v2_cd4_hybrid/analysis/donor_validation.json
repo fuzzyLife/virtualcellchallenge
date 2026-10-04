@@ -1,0 +1,22 @@
+{
+  "disjoint_donor_pairs": [
+    "CE0006864_CE0008162",
+    "CE0008678_CE0010866"
+  ],
+  "selected": {
+    "fdr_threshold": 0.2,
+    "transfer_shrinkage": 0.3,
+    "relative_lfc_mse": 0.9868574155121146,
+    "selected_direction_pairs": 96494,
+    "selected_direction_agreement": 0.7269156631500404,
+    "contrasts": 138,
+    "targets": 72,
+    "genes": 10273
+  },
+  "criterion": "Mean bidirectional clipped log2FC squared error per eligible target-condition, excluding own target; zero-response anchor.",
+  "limitations": [
+    "Within-CD4 donor validation is not cross-cell-type validation.",
+    "Donor subsets are enriched for larger responses and do not represent all 300 targets.",
+    "Grid selection error is exploratory; no third independent validation split."
+  ]
+}

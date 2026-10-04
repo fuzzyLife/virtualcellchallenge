@@ -249,3 +249,8 @@ __marimo__/
 
 # Downloaded external pilot tables; provenance and derived audit records are tracked
 /reference/cd4_probe/
+
+# Extracted saved-page/article text is local inspection material, not project code
+/experiments/**/analysis/*.txt
+!/experiments/**/analysis/test_results.txt
+!/experiments/**/analysis/official_prep_stderr.txt

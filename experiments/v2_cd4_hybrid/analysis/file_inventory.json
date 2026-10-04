@@ -1,0 +1,1792 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 5719,
+    "sha256": "8f6224d8b1600ebc8cd0b3fb0505aeee9be741c579d4216696da822f717b5a1c",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "2025.09.12.675911v1.full.pdf",
+    "bytes": 21171396,
+    "sha256": "e6fae4a93808a45cf296d3323fabc59b7a497ac0f960bb27c8b677081a027674",
+    "role": "unrelated bacteriophage genome-generation paper; excluded from modeling"
+  },
+  {
+    "path": "context_A.h5ad",
+    "bytes": 224973316,
+    "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+    "role": "challenge control counts; fully analysed"
+  },
+  {
+    "path": "context_B.h5ad",
+    "bytes": 210966111,
+    "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+    "role": "challenge control counts; fully analysed"
+  },
+  {
+    "path": "context_C.h5ad",
+    "bytes": 226056691,
+    "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+    "role": "challenge control counts; fully analysed"
+  },
+  {
+    "path": "downloads.html",
+    "bytes": 76899,
+    "sha256": "fc68d824b93cf70a30540e018c4a709f29d93a332f1e6eeb2a7fc3605b086a53",
+    "role": "saved competition documentation",
+    "keyword_hits": {
+      "perturb": 39,
+      "submission": 4,
+      "raw counts": 2,
+      "context": 31,
+      "leaderboard": 3
+    }
+  },
+  {
+    "path": "downloads_files/0acbff8926cec72b.css",
+    "bytes": 250348,
+    "sha256": "347f36a1c8ebd272ae46a2196f93185f5515a7c65c656af675b914fb03f4f6cd",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/1dcafd92c79e9791.css",
+    "bytes": 5517,
+    "sha256": "c8e8f8a213bd0f32a82054407a05ce701085a7a75817825ffd1b37afb9a60c0e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/2616-cac45b72201a6e8d.js.download",
+    "bytes": 172393,
+    "sha256": "0531a8d6c1b90e7a5b73e39a41ee40bec0f53c6c195cc9fd05cacef12425910c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 61,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/3123a5a368f072ef.css",
+    "bytes": 6051,
+    "sha256": "eadb6cef49daca1cfdd6207ffea6c5ce801149b7eb1fa3b882ca84da05efe756",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/3e4fd8a5fa47cbb7.css",
+    "bytes": 35984,
+    "sha256": "ef36297b8f10b0ce5999fd25ef9287a32c53daaadf48cc412f23c687bf30e466",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 90,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 20
+    }
+  },
+  {
+    "path": "downloads_files/5c2463c77fe68b5e.css",
+    "bytes": 1617,
+    "sha256": "cac6b7f5fa5d433c6d08b7280f5157897de8a82e5df9c96ba5a03d640b69a18c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/5df26f50fc2fa1f7.css",
+    "bytes": 4307,
+    "sha256": "aa2c2c62a9c60d1fbeae2689861c18ed760a8dffcd32dc9f97625b79e3697d72",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/ab9ee117608caa32.css",
+    "bytes": 249,
+    "sha256": "3c464326b130cbd17d0b5b226ceef8e9905fffbe5c33503730102c3f1349d46f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/arc-logo.9f066226.svg",
+    "bytes": 1289,
+    "sha256": "04d0ae219db03410ec815b7774d072b3683e049bb70eaf226ef9453ad62c4ef7",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/cba12914-0a1181f84671304e.js.download",
+    "bytes": 173025,
+    "sha256": "d8dd0530b2bcd71cfc704c4e364b77fa3ce04225dcac2fa0a7cb226695b7d6f2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 56,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/challenge-data-2026.png",
+    "bytes": 68931,
+    "sha256": "94a6dc0f0a3cea4d4b6e52304416de9d3347021a373c165605a9cad51a3f8d9f",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "downloads_files/dc8cb854bb1d7c58.css",
+    "bytes": 681,
+    "sha256": "04f3739874636d97e876aa3db4ca46f5b33e9bf8322b9bca95a1e195855a7395",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/files.f9f509fa.svg",
+    "bytes": 1018,
+    "sha256": "69eceb730846494f2b0b637aea01b652445612b01cb57aaadddea310e5ceba6c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/main-app-fdb17ad98d6b5f55.js.download",
+    "bytes": 572,
+    "sha256": "16a18f4d14d8ea84f85a00ab054b04024e252bd84d3fbf487cebb0c128c4c75c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/polyfills-42372ed130431b0a.js.download",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/public.a51a0fe1.svg",
+    "bytes": 1916,
+    "sha256": "13f525071000b0cffc9d9e45b866d861a2e191b398127e69b800e9510a6ad189",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/scBaseCount-graphic.f93fc6b7.svg",
+    "bytes": 4421673,
+    "sha256": "f394847807e4e531f7e33596b3fb94a8e732e835b5083806f4c1da8cef4b5911",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/script.file-downloads.hash.js.download",
+    "bytes": 3531,
+    "sha256": "dc2792e5fb4742c9f41c4be97c83424c5c9c59d6f2caba45411a08520dfd34f1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/Tahoe-graphic.911bf81e.svg",
+    "bytes": 1810842,
+    "sha256": "3347a67815d262cbf65e187930920e880b5b3a4810873befcb882cf5a8d9dee5",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/tahoe-logo.3a3a2a41.svg",
+    "bytes": 2072,
+    "sha256": "c868b4b325ca61a98dd804404604e9ae5a5a6be5a63a2e5a0b9ae25f5ae4212a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/test-set.f4b1c5ba.svg",
+    "bytes": 2450,
+    "sha256": "25b51185b2d88a4718a18b9217a2bc828d46b8f4ba7570288bda172d4a6ef749",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/training-set.e65d5e5a.svg",
+    "bytes": 7626,
+    "sha256": "0b6d2c61cee8c345eb9f62563317dbd501958ce5e77395757333c8df7dc3c5c8",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/training.d3b06894.svg",
+    "bytes": 4303,
+    "sha256": "92dc0a5102310b74e0b3a7aaa5c233cdfed44860ad2353877a9cc930009d877a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/validation-set.3d98c4b6.svg",
+    "bytes": 2007,
+    "sha256": "551a4d7a47cc63e1606bb470e9e045260295e90dc57ec8bb4adb69a866bcbff7",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/vcc-logo.c4486372.svg",
+    "bytes": 7367,
+    "sha256": "0882bfa3396be84e732132a38980a47467430567b86fee36e0729589d3ad9a08",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/virtual.bf815d10.svg",
+    "bytes": 634,
+    "sha256": "055fe2ca3b89875bee32ea2ef23ca3748927b5f2a734ca1277e49d6d7e934492",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "downloads_files/webpack-6529a1b5a2fb266b.js.download",
+    "bytes": 3837,
+    "sha256": "ed9a1264c37ce16958d0b8c7b9f9e533d02863bc8279e7eb9b38e4998aa0123a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ.html",
+    "bytes": 114759,
+    "sha256": "753e7bc4ed1fb85d39a192142891a4de0632d1de99c32783e20a9d2203b4bc1a",
+    "role": "saved competition documentation",
+    "keyword_hits": {
+      "perturb": 4,
+      "submission": 2,
+      "raw counts": 0,
+      "context": 1,
+      "leaderboard": 2
+    }
+  },
+  {
+    "path": "FAQ_files/0acbff8926cec72b.css",
+    "bytes": 250348,
+    "sha256": "347f36a1c8ebd272ae46a2196f93185f5515a7c65c656af675b914fb03f4f6cd",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/1dcafd92c79e9791.css",
+    "bytes": 5517,
+    "sha256": "c8e8f8a213bd0f32a82054407a05ce701085a7a75817825ffd1b37afb9a60c0e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/2616-cac45b72201a6e8d.js.download",
+    "bytes": 172393,
+    "sha256": "0531a8d6c1b90e7a5b73e39a41ee40bec0f53c6c195cc9fd05cacef12425910c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 61,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/3123a5a368f072ef.css",
+    "bytes": 6051,
+    "sha256": "eadb6cef49daca1cfdd6207ffea6c5ce801149b7eb1fa3b882ca84da05efe756",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/3e4fd8a5fa47cbb7.css",
+    "bytes": 35984,
+    "sha256": "ef36297b8f10b0ce5999fd25ef9287a32c53daaadf48cc412f23c687bf30e466",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 90,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 20
+    }
+  },
+  {
+    "path": "FAQ_files/5c2463c77fe68b5e.css",
+    "bytes": 1617,
+    "sha256": "cac6b7f5fa5d433c6d08b7280f5157897de8a82e5df9c96ba5a03d640b69a18c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/5df26f50fc2fa1f7.css",
+    "bytes": 4307,
+    "sha256": "aa2c2c62a9c60d1fbeae2689861c18ed760a8dffcd32dc9f97625b79e3697d72",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/631b9b8f86a12265.css",
+    "bytes": 8982,
+    "sha256": "dbf9def526b22ebdcbc1188a9c6b751578d62bda06dd5c788ad43695106230d1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 5,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 154
+    }
+  },
+  {
+    "path": "FAQ_files/ab9ee117608caa32.css",
+    "bytes": 249,
+    "sha256": "3c464326b130cbd17d0b5b226ceef8e9905fffbe5c33503730102c3f1349d46f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/cba12914-0a1181f84671304e.js.download",
+    "bytes": 173025,
+    "sha256": "d8dd0530b2bcd71cfc704c4e364b77fa3ce04225dcac2fa0a7cb226695b7d6f2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 56,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/dc8cb854bb1d7c58.css",
+    "bytes": 681,
+    "sha256": "04f3739874636d97e876aa3db4ca46f5b33e9bf8322b9bca95a1e195855a7395",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/ff8538912001296f.css",
+    "bytes": 1036,
+    "sha256": "16d900de86ca9633631032de99bf1e38ba7998fc198aa56dfce368dc8da9d20f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/main-app-fdb17ad98d6b5f55.js.download",
+    "bytes": 572,
+    "sha256": "16a18f4d14d8ea84f85a00ab054b04024e252bd84d3fbf487cebb0c128c4c75c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/polyfills-42372ed130431b0a.js.download",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/script.file-downloads.hash.js.download",
+    "bytes": 3531,
+    "sha256": "dc2792e5fb4742c9f41c4be97c83424c5c9c59d6f2caba45411a08520dfd34f1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/vcc-logo.c4486372.svg",
+    "bytes": 7367,
+    "sha256": "0882bfa3396be84e732132a38980a47467430567b86fee36e0729589d3ad9a08",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "FAQ_files/webpack-6529a1b5a2fb266b.js.download",
+    "bytes": 3837,
+    "sha256": "ed9a1264c37ce16958d0b8c7b9f9e533d02863bc8279e7eb9b38e4998aa0123a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "gene_names.csv",
+    "bytes": 119295,
+    "sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201",
+    "role": "authoritative panel specification; fully parsed"
+  },
+  {
+    "path": "leaders.html",
+    "bytes": 211963,
+    "sha256": "0bfd2be8728fa099c7a5bf0db7d0cb3df16b888805d98b52202a36dac2bd342b",
+    "role": "saved competition documentation",
+    "keyword_hits": {
+      "perturb": 6,
+      "submission": 57,
+      "raw counts": 0,
+      "context": 1,
+      "leaderboard": 210
+    }
+  },
+  {
+    "path": "leaders_files/0acbff8926cec72b.css",
+    "bytes": 250348,
+    "sha256": "347f36a1c8ebd272ae46a2196f93185f5515a7c65c656af675b914fb03f4f6cd",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/1dcafd92c79e9791.css",
+    "bytes": 5517,
+    "sha256": "c8e8f8a213bd0f32a82054407a05ce701085a7a75817825ffd1b37afb9a60c0e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/2616-cac45b72201a6e8d.js.download",
+    "bytes": 172393,
+    "sha256": "0531a8d6c1b90e7a5b73e39a41ee40bec0f53c6c195cc9fd05cacef12425910c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 61,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/3123a5a368f072ef.css",
+    "bytes": 6051,
+    "sha256": "eadb6cef49daca1cfdd6207ffea6c5ce801149b7eb1fa3b882ca84da05efe756",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/3e4fd8a5fa47cbb7.css",
+    "bytes": 35984,
+    "sha256": "ef36297b8f10b0ce5999fd25ef9287a32c53daaadf48cc412f23c687bf30e466",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 90,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 20
+    }
+  },
+  {
+    "path": "leaders_files/5c2463c77fe68b5e.css",
+    "bytes": 1617,
+    "sha256": "cac6b7f5fa5d433c6d08b7280f5157897de8a82e5df9c96ba5a03d640b69a18c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/5df26f50fc2fa1f7.css",
+    "bytes": 4307,
+    "sha256": "aa2c2c62a9c60d1fbeae2689861c18ed760a8dffcd32dc9f97625b79e3697d72",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/631b9b8f86a12265.css",
+    "bytes": 8982,
+    "sha256": "dbf9def526b22ebdcbc1188a9c6b751578d62bda06dd5c788ad43695106230d1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 5,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 154
+    }
+  },
+  {
+    "path": "leaders_files/ab9ee117608caa32.css",
+    "bytes": 249,
+    "sha256": "3c464326b130cbd17d0b5b226ceef8e9905fffbe5c33503730102c3f1349d46f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/cba12914-0a1181f84671304e.js.download",
+    "bytes": 173025,
+    "sha256": "d8dd0530b2bcd71cfc704c4e364b77fa3ce04225dcac2fa0a7cb226695b7d6f2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 56,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/dc8cb854bb1d7c58.css",
+    "bytes": 681,
+    "sha256": "04f3739874636d97e876aa3db4ca46f5b33e9bf8322b9bca95a1e195855a7395",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/main-app-fdb17ad98d6b5f55.js.download",
+    "bytes": 572,
+    "sha256": "16a18f4d14d8ea84f85a00ab054b04024e252bd84d3fbf487cebb0c128c4c75c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/polyfills-42372ed130431b0a.js.download",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/script.file-downloads.hash.js.download",
+    "bytes": 3531,
+    "sha256": "dc2792e5fb4742c9f41c4be97c83424c5c9c59d6f2caba45411a08520dfd34f1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/vcc-logo.c4486372.svg",
+    "bytes": 7367,
+    "sha256": "0882bfa3396be84e732132a38980a47467430567b86fee36e0729589d3ad9a08",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "leaders_files/webpack-6529a1b5a2fb266b.js.download",
+    "bytes": 3837,
+    "sha256": "ed9a1264c37ce16958d0b8c7b9f9e533d02863bc8279e7eb9b38e4998aa0123a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1235,
+    "sha256": "436a6d536138f203ac333858cff92a568be62797752b3adb94bcaa0f6ffe7ef6",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 715,
+    "sha256": "2c2b5d425df817ca35e9edf08282d12494ce42913ba824375bf0f98a1cc676f5",
+    "role": "authoritative panel specification; fully parsed"
+  },
+  {
+    "path": "pert_counts.csv",
+    "bytes": 1906,
+    "sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+    "role": "authoritative panel specification; fully parsed"
+  },
+  {
+    "path": "README.md",
+    "bytes": 14134,
+    "sha256": "f09d76c18ebed628603993f1de16e049e62cb1ec1ac7ffd54492489bf26fde04",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell.html",
+    "bytes": 572424,
+    "sha256": "c6471dbdb81bca39c9a7c239858e87298caede6521150edaa46fc4c85c8dc02f",
+    "role": "2026 Cell commentary",
+    "keyword_hits": {
+      "perturb": 50,
+      "submission": 7,
+      "raw counts": 0,
+      "context": 217,
+      "leaderboard": 26
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/121525c6-f926-46a9-af8c-b4cd7a80c2a2.js.download",
+    "bytes": 178648,
+    "sha256": "48a6824cf50e0405a9fa319dc82d703a291cfc33bbfb5002b23cd2f81ecfea92",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/519224.js.download",
+    "bytes": 2117,
+    "sha256": "8ebdf721a9dc2a0d3e2b0444a69e7866544232642f66c68f3ef309d12628a8b1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/622a81d26cbf0c2257146861a101ca3b420b5edf~article-metrics.css",
+    "bytes": 25574,
+    "sha256": "234d474178e0425edcf517d240ea305ea8125b62efcdfbbe7eb972230db00df9",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/622a81d26cbf0c2257146861a101ca3b420b5edf~product.css",
+    "bytes": 73695,
+    "sha256": "661a42c5da5f7c511a83f3d12c8eadbf05e1e8eb00d6ecadc4ac8dd8ec71f902",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/622a81d26cbf0c2257146861a101ca3b420b5edf~selected-legacy.css",
+    "bytes": 28727,
+    "sha256": "5457b5625d68832147cf147586897efae3b689ecb8e72014331004e50f4a2fe6",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/622a81d26cbf0c2257146861a101ca3b420b5edf~selected-legacy.js.download",
+    "bytes": 419803,
+    "sha256": "115ece56ee1e0c0696ce554dc06eae62f068ce4ee44200c2cc23ad45cec13dca",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 19,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/AppMeasurement.min.js.download",
+    "bytes": 36178,
+    "sha256": "7db8d077fc21c20f1449a2603d524e423cfa25d7df6d5fd845a8e5e883aa227e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 21,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/AppMeasurement_Module_ActivityMap.min.js.download",
+    "bytes": 3284,
+    "sha256": "2a250e2f225e48cf583d54a0a42d623c700847de17323bf23ea372e5d9e89cb2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 1,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/article-16a3db671f86401c775b.js.download",
+    "bytes": 98083,
+    "sha256": "361a962c34fb0f62343c2c461012f826dee33ea86e01a722218cd5d1a63e8b96",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/bg_adHoriz.gif",
+    "bytes": 396,
+    "sha256": "fbef06106f5c9b55406a9fe32591efacd694a154f618088abbfacab18357df52",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/bg_adVert.gif",
+    "bytes": 415,
+    "sha256": "cc6169e44dd2d9a86c3c08ab4c73c44210fb5a7f1f4730a2fa965c0d9a72e31b",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/build-4a0f1469b30d72c72e9e.css",
+    "bytes": 881020,
+    "sha256": "d41f69227107409392418579656a82c2ca3fbe8f4303417d16901a7d91134537",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/build-article-4a0f1469b30d72c72e9e.css",
+    "bytes": 210689,
+    "sha256": "296935bdd058b21f4123cfe9fa8f5fa2eeaa567cd75ad59a383cc7bffcf22018",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/Cell_NOICON.svg",
+    "bytes": 14336,
+    "sha256": "d7f3d79d00a27b1de92483ccc620f1aae8c3b0b3bebb22ed2affa769de12fd9c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/cellpress_rebrand_logo.svg",
+    "bytes": 4639,
+    "sha256": "0c36dd5db5d45ae6e25b5f53216e23042b3ec23c1ab8923dd6ff560c0c91512a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/core-cell.js.download",
+    "bytes": 8821,
+    "sha256": "0172e43de876cda988dd6a5269d425434486e68f37eb84931894b9c1bfca6fab",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 15,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/cover.tif.jpg",
+    "bytes": 191943,
+    "sha256": "a24cb4a2453972418033f241a43bd2ead88685ae8d0b3b98da22c11f688b0920",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/CPMsJk9-jzDVOKsdxHl-IlYVR5k.guide.css",
+    "bytes": 4106,
+    "sha256": "eccb4755d636a88928d85ef04605d1671eedfb85012fd44e411b37ed61a83dfd",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/css",
+    "bytes": 5973,
+    "sha256": "0493c5aeeeee76553b77f584271225f936ff2901a1838303744debf8e99728e3",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/dialog.html",
+    "bytes": 26794,
+    "sha256": "9679c193a3005acfa495370ff1fd65c1443fffaf9f47714a4d2d74c129fd66bf",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 2,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/dynamic-imports-50ee96a8d2c5b3d96851.js.download",
+    "bytes": 11305,
+    "sha256": "3bfc9ed92bda77ea3f74a397ec744560a5016991a9175a05eb8f33a6324bf921",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/f.txt",
+    "bytes": 127617,
+    "sha256": "ddcfec2d6f26912973b73e177e74d55811da45be55582b397389064719b6ad22",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 6,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/gr1.jpg",
+    "bytes": 158291,
+    "sha256": "e25df543cc6a80c87e5882fac297929d55ca40d3559b2d9628dc26ea20ea9a42",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/iframe_api",
+    "bytes": 993,
+    "sha256": "542fa720ac94e198bb7a9f71c5d4ead18945c0a540808f32cfd41d705c59f01f",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/interactive-193942582348.png",
+    "bytes": 2664,
+    "sha256": "39226092034047099f5bce3d7ca18cc1eb57cfe4de4549d1bfb400ec70a5b573",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/launch-e88876184ece.min.js.download",
+    "bytes": 384279,
+    "sha256": "f87c29ea424ef35914684546932884979263305623ef4f2b4c155384cb6b2921",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 4,
+      "raw counts": 0,
+      "context": 35,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/lazy-imports-601393a49762feccce3e.js.download",
+    "bytes": 35972,
+    "sha256": "7b6c6cefb731187d1be1e7e372ed02bce93d8955edbd0e9c5070c7815a54f4a0",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/lOblIOPLt8X8bFEGV2vxHnI13yQ.guide.css",
+    "bytes": 4495,
+    "sha256": "8864851adc03391a03ecc875d0252f225cc783ad8806b6b97cc8db06f7a80fa0",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/logo-crossmark.svg",
+    "bytes": 10457,
+    "sha256": "68acb75f97d693d448509d7f25412ffc79341df89eb37b64c8d9757ac6379ea0",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/logo-crossref.svg",
+    "bytes": 2106,
+    "sha256": "bf83f3ef8bff4d3600886f923a7c174079277878dfb60e7cbf94dd2d88161a55",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/main.bundle-9a3f6d9ec20cb475364f.js.download",
+    "bytes": 1904949,
+    "sha256": "815835ec2a69d496e25065184211680d389303f392e2ce7d1da349680e197f32",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 6,
+      "raw counts": 0,
+      "context": 156,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/main.css",
+    "bytes": 10040,
+    "sha256": "d4065e9cc39f252ecbc8e9d13dd9170a438777bfaaaf31111503d1cd91ecd55a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/main.js.download",
+    "bytes": 63619,
+    "sha256": "270996e2f140234650e3e950b59a57266e9244dc8108ecd715f26dba072988a5",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/megaMenu-7bda4f28e9ea82973f05.js.download",
+    "bytes": 15733,
+    "sha256": "e5642cb0ffe299e27b7a1fe2b454d818dd05e027b214087be73300f11b61f8f6",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/nr-spa-1177.min.js.download",
+    "bytes": 37887,
+    "sha256": "54cb1f867060c01677649ce2d5e65485b33ce06ea271cb4244cbdd22c31fe69a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 7,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/ot_company_logo.png",
+    "bytes": 19373,
+    "sha256": "97722715f92bfef1cccdf80f1dcee232f79e48a4b5612305ca2b864c352f0274",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/otBannerSdk.js.download",
+    "bytes": 505330,
+    "sha256": "0a6e0007b05d7a7c2edcd7b76376d754d825f94d1d2f413880054ab9466e73e6",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 1,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/otSDKStub.js.download",
+    "bytes": 26961,
+    "sha256": "3258940d51f736d6d58b6b98af4617a0450545f16e307c3e72d308c7ff6b3d8e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/page.js.download",
+    "bytes": 3457,
+    "sha256": "46bfe099d913a7ecb4bc106e638d734abc31ba0f9a5bfc2f55b0636978cc9ff6",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/pendo.js.download",
+    "bytes": 611989,
+    "sha256": "e6a164db4ff9088f5fa6ace61582d0d5a5cc21eb3c449973306089e91d04800e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 73,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/plumX-754fc931eae96643ed4c.js.download",
+    "bytes": 7905,
+    "sha256": "827a10b5521d91b465acd7c9ef3673ef0a39d44809fdc756362cc32d6e983841",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/plumx-logo.png",
+    "bytes": 5450,
+    "sha256": "2dbc0e37f03b7bee8283a7750b364794d8fcf1b9da487a22d0ee7bda4d9222a5",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/powered_by_logo.svg",
+    "bytes": 5445,
+    "sha256": "cddd450a33be5e50d6f27aea78d2e278beae2762678b22fc2dcee8de29cbc0be",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/print-4a0f1469b30d72c72e9e.css",
+    "bytes": 1369,
+    "sha256": "e80e8a431f868b04ec52a78b6731e35e4381a178fcb774e100b88d81f95612a2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/profile-65abde718e8f04a1019c.js.download",
+    "bytes": 3701,
+    "sha256": "8de42309943d76fb693b50819b908e109715c946dd0ee74ce68be63c6c0d646b",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/RC56d14a412e3b46e9968db9b0928e9170-source.min.js.download",
+    "bytes": 772,
+    "sha256": "748663a1e058b4c8a5ece628b8da778ae1ab48fbfed1ce570a8062186a875c4f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/requestidlecallback-polyfill-54574c961793df3b006e.js.download",
+    "bytes": 456,
+    "sha256": "f2cbb2d23f2a9061ad56ab3729515319fe521414a6b33d1556674b2be1b0b2c9",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/saved_resource.html",
+    "bytes": 149,
+    "sha256": "97f9b10039b05e1af4a3c9b778fc72ba44cf68a376e4ec1d55f2558f16cf3e50",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/script.js.download",
+    "bytes": 2774,
+    "sha256": "f269b9a780e390a37b0af741761af42a922329b02414e1387745a4bc0651ea33",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/style.css",
+    "bytes": 3010,
+    "sha256": "a4a43143f9e6f7643bb3d3bd7287638c70ade9fda687dd8bd58fd1dd91b6c988",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/tableOfContent-1ff7757f81b91ea83125.js.download",
+    "bytes": 5897,
+    "sha256": "7aef6e701d08b1c764a111b01f66013b95526e5fcf423ad8bf4e5064fa9e238d",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/theme-cell.css",
+    "bytes": 320,
+    "sha256": "b1a8efd983b8beddb73d279a474bb7210515ca68cc685864a655a7c9ce2dec13",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+    "bytes": 30294,
+    "sha256": "08c4fd72f9d96a7aa554510dff2c293973b1b092dff1b9b282bce9111b50ef41",
+    "role": "saved website asset; not model code or training data"
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/vendors~article-5a2e5e9feeb6152c575d.js.download",
+    "bytes": 681635,
+    "sha256": "53bf9e626a911c87d1edecfabb225c44301d0682b6e9a831f9af3a4b1819b81a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 6,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/vendors~lazy-imports-ee8d670cbdc1e2877102.js.download",
+    "bytes": 25572,
+    "sha256": "2fb97c52287628ff8f8b1850795935f865327e114de54ed80ea6fea29fe918ce",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/wLBnNxqDmQbp0UzHSuULwGYYfsA.guide.css",
+    "bytes": 10857,
+    "sha256": "20013f0692595e2c9135b3a2b475cce82fd8749ab52de6e937bc689ae2ec18ad",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge 2026_ Benchmarking zero-shot generalization across cellular contexts_ Cell_files/www-widgetapi.js.download",
+    "bytes": 26882,
+    "sha256": "c2dcf46501a48a87a7859596834012e81569a181f7b80bda4d91b04798f84751",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge.html",
+    "bytes": 53182,
+    "sha256": "5ac856bbfdb11a7a6b1ab5f60040de97913c634180bf9013097aa62d920a3042",
+    "role": "saved competition documentation",
+    "keyword_hits": {
+      "perturb": 6,
+      "submission": 11,
+      "raw counts": 0,
+      "context": 6,
+      "leaderboard": 3
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/0acbff8926cec72b.css",
+    "bytes": 250348,
+    "sha256": "347f36a1c8ebd272ae46a2196f93185f5515a7c65c656af675b914fb03f4f6cd",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/1dcafd92c79e9791.css",
+    "bytes": 5517,
+    "sha256": "c8e8f8a213bd0f32a82054407a05ce701085a7a75817825ffd1b37afb9a60c0e",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/2616-cac45b72201a6e8d.js.download",
+    "bytes": 172393,
+    "sha256": "0531a8d6c1b90e7a5b73e39a41ee40bec0f53c6c195cc9fd05cacef12425910c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 61,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/3123a5a368f072ef.css",
+    "bytes": 6051,
+    "sha256": "eadb6cef49daca1cfdd6207ffea6c5ce801149b7eb1fa3b882ca84da05efe756",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/3e4fd8a5fa47cbb7.css",
+    "bytes": 35984,
+    "sha256": "ef36297b8f10b0ce5999fd25ef9287a32c53daaadf48cc412f23c687bf30e466",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 90,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 20
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/ab9ee117608caa32.css",
+    "bytes": 249,
+    "sha256": "3c464326b130cbd17d0b5b226ceef8e9905fffbe5c33503730102c3f1349d46f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/cba12914-0a1181f84671304e.js.download",
+    "bytes": 173025,
+    "sha256": "d8dd0530b2bcd71cfc704c4e364b77fa3ce04225dcac2fa0a7cb226695b7d6f2",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 56,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/dataset-card-graphic.6f1ab7f7.svg",
+    "bytes": 560913,
+    "sha256": "16ab4b0011edc6b7d395b6a7b7b209c651de4491aabf55959096ecb60df0e232",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/dc8cb854bb1d7c58.css",
+    "bytes": 681,
+    "sha256": "04f3739874636d97e876aa3db4ca46f5b33e9bf8322b9bca95a1e195855a7395",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/evaluation-card-graphic.fc9c1e20.svg",
+    "bytes": 293668,
+    "sha256": "33d994d1b5d0d74e01dcaee343b2d1f15bea98a6c47c69cb64ac742026d7caed",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/main-app-fdb17ad98d6b5f55.js.download",
+    "bytes": 572,
+    "sha256": "16a18f4d14d8ea84f85a00ab054b04024e252bd84d3fbf487cebb0c128c4c75c",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/polyfills-42372ed130431b0a.js.download",
+    "bytes": 112594,
+    "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/script.file-downloads.hash.js.download",
+    "bytes": 3531,
+    "sha256": "dc2792e5fb4742c9f41c4be97c83424c5c9c59d6f2caba45411a08520dfd34f1",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/submissions-card-graphic.13239c7f.svg",
+    "bytes": 697005,
+    "sha256": "c97386bab1f8505eea6f8830a1f712f26a74707af8f4951e11d33b5551ef786f",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/support-card-graphic.f2c02124.svg",
+    "bytes": 530555,
+    "sha256": "68fb31742ecc36470f21251316e0222f5d8859bdb790cba81f79a3e5bc9da48d",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/vcc-logo.c4486372.svg",
+    "bytes": 7367,
+    "sha256": "0882bfa3396be84e732132a38980a47467430567b86fee36e0729589d3ad9a08",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  },
+  {
+    "path": "Virtual Cell Challenge_files/webpack-6529a1b5a2fb266b.js.download",
+    "bytes": 3837,
+    "sha256": "ed9a1264c37ce16958d0b8c7b9f9e533d02863bc8279e7eb9b38e4998aa0123a",
+    "role": "saved website asset; not model code or training data",
+    "keyword_hits": {
+      "perturb": 0,
+      "submission": 0,
+      "raw counts": 0,
+      "context": 0,
+      "leaderboard": 0
+    }
+  }
+]

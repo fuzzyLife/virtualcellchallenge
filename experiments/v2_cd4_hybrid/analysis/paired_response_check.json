@@ -1,0 +1,68 @@
+{
+  "scope": "Provided-control response diagnostics only; not independent performance validation or a VCC score.",
+  "selection": "Eight CD4 effect-strength quantiles, two K562 fallbacks, two target-only fallbacks; deliberately nonrandom.",
+  "targets": [
+    "TXNDC16",
+    "DBF4B",
+    "DRG2",
+    "ZNF740",
+    "TMEM41B",
+    "EPC2",
+    "R3HCC1L",
+    "SMARCA5",
+    "ALG12",
+    "ANKZF1",
+    "ABCD1",
+    "ANKRD52"
+  ],
+  "group_summaries": [
+    {
+      "context": "A",
+      "variant": "first_submission",
+      "count": 12,
+      "median": 0.0,
+      "mean": 0.3333333333333333,
+      "max": 4
+    },
+    {
+      "context": "A",
+      "variant": "v2_cd4_hybrid",
+      "count": 12,
+      "median": 0.5,
+      "mean": 47.833333333333336,
+      "max": 558
+    },
+    {
+      "context": "B",
+      "variant": "first_submission",
+      "count": 12,
+      "median": 0.0,
+      "mean": 0.25,
+      "max": 2
+    },
+    {
+      "context": "B",
+      "variant": "v2_cd4_hybrid",
+      "count": 12,
+      "median": 0.5,
+      "mean": 46.833333333333336,
+      "max": 549
+    },
+    {
+      "context": "C",
+      "variant": "first_submission",
+      "count": 12,
+      "median": 0.0,
+      "mean": 0.25,
+      "max": 3
+    },
+    {
+      "context": "C",
+      "variant": "v2_cd4_hybrid",
+      "count": 12,
+      "median": 1.0,
+      "mean": 43.0,
+      "max": 506
+    }
+  ]
+}

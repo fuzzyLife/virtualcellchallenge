@@ -167,7 +167,7 @@ The documented allowance is two daily submissions, with one in flight. Avoid res
 - [Official scoring implementation and metric definitions](https://github.com/ArcInstitute/cell-eval2).
 - [Original Replogle et al. processed Perturb-seq release](https://plus.figshare.com/articles/dataset/20029387), licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); pinned metadata and provenance are tracked.
 
-Coverage is partial, tissue/assay differences can invalidate transferred effects, and the simulator cannot create counts for a gene absent in a sampled input cell. Its Poisson noise approximation does not capture all biological or technical variation. File validation and passing tests establish pipeline correctness, not predictive accuracy; the published leaderboard result is the available performance evidence.
+Coverage is partial, tissue/assay differences can invalidate transferred effects, and the original proportional simulator cannot create counts for a gene absent in a sampled input cell. The v2 zero-aware simulator addresses that limitation for genes expressed elsewhere in the context controls. Its Poisson noise approximation does not capture all biological or technical variation. File validation and passing tests establish pipeline correctness, not predictive accuracy; the published leaderboard result is the available performance evidence.
 
 ## Subsequent model audit
 
@@ -180,3 +180,24 @@ A 699 MB Orion pilot was SHA-256 verified and compared on a common gene axis. It
 ![Model audit](analysis/model_audit/audit_overview.png)
 
 Changed model parameters require a separate output directory, even with `--force`, to protect the first-submission files.
+
+## Second submission candidate: donor-calibrated CD4 hybrid
+
+The candidate is generated separately in `experiments/v2_cd4_hybrid/`. [V2_SUBMISSION.md](V2_SUBMISSION.md) records its source extraction, independent donor calibration, settings, validation and upload command. It combines eligible CD4 responses with K562 fallbacks, covering 284 targets and 11,163 measured genes across sources. Fifteen pipeline/model tests pass. Its leaderboard score is not known until uploaded and scored.
+
+Reproduce source extraction and generation in Command Prompt:
+
+```cmd
+.\.competition_env\Scripts\python.exe extract_cd4_reference.py
+.\.competition_env\Scripts\python.exe -m unittest test_submission test_cd4_model -v
+.\.competition_env\Scripts\python.exe build_submission.py --output-dir experiments/v2_cd4_hybrid --reference-kind cd4-hybrid --transfer-shrinkage 0.7 --noise-z 1.96 --upward-mode zero-aware
+.\.competition_env\Scripts\python.exe validate_v2.py
+```
+
+After a successful build, upload the new package with:
+
+```cmd
+.\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v2_cd4_hybrid\prediction.vcc -m "Donor-calibrated CD4 hybrid v2" --wait
+```
+
+The generator validates and packages locally; it does not upload. Original root-level prediction files remain the first submission.

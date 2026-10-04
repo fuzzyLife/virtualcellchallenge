@@ -75,7 +75,8 @@ def inventory(root, analysis):
                'requirements-competition.txt', 'COMPETITION_ANALYSIS.md',
                'prediction.h5ad', 'prediction.vcc', 'prediction.h5ad.partial',
                'prediction.vcc.partial', 'RUN_SUBMISSION.ps1', 'audit_prediction.py',
-               'audit_source_stages.py', 'pilot_orion.py', 'plot_model_audit.py', 'MODEL_IMPROVEMENT.md'}
+               'audit_source_stages.py', 'pilot_orion.py', 'plot_model_audit.py', 'MODEL_IMPROVEMENT.md',
+               'extract_cd4_reference.py', 'build_cd4_model.py', 'test_cd4_model.py', 'validate_v2.py'}
     rows = []
     from pypdf import PdfReader
     for path in sorted(root.rglob('*')):
@@ -318,8 +319,15 @@ def context_factors(mean_cpm, model, genes, targets, knockdown):
     effects, available, basal, positions, choice, lines, _ = model
     local = mean_cpm[positions]
     local = local*1e6/local.sum()
-    correlations = np.array([np.corrcoef(np.log1p(local), np.log1p(b))[0, 1] for b in basal])
-    w = np.exp(choice['temperature']*(correlations-1))
+    has_basal = model[6].get('basal_profile_available', True)
+    if has_basal:
+        correlations = np.array([np.corrcoef(np.log1p(local), np.log1p(b))[0, 1] for b in basal])
+        w = np.exp(choice['temperature']*(correlations-1))
+    else:
+        if choice['temperature'] != 0:
+            raise ValueError('Context weighting requires a measured basal profile')
+        correlations = [None]*len(lines)
+        w = np.ones(len(lines))
     weights = w[:, None]*available
     denominator = weights.sum(axis=0)
     lfc = np.einsum('lt,ltg->tg', weights, effects)/np.maximum(denominator[:, None], 1e-12)
@@ -331,7 +339,7 @@ def context_factors(mean_cpm, model, genes, targets, knockdown):
         # The on-target response is biologically required but excluded from all
         # competition metrics. It never enters the source holdout loss above.
         factors[t, gene_positions[target]] = 1-knockdown
-    diagnostics = {'source_profile_correlations': dict(zip(lines, correlations.tolist())),
+    diagnostics = {'source_profile_correlations': dict(zip(lines, correlations.tolist() if has_basal else correlations)),
                    'source_weights_before_per_target_renormalization': dict(zip(lines, (w/w.sum()).tolist())),
                    'downstream_lfc_quantiles': quantiles(lfc.ravel())}
     return factors, diagnostics
@@ -476,6 +484,7 @@ def main():
     parser.add_argument('--output-dir', type=Path, help='Separate experiment outputs; relative paths are resolved under --root')
     parser.add_argument('--transfer-shrinkage', type=float, default=.3)
     parser.add_argument('--noise-z', type=float, default=1.96)
+    parser.add_argument('--reference-kind', choices=['k562', 'cd4-hybrid'], default='k562')
     parser.add_argument('--upward-mode', choices=['proportional', 'zero-aware'], default='proportional')
     parser.add_argument('--knockdown', type=float, default=.9)
     parser.add_argument('--analysis-only', action='store_true')
@@ -490,7 +499,7 @@ def main():
     if not np.isfinite(args.noise_z) or args.noise_z < 0:
         parser.error('--noise-z must be nonnegative and finite')
     output = root if args.output_dir is None else (root/args.output_dir).resolve()
-    changed = (args.transfer_shrinkage != .3 or args.noise_z != 1.96 or
+    changed = (args.reference_kind != 'k562' or args.transfer_shrinkage != .3 or args.noise_z != 1.96 or
                args.upward_mode != 'proportional' or args.seed != 20261003 or args.knockdown != .9)
     if changed and output == root and not args.analysis_only and not args.package_only:
         parser.error('Changed model settings require a separate --output-dir to preserve first-submission files')
@@ -514,7 +523,11 @@ def main():
         if not args.analysis_only:
             if not (root/'reference'/'K562_gwps_raw_bulk_01.h5ad').exists():
                 subprocess.run([sys.executable, str(root/'download_reference.py'), '--root', str(root)], check=True)
-            model = reference_model(root, genes, targets, analysis, args.transfer_shrinkage, args.noise_z)
+            if args.reference_kind == 'cd4-hybrid':
+                from build_cd4_model import fit_model
+                model = fit_model(root, genes, targets, analysis, args.transfer_shrinkage, args.noise_z)
+            else:
+                model = reference_model(root, genes, targets, analysis, args.transfer_shrinkage, args.noise_z)
             context_labels = np.repeat(contexts, len(targets)*n)
             target_labels = np.tile(np.repeat(targets, n), len(contexts))
             obs = pd.DataFrame({'target_gene': pd.Categorical(target_labels, categories=targets),
@@ -576,7 +589,8 @@ def main():
                     ['vcc-cli', 'anndata', 'numpy', 'scipy', 'h5py', 'pandas', 'duckdb', 'pyarrow']}
         write_json(analysis/'run_parameters.json', {'created_utc': datetime.now(timezone.utc).isoformat(),
                     'seed': args.seed, 'knockdown_fraction_assumption': args.knockdown,
-                    'model': 'Genome-wide K562 CRISPR response transfer with configurable suppression and count simulation',
+                    'model': model[6].get('model', 'Genome-wide K562 CRISPR response transfer with configurable suppression and count simulation'),
+                    'reference_kind': args.reference_kind,
                     'transfer_shrinkage': args.transfer_shrinkage, 'noise_z': args.noise_z,
                     'upward_mode': args.upward_mode, 'output_dir': str(output),
                     'versions': versions, 'script_sha256': sha256(Path(__file__)),

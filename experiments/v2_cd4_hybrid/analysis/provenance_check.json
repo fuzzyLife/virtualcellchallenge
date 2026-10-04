@@ -1,0 +1,21 @@
+{
+  "source_subset_hashes_verified": true,
+  "source_subset_and_metadata_sha256": {
+    "merged.npz": "40c50d43e8b4ce8fedb281abe6b31ff1d1ce0cf2dc35e0cc4f5c4692c7e5af96",
+    "merged.csv": "a872a71694cea60d7821878f2bf4a593752f9db2b85741c1c24c44dd8704b33f",
+    "CE0006864_CE0008162.npz": "5afa24ff5da5a91eecfd249d0f2be5328142f28a9058d0a377c4d6d57cbafda4",
+    "CE0006864_CE0008162.csv": "20da9d2acd4665eb2d8322fe64612a306a3915f68c082b731ef2676430c31529",
+    "CE0008678_CE0010866.npz": "ad592de03295af4086e4ef39026280b13b631fac96f4128d879045a3220238ee",
+    "CE0008678_CE0010866.csv": "20da9d2acd4665eb2d8322fe64612a306a3915f68c082b731ef2676430c31529"
+  },
+  "model_code_sha256": {
+    "build_submission.py": "11ad1ba479b91709874fd1805f156790034c9e06d10b3fc61072e6085a474155",
+    "build_cd4_model.py": "6db1ce52aae12b9f642740546eae5e0efdc0c91b9a22e6e603c13dbd40ffcea2",
+    "extract_cd4_reference.py": "000c943d16915e1b774328d95257c38f4b1ea8e1fcadad548a12fe97c565c0f2",
+    "validate_v2.py": "a8be5ae014f2b0e3a106c62b95a26c0e85bb4245e98f626c3fa141db6c99089d"
+  },
+  "original_package_sha256": "d236c64869488827f54012a0e10de68aad05c6d97142674a561969483618371e",
+  "original_package_unchanged": true,
+  "distinct_tests_passed": 15,
+  "new_prediction_maximum_cell_counts": 52700
+}

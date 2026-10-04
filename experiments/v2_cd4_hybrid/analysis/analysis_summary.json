@@ -1,0 +1,57 @@
+{
+  "original_files": 149,
+  "manifest": {
+    "season": "2026",
+    "partition": "val",
+    "panel_id": "vcc2026-val-1",
+    "contexts": [
+      "A",
+      "B",
+      "C"
+    ],
+    "pert_col": "target_gene",
+    "context_col": "context",
+    "control_label": "non-targeting",
+    "n_genes": 18533,
+    "n_constructs": 300,
+    "per_context": {
+      "A": {
+        "n_perturbations": 300,
+        "control_cells": 18400,
+        "ground_truth_cells": 138400,
+        "n_ntc_ids": 46
+      },
+      "B": {
+        "n_perturbations": 300,
+        "control_cells": 18400,
+        "ground_truth_cells": 138400,
+        "n_ntc_ids": 46
+      },
+      "C": {
+        "n_perturbations": 300,
+        "control_cells": 18400,
+        "ground_truth_cells": 138400,
+        "n_ntc_ids": 46
+      }
+    },
+    "cells_per_pert": 400
+  },
+  "context_profile_log_cpm_correlations": [
+    [
+      1.0,
+      0.7800763261522831,
+      0.7477936945840503
+    ],
+    [
+      0.7800763261522831,
+      1.0,
+      0.8409055008956383
+    ],
+    [
+      0.7477936945840503,
+      0.8409055008956383,
+      1.0
+    ]
+  ],
+  "challenge_responses_available_locally": false
+}
