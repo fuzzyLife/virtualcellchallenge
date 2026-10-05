@@ -1,0 +1,177 @@
+{
+  "selected": {
+    "specific_gain": 1.5,
+    "prior_gain": 0.0
+  },
+  "nested_procedure": {
+    "loss": 0.0769391654035652,
+    "zero_loss": 0.0942402162070304,
+    "selection_score": 1.0029509625820616,
+    "direction_fidelity_proxy": 0.7418483331870508,
+    "jaccard_proxy": 0.18469995340229403,
+    "mean_predicted_calls": 1609.68,
+    "mean_reference_calls": 690.02,
+    "relative_zero_loss": 0.816415416901659
+  },
+  "v3_fixed_baseline": {
+    "loss": 0.06854959146702648,
+    "zero_loss": 0.0942402162070304,
+    "selection_score": 0.80555815059157,
+    "direction_fidelity_proxy": 0.520187645573782,
+    "jaccard_proxy": 0.16161262384179176,
+    "mean_predicted_calls": 549.44,
+    "mean_reference_calls": 690.02,
+    "setting": {
+      "specific_gain": 0.7,
+      "prior_gain": 0.0
+    },
+    "candidate": 0,
+    "relative_zero_loss": 0.7273921286049917
+  },
+  "changed_estimator_supported": true,
+  "nested_folds": [
+    {
+      "fold": 0,
+      "candidate": 5,
+      "setting": {
+        "specific_gain": 1.0,
+        "prior_gain": 0.5
+      },
+      "contrasts": 9,
+      "loss": 0.05351114063577719,
+      "zero_loss": 0.06429043488870448,
+      "relative_zero_loss": 0.8323344013524294,
+      "direction_fidelity_proxy": 0.6833437622293306,
+      "jaccard_proxy": 0.18860146132952144,
+      "mean_predicted_calls": 862.3888888888889,
+      "mean_reference_calls": 522.2222222222222,
+      "sign_accuracy_on_reference_DE": 1.0,
+      "selection_score": 0.9557780228826374,
+      "train_targets": [
+        "ADNP",
+        "AKT2",
+        "ANKZF1",
+        "BRPF1",
+        "HDAC8",
+        "HSBP1",
+        "MED25",
+        "RNF2",
+        "SIN3B",
+        "SLIRP",
+        "SMARCA5",
+        "STAT6",
+        "TARBP2",
+        "TRAPPC6A",
+        "TWF2",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "ACLY",
+        "MED13",
+        "MED15",
+        "MTA1",
+        "NFE2L1",
+        "PLAGL2",
+        "SHPRH",
+        "ZFP62",
+        "ZNF32"
+      ]
+    },
+    {
+      "fold": 1,
+      "candidate": 8,
+      "setting": {
+        "specific_gain": 1.5,
+        "prior_gain": 0.0
+      },
+      "contrasts": 8,
+      "loss": 0.11292960773236707,
+      "zero_loss": 0.15300209498681383,
+      "relative_zero_loss": 0.7380919048337192,
+      "direction_fidelity_proxy": 0.822676391076068,
+      "jaccard_proxy": 0.18812811373118968,
+      "mean_predicted_calls": 2663.3125,
+      "mean_reference_calls": 924.9375,
+      "sign_accuracy_on_reference_DE": 0.9984092903686669,
+      "selection_score": 1.1417585523903981,
+      "train_targets": [
+        "ACLY",
+        "ANKZF1",
+        "BRPF1",
+        "MED13",
+        "MED15",
+        "MED25",
+        "MTA1",
+        "NFE2L1",
+        "PLAGL2",
+        "SHPRH",
+        "SLIRP",
+        "STAT6",
+        "TARBP2",
+        "TWF2",
+        "ZFP62",
+        "ZNF32",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "ADNP",
+        "AKT2",
+        "HDAC8",
+        "HSBP1",
+        "RNF2",
+        "SIN3B",
+        "SMARCA5",
+        "TRAPPC6A"
+      ]
+    },
+    {
+      "fold": 2,
+      "candidate": 8,
+      "setting": {
+        "specific_gain": 1.5,
+        "prior_gain": 0.0
+      },
+      "contrasts": 8,
+      "loss": 0.06730525093852482,
+      "zero_loss": 0.06917184141036359,
+      "relative_zero_loss": 0.9730151686903176,
+      "direction_fidelity_proxy": 0.7268379176254687,
+      "jaccard_proxy": 0.17688259665526754,
+      "mean_predicted_calls": 1396.75,
+      "mean_reference_calls": 643.875,
+      "sign_accuracy_on_reference_DE": 0.9996879388284146,
+      "selection_score": 0.9172129299355773,
+      "train_targets": [
+        "ACLY",
+        "ADNP",
+        "AKT2",
+        "HDAC8",
+        "HSBP1",
+        "MED13",
+        "MED15",
+        "MTA1",
+        "NFE2L1",
+        "PLAGL2",
+        "RNF2",
+        "SHPRH",
+        "SIN3B",
+        "SMARCA5",
+        "TRAPPC6A",
+        "ZFP62",
+        "ZNF32"
+      ],
+      "test_targets": [
+        "ANKZF1",
+        "BRPF1",
+        "MED25",
+        "SLIRP",
+        "STAT6",
+        "TARBP2",
+        "TWF2",
+        "ZNF714"
+      ]
+    }
+  ],
+  "targets": 25,
+  "scope": "Target-held-out, disjoint public H1 batches; 400-cell normal call proxy compared with actual source Wilcoxon calls; not challenge accuracy"
+}

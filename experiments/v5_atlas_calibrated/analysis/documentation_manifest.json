@@ -1,0 +1,38 @@
+{
+  "root_code_sha256": {
+    "extract_v5_h1.py": "bece5d53b4854a1d98c7c7715cd4e335f117aa9bda5902b6e8f9aee21a118a95",
+    "calibrate_v5_promoters.py": "73c45076e81135dc79108c8dcc91d69c8e8b6ffebfba7efc82556da3205bfce3",
+    "fit_v5_submission.py": "1494fb0d451d34acb9a2e953263f5cf15682682d92575ed68262007dfe414678",
+    "build_v5_submission.py": "1bda5123313780a59e187902376d34519222543f359a8642733b9f82b2a4fa87",
+    "test_v5_submission.py": "6057570b1579508d06308bb5749f4aeb47d0561d5ece48421c7f792aad11f869",
+    "validate_v5.py": "184426c7066e860f80fe3ffc58e39700ba37f4785ba161949e21ab198eb6f7d0",
+    "document_v5_submission.py": "50859123c0cef848e53592676cc8b75aced58822674317bd14a2897d81217cdd"
+  },
+  "artifact_sha256": {
+    "reference_model.json": "b5574004efb1f409ede5c810c05f307af6e4e75f9c22a38d7dc6c4c1b17805b5",
+    "h1_contrasts.json": "823536e714683f96e6389e6905349a1b1ec4aca36d13d3fec8bb084c326d69e8",
+    "h1_target_QC.csv": "d022001a775d5a413b6037a4fe1ef061dd065c4062be11174b5e90f02da31a7e",
+    "h1_lineage_selection.json": "16c2de20df853310b48a63def380e5431751d4183bb514fc31324d42349986fc",
+    "bulk_selection.json": "9ceab156621f20527ee7f4b4b382807babcc067a74bfd06cbd67dc6d57f173e9",
+    "promoter_selection.json": "f62245a7eb31a520bee607530362dc408e8ad95ea68b69f61c28081ceeb86a71",
+    "promoter_effect_changes.csv": "b7b7e38fcffcb9896d76a9e808b0a4ad6bcdff1cf86f6eb9888dbb933e0d3b9a",
+    "source_extraction.json": "62ce0c6ecefc0b0e57dc6bf5ecee65d6ec508b471d0350d8adea63fb4bda3ff5",
+    "extractor_code_versions.json": "3dad482a69d929d0ade196af56429c91543cf2837647583fccccb566157d4119",
+    "preflight.json": "23d7ff4544f6e22307cf08e00b1702dc0cc935cdc9d8b66b2def64c127c56da4",
+    "run_parameters.json": "d43f3f882d9055f5b5567da017bd9c469cd700f5a621c0d27bcac664f3ec4b74",
+    "prediction_group_statistics.csv": "14c3880ec792b5b7fc98d48bd873217876f1f684638d62d79b46197cc24418c2",
+    "prediction_control_rows.csv": "d6d24c9c551c3d086090606d74c5528a1ed301645599fa081cfaca9bccf23627",
+    "model_validation.json": "cce60a79a50300974f36997a6b5dfa377781588096615ba3ce71fcd8ab6136f7",
+    "independent_validation.json": "8e1cbb1698a3f28f9be9e1951c836862514ef213c76b6edefd0e6a788783f927",
+    "submission_ready.json": "e232bb41f4265d41f92c933d66173d47523ae692bdd67ff924797a3d08162a46",
+    "test_results.txt": "9d858964bf926e5834c09b1bef23131e55ea5d8d231c57374c06be5c01e86d26",
+    "official_prep_stdout.json": "9697141d8cac67958e150f0aef7ca3aec1829477f95c5681bc6985ae5429824b",
+    "v5_validation.png": "d5fce7ff1697a9ec7b621cf34b15cef0b43b2f5e666eb8b704a536db3c451be7",
+    "v5_validation.pdf": "e4e1242bcdabd6a834d1e9b4bdd4b3ae21f47fa33d66c4d6ea8025dde0fe67a7"
+  },
+  "document_sha256": {
+    "V5_SUBMISSION.md": "bb71ab417a8cb3318db09f9b3290b5fd224d295c307aa44452edf85eb0f690ac",
+    "V5_MODEL_STRATEGY.md": "59857fd128f6dd3f997e063bbbee64efd82f482da5f3a2becb85d8f1cac8a177"
+  },
+  "scope": "Completed generation and verification records; no upload or hidden-score claim."
+}

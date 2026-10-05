@@ -1,0 +1,139 @@
+{
+  "model": "V5 atlas-calibrated lineage response with individual-cell dual moments",
+  "v4_parent_model_sha256": "95c00fe3cb85fc2c3dd5820cfcea1379c4227c3f456f154deedc6a4017c5aa65",
+  "v4_parent_arrays_sha256": "644fb41bf8dfb94161537c9a45164e09fc0808e7aba6753b5feb850eefcf5908",
+  "v4_source_components_sha256": "0a4802e73c7c6b25ab24c4309f4620e5696364150fd1fc8469f0a3a2c0911a49",
+  "h1_source_extraction": {
+    "original_training_extraction": {
+      "source": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+        "bytes": 15482497461,
+        "etag": "\"-CKCuwqrMwpEDEAE=\""
+      },
+      "public_release": "2025 training only",
+      "selection": "First source-ordered 32 controls per batch; first N target cells per target/batch, adaptive bounded plan",
+      "target_cells_per_batch": 2,
+      "targets": 13,
+      "selected_cells": 2772,
+      "control_cells": 1536,
+      "genes": 18080,
+      "range_bytes_used": 1635264949,
+      "downloaded_this_run": 741867520,
+      "byte_budget": 2147483648,
+      "counts_sha256": "6d2f9389735ee1c29dc6b71fee55c4b5b0067af8e95c3fc9e034bee414bd3a33",
+      "selected_cells_sha256": "b43c1cd3ef36767ece5f2fb55b5d70f6d291f6bfe09f4aa2f5a2a79856fa7bc0",
+      "gene_names_sha256": "78be667f0e5c7b515d8403fda699f3aed19dc7207a2ccf9233b0b927a4a90723",
+      "script_sha256": "660d9fb626eab5eaf9691bf1c764f0b4e2660a31ecc70db226f130578c353f63"
+    },
+    "additional_splits": [
+      {
+        "source": {
+          "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad?generation=1765905029341737",
+          "bytes": 6928967541,
+          "etag": "\"-CKnE7O/MwpEDEAE=\""
+        },
+        "target_cells_per_target_batch": 16,
+        "selected_cells": 4570,
+        "target_cells": 3034,
+        "targets": 4,
+        "shared_controls_checked_count_exact": 1536,
+        "shared_controls_retained_in_combined_matrix_once": true,
+        "budget_bytes": 4294967296,
+        "range_bytes_used": 2579998581,
+        "downloaded_this_run": 2570846208,
+        "counts_sha256": "2922db5dd0733f874b4f1416823ef9e9bf40d1c278e808e957643c4f9eb4249d",
+        "selected_cells_sha256": "d7e5ee84ee74a5d40fbadeea0c31adf2623bd24ca1c032276cbeaa61a7a5f34e",
+        "script_sha256": "3c0a30508af78cb2e09ecdd5bb734adc77d4b1e962fd27eb0938fa8a102921f1",
+        "selection": "Existing 1536 training controls matched by ID and exactly verified, first N target cells per target/batch; largest predeclared N fitting bounded range plan."
+      },
+      {
+        "source": {
+          "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad?generation=1765905295402700",
+          "bytes": 11950739168,
+          "etag": "\"-CMzN2+7NwpEDEAE=\""
+        },
+        "target_cells_per_target_batch": 16,
+        "selected_cells": 6096,
+        "target_cells": 4560,
+        "targets": 8,
+        "shared_controls_checked_count_exact": 1536,
+        "shared_controls_retained_in_combined_matrix_once": true,
+        "budget_bytes": 4294967296,
+        "range_bytes_used": 3774467808,
+        "downloaded_this_run": 2627993600,
+        "counts_sha256": "a09d1ab39759242bdf0c140e6a5f4c18c95146fa524e10966ec149242e583766",
+        "selected_cells_sha256": "9f6e9ca1934ff10c3488804af137f0bc8fc03d1ad202ce226ce8a5bbbf8b65c0",
+        "script_sha256": "bece5d53b4854a1d98c7c7715cd4e335f117aa9bda5902b6e8f9aee21a118a95",
+        "selection": "Existing 1536 training controls matched by ID and exactly verified, first N target cells per target/batch; largest predeclared N fitting bounded range plan."
+      }
+    ],
+    "targets": 25,
+    "control_cells": 1536,
+    "selected_cells": 10366,
+    "genes": 18080,
+    "counts_sha256": "83d31b5be41f663247f0184fce15d5455099479d68cd66ac2122886ffe6f0e92",
+    "selected_cells_sha256": "02dadfcf89adac67e74d17582ab8cf7bd6c7576ef93d4a5ca321a224a7b6dc71",
+    "gene_names_sha256": "78be667f0e5c7b515d8403fda699f3aed19dc7207a2ccf9233b0b927a4a90723",
+    "script_sha256": "bece5d53b4854a1d98c7c7715cd4e335f117aa9bda5902b6e8f9aee21a118a95",
+    "scope": "Released public 2025 H1, combined unique cells; source batch splits globally disjoint; no hidden 2026 response data."
+  },
+  "h1_source_extraction_sha256": "62ce0c6ecefc0b0e57dc6bf5ecee65d6ec508b471d0350d8adea63fb4bda3ff5",
+  "h1_settings": {
+    "specific_gain": 1.5,
+    "prior_gain": 0.0
+  },
+  "bulk_gain": 1.0,
+  "cd4_settings_unchanged": {
+    "specific_gain": 1.0,
+    "prior_gain": 0.0
+  },
+  "cross_lineage_settings": {
+    "cd4_coefficient": 0.5,
+    "k562_coefficient": 1.0,
+    "prior_gain": 0.5
+  },
+  "public_H1_targets": 25,
+  "usable_direct_H1_targets": 25,
+  "promoter_changes_A_only": 22,
+  "model_arrays_sha256": "be9629e75d37287cb8e0056b3631dda4f36d9c91baeef45948f095672227ccba",
+  "h1_components_sha256": "f350546aaa63b4105fafb04fe11d4ee176646a66845a418eb89efbe6243b12aa",
+  "script_sha256": "1494fb0d451d34acb9a2e953263f5cf15682682d92575ed68262007dfe414678",
+  "reused_v4_fitter_sha256": "616a5ad4bb7dc0cd5f5e163a3135f2286a2296356a2715ff15822bda873f21e2",
+  "source_original_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "context": "A",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "context": "B",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "context": "C",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    }
+  ],
+  "promoter_selection_sha256": "f62245a7eb31a520bee607530362dc408e8ad95ea68b69f61c28081ceeb86a71",
+  "h1_contrasts_sha256": "d93b4db41532e234d53c7dc325fdb5faa457b0919f18c0d56855de1e55577115",
+  "h1_contrasts_metadata_sha256": "823536e714683f96e6389e6905349a1b1ec4aca36d13d3fec8bb084c326d69e8",
+  "limitations": [
+    "No hidden response validation or promised score improvement.",
+    "H1 source sampling is bounded and source ordered, not all released cells.",
+    "Source batch/target holdouts do not guarantee anonymous-context transfer.",
+    "Pooled-response amplitude is calibrated in H1 and used as a transfer assumption for B/C.",
+    "Promoter prior uses 17 selected CD4 targets; applied only to A.",
+    "Cell library sizes are held to original controls; treatment-dependent depth changes are not modeled."
+  ]
+}

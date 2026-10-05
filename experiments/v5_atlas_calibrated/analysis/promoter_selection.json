@@ -1,0 +1,177 @@
+{
+  "accepted": true,
+  "selected_alpha": 1.0,
+  "fitted_close_neighbor_log2fc": -1.6632335520910015,
+  "held_target_loss": 2.2492834230442136,
+  "v4_donor_or_k562_baseline_loss": 3.0672062545016803,
+  "relative_v4_neighbor_loss": 0.733332953968447,
+  "both_donors_negative_fraction": 0.8529411764705882,
+  "observations": 34,
+  "targets": 17,
+  "nested_folds": [
+    {
+      "fold": 0,
+      "alpha": 1.0,
+      "observations": 6,
+      "loss": 2.846248436387722,
+      "train_targets": [
+        "ALG12",
+        "ANKZF1",
+        "FAM120A",
+        "MED15",
+        "NUP37",
+        "PCGF1",
+        "PDE6D",
+        "PHF23",
+        "PSMB9",
+        "STT3A",
+        "SUPT7L",
+        "TARBP2",
+        "ZNF627"
+      ],
+      "test_targets": [
+        "HMGXB3",
+        "PAN2",
+        "RBM18",
+        "UROS"
+      ]
+    },
+    {
+      "fold": 1,
+      "alpha": 1.0,
+      "observations": 10,
+      "loss": 0.9322090544689345,
+      "train_targets": [
+        "ANKZF1",
+        "FAM120A",
+        "HMGXB3",
+        "MED15",
+        "NUP37",
+        "PAN2",
+        "PCGF1",
+        "PDE6D",
+        "RBM18",
+        "STT3A",
+        "SUPT7L",
+        "TARBP2",
+        "UROS"
+      ],
+      "test_targets": [
+        "ALG12",
+        "PHF23",
+        "PSMB9",
+        "ZNF627"
+      ]
+    },
+    {
+      "fold": 2,
+      "alpha": 1.0,
+      "observations": 5,
+      "loss": 1.9649893735712092,
+      "train_targets": [
+        "ALG12",
+        "ANKZF1",
+        "FAM120A",
+        "HMGXB3",
+        "MED15",
+        "PAN2",
+        "PCGF1",
+        "PDE6D",
+        "PHF23",
+        "PSMB9",
+        "RBM18",
+        "TARBP2",
+        "UROS",
+        "ZNF627"
+      ],
+      "test_targets": [
+        "NUP37",
+        "STT3A",
+        "SUPT7L"
+      ]
+    },
+    {
+      "fold": 3,
+      "alpha": 1.0,
+      "observations": 8,
+      "loss": 4.027401668390597,
+      "train_targets": [
+        "ALG12",
+        "FAM120A",
+        "HMGXB3",
+        "MED15",
+        "NUP37",
+        "PAN2",
+        "PDE6D",
+        "PHF23",
+        "PSMB9",
+        "RBM18",
+        "STT3A",
+        "SUPT7L",
+        "UROS",
+        "ZNF627"
+      ],
+      "test_targets": [
+        "ANKZF1",
+        "PCGF1",
+        "TARBP2"
+      ]
+    },
+    {
+      "fold": 4,
+      "alpha": 1.0,
+      "observations": 5,
+      "loss": 1.6063790011013512,
+      "train_targets": [
+        "ALG12",
+        "ANKZF1",
+        "HMGXB3",
+        "NUP37",
+        "PAN2",
+        "PCGF1",
+        "PHF23",
+        "PSMB9",
+        "RBM18",
+        "STT3A",
+        "SUPT7L",
+        "TARBP2",
+        "UROS",
+        "ZNF627"
+      ],
+      "test_targets": [
+        "FAM120A",
+        "MED15",
+        "PDE6D"
+      ]
+    }
+  ],
+  "candidate_summary": [
+    {
+      "alpha": 0.0,
+      "held_target_loss": 3.0672062545016803
+    },
+    {
+      "alpha": 0.25,
+      "held_target_loss": 2.8165413565720834
+    },
+    {
+      "alpha": 0.5,
+      "held_target_loss": 2.5581727474732823
+    },
+    {
+      "alpha": 1.0,
+      "held_target_loss": 2.2492834230442136
+    }
+  ],
+  "script_sha256": "73c45076e81135dc79108c8dcc91d69c8e8b6ffebfba7efc82556da3205bfce3",
+  "source_sha256": {
+    "analysis\\upstream_review\\promoter_neighbor_pairs.csv": "c96d77f7b51f3a9b2420a3a8b88b59c3354017004d6dc4aab7cc7ac210f4f17b",
+    "experiments\\v4_lineage_response\\analysis\\source_components.npz": "0a4802e73c7c6b25ab24c4309f4620e5696364150fd1fc8469f0a3a2c0911a49",
+    "reference\\cd4_probe\\CE0006864_CE0008162.csv": "20da9d2acd4665eb2d8322fe64612a306a3915f68c082b731ef2676430c31529",
+    "reference\\cd4_probe\\CE0006864_CE0008162.npz": "5afa24ff5da5a91eecfd249d0f2be5328142f28a9058d0a377c4d6d57cbafda4",
+    "reference\\cd4_probe\\CE0008678_CE0010866.csv": "20da9d2acd4665eb2d8322fe64612a306a3915f68c082b731ef2676430c31529",
+    "reference\\cd4_probe\\CE0008678_CE0010866.npz": "ad592de03295af4086e4ef39026280b13b631fac96f4128d879045a3220238ee"
+  },
+  "policy": "Require significant negative source response in at least two source conditions; Target-held-out, donor-independent distance ramp compared with donor-specific V4 CD4/K562 estimator; minimum 10 targets, >=10% nested MSE improvement, >=70% both-donor negative signs; apply only to CD4-matched context A and leave existing stronger negative effects intact.",
+  "scope": "A hypothesis for conserved guide/promoter-neighbor suppression; boundaries are GENCODE gene TSS, not guide positions; no B/C collateral-effect validation."
+}

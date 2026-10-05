@@ -294,6 +294,14 @@ Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_t
 
 Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.
 
+## V5 atlas-calibrated submission
+
+A new candidate is generated and verified at `experiments/v5_atlas_calibrated/prediction.vcc` (3,275,069,440 bytes; 3.05 GiB). It covers all 900 groups, 360,000 cells and the exact 18,533 genes. Official VCC packaging and independent source/model/count verification passed. It has not been uploaded or scored.
+
+V5 expands public H1 coverage to 25 source targets (25 QC-accepted direct responses), estimates mean/pooled effects separately, generates from individual control-cell templates while preserving all original cell depths, and applies 22 source-supported promoter-neighbor corrections only in A. CD4 across-target subtraction remains zero. Five tests and 24 numerical preflight groups passed. [V5_SUBMISSION.md](V5_SUBMISSION.md) gives the upload command and hash; [V5_MODEL_STRATEGY.md](V5_MODEL_STRATEGY.md) gives every step, selected settings, verification and limitations.
+
+Root scripts are `extract_v5_h1.py`, `calibrate_v5_promoters.py`, `fit_v5_submission.py`, `build_v5_submission.py`, `test_v5_submission.py`, `validate_v5.py` and `document_v5_submission.py`. Small evidence is tracked in the candidate analysis folder; source counts/caches and large predictions are regenerated locally. V4 remains the best published project result until V5 is scored.
+
 ## Upstream repository review and validated improvement experiments
 
 Both cloned repositories were reviewed through their reachable commit history, historical methods and current code/tutorials. [UPSTREAM_REPOSITORY_REVIEW.md](UPSTREAM_REPOSITORY_REVIEW.md) records pinned commits, source differences, tests, scientific figures and exact reproduction commands. AtlasShift has 14 commits but only two executable-Python-changing commits; Arc Atlas has 59 main commits (62 across refs) and supplies data/access tutorials rather than a trained predictor.
