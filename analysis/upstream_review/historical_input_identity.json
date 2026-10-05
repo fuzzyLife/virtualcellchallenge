@@ -1,0 +1,36 @@
+{
+  "competition_inputs": {
+    "context_A.h5ad": {
+      "our_sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "historical_sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "match": true
+    },
+    "context_B.h5ad": {
+      "our_sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "historical_sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "match": true
+    },
+    "context_C.h5ad": {
+      "our_sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "historical_sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "match": true
+    },
+    "gene_names.csv": {
+      "our_sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201",
+      "historical_sha256": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201",
+      "match": true
+    },
+    "pert_counts.csv": {
+      "our_sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+      "historical_sha256": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+      "match": true
+    }
+  },
+  "promoter_annotation": {
+    "our_logical_pairs_match_reviewed_upstream": true,
+    "reproduced_csv_sha256": "2f4675c03728dea55be924e5a7eb23281a5e53777aa90a048360ef697532538a",
+    "historical_csv_sha256": "2f4675c03728dea55be924e5a7eb23281a5e53777aa90a048360ef697532538a",
+    "historical_csv_byte_match": true
+  },
+  "scope": "Control hashes compared with previously verified V4 input hashes; gene/target files freshly hashed. Does not establish equality of hidden references or leaderboard anchor versions."
+}

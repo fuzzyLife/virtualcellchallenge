@@ -1,0 +1,13 @@
+{
+  "upstream_model_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "script_sha256": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+  "training_test_cells_per_context": 9200,
+  "predicted_cells_each_group": 400,
+  "upstream_pool_sizes": [
+    1,
+    4
+  ],
+  "pool_one_uses_same_control_donors_as_baseline": true,
+  "all_groups_integer_and_preserve_cell_depth": true,
+  "scope": "No-response control reconstruction, distinct training/test controls; no perturbation labels, own-target knockdown or hidden response truth. Tests moment geometry and dispersion, not leaderboard accuracy. Do not automatically replace observed-cell variability with pooled cells."
+}

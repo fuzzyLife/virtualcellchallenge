@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "nested_targets_checked": 72,
+  "coverage_rows_checked": 900,
+  "moment_groups_checked": 9,
+  "upstream_promoter_pairs_independently_matched": 75,
+  "v4_effect_cache_sha256_unchanged": "644fb41bf8dfb94161537c9a45164e09fc0808e7aba6753b5feb850eefcf5908",
+  "v4_package_size_unchanged": true,
+  "artifact_sha256": {
+    "repository_review.json": "a52f4af8934012ba1102a59fee9fa40770345c8d074d1a5681e12ca25a9ed37d",
+    "centering_validation.json": "132f000e39323fdf1ec98fc1f1068c8b2f1712302a2891ab58a2b516bac8759e",
+    "control_moment_diagnostics.csv": "260cfc5ff333d81fddb7db250ac0cf477c882e7960b3c37777b6aebbfe862ef9",
+    "control_moment_scope.json": "564ef07450e323fe34c31d5c1fee4359808c840a5cf001ce97714fe14f4a294c",
+    "h1_coverage_probe.json": "8223bfabbb187ba3855446c1dea6bb327cab0ec8d3b8090be9a3e5fec1f8e0de",
+    "h1_public_split_coverage.csv": "3910f173e7e72de3c8829b5821acde20aede74785d4b286aafe11f6657ae66a7",
+    "h1_public_target_coverage.csv": "da18c63732d325276fb28b17efa07376df7a5b9f286acea1fbddeea99a0dc62a",
+    "promoter_probe.json": "8ebb61b3e3dc1e834c0c4a649b05bf842311b4a874eb0c257ed18635862ac04b",
+    "promoter_neighbor_pairs.csv": "c96d77f7b51f3a9b2420a3a8b88b59c3354017004d6dc4aab7cc7ac210f4f17b",
+    "cd4_promoter_neighbor_observations.csv": "31958a4ea4fadf51058311fedf6cd105664adf083df1e2c88339e35541f95251",
+    "historical_input_identity.json": "fb04fa7efbda097c59e0e7b7aa46f7a676c3faaeaff5c5c7677b307360d1584c",
+    "test_results.txt": "3bbfcbabad4af1b1ad4361557316032fd5379f3156f61814b0266cb8ece19342",
+    "centering_candidates.csv": "caed0e43b2166e4950d3c741a3fc5bb6944f4ee60e45b3f4fa65c690cdd7047c",
+    "centering_outer_scores.csv": "8583d60eddcd3853e0337515e05872afa58b7107ee5159ec8e668807e0716768",
+    "Virtual-Cell-Challenge-2026_commits.csv": "881bc9aac403f1978dfa9ebcded7cce0b8e30ab2c94dd8d2689aeca81397725d",
+    "arc-virtual-cell-atlas_commits.csv": "d57950e7d08adfea98ab88db3381096ee21bb7b0d8ab63ba72fe2f0341d7e220"
+  },
+  "root_code_sha256": {
+    "review_upstream_repositories.py": "17a6f84c23e1baefc10fcdd92ea9a6e3e8d412b59531a32ea09d4e60b0ed21c8",
+    "probe_atlas_sources.py": "b06087f8cc99d6726d30199676aa1e153d11a3d0d4910fa0f7884c334175b358",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+    "test_upstream_review.py": "44d19b4efb9611228487e06289d7b49c39496d4f6f1c784baed2f959233fc8bf",
+    "validate_upstream_review.py": "dc7283a089df64866031a1d4a69d198cdf764b371103cd3011dbf13cadb95620"
+  },
+  "scope": "Provenance, stored numerical summaries, disjoint folds, metadata coverage, full original GTF pair reconstruction and focused tests. Does not independently recompute hidden scores or reread all source expression counts."
+}

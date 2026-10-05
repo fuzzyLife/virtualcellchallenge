@@ -294,6 +294,14 @@ Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_t
 
 Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.
 
+## Upstream repository review and validated improvement experiments
+
+Both cloned repositories were reviewed through their reachable commit history, historical methods and current code/tutorials. [UPSTREAM_REPOSITORY_REVIEW.md](UPSTREAM_REPOSITORY_REVIEW.md) records pinned commits, source differences, tests, scientific figures and exact reproduction commands. AtlasShift has 14 commits but only two executable-Python-changing commits; Arc Atlas has 59 main commits (62 across refs) and supplies data/access tutorials rather than a trained predictor.
+
+Public 2025 H1 metadata extends potential direct-response coverage from 13 to **25** of our 300 targets, with 12 additional targets. All 38,176 control identifiers recur across the released splits, so validation must partition controls by identifier. Response counts/knockdown still require extraction and QC. Paired neutral-control tests show that separate mean-CPM/pooled-profile count matching reduces profile drift while one-cell templates retain variance near the controls; four-cell pooling reduces variance to roughly 30-38%. Five held-target CD4 folds select zero across-target subtraction. Independently reconstructed promoter pairs cover 74 targets, with descriptive neighboring-gene suppression evidence that requires held-out calibration.
+
+Root scripts: `review_upstream_repositories.py`, `probe_atlas_sources.py`, `evaluate_atlas_transfer.py`, `test_upstream_review.py`, `validate_upstream_review.py`, `document_upstream_review.py`. Four focused tests and the independent validator passed; evidence is under `analysis/upstream_review/`. The next candidate should first evaluate additional H1 responses and one-cell dual-moment calibration. This review preserves V4 and does not generate or upload a new prediction package.
+
 ## V4 lineage-guided response coverage candidate
 
 The completed candidate is ready at `experiments/v4_lineage_response/prediction.vcc` (3,309,240,320 bytes; 3.08 GiB). Official preparation and independent package verification passed for all 900 groups, 360,000 cells and the exact 18,533-gene axis. Published as `w5criCkgkCWj1QOgP08E` with overall score **-0.050674**. Rank was 977 at publication and 975 at the recorded API check; ranks change over time. [V4_SUBMISSION.md](V4_SUBMISSION.md) records the package hash, completed checks, actual generated-response audit and Command Prompt upload command.

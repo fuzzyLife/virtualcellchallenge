@@ -1,0 +1,171 @@
+{
+  "script_sha256": "17a6f84c23e1baefc10fcdd92ea9a6e3e8d412b59531a32ea09d4e60b0ed21c8",
+  "repositories": [
+    {
+      "repository": "Virtual-Cell-Challenge-2026",
+      "origin": "https://github.com/kaipengm2/Virtual-Cell-Challenge-2026",
+      "head": "d24ce4fdae0cd7cba3ba29546cd8737094eae98a",
+      "origin_main": "d24ce4fdae0cd7cba3ba29546cd8737094eae98a",
+      "commits_all_refs": 14,
+      "commits_main": 14,
+      "python_executable_change_commits": 2,
+      "tracked_files": [
+        {
+          "path": ".gitignore",
+          "bytes": 195,
+          "sha256": "197adaff530098e64738c8e44a6b8c8b682750eef9d0e43c96e730311ea795d8"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1127,
+          "sha256": "b344b3e564121b1499e5a199cd2d8b86b442bc7e89ca347fd4f003cbea58d2f8"
+        },
+        {
+          "path": "README.md",
+          "bytes": 2223,
+          "sha256": "b68e3154926335ea711487679445a0eb4c3b78303db1f666fdb59584563e6df4"
+        },
+        {
+          "path": "compact.py",
+          "bytes": 10279,
+          "sha256": "5aa60fa246a9449beaa05571262088313994b74ad75cee734dc20f27f2eb7069"
+        },
+        {
+          "path": "model.py",
+          "bytes": 19132,
+          "sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a"
+        },
+        {
+          "path": "pack.py",
+          "bytes": 5316,
+          "sha256": "dee77908cb3dc922f9b97b259e576ff3207e3a43f677a4b35117395ac6b8040b"
+        },
+        {
+          "path": "predict.py",
+          "bytes": 9113,
+          "sha256": "dbfc16f3be39642d22d22373ee4f5b5a43016f3db8016e6022151aca7ae1b0e6"
+        },
+        {
+          "path": "prepare.py",
+          "bytes": 25196,
+          "sha256": "0ddc574f9af64aa5f448312aad1d15f85ee79cef0fe8b3bfb3f32e96d68b51d5"
+        },
+        {
+          "path": "requirements.txt",
+          "bytes": 96,
+          "sha256": "efc3bae2f4e69216461469063b4bba7c6b468f9478d88b16a927fd7659ff0bc9"
+        },
+        {
+          "path": "sources.json",
+          "bytes": 2471,
+          "sha256": "422e75796bc2bb3e02ab92e481901f7dabe440e7edad59a698f0fbc9b35b21e5"
+        }
+      ],
+      "branches": [
+        "* main",
+        "  remotes/origin/HEAD -> origin/main",
+        "  remotes/origin/main"
+      ],
+      "working_tree_clean": true
+    },
+    {
+      "repository": "arc-virtual-cell-atlas",
+      "origin": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
+      "head": "4f7bb170c61d2fafce70f67db6e52c7d9af1be4b",
+      "origin_main": "4f7bb170c61d2fafce70f67db6e52c7d9af1be4b",
+      "commits_all_refs": 62,
+      "commits_main": 59,
+      "python_executable_change_commits": 2,
+      "tracked_files": [
+        {
+          "path": ".gitignore",
+          "bytes": 564,
+          "sha256": "be8d53c89c154bb9348a8615a4779c821d57ef4120846e2fbcc6df9394d57c91"
+        },
+        {
+          "path": "README.md",
+          "bytes": 4939,
+          "sha256": "8d096a74edc3a57cd1b199250885668332179a1ea2dd7b19f46105154d1d9f80"
+        },
+        {
+          "path": "conda_envs/R.yml",
+          "bytes": 435,
+          "sha256": "c4ea2031407180969cff64988de8ef013ed35925ce97f665cd2cef66e72919c0"
+        },
+        {
+          "path": "conda_envs/python.yml",
+          "bytes": 305,
+          "sha256": "b19c3987057cbb0f487f6bf02700d89474691a8aed81e93fad20f815ff9aabcb"
+        },
+        {
+          "path": "scBaseCount/README.md",
+          "bytes": 11050,
+          "sha256": "421a9d2c0bca56e21f2bce2a31eadee7b757fa38cb55a65c7e823d28e13dbf27"
+        },
+        {
+          "path": "scBaseCount/img/scBaseCount_banner.png",
+          "bytes": 315793,
+          "sha256": "3f4783c77d81c4b6cb3652503d09a613a63a992a3431699702ea57274fe7ab35"
+        },
+        {
+          "path": "scBaseCount/tutorial-R.ipynb",
+          "bytes": 82590,
+          "sha256": "91f39265fb033d96389be8300c3ced94e65592d50669e8901bddc80750ea10a1",
+          "code_cells": 30,
+          "code_sha256": "a2bc485bfda844ffe77e7d93c8be7a2759785a2a09a1c2776259ddfbc258cf65"
+        },
+        {
+          "path": "scBaseCount/tutorial-py.ipynb",
+          "bytes": 161463,
+          "sha256": "5c99e1fb1507e710ea4b6b7f1b94a03d4926ec4de2912222fa8863f89b6ff975",
+          "code_cells": 37,
+          "code_sha256": "645565380f23adbb4d2ddad8b17b14de147fbdda2d98c9b82d3518d7d3e4ace6"
+        },
+        {
+          "path": "tahoe-100M/README.md",
+          "bytes": 3930,
+          "sha256": "34b7a644aa3256fbf7da84e3dc94b3aadb7d2a6419fd3f2462dce85c58506ac3"
+        },
+        {
+          "path": "tahoe-100M/tutorial-py.ipynb",
+          "bytes": 66707,
+          "sha256": "3d3bc8b59c2e790aa1ecc2b2fe5d1d3364b2c58d437fabda264627631e2cb6c5",
+          "code_cells": 17,
+          "code_sha256": "e5d86eee1e022df4fb9a538de9da94f1db09d6cb0cff27501b7430f97c64f5ee"
+        },
+        {
+          "path": "virtual-cell-challenge/README.md",
+          "bytes": 1981,
+          "sha256": "68b5fe94f9358fda184a485d606f2d48b3e5088f59cace77200504a2fbb2b154"
+        },
+        {
+          "path": "virtual-cell-challenge/tutorial-R.ipynb",
+          "bytes": 3174,
+          "sha256": "16271b6aff844a49ce66f8e6bd3e47ddc8971e3fb10702966656c1fab29f0a62",
+          "code_cells": 3,
+          "code_sha256": "a9427586adfa56ec5823976016ce5f7af1b6e5ecf89f271bec423350423784fd"
+        },
+        {
+          "path": "virtual-cell-challenge/tutorial-py.ipynb",
+          "bytes": 4701,
+          "sha256": "c73ce48514ef3f1d9e7fe776085a0f9b7850cb1bfe5b1bf482f09c2f210ed336",
+          "code_cells": 6,
+          "code_sha256": "6176f1e168c2813968841ebb3cb5c9a85e51f03eccfdf2deb94bb906dd1e8691"
+        }
+      ],
+      "branches": [
+        "* main",
+        "  remotes/origin/HEAD -> origin/main",
+        "  remotes/origin/docs/fix-egress-guidance",
+        "  remotes/origin/docs/marketplace-free-tier-instructions",
+        "  remotes/origin/main"
+      ],
+      "working_tree_clean": true,
+      "egress_guidance_fix_branch": [
+        "  remotes/origin/docs/fix-egress-guidance"
+      ],
+      "egress_guidance_fix_merged_into_main": false
+    }
+  ],
+  "scope": "All reachable commit metadata and file changes; current tracked files and notebook code hashes; AST comparison ignores docstrings. Notebook tutorial diffs and selected historical methods reviewed separately."
+}

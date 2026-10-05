@@ -1,0 +1,79 @@
+{
+  "sources": [
+    {
+      "split": "train",
+      "source": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+        "bytes": 15482497461,
+        "etag": "\"-CKCuwqrMwpEDEAE=\""
+      },
+      "cells": 221273,
+      "targets": 150,
+      "control_cells": 38176,
+      "overlapping_2026_targets": 13,
+      "genes": 18080,
+      "shared_2026_genes": 18077,
+      "range_bytes_used": 18098613,
+      "downloaded_this_run": 0,
+      "scope": "Observation labels and gene axis only; expression matrix never accessed; counts are available cells, not QC-approved usable cells."
+    },
+    {
+      "split": "validation",
+      "source": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad?generation=1765905029341737",
+        "bytes": 6928967541,
+        "etag": "\"-CKnE7O/MwpEDEAE=\""
+      },
+      "cells": 98927,
+      "targets": 50,
+      "control_cells": 38176,
+      "overlapping_2026_targets": 4,
+      "genes": 18080,
+      "shared_2026_genes": 18077,
+      "range_bytes_used": 9152373,
+      "downloaded_this_run": 6815744,
+      "scope": "Observation labels and gene axis only; expression matrix never accessed; counts are available cells, not QC-approved usable cells."
+    },
+    {
+      "split": "test",
+      "source": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad?generation=1765905295402700",
+        "bytes": 11950739168,
+        "etag": "\"-CMzN2+7NwpEDEAE=\""
+      },
+      "cells": 170846,
+      "targets": 100,
+      "control_cells": 38176,
+      "overlapping_2026_targets": 8,
+      "genes": 18080,
+      "shared_2026_genes": 18077,
+      "range_bytes_used": 14798560,
+      "downloaded_this_run": 11796480,
+      "scope": "Observation labels and gene axis only; expression matrix never accessed; counts are available cells, not QC-approved usable cells."
+    }
+  ],
+  "training_overlap": 13,
+  "all_splits_overlap": 25,
+  "additional_targets": [
+    "ACLY",
+    "ADNP",
+    "ANKZF1",
+    "BRPF1",
+    "HDAC8",
+    "MED15",
+    "MED25",
+    "NFE2L1",
+    "PLAGL2",
+    "SLIRP",
+    "ZFP62",
+    "ZNF32"
+  ],
+  "total_downloaded_this_run": 18612224,
+  "shared_control_cell_identifiers": {
+    "validation": 38176,
+    "test": 38176
+  },
+  "control_identifier_scope": "Shared identifiers flag potentially reused controls; count equality was not checked. Do not treat public splits as independent control replicates.",
+  "script_sha256": "b06087f8cc99d6726d30199676aa1e153d11a3d0d4910fa0f7884c334175b358",
+  "no_billing_project_or_authentication_used": true
+}
