@@ -1,0 +1,240 @@
+{
+  "seed": 20261006,
+  "structures": {
+    "shallow": {
+      "hidden": [
+        128
+      ],
+      "activation": "relu",
+      "dropout": 0.1,
+      "family": "magnitude"
+    },
+    "deep": {
+      "hidden": [
+        256,
+        128
+      ],
+      "activation": "silu",
+      "dropout": 0.1,
+      "family": "magnitude"
+    },
+    "bottleneck": {
+      "hidden": [
+        128,
+        32
+      ],
+      "activation": "silu",
+      "dropout": 0.05,
+      "family": "magnitude"
+    },
+    "residual": {
+      "hidden": [
+        256,
+        128
+      ],
+      "activation": "gelu",
+      "dropout": 0.1,
+      "family": "hybrid"
+    }
+  },
+  "epochs": 40,
+  "patience": 7,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "device": "cuda",
+  "cuda_runtime": "12.6",
+  "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+  "versions": {
+    "torch": "2.10.0+cu126",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4"
+  },
+  "code_sha256": "31f86f48a79483a864c3dff8206721d0a7f3f7e37bfe05f45b7dbab5adb65f8c",
+  "contexts": {
+    "A": {
+      "source_sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "normalized": {
+          "context": "A",
+          "objective": "normalized",
+          "architecture": "deep",
+          "best_epoch": 13,
+          "validation_mse": 3.1448002707313454,
+          "parameters": 2462521,
+          "seed": 20267516,
+          "model_file": "candidate_A_normalized_deep.npz"
+        },
+        "raw": {
+          "context": "A",
+          "objective": "raw",
+          "architecture": "residual",
+          "best_epoch": 5,
+          "validation_mse": 2.90083198831005,
+          "parameters": 3142041,
+          "seed": 20267537,
+          "model_file": "candidate_A_raw_residual.npz"
+        }
+      },
+      "input_genes": 300,
+      "output_genes": 18233
+    },
+    "B": {
+      "source_sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "normalized": {
+          "context": "B",
+          "objective": "normalized",
+          "architecture": "deep",
+          "best_epoch": 12,
+          "validation_mse": 3.0350503618864,
+          "parameters": 2462521,
+          "seed": 20267616,
+          "model_file": "candidate_B_normalized_deep.npz"
+        },
+        "raw": {
+          "context": "B",
+          "objective": "raw",
+          "architecture": "deep",
+          "best_epoch": 5,
+          "validation_mse": 2.8819574985700966,
+          "parameters": 2462521,
+          "seed": 20267617,
+          "model_file": "candidate_B_raw_deep.npz"
+        }
+      },
+      "input_genes": 300,
+      "output_genes": 18233
+    },
+    "C": {
+      "source_sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "normalized": {
+          "context": "C",
+          "objective": "normalized",
+          "architecture": "deep",
+          "best_epoch": 12,
+          "validation_mse": 3.0689949405367685,
+          "parameters": 2462521,
+          "seed": 20267716,
+          "model_file": "candidate_C_normalized_deep.npz"
+        },
+        "raw": {
+          "context": "C",
+          "objective": "raw",
+          "architecture": "deep",
+          "best_epoch": 16,
+          "validation_mse": 2.7571506922299442,
+          "parameters": 2462521,
+          "seed": 20267717,
+          "model_file": "candidate_C_raw_deep.npz"
+        }
+      },
+      "input_genes": 300,
+      "output_genes": 18233
+    }
+  },
+  "outputs": {
+    "evaluation_normalized_A.npz": {
+      "bytes": 8164177,
+      "sha256": "7c7c744a0404a27137755e30eba01fe0cbcb445ed4b8456b589635cbb74de002"
+    },
+    "evaluation_raw_A.npz": {
+      "bytes": 10281341,
+      "sha256": "ba6117a4e943663db456a6b3a3f10196da3257071765e5047787b99c4252b14a"
+    },
+    "model_normalized_A.npz": {
+      "bytes": 8373084,
+      "sha256": "9ace41af87ea34d0aa3f2a263dcc6c35a48a0b1726dc81cc98070367fd122119"
+    },
+    "model_raw_A.npz": {
+      "bytes": 10427229,
+      "sha256": "15fe68517f6fef14a1cfbe25b3dd14bdd6cfbde82ce7d805bbc98565117ddd9e"
+    },
+    "heldout_normalized_A.h5ad": {
+      "bytes": 176890089,
+      "sha256": "b8789e07ca0dac27e65488e4932d67f2b61c8567ca325e00ab5a6a378ec9df99"
+    },
+    "heldout_raw_A.h5ad": {
+      "bytes": 190540542,
+      "sha256": "3290218c57c9736ed67d701ea7404f3de353ab7314ea29bda0df749f85b52dff"
+    },
+    "reconstructed_raw_A.h5ad": {
+      "bytes": 1266728922,
+      "sha256": "5ab1b9df3c80f89592698e41e26bc1b4e34779d736b4bfcce4623cd52f0c174c"
+    },
+    "evaluation_normalized_B.npz": {
+      "bytes": 7934747,
+      "sha256": "29920d8327d97868441bc2f0323dc97e5f86bcdaa1fcccf99faeb672d53fd49e"
+    },
+    "evaluation_raw_B.npz": {
+      "bytes": 7788693,
+      "sha256": "b7e9999e2e1ae28a82ed28155de60ea222f37ab04c4f6d29ace3979a37e92eff"
+    },
+    "model_normalized_B.npz": {
+      "bytes": 8140844,
+      "sha256": "30b6f5237cee91916af574e2ce67a327577f3227f6cd49cb2bba9c2b76071dda"
+    },
+    "model_raw_B.npz": {
+      "bytes": 7907719,
+      "sha256": "af5f008710020f76fa70b9eaff88c63dd14cc6db3b2e6082f62dab4af646f1e2"
+    },
+    "heldout_normalized_B.h5ad": {
+      "bytes": 174294657,
+      "sha256": "f48d3cd78c2435e39050b897eedea19bba3a3ed4b45e741674b9cb0639bf4df8"
+    },
+    "heldout_raw_B.h5ad": {
+      "bytes": 186240893,
+      "sha256": "9e5cddfc8d8af76e57eb0feb3041c051714e0d603729b7d15afbc76584913c2d"
+    },
+    "reconstructed_raw_B.h5ad": {
+      "bytes": 1238303891,
+      "sha256": "462d62e075aea6df466779eaf48c5cc65eed57e978376bda11d88c3d09cf9529"
+    },
+    "evaluation_normalized_C.npz": {
+      "bytes": 8275454,
+      "sha256": "7f1d20303ff231499e63e17ba417eee145c3328b06fe917b79866fe7fce678d6"
+    },
+    "evaluation_raw_C.npz": {
+      "bytes": 8304489,
+      "sha256": "3b9e0aaad708ef8b6df18a6b3bb4a7430a1b657b3789553e6830c5223c21f2b6"
+    },
+    "model_normalized_C.npz": {
+      "bytes": 8402500,
+      "sha256": "e7526fc608624126beb7caa3d16968c2eb72f1ad089bd2c9361c91ee3ee6f6a8"
+    },
+    "model_raw_C.npz": {
+      "bytes": 8389568,
+      "sha256": "709a6e8b221e9417d04d7d4626327886a7c6af5e6b84910f77d5c1a5f4347776"
+    },
+    "heldout_normalized_C.h5ad": {
+      "bytes": 179691935,
+      "sha256": "bd9bbc687dc9d70756b9ad828e3bf66ce7ae8be59081ccde16ef74304be7f87b"
+    },
+    "heldout_raw_C.h5ad": {
+      "bytes": 192701662,
+      "sha256": "26b606cb9891fd09cdd332aba15ac5110fd5b785f0304b549540865455e8d946"
+    },
+    "reconstructed_raw_C.h5ad": {
+      "bytes": 1273574944,
+      "sha256": "b195fe49ffd62fa314882bb68b3dfc4d9ac0fae83c51e4c36829556e27f2e0c5"
+    }
+  },
+  "test_scope": "same previously reported guide-group test as ridge; not used in neural fit/selection"
+}

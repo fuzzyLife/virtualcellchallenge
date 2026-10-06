@@ -1,0 +1,14 @@
+test_all_structures_dimensions_initial_baseline_and_gradients (__main__.NeuralTests.test_all_structures_dimensions_initial_baseline_and_gradients) ... ok
+test_both_objectives_metadata_ignore_heldout_outputs (__main__.NeuralTests.test_both_objectives_metadata_ignore_heldout_outputs) ... ok
+test_checkpoint_replay_and_independent_numpy_forward_all_structures (__main__.NeuralTests.test_checkpoint_replay_and_independent_numpy_forward_all_structures) ... ok
+19:31:23 A/normalized/bottleneck: epoch 1, val MSE 0.21351, best 0.21295 (epoch 0)
+19:31:23 A/normalized/bottleneck: epoch 2, val MSE 0.21360, best 0.21295 (epoch 0)
+19:31:23 A/normalized/bottleneck: epoch 1, val MSE 0.21351, best 0.21295 (epoch 0)
+19:31:23 A/normalized/bottleneck: epoch 2, val MSE 0.21360, best 0.21295 (epoch 0)
+test_early_stopping_and_test_label_isolation (__main__.NeuralTests.test_early_stopping_and_test_label_isolation) ... ok
+test_raw_head_is_positive_and_zero_baseline_stays_zero (__main__.NeuralTests.test_raw_head_is_positive_and_zero_baseline_stays_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 18.434s
+
+OK

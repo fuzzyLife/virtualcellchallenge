@@ -294,6 +294,14 @@ Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_t
 
 Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.
 
+## Neural networks for the 300-gene panel
+
+Compared shallow, deep, bottleneck and residual neural configurations separately in A/B/C with normalized-expression and direct raw-count objectives (24 candidates). Validation guide groups selected architectures and stopping epochs; frozen models were compared on the existing ridge test set.
+
+Selected neural raw-count MSE reductions against the depth-only baseline: **A: 31.94%**, **B: 25.97%**, **C: 28.79%**. Selected normalized-expression reductions against the mean profile: **A: 7.99%**, **B: 10.87%**, **C: 8.38%**.
+
+Saved separate normalized/raw models, both held-out prediction types and full raw reconstructions for all 55,200 controls. Five focused tests, six standalone inference checks and independent artifact/matrix checks passed. Methods and commands: [GENE300_NEURAL_MODELS.md](GENE300_NEURAL_MODELS.md). Architecture comparison and figures: [GENE300_NEURAL_RESULTS.md](GENE300_NEURAL_RESULTS.md). Root scripts include `train_gene300_neural.py`, `predict_gene300_neural.py`, `test_gene300_neural.py`, `validate_gene300_neural.py` and `document_gene300_neural.py`.
+
 ## Separate models from the 300-gene panel
 
 Trained separate A/B/C models using 300 measured genes to predict the other 18,233 genes. Held out complete control-guide groups for validation and test; saved trained weights, predictions for all 55,200 controls, 8,400 held-out predictions and detailed gene/cell metrics.

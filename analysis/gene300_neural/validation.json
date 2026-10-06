@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "source_and_output_hashes_match": true,
+  "architecture_candidates": 24,
+  "contexts": {
+    "A": {
+      "guide_group_isolation": true,
+      "heldout_cells": 2800,
+      "all_gene_and_cell_mse_recomputed": true,
+      "full_raw_cells_scanned": 18400,
+      "independent_forward_rows_per_model": 32,
+      "normalized_mean_baseline_genes_checked_per_model": 32,
+      "raw_baseline_genes_checked_per_model": 18233,
+      "zero_input_output_overlap": true,
+      "validation_only_selection": true,
+      "original_cell_ids_and_counts_preserved": true
+    },
+    "B": {
+      "guide_group_isolation": true,
+      "heldout_cells": 2800,
+      "all_gene_and_cell_mse_recomputed": true,
+      "full_raw_cells_scanned": 18400,
+      "independent_forward_rows_per_model": 32,
+      "normalized_mean_baseline_genes_checked_per_model": 32,
+      "raw_baseline_genes_checked_per_model": 18233,
+      "zero_input_output_overlap": true,
+      "validation_only_selection": true,
+      "original_cell_ids_and_counts_preserved": true
+    },
+    "C": {
+      "guide_group_isolation": true,
+      "heldout_cells": 2800,
+      "all_gene_and_cell_mse_recomputed": true,
+      "full_raw_cells_scanned": 18400,
+      "independent_forward_rows_per_model": 32,
+      "normalized_mean_baseline_genes_checked_per_model": 32,
+      "raw_baseline_genes_checked_per_model": 18233,
+      "zero_input_output_overlap": true,
+      "validation_only_selection": true,
+      "original_cell_ids_and_counts_preserved": true
+    }
+  },
+  "independent_math": "NumPy forward pass with explicit ReLU/SiLU/GELU and low-rank linear branch",
+  "prediction_coverage": "all held-out and full raw values scanned; 32 rows per model independently replayed"
+}

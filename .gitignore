@@ -299,3 +299,7 @@ __marimo__/
 
 # Regenerable 300-gene model weights; small evaluation records remain tracked
 /analysis/gene300_models/*.npz
+
+# Regenerable neural-network checkpoints for the 300-gene experiment
+/analysis/gene300_neural/*.npz
+/analysis/gene300_neural/runtime_config.json

@@ -1,0 +1,22 @@
+{
+  "normalized": {
+    "context": "C",
+    "objective": "normalized",
+    "architecture": "deep",
+    "best_epoch": 12,
+    "validation_mse": 3.0689949405367685,
+    "parameters": 2462521,
+    "seed": 20267716,
+    "model_file": "candidate_C_normalized_deep.npz"
+  },
+  "raw": {
+    "context": "C",
+    "objective": "raw",
+    "architecture": "deep",
+    "best_epoch": 16,
+    "validation_mse": 2.7571506922299442,
+    "parameters": 2462521,
+    "seed": 20267717,
+    "model_file": "candidate_C_raw_deep.npz"
+  }
+}
