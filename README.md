@@ -294,6 +294,14 @@ Root scripts: `analyze_target_archive.py`, `test_target_archive.py`, `validate_t
 
 Three focused tests passed. Independent validation repeats every one of the 16,560,000 original count comparisons and verifies all 55,200 cell identities/depths, all 1,800 cluster/context marker rows, all 150 broader marker summaries, 70 independently reranked/model-checked cells and all saved output/script checksums. Evidence is in `analysis/target_archive_audit/validation.json`. This analysis characterizes the provided controls; it does not generate or upload a new submission.
 
+## Separate models from the 300-gene panel
+
+Trained separate A/B/C models using 300 measured genes to predict the other 18,233 genes. Held out complete control-guide groups for validation and test; saved trained weights, predictions for all 55,200 controls, 8,400 held-out predictions and detailed gene/cell metrics.
+
+Held-out normalized-expression MSE reductions against each context's training mean: **A: 7.20%**, **B: 9.70%**, **C: 7.40%**. Raw-count conversion is compared separately with a depth-only baseline; see the results report for its limitations. Full-data reconstructions are in-sample. These observational control models are separate from competition submission artifacts.
+
+Methods and commands: [GENE300_MODELS.md](GENE300_MODELS.md). Measured results and figures: [GENE300_MODEL_RESULTS.md](GENE300_MODEL_RESULTS.md). Root scripts: `train_gene300_models.py`, `predict_gene300_models.py`, `validate_gene300_models.py`, `test_gene300_models.py`, `smoke_gene300_inference.py` and `document_gene300_models.py`.
+
 ## V5 atlas-calibrated submission
 
 A new candidate is generated and verified at `experiments/v5_atlas_calibrated/prediction.vcc` (3,275,069,440 bytes; 3.05 GiB). It covers all 900 groups, 360,000 cells and the exact 18,533 genes. Official VCC packaging and independent source/model/count verification passed. It has not been uploaded or scored.

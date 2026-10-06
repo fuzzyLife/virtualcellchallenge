@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "contexts": {
+    "A": {
+      "split_isolated_by_guide": true,
+      "train_cells": 12800,
+      "validation_cells": 2800,
+      "test_cells": 2800,
+      "full_cells": 18400,
+      "input_values_checked": 5520000,
+      "output_values_scanned": 386539600,
+      "heldout_cells_all_genes_replayed": 2800,
+      "full_fit_cells_all_genes_replayed": 24,
+      "gene_coefficients_independent_solve": 48,
+      "depth_coefficients_independent_solve": true,
+      "all_heldout_gene_raw_and_logcpm_mse_recomputed": true
+    },
+    "B": {
+      "split_isolated_by_guide": true,
+      "train_cells": 12800,
+      "validation_cells": 2800,
+      "test_cells": 2800,
+      "full_cells": 18400,
+      "input_values_checked": 5520000,
+      "output_values_scanned": 386539600,
+      "heldout_cells_all_genes_replayed": 2800,
+      "full_fit_cells_all_genes_replayed": 24,
+      "gene_coefficients_independent_solve": 48,
+      "depth_coefficients_independent_solve": true,
+      "all_heldout_gene_raw_and_logcpm_mse_recomputed": true
+    },
+    "C": {
+      "split_isolated_by_guide": true,
+      "train_cells": 12800,
+      "validation_cells": 2800,
+      "test_cells": 2800,
+      "full_cells": 18400,
+      "input_values_checked": 5520000,
+      "output_values_scanned": 386539600,
+      "heldout_cells_all_genes_replayed": 2800,
+      "full_fit_cells_all_genes_replayed": 24,
+      "gene_coefficients_independent_solve": 48,
+      "depth_coefficients_independent_solve": true,
+      "all_heldout_gene_raw_and_logcpm_mse_recomputed": true
+    }
+  },
+  "all_output_hashes_match": true,
+  "all_source_hashes_match": true,
+  "coefficient_check": "24 output genes per model via independent SPD solve",
+  "full_prediction_check": "all values scanned; 24 cell rows per context replayed for all output genes"
+}

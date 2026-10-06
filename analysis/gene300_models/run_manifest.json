@@ -1,0 +1,436 @@
+{
+  "seed": 20261006,
+  "alphas": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "families": [
+    "rank",
+    "magnitude",
+    "hybrid"
+  ],
+  "primary_selection": "validation log1p CPM MSE, training mean CPM >=5",
+  "split_unit": "NTC guide ID; 32/7/7 train/validation/test",
+  "source_sha256": {
+    "manifest.json": "2c2b5d425df817ca35e9edf08282d12494ce42913ba824375bf0f98a1cc676f5",
+    "gene_names.csv": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201",
+    "pert_counts.csv": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276",
+    "vcc_2026_300_target_matrix.zip": "e263e405105c54ec5e2e576c33eeacdef8b490dc32d917d408274fda52b1e361"
+  },
+  "archive": {
+    "file": "vcc_2026_300_target_matrix.zip",
+    "sha256": "e263e405105c54ec5e2e576c33eeacdef8b490dc32d917d408274fda52b1e361",
+    "member": "vcc_2026_300_target_matrix.csv",
+    "member_sha256": "3f39ef51aa035e4c681f7a11b5ea903d5d985785b8b217b1289be9db5d9a469f",
+    "member_bytes": 66809125,
+    "crc32": 2427692221,
+    "zip_crc_valid": true,
+    "rows": 55200,
+    "gene_columns": 300,
+    "missing_targets": [],
+    "unexpected_genes": [],
+    "duplicate_columns": false,
+    "gene_order_matches_target_list": true,
+    "finite_nonnegative_integer_values": true,
+    "cell_ids_in_archive": false
+  },
+  "contexts": {
+    "A": {
+      "source_sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "control_summary": {
+        "context": "A",
+        "cells": 18400,
+        "genes": 18533,
+        "stored_nonzeros": 109910478,
+        "sparsity": 0.6776886880980812,
+        "n_guides": 46,
+        "guide_cell_counts": {
+          "non-targeting-11": 400,
+          "non-targeting-12": 400,
+          "non-targeting-13": 400,
+          "non-targeting-15": 400,
+          "non-targeting-17": 400,
+          "non-targeting-20": 400,
+          "non-targeting-21": 400,
+          "non-targeting-22": 400,
+          "non-targeting-24": 400,
+          "non-targeting-25": 400,
+          "non-targeting-28": 400,
+          "non-targeting-29": 400,
+          "non-targeting-3": 400,
+          "non-targeting-30": 400,
+          "non-targeting-36": 400,
+          "non-targeting-37": 400,
+          "non-targeting-39": 400,
+          "non-targeting-40": 400,
+          "non-targeting-44": 400,
+          "non-targeting-45": 400,
+          "non-targeting-52": 400,
+          "non-targeting-53": 400,
+          "non-targeting-55": 400,
+          "non-targeting-58": 400,
+          "non-targeting-59": 400,
+          "non-targeting-61": 400,
+          "non-targeting-65": 400,
+          "non-targeting-68": 400,
+          "non-targeting-7": 400,
+          "non-targeting-70": 400,
+          "non-targeting-71": 400,
+          "non-targeting-72": 400,
+          "non-targeting-73": 400,
+          "non-targeting-74": 400,
+          "non-targeting-77": 400,
+          "non-targeting-8": 400,
+          "non-targeting-80": 400,
+          "non-targeting-82": 400,
+          "non-targeting-83": 400,
+          "non-targeting-85": 400,
+          "non-targeting-88": 400,
+          "non-targeting-89": 400,
+          "non-targeting-91": 400,
+          "non-targeting-93": 400,
+          "non-targeting-98": 400,
+          "non-targeting-99": 400
+        },
+        "library_counts": {
+          "min": 3275.0,
+          "p05": 6845.9,
+          "p25": 13986.0,
+          "median": 20109.0,
+          "p75": 27234.5,
+          "p95": 38877.45,
+          "max": 52420.0
+        },
+        "genes_detected_per_cell": {
+          "min": 2205.0,
+          "p05": 3634.0,
+          "p25": 5296.0,
+          "median": 6147.0,
+          "p75": 6842.0,
+          "p95": 7619.0,
+          "max": 8453.0
+        },
+        "genes_detected_any_cell": 16135
+      },
+      "archive_values_checked": 5520000,
+      "archive_mismatches": 0,
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "family": "magnitude",
+        "alpha": 1.0,
+        "features": 302,
+        "validation_expressed_logcpm_mse": 3.1737541878672912,
+        "validation_all_logcpm_mse": 1.7359257288091248,
+        "validation_expressed_skill": 0.0728046025636504
+      },
+      "depth_alpha": 0.01,
+      "summary": {
+        "context": "A",
+        "selected_family": "magnitude",
+        "alpha": 1.0,
+        "test_cells": 2800,
+        "output_genes": 18233,
+        "expressed_genes": 9630,
+        "test_expressed_logcpm_mse": 3.1663289937859767,
+        "test_expressed_logcpm_skill": 0.07198309694988092,
+        "test_all_logcpm_skill": 0.06990496274776659,
+        "test_raw_mse": 4.361367406728867,
+        "test_raw_skill_vs_mean": 0.3095711048210632,
+        "test_raw_skill_vs_depth_baseline": -0.02457084842729973,
+        "median_expressed_gene_normalized_spearman": 0.15419460461322268,
+        "median_cell_profile_spearman": 0.7516118198428432,
+        "median_mean_baseline_cell_profile_spearman": 0.748959703040058,
+        "median_library_absolute_relative_error": 0.03396700301583999
+      }
+    },
+    "B": {
+      "source_sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "control_summary": {
+        "context": "B",
+        "cells": 18400,
+        "genes": 18533,
+        "stored_nonzeros": 101546777,
+        "sparsity": 0.7022151526419383,
+        "n_guides": 46,
+        "guide_cell_counts": {
+          "non-targeting-11": 400,
+          "non-targeting-12": 400,
+          "non-targeting-13": 400,
+          "non-targeting-15": 400,
+          "non-targeting-17": 400,
+          "non-targeting-20": 400,
+          "non-targeting-21": 400,
+          "non-targeting-22": 400,
+          "non-targeting-24": 400,
+          "non-targeting-25": 400,
+          "non-targeting-28": 400,
+          "non-targeting-29": 400,
+          "non-targeting-3": 400,
+          "non-targeting-30": 400,
+          "non-targeting-36": 400,
+          "non-targeting-37": 400,
+          "non-targeting-39": 400,
+          "non-targeting-40": 400,
+          "non-targeting-44": 400,
+          "non-targeting-45": 400,
+          "non-targeting-52": 400,
+          "non-targeting-53": 400,
+          "non-targeting-55": 400,
+          "non-targeting-58": 400,
+          "non-targeting-59": 400,
+          "non-targeting-61": 400,
+          "non-targeting-65": 400,
+          "non-targeting-68": 400,
+          "non-targeting-7": 400,
+          "non-targeting-70": 400,
+          "non-targeting-71": 400,
+          "non-targeting-72": 400,
+          "non-targeting-73": 400,
+          "non-targeting-74": 400,
+          "non-targeting-77": 400,
+          "non-targeting-8": 400,
+          "non-targeting-80": 400,
+          "non-targeting-82": 400,
+          "non-targeting-83": 400,
+          "non-targeting-85": 400,
+          "non-targeting-88": 400,
+          "non-targeting-89": 400,
+          "non-targeting-91": 400,
+          "non-targeting-93": 400,
+          "non-targeting-98": 400,
+          "non-targeting-99": 400
+        },
+        "library_counts": {
+          "min": 710.0,
+          "p05": 5328.9,
+          "p25": 15721.5,
+          "median": 19946.0,
+          "p75": 24708.75,
+          "p95": 32951.2,
+          "max": 42666.0
+        },
+        "genes_detected_per_cell": {
+          "min": 580.0,
+          "p05": 2920.0,
+          "p25": 5197.0,
+          "median": 5756.0,
+          "p75": 6241.0,
+          "p95": 6839.0,
+          "max": 7649.0
+        },
+        "genes_detected_any_cell": 15680
+      },
+      "archive_values_checked": 5520000,
+      "archive_mismatches": 0,
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "family": "hybrid",
+        "alpha": 1.0,
+        "features": 602,
+        "validation_expressed_logcpm_mse": 3.0736309164025704,
+        "validation_all_logcpm_mse": 1.6412080602795653,
+        "validation_expressed_skill": 0.095828224866637
+      },
+      "depth_alpha": 0.01,
+      "summary": {
+        "context": "B",
+        "selected_family": "hybrid",
+        "alpha": 1.0,
+        "test_cells": 2800,
+        "output_genes": 18233,
+        "expressed_genes": 9336,
+        "test_expressed_logcpm_mse": 3.0739956462472895,
+        "test_expressed_logcpm_skill": 0.09701225887913101,
+        "test_all_logcpm_skill": 0.09350959199383702,
+        "test_raw_mse": 4.715073047728749,
+        "test_raw_skill_vs_mean": 0.15226336099698035,
+        "test_raw_skill_vs_depth_baseline": -0.21163135180435622,
+        "median_expressed_gene_normalized_spearman": 0.15652562214366117,
+        "median_cell_profile_spearman": 0.7389438987034667,
+        "median_mean_baseline_cell_profile_spearman": 0.7371816572884902,
+        "median_library_absolute_relative_error": 0.03841558754837539
+      }
+    },
+    "C": {
+      "source_sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "control_summary": {
+        "context": "C",
+        "cells": 18400,
+        "genes": 18533,
+        "stored_nonzeros": 108213983,
+        "sparsity": 0.682663641706099,
+        "n_guides": 46,
+        "guide_cell_counts": {
+          "non-targeting-11": 400,
+          "non-targeting-12": 400,
+          "non-targeting-13": 400,
+          "non-targeting-15": 400,
+          "non-targeting-17": 400,
+          "non-targeting-20": 400,
+          "non-targeting-21": 400,
+          "non-targeting-22": 400,
+          "non-targeting-24": 400,
+          "non-targeting-25": 400,
+          "non-targeting-28": 400,
+          "non-targeting-29": 400,
+          "non-targeting-3": 400,
+          "non-targeting-30": 400,
+          "non-targeting-36": 400,
+          "non-targeting-37": 400,
+          "non-targeting-39": 400,
+          "non-targeting-40": 400,
+          "non-targeting-44": 400,
+          "non-targeting-45": 400,
+          "non-targeting-52": 400,
+          "non-targeting-53": 400,
+          "non-targeting-55": 400,
+          "non-targeting-58": 400,
+          "non-targeting-59": 400,
+          "non-targeting-61": 400,
+          "non-targeting-65": 400,
+          "non-targeting-68": 400,
+          "non-targeting-7": 400,
+          "non-targeting-70": 400,
+          "non-targeting-71": 400,
+          "non-targeting-72": 400,
+          "non-targeting-73": 400,
+          "non-targeting-74": 400,
+          "non-targeting-77": 400,
+          "non-targeting-8": 400,
+          "non-targeting-80": 400,
+          "non-targeting-82": 400,
+          "non-targeting-83": 400,
+          "non-targeting-85": 400,
+          "non-targeting-88": 400,
+          "non-targeting-89": 400,
+          "non-targeting-91": 400,
+          "non-targeting-93": 400,
+          "non-targeting-98": 400,
+          "non-targeting-99": 400
+        },
+        "library_counts": {
+          "min": 3447.0,
+          "p05": 7614.9,
+          "p25": 14414.0,
+          "median": 20034.0,
+          "p75": 26741.5,
+          "p95": 38596.54999999999,
+          "max": 50965.0
+        },
+        "genes_detected_per_cell": {
+          "min": 1937.0,
+          "p05": 3718.0,
+          "p25": 5182.0,
+          "median": 6006.0,
+          "p75": 6720.0,
+          "p95": 7549.049999999999,
+          "max": 8482.0
+        },
+        "genes_detected_any_cell": 16216
+      },
+      "archive_values_checked": 5520000,
+      "archive_mismatches": 0,
+      "split_cells": {
+        "train": 12800,
+        "validation": 2800,
+        "test": 2800
+      },
+      "selected": {
+        "family": "magnitude",
+        "alpha": 1.0,
+        "features": 302,
+        "validation_expressed_logcpm_mse": 3.101230742157205,
+        "validation_all_logcpm_mse": 1.7420075461105733,
+        "validation_expressed_skill": 0.07424961601933489
+      },
+      "depth_alpha": 0.01,
+      "summary": {
+        "context": "C",
+        "selected_family": "magnitude",
+        "alpha": 1.0,
+        "test_cells": 2800,
+        "output_genes": 18233,
+        "expressed_genes": 9826,
+        "test_expressed_logcpm_mse": 3.0768094209683707,
+        "test_expressed_logcpm_skill": 0.07403594691350579,
+        "test_all_logcpm_skill": 0.07153590763499373,
+        "test_raw_mse": 4.361452913389859,
+        "test_raw_skill_vs_mean": 0.28478042168935047,
+        "test_raw_skill_vs_depth_baseline": -0.021189463960044064,
+        "median_expressed_gene_normalized_spearman": 0.16033234240180738,
+        "median_cell_profile_spearman": 0.7417842350636461,
+        "median_mean_baseline_cell_profile_spearman": 0.7366932030966157,
+        "median_library_absolute_relative_error": 0.03804241534266384
+      }
+    }
+  },
+  "versions": {
+    "numpy": "2.4.2",
+    "scipy": "1.17.1",
+    "pandas": "3.0.1",
+    "anndata": "0.13.4",
+    "h5py": "3.16.0",
+    "threadpoolctl": "3.6.0"
+  },
+  "code_sha256": "c3974a74ce14de17b078fe3cfb46592bc295fe2f4db1d2183ebae5028d57021b",
+  "outputs": {
+    "evaluation_model_A.npz": {
+      "bytes": 19179209,
+      "sha256": "b84a9bf12ace897c6feb46974c2d53c33cd68bb7e6b321313c8cf88335736565"
+    },
+    "model_A.npz": {
+      "bytes": 19547022,
+      "sha256": "fc8c241f6132eb4d9278989398242037dafd74113f44431647e65977c5a89e49"
+    },
+    "heldout_predictions_A.h5ad": {
+      "bytes": 368706011,
+      "sha256": "8ce84e01605004744d0cec12be2de72357daf9b643f8ecf99add8f5e402cb9e7"
+    },
+    "reconstructed_A.h5ad": {
+      "bytes": 1273139514,
+      "sha256": "13e6bd7db33d5c9e6aa7b12a4502cc40e12e6c546de2e8eb9ce7e3edbee257fc"
+    },
+    "evaluation_model_B.npz": {
+      "bytes": 36906755,
+      "sha256": "2991ce3728d6d9398e9afeac77dbb3920fcec054cd4598db797c1274dbd97b0e"
+    },
+    "model_B.npz": {
+      "bytes": 37599800,
+      "sha256": "ec625520bd0436a7d96fbc9af30e23b55fb8cb199b20bc4a56979caee9e05ed8"
+    },
+    "heldout_predictions_B.h5ad": {
+      "bytes": 360076534,
+      "sha256": "5ffd1ce566620ea36459f1a9bd30a2da6155256657e0bf339198dbfbbfc78d32"
+    },
+    "reconstructed_B.h5ad": {
+      "bytes": 1249674068,
+      "sha256": "ea19e543648d196a7529933ff2f65f43505a7ada929ec171e848ed890145461d"
+    },
+    "evaluation_model_C.npz": {
+      "bytes": 19360788,
+      "sha256": "1ac6a6c06804be2d172153d49630b3aa3ceee50c4c87944df6157ddbb54278c7"
+    },
+    "model_C.npz": {
+      "bytes": 19586748,
+      "sha256": "dbedeccde4ca410983a89f2e6af0fb65de338b63ba6114a21d7334e78784b569"
+    },
+    "heldout_predictions_C.h5ad": {
+      "bytes": 373289195,
+      "sha256": "532716ccb7806b4686a26fdfd40dfaab64a062abc9969badead25fadfa3eab5f"
+    },
+    "reconstructed_C.h5ad": {
+      "bytes": 1277456001,
+      "sha256": "808c91b375eaca91d28954f134df7788018f4dc6d3721e584fe0754232f07b35"
+    }
+  }
+}

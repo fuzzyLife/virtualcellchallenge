@@ -296,3 +296,6 @@ __marimo__/
 /reference/v5_h1/
 /experiments/v5_atlas_calibrated/analysis/h1_contrasts.npz
 /experiments/v5_atlas_calibrated/analysis/h1_components.npz
+
+# Regenerable 300-gene model weights; small evaluation records remain tracked
+/analysis/gene300_models/*.npz
