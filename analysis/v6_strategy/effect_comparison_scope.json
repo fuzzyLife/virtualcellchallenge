@@ -1,0 +1,47 @@
+{
+  "source_sha256": {
+    "v4": "644fb41bf8dfb94161537c9a45164e09fc0808e7aba6753b5feb850eefcf5908",
+    "v5": "be9629e75d37287cb8e0056b3631dda4f36d9c91baeef45948f095672227ccba"
+  },
+  "script_sha256": "7080890a1a3e4ab0ba140627b0e92c1a7eb38ff9e022987396200f5f43e3d212",
+  "contexts": [
+    {
+      "context": "A",
+      "changed_target_groups": 22,
+      "changed_output_coordinates": 22,
+      "opposite_signs_both_active": 0,
+      "opposite_sign_fraction_both_active": 0.0,
+      "mean_v4_active_expressed_genes": 2384.58,
+      "mean_v5_active_expressed_genes": 2384.6033333333335,
+      "median_expressed_effect_cosine": 1.0,
+      "median_nonpanel_effect_cosine": 1.0
+    },
+    {
+      "context": "B",
+      "changed_target_groups": 300,
+      "changed_output_coordinates": 3084007,
+      "opposite_signs_both_active": 2615,
+      "opposite_sign_fraction_both_active": 0.007722657657391602,
+      "mean_v4_active_expressed_genes": 1653.38,
+      "mean_v5_active_expressed_genes": 1475.19,
+      "median_expressed_effect_cosine": 0.9054214096384441,
+      "median_nonpanel_effect_cosine": 0.9017571880241518
+    },
+    {
+      "context": "C",
+      "changed_target_groups": 300,
+      "changed_output_coordinates": 3083712,
+      "opposite_signs_both_active": 3129,
+      "opposite_sign_fraction_both_active": 0.008263982611038188,
+      "mean_v4_active_expressed_genes": 1820.73,
+      "mean_v5_active_expressed_genes": 1637.0466666666666,
+      "median_expressed_effect_cosine": 0.9057124226240326,
+      "median_nonpanel_effect_cosine": 0.9029998915485896
+    }
+  ],
+  "groups": 900,
+  "scope": "Model mean-response log2FC arrays only; not generated counts or measured perturbation truth.",
+  "eligible_genes": "Provided context control mean CPM >5, excluding own target; nonpanel cosine excludes all 300 inputs.",
+  "effect_threshold": "0.05 absolute log2FC is descriptive, not a significant-call threshold.",
+  "limitation": "Sign changes between models do not identify incorrect signs or explain the published fidelity loss."
+}

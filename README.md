@@ -310,6 +310,10 @@ Held-out normalized-expression MSE reductions against each context's training me
 
 Methods and commands: [GENE300_MODELS.md](GENE300_MODELS.md). Measured results and figures: [GENE300_MODEL_RESULTS.md](GENE300_MODEL_RESULTS.md). Root scripts: `train_gene300_models.py`, `predict_gene300_models.py`, `validate_gene300_models.py`, `test_gene300_models.py`, `smoke_gene300_inference.py` and `document_gene300_models.py`.
 
+## Next-submission strategy after V5 and neural modeling
+
+V4 remains the starting point. Compare response updates and count generation separately before adding a neural cell-state template. Across all 900 frozen effect groups, V5 changes only 22 A coordinates; fewer than 1% of sizeable effects in both versions reverse sign in B/C. This is descriptive model agreement, not correctness against hidden responses. [V6_MODEL_STRATEGY.md](V6_MODEL_STRATEGY.md) specifies the ablations, source/guide isolation, distribution and direction-yield checks, neural limitations and adoption rules. Root diagnostic: `analyze_v6_strategy.py`; records: `analysis/v6_strategy/`. This is a proposal and diagnostic; no new submission has been generated.
+
 ## V5 atlas-calibrated submission
 
 A new candidate is generated and verified at `experiments/v5_atlas_calibrated/prediction.vcc` (3,275,069,440 bytes; 3.05 GiB). It covers all 900 groups, 360,000 cells and the exact 18,533 genes. Official VCC packaging and independent source/model/count verification passed. Published as `BPI0n52HTsG0EYTFOf9H` with overall **-0.113637**; V4 remains best at **-0.050674**.
