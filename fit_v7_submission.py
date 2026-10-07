@@ -65,7 +65,7 @@ def main():
         assert value.shape==(300,len(genes)) and np.isfinite(value).all()
         effect.append(value.astype(np.float32));details.append({'context':context,'candidate':candidate,'rank_weight_diagnostics':detail,
             'nonzero_effects':int((np.abs(value)>1e-7).sum()),'mean_absolute_log2_effect':float(np.abs(value).mean())})
-    np.savez_compressed(A/'reference_model_arrays.npz',genes=genes,targets=targets,effects=np.asarray(effect))
+    np.savez_compressed(A/'reference_model_arrays.npz',genes=np.asarray(genes,dtype=str),targets=np.asarray(targets,dtype=str),effects=np.asarray(effect))
     dependencies=['train_v7_ridge.py','embedding_response_methods.py','fit_v7_submission.py','v7_response_methods.py','v7_count_methods.py','build_submission.py','v6_methods.py']
     hashes={f:build.sha256(ROOT/f) for f in dependencies}
     build.write_json(A/'reference_model.json',{'model':'V7 expanded measured source coverage and held-lineage selected response model',
@@ -73,7 +73,7 @@ def main():
         'model_arrays_sha256':build.sha256(A/'reference_model_arrays.npz'),'source_cache_sha256':build.sha256(A/'source_cache.npz'),
         'summary_selection_sha256':build.sha256(A/'summary_selection.json'),'cell_selection_sha256':build.sha256(A/'cell_selection.json'),
         'source_components_sha256':build.sha256(components_file),'dependencies':hashes,'contexts':details,
-        'A_policy':'Preserve directly measured V4 CD4 effects; use selected expanded-source response for unsupported coordinates. This is a biological transfer assumption, not an identified A lineage.',
+        'A_policy':('A uses prior directly measured CD4 effects with K562 fallback; B/C use prior H1/CD4/K562 transfer and the H1 shared prior. These are biological transfer assumptions, not identified challenge lineages.' if candidate=='v4_transfer' else 'Preserve directly measured V4 CD4 effects; use selected expanded-source response for unsupported coordinates. This is a biological transfer assumption, not an identified A lineage.'),
         'unseen_target_guard':'Residual heads do not alter targets absent from every eligible training contrast; unseen-target transfer has not been established.',
         'gating':'Control mean CPM/5 clipped to [0,1] for output gene and own target; own response coordinate zero; count emitter applies 90% own-target knockdown.',
         'scope':'No competition treated labels; public-source development evidence does not guarantee a hidden leaderboard gain.'})

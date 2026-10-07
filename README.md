@@ -8,7 +8,7 @@ Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`
 
 Implemented and evaluated four interventional response heads on 889 public contrasts (284 targets), with whole-lineage and target holdouts. Tested 180 matched generated-cell comparisons on nine larger H1 target groups. The embedding/PCA blends worsened DE fidelity, overlap and corrected expression error, so V4 was retained and no new upload package was generated. See [EMBEDDING_RESPONSE_PILOT.md](EMBEDDING_RESPONSE_PILOT.md) for scripts, results and reproduction.
 
-V7 is being built from expanded, stratified HCT116/HEK293T intervention coverage, adaptive response pooling and three perturbation-conditioned neural heads. A converted-source gap was found and is being repaired with full cell-ID/library checks. Root scripts, model selection, generated-cell comparisons and packaging are described in [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md). No V7 package or hidden-score improvement is claimed until its independent audit passes.
+V7 is ready for upload at `experiments/v7_multisource_adaptive/prediction.vcc`, using **v4_transfer** with **v4** count emission. Expanded HCT116/HEK293T samples covering all 300 targets and neural/ridge alternatives were evaluated; source gaps and duplicate symbols were repaired and checked against original counts. Official packaging and a full independent payload audit passed. V7 has not been uploaded; V4 remains the best published score. The selected `v4_transfer` fallback has no demonstrated improvement over V4. See [V7_SUBMISSION.md](V7_SUBMISSION.md) for the public comparison and upload command, and [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md) for reproduction.
 
 ## Completed work
 

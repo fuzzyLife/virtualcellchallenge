@@ -13,6 +13,8 @@ STAGES=[('original_source_count_replay','validate_v7_original_counts.py',[],ROOT
  ('documentation','document_v7_submission.py',[],ROOT/'V7_SUBMISSION.md')]
 if __name__=='__main__':
     while not all((A/f).exists() for f in ['summary_selection.json','neural_manifest.json','ridge_manifest.json']):time.sleep(20)
+    if '--wait-for-cell-summaries' in sys.argv:
+        while not all((A/f'cell_summary_{line}.csv').exists() and (A/f'cell_split_{line}.json').exists() for line in ['H1','HCT116','HEK293T']):time.sleep(20)
     records=[]
     for name,file,args,sentinel in STAGES:
         print('V7 pipeline stage:',name,flush=True)

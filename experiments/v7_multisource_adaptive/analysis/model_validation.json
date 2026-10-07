@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "sources": {
+    "HCT116": {
+      "cells": 52295,
+      "batches": 109,
+      "excluded_missing_cells": 67
+    },
+    "HEK293T": {
+      "cells": 70082,
+      "batches": 223,
+      "excluded_missing_cells": 0
+    }
+  },
+  "whole_lineage_training_exclusion_verified": true,
+  "source_batch_partition_separation_verified": true,
+  "all_evaluation_actual_template_reference_cells_distinct_with_disjoint_controls": true,
+  "calibration_confirmation_targets_disjoint": true,
+  "own_target_excluded_from_response_training_and_effects": true,
+  "model_sha256": "6b4f43b7e8f24b7a2a30fabf12fb0fe24897316665e4136c579a20342d7e586b",
+  "scope": "Integrity and split checks; public evaluation is not hidden competition ground truth."
+}

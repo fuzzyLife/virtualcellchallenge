@@ -10,6 +10,8 @@ from v7_response_methods import CONFIGS
 from v7_count_methods import emit
 from v6_methods import moments,de,direction_metrics,profile_jackknife,summarize_profiles
 from evaluate_atlas_transfer import load_atlas_model
+# Previous committed numerical implementation; only missing-metric JSON encoding changed.
+SERIALIZATION_COMPATIBLE_SHAS={'c320ed8e8d106864f0a420113fab0888ac0402e5c94549ede7106c026e1a922a'}
 SEEDS=[20261008,20261019]
 CANDIDATES={'v4_transfer':'v4','coverage_fill':'v4','coverage_uniform':'v4','calibrated_pool':'v4','pool_low_noise':'low_noise','pool_cal10':'cal10','neural_response':'v4','neural_blend25':'v4','ridge_blend25':'v4'}
 
@@ -99,7 +101,11 @@ def evaluate_line(line,ci,max_targets):
             file=directory/f'{line}_{ti:03d}_{seed}.npz';side=file.with_suffix('.json')
             if file.exists() and side.exists():
                 rec=json.loads(side.read_text())
-                if rec['inputs']==input_hash and rec['sha256']==build.sha256(file):records.extend(rec['records']);ids_record.append(rec['cells']);continue
+                compatible=rec['inputs']==input_hash or (rec['inputs'].get('evaluate_v7_response.py') in SERIALIZATION_COMPATIBLE_SHAS and {k:v for k,v in rec['inputs'].items() if k!='evaluate_v7_response.py'}=={k:v for k,v in input_hash.items() if k!='evaluate_v7_response.py'})
+                if compatible and rec['sha256']==build.sha256(file):
+                    if rec['inputs']!=input_hash:
+                        rec['serialization_migration']={'previous_script_sha256':rec['inputs']['evaluate_v7_response.py'],'change':'NaN metrics serialized as null only; numerical formulas, models, candidates, cells and seeds unchanged.'};rec['inputs']=input_hash;build.write_json(side,rec)
+                    records.extend(rec['records']);ids_record.append(rec['cells']);continue
                 raise ValueError('Existing evaluation differs from frozen inputs')
             rng=np.random.default_rng(seed+ti);treated=np.flatnonzero(meta.gene_target.to_numpy()==target)
             actual=rng.choice(treated,min(400,len(treated)),replace=False)
@@ -125,7 +131,7 @@ def evaluate_line(line,ci,max_targets):
                 'template':meta.iloc[template].cell_id.tolist(),'reference':meta.iloc[reference].cell_id.tolist()}
             assert not set(cells['template'])&set(cells['reference'])
             np.savez_compressed(file,**arrays)
-            build.write_json(side,{'inputs':input_hash,'sha256':build.sha256(file),'records':group,'cells':cells})
+            build.write_json(side,{'inputs':input_hash,'sha256':build.sha256(file),'records':[{k:None if isinstance(v,(float,np.floating)) and not np.isfinite(v) else v for k,v in r.items()} for r in group],'cells':cells})
             records.extend(group);ids_record.append(cells)
         pd.DataFrame(records).to_csv(A/f'cell_scores_{line}.csv',index=False)
         print('Cell evaluation',line,index+1,'/',len(eligible),target,flush=True)

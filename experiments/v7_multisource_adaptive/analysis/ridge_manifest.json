@@ -1,0 +1,73 @@
+{
+  "outer_choices": {
+    "K562": {
+      "outer": "K562",
+      "inner": "CD4",
+      "penalty": 1.0,
+      "amplitude": 1.0,
+      "objective": 0.15255681760172687,
+      "predicted_calls": 132.8956953642384,
+      "fidelity_proxy": 0.432354017958846
+    },
+    "CD4": {
+      "outer": "CD4",
+      "inner": "HEK293T",
+      "penalty": 1.0,
+      "amplitude": 0.65,
+      "objective": 0.19689294487896167,
+      "predicted_calls": 8.189003436426116,
+      "fidelity_proxy": 0.4409687854536659
+    },
+    "H1": {
+      "outer": "H1",
+      "inner": "CD4",
+      "penalty": 0.1,
+      "amplitude": 0.65,
+      "objective": 0.14912772663602356,
+      "predicted_calls": 74.66059602649007,
+      "fidelity_proxy": 0.4029299354815758
+    },
+    "HCT116": {
+      "outer": "HCT116",
+      "inner": "CD4",
+      "penalty": 0.1,
+      "amplitude": 0.65,
+      "objective": 0.15728573942217527,
+      "predicted_calls": 79.82119205298014,
+      "fidelity_proxy": 0.4116209998217219
+    },
+    "HEK293T": {
+      "outer": "HEK293T",
+      "inner": "CD4",
+      "penalty": 1.0,
+      "amplitude": 1.0,
+      "objective": 0.14934923132879463,
+      "predicted_calls": 141.1523178807947,
+      "fidelity_proxy": 0.4297301990722355
+    }
+  },
+  "production_penalty": 1.0,
+  "production_amplitude": 0.65,
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "outer_predictions_sha256": "2c62efc8ce2d96416d71bda5110c509c4e4de6ae7fb106a7e8bd46284d3def89",
+  "production_predictions_sha256": "b02de597aca4e3756d4df93d2942d8a3fe535d6f4f1f9c1520c7bfc9de390d95",
+  "script_sha256": "9eb936ccb17654f383b27a689b49a85e44a7b018b600ce8966ded18bf3abc418",
+  "kernel_methods_sha256": "9f9285c8a7d8c091ec5aedba535411e9528a197c4e96f5df23c29ba1342156f8",
+  "context_original_inputs": [
+    {
+      "context": "A",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "context": "B",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "context": "C",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "mask": "Conservative intersection of observed genes across targets within each source context; all 300 panel output genes excluded only from this residual. Other responses remain supplied by pooling. No missing response labels imputed.",
+  "selection": "Four penalties .01/.1/1/10 and amplitudes .35/.65/1; single inner whole-lineage selection excludes outer+inner; modal penalty and median amplitude for production.",
+  "scope": "Public-source development regularization diagnostic; no hidden query treatment labels."
+}

@@ -1,21 +1,34 @@
 {
-  "HCT116": {
-    "verified_selected_cells": 52295,
-    "targets": 300,
-    "batches": 109,
-    "measured_genes": 18106,
-    "missing_cell_ranges": [
-      [
-        1870000,
-        1874999
-      ]
-    ],
-    "missing_expression_records": [
-      19011260
-    ],
-    "dropped_selected_cells": 67,
-    "counts_sha256": "c819d97338b3c1d4a6e10b05aa7170dde1cec509286e41c0726aae2122420759"
+  "sources": {
+    "HCT116": {
+      "cells": 52295,
+      "targets": 300,
+      "batches": 109,
+      "measured_genes": 18106,
+      "counts_sha256": "c819d97338b3c1d4a6e10b05aa7170dde1cec509286e41c0726aae2122420759",
+      "missing_cell_ranges": [
+        [
+          1870000,
+          1874999
+        ]
+      ],
+      "missing_selected_cells": 67
+    },
+    "HEK293T": {
+      "cells": 70082,
+      "targets": 300,
+      "batches": 223,
+      "measured_genes": 18106,
+      "counts_sha256": "1c156934d237595a745848dcbf70d282fe6b317e420813d7e07f79a2327832c5",
+      "missing_cell_ranges": [],
+      "missing_selected_cells": 0
+    }
   },
-  "status": "HEK293T extraction pending",
-  "scope": "Full-release stratified source coverage; not every raw atlas cell."
+  "status": "Completed; official package and independent full-payload audit passed",
+  "scope": "Full-release stratified source coverage; not every raw atlas cell.",
+  "selected_candidate": "v4_transfer",
+  "confirmed_improvement": false,
+  "package_sha256": "9bafac870c3eec270015f568e67aad45fd06afdea35bd3b495fec64d7de6a5af",
+  "uploaded": false,
+  "response_arrays_equal_v4": true
 }

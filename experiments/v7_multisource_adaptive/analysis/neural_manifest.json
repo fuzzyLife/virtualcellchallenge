@@ -1,0 +1,46 @@
+{
+  "outer_choices": {
+    "K562": {
+      "architecture": "relu128_64",
+      "epochs": 80,
+      "inner_family": "CD4",
+      "inner_objective": 0.16725150398363564
+    },
+    "CD4": {
+      "architecture": "relu128_64",
+      "epochs": 80,
+      "inner_family": "HEK293T",
+      "inner_objective": 0.20083547586275502
+    },
+    "H1": {
+      "architecture": "relu128_64",
+      "epochs": 20,
+      "inner_family": "CD4",
+      "inner_objective": 0.17049590251404192
+    },
+    "HCT116": {
+      "architecture": "linear64",
+      "epochs": 20,
+      "inner_family": "CD4",
+      "inner_objective": 0.1663495920739942
+    },
+    "HEK293T": {
+      "architecture": "relu64",
+      "epochs": 20,
+      "inner_family": "CD4",
+      "inner_objective": 0.1583444089461053
+    }
+  },
+  "production_architecture": "relu128_64",
+  "production_epochs": 20,
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "prediction_sha256": "64c26a11fb5e859396dc984b26f86f518b43470ef897c5ac9388c6c9dbc50265",
+  "weights_sha256": "c00b6972b566af665e8d3049dec49d3c89b121040dead9de85b02f847bc125cb",
+  "script_sha256": "856c83d05a28d2e3bb8a098a07ca42f1c9b4eb1f2724cc60e5f3f42c2fd8a248",
+  "torch_version": "2.10.0+cu126",
+  "cuda": true,
+  "inputs": "Target identity, frozen RNA-only target gene vectors projected on training targets, query-control panel ranks and measured-gene masks. No treated query.",
+  "objective": "Masked source-family-balanced response loss; nested single-inner-lineage architecture/epoch selection by DE/error composite.",
+  "scope": "Small supervised transition heads; not an Arc STATE foundation-model reproduction. Gene-feature transforms fitted on training contexts/targets.",
+  "production_choice": "Modal inner-selected architecture and median epoch across outer folds; held-out lineage responses excluded from each inner fit/selection."
+}

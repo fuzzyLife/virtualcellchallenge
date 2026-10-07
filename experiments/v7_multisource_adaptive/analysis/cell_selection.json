@@ -1,0 +1,10 @@
+{
+  "candidate": "v4_transfer",
+  "calibration_winner": "v4_transfer",
+  "confirmed_improvement": false,
+  "generator": "v4",
+  "summary_sha256": "27cb36e3752402cb97b0fb23ff7b4956870fd124caa2d2e5f751ad6b90e91f6f",
+  "utility": "Equal mean of raw PDS, fidelity, reach, Jaccard, clipped 1-NMAE and 1-expression-ratio; equal weight to source families. Not leaderboard anchor normalization.",
+  "guards": "FID within .01 of baseline, expression ratio <=1.05 baseline, template variance >=.9 baseline. Freeze calibration winner before inspecting confirmation; fall back if not confirmed.",
+  "scope": "Previously inspected public development, source-held models, disjoint target calibration/confirmation, two seeds. No hidden score estimate."
+}

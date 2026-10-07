@@ -1,0 +1,54 @@
+{
+  "status": "verified_ready",
+  "completed": [
+    {
+      "stage": "original_source_count_replay",
+      "script": "validate_v7_original_counts.py",
+      "script_sha256": "3fb7fcefb148483d9cd0a5895de59d2bb1e34818a843552b97761b9202dda2b8",
+      "result_sha256": "aca4e76ad5e6237cae2a533bf59cad14cdc9aef5239b4c62d95e2a0c65301a7e"
+    },
+    {
+      "stage": "evaluation",
+      "script": "evaluate_v7_response.py",
+      "script_sha256": "7be685ac3343859171ebcb041407317b7e3580f5d81c288d12ae52d0e1a15f22",
+      "result_sha256": "49ffe6c8843cf319870f676f8463637bc06f43507b77db77780ae75552cc3298"
+    },
+    {
+      "stage": "production_fit",
+      "script": "fit_v7_submission.py",
+      "script_sha256": "8caa444df5bd40dfcd3d7380077a0b6c048435c70939f47b3efb24d0dc86d569",
+      "result_sha256": "6b4f43b7e8f24b7a2a30fabf12fb0fe24897316665e4136c579a20342d7e586b"
+    },
+    {
+      "stage": "preflight",
+      "script": "build_v7_submission.py",
+      "script_sha256": "0dfa4a454595cb308311e5d4a9f7c3f5608e8cfd9de454b689d40ec9c2b8235e",
+      "result_sha256": "a958cd416a6c30ee48b57a42fbf67086c2f7b04aee1f88bed76c0543bf5ef432"
+    },
+    {
+      "stage": "model_audit",
+      "script": "validate_v7_submission.py",
+      "script_sha256": "fade9751797e5728485806ef81d61d23724404ef0ffb1ee6c8707fff843e13c5",
+      "result_sha256": "da409184915558d4c634986b7f3a99b25ec55910d91108407e22493233a29002"
+    },
+    {
+      "stage": "generation_and_packaging",
+      "script": "build_v7_submission.py",
+      "script_sha256": "0dfa4a454595cb308311e5d4a9f7c3f5608e8cfd9de454b689d40ec9c2b8235e",
+      "result_sha256": "eac2fa7e514fe7b800b06d4b88559e8dc4ef1898e32553cd61a989e55178103e"
+    },
+    {
+      "stage": "independent_package_audit",
+      "script": "validate_v7_submission.py",
+      "script_sha256": "fade9751797e5728485806ef81d61d23724404ef0ffb1ee6c8707fff843e13c5",
+      "result_sha256": "ce56083de903a857e7fa105f2ad9f1c029563614a3750451f4eab4344af6e6c1"
+    },
+    {
+      "stage": "documentation",
+      "script": "document_v7_submission.py",
+      "script_sha256": "4c30b77560c5e544e01d7fe324fdd64faadaec3f4ee7884d5f0c108d621f6595",
+      "result_sha256": "94a1969f39e5143cd26fad35cbc163a0c55240c7fa2863b1d545dbe03d7b4b41"
+    }
+  ],
+  "uploaded": false
+}

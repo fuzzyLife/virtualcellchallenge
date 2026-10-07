@@ -1,0 +1,124 @@
+{
+  "outer_selections": {
+    "K562": {
+      "candidate": "uniform_a065",
+      "inner_objective": 0.13784943936446126,
+      "selection_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ]
+    },
+    "CD4": {
+      "candidate": "adaptive_kd_a100",
+      "inner_objective": 0.11870705819951323,
+      "selection_families": [
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    "H1": {
+      "candidate": "uniform_a065",
+      "inner_objective": 0.1451237643037396,
+      "selection_families": [
+        "CD4",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    "HCT116": {
+      "candidate": "uniform_a065",
+      "inner_objective": 0.11818974565903315,
+      "selection_families": [
+        "CD4",
+        "H1",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    "HEK293T": {
+      "candidate": "uniform_a065",
+      "inner_objective": 0.10813684487517133,
+      "selection_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "K562"
+      ]
+    }
+  },
+  "production_candidate": "uniform_a065",
+  "production_objective": 0.12952192283559347,
+  "configs": [
+    {
+      "name": "uniform_a035",
+      "mode": "uniform",
+      "amplitude": 0.35
+    },
+    {
+      "name": "uniform_a065",
+      "mode": "uniform",
+      "amplitude": 0.65
+    },
+    {
+      "name": "uniform_a100",
+      "mode": "uniform",
+      "amplitude": 1.0
+    },
+    {
+      "name": "rank_a035",
+      "mode": "rank",
+      "amplitude": 0.35
+    },
+    {
+      "name": "rank_a065",
+      "mode": "rank",
+      "amplitude": 0.65
+    },
+    {
+      "name": "rank_a100",
+      "mode": "rank",
+      "amplitude": 1.0
+    },
+    {
+      "name": "adaptive_a035",
+      "mode": "adaptive",
+      "amplitude": 0.35
+    },
+    {
+      "name": "adaptive_a065",
+      "mode": "adaptive",
+      "amplitude": 0.65
+    },
+    {
+      "name": "adaptive_a100",
+      "mode": "adaptive",
+      "amplitude": 1.0
+    },
+    {
+      "name": "adaptive_kd_a035",
+      "mode": "adaptive_kd",
+      "amplitude": 0.35
+    },
+    {
+      "name": "adaptive_kd_a065",
+      "mode": "adaptive_kd",
+      "amplitude": 0.65
+    },
+    {
+      "name": "adaptive_kd_a100",
+      "mode": "adaptive_kd",
+      "amplitude": 1.0
+    }
+  ],
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "predictions_sha256": "6d59a6343943fc22bd83829e89c1b0ffd2746c23e6187740463a78cec05976e4",
+  "methods_sha256": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+  "script_sha256": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+  "selection": "Whole-lineage outer holdouts; inner tuning excludes outer and validation lineage simultaneously. Production tuned using all five public lineage holdouts.",
+  "scope": "Previously inspected public development data; normal-call proxies, not hidden leaderboard estimates."
+}
