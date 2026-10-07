@@ -1,0 +1,53 @@
+{
+  "candidate": "v5_dual",
+  "production_setting": {
+    "blend": 0.25,
+    "calibration": 1.0,
+    "dual": true
+  },
+  "nested_adoption_supported": true,
+  "nested_procedure": {
+    "fold": 2.0,
+    "selected_on_training_targets": 1.0,
+    "fidelity": 0.7983899416996396,
+    "reach": 0.9963636363636365,
+    "jaccard": 0.37229948758925646,
+    "nmae": 0.3678162921418531,
+    "predicted_calls": 393.04,
+    "reference_calls": 573.6800000000001,
+    "expression_ratio": 0.06067323925150307,
+    "expression_numerator": -0.0002436872312251587,
+    "expression_denominator": 0.012135173230412343,
+    "expression_rho": 0.7361592723079241,
+    "pds": 0.945,
+    "uncorrected_profile_mse": 0.0029616095390099365
+  },
+  "nested_v4_comparator": {
+    "fold": 2.0,
+    "selected_on_training_targets": 0.0,
+    "fidelity": 0.3487740627399761,
+    "reach": 0.960928044837768,
+    "jaccard": 0.25328364235651557,
+    "nmae": 0.54989431173171,
+    "predicted_calls": 154.57,
+    "reference_calls": 573.6800000000001,
+    "expression_ratio": 0.5100055782280303,
+    "expression_numerator": 0.005425547220291937,
+    "expression_denominator": 0.012135173230412343,
+    "expression_rho": 0.9543930549495483,
+    "pds": 0.9425000000000001,
+    "uncorrected_profile_mse": 0.004429901354942956
+  },
+  "source_targets": 25,
+  "seeds": 2,
+  "directions": 2,
+  "script_sha256": "81b925297e26fe4947b646452d0cd17b15ed006afc59cfe32914c51013abf9f7",
+  "methods_sha256": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+  "source_sha256": "83d31b5be41f663247f0184fce15d5455099479d68cd66ac2122886ffe6f0e92",
+  "contrast_sha256": "d93b4db41532e234d53c7dc325fdb5faa457b0919f18c0d56855de1e55577115",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "scope": "Unanchored 25-target H1 source panel, distinct controls and opposite batch-partition effects; target-held-out hyperparameters. Sizes are reduced when fewer than 400 distinct cells exist. No hidden A/B/C accuracy estimate.",
+  "expression_metric_scope": "Source-panel capped-jackknife ratio; no competition anchors. Source control/template partitions differ by cell ID.",
+  "response_scope": "Source gain comparison starts from expanded H1 effects in both estimators; it does not reproduce every V4/V5 context-policy/coverage difference.",
+  "production_response_policy": "V4 A; B/C same-sign-only capped effect update, zero V4 coordinates retained. No neural causal counterfactual."
+}

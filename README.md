@@ -2,6 +2,8 @@
 
 This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Four submissions (first, V2, V4 and V5) have been published. V4 is the best so far on the validation panel, with overall score -0.050674; direction fidelity and expression error remain weaknesses. V3 remains an unsubmitted candidate. See [V4_SUBMISSION.md](V4_SUBMISSION.md) for the published comparison and reproducibility.
 
+The newest upload-ready candidate is V6, documented in [V6_SUBMISSION.md](V6_SUBMISSION.md). It has not been uploaded or scored.
+
 ## Completed work
 
 - Reviewed and hashed all 146 original project files, including the manifest, gene/target lists, three control matrices, saved competition pages and their assets.
@@ -309,6 +311,12 @@ Trained separate A/B/C models using 300 measured genes to predict the other 18,2
 Held-out normalized-expression MSE reductions against each context's training mean: **A: 7.20%**, **B: 9.70%**, **C: 7.40%**. Raw-count conversion is compared separately with a depth-only baseline; see the results report for its limitations. Full-data reconstructions are in-sample. These observational control models are separate from competition submission artifacts.
 
 Methods and commands: [GENE300_MODELS.md](GENE300_MODELS.md). Measured results and figures: [GENE300_MODEL_RESULTS.md](GENE300_MODEL_RESULTS.md). Root scripts: `train_gene300_models.py`, `predict_gene300_models.py`, `validate_gene300_models.py`, `test_gene300_models.py`, `smoke_gene300_inference.py` and `document_gene300_models.py`.
+
+## V6 fidelity-guarded submission
+
+Created and independently verified `experiments/v6_fidelity_calibrated/prediction.vcc` (3,309,619,200 bytes), with all 900 groups, 360,000 cells and 18,533 genes. Frozen candidate: `blend25_v4`, settings `{"blend": 0.25, "calibration": 0.0, "dual": false}`. A retains V4 effects; B/C updates are bounded and cannot reverse V4 signs or create previously zero effects. Neural templates were evaluated and withheld after distribution/perturbation-evidence checks.
+
+Seven tests, disjoint source/control identity checks, all-coordinate model replay, the full count/library scan, every packaged count/index/pointer, all source-row provenance checks and 12 exact full-group replays passed. Official VCC packaging passed. [V6_SUBMISSION.md](V6_SUBMISSION.md) records actual source benchmarks, limitations, settings, hashes and Command Prompt reproduction/upload commands. The package has not been uploaded or scored; V4 remains the best published project result.
 
 ## Next-submission strategy after V5 and neural modeling
 

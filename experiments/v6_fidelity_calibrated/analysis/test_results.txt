@@ -1,0 +1,12 @@
+test_cached_baselines_do_not_change_stochastic_emission (test_v6_submission.V6Tests.test_cached_baselines_do_not_change_stochastic_emission) ... ok
+test_fidelity_counts_budget_not_only_sign_precision (test_v6_submission.V6Tests.test_fidelity_counts_budget_not_only_sign_precision) ... ok
+test_jackknife_matches_explicit_leave_one_out (test_v6_submission.V6Tests.test_jackknife_matches_explicit_leave_one_out) ... ok
+test_partial_calibration_keeps_stochastic_library_sizes (test_v6_submission.V6Tests.test_partial_calibration_keeps_stochastic_library_sizes) ... ok
+test_rank_test_matches_scipy_with_ties_and_control_filter (test_v6_submission.V6Tests.test_rank_test_matches_scipy_with_ties_and_control_filter) ... ok
+test_response_updates_cannot_flip_sign_or_create_unsupported_effect (test_v6_submission.V6Tests.test_response_updates_cannot_flip_sign_or_create_unsupported_effect) ... ok
+test_selection_excludes_full_replacement_and_fidelity_regression (test_v6_submission.V6Tests.test_selection_excludes_full_replacement_and_fidelity_regression) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.067s
+
+OK

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-07T09:21:20.576640+00:00",
+  "seed": 20261007,
+  "setting": {
+    "blend": 0.25,
+    "calibration": 0.0,
+    "dual": false
+  },
+  "neural_weight": 0,
+  "knockdown_assumption": 0.9,
+  "generator_sha256": "6be09cb12eadd683605cb88901116c54b54d723ff92aa1f45b40df68c4b11909",
+  "methods_sha256": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+  "model_sha256": "b3d11f36bb58dbcb63aae32bd3fa482112e48090ffe581ea62ab2b5ed2b4e30d",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "workers": 4,
+  "simulation": "V4 stochastic counts followed, only if selected, by partial response-consistent moment correction. Own target handled separately."
+}

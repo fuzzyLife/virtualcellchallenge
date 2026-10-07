@@ -1,0 +1,54 @@
+{
+  "production_neural_weight": 0.0,
+  "control_gates": [
+    {
+      "context": "A",
+      "method": "moment_only",
+      "control_gate_passed": true
+    },
+    {
+      "context": "A",
+      "method": "neural_10",
+      "control_gate_passed": true
+    },
+    {
+      "context": "A",
+      "method": "neural_25",
+      "control_gate_passed": false
+    },
+    {
+      "context": "B",
+      "method": "moment_only",
+      "control_gate_passed": true
+    },
+    {
+      "context": "B",
+      "method": "neural_10",
+      "control_gate_passed": true
+    },
+    {
+      "context": "B",
+      "method": "neural_25",
+      "control_gate_passed": false
+    },
+    {
+      "context": "C",
+      "method": "moment_only",
+      "control_gate_passed": true
+    },
+    {
+      "context": "C",
+      "method": "neural_10",
+      "control_gate_passed": false
+    },
+    {
+      "context": "C",
+      "method": "neural_25",
+      "control_gate_passed": false
+    }
+  ],
+  "adoption_policy": "A control gate is necessary but not sufficient; no measured A/B/C perturbation labels support a neural response/template advantage. Keep empirical cells for this candidate.",
+  "script_sha256": "49cd7dbf06309d04fabcd5d84ecfdb1f6a0d877fcf722f66b2ec3ca7d332721b",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "scope": "Comparative control-guide validation using previously inspected test-guide groups. All neural weights fit train guides only; template moments use train guides; no test-guide fitting."
+}

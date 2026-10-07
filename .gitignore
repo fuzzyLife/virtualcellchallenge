@@ -303,3 +303,6 @@ __marimo__/
 # Regenerable neural-network checkpoints for the 300-gene experiment
 /analysis/gene300_neural/*.npz
 /analysis/gene300_neural/runtime_config.json
+
+# Regenerable V6 numerical model/source validation caches
+/experiments/v6_fidelity_calibrated/analysis/*.npz

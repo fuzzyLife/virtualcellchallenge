@@ -1,0 +1,324 @@
+{
+  "model": "V6 fidelity-guarded V4 response with source-validated count calibration",
+  "candidate": "blend25_v4",
+  "setting": {
+    "blend": 0.25,
+    "calibration": 0.0,
+    "dual": false
+  },
+  "context_generator_guards": {
+    "v4_dual": false,
+    "v4_cal10": true,
+    "v4_cal25": false
+  },
+  "minimum_activity_fraction_of_v4": 0.9,
+  "context_ablation_sha256": "19ca4e555b1f6e0c96d6b926a5e8cf1b55dd90d4ec9c285aee3a83f20cc1155b",
+  "nested_adoption_supported": true,
+  "nested_procedure": {
+    "fidelity": 0.5420156637773855,
+    "reach": 1.0,
+    "jaccard": 0.3038791232352864,
+    "nmae": 0.3851345866694516,
+    "expression_ratio": 0.6261925965453381,
+    "pds": 1.0,
+    "uncorrected_profile_mse": 0.000998310143536843
+  },
+  "nested_v4_comparator": {
+    "fidelity": 0.28326047432447143,
+    "reach": 1.0,
+    "jaccard": 0.21287509586550893,
+    "nmae": 0.48839790575518394,
+    "expression_ratio": 0.7343332346490561,
+    "pds": 1.0,
+    "uncorrected_profile_mse": 0.0010527169479200749
+  },
+  "target_outer_choices": [
+    {
+      "fold": 0,
+      "candidate": "blend25_v4",
+      "train_targets": [
+        "ACLY",
+        "ADNP",
+        "AKT2",
+        "ANKZF1",
+        "HSBP1",
+        "MED15",
+        "MED25",
+        "MTA1",
+        "NFE2L1",
+        "PLAGL2",
+        "RNF2",
+        "SHPRH",
+        "SIN3B",
+        "SLIRP",
+        "SMARCA5",
+        "STAT6",
+        "TRAPPC6A",
+        "TWF2",
+        "ZNF32",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "BRPF1",
+        "HDAC8",
+        "MED13",
+        "TARBP2",
+        "ZFP62"
+      ],
+      "primary_train_targets": [
+        "ACLY",
+        "ANKZF1",
+        "MED15",
+        "MED25",
+        "NFE2L1",
+        "PLAGL2",
+        "SLIRP",
+        "ZNF32"
+      ],
+      "primary_test_targets": [
+        "HDAC8"
+      ]
+    },
+    {
+      "fold": 1,
+      "candidate": "blend25_v4",
+      "train_targets": [
+        "ACLY",
+        "ADNP",
+        "AKT2",
+        "ANKZF1",
+        "BRPF1",
+        "HDAC8",
+        "HSBP1",
+        "MED13",
+        "MED25",
+        "MTA1",
+        "NFE2L1",
+        "PLAGL2",
+        "RNF2",
+        "SHPRH",
+        "SLIRP",
+        "STAT6",
+        "TARBP2",
+        "TRAPPC6A",
+        "ZFP62",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "MED15",
+        "SIN3B",
+        "SMARCA5",
+        "TWF2",
+        "ZNF32"
+      ],
+      "primary_train_targets": [
+        "ACLY",
+        "ANKZF1",
+        "HDAC8",
+        "MED25",
+        "NFE2L1",
+        "PLAGL2",
+        "SLIRP"
+      ],
+      "primary_test_targets": [
+        "MED15",
+        "ZNF32"
+      ]
+    },
+    {
+      "fold": 2,
+      "candidate": "blend25_v4",
+      "train_targets": [
+        "ACLY",
+        "AKT2",
+        "ANKZF1",
+        "BRPF1",
+        "HDAC8",
+        "HSBP1",
+        "MED13",
+        "MED15",
+        "NFE2L1",
+        "PLAGL2",
+        "RNF2",
+        "SHPRH",
+        "SIN3B",
+        "SMARCA5",
+        "STAT6",
+        "TARBP2",
+        "TWF2",
+        "ZFP62",
+        "ZNF32",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "ADNP",
+        "MED25",
+        "MTA1",
+        "SLIRP",
+        "TRAPPC6A"
+      ],
+      "primary_train_targets": [
+        "ACLY",
+        "ANKZF1",
+        "HDAC8",
+        "MED15",
+        "NFE2L1",
+        "PLAGL2",
+        "ZNF32"
+      ],
+      "primary_test_targets": [
+        "MED25",
+        "SLIRP"
+      ]
+    },
+    {
+      "fold": 3,
+      "candidate": "blend25_v4",
+      "train_targets": [
+        "ADNP",
+        "AKT2",
+        "BRPF1",
+        "HDAC8",
+        "HSBP1",
+        "MED13",
+        "MED15",
+        "MED25",
+        "MTA1",
+        "NFE2L1",
+        "SHPRH",
+        "SIN3B",
+        "SLIRP",
+        "SMARCA5",
+        "STAT6",
+        "TARBP2",
+        "TRAPPC6A",
+        "TWF2",
+        "ZFP62",
+        "ZNF32"
+      ],
+      "test_targets": [
+        "ACLY",
+        "ANKZF1",
+        "PLAGL2",
+        "RNF2",
+        "ZNF714"
+      ],
+      "primary_train_targets": [
+        "HDAC8",
+        "MED15",
+        "MED25",
+        "NFE2L1",
+        "SLIRP",
+        "ZNF32"
+      ],
+      "primary_test_targets": [
+        "ACLY",
+        "ANKZF1",
+        "PLAGL2"
+      ]
+    },
+    {
+      "fold": 4,
+      "candidate": "blend25_v4",
+      "train_targets": [
+        "ACLY",
+        "ADNP",
+        "ANKZF1",
+        "BRPF1",
+        "HDAC8",
+        "MED13",
+        "MED15",
+        "MED25",
+        "MTA1",
+        "PLAGL2",
+        "RNF2",
+        "SIN3B",
+        "SLIRP",
+        "SMARCA5",
+        "TARBP2",
+        "TRAPPC6A",
+        "TWF2",
+        "ZFP62",
+        "ZNF32",
+        "ZNF714"
+      ],
+      "test_targets": [
+        "AKT2",
+        "HSBP1",
+        "NFE2L1",
+        "SHPRH",
+        "STAT6"
+      ],
+      "primary_train_targets": [
+        "ACLY",
+        "ANKZF1",
+        "HDAC8",
+        "MED15",
+        "MED25",
+        "PLAGL2",
+        "SLIRP",
+        "ZNF32"
+      ],
+      "primary_test_targets": [
+        "NFE2L1"
+      ]
+    }
+  ],
+  "primary_source_targets": [
+    "ACLY",
+    "ANKZF1",
+    "HDAC8",
+    "MED15",
+    "MED25",
+    "NFE2L1",
+    "PLAGL2",
+    "SLIRP",
+    "ZNF32"
+  ],
+  "primary_minimum_cells": 200,
+  "small_group_scope": "All smaller groups reported but not used to select settings.",
+  "neural_weight": 0.0,
+  "neural_gate_sha256": "e2b2cb2a3ef79680692144c9acd6044d23a3257e7a9b4e8b761a001d7db171c1",
+  "model_arrays_sha256": "faba0b514b7e9f647d14a31215bc8369ecea635450374f8e2e9712b9debadbb4",
+  "v4_model_sha256": "95c00fe3cb85fc2c3dd5820cfcea1379c4227c3f456f154deedc6a4017c5aa65",
+  "v4_arrays_sha256": "644fb41bf8dfb94161537c9a45164e09fc0808e7aba6753b5feb850eefcf5908",
+  "v5_arrays_sha256": "be9629e75d37287cb8e0056b3631dda4f36d9c91baeef45948f095672227ccba",
+  "context_original_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "context": "A",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "context": "B",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "context": "C",
+      "checked_gene_values": 5520000,
+      "mismatched_values": 0,
+      "max_absolute_difference": 0
+    }
+  ],
+  "source_scores_sha256": "47fb44dde90ef5f2066f1c921ac64db568843154b73236337c1ba41ae4e87f64",
+  "source_cache_sha256": "2e38d8006199d6e5d4eb9d308a508ec092701ec290e8ff0d4d5a0a5386772533",
+  "source_calibration_sha256": "492d0156fa831906260e6d6c64286b9513eaaf965bacb5222268383d2da7aa9e",
+  "script_sha256": "11ffa2452724af33db6a8e4bf5acb7b9912df9d760df932783370340402f14e1",
+  "methods_sha256": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+  "response_policy": "A unchanged; B/C blend only existing nonzero effects agreeing in sign, at most 25%. No promoter addition or newly nonzero V4 coordinates.",
+  "limitations": [
+    "Source scores are unanchored H1 comparisons on 25 targets with reduced cell groups, not hidden A/B/C accuracy.",
+    "The source H1 data and earlier validation results were previously inspected; this is a comparative ablation, not a new independent dataset.",
+    "H1 donor/batch validation may not transfer to anonymous contexts; CD4 response policy is retained.",
+    "Neural reconstruction is observational and was not converted into a causal intervention model."
+  ]
+}
