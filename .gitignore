@@ -306,3 +306,8 @@ __marimo__/
 
 # Regenerable V6 numerical model/source validation caches
 /experiments/v6_fidelity_calibrated/analysis/*.npz
+
+# Local cross-modal research clone and paper-reading intermediates
+/cross_modal_foundation_model/
+/analysis/cross_modal_review/paper_extracted.txt
+/tmp/pdfs/cross_modal*

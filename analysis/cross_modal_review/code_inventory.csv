@@ -1,0 +1,23 @@
+path,tracked_by_clone_git,sha256,functions
+minimal_llm_numpy_explainer.py,False,2b3769de0908efeedb9e773ce43b802aea9300195cb965d83baa43add498f35a,_:8; _:19; _:29; _:207; _:235; _:260; _:275; _:300; _:338; _:366; _:385; _:417; _:442; _:466; _:491; _:522; _:592; _:625; _:638; _:743; softmax:30; rmsnorm:35; rmsnorm_backward:38; make_tokenizer:42; make_batch:49; initialize:63; forward:80; loss_and_probabilities:125; backward:133; adam_initialize:182; adam_step:185; label:196
+phase0/benchmark.py,True,c0d589efbd3489ea209504630ff6ce097f5edbc3b3f44ae39e88c5b833428ddd,build_pairs:87; _detected_mask:156; _pearson_safe:164; _median_centre:177; _spearman_safe:189; compute_metrics:202; _cosine_knn_predict:235; _pairwise_complete_knn:262; baseline_control_mean:306; baseline_perturbation_mean:314; baseline_hvg:328; baseline_pca:354; baseline_additive_linear:391; run_benchmark:442; summarise:505; delta:68
+phase0/config.py,True,f5e2f33d6ebc337d67b6ff73a9c2702d9724a78c4a0e7a8cadd03471e9ac31ec,
+phase0/debug_metadata.py,True,bdb86d951f3aa879e21a6d01a639c26a9cdfa3b7c0caf9d8ba6ba5b3a40a42e1,has_drug:24
+phase0/diagnose.py,True,9ecdb08bd0f3ed20a7dc9ec2f1578c773619f31f6871cd955a24a5dcaa2d1c32,test:14; _:22; _:28; _:34; _:43; _:53; _:63; decorator:15
+phase0/download.py,True,a65206645cd601cf2cd226eba1baae709e3461b487b02839e020752cad3db399,_month_range:39; _ftp_find_accession:54; _ftp_find_protein_groups:70; _ftp_download_file:102; download_via_ftp:125; print_manual_commands:176; download_all:199; _walk:75; callback:117
+phase0/dx.py,True,5a847575d434660998a650649701c40fe4c2e9c27e392f2e207f4fa2a2310cfd,
+phase0/explore_ftp.py,True,64ac8679c8657658d1b0020e84c7446ac3ec4b0c7daba9cd60c4cfc4041a1b9f,list_tree:20; main:59
+phase0/find_missing_pair.py,True,38317abdd100b0459f09e22854f3ce359789d2d96d9e7381fdec7c35109990ba,
+phase0/parse_lfq.py,True,bd31d05d6dd1a8d7e9baf623d9a57d6c46b737175b5df3f48abe59616025423e,_extract_drug_from_tokens:83; _extract_donor:92; _parse_sample:123; load_pxd014791:158; _apply_metadata:287; _gel_exp_key:371; _log_summary:391
+phase0/parse_metadata.py,True,3b0502734af5e87feee92151a95427715a8390f0cfdb766f8525c7f4bf82d5d5,download_metadata:17; display_metadata:40
+phase0/parse_tmt.py,True,22ef40138debc26412bf10675cba6c56e21b426be6bdae4e04766a9dac13ebdf,_try_load_sdrf:61; _channel_index_from_label:83; load_protargetminer:97; _assign_channels:216; _channels_from_sdrf:242; _channels_from_column_names:263
+phase0/remote_extract.py,True,7626eada068094f1a2693583c8e18908f98a68589d223908d120d8fa9c16e871,_ftp_connect:44; ftp_read_range:52; ftp_file_size:101; _find_eocd:122; _parse_eocd:129; _parse_zip64_eocd:135; _resolve_zip64_extra:148; _search_cd:164; _list_cd:187; _local_data_offset:202; _local_data_offset_fallback:232; extract:251; main:308
+phase0/run_phase0.py,True,a195243e423ed70e37141c9cbddfc68944c5b19727eacf343ef667050884177d,main:57; _validate_matrix:164; _warn_pair_count:178; _plot_figure3:190
+phase0/test_normalisation.py,True,b31eee34fdba6f3be31efe0cbddb5abe2a3403b36e138d9e511ee72b9faa77d9,norm_raw:83; norm_median:87; norm_zscore:96; norm_quantile:106; norm_combat:114; cosine_separation:140; run_hvg_benchmark:151; delta:61; fn_combat:200
+phase1/run_phase1.py,False,b8c843641c9f91dcd8903d1d044f3e932010bbb7f03f47a9e34ca008b245f99c,download_tahoe_benchmarks:53; download_depmap_direct:70; download_msigdb:96; load_ccle_expression:112; load_depmap_dependency:134; load_msigdb_hallmarks:152; compute_pca_gene_embeddings:175; eval_depmap_essentiality:211; eval_msigdb_pathways:258; main:298
+scripts/benchmark.py,False,38f964d2a32296d67dd780565bfae2c959e42dada8ad482cec7f6266b1c2e336,build_pairs:85; _detected_mask:154; _pearson_safe:162; compute_metrics:175; _cosine_knn_predict:206; baseline_control_mean:248; baseline_perturbation_mean:256; baseline_hvg:270; baseline_pca:300; baseline_additive_linear:327; run_benchmark:378; summarise:439; delta:66
+scripts/config.py,False,f5e2f33d6ebc337d67b6ff73a9c2702d9724a78c4a0e7a8cadd03471e9ac31ec,
+scripts/download.py,False,d4285b72062dde6d9f78a7f67d094af200647e3b7acb56e20571a71b3e385d49,_get_file_list:30; _is_wanted:42; _ftp_download:46; download_project:66; download_all:128
+scripts/parse_lfq.py,False,7e1acd64400612d6115585a46db557d3323efc709cea5beb46bd058dccf8f266,_canonical_drug:44; _is_control:53; _parse_sample_name:58; load_pxd014791:87
+scripts/parse_tmt.py,False,22ef40138debc26412bf10675cba6c56e21b426be6bdae4e04766a9dac13ebdf,_try_load_sdrf:61; _channel_index_from_label:83; load_protargetminer:97; _assign_channels:216; _channels_from_sdrf:242; _channels_from_column_names:263
+scripts/run_phase0.py,False,9c0d243ac70f2bbe5fc62692a764e72b0eb335daf4ec6bc7a093060f54830ba1,main:57; _validate_matrix:164; _warn_pair_count:178; _plot_figure3:190

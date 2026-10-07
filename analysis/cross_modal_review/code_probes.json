@@ -1,0 +1,24 @@
+{
+  "median_centre_input": [
+    1,
+    null,
+    3
+  ],
+  "median_centre_output": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "missingness_lost_before_pairwise_complete_knn": true,
+  "weighted_knn_prediction": [
+    10.0,
+    2.0
+  ],
+  "valid_weight_renormalized_expected": [
+    10.0,
+    4.0
+  ],
+  "metric_empty_mask_return_length": 2,
+  "caller_expected_length": 4,
+  "scope": "Synthetic execution of exact named local helpers; not model efficacy."
+}

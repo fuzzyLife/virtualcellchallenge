@@ -4,6 +4,8 @@ This project analyses the validation bundle for the [Virtual Cell Challenge](htt
 
 The latest published submission is V6 (`6MCjBWpPoCt5Sbw5CMu3`), with overall **-0.056790**. V4 remains best. See [V6_LEADERBOARD_RESULTS.md](V6_LEADERBOARD_RESULTS.md) and [V6_SUBMISSION.md](V6_SUBMISSION.md).
 
+Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.
+
 ## Completed work
 
 - Reviewed and hashed all 146 original project files, including the manifest, gene/target lists, three control matrices, saved competition pages and their assets.

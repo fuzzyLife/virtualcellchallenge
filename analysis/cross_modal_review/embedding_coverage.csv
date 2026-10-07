@@ -1,0 +1,5 @@
+file,bytes,sha256,rows,dimensions,duplicate_gene_symbols,competition_genes_covered,competition_targets_covered,model_type
+phase1/data/phase1/benchmarks/depmap/gene-embs/tx1_70m-mean-lt5gt70-bin.h5ad,59799216,42cfc9b339d661e9fb43091cc44af6925f89a740d61ff797a1a8f5ff25c8449d,14283,512,0,13980,235,RNA-only Tahoe-x1
+phase1/data/phase1/benchmarks/depmap/gene-embs/tx1_1b-mean-lt5gt70-bin.h5ad,235402928,f80eb881a875cff1fd85c80f97ca4bfb1afe4ed5a952f848b540fc1db0623b49,14283,2048,0,13980,235,RNA-only Tahoe-x1
+phase1/data/phase1/benchmarks/depmap/gene-embs/tx1_3b-mean-lt5gt70-bin.h5ad,293918384,8281a2c60e1d8744a5961133b0fc45b6f37024ce86b6d97106d470ec299d18f3,14283,2560,0,13980,235,RNA-only Tahoe-x1
+phase1/data/phase1/benchmarks/depmap/gene-embs/pcloading-lt5gt70-bin.h5ad,2991896,461bd9fa094d3966b5706c1efa55bb62a2f87b51eb09894f2c44af0041d82199,14285,15,0,13982,236,PCA
