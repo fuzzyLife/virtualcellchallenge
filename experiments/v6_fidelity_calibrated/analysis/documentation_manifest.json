@@ -8,9 +8,10 @@
     "build_v6_submission.py": "6be09cb12eadd683605cb88901116c54b54d723ff92aa1f45b40df68c4b11909",
     "test_v6_submission.py": "592229b22863b2871264d291602de74e7d0cf6f2213cc67623b63e36758df513",
     "validate_v6_submission.py": "cd2c3004f976886b74de7d5c425f1cfe754fb2cb5fbc0fa03bf66bfa8aa9f4db",
-    "document_v6_submission.py": "8345ce79f80739911d99ecb3c3a73fdae55da6c0606de3d9426de0cdc13864e9"
+    "document_v6_submission.py": "3938a4ea94290eaf5fd3e366b5ad82851923948449f35f9a0f5028262e7452c0",
+    "record_v6_result.py": "d7e2f2342d8e344daf82b4f8d8ab249e5de1d232f7faa06da55f2fc355c969bd"
   },
-  "document_sha256": "28a5855d701351280a9ac5a7ec658ad51461fb7b7f17b909edcfb66e3aea48ef",
+  "document_sha256": "0a32786dcdab69a3de1a425aec0dbda8d5e7d68208f3a51f7c253bfabc982af4",
   "artifact_sha256": {
     "bounded_outer_scores.csv": "2d3b3703a80ba48f9d45cdc6c90a2fb377b2b3e8c26a97d132addd0eceb9bd52",
     "context_ablation_scope.json": "441c99bac571637e4a2c6aaeef3e1cefc3d08dec068494d148e1d47c1c68c507",
@@ -48,7 +49,12 @@
     "v6_context_ablation.pdf": "c116b793ddf887da92a56142de563219022f084cf3dc4bd16d70574457519efc",
     "v6_context_ablation.png": "76d39a014b51a4bd9e1de85fce7c57767735e60a665d8ebc5ade6f939178dabc",
     "v6_validation.pdf": "ac476169b07e0e0e3593e358c204454ed84809ddd4f648330f40be7647cb6187",
-    "v6_validation.png": "f8a7512cca0bd6bf1f8cf0e2f5e8b42fb219b390ec3982b464acfb11e9bb22a9"
+    "v6_validation.png": "f8a7512cca0bd6bf1f8cf0e2f5e8b42fb219b390ec3982b464acfb11e9bb22a9",
+    "leaderboard_result.json": "b5b66679e649127bc055534605a28996e7363235af5de7bfb840ff9f3f943fc5",
+    "published_api_status.json": "50814faa9547ea2e4a1cf9b15458f00762431f4c329c6329b59ebac5db514480",
+    "leaderboard_comparison.csv": "5c08e5b22c217f7752eb1d0d056da0aa457ec00574508a98287fdb1495443605",
+    "raw_metric_comparison.csv": "39fdfe27ea6d6d01f3edcd0bb350e0d280e63406be6851b9ee9a0ec95516608c"
   },
-  "scope": "Completed local generation and verification. No upload or new leaderboard score."
+  "scope": "Generation and verification plus separately API-confirmed published V6 results.",
+  "publication_document_sha256": "415782ec357f54626fcb28b01b95891d356849b502b84a208325f86f39abcd44"
 }

@@ -1,0 +1,43 @@
+{
+  "source": "User-reported CLI publication, confirmed by read-only vcc --json status.",
+  "reported_date": "2026-10-07",
+  "recorded_utc": "2026-10-07T10:41:23.083097+00:00",
+  "entry_id": "6MCjBWpPoCt5Sbw5CMu3",
+  "model_name": "Fidelity-guarded lineage response v6",
+  "final_status": "published",
+  "submitted_utc": "2026-10-07T10:08:17.032649Z",
+  "rank_at_user_report": 1052,
+  "rank_at_api_check": 1052,
+  "overall": -0.05679013942013697,
+  "metrics": {
+    "pds": 0.25937425243103096,
+    "mse": 0.0,
+    "nmae": 0.0761310724314523,
+    "fid": -0.7302547485948779,
+    "reach": 0.08353078889187517,
+    "jac": -0.02952220168030233
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.6180787811222593,
+    "expr_mse_unbiased_capped_norm": 1.2532279652926341,
+    "de_wilcoxon_lfc_nmae": 0.954592812299539,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.29587514398030546,
+    "de_wilcoxon_direction_reach_raw": 0.15349170257692613,
+    "de_wilcoxon_sig_jaccard": 0.019882469097094905
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "4950ffe451fea2eb5a34475c4358435d985db38a55cbc3e2616483d5a404731e",
+  "package_hash_scope": "Verified local readiness record; status API does not expose the uploaded package hash.",
+  "upload_duration_seconds": 809,
+  "overall_change_from_v4": -0.006116229259215851,
+  "overall_change_from_v5": 0.056846592014663036,
+  "fidelity_overall_contribution_change_from_v4": -0.0077333500865406175,
+  "other_components_overall_contribution_change_from_v4": 0.0016171208273247665,
+  "raw_expression_error_relative_change_from_v4": 0.004404031141568732,
+  "raw_fidelity_yield_relative_change_from_v4": -0.04320361951063978,
+  "interpretation": "PDS, LFC accuracy and overlap improve; fidelity and reach decline; expression is still clipped to zero. V4 remains best. Source gains did not improve aggregate leaderboard performance; seed changes and aggregate-only outcomes prevent causal/context attribution.",
+  "readiness_record_scope": "submission_ready.json remains the immutable generation-time snapshot.",
+  "recorder_sha256": "d7e2f2342d8e344daf82b4f8d8ab249e5de1d232f7faa06da55f2fc355c969bd"
+}

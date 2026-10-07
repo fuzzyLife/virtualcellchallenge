@@ -1,6 +1,12 @@
-# V6: fidelity-guarded submission ready for upload
+# V6: verified and published submission
 
-Created, officially packaged and independently verified at `experiments/v6_fidelity_calibrated/prediction.vcc`. It has **not been uploaded or scored**. V4 remains the best published project submission; no local benchmark establishes a better hidden score.
+<!-- V6 publication begin -->
+
+Published as `6MCjBWpPoCt5Sbw5CMu3`, overall **-0.056790**, rank 1052 at the user-reported check. V4 remains best at **-0.050674**. V6 improves PDS, LFC accuracy and overlap but loses fidelity and reach. See [V6_LEADERBOARD_RESULTS.md](V6_LEADERBOARD_RESULTS.md) for raw/scaled comparisons and interpretation.
+
+<!-- V6 publication end -->
+
+Created, officially packaged and independently verified at `experiments/v6_fidelity_calibrated/prediction.vcc`. It is **published**. V4 remains the best project submission; the measured comparison is recorded above.
 
 | Check | Result |
 |---|---|
@@ -100,11 +106,11 @@ cd /d L:\promec\Animesh\Download\Virtual
 
 Generated outputs refuse overwrite. Use a fresh experiment version for subsequent changes. Code, compact source/selection records, all source/control identities, verification records and figures are versioned; numerical NPZ caches and large H5AD/VCC files remain local.
 
-## Submit
+## Original upload command (historical)
 
 ```cmd
 cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v6_fidelity_calibrated\prediction.vcc -m "Fidelity-guarded lineage response v6" --wait
 ```
 
-This uploads a new entry. Preserve its ID and six metrics to compare against V4 and V5 on the same panel/anchor set. Original planning and frozen V4/V5 effect comparisons remain in [V6_MODEL_STRATEGY.md](V6_MODEL_STRATEGY.md).
+This historical command created the published entry. Repeating it uploads a duplicate; use `vcc status 6MCjBWpPoCt5Sbw5CMu3` to inspect the existing result. Original planning and frozen V4/V5 effect comparisons remain in [V6_MODEL_STRATEGY.md](V6_MODEL_STRATEGY.md).

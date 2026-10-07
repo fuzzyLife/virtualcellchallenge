@@ -158,7 +158,7 @@ This uploads a new entry. Preserve its ID and six metrics to compare against V4 
     entry=heading+f'\nCreated and independently verified `experiments/v6_fidelity_calibrated/prediction.vcc` ({ready["bytes"]:,} bytes), with all 900 groups, 360,000 cells and 18,533 genes. Frozen candidate: `{model["candidate"]}`, settings `{settings}`. A retains V4 effects; B/C updates are bounded and cannot reverse V4 signs or create previously zero effects. Neural templates were evaluated and withheld after distribution/perturbation-evidence checks.\n\n'
     entry+='Seven tests, disjoint source/control identity checks, all-coordinate model replay, the full count/library scan, every packaged count/index/pointer, all source-row provenance checks and 12 exact full-group replays passed. Official VCC packaging passed. [V6_SUBMISSION.md](V6_SUBMISSION.md) records actual source benchmarks, limitations, settings, hashes and Command Prompt reproduction/upload commands. The package has not been uploaded or scored; V4 remains the best published project result.\n\n'
     latest='The newest upload-ready candidate is V6, documented in [V6_SUBMISSION.md](V6_SUBMISSION.md). It has not been uploaded or scored.\n\n'
-    if latest not in readme:
+    if latest not in readme and not (A/'leaderboard_result.json').exists():
         paragraph_end=readme.index('\n\n',readme.index('\n\n')+2)
         readme=readme[:paragraph_end+2]+latest+readme[paragraph_end+2:]
     assert anchor in readme;path.write_text(readme.replace(anchor,entry+anchor,1),encoding='utf-8')
@@ -166,6 +166,9 @@ This uploads a new entry. Preserve its ID and six metrics to compare against V4 
     build.write_json(A/'documentation_manifest.json',{'root_code_sha256':{p:build.sha256(ROOT/p) for p in code},'document_sha256':build.sha256(ROOT/'V6_SUBMISSION.md'),
         'artifact_sha256':{p.name:build.sha256(p) for p in A.iterdir() if p.is_file() and p.suffix in ['.json','.csv','.txt','.png','.pdf'] and p.name!='documentation_manifest.json'},
         'scope':'Completed local generation and verification. No upload or new leaderboard score.'})
+    if (A/'leaderboard_result.json').exists():
+        from record_v6_result import document_publication
+        document_publication()
     print('V6 submission, measured validation, figures and README documented.',flush=True)
 
 
