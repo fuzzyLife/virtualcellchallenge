@@ -1,6 +1,6 @@
 # Virtual Cell Challenge 2026
 
-This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Three submissions (first, V2 and V4) have been published. V4 is the best so far on the validation panel, with overall score -0.050674; direction fidelity and expression error remain weaknesses. V3 remains an unsubmitted candidate. See [V4_SUBMISSION.md](V4_SUBMISSION.md) for the published comparison and reproducibility.
+This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Four submissions (first, V2, V4 and V5) have been published. V4 is the best so far on the validation panel, with overall score -0.050674; direction fidelity and expression error remain weaknesses. V3 remains an unsubmitted candidate. See [V4_SUBMISSION.md](V4_SUBMISSION.md) for the published comparison and reproducibility.
 
 ## Completed work
 
@@ -312,11 +312,11 @@ Methods and commands: [GENE300_MODELS.md](GENE300_MODELS.md). Measured results a
 
 ## V5 atlas-calibrated submission
 
-A new candidate is generated and verified at `experiments/v5_atlas_calibrated/prediction.vcc` (3,275,069,440 bytes; 3.05 GiB). It covers all 900 groups, 360,000 cells and the exact 18,533 genes. Official VCC packaging and independent source/model/count verification passed. It has not been uploaded or scored.
+A new candidate is generated and verified at `experiments/v5_atlas_calibrated/prediction.vcc` (3,275,069,440 bytes; 3.05 GiB). It covers all 900 groups, 360,000 cells and the exact 18,533 genes. Official VCC packaging and independent source/model/count verification passed. Published as `BPI0n52HTsG0EYTFOf9H` with overall **-0.113637**; V4 remains best at **-0.050674**.
 
 V5 expands public H1 coverage to 25 source targets (25 QC-accepted direct responses), estimates mean/pooled effects separately, generates from individual control-cell templates while preserving all original cell depths, and applies 22 source-supported promoter-neighbor corrections only in A. CD4 across-target subtraction remains zero. Five tests and 24 numerical preflight groups passed. [V5_SUBMISSION.md](V5_SUBMISSION.md) gives the upload command and hash; [V5_MODEL_STRATEGY.md](V5_MODEL_STRATEGY.md) gives every step, selected settings, verification and limitations.
 
-Root scripts are `extract_v5_h1.py`, `calibrate_v5_promoters.py`, `fit_v5_submission.py`, `build_v5_submission.py`, `test_v5_submission.py`, `validate_v5.py` and `document_v5_submission.py`. Small evidence is tracked in the candidate analysis folder; source counts/caches and large predictions are regenerated locally. V4 remains the best published project result until V5 is scored.
+Root scripts are `extract_v5_h1.py`, `calibrate_v5_promoters.py`, `fit_v5_submission.py`, `build_v5_submission.py`, `test_v5_submission.py`, `validate_v5.py` and `document_v5_submission.py`. Small evidence is tracked in the candidate analysis folder; source counts/caches and large predictions are regenerated locally. V4 remains the best of four published project submissions. V5 improves five scaled components, but direction fidelity falls sharply. [V5_LEADERBOARD_RESULTS.md](V5_LEADERBOARD_RESULTS.md) records all scores, raw metrics and the arithmetic decomposition.
 
 ## Upstream repository review and validated improvement experiments
 
@@ -352,7 +352,7 @@ Overall improved by **+0.172652** versus V2 and **+0.225616** versus the first e
 
 Raw expression error worsens from 1.014294 to 1.247733 (+23.0%), although the scaled expression score stays at zero. Zero is a clamped leaderboard score, not zero prediction error. Raw direction-fidelity yield rises from 0.074675 to 0.309235; it is response-budget-normalized yield rather than sign precision. Raw significant-set Jaccard rises from 0.013545 to 0.019731, leaving substantial response-set mismatch.
 
-V4 is the best of the three published project submissions on this validation panel. Overall remains below the zero-score anchor, with direction fidelity the largest negative component. The package changes lineage policy, effect strength, transfer priors and control sampling together; aggregate scores cannot isolate which change helped, which context remains weak, or whether residual fidelity loss comes from missed responses or wrong directions. The next experiments should balance response coverage with expression error using source validation and controlled ablations.
+V4 is the best of the four published project submissions on this validation panel; the later V5 result is documented above. Overall remains below the zero-score anchor, with direction fidelity the largest negative component. The package changes lineage policy, effect strength, transfer priors and control sampling together; aggregate scores cannot isolate which change helped, which context remains weak, or whether residual fidelity loss comes from missed responses or wrong directions. The next experiments should balance response coverage with expression error using source validation and controlled ablations.
 
 Records: `leaderboard_result.json`, `published_api_status.json`, `leaderboard_comparison.csv` and `raw_metric_comparison.csv` in the candidate analysis folder. `submission_ready.json` preserves the generation-time snapshot; the separate publication record records completed upload and scoring. Upload took 13 minutes 20 seconds. [Official scoring definitions](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md).
 

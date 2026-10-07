@@ -1,6 +1,12 @@
-# V5: verified submission ready for upload
+# V5: verified and published submission
 
-Created for the 2026 validation panel `vcc2026-val-1`. The candidate is **generated, officially packaged and independently verified**, and has not been uploaded or scored. V4 remains published with overall -0.05067391016092112; local V5 diagnostics do not establish a leaderboard improvement.
+<!-- V5 publication begin -->
+
+Published as `BPI0n52HTsG0EYTFOf9H`, overall **-0.113637**, rank 1100 at the user-reported check. V4 remains best at **-0.050674**. V5 improves five scaled components but loses direction fidelity; see [V5_LEADERBOARD_RESULTS.md](V5_LEADERBOARD_RESULTS.md) for exact comparisons and raw metrics.
+
+<!-- V5 publication end -->
+
+Created for the 2026 validation panel `vcc2026-val-1`. Generation, official packaging and independent verification passed. The completed leaderboard result is recorded above.
 
 | Check | Result |
 | --- | --- |
@@ -28,7 +34,7 @@ Package SHA-256:
 09a06f2256163549a2c993f0e289c4ce6d848fa91b5adb21f3cd542360378343
 ```
 
-## Submit using Windows Command Prompt
+## Original upload command (historical)
 
 Reuse the existing login:
 
@@ -37,7 +43,7 @@ cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v5_atlas_calibrated\prediction.vcc -m "Atlas-calibrated lineage and dual moments v5" --wait
 ```
 
-The command uploads a new competition entry and waits for scoring. It has not been run during generation. Preserve the resulting entry ID, panel/anchor set and all six scaled/raw metrics to compare with V4. No token needs to be included in the command or committed.
+This is the original upload command, retained for reproduction. The entry has completed scoring; use `vcc status BPI0n52HTsG0EYTFOf9H` to inspect it. Repeating the upload command creates another entry. No token belongs in a command or committed file.
 
 ## What changed
 

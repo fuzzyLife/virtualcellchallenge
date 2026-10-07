@@ -1,0 +1,40 @@
+{
+  "source": "User-reported CLI status, independently confirmed with read-only vcc --json status.",
+  "reported_date": "2026-10-07",
+  "recorded_utc": "2026-10-07T07:54:04.355010+00:00",
+  "entry_id": "BPI0n52HTsG0EYTFOf9H",
+  "model_name": "Atlas-calibrated lineage and dual moments v5",
+  "final_status": "published",
+  "submitted_utc": "2026-10-06T06:26:47.603765Z",
+  "rank_at_user_report": 1100,
+  "rank_at_api_check": 1099,
+  "overall": -0.1136367314348,
+  "metrics": {
+    "pds": 0.4478561566429275,
+    "mse": 0.03529351682041667,
+    "nmae": 0.07018875085396455,
+    "fid": -1.3291001637658362,
+    "reach": 0.12106109775869418,
+    "jac": -0.027119746918966695
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.7023671497584542,
+    "expr_mse_unbiased_capped_norm": 0.9700790051449714,
+    "de_wilcoxon_lfc_nmae": 0.957501060992515,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.11854819287659579,
+    "de_wilcoxon_direction_reach_raw": 0.18636428207244504,
+    "de_wilcoxon_sig_jaccard": 0.02072229783314216
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "09a06f2256163549a2c993f0e289c4ce6d848fa91b5adb21f3cd542360378343",
+  "package_hash_scope": "Verified local generation record; status API does not expose a package hash.",
+  "overall_change_from_v4": -0.0629628212738789,
+  "fidelity_overall_contribution_change_from_v4": -0.10754091928170033,
+  "other_components_overall_contribution_change_from_v4": 0.044578098007821435,
+  "raw_expression_error_relative_change_from_v4": -0.2225267147897576,
+  "raw_fidelity_yield_relative_change_from_v4": -0.61664072104201,
+  "interpretation": "Five scaled components improve; direction-fidelity decline outweighs them. V4 remains best. Aggregate metrics do not isolate causes or contexts.",
+  "readiness_record_scope": "Original submission_ready.json is preserved as the generation-time snapshot."
+}

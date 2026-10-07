@@ -6,7 +6,8 @@
     "build_v5_submission.py": "1bda5123313780a59e187902376d34519222543f359a8642733b9f82b2a4fa87",
     "test_v5_submission.py": "6057570b1579508d06308bb5749f4aeb47d0561d5ece48421c7f792aad11f869",
     "validate_v5.py": "184426c7066e860f80fe3ffc58e39700ba37f4785ba161949e21ab198eb6f7d0",
-    "document_v5_submission.py": "50859123c0cef848e53592676cc8b75aced58822674317bd14a2897d81217cdd"
+    "document_v5_submission.py": "fc28e228b4e4b26ab8411b5ce4f8db52d16f978f1ee441fa9baa0ec99dfb1a8e",
+    "record_v5_result.py": "cb43a9d72e69ab93eca419a47f2038a516d02a752582a2e3b84a337215684693"
   },
   "artifact_sha256": {
     "reference_model.json": "b5574004efb1f409ede5c810c05f307af6e4e75f9c22a38d7dc6c4c1b17805b5",
@@ -28,11 +29,16 @@
     "test_results.txt": "9d858964bf926e5834c09b1bef23131e55ea5d8d231c57374c06be5c01e86d26",
     "official_prep_stdout.json": "9697141d8cac67958e150f0aef7ca3aec1829477f95c5681bc6985ae5429824b",
     "v5_validation.png": "d5fce7ff1697a9ec7b621cf34b15cef0b43b2f5e666eb8b704a536db3c451be7",
-    "v5_validation.pdf": "e4e1242bcdabd6a834d1e9b4bdd4b3ae21f47fa33d66c4d6ea8025dde0fe67a7"
+    "v5_validation.pdf": "e4e1242bcdabd6a834d1e9b4bdd4b3ae21f47fa33d66c4d6ea8025dde0fe67a7",
+    "leaderboard_result.json": "8e99ae27297d208702cf0430da8a3cd66c4dca5bacf30c4b40568a4961d25f10",
+    "published_api_status.json": "256968654cddb9e123c20530ed8eef32534c9bac225630d482e6788c08c1c05a",
+    "leaderboard_comparison.csv": "12e17603f0d100f770558e5de46e3971a7459fe6467a23ef01316e2148765154",
+    "raw_metric_comparison.csv": "98d26f84aaaee959ec418db1d6021c97d9f2149db77733d5d18294efbda6c6b2"
   },
   "document_sha256": {
-    "V5_SUBMISSION.md": "bb71ab417a8cb3318db09f9b3290b5fd224d295c307aa44452edf85eb0f690ac",
-    "V5_MODEL_STRATEGY.md": "59857fd128f6dd3f997e063bbbee64efd82f482da5f3a2becb85d8f1cac8a177"
+    "V5_SUBMISSION.md": "52b79a5b000264ab65667b1d9bf44616758bdb47a1e871de5e8e29019c9943df",
+    "V5_MODEL_STRATEGY.md": "59857fd128f6dd3f997e063bbbee64efd82f482da5f3a2becb85d8f1cac8a177",
+    "V5_LEADERBOARD_RESULTS.md": "eb1bf6c7c6eae7ef9594a5491244fdde9e57c4ed5e470cbc7955e2914c8c9da5"
   },
-  "scope": "Completed generation and verification records; no upload or hidden-score claim."
+  "scope": "Generation and verification records plus separately API-confirmed published V5 scores."
 }

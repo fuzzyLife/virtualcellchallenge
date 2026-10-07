@@ -198,6 +198,9 @@ Root scripts are `extract_v5_h1.py`, `calibrate_v5_promoters.py`, `fit_v5_submis
     build.write_json(A/'documentation_manifest.json',{'root_code_sha256':{p:build.sha256(ROOT/p) for p in code},
         'artifact_sha256':{p:build.sha256(A/p) for p in artifacts},
         'document_sha256':{p:build.sha256(ROOT/p) for p in ['V5_SUBMISSION.md','V5_MODEL_STRATEGY.md']},'scope':'Completed generation and verification records; no upload or hidden-score claim.'})
+    if (A/'leaderboard_result.json').exists():
+        from record_v5_result import document_publication
+        document_publication()
     print('Documented verified V5 package, methods, README and artifact provenance.',flush=True)
 
 
