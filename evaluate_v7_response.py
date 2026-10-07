@@ -11,12 +11,15 @@ from v7_count_methods import emit
 from v6_methods import moments,de,direction_metrics,profile_jackknife,summarize_profiles
 from evaluate_atlas_transfer import load_atlas_model
 SEEDS=[20261008,20261019]
-CANDIDATES={'v4_transfer':'v4','coverage_uniform':'v4','calibrated_pool':'v4','pool_low_noise':'low_noise','pool_cal10':'cal10','neural_response':'v4','neural_blend25':'v4','ridge_blend25':'v4'}
+CANDIDATES={'v4_transfer':'v4','coverage_fill':'v4','coverage_uniform':'v4','calibrated_pool':'v4','pool_low_noise':'low_noise','pool_cal10':'cal10','neural_response':'v4','neural_blend25':'v4','ridge_blend25':'v4'}
 
 def baseline(line):
     directory=ROOT/'experiments/v4_lineage_response/analysis'
+    record=json.loads((directory/'reference_model.json').read_text());assert build.sha256(directory/'source_components.npz')==record['source_components_sha256']
+    _,genes,targets=build.read_spec(ROOT)
     with np.load(directory/'source_components.npz',allow_pickle=False) as z:
-        transfer=.5*z['cd4_specific'][2]+z['k562']
+        np.testing.assert_array_equal(z['genes'],genes);np.testing.assert_array_equal(z['targets'],targets)
+        setting=record['cross_lineage_settings'];transfer=setting['cd4_coefficient']*z['cd4_specific'][2]+setting['k562_coefficient']*z['k562']
         return transfer if line=='H1' else np.where(z['h1_mask'],z['h1'],transfer)+z['h1_prior']
 
 def matched_rows(meta,available,treated,rng,n=400):
@@ -32,6 +35,21 @@ def matched_rows(meta,available,treated,rng,n=400):
         result.extend(rng.choice(pool,int(count),replace=False).tolist())
     return np.asarray(result,dtype=int)
 
+def population_statistics(x,meta,available):
+    """Control-population moments per batch, separate from the 400 sampled templates."""
+    labels=meta.iloc[available]['sample'];batches=sorted(labels.unique());lookup={b:i for i,b in enumerate(batches)}
+    group=np.array([lookup[b] for b in labels]);count=np.bincount(group,minlength=len(batches))
+    block=x[available].astype(float);depth=np.asarray(block.sum(axis=1)).ravel()
+    assignment=sparse.csr_matrix((1/count[group],(group,np.arange(len(available)))),shape=(len(batches),len(available)))
+    raw=(assignment@block).toarray();mean=(assignment@block.multiply((1/depth)[:,None])).toarray()
+    return batches,raw,mean
+
+def matched_population(population,meta,actual):
+    batches,raw,mean=population;counts=meta.iloc[actual]['sample'].value_counts()
+    weight=np.array([counts.get(b,0)/len(actual) for b in batches]);assert abs(weight.sum()-1)<1e-10
+    mean_raw=weight@raw;p=weight@mean;library=float(mean_raw.sum());b=mean_raw/library
+    return np.array([library]),p,b,mean_raw
+
 def models(line,ci):
     selection=json.loads((A/'summary_selection.json').read_text())
     config=next(c for c in CONFIGS if c['name']==selection['outer_selections'][line]['candidate'])
@@ -41,7 +59,12 @@ def models(line,ci):
     data=read_cache();seen=np.isin(np.arange(len(data['targets'])),data['row_targets'][data['row_families']!=line]);neural[~seen]=0
     with np.load(A/'ridge_outer_predictions.npz',allow_pickle=False) as z:
         ridge=z[f'{line}_{ci}_ridge'];supported=z[f'{line}_{ci}_supported'];ridge_blend=pool.copy();ridge_blend[:,supported]=.75*pool[:,supported]+.25*ridge[:,supported];ridge_blend[~seen]=pool[~seen]
-    return {'v4_transfer':baseline(line),'coverage_uniform':uniform,'calibrated_pool':pool,
+    base=baseline(line)
+    with np.load(ROOT/'experiments/v4_lineage_response/analysis/source_components.npz',allow_pickle=False) as z:
+        old_mask=z['k562_mask']|z['cd4_mask'][2]
+        if line!='H1':old_mask|=z['h1_mask']
+    coverage=np.where(old_mask,base,uniform)
+    return {'v4_transfer':base,'coverage_fill':coverage,'coverage_uniform':uniform,'calibrated_pool':pool,
         'pool_low_noise':pool,'pool_cal10':pool,'neural_response':neural,'neural_blend25':.75*pool+.25*neural,'ridge_blend25':ridge_blend}
 
 def evaluate_line(line,ci,max_targets):
@@ -51,7 +74,7 @@ def evaluate_line(line,ci,max_targets):
     for batch,group in meta.iloc[controls].groupby('sample',sort=True):
         ids=rng.permutation(group.index.to_numpy());half=len(ids)//2;left.extend(ids[:half]);right.extend(ids[half:])
     left=np.asarray(left);right=np.asarray(right);assert not set(left)&set(right)
-    library=meta.total_counts.to_numpy(float)
+    library=np.asarray(x.sum(axis=1)).ravel();population=population_statistics(x,meta,left)
     query=np.asarray(x[left].multiply((1e6/library[left])[:,None]).mean(axis=0)).ravel()
     gate=np.clip(query/5,0,1);eligible=[];ids_record=[];records=[]
     directory=A/'cell_evaluation';directory.mkdir(exist_ok=True)
@@ -85,7 +108,7 @@ def evaluate_line(line,ci,max_targets):
             truth=x[actual];control=x[reference];templates=x[template]
             realde=de(truth,control,genes);tp,tj=profile_jackknife(truth);cp,cj=profile_jackknife(control)
             arrays={'truth':tp,'truth_jack':tj,'ctrl':cp,'ctrl_jack':cj};group=[]
-            prepared_m=moments(templates);prepared=(*prepared_m[:3],np.asarray(templates.mean(axis=0)).ravel())
+            prepared_m=moments(templates);prepared=matched_population(population,meta,actual)
             truth_var=moments(truth)[3].sum();original_var=prepared_m[3].sum()
             for name,generator in CANDIDATES.items():
                 effect=response[name][ti]*gate*np.clip(query[own]/5,0,1);effect=effect.copy();effect[own]=0

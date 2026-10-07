@@ -66,5 +66,12 @@ class ResponseTests(unittest.TestCase):
         self.assertFalse((mask&~data['valid']).any())
         self.assertFalse(mask[:,0].any());self.assertTrue(mask[:2,1].all());self.assertFalse(mask[:2,2].any())
         self.assertTrue(mask[2,2])
+    def test_population_moments_match_treated_batches(self):
+        from evaluate_v7_response import population_statistics,matched_population
+        x=sparse.csr_matrix([[10,90],[20,80],[90,10],[80,20],[1,99],[2,98]],dtype=np.int32)
+        meta=pd.DataFrame({'sample':['a','a','b','b','a','a']})
+        population=population_statistics(x,meta,np.arange(4));depth,p,b,raw=matched_population(population,meta,np.array([4,5]))
+        np.testing.assert_allclose(raw,[15,85]);np.testing.assert_allclose(p,[.15,.85]);np.testing.assert_allclose(b,p)
+        self.assertEqual(depth[0],100)
 if __name__=='__main__':unittest.main(verbosity=2)
 

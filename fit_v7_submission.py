@@ -21,7 +21,9 @@ def main():
         inputs.append({'context':context,'file':f'context_{context}.h5ad','sha256':build.sha256(ROOT/f'context_{context}.h5ad')})
     first=len(data['profiles']);data['profiles']=np.r_[data['profiles'],np.asarray(profiles)]
     components_file=ROOT/'experiments/v4_lineage_response/analysis/source_components.npz'
+    v4_record=json.loads(components_file.with_name('reference_model.json').read_text());assert build.sha256(components_file)==v4_record['source_components_sha256']
     with np.load(components_file,allow_pickle=False) as z:components={k:z[k].copy() for k in z.files}
+    np.testing.assert_array_equal(components['genes'],genes);np.testing.assert_array_equal(components['targets'],targets)
     effect=[];details=[];candidate=cell['candidate'];neural=None;scale=None
     if candidate in ['neural_response','neural_blend25']:
         import torch
@@ -34,7 +36,13 @@ def main():
         neural.eval()
     for ci,context in enumerate(manifest['contexts']):
         modes,detail=predict_modes(data,train,first+ci);pool=modes[config['mode']]*config['amplitude']
-        if candidate=='coverage_uniform':value=modes['uniform']
+        if candidate=='coverage_fill':
+            old_mask=components['k562_mask']|components['cd4_mask'][ci]
+            if ci==0:old=np.where(components['cd4_mask'][ci],components['cd4'][ci],np.where(components['k562_mask'],components['k562'],0))
+            else:
+                old_mask|=components['h1_mask'];old=np.where(components['h1_mask'],components['h1'],.5*components['cd4_specific'][ci]+components['k562'])+components['h1_prior']
+            value=np.where(old_mask,old,modes['uniform'])
+        elif candidate=='coverage_uniform':value=modes['uniform']
         elif candidate=='neural_response':value=predict(neural,scale,data,train,np.arange(300),np.full(300,first+ci))
         elif candidate=='neural_blend25':value=.75*pool+.25*predict(neural,scale,data,train,np.arange(300),np.full(300,first+ci))
         elif candidate=='ridge_blend25':

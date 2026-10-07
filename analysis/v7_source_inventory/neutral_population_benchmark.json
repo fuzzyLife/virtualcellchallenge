@@ -1,0 +1,51 @@
+{
+  "records": [
+    {
+      "generator": "v4",
+      "seed": 20261008,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 1.0,
+      "seconds": 3.110034800018184
+    },
+    {
+      "generator": "low_noise",
+      "seed": 20261008,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 1.0,
+      "seconds": 3.1533969999291003
+    },
+    {
+      "generator": "cal10",
+      "seed": 20261008,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 0.999717608312647,
+      "seconds": 6.620720300008543
+    },
+    {
+      "generator": "v4",
+      "seed": 20261019,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 1.0,
+      "seconds": 3.185319900047034
+    },
+    {
+      "generator": "low_noise",
+      "seed": 20261019,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 1.0,
+      "seconds": 3.035015400033444
+    },
+    {
+      "generator": "cal10",
+      "seed": 20261019,
+      "false_DE_calls": 0,
+      "template_variance_ratio": 0.9994056485424389,
+      "seconds": 6.547625700011849
+    }
+  ],
+  "matched_batches": true,
+  "distinct_template_reference_cells": 400,
+  "population_controls": 768,
+  "script_sha256": "e7115863d276ed1993aa75ff65efba142d67d38cfb48fdd8981da00bf5e21259",
+  "scope": "Two seeds, no perturbation; full template-side population moments, 400 disjoint matched-batch reference controls."
+}

@@ -97,7 +97,7 @@ def prepare():
         for ti in np.flatnonzero(s['n']>=30):
             for k in ['truth','errors','q','valid']:arrays[k]=np.concatenate([arrays[k],s[k][ti:ti+1]])
             arrays['row_targets']=np.r_[arrays['row_targets'],ti];arrays['row_contexts']=np.r_[arrays['row_contexts'],ci]
-            arrays['row_families']=np.r_[arrays['row_families'],line];arrays['knockdown']=np.r_[arrays['knockdown'],s['knockdown'][ti]]
+            arrays['row_families']=np.concatenate([arrays['row_families'],np.asarray([line])]);arrays['knockdown']=np.r_[arrays['knockdown'],s['knockdown'][ti]]
             rows.loc[len(rows)]={'row':len(rows),'context':line,'context_index':ci,'family':line,'target_gene':targets[ti],
                 'target_index':ti,'source_cells':int(s['n'][ti]),'modeled_genes':int(s['valid'][ti].sum())}
         del x;gc.collect();print('Prepared full-axis source',line,flush=True)

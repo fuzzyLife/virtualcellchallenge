@@ -23,7 +23,7 @@ def main():
     rows=[];audit={}
     for line in ['HCT116','HEK293T']:
         directory=ROOT/f'reference/v7_sources/{line}';record=json.loads((directory/'extraction.json').read_text());gap=json.loads((directory/'expression_fragment_audit.json').read_text())
-        rows.append({'source':line,'selected_cells':record['cells'],'targets':record['targets'],'batches':record['batches'],'measured_genes':record['measured_genes'],'excluded_missing_cells':record['selection_record']['missing_selected_cells']})
+        rows.append({'source':line,'selected_cells':record['cells'],'targets':record['targets'],'eligible_targets':int(source['row_counts'][line]),'batches':record['batches'],'measured_genes':record['measured_genes'],'excluded_missing_cells':record['selection_record']['missing_selected_cells']})
         audit[line]={'extraction':record,'missing_cell_ranges':gap['missing_cell_ranges'],'missing_expression_records':gap['missing_expression_records'],'audit_sha256':build.sha256(directory/'expression_fragment_audit.json')}
     pd.DataFrame(rows).to_csv(A/'source_coverage.csv',index=False)
     build.write_json(ROOT/'analysis/v7_source_inventory/completed_source_audit.json',audit)
@@ -78,9 +78,9 @@ The utility is a declared mean of raw discrimination, fidelity, reach, overlap, 
 
 ## Validation and reproducibility
 
-Eight focused scientific tests passed, including measured-zero versus missing-source handling, matched-batch neutrality, expected-count preservation and conservative ridge label masks. Neutral H1 controls produced zero false DE calls for each tested count generator. Full submission auditing checked all 900 groups, all 360,000 cell libraries and every packaged nonzero value/index/pointer; twelve groups were exactly replayed from their recorded controls and seeds. The independent audit is `experiments/v7_multisource_adaptive/analysis/independent_validation.json`.
+Nine focused scientific tests passed, including measured-zero versus missing-source handling, matched-batch neutrality, expected-count preservation and conservative ridge label masks. Neutral H1 controls produced zero false DE calls for each tested count generator. Full submission auditing checked all 900 groups, all 360,000 cell libraries and every packaged nonzero value/index/pointer; twelve groups were exactly replayed from their recorded controls and seeds. The independent audit is `experiments/v7_multisource_adaptive/analysis/independent_validation.json`.
 
-The complete steps, pinned sources, assumptions and model scope are in [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md). Root scripts include preparation, source-offset repair, three neural architectures, four ridge penalties, source-held response/count comparisons, production fitting, sparse generation and independent validation. The small neural response heads implement an intervention-conditioned transition idea; this is not a faithful Arc STATE foundation-model reproduction.
+The complete steps, pinned sources, assumptions and model scope are in [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md). Root scripts include preparation, source-offset repair, three neural architectures, four ridge penalties, source-held response/count comparisons, conservative coverage filling, production fitting, sparse generation and independent validation. The small neural response heads implement an intervention-conditioned transition idea; this is not a faithful Arc STATE foundation-model reproduction.
 
 ## Upload using Windows CMD
 
