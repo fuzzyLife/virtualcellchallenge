@@ -1,0 +1,29 @@
+{
+  "sources": {
+    "reference\\control_profiles\\K562.csv": "d9be2c6f960110bd037a00baa48d1f75ed442f3d46497552e19e6f769dfb43de",
+    "reference\\control_profiles\\CD4_Rest.csv": "8792b73a2bc3cb7136d000533084feff1681b4605d6850ec9cde4ee8ab5575fc",
+    "reference\\control_profiles\\CD4_Stim8hr.csv": "7f4cd4e3f5958d8823fdf7c63c09db117487d54bcefd21bd185b1b91f0299ca2",
+    "reference\\control_profiles\\CD4_Stim48hr.csv": "639a68f2379a68ba37a02dde990086f34e21eba1cef72ae892691faccbc6bc64",
+    "reference\\control_profiles\\H1.csv": "a79093033e474592ea78121a69b4dc3d47c6521a1b2cff6e8a60cb40e478a08c",
+    "reference\\K562_gwps_raw_bulk_01.h5ad": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+    "reference/cd4_probe/merged.npz": "40c50d43e8b4ce8fedb281abe6b31ff1d1ce0cf2dc35e0cc4f5c4692c7e5af96",
+    "reference/cd4_probe/merged.csv": "a872a71694cea60d7821878f2bf4a593752f9db2b85741c1c24c44dd8704b33f",
+    "experiments\\v5_atlas_calibrated\\analysis\\h1_contrasts.npz": "d93b4db41532e234d53c7dc325fdb5faa457b0919f18c0d56855de1e55577115",
+    "cross_modal_foundation_model\\phase1\\data\\phase1\\benchmarks\\depmap\\gene-embs\\tx1_70m-mean-lt5gt70-bin.h5ad": "42cfc9b339d661e9fb43091cc44af6925f89a740d61ff797a1a8f5ff25c8449d",
+    "cross_modal_foundation_model\\phase1\\data\\phase1\\benchmarks\\depmap\\gene-embs\\pcloading-lt5gt70-bin.h5ad": "461bd9fa094d3966b5706c1efa55bb62a2f87b51eb09894f2c44af0041d82199"
+  },
+  "cache_sha256": "364c5470deae544297509daac2e99a607c84e915b25ad37a2f11486c8a70a710",
+  "script_sha256": "05dd70db8bde8745860c09a45f94b050c648683d6b27d087e01a432aaceea6af",
+  "row_counts": {
+    "CD4_Rest": 194,
+    "CD4_Stim48hr": 204,
+    "CD4_Stim8hr": 206,
+    "H1": 25,
+    "K562": 260
+  },
+  "label_units": "clipped log2 response contrasts; fixed source-specific noise shrinkage for regression labels",
+  "K562_q_scope": "Poisson-noise normal approximation, not actual cell-level rank DE",
+  "H1_q_scope": "Existing source-cell Wilcoxon/BH calls",
+  "CD4_q_scope": "Published adjusted p-values from source summaries",
+  "mask_scope": "Drop all panel output genes; H1 coverage uses non-targeting control CPM >5. Per-row unavailable responses/errors are masked, never zero-imputed into the loss."
+}

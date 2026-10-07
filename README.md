@@ -6,6 +6,8 @@ The latest published submission is V6 (`6MCjBWpPoCt5Sbw5CMu3`), with overall **-
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.
 
+Implemented and evaluated four interventional response heads on 889 public contrasts (284 targets), with whole-lineage and target holdouts. Tested 180 matched generated-cell comparisons on nine larger H1 target groups. The embedding/PCA blends worsened DE fidelity, overlap and corrected expression error, so V4 was retained and no new upload package was generated. See [EMBEDDING_RESPONSE_PILOT.md](EMBEDDING_RESPONSE_PILOT.md) for scripts, results and reproduction.
+
 ## Completed work
 
 - Reviewed and hashed all 146 original project files, including the manifest, gene/target lists, three control matrices, saved competition pages and their assets.

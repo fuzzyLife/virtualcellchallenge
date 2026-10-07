@@ -1,0 +1,212 @@
+{
+  "selected": "v4",
+  "decisions": {
+    "identity_rank": {
+      "summary_context_guards": {
+        "K562": true,
+        "CD4": true,
+        "H1": true
+      },
+      "fidelity_improvement_supported": false,
+      "overlap_improvement_supported": false,
+      "expression_improvement_supported": false,
+      "discrimination_preserved": false,
+      "variance_preserved": true,
+      "accepted": false
+    },
+    "pca_rank": {
+      "summary_context_guards": {
+        "K562": false,
+        "CD4": false,
+        "H1": false
+      },
+      "fidelity_improvement_supported": false,
+      "overlap_improvement_supported": false,
+      "expression_improvement_supported": false,
+      "discrimination_preserved": false,
+      "variance_preserved": true,
+      "accepted": false
+    },
+    "tahoe_rank": {
+      "summary_context_guards": {
+        "K562": false,
+        "CD4": false,
+        "H1": true
+      },
+      "fidelity_improvement_supported": false,
+      "overlap_improvement_supported": false,
+      "expression_improvement_supported": false,
+      "discrimination_preserved": false,
+      "variance_preserved": true,
+      "accepted": false
+    },
+    "tahoe_pool": {
+      "summary_context_guards": {
+        "K562": false,
+        "CD4": false,
+        "H1": false
+      },
+      "fidelity_improvement_supported": false,
+      "overlap_improvement_supported": false,
+      "expression_improvement_supported": false,
+      "discrimination_preserved": false,
+      "variance_preserved": true,
+      "accepted": false
+    }
+  },
+  "paired_target_bootstrap": {
+    "identity_rank": {
+      "fidelity": {
+        "difference": -0.09044786308301912,
+        "ci_low": -0.1840190315835821,
+        "ci_high": -0.0228116265616551,
+        "targets": 9
+      },
+      "jaccard": {
+        "difference": -0.006388208923123948,
+        "ci_low": -0.014469313777380732,
+        "ci_high": -0.00011856474908937465,
+        "targets": 9
+      },
+      "uncorrected_profile_mse": {
+        "difference": -3.569162059522056e-05,
+        "ci_low": -5.75207784365852e-05,
+        "ci_high": -1.58681230946226e-05,
+        "targets": 9
+      },
+      "variance_ratio_to_template": {
+        "difference": 0.0007636585868040502,
+        "ci_low": 0.00021487556232057333,
+        "ci_high": 0.0014440420635520577,
+        "targets": 9
+      }
+    },
+    "pca_rank": {
+      "fidelity": {
+        "difference": -0.08555948535312992,
+        "ci_low": -0.18384499167597138,
+        "ci_high": -0.020016015229161657,
+        "targets": 9
+      },
+      "jaccard": {
+        "difference": -0.005965239118695989,
+        "ci_low": -0.013542297710210113,
+        "ci_high": -0.00010383876488131733,
+        "targets": 9
+      },
+      "uncorrected_profile_mse": {
+        "difference": -3.5211816198057687e-05,
+        "ci_low": -5.6798052658323476e-05,
+        "ci_high": -1.5748779812195007e-05,
+        "targets": 9
+      },
+      "variance_ratio_to_template": {
+        "difference": 0.0008355767373429875,
+        "ci_low": 0.00017201974880230175,
+        "ci_high": 0.0016316321210027112,
+        "targets": 9
+      }
+    },
+    "tahoe_rank": {
+      "fidelity": {
+        "difference": -0.08783756141939515,
+        "ci_low": -0.17669360093068814,
+        "ci_high": -0.023379865806323216,
+        "targets": 9
+      },
+      "jaccard": {
+        "difference": -0.006199863091814018,
+        "ci_low": -0.014071977996523152,
+        "ci_high": -0.00012858417394833742,
+        "targets": 9
+      },
+      "uncorrected_profile_mse": {
+        "difference": -3.4389124803943654e-05,
+        "ci_low": -5.63587467792586e-05,
+        "ci_high": -1.4567337969295382e-05,
+        "targets": 9
+      },
+      "variance_ratio_to_template": {
+        "difference": 0.000814174420264978,
+        "ci_low": 0.00020110549586747938,
+        "ci_high": 0.00156214120281717,
+        "targets": 9
+      }
+    },
+    "tahoe_pool": {
+      "fidelity": {
+        "difference": -0.0864603631170804,
+        "ci_low": -0.18011826579652077,
+        "ci_high": -0.0213779895713147,
+        "targets": 9
+      },
+      "jaccard": {
+        "difference": -0.006134125970792977,
+        "ci_low": -0.013959014077254129,
+        "ci_high": -0.00011441731803061028,
+        "targets": 9
+      },
+      "uncorrected_profile_mse": {
+        "difference": -3.1844482180366844e-05,
+        "ci_low": -5.238544611485579e-05,
+        "ci_high": -1.3443357780637904e-05,
+        "targets": 9
+      },
+      "variance_ratio_to_template": {
+        "difference": 0.0009182075424677786,
+        "ci_low": 0.00030904660233723396,
+        "ci_high": 0.001657930001439067,
+        "targets": 9
+      }
+    }
+  },
+  "primary_targets": [
+    "ACLY",
+    "ANKZF1",
+    "HDAC8",
+    "MED15",
+    "MED25",
+    "NFE2L1",
+    "PLAGL2",
+    "SLIRP",
+    "ZNF32"
+  ],
+  "all_source_targets": [
+    "ACLY",
+    "ADNP",
+    "AKT2",
+    "ANKZF1",
+    "BRPF1",
+    "HDAC8",
+    "HSBP1",
+    "MED13",
+    "MED15",
+    "MED25",
+    "MTA1",
+    "NFE2L1",
+    "PLAGL2",
+    "RNF2",
+    "SHPRH",
+    "SIN3B",
+    "SLIRP",
+    "SMARCA5",
+    "STAT6",
+    "TARBP2",
+    "TRAPPC6A",
+    "TWF2",
+    "ZFP62",
+    "ZNF32",
+    "ZNF714"
+  ],
+  "blend": 0.25,
+  "seeds": 2,
+  "partitions": 2,
+  "source_count_sha256": "83d31b5be41f663247f0184fce15d5455099479d68cd66ac2122886ffe6f0e92",
+  "v4_components_sha256": "0a4802e73c7c6b25ab24c4309f4620e5696364150fd1fc8469f0a3a2c0911a49",
+  "count_script_sha256": "e16e3d1d2fb810808afeb1b6131f1a89724996069a8d51c127e85e9deaf454d0",
+  "vcc_methods_sha256": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+  "head_methods_sha256": "9f9285c8a7d8c091ec5aedba535411e9528a197c4e96f5df23c29ba1342156f8",
+  "baseline_scope": "Fixed V4 CD4/K562 transfer coefficients and C CD4 condition mix; all H1 direct/prior components removed. This is not the exact published A/B/C V4 artifact.",
+  "evaluation_scope": "Development comparison on public H1 controls and cells, with H1 lineage excluded from fitting every head. Only 9 larger target groups expected. Metrics are unanchored, not a hidden leaderboard estimate.",
+  "package_generated": false
+}

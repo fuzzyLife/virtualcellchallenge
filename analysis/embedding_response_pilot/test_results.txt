@@ -1,0 +1,9 @@
+test_all_unavailable_gene_is_marked_unsupported (test_embedding_response.ResponseModelTests.test_all_unavailable_gene_is_marked_unsupported) ... ok
+test_missing_response_is_not_an_imputed_zero (test_embedding_response.ResponseModelTests.test_missing_response_is_not_an_imputed_zero) ... ok
+test_pairwise_rank_retains_observed_zero (test_embedding_response.ResponseModelTests.test_pairwise_rank_retains_observed_zero) ... ok
+test_training_kernel_does_not_depend_on_query_control (test_embedding_response.ResponseModelTests.test_training_kernel_does_not_depend_on_query_control) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.009s
+
+OK

@@ -1,0 +1,21 @@
+{
+  "ridge": 10.0,
+  "variants": [
+    "identity_rank",
+    "pca_rank",
+    "tahoe_rank",
+    "tahoe_pool"
+  ],
+  "hyperparameter_policy": "Fixed before evaluation; no outcome-based hyperparameter search",
+  "source_cache_sha256": "364c5470deae544297509daac2e99a607c84e915b25ad37a2f11486c8a70a710",
+  "prediction_cache_sha256": "b68fa5cfb3c81748b03301a26885de0d860d8625991e5b810ce4a256d07b5d24",
+  "script_sha256": "05dd70db8bde8745860c09a45f94b050c648683d6b27d087e01a432aaceea6af",
+  "methods_sha256": "9f9285c8a7d8c091ec5aedba535411e9528a197c4e96f5df23c29ba1342156f8",
+  "limitations": [
+    "Small, previously inspected public-source panel; not hidden A/B/C validation.",
+    "Summary fidelity/jaccard are normal-call diagnostics, not leaderboard metrics.",
+    "Only non-panel downstream genes are fitted. All 300 target output columns use production fallback.",
+    "The precomputed vectors are RNA-only Tahoe, not proteomics-pretrained Trove.",
+    "Full public response summaries, not independent donors, train within each source family."
+  ]
+}
