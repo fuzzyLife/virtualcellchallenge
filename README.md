@@ -379,3 +379,8 @@ Record or refresh the read-only API confirmation and regenerate these tables wit
 ```
 
 The supplied publication rank is preserved separately from the current API rank. This command does not upload, regenerate predictions, or alter the package.
+
+
+## Next performance experiments (2026-10-07)
+
+[PERFORMANCE_IMPROVEMENT_PLAN.md](PERFORMANCE_IMPROVEMENT_PLAN.md) compares our implemented response models with current public AtlasShift, Sidechain and STATE methods. The proposed sequence prioritizes full measured CRISPRi source coverage, adaptive response calibration, nested response-head tuning and isolated count-emission experiments. This is a research plan; no new model, package or upload was produced. V4 remains the best published project candidate.
