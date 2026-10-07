@@ -1,0 +1,58 @@
+{
+  "official_metrics": {
+    "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/main/docs/vcc2026_metrics/vcc2026-metrics.md",
+    "sha256": "51c67e0930fde56952d57f077429cd803a963bee2b15755c2f222d415efb57ab",
+    "bytes": 45889,
+    "retrieved_utc": "2026-10-07T19:15:03.099450+00:00"
+  },
+  "sidechain_models": {
+    "url": "https://saberhq.com/sidechain/models/",
+    "sha256": "76ccebec3f99f409dac5458908a27da156f60e9b3b233ec69e7bfbf353e441a3",
+    "bytes": 22186,
+    "retrieved_utc": "2026-10-07T19:15:03.421358+00:00"
+  },
+  "sidechain_readme": {
+    "url": "https://raw.githubusercontent.com/saberhq/sidechain/main/README.md",
+    "sha256": "48e8d46a09b6b9601e7dad3d459bfc050c6956dba7be92c0234dd899dbf0954e",
+    "bytes": 4230,
+    "retrieved_utc": "2026-10-07T19:15:03.776952+00:00"
+  },
+  "atlasshift_readme": {
+    "url": "https://raw.githubusercontent.com/kaipengm2/Virtual-Cell-Challenge-2026/main/README.md",
+    "sha256": "8b97d3ccaa07f7e6ec33692497b0ff8a36886ed26ddf41b054b642723ad2cddb",
+    "bytes": 2175,
+    "retrieved_utc": "2026-10-07T19:15:04.161571+00:00"
+  },
+  "arc_data_article": {
+    "url": "https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge-2026",
+    "sha256": "caf41bd48b5587576ce638e29081d3109dabd436e3cfc52f570c7a5ea1f03ab2",
+    "bytes": 59566,
+    "retrieved_utc": "2026-10-07T19:15:04.386406+00:00"
+  },
+  "benchmark_paper": {
+    "url": "https://arxiv.org/html/2604.27646v1",
+    "sha256": "0ae98354fa5e9996d14d459f1cb2829a7987db92492669f5c7dea65b55c5f499",
+    "bytes": 276258,
+    "retrieved_utc": "2026-10-07T19:15:04.785260+00:00"
+  },
+  "ArcInstitute/cell-eval2": {
+    "commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+    "commit_url": "https://github.com/ArcInstitute/cell-eval2/commit/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+    "date": "2026-10-01T23:21:23Z"
+  },
+  "saberhq/sidechain": {
+    "commit": "da311d9348d6c6f6b33c206bf48faa6c334346ac",
+    "commit_url": "https://github.com/saberhq/sidechain/commit/da311d9348d6c6f6b33c206bf48faa6c334346ac",
+    "date": "2026-10-07T07:07:45Z"
+  },
+  "kaipengm2/Virtual-Cell-Challenge-2026": {
+    "commit": "d24ce4fdae0cd7cba3ba29546cd8737094eae98a",
+    "commit_url": "https://github.com/kaipengm2/Virtual-Cell-Challenge-2026/commit/d24ce4fdae0cd7cba3ba29546cd8737094eae98a",
+    "date": "2026-09-23T14:54:01Z"
+  },
+  "ArcInstitute/state": {
+    "commit": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+    "commit_url": "https://github.com/ArcInstitute/state/commit/9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+    "date": "2026-07-24T00:53:03Z"
+  }
+}

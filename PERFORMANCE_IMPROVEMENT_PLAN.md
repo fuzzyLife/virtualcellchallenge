@@ -16,7 +16,7 @@ Evidence and reproduction: [embedding pilot](EMBEDDING_RESPONSE_PILOT.md), [upst
 
 [AtlasShift](https://github.com/kaipengm2/Virtual-Cell-Challenge-2026) pools full prepared K562, HCT116, HEK293T, H1 and CD4 statistics, then reanchors responses on target-context controls. Its historical September 10 score is author-reported, not a current ranking or independently replicated result. Its preparation requires substantial downloads/scans.
 
-Our K562 pseudobulk aligns only 7,681 of the 18,533 required output genes, despite covering 260 target genes. Our HCT116 and HEK293T data are small pilot batches, not comparable full intervention panels. Our updated H1 cache covers 25 targets. These are coverage gaps, not a reason to fill unavailable effects with zero or assume A/B/C identities from marker similarity.
+Our K562 pseudobulk aligns only 7,681 of the 18,533 required output genes, despite covering 260 target genes. At the time this plan was proposed, HCT116/HEK293T were pilot batches. V7 subsequently extracted panel targets across their releases and retained 282/291 eligible contrasts, with stratified selected cells rather than every raw cell. Expanded estimators failed local guards and the published V7 reverted to exactly V4 effects. H1 covers 25 targets. Availability masks remain necessary; control-marker similarity does not establish an A/B/C intervention identity.
 
 ### Response pooling and uncertainty calibration
 
@@ -51,3 +51,7 @@ The approved follow-up is implemented by root-level `prepare_v7_sources.py`, `au
 The four-penalty ridge study is implemented in `train_v7_ridge.py`, with nested lineage tuning and a conservatively masked residual comparison. A faithful Arc STATE reproduction is not implemented in this iteration; the neural comparison uses three small response architectures with inner-fold epoch selection. No claim about their hidden performance is made.
 
 The V7 follow-up is now complete: official packaging and the independent full-payload audit passed for all 360,000 cells and 900 groups. [V7_SUBMISSION.md](V7_SUBMISSION.md) records the upload-ready file and comparisons. The selected effect arrays exactly equal V4; the package is a new sampling realization, not a demonstrated improvement. It is published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751**, slightly below V4. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md).
+
+## Post-publication research and metric audit
+
+The fresh review in [VCC2026_RESEARCH_AND_GAPS.md](VCC2026_RESEARCH_AND_GAPS.md) supersedes the next-step ordering above. A hash-verified retrospective audit of all 94 V7 profile caches demonstrated artificial discrimination from target-specific control origins: constant predictions score 0.854545-1.000000 historically versus 0.5 using a common control. Templates were also matched to actual treated batch proportions, unavailable for challenge predictions. Rebuild context/batch-compatible validation with target-independent templates before selecting another candidate. The expanded models also failed expression guards; this finding alone does not justify adopting them. Historical scores and packages are preserved. Reproduction and limitations: [TRANSFER_VALIDATION_AUDIT.md](TRANSFER_VALIDATION_AUDIT.md).

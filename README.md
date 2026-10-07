@@ -10,6 +10,8 @@ Implemented and evaluated four interventional response heads on 889 public contr
 
 V7 is published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751** versus V4 **-0.050673910**. It uses exactly V4 response effects with new count/control sampling. Expanded HCT116/HEK293T sources and neural/ridge alternatives were tested, but none passed the calibration guards. Official packaging and the independent full-payload audit passed. V4 remains best. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md), [V7_SUBMISSION.md](V7_SUBMISSION.md) and [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md).
 
+A fresh public-method review and a reproducible evaluation audit found that our historical local PDS used target-specific control origins. Identical predictions scored 0.854545-1.000000 locally instead of the required 0.5. See [VCC2026_RESEARCH_AND_GAPS.md](VCC2026_RESEARCH_AND_GAPS.md), [TRANSFER_VALIDATION_AUDIT.md](TRANSFER_VALIDATION_AUDIT.md) and root script `audit_transfer_validation.py`. This audit preserves prior submissions and explains why the next model needs corrected validation first.
+
 ## Completed work
 
 - Reviewed and hashed all 146 original project files, including the manifest, gene/target lists, three control matrices, saved competition pages and their assets.
