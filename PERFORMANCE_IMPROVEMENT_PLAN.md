@@ -1,6 +1,6 @@
 # Performance improvement plan
 
-Research checked: 2026-10-07. This is a proposed experimental sequence, not a newly validated model or submission. Existing packages are unchanged.
+Research checked: 2026-10-07. This records the original proposed sequence preceding V7; the completed experiments and published result are recorded below.
 
 ## What our evidence says
 
@@ -50,4 +50,4 @@ The approved follow-up is implemented by root-level `prepare_v7_sources.py`, `au
 
 The four-penalty ridge study is implemented in `train_v7_ridge.py`, with nested lineage tuning and a conservatively masked residual comparison. A faithful Arc STATE reproduction is not implemented in this iteration; the neural comparison uses three small response architectures with inner-fold epoch selection. No claim about their hidden performance is made.
 
-The V7 follow-up is now complete: official packaging and the independent full-payload audit passed for all 360,000 cells and 900 groups. [V7_SUBMISSION.md](V7_SUBMISSION.md) records the upload-ready file and comparisons. The selected effect arrays exactly equal V4; the package is a new sampling realization, not a demonstrated improvement. It has not been uploaded.
+The V7 follow-up is now complete: official packaging and the independent full-payload audit passed for all 360,000 cells and 900 groups. [V7_SUBMISSION.md](V7_SUBMISSION.md) records the upload-ready file and comparisons. The selected effect arrays exactly equal V4; the package is a new sampling realization, not a demonstrated improvement. It is published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751**, slightly below V4. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md).

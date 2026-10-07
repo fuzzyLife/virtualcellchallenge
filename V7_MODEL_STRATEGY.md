@@ -1,6 +1,6 @@
 # V7 modeling and source integrity
 
-Status: completed and independently verified on 2026-10-07. The upload-ready package is `experiments/v7_multisource_adaptive/prediction.vcc`; official packaging and the full payload audit passed. See [V7_SUBMISSION.md](V7_SUBMISSION.md) for results, SHA-256 and the upload command. The selected response arrays equal V4 exactly; no model improvement or hidden score is claimed. The package has not been uploaded.
+Status: independently verified and published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751**. The response arrays equal V4 exactly; the new count realization did not surpass V4. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md) for the publication and [V7_SUBMISSION.md](V7_SUBMISSION.md) for selection, hashes and reproduction.
 
 ## Data and corrected assumptions
 

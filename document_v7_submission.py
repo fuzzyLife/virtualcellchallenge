@@ -108,6 +108,13 @@ The scripts and reproducibility records are committed locally. Large data caches
     (ROOT/'V7_SUBMISSION.md').write_text(text,encoding='utf-8')
     readme=ROOT/'README.md';s=readme.read_text(encoding='utf-8-sig');old='V7 is being built from expanded, stratified HCT116/HEK293T intervention coverage, adaptive response pooling and three perturbation-conditioned neural heads. A converted-source gap was found and is being repaired with full cell-ID/library checks. Root scripts, model selection, generated-cell comparisons and packaging are described in [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md). No V7 package or hidden-score improvement is claimed until its independent audit passes.'
     new=f'V7 is ready for upload at `experiments/v7_multisource_adaptive/prediction.vcc`, using **{model["candidate"]}** with **{model["generator"]}** count emission. Expanded HCT116/HEK293T samples covering all 300 targets and neural/ridge alternatives were evaluated; source gaps and duplicate symbols were repaired and checked against original counts. Official packaging and a full independent payload audit passed. V7 has not been uploaded; V4 remains the best published score. The selected `v4_transfer` fallback has no demonstrated improvement over V4. See [V7_SUBMISSION.md](V7_SUBMISSION.md) for the public comparison and upload command, and [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md) for reproduction.'
-    assert old in s;s=s.replace(old,new);readme.write_text(s,encoding='utf-8')
+    if old in s:s=s.replace(old,new)
+    else:
+        lines=s.splitlines();positions=[i for i,line in enumerate(lines) if line.startswith(('V7 is ready for upload at','V7 is published as'))]
+        assert len(positions)==1;lines[positions[0]]=new;s='\n'.join(lines)+'\n'
+    readme.write_text(s,encoding='utf-8')
+    if (A/'leaderboard_result.json').exists():
+        from record_v7_result import document_publication
+        document_publication()
     print('V7 reports and README updated from verified artifacts',flush=True)
 if __name__=='__main__':main()

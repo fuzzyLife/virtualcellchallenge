@@ -24,11 +24,16 @@
       "missing_selected_cells": 0
     }
   },
-  "status": "Completed; official package and independent full-payload audit passed",
+  "status": "Completed, independently verified and published; V4 remains best",
   "scope": "Full-release stratified source coverage; not every raw atlas cell.",
   "selected_candidate": "v4_transfer",
   "confirmed_improvement": false,
   "package_sha256": "9bafac870c3eec270015f568e67aad45fd06afdea35bd3b495fec64d7de6a5af",
-  "uploaded": false,
-  "response_arrays_equal_v4": true
+  "uploaded": true,
+  "response_arrays_equal_v4": true,
+  "publication": {
+    "entry_id": "k0pkYuJRcw3C0U8K0NgL",
+    "overall": -0.05138675064550524,
+    "source": "Read-only API-confirmed publication record"
+  }
 }

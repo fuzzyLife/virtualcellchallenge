@@ -1,6 +1,12 @@
 # V7 submission: V4 transfer fallback after expanded-source comparison
 
-The upload-ready file is `experiments/v7_multisource_adaptive/prediction.vcc` (3,308,800,000 bytes). It has **360,000 cells x 18,533 genes**, with all 300 targets x 400 cells in A, B and C. Official packaging and independent full-payload validation passed. The package has not been uploaded and has no hidden leaderboard score.
+<!-- V7 publication begin -->
+
+Published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751**, rank 1052 in the user report. V4 remains best. This is the same response estimator with new control sampling/count draws. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md) for API-confirmed scaled/raw comparisons.
+
+<!-- V7 publication end -->
+
+The verified package is `experiments/v7_multisource_adaptive/prediction.vcc` (3,308,800,000 bytes). It has **360,000 cells x 18,533 genes**, with all 300 targets x 400 cells in A, B and C. Official packaging and independent full-payload validation passed. The package is published; its leaderboard result is recorded above.
 
 SHA-256: `9bafac870c3eec270015f568e67aad45fd06afdea35bd3b495fec64d7de6a5af`.
 
@@ -71,7 +77,7 @@ Nine focused scientific tests passed, including measured-zero versus missing-sou
 
 The complete steps, pinned sources, assumptions and model scope are in [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md). Root scripts include preparation, source-offset repair, three neural architectures, four ridge penalties, source-held response/count comparisons, conservative coverage filling, production fitting, sparse generation and independent validation. The small neural response heads implement an intervention-conditioned transition idea; this is not a faithful Arc STATE foundation-model reproduction.
 
-## Upload using Windows CMD
+## Historical upload command (already published)
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual
@@ -79,10 +85,10 @@ cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v7_multisource_adaptive\prediction.vcc -m "V4 fallback resampling v7" --wait
 ```
 
-If waiting is interrupted after upload, resume status polling for the returned entry ID rather than submitting again:
+The command above created the published entry. Repeating it creates a duplicate submission. Inspect the existing result with:
 
 ```bat
-.\.competition_env\Scripts\python.exe -m vcc status ENTRY_ID --wait
+.\.competition_env\Scripts\python.exe -m vcc status k0pkYuJRcw3C0U8K0NgL
 ```
 
 The scripts and reproducibility records are committed locally. Large data caches, model arrays and submission packages are ignored by Git and remain in the project folder.

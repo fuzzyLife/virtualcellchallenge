@@ -1,0 +1,42 @@
+{
+  "source": "User-reported CLI publication, independently confirmed by read-only vcc --json status.",
+  "recorded_utc": "2026-10-07T19:00:03.372906+00:00",
+  "entry_id": "k0pkYuJRcw3C0U8K0NgL",
+  "model_name": "V4 fallback resampling v7",
+  "final_status": "published",
+  "submitted_utc": "2026-10-07T17:33:44.652819Z",
+  "rank_at_user_report": 1052,
+  "rank_at_api_check": 1050,
+  "overall": -0.05138675064550524,
+  "metrics": {
+    "pds": 0.23585266664934945,
+    "mse": 0.0,
+    "nmae": 0.07186092628425385,
+    "fid": -0.6726758462891342,
+    "reach": 0.0867146928111978,
+    "jac": -0.030072943328698278
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.6068078781122259,
+    "expr_mse_unbiased_capped_norm": 1.2455161131945776,
+    "de_wilcoxon_lfc_nmae": 0.9572712418154639,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.3124492431501579,
+    "de_wilcoxon_direction_reach_raw": 0.15599902473997782,
+    "de_wilcoxon_sig_jaccard": 0.01964638720768886
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "9bafac870c3eec270015f568e67aad45fd06afdea35bd3b495fec64d7de6a5af",
+  "upload_bytes": 3308800000,
+  "upload_duration_seconds": 798,
+  "package_hash_scope": "Independently validated local artifact; status API does not expose the uploaded package hash.",
+  "overall_change_from_v4": -0.0007128404845841221,
+  "overall_change_from_v6": 0.005403388774631729,
+  "raw_expression_error_relative_change_from_v4": -0.001776660280400022,
+  "raw_fidelity_yield_relative_change_from_v4": 0.010393441338250042,
+  "response_effect_arrays_equal_v4": true,
+  "interpretation": "V4 remains best. Mean effects are unchanged; new control draws/count sampling give a slightly lower overall result. This does not evaluate the rejected new response estimators or establish a seed uncertainty distribution.",
+  "readiness_record_scope": "Generation-time snapshots are preserved; this separate publication record gives current scoring evidence.",
+  "recorder_sha256": "ee93d07fa5f6f790f3f532a9eaeff5e213ecf961380ca569886108782677c0da"
+}
