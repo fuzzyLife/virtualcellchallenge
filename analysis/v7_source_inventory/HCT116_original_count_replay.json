@@ -1,0 +1,205 @@
+{
+  "passed": true,
+  "line": "HCT116",
+  "cells": 32,
+  "all_18533_gene_counts_match_original_parquet": true,
+  "original_parquet_sha256": "a7a6918ecda30343e3f9262bcfb654bf077170d2e99c7bcd0c8b9f963764f13b",
+  "original_gene_metadata_sha256": "33900a0dbaeafb84601c7c8ba7c6642c440774fc3f49613dab11cf1f2bf0fdbf",
+  "selected_cells_sha256": "a4ba8d2311833f9a48e08bbfd8156bb80c1288706e62751e0913e538c53f4f0c",
+  "script_sha256": "3fb7fcefb148483d9cd0a5895de59d2bb1e34818a843552b97761b9202dda2b8",
+  "comparisons": [
+    {
+      "cell_id": "AAAGCCGAGAACGCGA-HCT116_Batch1",
+      "gene_target": "DVL3",
+      "library": 36190,
+      "nnz": 6354
+    },
+    {
+      "cell_id": "AAAGCCGAGACGCGTT-HCT116_Batch1",
+      "gene_target": "GRAMD1A",
+      "library": 31489,
+      "nnz": 5558
+    },
+    {
+      "cell_id": "AAAGCTCGTCCTTGTA-HCT116_Batch1",
+      "gene_target": "ZC3HAV1",
+      "library": 84838,
+      "nnz": 7958
+    },
+    {
+      "cell_id": "AAATCACTCGTAGGTC-HCT116_Batch1",
+      "gene_target": "CHD3",
+      "library": 27295,
+      "nnz": 5442
+    },
+    {
+      "cell_id": "AAATGGTCACCTACGA-HCT116_Batch1",
+      "gene_target": "DNTTIP1",
+      "library": 28055,
+      "nnz": 5973
+    },
+    {
+      "cell_id": "AACATTGGTCGGAATT-HCT116_Batch1",
+      "gene_target": "ZBTB34",
+      "library": 38871,
+      "nnz": 6292
+    },
+    {
+      "cell_id": "AACGATAAGAGTCCCG-HCT116_Batch1",
+      "gene_target": "IFNAR2",
+      "library": 52593,
+      "nnz": 7186
+    },
+    {
+      "cell_id": "AACGTCGGTCGCTGCC-HCT116_Batch1",
+      "gene_target": "ZDHHC12",
+      "library": 11084,
+      "nnz": 3797
+    },
+    {
+      "cell_id": "AACTAGGCAATGCTCG-HCT116_Batch1",
+      "gene_target": "ELK1",
+      "library": 23701,
+      "nnz": 5038
+    },
+    {
+      "cell_id": "AAGCAATCAACCAGAA-HCT116_Batch1",
+      "gene_target": "ZNF514",
+      "library": 34652,
+      "nnz": 6165
+    },
+    {
+      "cell_id": "AAGCCGTTCCCATCAT-HCT116_Batch1",
+      "gene_target": "TESK2",
+      "library": 26634,
+      "nnz": 4609
+    },
+    {
+      "cell_id": "AAGCGATAGGGTCGTT-HCT116_Batch1",
+      "gene_target": "TRMT1",
+      "library": 23096,
+      "nnz": 5070
+    },
+    {
+      "cell_id": "AAGCGTGAGACTGCAC-HCT116_Batch1",
+      "gene_target": "TAF4",
+      "library": 23085,
+      "nnz": 5090
+    },
+    {
+      "cell_id": "AAGCTTCCACCACTAG-HCT116_Batch1",
+      "gene_target": "MTA1",
+      "library": 58572,
+      "nnz": 7555
+    },
+    {
+      "cell_id": "AAGGAATGTCCAACGA-HCT116_Batch1",
+      "gene_target": "ZDHHC4",
+      "library": 47835,
+      "nnz": 6875
+    },
+    {
+      "cell_id": "AAGGGCATCAGGGTTC-HCT116_Batch1",
+      "gene_target": "ZNF280C",
+      "library": 34088,
+      "nnz": 6166
+    },
+    {
+      "cell_id": "AAGGTGTAGCGCTGCA-HCT116_Batch1",
+      "gene_target": "COQ10B",
+      "library": 15946,
+      "nnz": 4461
+    },
+    {
+      "cell_id": "AATATTGTCGTGAGCT-HCT116_Batch1",
+      "gene_target": "Non-Targeting",
+      "library": 23842,
+      "nnz": 5125
+    },
+    {
+      "cell_id": "AATCCGGGTCCAGGTA-HCT116_Batch1",
+      "gene_target": "ADNP",
+      "library": 31879,
+      "nnz": 5998
+    },
+    {
+      "cell_id": "AATGGGTAGGCGTCCA-HCT116_Batch1",
+      "gene_target": "Non-Targeting",
+      "library": 4592,
+      "nnz": 1618
+    },
+    {
+      "cell_id": "AATTCAGGTGTCCCCA-HCT116_Batch1",
+      "gene_target": "ZDHHC4",
+      "library": 23589,
+      "nnz": 4569
+    },
+    {
+      "cell_id": "ACACGAACAACTCGGC-HCT116_Batch1",
+      "gene_target": "GRAMD1A",
+      "library": 44875,
+      "nnz": 7087
+    },
+    {
+      "cell_id": "ACACGGTTCACAGGTC-HCT116_Batch1",
+      "gene_target": "TBC1D19",
+      "library": 45855,
+      "nnz": 7253
+    },
+    {
+      "cell_id": "ACAGCACTCACCATCT-HCT116_Batch1",
+      "gene_target": "ZNF821",
+      "library": 37978,
+      "nnz": 6510
+    },
+    {
+      "cell_id": "ACAGCGAAGAGGCAGC-HCT116_Batch1",
+      "gene_target": "TMF1",
+      "library": 37811,
+      "nnz": 6282
+    },
+    {
+      "cell_id": "ACATGTGTCATCCGCC-HCT116_Batch1",
+      "gene_target": "TRIP4",
+      "library": 47614,
+      "nnz": 7223
+    },
+    {
+      "cell_id": "ACATGTGTCATGGCTA-HCT116_Batch1",
+      "gene_target": "Non-Targeting",
+      "library": 50245,
+      "nnz": 6047
+    },
+    {
+      "cell_id": "ACCAAATTCCCTTCAG-HCT116_Batch1",
+      "gene_target": "TRPC4AP",
+      "library": 27984,
+      "nnz": 5684
+    },
+    {
+      "cell_id": "ACCACTCGTGGAGCAG-HCT116_Batch1",
+      "gene_target": "MYD88",
+      "library": 38448,
+      "nnz": 6453
+    },
+    {
+      "cell_id": "ACCATGGGTGGAAATG-HCT116_Batch1",
+      "gene_target": "DCAF16",
+      "library": 37878,
+      "nnz": 6413
+    },
+    {
+      "cell_id": "ACCCAAATCATGAATC-HCT116_Batch1",
+      "gene_target": "PHF8",
+      "library": 17649,
+      "nnz": 4525
+    },
+    {
+      "cell_id": "ACCCATAAGCCTAATG-HCT116_Batch1",
+      "gene_target": "TRIM35",
+      "library": 31758,
+      "nnz": 6135
+    }
+  ],
+  "scope": "Exact raw count and gene mapping check for 32 distinct original Batch1 cells, not a complete original-release audit."
+}

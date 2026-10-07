@@ -1,0 +1,173 @@
+"""Prepare full-axis source responses, then perform nested whole-lineage pooling selection."""
+from pathlib import Path
+import argparse,json,gc,time
+import numpy as np,pandas as pd
+from scipy import sparse,stats
+from threadpoolctl import threadpool_limits
+import build_submission as build
+from v7_response_methods import FAMILIES,CONFIGS,predict_modes,summary_score,bh
+ROOT=build.ROOT;OUT=ROOT/'experiments/v7_multisource_adaptive';A=OUT/'analysis'
+CONTEXTS=np.array(['K562','CD4_Rest','CD4_Stim8hr','CD4_Stim48hr','H1','HCT116','HEK293T'])
+def raw_inputs(line,genes):
+    if line=='H1':
+        directory=ROOT/'reference/v5_h1';rec=json.loads((directory/'extraction.json').read_text())
+        for name,key in [('selected_counts.npz','counts_sha256'),('selected_cells.csv','selected_cells_sha256'),('gene_names.csv','gene_names_sha256')]:
+            assert build.sha256(directory/name)==rec[key]
+        x=sparse.load_npz(directory/'selected_counts.npz');meta=pd.read_csv(directory/'selected_cells.csv')
+        sg=pd.read_csv(directory/'gene_names.csv').gene_name.to_numpy(dtype=str)
+        lookup={g:i for i,g in enumerate(genes)};dest=np.array([lookup.get(g,-1) for g in sg])
+        coo=x.tocoo();keep=dest[coo.col]>=0
+        x=sparse.csr_matrix((coo.data[keep],(coo.row[keep],dest[coo.col[keep]])),shape=(len(meta),len(genes)))
+        meta['sample']=meta.batch.astype(str);meta['gene_target']=meta.target_gene.replace({'non-targeting':'Non-Targeting'})
+        batches=sorted(meta['sample'].unique());meta['partition']=meta['sample'].map({b:i%2 for i,b in enumerate(batches)})
+        meta['cell_id']=meta.source_cell_id;meta['total_counts']=np.asarray(x.sum(axis=1)).ravel()
+        measured=np.isin(genes,sg)
+    else:
+        directory=ROOT/f'reference/v7_sources/{line}';rec=json.loads((directory/'extraction.json').read_text())
+        for name,key in [('selected_counts.npz','counts_sha256'),('selected_cells.csv','selected_sha256'),('gene_names.csv','genes_sha256')]:
+            assert build.sha256(directory/name)==rec[key]
+        x=sparse.load_npz(directory/'selected_counts.npz');meta=pd.read_csv(directory/'selected_cells.csv')
+        frame=pd.read_csv(directory/'gene_names.csv');np.testing.assert_array_equal(frame.gene_name,genes);measured=frame.measured.to_numpy(bool)
+    assert meta.cell_id.is_unique and x.shape==(len(meta),len(genes))
+    return x,meta,measured,rec
+def summarize_raw(x,meta,genes,targets,measured,part):
+    select=np.ones(len(meta),bool) if part==2 else meta.partition.to_numpy()==part
+    rows=np.flatnonzero(select);labels=meta.gene_target.to_numpy();batches=sorted(meta.loc[select,'sample'].unique())
+    tp={t:i for i,t in enumerate(targets)};bp={b:i for i,b in enumerate(batches)}
+    group=np.array([tp.get(labels[r],len(targets)+bp[meta.iloc[r]['sample']]) if labels[r]=='Non-Targeting' else tp.get(labels[r],-1) for r in rows])
+    assert (group>=0).all()
+    ng=len(genes);nt=len(targets);g=nt+len(batches)
+    sums=np.zeros((g,ng));squares=np.zeros_like(sums);counts=np.bincount(group,minlength=g)
+    batch_counts=np.zeros((nt,len(batches)));batch_library=np.zeros_like(batch_counts)
+    for start in range(0,len(rows),2048):
+        selected=rows[start:start+2048];gg=group[start:start+2048]
+        block=x[selected].astype(float);library=meta.iloc[selected].total_counts.to_numpy(dtype=float)
+        normalized=block.multiply((1e6/library)[:,None]).tocsr()
+        assignment=sparse.csr_matrix((np.ones(len(selected)),(gg,np.arange(len(selected)))),shape=(g,len(selected)))
+        sums+=(assignment@normalized).toarray();squares+=(assignment@normalized.power(2)).toarray()
+        is_target=gg<nt
+        bc=np.array([bp[b] for b in meta.iloc[selected]['sample']])
+        np.add.at(batch_counts,(gg[is_target],bc[is_target]),1)
+        np.add.at(batch_library,(gg[is_target],bc[is_target]),library[is_target])
+    means=np.divide(sums,counts[:,None],out=np.zeros_like(sums),where=counts[:,None]>0)
+    variance=np.maximum(np.divide(squares,counts[:,None],out=np.zeros_like(squares),where=counts[:,None]>0)-means**2,0)
+    ctrl=means[nt:];ctrl_var=np.divide(variance[nt:],np.maximum(counts[nt:,None]-1,1))
+    weights=np.divide(batch_counts,counts[:nt,None],out=np.zeros_like(batch_counts),where=counts[:nt,None]>0)
+    # Each treated batch has its own controls. A missing matched control cannot become a zero profile.
+    if np.any((batch_counts.sum(axis=0)>0)&(counts[nt:]==0)):raise ValueError('Treated source batch has no controls')
+    baseline=weights@ctrl;control_error=(weights**2)@ctrl_var
+    target_error=np.divide(variance[:nt],np.maximum(counts[:nt,None]-1,1))
+    lfc=np.clip(np.log2((means[:nt]+.1)/(baseline+.1)),-3,3)
+    se=np.sqrt(target_error/(means[:nt]+.1)**2+control_error/(baseline+.1)**2)/np.log(2)
+    se=np.maximum(se,.05)
+    valid=(counts[:nt,None]>=30)&(baseline>1)&measured[None,:]&np.isfinite(lfc)&np.isfinite(se)
+    kd=np.zeros(nt)
+    for ti,target in enumerate(targets):
+        own=int(np.flatnonzero(genes==target)[0]);valid[ti,own]=False
+        kd[ti]=np.clip(1-(means[ti,own]+.1)/(baseline[ti,own]+.1),0,.99) if baseline[ti,own]>1 else 0
+    qq=np.ones_like(lfc)
+    for ti in range(nt):qq[ti]=bh(2*stats.norm.sf(np.abs(lfc[ti])/se[ti]),valid[ti]&(baseline[ti]>5))
+    control_profile=sums[nt:].sum(axis=0)/max(counts[nt:].sum(),1)
+    control_profile[~measured]=np.nan
+    return {'truth':lfc.astype(np.float32),'errors':se.astype(np.float32),'valid':valid,'q':qq.astype(np.float32),
+        'n':counts[:nt],'control':baseline.astype(np.float32),'profile':control_profile,'knockdown':kd}
+def prepare():
+    A.mkdir(parents=True,exist_ok=True)
+    cache=ROOT/'analysis/embedding_response_pilot/source_cache.npz'
+    old=json.loads(cache.with_name('source_provenance.json').read_text());assert build.sha256(cache)==old['cache_sha256']
+    with np.load(cache,allow_pickle=False) as z:d={k:z[k].copy() for k in z.files}
+    genes=d['genes'];targets=d['targets'];keep=d['row_contexts']!=4
+    arrays={k:d[k][keep] for k in ['truth','errors','q','row_targets','row_contexts','row_families']}
+    # Original cache stored raw panel output values despite excluding them from the old fit mask.
+    valid=np.isfinite(arrays['errors'])&(arrays['errors']>0)&(arrays['errors']<1e5)
+    valid&=np.isfinite(d['profiles'][arrays['row_contexts']])
+    kd=[]
+    for ri,ti in enumerate(arrays['row_targets']):
+        own=int(np.flatnonzero(genes==targets[ti])[0]);valid[ri,own]=False
+        kd.append(float(np.clip(1-2**min(float(arrays['truth'][ri,own]),0),0,.99)))
+    arrays['valid']=valid;arrays['knockdown']=np.asarray(kd)
+    profiles=[x.copy() for x in d['profiles'][:4]]
+    rows=pd.read_csv(cache.with_name('source_rows.csv'));rows=rows[keep].reset_index(drop=True)
+    rows['row']=np.arange(len(rows));source_records={'legacy_cache_sha256':build.sha256(cache),'legacy_provenance':old}
+    for ci,line in [(4,'H1'),(5,'HCT116'),(6,'HEK293T')]:
+        x,meta,measured,rec=raw_inputs(line,genes);source_records[line]=rec
+        summaries={part:summarize_raw(x,meta,genes,targets,measured,part) for part in [0,1,2]}
+        np.savez_compressed(A/f'{line}_summaries.npz',**{f'{part}_{k}':v for part,a in summaries.items() for k,v in a.items()})
+        s=summaries[2];profiles.append(s['profile'])
+        for ti in np.flatnonzero(s['n']>=30):
+            for k in ['truth','errors','q','valid']:arrays[k]=np.concatenate([arrays[k],s[k][ti:ti+1]])
+            arrays['row_targets']=np.r_[arrays['row_targets'],ti];arrays['row_contexts']=np.r_[arrays['row_contexts'],ci]
+            arrays['row_families']=np.r_[arrays['row_families'],line];arrays['knockdown']=np.r_[arrays['knockdown'],s['knockdown'][ti]]
+            rows.loc[len(rows)]={'row':len(rows),'context':line,'context_index':ci,'family':line,'target_gene':targets[ti],
+                'target_index':ti,'source_cells':int(s['n'][ti]),'modeled_genes':int(s['valid'][ti].sum())}
+        del x;gc.collect();print('Prepared full-axis source',line,flush=True)
+    arrays.update(genes=genes,targets=targets,profiles=np.asarray(profiles))
+    for k in ['tahoe_vectors','tahoe_available']:arrays[k]=d[k]
+    np.savez_compressed(A/'source_cache.npz',**arrays);rows.to_csv(A/'source_rows.csv',index=False)
+    build.write_json(A/'source_provenance.json',{'sources':source_records,'cache_sha256':build.sha256(A/'source_cache.npz'),
+        'script_sha256':build.sha256(Path(__file__)),'row_counts':rows.groupby('context').size().to_dict(),
+        'raw_source_normalization':'Per-cell CPM using verified complete library; source batches matched to sampled NTCs. Delta-method SE with .05 floor.',
+        'missingness':'Availability masked per source/target/gene; target own coordinate excluded; other panel genes included.',
+        'K562_correction':'Full GWPS raw file also has 8248 measured genes, 7681 challenge overlap. No broader raw axis was found.',
+        'q_scope':'Raw source summary q-values use normal/SE diagnostics; generated-cell evaluation uses actual Wilcoxon/BH.'})
+def read_cache():
+    rec=json.loads((A/'source_provenance.json').read_text());assert build.sha256(A/'source_cache.npz')==rec['cache_sha256']
+    with np.load(A/'source_cache.npz',allow_pickle=False) as z:return {k:z[k].copy() for k in z.files}
+def screen():
+    d=read_cache();records=[];split_records=[];caches={}
+    def evaluate(excluded,query_family,regime):
+        train=~np.isin(d['row_families'],excluded);test=d['row_families']==query_family
+        assert not set(d['row_families'][train])&set(excluded)
+        supported=d['valid'][train].any(axis=0)
+        for ci in np.unique(d['row_contexts'][test]):
+            rows=np.flatnonzero(test&(d['row_contexts']==ci))
+            predictions,details=predict_modes(d,train,int(ci))
+            for config in CONFIGS:
+                pred=predictions[config['mode']]*config['amplitude']
+                for ri in rows:
+                    ti=d['row_targets'][ri];valid=d['valid'][ri]&supported
+                    if valid.sum()<100:continue
+                    result=summary_score(pred[ti],d['truth'][ri],d['errors'][ri],d['q'][ri],valid)
+                    records.append({'regime':regime,'outer':excluded[0] if len(excluded)>1 else query_family,
+                        'excluded':'+'.join(excluded),'family':query_family,'context':CONTEXTS[ci],
+                        'target_gene':d['targets'][ti],'candidate':config['name'],**result})
+            if len(excluded)==1:
+                caches[(query_family,int(ci))]=predictions
+        split_records.append({'excluded':excluded,'test_family':query_family,'train_rows':np.flatnonzero(train).tolist(),
+            'test_rows':np.flatnonzero(test).tolist(),'regime':regime})
+        pd.DataFrame(records).to_csv(A/'summary_scores.csv',index=False)
+        print('Summary screen',regime,'exclude',excluded,'test',query_family,flush=True)
+    for outer in FAMILIES:
+        for inner in FAMILIES:
+            if inner!=outer:evaluate([str(outer),str(inner)],str(inner),'nested_inner')
+        evaluate([str(outer)],str(outer),'outer')
+    frame=pd.DataFrame(records);selection={}
+    for outer in FAMILIES:
+        inner=frame[(frame.regime=='nested_inner')&(frame.outer==outer)]
+        means=inner.groupby(['family','candidate']).selection_objective.mean().groupby('candidate').mean()
+        chosen=means.idxmax();selection[str(outer)]={'candidate':chosen,'inner_objective':float(means[chosen]),
+            'selection_families':sorted(inner.family.unique().tolist())}
+    outer=frame[frame.regime=='outer']
+    score=outer.groupby(['family','candidate']).selection_objective.mean().groupby('candidate').mean()
+    final=score.idxmax()
+    summary=outer.groupby(['family','candidate']).mean(numeric_only=True).reset_index()
+    summary.to_csv(A/'summary_results.csv',index=False)
+    arrays={}
+    for (family,ci),modes in caches.items():
+        for mode,value in modes.items():arrays[f'{family}_{ci}_{mode}']=value
+    np.savez_compressed(A/'outer_predictions.npz',**arrays)
+    build.write_json(A/'summary_selection.json',{'outer_selections':selection,'production_candidate':final,
+        'production_objective':float(score[final]),'configs':CONFIGS,'source_cache_sha256':build.sha256(A/'source_cache.npz'),
+        'predictions_sha256':build.sha256(A/'outer_predictions.npz'),'methods_sha256':build.sha256(ROOT/'v7_response_methods.py'),
+        'script_sha256':build.sha256(Path(__file__)),'selection':'Whole-lineage outer holdouts; inner tuning excludes outer and validation lineage simultaneously. Production tuned using all five public lineage holdouts.',
+        'scope':'Previously inspected public development data; normal-call proxies, not hidden leaderboard estimates.'})
+    build.write_json(A/'summary_splits.json',split_records)
+    print('Production summary selection',final,flush=True)
+if __name__=='__main__':
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--prepare-only',action='store_true');p.add_argument('--reuse-cache',action='store_true');p.add_argument('--wait-for-sources',action='store_true');a=p.parse_args()
+    if a.wait_for_sources:
+        while not all((ROOT/f'reference/v7_sources/{line}/extraction.json').exists() for line in ['HCT116','HEK293T']):time.sleep(20)
+    with threadpool_limits(limits=2):
+        if not a.reuse_cache:prepare()
+        if not a.prepare_only:screen()
+

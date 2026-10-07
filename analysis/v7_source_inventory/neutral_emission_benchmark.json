@@ -1,0 +1,23 @@
+{
+  "H1": [
+    {
+      "generator": "v4",
+      "seconds": 3.3434299000073224,
+      "neutral_false_calls": 0,
+      "neutral_variance_ratio": 1.0
+    },
+    {
+      "generator": "low_noise",
+      "seconds": 3.2573417000239715,
+      "neutral_false_calls": 0,
+      "neutral_variance_ratio": 1.0
+    },
+    {
+      "generator": "cal10",
+      "seconds": 6.300895599997602,
+      "neutral_false_calls": 0,
+      "neutral_variance_ratio": 0.9987910019650046
+    }
+  ],
+  "scope": "Unperturbed 400 distinct NTC templates vs 400 disjoint NTCs; checks false DE and neutral-response identity."
+}

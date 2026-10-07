@@ -1,0 +1,21 @@
+{
+  "HCT116": {
+    "verified_selected_cells": 52295,
+    "targets": 300,
+    "batches": 109,
+    "measured_genes": 18106,
+    "missing_cell_ranges": [
+      [
+        1870000,
+        1874999
+      ]
+    ],
+    "missing_expression_records": [
+      19011260
+    ],
+    "dropped_selected_cells": 67,
+    "counts_sha256": "c819d97338b3c1d4a6e10b05aa7170dde1cec509286e41c0726aae2122420759"
+  },
+  "status": "HEK293T extraction pending",
+  "scope": "Full-release stratified source coverage; not every raw atlas cell."
+}

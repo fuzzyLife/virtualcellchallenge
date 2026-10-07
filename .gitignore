@@ -314,3 +314,9 @@ __marimo__/
 
 # Regenerable interventional embedding pilot caches
 /analysis/embedding_response_pilot/*.npz
+# V7 full-release source caches, runtime and regenerable numerical outputs
+/reference/v7_sources/
+/reference/v7_runtime/
+/experiments/v7_multisource_adaptive/analysis/*.npz
+/experiments/v7_multisource_adaptive/analysis/cell_evaluation/
+/experiments/v7_multisource_adaptive/*.log
