@@ -1,0 +1,26 @@
+{
+  "passed_generators": [
+    "legacy",
+    "selective"
+  ],
+  "criterion": "Diagnostic only for this distribution-model experiment; not a selection gate. Every context/seed neutral test has BH-significant false calls <=0.5% of tested genes. Genuine disjoint provided NTCs, with no target knockdown.",
+  "source_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "scores_sha256": "fc3b9ca2bb2070b560a9e04da5599232935d1a36898c82ca697cb9720cd7faca",
+  "summary_sha256": "976676d41242f3e5960cdf048d632fde6c8d37e798a37c577f548c352356d9c0",
+  "script_sha256": "5fcb301ecc85b72eae87a0f24cf1449529c878e7744b9013b67b1368a5127230",
+  "methods_sha256": "b90b925b3a69588c06667be5af31c8b2894aaf9ac7b88def9b62ae92c349863a",
+  "scope": "Control-only population-model bias diagnostic; does not evaluate hidden perturbation accuracy."
+}

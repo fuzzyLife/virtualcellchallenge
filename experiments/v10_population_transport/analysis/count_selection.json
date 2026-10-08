@@ -1,0 +1,135 @@
+{
+  "candidate": "dose_compact",
+  "response": "dose",
+  "generator": "compact",
+  "confirmation_read": false,
+  "settings": {
+    "v4_legacy": [
+      "v4",
+      "legacy"
+    ],
+    "v4_compact": [
+      "v4",
+      "compact"
+    ],
+    "pooled_compact": [
+      "pooled",
+      "compact"
+    ],
+    "dose_compact": [
+      "dose",
+      "compact"
+    ],
+    "invariant_compact": [
+      "invariant",
+      "compact"
+    ],
+    "dose_selective": [
+      "dose",
+      "selective"
+    ]
+  },
+  "passing_calibration_candidates": [
+    "v4_legacy",
+    "v4_compact",
+    "pooled_compact",
+    "dose_compact",
+    "invariant_compact"
+  ],
+  "guards": {
+    "v4_legacy": true,
+    "v4_compact": true,
+    "pooled_compact": true,
+    "dose_compact": true,
+    "invariant_compact": true,
+    "dose_selective": false
+  },
+  "full_target_mean_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.6892835532969862,
+    "dose_selective": 0.48615410505511797,
+    "invariant_compact": 0.6880504306416407,
+    "pooled_compact": 0.6867180519680618,
+    "v4_compact": 0.6729024789581234,
+    "v4_legacy": 0.4705455371106171
+  },
+  "paired_finite_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.6872245143997197,
+    "dose_selective": 0.4666476720471322,
+    "invariant_compact": 0.6861142532039569,
+    "pooled_compact": 0.6842088735365538,
+    "v4_compact": 0.6703578738654657,
+    "v4_legacy": 0.4705455371106171
+  },
+  "supported_budget_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.6688532555879495,
+    "dose_selective": 0.1037490720118782,
+    "invariant_compact": 0.6694680156657964,
+    "pooled_compact": 0.6687710801695061,
+    "v4_compact": 0.6416536978144665,
+    "v4_legacy": 0.24591685226429102
+  },
+  "common_panel_utility": {
+    "dose_compact": 0.14138129581747413,
+    "dose_selective": 0.12193324185539571,
+    "invariant_compact": 0.1349023995991577,
+    "pooled_compact": 0.1263711273807138,
+    "v4_compact": 0.10356024207582341,
+    "v4_legacy": -0.02417281159459389
+  },
+  "common_six_metric_panels": 8,
+  "missingness": [
+    {
+      "candidate": "control_null",
+      "finite_fidelity": 21,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "dose_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "dose_selective",
+      "finite_fidelity": 34,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "invariant_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "pooled_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "v4_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "v4_legacy",
+      "finite_fidelity": 30,
+      "targets": 36,
+      "reference_DE_targets": 21
+    }
+  ],
+  "calibration_scores_sha256": "4571237723b99ba250040a72330c37bd6e616d40f1c19e911e3982c40c7f74d2",
+  "calibration_summary_sha256": "e97af90a4e7e662923784d6dcd86490f166fd553eedda7e2c305dda55d0c3d01",
+  "validation_plan_sha256": "ef6ef7b5ed07550707b663b3feca07b9783f9e30444cc5d6064ba75990165f0c",
+  "methods_sha256": "b90b925b3a69588c06667be5af31c8b2894aaf9ac7b88def9b62ae92c349863a",
+  "evaluation_script_sha256": "dfdeccc4707a21bf82bc78621e3a844decf317e208096ad44314f8f0122b357b",
+  "selection_script_sha256": "3dee088ef6c8a706d5bf213927e5252358d9e10dcba676d448bf85494739c752",
+  "guard": "Full-target AND paired-finite mean fidelity within .01; supported-budget fidelity within .02; PDS within .03; expression <=1.10 baseline. Equal family/context weighting and common six-metric panel coverage.",
+  "neutral_policy": "Neutral DE is measured and reported as distribution-model bias, not suppressed. A synthetic population is a competition prediction, not a biological control reconstruction."
+}

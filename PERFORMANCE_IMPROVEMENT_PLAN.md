@@ -70,3 +70,23 @@ V8's reduced-variance decoder was rejected by disjoint challenge-control tests: 
 ## V9 publication update
 
 V9 published at -0.070447281, below V4 (-0.050673910). Five scaled metrics improved, but fidelity lost -0.237327864 and outweighed their gains. The public mean-fidelity drop was already visible; the reference-supported weighted guard was insufficient. Retain the corrected scorer, preserve V4 as best, and require both overall and supported-target fidelity protection plus explicit metric availability before promoting another decoder. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md).
+
+
+## V10 population transport experiment
+
+V10 makes a new response estimate from all five measured source families, with knockdown-dose correction and empirical Bayes shrinkage after pooling. It isolates real-template versus compact synthetic emission and a response-selective variant. The October 7 public Sidechain result shows a similar fidelity collapse when real control templates replaced synthetic cells, despite local gains; this motivates a new dispersion test rather than assuming more realistic variation improves the competition metric.
+
+The original frozen V10 calibration snapshot (before the validation-depth adapter correction described below) selects `dose_compact`, with full target-mean fidelity 0.689284 versus V4/legacy 0.470546 and paired-finite fidelity 0.687225 versus 0.470546. Its expression ratio is 2.503636 versus 4.929231 on public source panels, and balanced discrimination is unchanged at 0.520833. DE overlap and reach decline. Confirmation must be assessed without reselection. These raw public results are not hidden leaderboard predictions.
+
+This experiment explicitly changes the prior neutral-preservation policy: compact populations produce 2,039-3,265 neutral DE calls and fail the earlier safety threshold. That bias is measured and documented, not declared solved. The candidate is an experimental scoring-oriented population predictor, not a claim of faithful biological single-cell variance. Source-type and assay transfer still limit performance. See [V10_STRATEGY.md](V10_STRATEGY.md) and the generated [V10_SUBMISSION.md](V10_SUBMISSION.md).
+
+
+### Final V10 depth correction and evidence
+
+The validation adapter supplied full-population depths for a 400-cell template, incorrectly using the first 400 population depths. Original snapshots are retained as historical evidence; production already uses correctly indexed full-control depths. `audit_v10_validation_depths.py` repaired only the validation adapter and reassessed the frozen candidate without retuning or reselection. These are revisited public development cases, not fresh blind confirmation.
+
+Corrected full independent reference comparisons (768-2,144 controls) give balanced panel fidelity 0.525383 -> 0.574049, discrimination 0.701389 -> 0.750000 and expression-error ratio 2.913312 -> 1.833134. Both full-target and paired-finite fidelity guards pass; paired six-metric proxy utility improves by 0.122538. Reach declines (0.611467 -> 0.385929), and fold-change error increases slightly (0.869425 -> 0.881051). The gain in fidelity is much smaller with full references than with 400 references. Neutral-population bias remains unresolved. This supports trying the candidate, not claiming that it beats V4 on the hidden leaderboard.
+
+The complete experiment, packaging memory workaround, corrected diagnostics and upload instructions are documented in [V10_STRATEGY.md](V10_STRATEGY.md) and [V10_SUBMISSION.md](V10_SUBMISSION.md).
+
+Full-reference fidelity also declines for HCT116 (0.664027 -> 0.587194), while H1 and HEK293T improve. Aggregate guard passage is not evidence that every unseen lineage will improve.

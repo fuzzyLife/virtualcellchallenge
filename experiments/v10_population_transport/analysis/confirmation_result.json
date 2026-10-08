@@ -1,0 +1,89 @@
+{
+  "candidate": "dose_compact",
+  "guard_passed": true,
+  "confirmed_improvement": true,
+  "utility_difference": 0.10645109764667082,
+  "full_target_mean_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.6559656020417883,
+    "dose_selective": 0.4327919066077169,
+    "invariant_compact": 0.6565367770669966,
+    "pooled_compact": 0.6559491916552668,
+    "v4_compact": 0.6526689658977644,
+    "v4_legacy": 0.37098342668436896
+  },
+  "paired_finite_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.6578172691172597,
+    "dose_selective": 0.4203485876870432,
+    "invariant_compact": 0.6581507515202829,
+    "pooled_compact": 0.6582545579195038,
+    "v4_compact": 0.6538243728033916,
+    "v4_legacy": 0.37098342668436896
+  },
+  "supported_budget_fidelity": {
+    "control_null": 0.0,
+    "dose_compact": 0.60054769884738,
+    "dose_selective": 0.22710807003421213,
+    "invariant_compact": 0.5967608659725665,
+    "pooled_compact": 0.5938611908946714,
+    "v4_compact": 0.5967018360056493,
+    "v4_legacy": 0.08570695406723121
+  },
+  "common_panel_utility": {
+    "dose_compact": 0.12961141073107937,
+    "dose_selective": 0.11618931514709326,
+    "invariant_compact": 0.08550342591727028,
+    "pooled_compact": 0.08151532693680076,
+    "v4_compact": 0.1173781389131844,
+    "v4_legacy": 0.02316031308440855
+  },
+  "common_six_metric_panels": 10,
+  "missingness": [
+    {
+      "candidate": "control_null",
+      "finite_fidelity": 21,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "dose_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "dose_selective",
+      "finite_fidelity": 32,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "invariant_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "pooled_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "v4_compact",
+      "finite_fidelity": 36,
+      "targets": 36,
+      "reference_DE_targets": 21
+    },
+    {
+      "candidate": "v4_legacy",
+      "finite_fidelity": 30,
+      "targets": 36,
+      "reference_DE_targets": 21
+    }
+  ],
+  "frozen_calibration_selection_sha256": "ff94113879f9e47d54d5c343e69f81aafb603db81549bc05398eeded1c18c197",
+  "summary_sha256": "8707e555071b33fa832cb90630569d5cd9b1fb97614b50930bcc0028c776fe8a",
+  "policy": "One assessment of the frozen calibration winner. No reselection from confirmation. H1 is reused development; HCT/HEK count targets are new, public source summaries previously available."
+}

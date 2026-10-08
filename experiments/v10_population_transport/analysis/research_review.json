@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://saberhq.com/sidechain/models/",
+      "kind": "Participant-maintained model report",
+      "observed": "SER14 0.1626; SER15 real-control template -0.0039; local gains failed to transfer; pooled empirical Bayes and synthetic emission disclosed",
+      "status": "Reported, not reproduced"
+    },
+    {
+      "url": "https://saberhq.com/sidechain/",
+      "kind": "Participant-maintained standings",
+      "observed": "Historical SER14 rank283/1307 on Oct3; latest SER15 rank917/1377",
+      "status": "Not current ranks independently verified"
+    },
+    {
+      "url": "https://github.com/kaipengm2/Virtual-Cell-Challenge-2026",
+      "kind": "Primary executable implementation",
+      "local_commit": "d24ce4fdae0cd7cba3ba29546cd8737094eae98a",
+      "model_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+      "role": "Reviewed dual-moment integer transport reused via hash-verifying loader"
+    },
+    {
+      "url": "https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge-2026",
+      "kind": "Organizer data-generation article",
+      "role": "Context generalization, matched protocols and high-knockdown curation explain transfer limitations"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.04475",
+      "kind": "Primary paper abstract",
+      "role": "Intervention-aware latent mechanism modeling; not claimed as a reproduced VCC method"
+    }
+  ],
+  "new_experiment": "Measured causal-response pooling and dose correction with compact or response-selective population emission",
+  "scientific_limit": "Compact generator changes untreated distribution and fails prior neutral control-preservation threshold; measured explicitly, not claimed to pass.",
+  "leader_methods_limit": "Cannot infer undisclosed methods or attribute the complete leaderboard gap from public notes."
+}

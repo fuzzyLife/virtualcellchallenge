@@ -1,0 +1,34 @@
+{
+  "new_arrays_sha256": "5ea939acc068e2df9e1ae62400e6ac5f7c4590c275633c1d97ed1376aebc4013",
+  "v4_effect_arrays_sha256": "13f6e945a6815b382ab4b06b840d9898e4bffd031dee6c9ddb82bdcab1bd69e9",
+  "contexts": [
+    {
+      "context": "A",
+      "changed_effects": 3905886,
+      "total_effects": 5559900,
+      "new_nonzero_effects": 3905884,
+      "new_mean_absolute_effect": 0.007636352442204952,
+      "old_mean_absolute_effect": 0.01739940047264099,
+      "mean_absolute_change": 0.022014539688825607
+    },
+    {
+      "context": "B",
+      "changed_effects": 4024604,
+      "total_effects": 5559900,
+      "new_nonzero_effects": 3919848,
+      "new_mean_absolute_effect": 0.007309995591640472,
+      "old_mean_absolute_effect": 0.015989195555448532,
+      "mean_absolute_change": 0.01920509524643421
+    },
+    {
+      "context": "C",
+      "changed_effects": 4047379,
+      "total_effects": 5559900,
+      "new_nonzero_effects": 3934857,
+      "new_mean_absolute_effect": 0.00805702619254589,
+      "old_mean_absolute_effect": 0.016929922625422478,
+      "mean_absolute_change": 0.02077665738761425
+    }
+  ],
+  "scope": "New response estimates compared with verified unchanged V4/V7/V9 effects."
+}

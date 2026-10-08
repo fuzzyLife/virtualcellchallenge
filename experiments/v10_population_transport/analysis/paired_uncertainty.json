@@ -1,0 +1,34 @@
+{
+  "analyses": [
+    {
+      "stage": "calibration",
+      "candidate": "dose_compact",
+      "paired_target_family_groups": 11,
+      "hierarchical_bootstrap_fidelity_difference_CI95": [
+        -0.00011071062866232263,
+        0.5454135497903022
+      ],
+      "balanced_target_fidelity_difference": 0.2558264027522891,
+      "bootstrap_replicates": 2000,
+      "scope": "Public paired cases, clustered by biological family and target. Three source families cannot estimate unseen-lineage uncertainty reliably; interval is descriptive, not a hidden-score confidence interval."
+    },
+    {
+      "stage": "confirmation",
+      "candidate": "dose_compact",
+      "paired_target_family_groups": 12,
+      "hierarchical_bootstrap_fidelity_difference_CI95": [
+        0.009870181935018473,
+        0.4686733483047509
+      ],
+      "balanced_target_fidelity_difference": 0.24010021509587853,
+      "bootstrap_replicates": 2000,
+      "scope": "Public paired cases, clustered by biological family and target. Three source families cannot estimate unseen-lineage uncertainty reliably; interval is descriptive, not a hidden-score confidence interval."
+    }
+  ],
+  "source_score_hashes": {
+    "calibration": "4571237723b99ba250040a72330c37bd6e616d40f1c19e911e3982c40c7f74d2",
+    "confirmation": "092b08d61355ab61ad3c162220559657c382dbb3a35e1ccaf521aaef9ab5709e"
+  },
+  "confirmation_scope": "Corrected-depth sampled400 diagnostic; calibration remains the original historical snapshot",
+  "script_sha256": "8f196a90565ad00d2db25923eedc594009701c02f6e002b8b502311480763daf"
+}

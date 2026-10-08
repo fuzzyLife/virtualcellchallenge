@@ -1,0 +1,92 @@
+{
+  "model": "V10 pooled measured interventions and population dispersion transport",
+  "candidate": "dose_compact",
+  "response": "dose",
+  "generator": "compact",
+  "confirmation_improvement": true,
+  "confirmation_utility_difference": 0.10645109764667082,
+  "model_arrays_sha256": "5ea939acc068e2df9e1ae62400e6ac5f7c4590c275633c1d97ed1376aebc4013",
+  "context_original_inputs": [
+    {
+      "context": "A",
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "context": "B",
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "context": "C",
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "validation_plan_sha256": "ef6ef7b5ed07550707b663b3feca07b9783f9e30444cc5d6064ba75990165f0c",
+  "count_selection_sha256": "ff94113879f9e47d54d5c343e69f81aafb603db81549bc05398eeded1c18c197",
+  "confirmation_result_sha256": "6284e68250a23a710f6405647fce9d6294b860f041229996cf0422e48d85bb74",
+  "decoder_neutral_manifest_sha256": "d445b7f453419d9fdf5c1a7bdc4d5767dd7f02fc40aafbf89faf13c86725ccca",
+  "v4_source_components_sha256": "0a4802e73c7c6b25ab24c4309f4620e5696364150fd1fc8469f0a3a2c0911a49",
+  "dependencies": {
+    "v10_methods.py": "b90b925b3a69588c06667be5af31c8b2894aaf9ac7b88def9b62ae92c349863a",
+    "prepare_v10_validation.py": "b1535db8d79b419f9af489fa29fea6a4274859b952d34525635b035c9cd9c759",
+    "evaluate_v10_submission.py": "dfdeccc4707a21bf82bc78621e3a844decf317e208096ad44314f8f0122b357b",
+    "select_v10_submission.py": "3dee088ef6c8a706d5bf213927e5252358d9e10dcba676d448bf85494739c752",
+    "fit_v10_submission.py": "310b17f08091786eb5eade3ba4362927b1207f103209fdcd486ddc6ccd978ba8",
+    "build_v10_submission.py": "da33e6bae5e3eccb67f7ce68210f6fdef0b3960d26757f2a29fa301b5554f5d1",
+    "validate_v10_submission.py": "0021127e003fea9fb837131a32ff187c6e7378efc5d4276a18febdc62af7cf7f",
+    "benchmark_v10_neutral.py": "5fcb301ecc85b72eae87a0f24cf1449529c878e7744b9013b67b1368a5127230",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "build_v5_submission.py": "1bda5123313780a59e187902376d34519222543f359a8642733b9f82b2a4fa87",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e"
+  },
+  "contexts": [
+    {
+      "context": "A",
+      "nonzero_effects": 3898340,
+      "mean_absolute_effect": 0.007636352442204952,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    {
+      "context": "B",
+      "nonzero_effects": 3913484,
+      "mean_absolute_effect": 0.007309995591640472,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    {
+      "context": "C",
+      "nonzero_effects": 3929702,
+      "mean_absolute_effect": 0.00805702619254589,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    }
+  ],
+  "knockdown": 0.9,
+  "gating": "Control mean CPM/5 for output and target, clipped [0,1]; own effect zero and own knockdown applied only in the count emitter.",
+  "source_policy": "Calibration-frozen choice across contexts. Pooled responses use availability-masked measurements, bounded source confidence and empirical Bayes shrinkage after pooling. Dose variant normalizes measured source knockdown to .9, bounded .8-1.8; invariant variant subtracts half the source-wide response. V4 candidates retain original components. No inferred tissue identity.",
+  "scope": "Public development selection; no hidden challenge treated labels or leaderboard score. A failed confirmation is reported, not retuned away."
+}

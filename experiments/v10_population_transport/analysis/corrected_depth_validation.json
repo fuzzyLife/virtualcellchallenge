@@ -1,0 +1,54 @@
+{
+  "candidate": "dose_compact",
+  "settings_unchanged": true,
+  "count_depths_exactly_match_actual_templates": true,
+  "diagnostics": {
+    "sampled400": {
+      "full_target_mean_fidelity": {
+        "dose_compact": 0.6556969543421206,
+        "v4_legacy": 0.37098342668436896
+      },
+      "paired_finite_fidelity": {
+        "dose_compact": 0.6570492930085092,
+        "v4_legacy": 0.37098342668436896
+      },
+      "supported_budget_fidelity": {
+        "dose_compact": 0.5890716062214633,
+        "v4_legacy": 0.08570695406723121
+      },
+      "paired_six_metric_utility": {
+        "dose_compact": 0.1230476493364673,
+        "v4_legacy": 0.023160313084408534
+      },
+      "guard_passed": true,
+      "positive_proxy_difference": true
+    },
+    "full_independent": {
+      "full_target_mean_fidelity": {
+        "dose_compact": 0.57404940994181,
+        "v4_legacy": 0.5278409601031081
+      },
+      "paired_finite_fidelity": {
+        "dose_compact": 0.5742823104651932,
+        "v4_legacy": 0.5278409601031081
+      },
+      "supported_budget_fidelity": {
+        "dose_compact": 0.5395705288716898,
+        "v4_legacy": 0.13236568457538994
+      },
+      "paired_six_metric_utility": {
+        "dose_compact": 0.1315172886618515,
+        "v4_legacy": 0.008978872278766203
+      },
+      "guard_passed": true,
+      "positive_proxy_difference": true
+    }
+  },
+  "selection_sha256": "ff94113879f9e47d54d5c343e69f81aafb603db81549bc05398eeded1c18c197",
+  "plan_sha256": "ef6ef7b5ed07550707b663b3feca07b9783f9e30444cc5d6064ba75990165f0c",
+  "script_sha256": "74b6f898f26312a2faf192e7d7172e4bcf996d3d33ba669ec541bf74fc756049",
+  "methods_sha256": "b90b925b3a69588c06667be5af31c8b2894aaf9ac7b88def9b62ae92c349863a",
+  "scores_sha256": "092b08d61355ab61ad3c162220559657c382dbb3a35e1ccaf521aaef9ab5709e",
+  "summary_sha256": "873535756899c1d0e02ee5a68f5eebb3d3d014625a4ea5f48d803d703f953fed",
+  "scope": "Corrected validation adapter only. Original records preserved, no parameter tuning or reselection. Previously confirmed public targets are development, not new blind evidence. Both seeds and 400/full independent reference controls."
+}

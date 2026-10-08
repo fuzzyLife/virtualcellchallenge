@@ -30,3 +30,15 @@
 /audit_v9_provenance.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 
 /record_v9_result.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v10*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v10_population_transport/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve exact bytes of inherited V10 numerical dependencies.
+/audit_transfer_validation.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/fit_v7_response.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v7_response_methods.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v6_methods.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/build_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/build_v5_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/evaluate_atlas_transfer.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-08T14:27:38.037488+00:00",
+  "seed": 20271008,
+  "setting": "compact",
+  "response_candidate": "dose_compact",
+  "knockdown_assumption": 0.9,
+  "generator_sha256": "da33e6bae5e3eccb67f7ce68210f6fdef0b3960d26757f2a29fa301b5554f5d1",
+  "methods_sha256": "b90b925b3a69588c06667be5af31c8b2894aaf9ac7b88def9b62ae92c349863a",
+  "model_sha256": "d14ebe7bb9a20ebdbbd5b622e19c17c13d2f0c6d1675769bab11782fd95d5cab",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "workers": 8,
+  "simulation": "Source-held selected response and count generator; guide/depth-stratified control depth samples; synthetic expression for compact, effect-selective population profiles for selective; own target handled separately."
+}

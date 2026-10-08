@@ -401,4 +401,10 @@ The supplied publication rank is preserved separately from the current API rank.
 
 ## Next performance experiments (2026-10-07)
 
-[PERFORMANCE_IMPROVEMENT_PLAN.md](PERFORMANCE_IMPROVEMENT_PLAN.md) compares our implemented response models with current public AtlasShift, Sidechain and STATE methods. The proposed sequence prioritizes full measured CRISPRi source coverage, adaptive response calibration, nested response-head tuning and isolated count-emission experiments. This is a research plan; no new model, package or upload was produced. V4 remains the best published project candidate.
+[PERFORMANCE_IMPROVEMENT_PLAN.md](PERFORMANCE_IMPROVEMENT_PLAN.md) compares our implemented response models with current public AtlasShift, Sidechain and STATE methods. The proposed sequence prioritizes full measured CRISPRi source coverage, adaptive response calibration, nested response-head tuning and isolated count-emission experiments. This section records the October 7 research plan. The subsequent V10 implementation and upload-ready artifact are documented below. V4 remains the best published project candidate.
+
+<!-- V10_VERIFIED_SUBMISSION -->
+
+## V10 upload candidate
+
+V10 is ready at `experiments/v10_population_transport/prediction.vcc`. Selected `dose_compact`; corrected sampled-control guard passed: True; corrected full-reference guard passed: True. Official prep and independent full-payload audit passed. It has not been uploaded, and no leaderboard improvement is claimed. Compact synthetic emission has substantial neutral-control DE bias. See [V10_STRATEGY.md](V10_STRATEGY.md) and [V10_SUBMISSION.md](V10_SUBMISSION.md). Reproduce with root script `run_v10_pipeline.py`.
