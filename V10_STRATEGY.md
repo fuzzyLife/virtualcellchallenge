@@ -77,3 +77,9 @@ Corrected full-reference fidelity varies by held-out family: H1 0.447434 -> 0.59
 `audit_v10_provenance.py` links the corrected score files, production-depth provenance, lossless staging record, independent payload audit and frozen code hashes. `document_v10_submission.py` requires those checks before writing the upload report or marking V10 ready in the README. No script uploads the package automatically.
 
 The final audit records the exact Python, numerical-library and official CLI versions in `experiments/v10_population_transport/analysis/runtime_versions.json`. Use those versions when restoring frozen numerical caches.
+
+<!-- V10 published result -->
+
+## V10 publication update
+
+V10 is published at **0.116754121**, beating V4 by **+0.167428032**, and is now the best project submission. Discrimination and fidelity account for 97.42% of the net gain; expression and overlap also improve, while reach and fold-change accuracy worsen. Preserve V10 and use controlled ablations to separate response pooling from emission. Earlier V4-best statements describe historical decisions. Neutral-control bias remains unresolved. See [V10_LEADERBOARD_RESULTS.md](V10_LEADERBOARD_RESULTS.md).

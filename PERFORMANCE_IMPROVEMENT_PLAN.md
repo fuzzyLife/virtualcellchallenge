@@ -90,3 +90,9 @@ Corrected full independent reference comparisons (768-2,144 controls) give balan
 The complete experiment, packaging memory workaround, corrected diagnostics and upload instructions are documented in [V10_STRATEGY.md](V10_STRATEGY.md) and [V10_SUBMISSION.md](V10_SUBMISSION.md).
 
 Full-reference fidelity also declines for HCT116 (0.664027 -> 0.587194), while H1 and HEK293T improve. Aggregate guard passage is not evidence that every unseen lineage will improve.
+
+<!-- V10 published decision -->
+
+## V10 publication update
+
+V10 is published at **0.116754121**, beating V4 by **+0.167428032**, and is now the best project submission. Discrimination and fidelity account for 97.42% of the net gain; expression and overlap also improve, while reach and fold-change accuracy worsen. Preserve V10 and use controlled ablations to separate response pooling from emission. Earlier V4-best statements describe historical decisions. Neutral-control bias remains unresolved. See [V10_LEADERBOARD_RESULTS.md](V10_LEADERBOARD_RESULTS.md).

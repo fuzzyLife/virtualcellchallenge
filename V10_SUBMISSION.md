@@ -1,6 +1,12 @@
 # V10 verified submission
 
-Selected **dose_compact**; response `dose`, emission `compact`. This is an unsubmitted experimental prediction. V4 remains the best published submission until another official result beats it.
+<!-- V10 publication begin -->
+
+Published as `CYpAqJP7bUYqjA2ouD7U`, overall **0.116754121**, rank **585** in the user report and **585** at the recorded API check. V10 is the best published project submission, improving on V4 by **+0.167428032**. See [V10_LEADERBOARD_RESULTS.md](V10_LEADERBOARD_RESULTS.md).
+
+<!-- V10 publication end -->
+
+Selected **dose_compact**; response `dose`, emission `compact`. This experimental prediction is now published and is the best recorded project submission. Public development tests below remain separate from official leaderboard evidence.
 
 See [V10_STRATEGY.md](V10_STRATEGY.md) for the diagnosis, public approaches, new response pooling, population transport and explicit neutral-control bias.
 
@@ -81,13 +87,13 @@ Compact emission has substantial control-to-control DE bias and fails the former
 - Official prep, independent full-payload comparison and all 360,000 production-depth checks: passed.
 - Exactly replayed groups: 12; replayed gene counts: 88,958,400.
 - SHA-256: `0aea2ed2900a404de5b99963a9e00887a1b1fff1c14165e631869d556374da44`
-- Uploaded: false. Hidden leaderboard performance: unknown.
+- Published: true. Generation-time upload=false records are preserved; the publication overlay records the official score.
 
-## Submit from Windows Command Prompt
+## Historical upload command (already published)
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v10_population_transport\prediction.vcc -m "Pooled intervention population transport v10" --wait
 ```
 
-If Ctrl+C interrupts waiting after upload, use `vcc status <entry-id> --wait` to follow the existing scoring job instead of creating a duplicate.
+This entry is already published. Inspect it with `vcc status CYpAqJP7bUYqjA2ouD7U`. Repeating the historical submit command creates a duplicate entry.

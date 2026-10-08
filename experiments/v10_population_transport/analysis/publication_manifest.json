@@ -1,0 +1,27 @@
+{
+  "entry_id": "CYpAqJP7bUYqjA2ouD7U",
+  "recorder_sha256": "6a5b1550295bb835c69f90ae9a60bc51915f912548810b0aaf6c9eebd8881d5e",
+  "publication_artifact_sha256": {
+    "leaderboard_result.json": "f67acfe178ed141ec04a1b529426cfc48c81b938052be040073f1d0c62da5578",
+    "published_api_status.json": "eb103d023294e744c5b12ec35c6fd0cd9d027a2a6f6ef0720c8ff75de98a64ad",
+    "leaderboard_comparison.csv": "1637c40d04890e92d5370fef0b5ace0c37685fd6a8f588791bc5312f82772b55",
+    "raw_metric_comparison.csv": "fd3d29357a3408a2b3ac6453c8531ddc82d270969ef9ff1ccf56d072a0a18a40"
+  },
+  "publication_document_sha256": "f7c1973fe5d835916a1888d62f4b32474c557dd539c1c69f1d6b07736611d26c",
+  "submission_document_sha256": "b14a4587370a1277a8c13ab57cbf428023d367fd9721bf142bf53230a08a8464",
+  "generation_snapshot_sha256": {
+    "submission_ready.json": "05a2ee6df282f88e8337317f4097fb9b79dae42d0cc6fc7c4012a5998baa16e5",
+    "independent_validation.json": "e9a691ef32e5c52afe13c05944a8b2b01d06b53d5dba541b0d2d4956830ab5b4",
+    "reference_model.json": "d14ebe7bb9a20ebdbbd5b622e19c17c13d2f0c6d1675769bab11782fd95d5cab",
+    "count_selection.json": "ff94113879f9e47d54d5c343e69f81aafb603db81549bc05398eeded1c18c197",
+    "confirmation_result.json": "6284e68250a23a710f6405647fce9d6294b860f041229996cf0422e48d85bb74",
+    "validation_plan.json": "ef6ef7b5ed07550707b663b3feca07b9783f9e30444cc5d6064ba75990165f0c",
+    "decoder_neutral_manifest.json": "d445b7f453419d9fdf5c1a7bdc4d5767dd7f02fc40aafbf89faf13c86725ccca",
+    "linked_provenance_validation.json": "039b9661440fd7b408f060947acccdc3caf2db6b80baeec91c2fdf79b21a6866",
+    "corrected_depth_validation.json": "58f298162d39a516ef15c83fb1dbb3034174a476e6af9c305494a7517a9b6d68",
+    "production_depth_audit.json": "e3cfa5c1a98dfc995e590556c9e29ef96b507fa82b513a6735d619cb350d1d5c",
+    "memory_safe_stage.json": "d1b26df012dbe8639ae3939bcdb80edfcde2bffcbc5939c0d2f3c2cc0c6cb8f2",
+    "runtime_versions.json": "4d307ac1eab6f3713acb3365fb29c526e958fadb79218392307f3ca3642f8eeb"
+  },
+  "scope": "Publication overlay; frozen generation/calibration/confirmation and corrected diagnostics unchanged."
+}

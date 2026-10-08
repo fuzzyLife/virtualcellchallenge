@@ -57,5 +57,8 @@ def main():
  section=f"{marker}\n\n## V10 upload candidate\n\nV10 is ready at `experiments/v10_population_transport/prediction.vcc`. Selected `{model['candidate']}`; corrected sampled-control guard passed: {std['guard_passed']}; corrected full-reference guard passed: {full['guard_passed']}. Official prep and independent full-payload audit passed. It has not been uploaded, and no leaderboard improvement is claimed. Compact synthetic emission has substantial neutral-control DE bias. See [V10_STRATEGY.md](V10_STRATEGY.md) and [V10_SUBMISSION.md](V10_SUBMISSION.md). Reproduce with root script `run_v10_pipeline.py`.\n\n"
  if marker in text:text=text[:text.index(marker)]
  readme.write_text((text.rstrip()+'\n\n'+section).rstrip()+'\n',encoding='utf-8')
+ if (A/'leaderboard_result.json').exists():
+  from record_v10_result import document_publication
+  document_publication()
  print('V10 documentation created from verified records',flush=True)
 if __name__=='__main__':main()
