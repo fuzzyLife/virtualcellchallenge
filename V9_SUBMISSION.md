@@ -1,8 +1,14 @@
 # V9: activation-preserving profile calibration
 
-Upload-ready: `experiments/v9_activation_preserving/prediction.vcc` (3,295,631,360 bytes).
+<!-- V9 publication begin -->
+
+Published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**, rank 1084 in the user report. V4 remains best at **-0.050673910**. Five scaled metrics improved versus V4, but the fidelity loss outweighed their gains. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md).
+
+<!-- V9 publication end -->
+
+Verified published package: `experiments/v9_activation_preserving/prediction.vcc` (3,295,631,360 bytes).
 **360,000 cells x 18,533 genes; 300 targets x 400 cells x three contexts A/B/C.**
-Official VCC prep and independent full-payload verification passed. No upload or leaderboard score yet.
+Official VCC prep and independent full-payload verification passed. Published leaderboard scores are recorded above; the public-development tables below retain their original meaning.
 SHA-256: `b16504d89bf238d9b6fa3c38ba65a8108adb43eab11cbd9c556e853ecf15f8cf`.
 
 ## Decision and evidence
@@ -130,11 +136,11 @@ cd /d L:\promec\Animesh\Download\Virtual
 
 The independent audit checks all 360,000 source IDs, guide/depth records and integer count libraries; compares every packaged sparse value/index/pointer and axis against the generated matrix; and replays 12 complete groups (88,958,400 gene counts) exactly. Model and package SHA-256 plus code dependency hashes are saved in `analysis/`. `audit_v9_provenance.py` separately verifies linked calibration/confirmation/neutral record hashes, source file hashes, prior model references and all V7/V8 target exclusions without changing frozen numerical inputs. `.gitattributes` preserves the exact code and experiment-record bytes rather than rewriting line endings.
 
-## Submit from Windows Command Prompt
+## Historical upload command (already published)
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v9_activation_preserving\prediction.vcc -m "Activation-preserving profile calibration v9" --wait
 ```
 
-If interrupted after upload, inspect the returned entry ID with `vcc status ENTRY_ID --wait`; do not create a duplicate upload while the scoring job is active.
+This upload is complete. Inspect the existing result with `vcc status QBpef7kQNiFa4IFSxNi5`. Repeating the submit command creates a duplicate submission.

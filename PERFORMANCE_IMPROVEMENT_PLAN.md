@@ -64,3 +64,9 @@ The historical common-reference audit is now integrated into separate root pipel
 V8's reduced-variance decoder was rejected by disjoint challenge-control tests: 968-2,403 false DE calls without perturbation. Full matching passed the neutral gate but lost supported-target fidelity on confirmation. V9 therefore isolates count initialization: start from V4 zero-aware simulated perturbations and calibrate only a selected fraction of population mean/pooled expression, preserving activated zeros and simulated libraries. It reserves further count-validation targets, with >=150 actual cells for HCT/HEK and >=60 for H1. Selection is frozen before confirmation and all outcomes are recorded without reselection.
 
 [The V8 report](V8_SUBMISSION.md) and [V9 report](V9_SUBMISSION.md) preserve candidate-level metric tradeoffs, neutral checks, counts, hashes, reproduction and upload steps. An upload-ready package establishes format/integrity; public proxies cannot establish a higher hidden score. Broader matched interventional training, source platform/time/dose calibration and a successfully held-lineage validated response model remain research gaps. The control-expression reconstruction networks do not resolve causal transfer. V4 remains the best published candidate until a new leaderboard result demonstrates otherwise.
+
+<!-- V9 published decision -->
+
+## V9 publication update
+
+V9 published at -0.070447281, below V4 (-0.050673910). Five scaled metrics improved, but fidelity lost -0.237327864 and outweighed their gains. The public mean-fidelity drop was already visible; the reference-supported weighted guard was insufficient. Retain the corrected scorer, preserve V4 as best, and require both overall and supported-target fidelity protection plus explicit metric availability before promoting another decoder. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md).

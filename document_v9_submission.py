@@ -117,6 +117,9 @@ If interrupted after upload, inspect the returned entry ID with `vcc status ENTR
         block='\n'+marker+f'\n\n## V9 verified upload candidate\n\n`experiments/v9_activation_preserving/prediction.vcc` is ready: 360,000 cells x 18,533 genes, all 900 target/context groups. Official prep and independent full-payload audit passed. Frozen decoder `{model["generator"]}` initializes from simulated perturbations; V4 biological response effects remain unchanged. Public confirmation improvement: **{result["confirmed_improvement"]}** (utility difference {result["utility_difference"]:+.6f}); no hidden score is claimed. V4 remains the best published submission. See [V9_SUBMISSION.md](V9_SUBMISSION.md) for every metric, limitations, reproducible steps and the CMD upload command. V8 is retained as a documented full-moment pilot.\n'
         old=old.replace('## Completed work',block+'\n\n## Completed work',1)
         readme.write_text(old,encoding='utf-8')
+    if (A/'leaderboard_result.json').exists():
+        from record_v9_result import document_publication
+        document_publication()
     print('V9 documentation written after verified packaging',flush=True)
 
 if __name__=='__main__':main()
