@@ -1,0 +1,28 @@
+{
+  "passed_generators": [
+    "legacy",
+    "legacy_fit100",
+    "legacy_fit25",
+    "legacy_fit50"
+  ],
+  "criterion": "Every context/seed neutral test has BH-significant false calls <=0.5% of tested genes. Genuine disjoint provided NTCs, with no target knockdown.",
+  "source_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "scores_sha256": "6acef17be3018704ba4e1d2c3e35e1e1a3ed24ea27e9f8e43fba6436ce34f5b5",
+  "summary_sha256": "72dec1dc197ac673f41077a060992e871e324a8eb5f063ae733e595ddbe5795f",
+  "script_sha256": "0ba528ef0d677b3b06b23dee7ad66c0921fe202d5dd1c18a3da5146a1c6c3bd5",
+  "methods_sha256": "b358f5302e3ccd919eb13c88eb6c28f2d6c51e463a900a1bc0c62a181fcd42a4",
+  "scope": "Control-only decoder safety gate; does not evaluate hidden perturbation accuracy."
+}

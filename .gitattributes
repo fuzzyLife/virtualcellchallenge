@@ -1,0 +1,30 @@
+
+# Preserve byte hashes of frozen V8/V9 code and experiment records
+/benchmark_v8_neutral.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/benchmark_v9_neutral.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/build_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/build_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/confirm_v8_safe_selection.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/confirm_v9_selection.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/document_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/document_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/evaluate_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/evaluate_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/fit_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/fit_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/prepare_v8_validation.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/prepare_v9_validation.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/run_v8_pipeline.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/run_v9_pipeline.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/select_v8_safe_generator.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/select_v9_generator.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/test_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/test_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v8_methods.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v9_methods.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/validate_v8_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/validate_v9_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v8_corrected_transfer/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v9_activation_preserving/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/audit_v9_provenance.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-10-08T09:23:22.562610+00:00",
+  "seed": 20269108,
+  "setting": "dual",
+  "response_candidate": "baseline_dual",
+  "knockdown_assumption": 0.9,
+  "generator_sha256": "bb52178f95d20a0a152d1eb4a0776b33277de773b4f9912251657bacc192efe1",
+  "methods_sha256": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+  "model_sha256": "edfd01019985db0f097241da325f022dad4668d96fa8d7b7c748155374f7a2f3",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "workers": 4,
+  "simulation": "Source-held selected response and count generator; independent guide/depth-stratified control templates; own target handled separately."
+}

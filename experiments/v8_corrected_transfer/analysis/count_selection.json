@@ -1,0 +1,38 @@
+{
+  "candidate": "selected_dual_half",
+  "settings": {
+    "baseline_legacy": [
+      "v4_a100",
+      "legacy"
+    ],
+    "baseline_dual": [
+      "v4_a100",
+      "dual"
+    ],
+    "selected_legacy": [
+      "v4_a65",
+      "legacy"
+    ],
+    "selected_dual": [
+      "v4_a65",
+      "dual"
+    ],
+    "selected_dual_half": [
+      "v4_a65",
+      "dual_half"
+    ]
+  },
+  "response": "v4_a65",
+  "generator": "dual_half",
+  "passing_calibration_candidates": [
+    "baseline_legacy",
+    "selected_dual_half"
+  ],
+  "confirmation_read": false,
+  "plan_sha256": "3e67ebf5cfd012694c7b5a2ac8cba4899f75f0f84d3c8694bfccc1b6344afb1b",
+  "calibration_scores_sha256": "2609320628797295845f9ece6648559928326810ca23565c2dcff5b0da6482f9",
+  "calibration_panels_sha256": "0c46b343326b1d15c3f4ebe0c036400febadeee9770d3c1ed1683d5ccd3938fb",
+  "calibration_summary_sha256": "649e7cd2a148e5015a197b21909b164f4751beb46127d2456480a765d5ce9f0d",
+  "utility": "Equal-family mean raw six-metric proxy: PDS centered at .5, fidelity, reach, Jaccard, clipped 1-NMAE and 1-expression. Not official anchored overall.",
+  "guard": "Mean fidelity no worse than baseline by .01, corrected expression <=1.02 baseline and PDS no worse by .05; maximize utility among passing calibration candidates."
+}

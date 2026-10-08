@@ -1,0 +1,45 @@
+{
+  "candidate": "legacy_fit50",
+  "response": "v4_a100",
+  "generator": "legacy_fit50",
+  "confirmation_read": false,
+  "settings": {
+    "legacy": [
+      "v4_a100",
+      "legacy"
+    ],
+    "legacy_fit25": [
+      "v4_a100",
+      "legacy_fit25"
+    ],
+    "legacy_fit50": [
+      "v4_a100",
+      "legacy_fit50"
+    ],
+    "legacy_fit100": [
+      "v4_a100",
+      "legacy_fit100"
+    ]
+  },
+  "passing_calibration_candidates": [
+    "legacy",
+    "legacy_fit25",
+    "legacy_fit50"
+  ],
+  "supported_budget_fidelity": {
+    "control_null": 0.0,
+    "legacy": 0.23584905660377353,
+    "legacy_fit100": 0.215134931119079,
+    "legacy_fit25": 0.22740139648990376,
+    "legacy_fit50": 0.22041894697112657
+  },
+  "plan_sha256": "5b5d56dcbcf641e957f2866b99d56130af45d22917020e3512595776a3376b08",
+  "calibration_scores_sha256": "b299a97747223b02d9cccc22b5822564f06d3616c38a4c7d9e4231bd9d6e0ecb",
+  "calibration_summary_sha256": "ec5374060e6c7db0efe4b8579d176b04f72602843d4cfacfa8778088f401bd22",
+  "neutral_manifest_sha256": "98e5a0d3964bf40862c23871f52a6df2a6637ad20b3caefc0cc3a68fb44951e0",
+  "script_sha256": "68650aa489ceac311e959fbd3600e1e65257a2ccc7d958feed429a2d5af20454",
+  "methods_sha256": "b358f5302e3ccd919eb13c88eb6c28f2d6c51e463a900a1bc0c62a181fcd42a4",
+  "evaluation_script_sha256": "44b5356a339942efe636525791a0b7e0427e526d45ac734d338e21294cc13f2c",
+  "guard": "Neutral false-DE <=.005 every context/seed, reference-call>=10 budget-weighted fidelity within .02 of legacy, expression <=1.02 legacy, PDS within .05; maximize six-metric public proxy.",
+  "utility": "Same equal-family raw six-metric proxy as V8; not official anchored score."
+}

@@ -1,0 +1,29 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v8_corrected_transfer\\prediction.vcc",
+  "bytes": 3275960320,
+  "sha256": "fe8d89ca5b147a4d2208a8eac164058a1a892ead45eb1afc1702dd3dbd724dd7",
+  "official_prep_passed": true,
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2055956002,
+    "schema": 1
+  },
+  "prediction_validation": {
+    "n_cells": 360000,
+    "n_genes": 18533,
+    "nnz": 2055956002,
+    "maximum_cell_counts": 52420,
+    "groups": 900,
+    "cells_per_group": 400,
+    "all_stored_counts": "positive integers",
+    "gene_order": "exact match",
+    "context_target_cell_counts": "exact match"
+  },
+  "uploaded": false,
+  "leaderboard_score": null,
+  "generator_sha256": "bb52178f95d20a0a152d1eb4a0776b33277de773b4f9912251657bacc192efe1",
+  "methods_sha256": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+  "model_sha256": "edfd01019985db0f097241da325f022dad4668d96fa8d7b7c748155374f7a2f3"
+}

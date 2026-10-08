@@ -1,0 +1,18 @@
+{
+  "candidate": "baseline_dual",
+  "confirmed_improvement": false,
+  "guard_passed": false,
+  "supported_budget_fidelity": {
+    "baseline_dual": 0.0604229607250755,
+    "baseline_legacy": 0.10153047280677781,
+    "control_null": 0.0,
+    "selected_dual": 0.00988739357319414,
+    "selected_dual_half": 0.6748947648044464,
+    "selected_legacy": 0.014831090359791218
+  },
+  "utility_difference": -0.003444066073629695,
+  "summary_sha256": "5bded80edf750f4bbdcefb0fa4b9884c09c23a785df0f045858da319a6f508d1",
+  "frozen_calibration_selection_sha256": "47abd5b8d7bdeb1d4691289bc1f3c765ba26ff8e6afea46aa89907b6b2d01c19",
+  "raw_confirmation_sha256": "9a0e4d1bb312cbebd8091f19aeb3898f5c8147b32d9444778464b6944481c7f0",
+  "policy": "Final safe calibration winner frozen before any confirmation scoring; confirmation assessed once with no reselection. Hidden competition performance remains unknown."
+}

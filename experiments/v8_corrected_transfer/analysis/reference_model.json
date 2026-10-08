@@ -1,0 +1,90 @@
+{
+  "model": "V8 shared-control, target-independent calibrated CRISPRi transfer",
+  "candidate": "baseline_dual",
+  "response": "v4_a100",
+  "generator": "dual",
+  "confirmation_improvement": false,
+  "confirmation_utility_difference": -0.003444066073629695,
+  "model_arrays_sha256": "13f6e945a6815b382ab4b06b840d9898e4bffd031dee6c9ddb82bdcab1bd69e9",
+  "context_original_inputs": [
+    {
+      "context": "A",
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "context": "B",
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "context": "C",
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "validation_plan_sha256": "3e67ebf5cfd012694c7b5a2ac8cba4899f75f0f84d3c8694bfccc1b6344afb1b",
+  "profile_selection_sha256": "67cb7b630653685784f0bb094c74c249243f43348580ba756be280ec1919bd46",
+  "count_selection_sha256": "47abd5b8d7bdeb1d4691289bc1f3c765ba26ff8e6afea46aa89907b6b2d01c19",
+  "confirmation_result_sha256": "5ee826607611f8c60694ed5115b4ed2656e66ea344df40b21181f5912d79a5c9",
+  "decoder_neutral_manifest_sha256": "ec6a1cec48328bf7f1b2ae9f40fd4b1b89873911859746a9f535f3371eeda5c0",
+  "dependencies": {
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "prepare_v8_validation.py": "7ff39c882ec9a70c979d75e2f1ebb4f78ce8353f23261bb6941436c09d7cc86e",
+    "evaluate_v8_submission.py": "8599aa99af1deabc49331b041c7bb7afd9438db1d0f156cf549ff1230c726ffb",
+    "fit_v8_submission.py": "851e98b32b49e0a63cf4f116078075174f499fc40d6f7b09c95c0578ea245217",
+    "select_v8_safe_generator.py": "3ea684ba4880ffea2cbb18c82f0c9d0222aa28bafa1c42e3f2b7cacc9d2baa35",
+    "benchmark_v8_neutral.py": "404d50a0489070a1ab4345b5986eec65fff0cd1e678cf6637548e1eb577ccc0d",
+    "confirm_v8_safe_selection.py": "3a81c995a4d5fdc255dfb56da3a34abf3992b162d5af93e2f0ee4d273abfc5cb",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "build_v5_submission.py": "1bda5123313780a59e187902376d34519222543f359a8642733b9f82b2a4fa87",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e"
+  },
+  "contexts": [
+    {
+      "context": "A",
+      "nonzero_effects": 2275401,
+      "mean_absolute_effect": 0.01739940047264099,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    {
+      "context": "B",
+      "nonzero_effects": 3419906,
+      "mean_absolute_effect": 0.015989195555448532,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    },
+    {
+      "context": "C",
+      "nonzero_effects": 3430431,
+      "mean_absolute_effect": 0.016929922625422478,
+      "training_families": [
+        "CD4",
+        "H1",
+        "HCT116",
+        "HEK293T",
+        "K562"
+      ]
+    }
+  ],
+  "knockdown": 0.9,
+  "gating": "Control mean CPM/5 for output and target, clipped [0,1]; own effect zero and own knockdown applied only in the count emitter.",
+  "source_policy": "Same frozen response rule across A/B/C. Uniform and uniform-EB use all measured source families with availability masks. V4 candidates retain its existing context-specific components; context identities are not inferred.",
+  "scope": "Public development selection; no hidden challenge treated labels or leaderboard score. A failed confirmation is reported, not retuned away."
+}

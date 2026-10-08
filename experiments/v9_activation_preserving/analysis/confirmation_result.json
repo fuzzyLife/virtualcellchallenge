@@ -1,0 +1,16 @@
+{
+  "candidate": "legacy_fit50",
+  "guard_passed": true,
+  "confirmed_improvement": true,
+  "utility_difference": 0.019533477086808797,
+  "supported_budget_fidelity": {
+    "control_null": 0.0,
+    "legacy": 0.002476473501733479,
+    "legacy_fit100": 0.0027241208519068402,
+    "legacy_fit25": 0.0022288261515601257,
+    "legacy_fit50": 0.0027241208519068402
+  },
+  "summary_sha256": "58f79653476dda2fcae1143ce3df761d00ec7358cfb2a62c0f4696edefe255f2",
+  "frozen_calibration_selection_sha256": "4c8ebb08e6881da0ed3cf746528c219d914269eda943d28555f4ae9b80227191",
+  "policy": "Frozen calibration winner is assessed once; no reselection or parameter adjustment from confirmation."
+}

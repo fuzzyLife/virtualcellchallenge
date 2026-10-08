@@ -320,3 +320,13 @@ __marimo__/
 /experiments/v7_multisource_adaptive/analysis/*.npz
 /experiments/v7_multisource_adaptive/analysis/cell_evaluation/
 /experiments/v7_multisource_adaptive/*.log
+
+# V8 pinned metric source and regenerable numerical caches
+/reference/v8_metric_review/
+/experiments/v8_corrected_transfer/analysis/*.npz
+/experiments/v8_corrected_transfer/analysis/count_cache/
+/experiments/v8_corrected_transfer/*.log
+
+/experiments/v9_activation_preserving/analysis/*.npz
+/experiments/v9_activation_preserving/analysis/count_cache/
+/experiments/v9_activation_preserving/*.log

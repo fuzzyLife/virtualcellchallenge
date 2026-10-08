@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "evaluation_target_seed_groups": 72,
+  "globally_disjoint_calibration_confirmation_targets": true,
+  "whole_lineage_response_training_exclusion": true,
+  "one_shared_reference_and_target_independent_templates_per_stratum_seed": true,
+  "distinct_actual_cells_and_disjoint_control_populations": true,
+  "own_gene_excluded_from_effects": true,
+  "model_sha256": "0d8cf7e80e7499ac8b5d6a38de8e41e90effffbabed80fbce3c6554225c77c87",
+  "validation_plan_sha256": "5b5d56dcbcf641e957f2866b99d56130af45d22917020e3512595776a3376b08"
+}

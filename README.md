@@ -10,7 +10,21 @@ Implemented and evaluated four interventional response heads on 889 public contr
 
 V7 is published as `k0pkYuJRcw3C0U8K0NgL`, overall **-0.051386751** versus V4 **-0.050673910**. It uses exactly V4 response effects with new count/control sampling. Expanded HCT116/HEK293T sources and neural/ridge alternatives were tested, but none passed the calibration guards. Official packaging and the independent full-payload audit passed. V4 remains best. See [V7_LEADERBOARD_RESULTS.md](V7_LEADERBOARD_RESULTS.md), [V7_SUBMISSION.md](V7_SUBMISSION.md) and [V7_MODEL_STRATEGY.md](V7_MODEL_STRATEGY.md).
 
-A fresh public-method review and a reproducible evaluation audit found that our historical local PDS used target-specific control origins. Identical predictions scored 0.854545-1.000000 locally instead of the required 0.5. See [VCC2026_RESEARCH_AND_GAPS.md](VCC2026_RESEARCH_AND_GAPS.md), [TRANSFER_VALIDATION_AUDIT.md](TRANSFER_VALIDATION_AUDIT.md) and root script `audit_transfer_validation.py`. This audit preserves prior submissions and explains why the next model needs corrected validation first.
+A fresh public-method review and a reproducible evaluation audit found that our historical local PDS used target-specific control origins. Identical predictions scored 0.854545-1.000000 locally instead of the required 0.5. See [VCC2026_RESEARCH_AND_GAPS.md](VCC2026_RESEARCH_AND_GAPS.md), [TRANSFER_VALIDATION_AUDIT.md](TRANSFER_VALIDATION_AUDIT.md) and root script `audit_transfer_validation.py`. This audit preserves prior submissions; the V8/V9 pipelines below implement corrected validation before selecting new count generators.
+
+<!-- v8-status:begin -->
+
+V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_transfer/prediction.vcc`, with official prep and independent payload verification passed. Candidate `baseline_dual` uses `v4_a100` and `dual`; public confirmation proxy improvement accepted: False. It has not been submitted. See [V8_SUBMISSION.md](V8_SUBMISSION.md) for the corrected validation, neutral controls and tradeoffs. Use the V9 candidate below for the new upload.
+
+<!-- v8-status:end -->
+
+
+<!-- V9_VERIFIED_SUBMISSION -->
+
+## V9 verified upload candidate
+
+`experiments/v9_activation_preserving/prediction.vcc` is ready: 360,000 cells x 18,533 genes, all 900 target/context groups. Official prep and independent full-payload audit passed. Frozen decoder `legacy_fit50` initializes from simulated perturbations; V4 biological response effects remain unchanged. Public confirmation improvement: **True** (utility difference +0.019533); no hidden score is claimed. V4 remains the best published submission. See [V9_SUBMISSION.md](V9_SUBMISSION.md) for every metric, limitations, reproducible steps and the CMD upload command. V8 is retained as a documented full-moment pilot.
+
 
 ## Completed work
 
