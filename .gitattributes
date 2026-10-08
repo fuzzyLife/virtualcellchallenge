@@ -42,3 +42,12 @@
 /build_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /build_v5_submission.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /evaluate_atlas_transfer.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v11*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v11_consensus_coverage/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve already-frozen power-audit source bytes, including its Windows CR/CR/LF endings.
+/audit_v11_cell_power.py -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve the final report byte hash captured by documentation_validation.json.
+/V11_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

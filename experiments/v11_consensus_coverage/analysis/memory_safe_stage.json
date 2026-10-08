@@ -1,0 +1,16 @@
+{
+  "all_values_indices_and_pointers_compared": true,
+  "checked_elements": {
+    "data": 2375850660,
+    "indices": 2375850660,
+    "indptr": 360001
+  },
+  "source_sha256": "67e210c4985515201178f59e75c6639bfa410bcb5a6f44d42211100f4298703d",
+  "source_bytes": 2616024319,
+  "staged_bytes": 28534580312,
+  "data_dtype": "float32 with exactly unchanged raw integer values",
+  "indices_dtype": "int64",
+  "indptr_dtype": "int64",
+  "reason": "nnz > 2**31 triggers SciPy index widening; matching output float dtype avoids a second full CSR copy.",
+  "adapter_sha256": "004fbeddc0ebc93456e801952ceba187a791a1db299aa08210630d86cefc2f9b"
+}

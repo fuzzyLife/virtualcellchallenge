@@ -1,0 +1,84 @@
+{
+  "candidate": "consensus20_noise65",
+  "guard_passed": true,
+  "confirmed_improvement": true,
+  "weighted_utility_difference": 0.015147565051726902,
+  "details": {
+    "full_independent": {
+      "full_target_mean_fidelity": {
+        "consensus20_noise65": 0.6046383966432489,
+        "v10": 0.5878924814917066
+      },
+      "paired_finite_fidelity": {
+        "consensus20_noise65": 0.6046383966432489,
+        "v10": 0.5878924814917066
+      },
+      "supported_budget_fidelity": {
+        "consensus20_noise65": 0.6368988719572531,
+        "v10": 0.6171578258022266
+      },
+      "common_panel_utility": {
+        "consensus20_noise65": 0.002523622442311501,
+        "v10": -0.01636798293738961
+      },
+      "complete_panels": 10,
+      "families_present": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "family_fidelity": {
+        "v10": {
+          "H1": 0.6081484262430691,
+          "HCT116": 0.5892026069624405,
+          "HEK293T": 0.5663264112696101
+        },
+        "consensus20_noise65": {
+          "H1": 0.6141348618185504,
+          "HCT116": 0.6113934896139576,
+          "HEK293T": 0.5883868384972388
+        }
+      }
+    },
+    "sampled400": {
+      "full_target_mean_fidelity": {
+        "consensus20_noise65": 0.702463216748535,
+        "v10": 0.6770803728868108
+      },
+      "paired_finite_fidelity": {
+        "consensus20_noise65": 0.702463216748535,
+        "v10": 0.6770803728868108
+      },
+      "supported_budget_fidelity": {
+        "consensus20_noise65": 0.677521528258933,
+        "v10": 0.6684103838357418
+      },
+      "common_panel_utility": {
+        "consensus20_noise65": 0.022255544234841756,
+        "v10": 0.015844073281721337
+      },
+      "complete_panels": 10,
+      "families_present": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "family_fidelity": {
+        "v10": {
+          "H1": 0.6612503149270299,
+          "HCT116": 0.6688657343182088,
+          "HEK293T": 0.7011250694151935
+        },
+        "consensus20_noise65": {
+          "H1": 0.6657508616212896,
+          "HCT116": 0.6998320306542924,
+          "HEK293T": 0.7418067579700228
+        }
+      }
+    }
+  },
+  "power_validation_sha256": "20acc50715e51f90140c9ab4dec64d66ca27e93ae377be2787fa55be1960ff54",
+  "selection_sha256": "5f6b36732fe170cdc408906fbb705ec1d78646b19416ffb02962f1972d9e4581",
+  "summary_sha256": "d0fc2c4d2abda1d85c0079d16d63ff0eece834de5a8c998c735f9a50734e03c5",
+  "policy": "Frozen development winner tested once with V10; no selection or retuning from confirmation. HCT/HEK count targets new, H1 reused biology; all public summaries previously available."
+}

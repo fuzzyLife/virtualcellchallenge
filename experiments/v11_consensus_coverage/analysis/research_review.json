@@ -1,0 +1,23 @@
+{
+  "review_date": "2026-10-08",
+  "sources": [
+    {
+      "url": "https://saberhq.com/sidechain/models/",
+      "kind": "Participant primary model report",
+      "observed": "No newly disclosed method beyond SER15 in this review. Prior series separates noise, source shrinkage, mean and bulk amplitude; reported local improvements can fail on the leaderboard.",
+      "status": "Not reproduced winning results"
+    },
+    {
+      "url": "https://github.com/ArcInstitute/cell-eval2/tree/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "kind": "Pinned primary scorer code",
+      "role": "Direction fidelity/reach budgets and metric availability reviewed; existing raw proxy implementation reused"
+    },
+    {
+      "url": "https://github.com/kaipengm2/Virtual-Cell-Challenge-2026",
+      "kind": "Primary code implementation",
+      "role": "Previously reviewed, hash-verified dual-moment integer fitter reused"
+    }
+  ],
+  "new_experiment": "V10-controlled independent-source consensus rescue, response amplitude, noise and mean/bulk amplitude ablations. Whole held lineage excluded. Correct validation depths from actual templates.",
+  "limit": "Public proxies cannot guarantee new hidden score; no changes to V10 frozen code or package."
+}

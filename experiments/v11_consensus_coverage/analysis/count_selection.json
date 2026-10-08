@@ -1,0 +1,301 @@
+{
+  "candidate": "consensus20_noise65",
+  "setting": {
+    "response": "consensus20",
+    "amplitude": 1.0,
+    "noise": 0.65,
+    "bulk_amplitude": 1.0,
+    "eligible": true
+  },
+  "settings": {
+    "v10": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "v4_compact": {
+      "response": "v4",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": false
+    },
+    "dose125": {
+      "response": "dose",
+      "amplitude": 1.25,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus20": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus40": {
+      "response": "consensus40",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "noise35": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.35,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "noise65": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus20_noise65": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "bulk085": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 0.85,
+      "eligible": true
+    }
+  },
+  "confirmation_read": false,
+  "passing_candidates": [
+    "v10",
+    "consensus20",
+    "noise65",
+    "consensus20_noise65",
+    "bulk085"
+  ],
+  "guards": {
+    "v10": true,
+    "dose125": false,
+    "consensus20": true,
+    "consensus40": false,
+    "noise35": false,
+    "noise65": true,
+    "consensus20_noise65": true,
+    "bulk085": true
+  },
+  "weighted_utility": {
+    "v10": 0.05139759586759377,
+    "dose125": 0.06017331104329675,
+    "consensus20": 0.09531542359699918,
+    "consensus40": 0.10096884073725221,
+    "noise35": 0.050566706087531395,
+    "noise65": 0.06223542118063218,
+    "consensus20_noise65": 0.10071986548611121,
+    "bulk085": 0.06537426282946363
+  },
+  "details": {
+    "full_independent": {
+      "full_target_mean_fidelity": {
+        "bulk085": 0.5951228785910591,
+        "consensus20": 0.5938165036400448,
+        "consensus20_noise65": 0.6214412015151988,
+        "consensus40": 0.5895974344384184,
+        "dose125": 0.5962100841773919,
+        "noise35": 0.5824959434303283,
+        "noise65": 0.6275708609826057,
+        "v10": 0.5969471066893888,
+        "v4_compact": 0.5865971016226917
+      },
+      "paired_finite_fidelity": {
+        "bulk085": 0.5951228785910591,
+        "consensus20": 0.5938165036400448,
+        "consensus20_noise65": 0.6214412015151988,
+        "consensus40": 0.5895974344384184,
+        "dose125": 0.5962100841773919,
+        "noise35": 0.5824959434303283,
+        "noise65": 0.6275708609826057,
+        "v10": 0.5969471066893888,
+        "v4_compact": 0.5865971016226917
+      },
+      "supported_budget_fidelity": {
+        "bulk085": 0.6122791119166289,
+        "consensus20": 0.6113561667531568,
+        "consensus20_noise65": 0.6446561784474482,
+        "consensus40": 0.6079626825974876,
+        "dose125": 0.6158414963875715,
+        "noise35": 0.5933971607791351,
+        "noise65": 0.6518802634870341,
+        "v10": 0.6135440180586907,
+        "v4_compact": 0.5981258256274768
+      },
+      "common_panel_utility": {
+        "bulk085": 0.09013119180968891,
+        "consensus20": 0.12488522657061474,
+        "consensus20_noise65": 0.1273347151124449,
+        "consensus40": 0.13280622314266866,
+        "dose125": 0.0798236457484025,
+        "noise35": 0.07084253313216064,
+        "noise65": 0.08334802209602936,
+        "v10": 0.07447411141174712
+      },
+      "complete_panels": 8,
+      "families_present": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "family_fidelity": {
+        "v10": {
+          "H1": 0.623617648051785,
+          "HCT116": 0.5817107223755066,
+          "HEK293T": 0.5855129496408747
+        },
+        "dose125": {
+          "H1": 0.624534575972151,
+          "HCT116": 0.579853052947796,
+          "HEK293T": 0.5842426236122286
+        },
+        "consensus20": {
+          "H1": 0.6192054611590531,
+          "HCT116": 0.5802587624664922,
+          "HEK293T": 0.5819852872945892
+        },
+        "consensus40": {
+          "H1": 0.6147781325342582,
+          "HCT116": 0.5762777680066749,
+          "HEK293T": 0.5777364027743221
+        },
+        "noise35": {
+          "H1": 0.6016346363475485,
+          "HCT116": 0.57240834728118,
+          "HEK293T": 0.5734448466622565
+        },
+        "noise65": {
+          "H1": 0.6635757309301726,
+          "HCT116": 0.6042543221490679,
+          "HEK293T": 0.6148825298685767
+        },
+        "consensus20_noise65": {
+          "H1": 0.6524270779574606,
+          "HCT116": 0.5999318768462278,
+          "HEK293T": 0.611964649741908
+        },
+        "bulk085": {
+          "H1": 0.6211199616802093,
+          "HCT116": 0.5798900204740067,
+          "HEK293T": 0.5843586536189612
+        }
+      }
+    },
+    "sampled400": {
+      "full_target_mean_fidelity": {
+        "bulk085": 0.6860046711771225,
+        "consensus20": 0.6794956668326847,
+        "consensus20_noise65": 0.7224402201509111,
+        "consensus40": 0.6701976182132703,
+        "dose125": 0.6849321344162048,
+        "noise35": 0.6515397676028502,
+        "noise65": 0.7197277029479103,
+        "v10": 0.6832810719691964,
+        "v4_compact": 0.6702172681846316
+      },
+      "paired_finite_fidelity": {
+        "bulk085": 0.6860046711771225,
+        "consensus20": 0.6794956668326847,
+        "consensus20_noise65": 0.7224402201509111,
+        "consensus40": 0.6701976182132703,
+        "dose125": 0.6849321344162048,
+        "noise35": 0.6515397676028502,
+        "noise65": 0.7197277029479103,
+        "v10": 0.6832810719691964,
+        "v4_compact": 0.6702172681846316
+      },
+      "supported_budget_fidelity": {
+        "bulk085": 0.673697547887009,
+        "consensus20": 0.6658127942398228,
+        "consensus20_noise65": 0.6969592656339644,
+        "consensus40": 0.6582676155670962,
+        "dose125": 0.6730713666570355,
+        "noise35": 0.6413459493940038,
+        "noise65": 0.660709822544364,
+        "v10": 0.6704630043174036,
+        "v4_compact": 0.6451245010454286
+      },
+      "common_panel_utility": {
+        "bulk085": 0.0076080952089379724,
+        "consensus20": 0.02631921665856289,
+        "consensus20_noise65": 0.038618549691332604,
+        "consensus40": 0.02668161512461388,
+        "dose125": 0.014322530064716675,
+        "noise35": 0.0032564429833964893,
+        "noise65": 0.01297268571137211,
+        "v10": -0.002447607068764044
+      },
+      "complete_panels": 7,
+      "families_present": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "family_fidelity": {
+        "v10": {
+          "H1": 0.6769957965451964,
+          "HCT116": 0.6644616199487801,
+          "HEK293T": 0.7083857994136127
+        },
+        "dose125": {
+          "H1": 0.6808190543411683,
+          "HCT116": 0.6643009682743956,
+          "HEK293T": 0.7096763806330506
+        },
+        "consensus20": {
+          "H1": 0.6715097670136153,
+          "HCT116": 0.6620045716582839,
+          "HEK293T": 0.7049726618261549
+        },
+        "consensus40": {
+          "H1": 0.6616156645564509,
+          "HCT116": 0.6509246386118075,
+          "HEK293T": 0.6980525514715523
+        },
+        "noise35": {
+          "H1": 0.6445804931820677,
+          "HCT116": 0.6400038403495723,
+          "HEK293T": 0.6700349692769103
+        },
+        "noise65": {
+          "H1": 0.688810608637269,
+          "HCT116": 0.70643915753936,
+          "HEK293T": 0.7639333426671018
+        },
+        "consensus20_noise65": {
+          "H1": 0.7099256865544739,
+          "HCT116": 0.6998255499588951,
+          "HEK293T": 0.7575694239393644
+        },
+        "bulk085": {
+          "H1": 0.6798883619721878,
+          "HCT116": 0.6679943863692717,
+          "HEK293T": 0.7101312651899081
+        }
+      }
+    }
+  },
+  "development_power_validation_sha256": "356f15bfb49f0710cd4a97e11f7e9fdd87306dd78ff59f442e9c5740c3d29624",
+  "development_scores_sha256": "bde2cd6b7f4fd911dac3d2b2b249511b593d4d35c0bf63779f3a634f3b35d83e",
+  "development_summary_sha256": "c6786abfd2cbe4221784ef798afc6789a75aa2c73631c873d219358caf80edf2",
+  "plan_sha256": "65dbfe599da66beb3b684eaf98c737d199140321173a08f08e85e6cfcff32c25",
+  "methods_sha256": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+  "evaluation_script_sha256": "acd376af708811f671320546ddc18523942bb9660429ecfdd4b0efb868cc32fb",
+  "selection_script_sha256": "b917d1cc63ad1e80e970b4dead34d9c98eee3a7b8c3aeb43ab37bb82e821ec52",
+  "guard": "Both reference sizes: full/paired FID within .01; supported FID within .02; PDS within .03; expression <=1.10 baseline; reach within .03; NMAE <=baseline+.015. Full-reference per-family FID within .03. Three complete families, identical six-metric panel coverage. V4 compact is diagnostic, not eligible.",
+  "utility_policy": "Public raw six-metric proxy, 70% full independent references and 30% sampled400, equal family/context weighting. Not anchored leaderboard score.",
+  "neutral_policy": "Bias measured and reported; V10 compact baseline already fails biological control-preservation criterion."
+}

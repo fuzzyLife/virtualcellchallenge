@@ -1,0 +1,144 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "65dbfe599da66beb3b684eaf98c737d199140321173a08f08e85e6cfcff32c25",
+    "methods": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+    "script": "acd376af708811f671320546ddc18523942bb9660429ecfdd4b0efb868cc32fb",
+    "settings": {
+      "v10": {
+        "response": "dose",
+        "amplitude": 1.0,
+        "noise": 0.5,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "v4_compact": {
+        "response": "v4",
+        "amplitude": 1.0,
+        "noise": 0.5,
+        "bulk_amplitude": 1.0,
+        "eligible": false
+      },
+      "dose125": {
+        "response": "dose",
+        "amplitude": 1.25,
+        "noise": 0.5,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "consensus20": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.5,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "consensus40": {
+        "response": "consensus40",
+        "amplitude": 1.0,
+        "noise": 0.5,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "noise35": {
+        "response": "dose",
+        "amplitude": 1.0,
+        "noise": 0.35,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "noise65": {
+        "response": "dose",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "consensus20_noise65": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "bulk085": {
+        "response": "dose",
+        "amplitude": 1.0,
+        "noise": 0.5,
+        "bulk_amplitude": 0.85,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "bde2cd6b7f4fd911dac3d2b2b249511b593d4d35c0bf63779f3a634f3b35d83e",
+  "panels_sha256": "df6f5b340909e7ad38d416d98ee2d3c5c39a69921390ab2bbb662d54e655874f",
+  "summary_sha256": "c6786abfd2cbe4221784ef798afc6789a75aa2c73631c873d219358caf80edf2",
+  "settings": {
+    "v10": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "v4_compact": {
+      "response": "v4",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": false
+    },
+    "dose125": {
+      "response": "dose",
+      "amplitude": 1.25,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus20": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus40": {
+      "response": "consensus40",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "noise35": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.35,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "noise65": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "consensus20_noise65": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "bulk085": {
+      "response": "dose",
+      "amplitude": 1.0,
+      "noise": 0.5,
+      "bulk_amplitude": 0.85,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Unanchored public development proxies; two seeds, whole-family response exclusion, 400 and full independent control references."
+}

@@ -1,0 +1,22 @@
+{
+  "diagnostic_only": true,
+  "source_inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "scores_sha256": "d076cc8c134a70e54f6c97b8da8b5eb1641a777d7b5a128cdf14fb3cb5dfca11",
+  "summary_sha256": "c443649528bb58fe49f196ed0e3fed68b495d8e89ddb55d6be27b4dc60319f35",
+  "script_sha256": "d6941abeca40addf6b5e1fd27e87c1f281a4da2b7f3b1d1a493532d0b6581154",
+  "methods_sha256": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+  "scope": "Own target omitted, zero response, disjoint provided controls, two seeds, 400 and 2000 references. Synthetic compact populations are biased neutral distributions; not claimed biologically faithful."
+}

@@ -408,3 +408,9 @@ The supplied publication rank is preserved separately from the current API rank.
 ## V10 published result
 
 V10 is published as `CYpAqJP7bUYqjA2ouD7U`, overall **0.116754121**, an improvement of **+0.167428032** over V4. Official prep and independent full-payload validation passed. The pooled dose-corrected response and compact emitter improve discrimination and fidelity, while reach and fold-change accuracy decline. Compact neutral-control bias remains. See [V10_LEADERBOARD_RESULTS.md](V10_LEADERBOARD_RESULTS.md), [V10_STRATEGY.md](V10_STRATEGY.md) and [V10_SUBMISSION.md](V10_SUBMISSION.md).
+
+<!-- V11_VERIFIED_SUBMISSION -->
+
+## V11 upload candidate
+
+V11 is ready at `experiments/v11_consensus_coverage/prediction.vcc`, selected `consensus20_noise65`. Frozen count-confirmation passed; public weighted utility change **+0.015148** versus V10. Official prep and independent full-payload/replay/depth audits passed. It has not been uploaded; V10 remains our best published entry. Synthetic neutral-control bias remains. See [V11_STRATEGY.md](V11_STRATEGY.md) and [V11_SUBMISSION.md](V11_SUBMISSION.md). Reproduce with root `run_v11_pipeline.py --resume`.

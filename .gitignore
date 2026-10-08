@@ -334,3 +334,9 @@ __marimo__/
 /experiments/v10_population_transport/analysis/*.npz
 /experiments/v10_population_transport/analysis/count_cache/
 /experiments/v10_population_transport/*.log
+
+/experiments/v11_consensus_coverage/analysis/*.npz
+/experiments/v11_consensus_coverage/analysis/count_cache/
+/experiments/v11_consensus_coverage/*.log
+!/experiments/v11_consensus_coverage/analysis/power_audit_original_code.txt
+!/experiments/v11_consensus_coverage/analysis/scientific_test_output.txt
