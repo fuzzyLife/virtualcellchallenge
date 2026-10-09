@@ -26,6 +26,14 @@ V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_trans
 V9 is published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**. Official prep and independent full-payload audit passed. Its 50% count calibration improved five scaled metrics versus V4 but worsened fidelity enough to lower overall performance. V4 biological effects are unchanged. Public confirmation acceptance did not predict leaderboard improvement; its subset fidelity guard was too permissive. V4 remained best at V9 publication; V11 is now best. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md) and [V9_SUBMISSION.md](V9_SUBMISSION.md). V8 remains an unsubmitted diagnostic pilot.
 
 
+<!-- post-v11-research:begin -->
+
+## Post-V11 research and tests
+
+Reviewed ten relevant scientific papers/methods and separately checked official data and participant reports. Collected the VIPerturb manifest (300/300 targets; 124 QC-filtered; median 47 cells), pinned Reactome annotations and RNA-fingerprinting code, and ran 48 control-distribution comparisons plus five-family transfer diagnostics. A gene-specific gamma-Poisson pilot reduces average null DE calls from 1,711 to 84 against 2,000 references, but retains context-specific bias and has no perturbation/leaderboard validation. Twelve unused count-confirmation targets are frozen for the next experiments. V11 remains the best submitted model. See [POST_V11_RESEARCH.md](POST_V11_RESEARCH.md) for papers, findings, limitations and reproduction.
+
+<!-- post-v11-research:end -->
+
 ## Completed work
 
 - Reviewed and hashed all 146 original project files, including the manifest, gene/target lists, three control matrices, saved competition pages and their assets.

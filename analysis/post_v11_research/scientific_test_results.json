@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "script_sha256": "27312285658ea5eb86b5d3440e76ba48ab9f87e3937fcc38c5786d5f093df0b7",
+  "dependencies": {
+    "audit_post_v11_transfer.py": "c6a34228e89a97fe678dc847c6f7a2cd5ae8eeac686cc8ef3f3a495124e259bd",
+    "benchmark_post_v11_distributions.py": "c304157044b827e05538fbc266c36fd6c20acedc100d43675aecd19bb0bd3e3a",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0"
+  },
+  "checks": [
+    "held-family label leakage",
+    "masked-value abstention",
+    "no-source abstention",
+    "undefined cosine handling",
+    "pilot template probability/count/depth axes"
+  ],
+  "scope": "Scientific unit invariants; the real count-solver outputs are independently checked in 48 neutral comparison records."
+}

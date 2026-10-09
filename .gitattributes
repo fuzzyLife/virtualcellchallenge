@@ -52,3 +52,11 @@
 # Preserve the final report byte hash captured by documentation_validation.json.
 /V11_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V11_LEADERBOARD_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve post-V11 research provenance and data bytes.
+/*post_v11*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/POST_V11_RESEARCH.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v11_research/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Keep the downloaded author README byte-for-byte, including upstream trailing spaces.
+/analysis/post_v11_research/data/fingerprint_readme.md -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

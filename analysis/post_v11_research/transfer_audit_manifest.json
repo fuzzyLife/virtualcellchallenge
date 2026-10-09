@@ -1,0 +1,17 @@
+{
+  "script_sha256": "c6a34228e89a97fe678dc847c6f7a2cd5ae8eeac686cc8ef3f3a495124e259bd",
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "dependencies": {
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v11_methods.py": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74"
+  },
+  "rows": 1462,
+  "unsupported_contrasts": 5,
+  "coverage_note": "Usable response masks include source abundance/QC filters; they are not complete assay gene axes. Own target excluded from no-source count.",
+  "seeds": [
+    2026100901,
+    2026100902
+  ],
+  "scope": "Cosine comparisons use the same common predictor-supported gene mask for matched and permuted targets in each context; unsupported contrasts abstain. Retrospective development diagnostic, previously inspected public source summaries. Entire evaluated family excluded. Normal-q source proxy, not count-level official metric. Ungated V11 estimator; no challenge-context gene-abundance gate. Heuristic intervals are not posterior credible intervals. Centered truth used only to calculate diagnostic metrics. No model selected or fitted for submission."
+}

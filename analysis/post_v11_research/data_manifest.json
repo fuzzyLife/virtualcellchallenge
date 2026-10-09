@@ -1,0 +1,101 @@
+{
+  "reactome_version.txt": {
+    "url": "https://reactome.org/ContentService/data/database/version",
+    "resolved_url": "https://reactome.org/ContentService/data/database/version",
+    "bytes": 2,
+    "sha256": "d6d824abba4afde81129c71dea75b8100e96338da5f416d2f69088f1960cb091",
+    "retrieved_utc": "2026-10-09T09:27:09.655269+00:00",
+    "etag": null,
+    "publisher_md5": null
+  },
+  "viperturb_record.json": {
+    "url": "https://zenodo.org/api/records/18460279",
+    "resolved_url": "https://zenodo.org/api/records/18460279",
+    "bytes": 7220,
+    "sha256": "edd0fb39f9f155c87015790644547f101b74536ac9b29d689fa5f5e90db6e0d8",
+    "retrieved_utc": "2026-10-09T09:27:11.811926+00:00",
+    "etag": "W/\"4\"",
+    "publisher_md5": null
+  },
+  "replogle_record.json": {
+    "url": "https://api.figshare.com/v2/articles/20029387",
+    "resolved_url": "https://api.figshare.com/v2/articles/20029387",
+    "bytes": 11400,
+    "sha256": "8fca06c135b0a5ec3f37f15b6e27f841ab865578f33aa96e14c124d21ecb1eda",
+    "retrieved_utc": "2026-10-09T09:27:12.971568+00:00",
+    "etag": null,
+    "publisher_md5": null
+  },
+  "viperturb_target_manifest.txt": {
+    "url": "https://zenodo.org/api/records/18460279/files/genome_wide_manifest.txt/content",
+    "resolved_url": "https://zenodo.org/api/records/18460279/files/genome_wide_manifest.txt/content",
+    "bytes": 398905,
+    "sha256": "753a9215bfd693e8b5af47e4312bf53c5c7bae1f6625e463bd61dffb6354417b",
+    "retrieved_utc": "2026-10-09T09:27:14.823750+00:00",
+    "etag": null,
+    "publisher_md5": "c095c8f2d16136753c22ef5d9b30a22b"
+  },
+  "reactome_gmt.zip": {
+    "url": "https://reactome.org/download/current/ReactomePathways.gmt.zip",
+    "resolved_url": "https://reactome.org/download/current/ReactomePathways.gmt.zip",
+    "bytes": 298479,
+    "sha256": "8c1dbc8578431da5d2d5118262718c60b553a9be3398e93658daa069e4a9afd4",
+    "retrieved_utc": "2026-10-09T09:29:42.554975+00:00",
+    "etag": "\"48def-654bd9247b974\"",
+    "publisher_md5": null
+  },
+  "fingerprint_commit.json": {
+    "url": "https://api.github.com/repos/satijalab/rna-fingerprinting/commits/main",
+    "resolved_url": "https://api.github.com/repos/satijalab/rna-fingerprinting/commits/main",
+    "bytes": 6484,
+    "sha256": "fa4445d687511500916f290ad420a5b31ac6ba6a56d97ccfc0047488d7a59c58",
+    "retrieved_utc": "2026-10-09T09:35:00.005019+00:00",
+    "etag": "W/\"2620ad11d2edcd5c3716f906918c2fb11f41373ccfbb8c8117a1ee019606fd7f\"",
+    "publisher_md5": null
+  },
+  "fingerprint_readme.md": {
+    "url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/README.md",
+    "resolved_url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/README.md",
+    "bytes": 1719,
+    "sha256": "3a1095ca433d27ad86c541d523d1fa93c4179252aa30660e7a62ec307dd1b00f",
+    "retrieved_utc": "2026-10-09T09:35:00.918557+00:00",
+    "etag": "W/\"4ab3a04d785a0d68d7215049995567603ed13b4c1be2264d257b55f889711785\"",
+    "publisher_md5": null
+  },
+  "fingerprint_license.md": {
+    "url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/LICENSE.md",
+    "resolved_url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/LICENSE.md",
+    "bytes": 1090,
+    "sha256": "fd4dc702c1cabb85c8a91801064b343c6b40fbd861b54fbee16198280a52182e",
+    "retrieved_utc": "2026-10-09T09:35:01.689712+00:00",
+    "etag": "W/\"b64f9271ab75eb3640580a76740ec45f2ff8c0872a569c99975b2f7ab695f00a\"",
+    "publisher_md5": null
+  },
+  "fingerprint_tree.json": {
+    "url": "https://api.github.com/repos/satijalab/rna-fingerprinting/git/trees/4004c8d04c41cdccff22b982411121cc574d5ed1?recursive=1",
+    "resolved_url": "https://api.github.com/repos/satijalab/rna-fingerprinting/git/trees/4004c8d04c41cdccff22b982411121cc574d5ed1",
+    "bytes": 7671,
+    "sha256": "d774ad750ae5047f5da6e535b970cf533c82852a68a8779b076526ec7c568f7d",
+    "retrieved_utc": "2026-10-09T09:35:02.584150+00:00",
+    "etag": "W/\"1753db80cd2865f66a048875152440ae543b2bcdb914b0e57aeb43d93ff5f2fc\"",
+    "publisher_md5": null
+  },
+  "fingerprint_fit.R": {
+    "url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/R/fit.R",
+    "resolved_url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/R/fit.R",
+    "bytes": 8635,
+    "sha256": "cd3d36b5fdb95430b8dc512dbe2410e2363e549e856ac2bf441792c331e14ddb",
+    "retrieved_utc": "2026-10-09T09:38:28.419870+00:00",
+    "etag": "W/\"f09a9f6dd7eabd50e98407c9e3829cb07bc1f53a839431e710dfd44d028c317b\"",
+    "publisher_md5": null
+  },
+  "fingerprint_utilities.R": {
+    "url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/R/utilities.R",
+    "resolved_url": "https://raw.githubusercontent.com/satijalab/rna-fingerprinting/4004c8d04c41cdccff22b982411121cc574d5ed1/R/utilities.R",
+    "bytes": 9684,
+    "sha256": "1dba6d38e4d771d2e665c58b26c6b109dfc8863857cf3a1599f409b0ccab465d",
+    "retrieved_utc": "2026-10-09T09:38:29.356206+00:00",
+    "etag": "W/\"510fb3542ef4f6a6e8a1d1d1eb751423fd0c59763857fdae679a3634f28ce871\"",
+    "publisher_md5": null
+  }
+}

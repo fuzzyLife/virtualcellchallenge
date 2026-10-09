@@ -1,0 +1,225 @@
+{
+  "status": "Planned; no new perturbation candidate fitted or selected.",
+  "script_sha256": "3d04799f013e6f517689c9fc277cd9dea8446ad3d05ea7b843d199912b102f4c",
+  "input_sha256": {
+    "experiments\\v8_corrected_transfer\\analysis\\validation_plan.json": "3e67ebf5cfd012694c7b5a2ac8cba4899f75f0f84d3c8694bfccc1b6344afb1b",
+    "experiments\\v9_activation_preserving\\analysis\\validation_plan.json": "5b5d56dcbcf641e957f2866b99d56130af45d22917020e3512595776a3376b08",
+    "experiments\\v10_population_transport\\analysis\\validation_plan.json": "ef6ef7b5ed07550707b663b3feca07b9783f9e30444cc5d6064ba75990165f0c",
+    "experiments\\v11_consensus_coverage\\analysis\\validation_plan.json": "65dbfe599da66beb3b684eaf98c737d199140321173a08f08e85e6cfcff32c25",
+    "experiments\\v7_multisource_adaptive\\analysis\\cell_split_H1.json": "5cd7b1aa1bcad2c36d470168810780157f51139b7fdcbf0711af98a01d4b54f9",
+    "experiments\\v7_multisource_adaptive\\analysis\\cell_split_HCT116.json": "7acf0fefcb5362d846c1ff5375dfb9ecc749a6f0ecd6a407cd503e20e70cf925",
+    "experiments\\v7_multisource_adaptive\\analysis\\cell_split_HEK293T.json": "f92ec6ff92a68eba07ab4c39f2cc3b92c1b80c50f00ab57fff74894197b3955b",
+    "reference\\v7_sources\\HCT116\\selected_cells.csv": "a4ba8d2311833f9a48e08bbfd8156bb80c1288706e62751e0913e538c53f4f0c",
+    "reference\\v7_sources\\HEK293T\\selected_cells.csv": "b6febac28e4a1044d3b6a75521be96a84e6c320f3ba0e595e0570da335a000e8"
+  },
+  "baseline_v11_model_sha256": "8bc968716e2f04f33216d0c6da3d512f3a654aa9af02b5bd9d7cc375ae582e5a",
+  "seeds": [
+    2026100911,
+    2026100927
+  ],
+  "prediction_cells": 400,
+  "reference_modes": [
+    "sampled400",
+    "full_independent"
+  ],
+  "new_count_confirmation": [
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "targets": [
+        "TXNDC16",
+        "PATL1",
+        "PBLD"
+      ],
+      "available_treated_cells": {
+        "TXNDC16": 154,
+        "PATL1": 219,
+        "PBLD": 169
+      },
+      "technical_strata_from_v11": true,
+      "control_population_indices_from": "experiments\\v11_consensus_coverage\\analysis\\validation_plan.json"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum1",
+      "targets": [
+        "ZBTB34",
+        "MYD88",
+        "SYVN1"
+      ],
+      "available_treated_cells": {
+        "ZBTB34": 186,
+        "MYD88": 150,
+        "SYVN1": 157
+      },
+      "technical_strata_from_v11": true,
+      "control_population_indices_from": "experiments\\v11_consensus_coverage\\analysis\\validation_plan.json"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum0",
+      "targets": [
+        "PCGF6",
+        "PCGF1",
+        "DMTF1"
+      ],
+      "available_treated_cells": {
+        "PCGF6": 178,
+        "PCGF1": 178,
+        "DMTF1": 223
+      },
+      "technical_strata_from_v11": true,
+      "control_population_indices_from": "experiments\\v11_consensus_coverage\\analysis\\validation_plan.json"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "targets": [
+        "TEX2",
+        "NAIF1",
+        "TRIP4"
+      ],
+      "available_treated_cells": {
+        "TEX2": 161,
+        "NAIF1": 158,
+        "TRIP4": 170
+      },
+      "technical_strata_from_v11": true,
+      "control_population_indices_from": "experiments\\v11_consensus_coverage\\analysis\\validation_plan.json"
+    }
+  ],
+  "excluded_previous_count_targets": [
+    "ACLY",
+    "ADNP",
+    "ANKZF1",
+    "ANP32B",
+    "BRPF1",
+    "CARM1",
+    "CAT",
+    "CHD3",
+    "CHD6",
+    "CHKB",
+    "COQ10B",
+    "CYTH2",
+    "DBN1",
+    "DCAF16",
+    "DDHD1",
+    "DHX35",
+    "DLAT",
+    "EEF1A2",
+    "EPM2AIP1",
+    "FAM120A",
+    "FOXO4",
+    "FUBP3",
+    "FZD2",
+    "GLI3",
+    "GPATCH8",
+    "GTF2IRD1",
+    "HDAC8",
+    "HEATR6",
+    "KHSRP",
+    "MBD4",
+    "MED13",
+    "MED15",
+    "MED25",
+    "MLKL",
+    "MSANTD4",
+    "MSI2",
+    "MTA1",
+    "MTF1",
+    "MTHFSD",
+    "NABP2",
+    "NFE2L1",
+    "PARP3",
+    "PHF19",
+    "PINK1",
+    "PLAGL2",
+    "PNP",
+    "POLD4",
+    "PQBP1",
+    "PRKAB2",
+    "PRMT6",
+    "PRNP",
+    "PSMB9",
+    "PTMS",
+    "RNF10",
+    "RNF141",
+    "RNF2",
+    "RSRC1",
+    "SEMA4F",
+    "SFXN4",
+    "SH2D3A",
+    "SHPRH",
+    "SIN3B",
+    "SLC39A1",
+    "SLIRP",
+    "SMARCA5",
+    "SOCS5",
+    "STAT6",
+    "TARBP2",
+    "TBC1D19",
+    "THAP3",
+    "THAP7",
+    "TIMM50",
+    "TMEM104",
+    "TMEM79",
+    "TMF1",
+    "TRAPPC6A",
+    "TWF2",
+    "ZBTB41",
+    "ZFP62",
+    "ZNF280C",
+    "ZNF32",
+    "ZNF410",
+    "ZNF496",
+    "ZNF514",
+    "ZNF530",
+    "ZNF627",
+    "ZNF714",
+    "ZNF768",
+    "ZNF777",
+    "ZNF783"
+  ],
+  "split_scope": "Selected from target labels and cell-count metadata only. Previously inspected response summaries mean these are new count-test targets, not pristine biological blind data. H1 remains reused development; no fresh 400-cell confirmation is claimed.",
+  "selection_rules": [
+    "Freeze a candidate using development only before opening new count confirmation. Treat a failed confirmation as failure and do not retune against it.",
+    "Exclude the whole evaluated source family, including all platforms and correlated releases. Keep common target-independent templates and independent references.",
+    "Require complete six-metric panels; equal-weight source families and technical strata; paired seeds. Report worst-family and actual-cell-count limitations.",
+    "Protect V11 fidelity and reach: no aggregate fall greater than 0.01; no family fall greater than 0.03. NMAE must not worsen by more than 0.01. PDS must not fall more than 0.02.",
+    "Expression error must improve on development and confirmation. Treat these provisional tolerances as fixed screening rules, not an official anchored score estimate.",
+    "Report neutral-call fraction and detection/variance errors in every context; do not claim a null-safety pass from a mean across contexts. Do not inflate observed sample size by duplicating cells.",
+    "Limit the initial count-stage to at most four candidates including V11; source, response and emitter changes must be tested separately before combination."
+  ],
+  "tests": [
+    {
+      "id": "D1",
+      "hypothesis": "Matched Flex genetic data improve source transfer after controlling for source family.",
+      "design": "Extract the 300 targets plus deduplicated NTCs from all VIPerturb bins. Verify raw counts, output gene mask, guide knockdown, cell IDs, batch and library axes. Compare original source pool, Flex replacement within K562, and within-family combined summaries at identical V11 emission. Hold out all K562 datasets together; do not count platforms as independent lineages.",
+      "negative_control": "Shuffle target labels within the added source; compare a size-matched downsample of existing K562."
+    },
+    {
+      "id": "D2",
+      "hypothesis": "Gene-specific distribution calibration reduces expression error without erasing direction/coverage.",
+      "design": "Keep V11 effects fixed; compare exact V11 emission, moment-matched gamma-Poisson, and one 25% gamma/75% compact template. Test null controls first, then actual public perturbations at genuine cell counts. Analyze direction, reach and six-metric panel jointly.",
+      "negative_control": "Real control resampling with no response; source target-label permutation; own-target knockdown disabled for nulls."
+    },
+    {
+      "id": "D3",
+      "hypothesis": "The strongest response confidence proxies are miscalibrated across contexts.",
+      "design": "Fit a bounded transfer-heterogeneity calibration and false-sign reliability curve using inner held-family development folds. Compare scalar empirical Bayes with a multivariate/covariance or pathway prior. Covariances must use training effects only; a novel family has no measured effect and requires an explicit prediction rule.",
+      "negative_control": "Permute source identity/uncertainty while preserving marginal weights. Report held-family interval coverage and sign error by abundance/support, not only aggregate MSE."
+    },
+    {
+      "id": "D4",
+      "hypothesis": "Cell-state and responder heterogeneity bias source pseudobulk effects.",
+      "design": "Compare raw source CPM effects with control-factor-adjusted means and a rank-one perturbation-factor pilot inspired by RNA fingerprinting. Include soft responder mixtures; do not delete weak responders from validation truth. Calibrate factors back to mean/pooled count effects before emission.",
+      "negative_control": "Random factors of identical rank; NTC pseudo-perturbations; target-shuffled response factors. Query challenge controls alone cannot identify an unobserved treated fingerprint."
+    },
+    {
+      "id": "D5",
+      "hypothesis": "Pathway structure improves residual target-specific response rather than shared stress recovery.",
+      "design": "Use pinned Reactome membership for a small residual prior after subtracting training-only shared response. Compare zero effect, training perturbation centroid, V11, and pathway residual. Keep official common-control metrics and report descriptive perturbation-centered diagnostics separately.",
+      "negative_control": "Size/degree-matched shuffled pathway sets; exclude each target and its held functional group when testing extrapolation."
+    }
+  ]
+}

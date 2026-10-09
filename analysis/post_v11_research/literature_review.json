@@ -1,0 +1,90 @@
+{
+  "review_date": "2026-10-09",
+  "scope": "Primary scientific papers/methods, official documentation and separately identified participant evidence. Access depth is explicit; no claims about undisclosed leading teams.",
+  "sources": [
+    {
+      "id": "systema",
+      "title": "Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13271886/",
+      "reviewed_material": "Primary full-text results and evaluation-method excerpts",
+      "project_implication": "Shared stress and selection effects can inflate control-referenced similarities. Add generic-perturbation and shuffled-target controls; retain official scoring and add separate target-specific diagnostics."
+    },
+    {
+      "id": "linear_baselines",
+      "title": "Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12328236/",
+      "reviewed_material": "Primary abstract and linear/additive-method excerpts",
+      "project_implication": "Compare new networks with strong linear and mean-effect baselines under the same intervention split. This does not establish that every neural architecture fails at this competition."
+    },
+    {
+      "id": "scperturbench",
+      "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction",
+      "url": "https://www.nature.com/articles/s41592-025-02980-0",
+      "reviewed_material": "Primary abstract and data-availability sections; publisher full-page access failed",
+      "project_implication": "Generalization depends on context and task. Source family and technical platform must be held out explicitly; additional drug or cytokine data are not automatically CRISPRi training labels."
+    },
+    {
+      "id": "cellot",
+      "title": "Learning single-cell perturbation responses using neural optimal transport",
+      "url": "https://www.nature.com/articles/s41592-023-01969-x",
+      "reviewed_material": "Primary abstract and optimal-transport method sections; author repository",
+      "project_implication": "Unpaired population transport is relevant, but our integer moment fitter is not CellOT. Test distributions and covariance as well as population means; any neural OT model needs intervention training and held-context checks."
+    },
+    {
+      "id": "scvi",
+      "title": "Deep generative modeling for single-cell transcriptomics",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6289068/",
+      "reviewed_material": "Primary count-likelihood and dispersion method sections",
+      "project_implication": "Gene-specific count dispersion and latent cell states are separable. A gamma-Poisson pilot tests dispersion only; it is not a trained scVI model and does not preserve biological covariance."
+    },
+    {
+      "id": "mixscape",
+      "title": "Characterizing the molecular regulation of inhibitory immune checkpoints with multi-modal single-cell screens",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8011839/",
+      "reviewed_material": "Primary heterogeneous-response results and Mixscape description",
+      "project_implication": "Guide-bearing cells can include transcriptomic responders and nonresponders. Source efficacy scaling may mix response magnitude with responder fraction. Keep all genuine validation cells; do not assume knockout observations apply quantitatively to CRISPRi."
+    },
+    {
+      "id": "ash",
+      "title": "False discovery rates: a new deal",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5379932/",
+      "reviewed_material": "Primary empirical-Bayes and local false-sign-rate method sections",
+      "project_implication": "Estimate directional uncertainty rather than interpreting sign agreement as calibrated confidence. Local false-sign rates require a fitted posterior and validated likelihood; our z proxy is not one."
+    },
+    {
+      "id": "mash",
+      "title": "Flexible statistical methods for estimating and testing effects in genomic studies with multiple conditions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6309609/",
+      "reviewed_material": "Primary abstract/method summary and author software documentation",
+      "project_implication": "Learn heterogeneous sharing patterns instead of only scalar pooling. Mash does not automatically predict an entirely unmeasured context: that needs an explicit training-only mapping and whole-family validation."
+    },
+    {
+      "id": "rna_fingerprinting",
+      "title": "Mapping transcriptional responses to cellular perturbation dictionaries with RNA fingerprinting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12458102/",
+      "reviewed_material": "Primary factor-model/mapping sections and pinned author R/fit.R; author README links preprint 10.1101/2025.09.19.676866",
+      "project_implication": "Control-derived factors and a rank-one perturbation factor separate baseline state from response strength. Fingerprints live in a normalized residual space and are not directly count fold changes. Query mapping requires observed query responses; challenge controls alone cannot provide those."
+    },
+    {
+      "id": "viperturb",
+      "title": "Genome-wide single-cell perturbation screens with VIPerturb-seq",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919025/",
+      "reviewed_material": "Primary preprint methods/data availability and original Zenodo manifest",
+      "project_implication": "Probe-based K562 genetic data may reduce platform mismatch and expand evidence. The manifest gives all 300 targets but few cells per target; QC-filtered membership and actual knockdown need checking. Treat this as K562, not an independent lineage."
+    },
+    {
+      "id": "arc2026",
+      "title": "Behind the data: Virtual Cell Challenge 2026",
+      "url": "https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge-2026",
+      "reviewed_material": "Official experimental-design article",
+      "project_implication": "Probe-based challenge profiling and strong knockdown motivate platform-aware source checks. They do not identify anonymous contexts or establish transferability from controls."
+    },
+    {
+      "id": "sidechain",
+      "title": "Sidechain public model log, SER-15 and SER-14",
+      "url": "https://saberhq.com/sidechain/models/",
+      "reviewed_material": "Participant report checked 2026-10-09; not independently reproduced",
+      "project_implication": "A real-control emission experiment improved local tests but sharply reduced the reported leaderboard score. Preserve distribution realism as a diagnostic and require perturbation-level confirmation before replacement."
+    }
+  ]
+}
