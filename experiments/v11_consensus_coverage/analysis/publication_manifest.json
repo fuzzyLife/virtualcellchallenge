@@ -1,0 +1,46 @@
+{
+  "entry_id": "bmIAGveuEvFiYQTvz0Ma",
+  "recorder_sha256": "e4937ce9c527d22da3ca407286cd2d83c2d7d468d6b066876d601dc66be2a7a9",
+  "publication_artifact_sha256": {
+    "published_api_status.json": "5d614c8ddfaf5ce7b1e9f42cdeb65e35453460944e9e27b5459ecadd745e9701",
+    "leaderboard_result.json": "d72aa5a0140022734d6f257e508f1b83c8cc80b04ca2c557c45fe2fd3b4b32a7",
+    "leaderboard_comparison.csv": "6d9bc8ef6805f703eb8a5bea4cbf3d1281197ca37aa38a2e6c8d99e5e33b5515",
+    "raw_metric_comparison.csv": "c93757d2266e8f173ba11cb5160e2977af3c93b422a0d61811cce695ebe1d739",
+    "generation_submission_document.md": "f7adf3f35092a6967dbc8b36af626b8f3e6225fceeadfb09267e39acc3527ec2"
+  },
+  "publication_document_sha256": {
+    "V11_LEADERBOARD_RESULTS.md": "2145b19081114d7c90551e8c40323c0ebe1c42890978ae15c7d802e81c573697",
+    "V11_SUBMISSION.md": "d763bf57d2db6358cf7b5ef2ff26e4416a2d0d57da9888ba12c751a2bb45e7b8"
+  },
+  "generation_snapshot_sha256": {
+    "submission_ready.json": "599ab96283135d45c4b370c060c476f90fa136a68a603547c7f6284763cdec4c",
+    "independent_validation.json": "19760077a81355ee6dcbddd6e5a4cadff0a6542d1c5f484197aed594ecfca8db",
+    "reference_model.json": "8bc968716e2f04f33216d0c6da3d512f3a654aa9af02b5bd9d7cc375ae582e5a",
+    "count_selection.json": "5f6b36732fe170cdc408906fbb705ec1d78646b19416ffb02962f1972d9e4581",
+    "confirmation_result.json": "6e488e6ccd67d8feb11d3ccbaa609d1a218277f6db5d2a67d901629ce9de43ce",
+    "validation_plan.json": "65dbfe599da66beb3b684eaf98c737d199140321173a08f08e85e6cfcff32c25",
+    "decoder_neutral_manifest.json": "39672113fbb223d3560471cdf2a00747584f7fbbf77927168fd55667476f1244",
+    "documentation_validation.json": "0c601d101d37c116eade09cab6c097b27db92ac1e9a698b7cbe81a42e7774dee",
+    "model_validation.json": "166c53e66a32b2ded2fe1ab72394f6fbf551d4e4b3f07502c821923dc51a3acd",
+    "memory_safe_stage.json": "b27091178198748cd87be11c9cc2a96e53537f2e7a09ff3e222ae77750b0e4f6",
+    "runtime_versions.json": "626182fae9fb9b27053e3c608e48760b28e5c4d8b739473e9ac0c63f3fb35d3d",
+    "run_parameters.json": "e8adce7aaa3f4a3a991b50bb685ae95675f1df15a29428f4f067ddbf555f4980",
+    "prediction_validation.json": "624bac2e0b9bfdcb9dbafe275de1908529e2104a934711483a61de5f354208eb",
+    "development_evaluation.json": "fa0d318b2d898674e7f62e3949125a5556a5893d84f34430f164f2f08507e89b",
+    "confirmation_evaluation.json": "5caeea577385d1ad8d4927bad66c201b718922e9b16ed3e6828f7b8056357236",
+    "development_power_validation.json": "356f15bfb49f0710cd4a97e11f7e9fdd87306dd78ff59f442e9c5740c3d29624",
+    "confirmation_power_validation.json": "20acc50715e51f90140c9ab4dec64d66ca27e93ae377be2787fa55be1960ff54"
+  },
+  "original_documentation_record_points_to": "generation_submission_document.md",
+  "comparison_baseline_sha256": {
+    "v4": "201497c36978224b2fb2280174b312697c0d8df8ca51897daa1bfe0c65ce1aaa",
+    "v9": "db7a1957a963054fb6bdb69e526bdc7d465196879851242da4ce2d9bbc7b2875",
+    "v10": "f67acfe178ed141ec04a1b529426cfc48c81b938052be040073f1d0c62da5578"
+  },
+  "recorder_dependency_sha256": {
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "record_v5_result.py": "cb43a9d72e69ab93eca419a47f2038a516d02a752582a2e3b84a337215684693",
+    "record_v10_result.py": "6a5b1550295bb835c69f90ae9a60bc51915f912548810b0aaf6c9eebd8881d5e"
+  },
+  "scope": "Publication overlay only. Frozen numerical dependencies, generation, selection, confirmation and package unchanged."
+}

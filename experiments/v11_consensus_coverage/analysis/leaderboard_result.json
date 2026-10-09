@@ -1,0 +1,63 @@
+{
+  "source": "User-reported CLI publication confirmed with read-only vcc --json status.",
+  "recorded_utc": "2026-10-09T08:57:33.068257+00:00",
+  "entry_id": "bmIAGveuEvFiYQTvz0Ma",
+  "model_name": "Consensus-supported coverage and dispersion v11",
+  "final_status": "published",
+  "submitted_utc": "2026-10-09T08:16:34.765565Z",
+  "rank_at_user_report": 529,
+  "rank_at_api_check": 529,
+  "overall": 0.1370039741117335,
+  "metrics": {
+    "pds": 0.6382673747455824,
+    "mse": 0.024946411920956996,
+    "nmae": 0.0810581335806226,
+    "fid": -0.015859493628032434,
+    "reach": 0.08002167093476484,
+    "jac": 0.013589747116506833
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.7890486807878112,
+    "expr_mse_unbiased_capped_norm": 0.9871674104069514,
+    "de_wilcoxon_lfc_nmae": 0.9516056813144115,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.5080112615218627,
+    "de_wilcoxon_direction_reach_raw": 0.14950205187762003,
+    "de_wilcoxon_sig_jaccard": 0.03528203812179204
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "7841429ef987c43abcfb01a5be8f09864c5f8955e1bd7aae68fb4a03240be31d",
+  "upload_bytes": 4080977920,
+  "upload_duration_seconds": 996,
+  "overall_change_from_v10": 0.020249852747207794,
+  "raw_relative_change": {
+    "pds_cosine": 0.0388568968300953,
+    "expr_mse_unbiased_capped_norm": 0.04356694995849897,
+    "de_wilcoxon_lfc_nmae": -0.019278101506652434,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.004008660300960809,
+    "de_wilcoxon_direction_reach_raw": 0.24255512453688421,
+    "de_wilcoxon_sig_jaccard": 0.10897904043990159
+  },
+  "generation_snapshot_sha256": {
+    "submission_ready.json": "599ab96283135d45c4b370c060c476f90fa136a68a603547c7f6284763cdec4c",
+    "independent_validation.json": "19760077a81355ee6dcbddd6e5a4cadff0a6542d1c5f484197aed594ecfca8db",
+    "reference_model.json": "8bc968716e2f04f33216d0c6da3d512f3a654aa9af02b5bd9d7cc375ae582e5a",
+    "count_selection.json": "5f6b36732fe170cdc408906fbb705ec1d78646b19416ffb02962f1972d9e4581",
+    "confirmation_result.json": "6e488e6ccd67d8feb11d3ccbaa609d1a218277f6db5d2a67d901629ce9de43ce",
+    "validation_plan.json": "65dbfe599da66beb3b684eaf98c737d199140321173a08f08e85e6cfcff32c25",
+    "decoder_neutral_manifest.json": "39672113fbb223d3560471cdf2a00747584f7fbbf77927168fd55667476f1244",
+    "documentation_validation.json": "0c601d101d37c116eade09cab6c097b27db92ac1e9a698b7cbe81a42e7774dee",
+    "model_validation.json": "166c53e66a32b2ded2fe1ab72394f6fbf551d4e4b3f07502c821923dc51a3acd",
+    "memory_safe_stage.json": "b27091178198748cd87be11c9cc2a96e53537f2e7a09ff3e222ae77750b0e4f6",
+    "runtime_versions.json": "626182fae9fb9b27053e3c608e48760b28e5c4d8b739473e9ac0c63f3fb35d3d",
+    "run_parameters.json": "e8adce7aaa3f4a3a991b50bb685ae95675f1df15a29428f4f067ddbf555f4980",
+    "prediction_validation.json": "624bac2e0b9bfdcb9dbafe275de1908529e2104a934711483a61de5f354208eb",
+    "development_evaluation.json": "fa0d318b2d898674e7f62e3949125a5556a5893d84f34430f164f2f08507e89b",
+    "confirmation_evaluation.json": "5caeea577385d1ad8d4927bad66c201b718922e9b16ed3e6828f7b8056357236",
+    "development_power_validation.json": "356f15bfb49f0710cd4a97e11f7e9fdd87306dd78ff59f442e9c5740c3d29624",
+    "confirmation_power_validation.json": "20acc50715e51f90140c9ab4dec64d66ca27e93ae377be2787fa55be1960ff54"
+  },
+  "recorder_sha256": "e4937ce9c527d22da3ca407286cd2d83c2d7d468d6b066876d601dc66be2a7a9",
+  "interpretation": "Best published project submission. Five components improve over V10; expression accuracy declines. Response and dispersion change together; neutral-control bias remains."
+}

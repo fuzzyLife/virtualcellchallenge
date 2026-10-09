@@ -1,6 +1,12 @@
 # V11 verified submission
 
-Selected **consensus20_noise65**, setting `{"amplitude": 1.0, "bulk_amplitude": 1.0, "eligible": true, "noise": 0.65, "response": "consensus20"}`. V10 remains the best published project submission at 0.116754121 until another official result beats it. V11 has not been uploaded.
+<!-- V11 publication begin -->
+
+Published as `bmIAGveuEvFiYQTvz0Ma`, overall **0.137003974**, rank **529** in the user report and **529** at the recorded API check. V11 is the best published project submission, improving on V10 by **+0.020249853**. See [V11_LEADERBOARD_RESULTS.md](V11_LEADERBOARD_RESULTS.md).
+
+<!-- V11 publication end -->
+
+Selected **consensus20_noise65**, setting `{"amplitude": 1.0, "bulk_amplitude": 1.0, "eligible": true, "noise": 0.65, "response": "consensus20"}`. At generation time, V10 was the best published submission at 0.116754121. V11 is now published; the original generation-time document is archived in experiments/v11_consensus_coverage/analysis/generation_submission_document.md.
 
 See [V11_STRATEGY.md](V11_STRATEGY.md) for the hypothesis, source review, code, frozen candidate grid and reproduction.
 
@@ -107,13 +113,13 @@ Four focused scientific tests passed. The model audit verified 64 target/seed sp
 - Official prep, every packaged count/index/pointer/axis, all control provenance and depths: passed.
 - Exact replay: 12 groups, 88,958,400 gene counts.
 - SHA-256: `7841429ef987c43abcfb01a5be8f09864c5f8955e1bd7aae68fb4a03240be31d`
-- Uploaded: false. Leaderboard performance unknown.
+- Published: true. Generation-time upload=false JSON snapshots remain unchanged; the publication record supplies the official result.
 
-## Submit from Windows Command Prompt
+## Historical upload command (already published)
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v11_consensus_coverage\prediction.vcc -m "Consensus-supported coverage and dispersion v11" --wait
 ```
 
-If waiting is interrupted after upload, follow the existing entry with `vcc status <entry-id> --wait` instead of creating a duplicate.
+Inspect the existing published entry with `vcc status bmIAGveuEvFiYQTvz0Ma`. The historical submit command creates a duplicate entry.
