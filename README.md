@@ -26,6 +26,14 @@ V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_trans
 V9 is published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**. Official prep and independent full-payload audit passed. Its 50% count calibration improved five scaled metrics versus V4 but worsened fidelity enough to lower overall performance. V4 biological effects are unchanged. Public confirmation acceptance did not predict leaderboard improvement; its subset fidelity guard was too permissive. V4 remained best at V9 publication; V11 is now best. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md) and [V9_SUBMISSION.md](V9_SUBMISSION.md). V8 remains an unsubmitted diagnostic pilot.
 
 
+<!-- faq-audit:begin -->
+
+## FAQ review (2026-10-09)
+
+Reviewed all 50 FAQ answers and checked the current source/model axes and frozen provenance. The final round changes both contexts and the target panel; V11 remains a validation-specific artifact. Documented release/deadline information, external-resource guidance, context safeguards and two scoring/density wording details. See [FAQ_AUDIT.md](FAQ_AUDIT.md) and root script `audit_faq.py` for findings and reproduction. The prior evaluation audit and research plan remain unchanged.
+
+<!-- faq-audit:end -->
+
 <!-- evaluation-criteria-audit:begin -->
 
 ## Evaluation criteria audit (2026-10-09)

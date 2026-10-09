@@ -1,0 +1,80 @@
+{
+  "retrieved_utc": "2026-10-09T11:00:36.859552+00:00",
+  "faq_url": "https://virtualcellchallenge.org/faq",
+  "html_sha256": "11c921e977eae5bc63d92c473a8dbd1596ba9db8895d7569263346c5bcb87363",
+  "content_asset_url": "https://virtualcellchallenge.org/_next/static/chunks/334-291236033da9ac0d.js",
+  "content_asset_sha256": "8ab6ab697c9efc18fa4ba8981a0b1912ee7683823c4932aa26f9e100f697deab",
+  "questions_reviewed": 50,
+  "checks": {
+    "release_october_22_2026": true,
+    "final_submission_november_5_2026": true,
+    "validation_and_final_target_panels_differ": true,
+    "final_contexts_D_E_F": true,
+    "identities_not_published": true,
+    "no_separate_challenge_training_set": true,
+    "control_guide_structure": true,
+    "all_contexts_share_within_round_panel": true,
+    "context_label_swaps_not_diagnosed_by_score": true,
+    "external_data_allowed_with_rights": true,
+    "matched_crispri_flex_assay": true,
+    "two_daily_results": true,
+    "one_prize_considered_entry": true,
+    "explicit_stored_zeros_count_toward_limit": true,
+    "validation_test_scores_not_directly_comparable": true,
+    "faq_high_end_wording_is_unbounded": true
+  },
+  "current_partition": "val",
+  "current_context_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "current_target_count": 300,
+  "current_target_and_source_axes_match": true,
+  "stored_entries_from_archived_full_validation": 2375850660,
+  "stored_entry_limit_fraction": 0.5001790863157894,
+  "strict_per_cell_below_1_CPM_pruning_is_noop_at_valid_raw_count_depths": true,
+  "script_sha256": "e130911120419efa7ab49301d15f77a6bb12ad0e516faab7daa33dc19dbc578a",
+  "source_code_evidence": {
+    "build_submission.py": {
+      "line": 148,
+      "sha256": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce"
+    },
+    "build_v11_submission.py": {
+      "line": 35,
+      "sha256": "99de8cddc452a715906193807d7adf084e7a37ff5ac088bfb8d43a11012f7aeb"
+    },
+    "fit_v11_submission.py": {
+      "line": 17,
+      "sha256": "968db0df4b1b2c718fd79b05574fbda3578190b1ee7aee15dc080d2fb9cc61dd"
+    }
+  },
+  "input_sha256": {
+    "v11_methods.py": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+    "prepare_v11_validation.py": "7561a0549d6e37ecb55f6251de005c3b8a90cc528a1ea75f8c07826b1e981dac",
+    "evaluate_v11_submission.py": "acd376af708811f671320546ddc18523942bb9660429ecfdd4b0efb868cc32fb",
+    "select_v11_submission.py": "b917d1cc63ad1e80e970b4dead34d9c98eee3a7b8c3aeb43ab37bb82e821ec52",
+    "fit_v11_submission.py": "968db0df4b1b2c718fd79b05574fbda3578190b1ee7aee15dc080d2fb9cc61dd",
+    "build_v11_submission.py": "99de8cddc452a715906193807d7adf084e7a37ff5ac088bfb8d43a11012f7aeb",
+    "validate_v11_submission.py": "46a76f47bd42f8b60d9cd97d67603209741eea5a79df69e31f840d15ad07c323",
+    "benchmark_v11_neutral.py": "d6941abeca40addf6b5e1fd27e87c1f281a4da2b7f3b1d1a493532d0b6581154",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "build_v5_submission.py": "1bda5123313780a59e187902376d34519222543f359a8642733b9f82b2a4fa87",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "select_v8_safe_generator.py": "3ea684ba4880ffea2cbb18c82f0c9d0222aa28bafa1c42e3f2b7cacc9d2baa35",
+    "audit_v11_cell_power.py": "4bf88d6d701fcfb76a896ee39f7fcae4a9ef13b11b857f8768968ebde38d8b8b",
+    "analysis/post_v11_research/future_experiment_plan.json": "63d5d7ee743dabef0073fe7e053849044bba45a44526683889f854e946cee16c",
+    "manifest.json": "2c2b5d425df817ca35e9edf08282d12494ce42913ba824375bf0f98a1cc676f5",
+    "gene_names.csv": "25bfa66715e186bebabce7ac788bbcea47e2bf59ca70be1f8f3a06f2f0e47201",
+    "pert_counts.csv": "f57edd7b912ebd718efc7ee9d0f334772513e7cc418d133ce525470e373b3276"
+  },
+  "frozen_dependencies_verified": 18,
+  "frozen_generation_snapshots_verified": 17,
+  "prior_evaluation_audit_and_research_plan_unchanged": true,
+  "scope": "Read-only FAQ and axis/provenance audit. Previous full-payload validation read, not rerun. No final inputs available or final-target overlap inferred."
+}

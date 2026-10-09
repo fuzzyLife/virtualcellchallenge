@@ -65,3 +65,8 @@
 /*evaluation_criteria*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /EVALUATION_CRITERIA_AUDIT.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /analysis/evaluation_criteria_audit/** -text whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve FAQ audit provenance bytes.
+/audit_faq.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/FAQ_AUDIT.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/analysis/faq_audit/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
