@@ -1,0 +1,175 @@
+{
+  "passed": true,
+  "script_sha256": "fa3fad6d7ae3d7509370954df839d73aea0dbea8977e3964d247cd5387f0f61e",
+  "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+  "official_module_scope": "Unchanged official de.py, metrics/de.py, metrics/direction.py executed; package CLI initialization bypassed, no hosted or full counts pipeline parity claim",
+  "runtime": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "pandas": "3.0.1",
+    "polars": "1.38.1",
+    "scipy": "1.17.1"
+  },
+  "local_dependencies": {
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "audit_evaluation_criteria.py": "c68ac9bd50eefd034c914b3160ba082a6022ba660def26fe4a67c46865c26c2d"
+  },
+  "fixtures": [
+    {
+      "case": "NMAE gate 9 after own-gene exclusion",
+      "local": {
+        "fidelity": 0.0,
+        "reach": 0.0,
+        "jaccard": 1.0,
+        "nmae": 1.0
+      },
+      "official": {
+        "fidelity": 0.0,
+        "reach": 0.0,
+        "jaccard": 1.0,
+        "nmae": null
+      },
+      "expected_mismatches": [
+        "nmae"
+      ]
+    },
+    {
+      "case": "NMAE gate 10 after own-gene exclusion",
+      "local": {
+        "fidelity": 0.0,
+        "reach": 0.0,
+        "jaccard": 1.0,
+        "nmae": 1.0
+      },
+      "official": {
+        "fidelity": 0.0,
+        "reach": 0.0,
+        "jaccard": 1.0,
+        "nmae": 1.0
+      },
+      "expected_mismatches": []
+    },
+    {
+      "case": "FID rewards correct signs beyond reference-significant genes",
+      "local": {
+        "fidelity": 1.0,
+        "reach": 1.0,
+        "jaccard": 0.2857142857142857,
+        "nmae": 0.0
+      },
+      "official": {
+        "fidelity": 1.0,
+        "reach": 1.0,
+        "jaccard": 0.2857142857142857,
+        "nmae": null
+      },
+      "expected_mismatches": [
+        "nmae"
+      ]
+    },
+    {
+      "case": "Reach includes predicted-nonsignificant reference responses",
+      "local": {
+        "fidelity": 0.2857142857142857,
+        "reach": 1.0,
+        "jaccard": 0.2857142857142857,
+        "nmae": 0.0
+      },
+      "official": {
+        "fidelity": 0.2857142857142857,
+        "reach": 1.0,
+        "jaccard": 0.2857142857142857,
+        "nmae": 0.0
+      },
+      "expected_mismatches": []
+    },
+    {
+      "case": "Reach can recover to 90 percent purity after a leading miss",
+      "local": {
+        "fidelity": 0.9,
+        "reach": 1.0,
+        "jaccard": 1.0,
+        "nmae": 0.3
+      },
+      "official": {
+        "fidelity": 0.9,
+        "reach": 1.0,
+        "jaccard": 1.0,
+        "nmae": 0.3
+      },
+      "expected_mismatches": []
+    },
+    {
+      "case": "Significant real genes with no adjudicable direction give reach zero",
+      "local": {
+        "fidelity": 0.0,
+        "reach": null,
+        "jaccard": 1.0,
+        "nmae": "inf"
+      },
+      "official": {
+        "fidelity": 0.0,
+        "reach": 0.0,
+        "jaccard": 1.0,
+        "nmae": null
+      },
+      "expected_mismatches": [
+        "reach",
+        "nmae"
+      ]
+    },
+    {
+      "case": "Own-target fold change is excluded from all four DE metrics",
+      "local": {
+        "fidelity": 1.0,
+        "reach": 1.0,
+        "jaccard": 1.0,
+        "nmae": 0.0
+      },
+      "official": {
+        "fidelity": 1.0,
+        "reach": 1.0,
+        "jaccard": 1.0,
+        "nmae": 0.0
+      },
+      "expected_mismatches": []
+    }
+  ],
+  "constant_prediction_pds": 0.5,
+  "continuity_boundary": {
+    "cells_per_group": 9,
+    "shift": 3,
+    "local_continuity_q": 0.05133246617264852,
+    "no_continuity_q": 0.04626382022729261,
+    "scope": "Analytic scanpy-style comparator; production backend not run"
+  },
+  "archive_input_sha256": {
+    "experiments\\v11_consensus_coverage\\analysis\\development_scores.csv": "bde2cd6b7f4fd911dac3d2b2b249511b593d4d35c0bf63779f3a634f3b35d83e",
+    "experiments\\v11_consensus_coverage\\analysis\\confirmation_scores.csv": "8c987ae3f24bd38b78bac1e8bc3844d776078cee5cd6c8dc53b83129f4c00207",
+    "analysis\\post_v11_research\\future_experiment_plan.json": "63d5d7ee743dabef0073fe7e053849044bba45a44526683889f854e946cee16c"
+  },
+  "publication_input_sha256": "5d614c8ddfaf5ce7b1e9f42cdeb65e35453460944e9e27b5459ecadd745e9701",
+  "published_overall": 0.1370039741117335,
+  "scaled_components": {
+    "pds": 0.6382673747455824,
+    "mse": 0.024946411920956996,
+    "nmae": 0.0810581335806226,
+    "fid": -0.015859493628032434,
+    "reach": 0.08002167093476484,
+    "jac": 0.013589747116506833
+  },
+  "overall_contributions": {
+    "pds": 0.10637789579093039,
+    "mse": 0.0041577353201595,
+    "nmae": 0.013509688930103765,
+    "fid": -0.0026432489380054055,
+    "reach": 0.013336945155794139,
+    "jac": 0.002264957852751139
+  },
+  "pds_fraction_of_net_overall": 0.776458467578276,
+  "frozen_provenance_verified": {
+    "frozen_v11_dependencies": 18,
+    "frozen_generation_snapshots": 17
+  }
+}

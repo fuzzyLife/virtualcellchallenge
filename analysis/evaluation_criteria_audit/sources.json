@@ -1,0 +1,87 @@
+{
+  "retrieved_utc": "2026-10-09T10:38:11.438077+00:00",
+  "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+  "official_commit_date": "2026-10-01T23:21:23Z",
+  "existing_v8_review_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+  "sources": {
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/LICENSE",
+      "sha256": "694107f9a49e6797fb706690f11d5db334e880c7b880e7b2a54044fdfe047359",
+      "same_as_v8_review": true
+    },
+    "pyproject.toml": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/pyproject.toml",
+      "sha256": "16a914e80fe3e289251effd32906a0c0bfafcd27613fea1f6e3f3267477c110a",
+      "same_as_v8_review": true
+    },
+    "docs/vcc2026_metrics/vcc2026-metrics.md": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/docs/vcc2026_metrics/vcc2026-metrics.md",
+      "sha256": "51c67e0930fde56952d57f077429cd803a963bee2b15755c2f222d415efb57ab",
+      "same_as_v8_review": null
+    },
+    "docs/vcc2026_metrics/vcc2026-metrics-brief.md": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/docs/vcc2026_metrics/vcc2026-metrics-brief.md",
+      "sha256": "738bb966e995baf62891b6231834ac308b016f1ac225962ebc370e395d8c994d",
+      "same_as_v8_review": null
+    },
+    "src/cell_eval2/de.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/de.py",
+      "sha256": "525b19837c7b42c15838d9f2c053ae19f4108872329d183e4d977620ebe316df",
+      "same_as_v8_review": null
+    },
+    "src/cell_eval2/competition.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/competition.py",
+      "sha256": "6e98756416bf74b5ac13f729059cdeb5dd566c8edb65bdc7a9b1ff98c3dadfb4",
+      "same_as_v8_review": null
+    },
+    "src/cell_eval2/scoring.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/scoring.py",
+      "sha256": "ebf2586125787a77454c94d7e49f1d63c5031b46d5a33c068ae55b8ccc4df1f9",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/configs/vcc2026.yaml": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/configs/vcc2026.yaml",
+      "sha256": "1a385a53ba9c59d44b56755ef48d8a6713eefe8822fbeef96fc20ab9a8047a32",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/de_compute.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/de_compute.py",
+      "sha256": "d2ab56cd4c0fed1d4f6d9a1861ae696917d0cef8bdc01a806dfa74bc215f1bde",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/metrics/de.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/metrics/de.py",
+      "sha256": "6cb7bee7cad59c2a20e45d68ca75b8696723cacc56b8dc94da92ac7676813038",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/metrics/direction.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/metrics/direction.py",
+      "sha256": "45964b5991b4bb702f41b2a557d7c7f81a31f758846856080ad97a4360af5d0b",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/metrics/discrimination.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/metrics/discrimination.py",
+      "sha256": "34802605c5bec46a845088048cb5bff2c7b4266d17ce1a68936a94bb72188b5d",
+      "same_as_v8_review": true
+    },
+    "src/cell_eval2/metrics/delta.py": {
+      "url": "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/0ce25cf4c495e76e60dfca4ddc8f822507aa0e18/src/cell_eval2/metrics/delta.py",
+      "sha256": "6067d0c5bd7cac4715406cd4935ec86326e91c6217f204f6bfc5b0a7bb948a8c",
+      "same_as_v8_review": true
+    }
+  },
+  "website": {
+    "url": "https://virtualcellchallenge.org/evaluation",
+    "html_sha256": "52cb5fd5cdf3b7012c98cbe0253bee0d19117ecdf6b18a9759059576d9cb3a4f",
+    "asset_url": "https://virtualcellchallenge.org/_next/static/chunks/app/(public)/evaluation/page-83d97ad9fca21302.js",
+    "asset_sha256": "de19508e3e922eec2359e3a710f097ac92f2d4ce8b1da09afa19331fdd5c65da",
+    "checked_strings": {
+      "The overall score is a single unweighted average over the six metrics and the three cell contexts": true,
+      "4,750,000,000 stored entries": true,
+      "400 cells for every perturbation": true,
+      "18,533 genes": true,
+      "1,000,000 counts": true,
+      "No non-targeting rows.": true
+    }
+  }
+}

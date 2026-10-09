@@ -26,6 +26,14 @@ V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_trans
 V9 is published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**. Official prep and independent full-payload audit passed. Its 50% count calibration improved five scaled metrics versus V4 but worsened fidelity enough to lower overall performance. V4 biological effects are unchanged. Public confirmation acceptance did not predict leaderboard improvement; its subset fidelity guard was too permissive. V4 remained best at V9 publication; V11 is now best. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md) and [V9_SUBMISSION.md](V9_SUBMISSION.md). V8 remains an unsubmitted diagnostic pilot.
 
 
+<!-- evaluation-criteria-audit:begin -->
+
+## Evaluation criteria audit (2026-10-09)
+
+Compared the live rules and pinned official scorer with our V11 validation, and executed seven official metric-function fixtures. Found the missing ten-gene NMAE gate: applying it leaves only 4/36 sampled-400 development cases eligible, all H1. Official context-specific reference scaling also differs from our selection proxy. The published V11 score is valid; discrimination contributes 77.6% of its net total, while fidelity, expression and overlap remain weak. See [EVALUATION_CRITERIA_AUDIT.md](EVALUATION_CRITERIA_AUDIT.md) for evidence, tests and the proposed validation amendment. Frozen models, packages and prior plans are preserved.
+
+<!-- evaluation-criteria-audit:end -->
+
 <!-- post-v11-research:begin -->
 
 ## Post-V11 research and tests
