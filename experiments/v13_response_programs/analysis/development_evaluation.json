@@ -1,0 +1,62 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "6e5a0af6cc8466a0ef8932a0a97bdf7547f088c3490eb4f38aea2bacdff40f16",
+    "methods": "a21e83f6a20c92de11162b1df9b7f0568d3abcb81f47f80590cf68fdeb320bc0",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "14f53a23734efe870800e53d802997eecce2b44cee700be5174e49c62f74d9a4",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "program8_blend25": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "program32_blend25": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "3693b73bc958a55bb0a698e15aa029a9f55039f5df8c09bd835966b2e9f2c9f1",
+  "panels_sha256": "d72e5b587818b36bc5262ee8247d59cc18ac6cd7c66db5dfdb02476d7fe101ba",
+  "summary_sha256": "264940dbb04b346a288e21a76ef84a898db6a690456eb569daad11c0272a1b25",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "program8_blend25": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "program32_blend25": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

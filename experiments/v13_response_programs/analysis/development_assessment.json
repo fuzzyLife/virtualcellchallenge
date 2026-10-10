@@ -1,0 +1,126 @@
+{
+  "stage": "development",
+  "passing_candidates": [],
+  "results": {
+    "program32_blend25": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": false,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": -0.023611111111111027,
+            "fidelity": -0.0072198913112869745,
+            "reach": -0.010186191124474775,
+            "jaccard": -0.0020690654918474813,
+            "nmae": 0.01217411085727882,
+            "common_expression_ratio": 0.006359465328962477
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": -0.009722222222222188,
+            "fidelity": -0.0026531402201953602,
+            "reach": -0.01944879530026916,
+            "jaccard": -0.0018373329511966116,
+            "nmae": 0.006510670438675148,
+            "common_expression_ratio": 0.005876791848609564
+          }
+        }
+      }
+    },
+    "program8_blend25": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": false,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": -0.02083333333333326,
+            "fidelity": -0.008628045333003542,
+            "reach": -0.02260985585613695,
+            "jaccard": -0.0019850771250040644,
+            "nmae": 0.015497795212157994,
+            "common_expression_ratio": 0.01121272881968216
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": -0.009722222222222188,
+            "fidelity": -0.002962511696973036,
+            "reach": 0.008517646784522492,
+            "jaccard": -0.0020063595791634525,
+            "nmae": 0.012705979228487596,
+            "common_expression_ratio": 0.010548478242625281
+          }
+        }
+      }
+    }
+  },
+  "missing_metric_panels": [
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "program8_blend25",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "program32_blend25",
+      "reference_mode": "sampled400"
+    }
+  ],
+  "scores_sha256": "3693b73bc958a55bb0a698e15aa029a9f55039f5df8c09bd835966b2e9f2c9f1",
+  "plan_sha256": "6e5a0af6cc8466a0ef8932a0a97bdf7547f088c3490eb4f38aea2bacdff40f16",
+  "scope": "Prespecified V13 raw guards. Full-independent references primary and complete; secondary NMAE missingness is disclosed. These are public development data, not hidden competition performance."
+}

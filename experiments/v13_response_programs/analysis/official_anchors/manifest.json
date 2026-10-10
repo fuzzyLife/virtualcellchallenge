@@ -1,0 +1,86 @@
+{
+  "completed": true,
+  "panels": [
+    {
+      "context": "H1_controlstratum0",
+      "family": "H1",
+      "real_sha256": "6c2673e5404a55a695ed4f28056afc77d61376037ed3ad2ac130a4357a4fd172",
+      "n_splits": 5,
+      "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "baseline_emit": "dispersed",
+      "backend": "scanpy CPU",
+      "files_sha256": {
+        "H1_controlstratum0_baseline.csv": "33380392c10db67324b3368e3b7290a5ee263073c22fb02c3c1461bfc777a751",
+        "H1_controlstratum0_baseline_targets.csv": "bb628959620182de8a3674700cd0b58fcda2c17c48b9ce71e55e202c1ae8a9da",
+        "H1_controlstratum0_replicate.csv": "b68a952169a55c8da1baf2a004930704f614fe8fffbeafcc58d10c6d2cedc418",
+        "H1_controlstratum0_replicate_splits.csv": "b45d729f4e685184bfbde5a764f598e91d4754e958cd059991d5910c956edf3c"
+      },
+      "scope": "Public source context comparator; not private competition anchor."
+    },
+    {
+      "context": "HCT116_controlstratum0",
+      "family": "HCT116",
+      "real_sha256": "a184cf9704da309ed83d1b93b36701c9efb83c8bd9e5da1fee38f0f1a292afbe",
+      "n_splits": 5,
+      "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "baseline_emit": "dispersed",
+      "backend": "scanpy CPU",
+      "files_sha256": {
+        "HCT116_controlstratum0_baseline.csv": "a6f070e9304c8ca5fb6bf19deef74fbc2ccdc152afe8a113cf9e03a85cd4a108",
+        "HCT116_controlstratum0_baseline_targets.csv": "21a54bb4f0492e96980a15fa6a2cdc1179eec99fda54947ea034631ece9c523c",
+        "HCT116_controlstratum0_replicate.csv": "38b9c2ecee7b809393669a57f00e2c22ca8ec0ee9e330a39485c2f58826bcf55",
+        "HCT116_controlstratum0_replicate_splits.csv": "bd13f1a87ecacd89c27981a8980fc26de70a8ead8bdd73638bd5ccb7f3c044d9"
+      },
+      "scope": "Public source context comparator; not private competition anchor."
+    },
+    {
+      "context": "HCT116_controlstratum1",
+      "family": "HCT116",
+      "real_sha256": "ae6264d9ca2aa0c5587a29382913fcbd3ecaab19e8f31f0a4d6e2b59ab2cc1e4",
+      "n_splits": 5,
+      "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "baseline_emit": "dispersed",
+      "backend": "scanpy CPU",
+      "files_sha256": {
+        "HCT116_controlstratum1_baseline.csv": "17f146d52af8e15d33b636ebe966dd4472178132eb01a18cc4ea989014d4b750",
+        "HCT116_controlstratum1_baseline_targets.csv": "8de145631a7d6e6a5b4d464ea89641564d7d05b64f39189f8b6c5e40d8122a04",
+        "HCT116_controlstratum1_replicate.csv": "e29236fb5d6dede4a68a50daf875c3ac24f6fda614568eb2ee0a67c4d9a1d5ff",
+        "HCT116_controlstratum1_replicate_splits.csv": "4ebea1d86c2581239860a78b9791e87f69f6d9099d1a661642f4669e5c019d3e"
+      },
+      "scope": "Public source context comparator; not private competition anchor."
+    },
+    {
+      "context": "HEK293T_controlstratum0",
+      "family": "HEK293T",
+      "real_sha256": "f839dc5c98b909819550a9df737d6c80cb5220cb8cc0e4947d728901aa35e5c6",
+      "n_splits": 5,
+      "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "baseline_emit": "dispersed",
+      "backend": "scanpy CPU",
+      "files_sha256": {
+        "HEK293T_controlstratum0_baseline.csv": "bf37921ccb977203d4c87475906ab1eb8d8531923cae9e26f55fac213ea74361",
+        "HEK293T_controlstratum0_baseline_targets.csv": "4ef33e129d096ed97eb7e2948591e1385dd079e5564249f58cbec13fbba6e909",
+        "HEK293T_controlstratum0_replicate.csv": "b58a6520cfeefd26f9cc512e705416b4165ffb228a1bf9e8d54496c67d7605ea",
+        "HEK293T_controlstratum0_replicate_splits.csv": "7b845cebea6e8f544b83498558e79a9d6d7970b28ede69a608e9a3c923839f03"
+      },
+      "scope": "Public source context comparator; not private competition anchor."
+    },
+    {
+      "context": "HEK293T_controlstratum1",
+      "family": "HEK293T",
+      "real_sha256": "e5e7d42a925c8d20a2bbb736914bcaefd6ba4126c4b6482c8f7cb635825d6299",
+      "n_splits": 5,
+      "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+      "baseline_emit": "dispersed",
+      "backend": "scanpy CPU",
+      "files_sha256": {
+        "HEK293T_controlstratum1_baseline.csv": "e6af2f3513233086f7b9f69085ef40b42511dfce52e66f6d781937725ff397f0",
+        "HEK293T_controlstratum1_baseline_targets.csv": "3027f9418dd4d99e6104ebcef811fafb9ded041ea6538447c285829c4daaffb4",
+        "HEK293T_controlstratum1_replicate.csv": "823ef3835a31fa303c266908fd2d4077ba94bca993bc57660ec0e72968f1a542",
+        "HEK293T_controlstratum1_replicate_splits.csv": "640d76f778273bca61ee9075516aa7d97c03804410e83540f862618f4c5c3bb8"
+      },
+      "scope": "Public source context comparator; not private competition anchor."
+    }
+  ],
+  "script_sha256": "f9d88ff17557743f0947c5708d4fb775396421f90079c5ad76bc6c867bb8ded7"
+}

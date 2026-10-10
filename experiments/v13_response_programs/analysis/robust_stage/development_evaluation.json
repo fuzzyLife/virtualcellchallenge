@@ -1,0 +1,62 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "f072207e46f026f7e4f5f8115db3f147a037d93c1f8972bdfd276402ee215f4d",
+    "methods": "feebabbb7ecbe09421519f9d370cecdafc18684557f5811b2ed21f9429a80887",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "98074b25d5cfcdfabc2dd5759740923fd0a3d704c4889c74f7a6dd2ccc106624",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "student3": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "robust050": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "c104323456c070c2bfef8d6a838ed9c429abcbc0e263da0349f3a0cc5600a003",
+  "panels_sha256": "c62937c2646b8e92988990f7d95a65af5df18bec20fe2dc6e7ecb1aadeb2fa60",
+  "summary_sha256": "d4d9ab496f82b1a6ccc6123cda077f1fd4c9653791bae4f4d5bb0cbdfdf7f7aa",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "student3": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "robust050": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

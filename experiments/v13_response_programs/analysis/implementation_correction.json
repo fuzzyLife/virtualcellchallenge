@@ -1,0 +1,4 @@
+{
+  "correction": "Use nanmedian for masked uncertainty rather than median with masked NaNs. Initial run interrupted after the K562 fold completed; its scores were not inspected. Preserve initial plan and fold output; repaired code frozen before repaired outcomes.",
+  "initial_fold_sha256": "4db38296463a3d8e0e061e1bfeb87ab9adc1778a01b145eef556cbeacd9babc5"
+}

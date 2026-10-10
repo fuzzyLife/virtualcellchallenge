@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    "v11",
+    "robust025",
+    "robust050",
+    "student3"
+  ],
+  "reserved_targets": [
+    41,
+    46,
+    117,
+    121,
+    133,
+    134,
+    135,
+    136,
+    213,
+    215,
+    223,
+    241,
+    246,
+    255
+  ],
+  "previous_plan_sha256": "408d90daba410c8a52fa5c6d2d47ec1b1cdfeae18000fafc8bd06f7928135af7",
+  "whole_family_exclusion": true,
+  "methods_sha256": "feebabbb7ecbe09421519f9d370cecdafc18684557f5811b2ed21f9429a80887",
+  "script_sha256": "a36ad3c115a38811fd1ce17fcb5d69863e0700d916c05494118d58c06eaf4beb",
+  "selection": "Advance the best two nonbaseline mean family-balanced proxy objectives to actual count validation; summary improvement alone is insufficient."
+}

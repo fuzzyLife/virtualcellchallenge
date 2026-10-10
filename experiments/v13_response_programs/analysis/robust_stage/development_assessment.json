@@ -1,0 +1,126 @@
+{
+  "stage": "development",
+  "passing_candidates": [],
+  "results": {
+    "robust050": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": 0.0002687821450944039,
+            "reach": -0.014240619617751193,
+            "jaccard": -0.00019928226903911245,
+            "nmae": 0.003544178710288337,
+            "common_expression_ratio": 0.0011315560403872826
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": 0.0004509540118015076,
+            "reach": -0.006187266531815061,
+            "jaccard": -8.918862624340829e-05,
+            "nmae": 0.00024389289732873465,
+            "common_expression_ratio": 0.0010516086367404753
+          }
+        }
+      }
+    },
+    "student3": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": 0.016666666666666607,
+            "fidelity": 0.0023343147390271213,
+            "reach": 0.0046841470443650945,
+            "jaccard": 0.0006628591900252404,
+            "nmae": -0.005106577616700747,
+            "common_expression_ratio": 0.0030423173306006746
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": 0.011111111111111072,
+            "fidelity": 0.0007099359326313559,
+            "reach": 0.02228022583586503,
+            "jaccard": 0.0004805650283309787,
+            "nmae": -0.00982429165930565,
+            "common_expression_ratio": 0.002999075007804608
+          }
+        }
+      }
+    }
+  },
+  "missing_metric_panels": [
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "student3",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "robust050",
+      "reference_mode": "sampled400"
+    }
+  ],
+  "scores_sha256": "c104323456c070c2bfef8d6a838ed9c429abcbc0e263da0349f3a0cc5600a003",
+  "plan_sha256": "f072207e46f026f7e4f5f8115db3f147a037d93c1f8972bdfd276402ee215f4d",
+  "scope": "Prespecified V13 raw guards. Full-independent references primary and complete; secondary NMAE missingness is disclosed. These are public development data, not hidden competition performance."
+}

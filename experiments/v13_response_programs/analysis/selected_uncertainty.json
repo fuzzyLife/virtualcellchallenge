@@ -1,0 +1,125 @@
+{
+  "candidate": "unknown_kd",
+  "results": {
+    "development": {
+      "conditional_DE_bootstrap_95pct": {
+        "fidelity": {
+          "low": -0.0008638758006808569,
+          "high": 0.00012718918420565568
+        },
+        "reach": {
+          "low": 6.3300584973244e-07,
+          "high": 7.447871525374204e-05
+        },
+        "jaccard": {
+          "low": -0.0005130780733606122,
+          "high": -1.9633348839121833e-06
+        },
+        "nmae": {
+          "low": 0.000915272097009743,
+          "high": 0.000959139584413254
+        }
+      },
+      "eligible_family_count_per_metric": {
+        "fidelity": 3,
+        "reach": 3,
+        "jaccard": 3,
+        "nmae": 3,
+        "pds": 3,
+        "common_expression_ratio": 3
+      },
+      "point_family_balanced_delta": {
+        "fidelity": -0.0002767424576889758,
+        "reach": 2.3274216822600596e-05,
+        "jaccard": -0.0001580945248374748,
+        "nmae": 0.0009420911839079782,
+        "pds": 0.0,
+        "common_expression_ratio": -0.002230559517845787
+      },
+      "family_minimum_delta": {
+        "fidelity": -0.0006439977493500892,
+        "reach": 0.0,
+        "jaccard": -0.0004818080590976992,
+        "nmae": -3.9303026022619036e-05,
+        "pds": 0.0,
+        "common_expression_ratio": -0.004067467554280668
+      },
+      "family_maximum_delta": {
+        "fidelity": 0.0004220899534669309,
+        "reach": 6.982265046780178e-05,
+        "jaccard": 7.078481812925266e-06,
+        "nmae": 0.002898864586245331,
+        "pds": 0.0,
+        "common_expression_ratio": -0.001283687120487098
+      },
+      "fixed_families": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "scores_sha256": "96eede25afaafe7b86b24d3cb3373fe33ae5f83b88d9bce0d8c5c010a1f229c2"
+    },
+    "confirmation": {
+      "conditional_DE_bootstrap_95pct": {
+        "fidelity": {
+          "low": 0.0001957875685311763,
+          "high": 0.0021922515125254215
+        },
+        "reach": {
+          "low": 0.0,
+          "high": 0.0
+        },
+        "jaccard": {
+          "low": -0.0001765797853656988,
+          "high": 0.00019466347959026868
+        },
+        "nmae": {
+          "low": 0.0,
+          "high": 0.0
+        }
+      },
+      "eligible_family_count_per_metric": {
+        "fidelity": 2,
+        "reach": 2,
+        "jaccard": 2,
+        "nmae": 2,
+        "pds": 2,
+        "common_expression_ratio": 2
+      },
+      "point_family_balanced_delta": {
+        "fidelity": 0.0010328488701001892,
+        "reach": 0.0,
+        "jaccard": 1.0813661203275e-05,
+        "nmae": 0.0,
+        "pds": 0.0,
+        "common_expression_ratio": -0.03522024578900795
+      },
+      "family_minimum_delta": {
+        "fidelity": 0.00039438232238375726,
+        "reach": 0.0,
+        "jaccard": -2.573740592025711e-06,
+        "nmae": 0.0,
+        "pds": 0.0,
+        "common_expression_ratio": -0.0543289473556392
+      },
+      "family_maximum_delta": {
+        "fidelity": 0.0016713154178166212,
+        "reach": 0.0,
+        "jaccard": 2.420106299857571e-05,
+        "nmae": 0.0,
+        "pds": 0.0,
+        "common_expression_ratio": -0.016111544222376706
+      },
+      "fixed_families": [
+        "HCT116",
+        "HEK293T"
+      ],
+      "scores_sha256": "a6b200cb25b20882c8fe955190da7a0184e37952fefa951768f303e4e1b2da3b"
+    }
+  },
+  "draws": 2000,
+  "seed": 2026101049,
+  "bootstrap": "Bayesian target bootstrap conditional on the available source families; shared target weight across technical strata and seeds. Panel/seed hierarchy follows the evaluation.",
+  "limits": "Not a confidence interval over unseen cell lineages. Seeds and cells are not independent biological experiments. PDS/expression are nonlinear panel metrics: only paired family point ranges are reported for them. Selection used development; confirmation was frozen once.",
+  "script_sha256": "044c3e74c3433526f796d5ba4739604bec21d6bac74c3725c04d8039f6ae6f62"
+}

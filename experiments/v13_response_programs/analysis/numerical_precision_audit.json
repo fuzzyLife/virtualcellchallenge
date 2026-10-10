@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "KD_corrected_targets": 65,
+  "other_targets": 235,
+  "maximum_absolute_LFC_change_on_other_targets": 8.344650268554688e-07,
+  "mean_absolute_LFC_change_on_other_targets": 4.850085333352183e-10,
+  "all_context_target_response_vectors_bitwise_changed": 888,
+  "explanation": "The V13 pooling implementation retains float64 intermediates where V11 casts pooled mean/variance to float32 before shrinkage. These low-bit changes are included in the frozen, count-tested candidate. They prevent exact reuse even where KD is unchanged; do not describe V13 as a bitwise single-change ablation.",
+  "scope": "Post-freeze arithmetic audit only; no predictor changes or retuning.",
+  "old_arrays_sha256": "414a3ce7374c3189d2f035dd4e0b62d8ff36c7434729b618587265017767a249",
+  "new_arrays_sha256": "b071aa7c439f2216362a925c06a43623e440af5e56e6b0aa05ff781109c4893f",
+  "script_sha256": "bc912a5b334bd356352456ea3e3f3fefa492808cb26915a3b9251da30a615843"
+}

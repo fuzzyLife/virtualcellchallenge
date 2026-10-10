@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-10T18:24:24.835855+00:00",
+  "seed": 20261011,
+  "setting": {
+    "response": "consensus20",
+    "amplitude": 1.0,
+    "noise": 0.65,
+    "bulk_amplitude": 1.0,
+    "eligible": true
+  },
+  "response_candidate": "unknown_kd",
+  "knockdown_assumption": 0.9,
+  "generator_sha256": "2201dee9dd08c1c09c49431d397485efb53233eeba34c74a180fbde1b065b382",
+  "methods_sha256": "e078d57a7c4db124a7664410d6185d95e3664a71119e6def29b5f10d7d9f72b3",
+  "model_sha256": "647bb6e73234bb951c853302a7dc7ddd3b6e15471e0a39b00dcfabda13e6a266",
+  "upstream_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "workers": 4,
+  "unchanged_v11_groups_reused": 12,
+  "verified_v11_h5ad_sha256": "67e210c4985515201178f59e75c6639bfa410bcb5a6f44d42211100f4298703d",
+  "simulation": "Frozen V13 selected response model, V11 dispersion setting; guide/depth-stratified unique control samples; synthetic dual-moment integer populations; own target handled separately."
+}

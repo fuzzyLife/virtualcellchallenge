@@ -1,0 +1,128 @@
+{
+  "stage": "development",
+  "passing_candidates": [
+    "unknown_kd"
+  ],
+  "results": {
+    "quality_soft": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": -0.001388888888888884,
+            "fidelity": -2.453201923380277e-05,
+            "reach": -0.027624005881163705,
+            "jaccard": 9.386359016542306e-05,
+            "nmae": 0.0011112623374640584,
+            "common_expression_ratio": 0.005913764028474988
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": 0.0004344279181097699,
+            "reach": 0.003435623273819688,
+            "jaccard": 0.0006402041784623336,
+            "nmae": 0.0005308936834490519,
+            "common_expression_ratio": 0.005379525150280395
+          }
+        }
+      }
+    },
+    "unknown_kd": {
+      "passed": true,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": -0.00015982297704475457,
+            "reach": 0.0006225189187316627,
+            "jaccard": -0.00014753596799139262,
+            "nmae": 0.0023477004028127357,
+            "common_expression_ratio": -0.002126700557405714
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": true,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": -0.0002767424576889388,
+            "reach": 2.3274216822632976e-05,
+            "jaccard": -0.0001580945248374696,
+            "nmae": 0.0009420911839080892,
+            "common_expression_ratio": -0.002230559517845565
+          }
+        }
+      }
+    }
+  },
+  "missing_metric_panels": [
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "quality_soft",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "sampled400"
+    }
+  ],
+  "scores_sha256": "96eede25afaafe7b86b24d3cb3373fe33ae5f83b88d9bce0d8c5c010a1f229c2",
+  "plan_sha256": "2514a58accb6766aa1c6f4a415fc50b803a92cff5e367a0ee3b60b2789761fea",
+  "scope": "Prespecified V13 raw guards. Full-independent references primary and complete; secondary NMAE missingness is disclosed. These are public development data, not hidden competition performance."
+}

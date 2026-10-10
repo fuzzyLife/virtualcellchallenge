@@ -1,0 +1,710 @@
+{
+  "passed": true,
+  "cases": 174,
+  "arrays_per_case": [
+    "truth",
+    "truth_jack",
+    "v11_pred",
+    "v11_jack"
+  ],
+  "records": [
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_002_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_002_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_009_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_009_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_019_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_019_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_108_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_108_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_262_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "H1_controlstratum0_262_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_023_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_023_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_033_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_033_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_040_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_040_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_107_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_107_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_023_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_023_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_033_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_033_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_040_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_040_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_107_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_107_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_198_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HCT116_controlstratum1_198_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_132_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_132_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_143_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_143_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_182_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_182_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_237_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum0_237_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_029_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_029_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_114_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_114_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_132_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_132_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_143_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_143_2026100927_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_237_2026100911_development.npz"
+    },
+    {
+      "stage": ".",
+      "file": "HEK293T_controlstratum1_237_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_002_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_002_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_009_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_009_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_019_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_019_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_108_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_108_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_262_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "H1_controlstratum0_262_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_023_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_023_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_033_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_033_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_040_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_040_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_107_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_107_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_023_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_023_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_033_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_033_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_040_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_040_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_107_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_107_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_198_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HCT116_controlstratum1_198_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_132_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_132_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_143_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_143_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_182_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_182_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_237_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum0_237_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_029_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_029_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_114_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_114_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_132_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_132_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_143_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_143_2026100927_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_237_2026100911_development.npz"
+    },
+    {
+      "stage": "robust_stage",
+      "file": "HEK293T_controlstratum1_237_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_002_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_002_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_009_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_009_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_019_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_019_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_108_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_108_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_262_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "H1_controlstratum0_262_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_023_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_023_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_033_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_033_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_040_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_040_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_107_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_107_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_198_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum0_198_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_023_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_023_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_033_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_033_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_040_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_040_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_107_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_107_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_198_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HCT116_controlstratum1_198_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_044_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_044_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_132_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_132_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_143_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_143_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_182_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_182_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_237_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum0_237_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_029_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_029_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_044_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_044_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_114_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_114_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_132_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_132_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_143_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_143_2026100927_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_237_2026100911_development.npz"
+    },
+    {
+      "stage": "quality_stage",
+      "file": "HEK293T_controlstratum1_237_2026100927_development.npz"
+    }
+  ],
+  "script_sha256": "f38562a03c7dda96092b64652f0e4901e9e5d62cb13274e1831291eb1bf6e5cd",
+  "scope": "V11 exact equivalence on reused public splits; not additional independent biological evidence."
+}

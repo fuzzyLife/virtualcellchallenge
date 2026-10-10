@@ -1,0 +1,62 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "2514a58accb6766aa1c6f4a415fc50b803a92cff5e367a0ee3b60b2789761fea",
+    "methods": "e078d57a7c4db124a7664410d6185d95e3664a71119e6def29b5f10d7d9f72b3",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "ac99e88483a303a5aa58219e23baff9e4babcff995776d8add06d72b07cd8dc1",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "quality_soft": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "unknown_kd": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "96eede25afaafe7b86b24d3cb3373fe33ae5f83b88d9bce0d8c5c010a1f229c2",
+  "panels_sha256": "9e3996c9ff06a189e7b3d3aad5e5b5ec22b4f2e93bfd230b5c030dfb6eda1980",
+  "summary_sha256": "264239e07596291a733e3c4dcb3e3f5c0df96f47050e5e6f3830622009ec4d5c",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "quality_soft": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "unknown_kd": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

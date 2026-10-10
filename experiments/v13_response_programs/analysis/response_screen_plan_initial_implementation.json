@@ -1,0 +1,32 @@
+{
+  "candidates": [
+    "v11",
+    "program8_blend25",
+    "program8_blend50",
+    "program32_blend25",
+    "program32_blend50",
+    "program64_blend25",
+    "program64_blend50"
+  ],
+  "reserved_targets": [
+    41,
+    46,
+    117,
+    121,
+    133,
+    134,
+    135,
+    136,
+    213,
+    215,
+    223,
+    241,
+    246,
+    255
+  ],
+  "previous_plan_sha256": "408d90daba410c8a52fa5c6d2d47ec1b1cdfeae18000fafc8bd06f7928135af7",
+  "whole_family_exclusion": true,
+  "methods_sha256": "e71d06bb152d0e4d731ef1bbf207b7ac6f873205a3d4d0c65467adb82a6883f7",
+  "script_sha256": "7b1afecb42c44fa2eacdda3375ad83d2b49ffbebacd27e493713202eae9bb426",
+  "selection": "Advance the best two nonbaseline mean family-balanced proxy objectives to actual count validation; summary improvement alone is insufficient."
+}

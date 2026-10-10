@@ -1,0 +1,29 @@
+{
+  "candidates": [
+    "v11",
+    "unknown_kd",
+    "quality_soft",
+    "quality50"
+  ],
+  "reserved_targets": [
+    41,
+    46,
+    117,
+    121,
+    133,
+    134,
+    135,
+    136,
+    213,
+    215,
+    223,
+    241,
+    246,
+    255
+  ],
+  "previous_plan_sha256": "408d90daba410c8a52fa5c6d2d47ec1b1cdfeae18000fafc8bd06f7928135af7",
+  "whole_family_exclusion": true,
+  "methods_sha256": "e078d57a7c4db124a7664410d6185d95e3664a71119e6def29b5f10d7d9f72b3",
+  "script_sha256": "bad6d2c9b19359af6062e4e77e1d630954862369d2171c51d092a5a1b8bf1cad",
+  "selection": "Advance the best two nonbaseline mean family-balanced proxy objectives to actual count validation; summary improvement alone is insufficient."
+}

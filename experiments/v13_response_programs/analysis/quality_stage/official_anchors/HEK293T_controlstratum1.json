@@ -1,0 +1,16 @@
+{
+  "context": "HEK293T_controlstratum1",
+  "family": "HEK293T",
+  "real_sha256": "e5e7d42a925c8d20a2bbb736914bcaefd6ba4126c4b6482c8f7cb635825d6299",
+  "n_splits": 5,
+  "official_commit": "0ce25cf4c495e76e60dfca4ddc8f822507aa0e18",
+  "baseline_emit": "dispersed",
+  "backend": "scanpy CPU",
+  "files_sha256": {
+    "HEK293T_controlstratum1_baseline.csv": "e6af2f3513233086f7b9f69085ef40b42511dfce52e66f6d781937725ff397f0",
+    "HEK293T_controlstratum1_baseline_targets.csv": "3027f9418dd4d99e6104ebcef811fafb9ded041ea6538447c285829c4daaffb4",
+    "HEK293T_controlstratum1_replicate.csv": "823ef3835a31fa303c266908fd2d4077ba94bca993bc57660ec0e72968f1a542",
+    "HEK293T_controlstratum1_replicate_splits.csv": "640d76f778273bca61ee9075516aa7d97c03804410e83540f862618f4c5c3bb8"
+  },
+  "scope": "Public source context comparator; not private competition anchor."
+}

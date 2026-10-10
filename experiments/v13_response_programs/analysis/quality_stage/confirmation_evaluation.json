@@ -1,0 +1,49 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "2514a58accb6766aa1c6f4a415fc50b803a92cff5e367a0ee3b60b2789761fea",
+    "methods": "e078d57a7c4db124a7664410d6185d95e3664a71119e6def29b5f10d7d9f72b3",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "ac99e88483a303a5aa58219e23baff9e4babcff995776d8add06d72b07cd8dc1",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "unknown_kd": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "a6b200cb25b20882c8fe955190da7a0184e37952fefa951768f303e4e1b2da3b",
+  "panels_sha256": "ad2d47a5195b7dac2e77ceeb7c393a0e1ca01859257623660ca311b8ed9c6e8f",
+  "summary_sha256": "429264650cf603a7c429491b7cd64b961aea7de0bb2aa30cf69f10b03365c4e2",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "unknown_kd": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors.",
+  "reporting_adapter_sha256": "a805374b2b45e68d1bcf0629bc83a005b8d18c2c97d22d56993a4034c868e19f"
+}

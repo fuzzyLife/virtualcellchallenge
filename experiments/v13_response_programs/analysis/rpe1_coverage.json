@@ -1,0 +1,14 @@
+{
+  "targets_present": [],
+  "targets_QC": [],
+  "core_control_profiles": 113,
+  "total_profiles": 2679,
+  "parsed_gene_profiles": 2549,
+  "competition_output_gene_overlap": 8260,
+  "measured_genes": 8749,
+  "identifier_policy": "Parse numeric_construct, HGNC symbol, promoter/transcript token, and ENSG identifier (or explicit published nan); assert every unparsed row is a non-targeting control. Do not compare composite IDs directly with HGNC symbols.",
+  "scope": "Bulk means, not single-cell counts; quality n>=30 and published fold_expr<=.5. This audit does not change the frozen V13 predictor.",
+  "source_sha256": "603c655f1cfa41d649baf3ae63fca224cc11f297e40d4ed59d390b1e8d2e2db2",
+  "script_sha256": "cb03d6a30752e248e25d6930c535f5a79cc1823145f4ba74d09dcdb98cf25530",
+  "coverage_table_sha256": "f18e1011cfd5b25ababc199182278db2175cb647bf88aad8e11d7d9153f19ebe"
+}

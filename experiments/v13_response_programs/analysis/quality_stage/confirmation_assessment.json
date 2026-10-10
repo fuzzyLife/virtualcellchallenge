@@ -1,0 +1,170 @@
+{
+  "stage": "confirmation",
+  "passing_candidates": [],
+  "results": {
+    "unknown_kd": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": 0.0007949189726754735,
+            "reach": 0.0,
+            "jaccard": 6.853828709301249e-05,
+            "nmae": 0.0,
+            "common_expression_ratio": -0.041892776134338394
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "primary_complete_or_secondary_missing_reported": false,
+            "fidelity": true,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "all_six_panels_complete": false,
+          "difference": {
+            "pds": 0.0,
+            "fidelity": 0.0010328488701002447,
+            "reach": 0.0,
+            "jaccard": 1.0813661203275433e-05,
+            "nmae": 0.0,
+            "common_expression_ratio": -0.03522024578900762
+          }
+        }
+      }
+    }
+  },
+  "missing_metric_panels": [
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100911.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100911.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100927.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100927.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100927.0,
+      "candidate": "v11",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "seed": 2026100927.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "v11",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100911.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100927.0,
+      "candidate": "v11",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100927.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "sampled400"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100927.0,
+      "candidate": "v11",
+      "reference_mode": "full_independent"
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "seed": 2026100927.0,
+      "candidate": "unknown_kd",
+      "reference_mode": "full_independent"
+    }
+  ],
+  "scores_sha256": "a6b200cb25b20882c8fe955190da7a0184e37952fefa951768f303e4e1b2da3b",
+  "plan_sha256": "2514a58accb6766aa1c6f4a415fc50b803a92cff5e367a0ee3b60b2789761fea",
+  "scope": "Prespecified V13 raw guards. Full-independent references primary and complete; secondary NMAE missingness is disclosed. These are public development data, not hidden competition performance."
+}

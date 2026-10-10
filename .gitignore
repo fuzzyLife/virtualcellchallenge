@@ -356,3 +356,15 @@ __marimo__/
 /experiments/v12_distribution_calibrated/analysis/**/neutral_genes_*.csv
 
 !/experiments/v12_distribution_calibrated/analysis/official_runtime_freeze.txt
+
+# V13 regenerable data, models, count caches and local logs
+/reference/v13_resources/
+/experiments/v13_response_programs/analysis/*.npz
+/experiments/v13_response_programs/analysis/count_cache/
+/experiments/v13_response_programs/*.log
+
+/experiments/v13_response_programs/analysis/**/count_cache/
+/experiments/v13_response_programs/analysis/**/*.npz
+
+# Regenerable 360,000-row V13 sampling provenance (hash and full audit tracked)
+/experiments/v13_response_programs/analysis/prediction_control_rows.csv

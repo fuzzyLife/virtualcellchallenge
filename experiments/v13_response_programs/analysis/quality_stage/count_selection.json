@@ -1,0 +1,80 @@
+{
+  "created_utc": "2026-10-10T17:39:51.598095+00:00",
+  "candidate": "unknown_kd",
+  "validation_folder": "quality_stage",
+  "methods_module": "v13_quality_methods",
+  "source_checks_file": "quality_source_checks.json",
+  "raw_guards_passed": true,
+  "expression_reduction": 0.002230559517845565,
+  "source_anchored_overall": 0.0132401106677146,
+  "baseline_source_anchored_overall": 0.0138403440621368,
+  "confirmation_read": false,
+  "development_comparisons": [
+    {
+      "candidate": "program32_blend25",
+      "validation_folder": "",
+      "methods_module": "v13_methods",
+      "source_checks_file": "response_checks.json",
+      "raw_guards_passed": false,
+      "expression_reduction": -0.005876791848609564,
+      "source_anchored_overall": -0.0178881609643554,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    },
+    {
+      "candidate": "program8_blend25",
+      "validation_folder": "",
+      "methods_module": "v13_methods",
+      "source_checks_file": "response_checks.json",
+      "raw_guards_passed": false,
+      "expression_reduction": -0.010548478242625281,
+      "source_anchored_overall": -0.0023145344094982,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    },
+    {
+      "candidate": "robust050",
+      "validation_folder": "robust_stage",
+      "methods_module": "v13_robust_methods",
+      "source_checks_file": "robust_source_checks.json",
+      "raw_guards_passed": false,
+      "expression_reduction": -0.0010516086367404753,
+      "source_anchored_overall": 0.007474964094858,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    },
+    {
+      "candidate": "student3",
+      "validation_folder": "robust_stage",
+      "methods_module": "v13_robust_methods",
+      "source_checks_file": "robust_source_checks.json",
+      "raw_guards_passed": false,
+      "expression_reduction": -0.002999075007804386,
+      "source_anchored_overall": 0.0304031273529013,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    },
+    {
+      "candidate": "quality_soft",
+      "validation_folder": "quality_stage",
+      "methods_module": "v13_quality_methods",
+      "source_checks_file": "quality_source_checks.json",
+      "raw_guards_passed": false,
+      "expression_reduction": -0.0053795251502808394,
+      "source_anchored_overall": 0.0173019267789293,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    },
+    {
+      "candidate": "unknown_kd",
+      "validation_folder": "quality_stage",
+      "methods_module": "v13_quality_methods",
+      "source_checks_file": "quality_source_checks.json",
+      "raw_guards_passed": true,
+      "expression_reduction": 0.002230559517845565,
+      "source_anchored_overall": 0.0132401106677146,
+      "baseline_source_anchored_overall": 0.0138403440621368
+    }
+  ],
+  "development_scores_sha256": "96eede25afaafe7b86b24d3cb3373fe33ae5f83b88d9bce0d8c5c010a1f229c2",
+  "plan_sha256": "2514a58accb6766aa1c6f4a415fc50b803a92cff5e367a0ee3b60b2789761fea",
+  "methods_sha256": "e078d57a7c4db124a7664410d6185d95e3664a71119e6def29b5f10d7d9f72b3",
+  "selection_policy": "Prespecified raw guards, then greatest primary expression reduction.",
+  "baseline_replay_sha256": "b2c01077c0568d19c4f7abc19567241dcab5cb27669dcf62af6ea5152e78c5e5",
+  "script_sha256": "2c5cb92fc12ec77fcf8ee364a91f44f5796cb23d8aaff9a53b3006bb375ff2dc"
+}

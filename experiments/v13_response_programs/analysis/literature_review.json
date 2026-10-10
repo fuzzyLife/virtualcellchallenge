@@ -1,0 +1,32 @@
+{
+  "searched_on": "2026-10-10",
+  "sources": [
+    {
+      "title": "Generating high-quality Perturb-seq data for the 2026 Virtual Cell Challenge",
+      "url": "https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge-2026",
+      "published": "2026-10-01",
+      "finding": "Official data use consistent guides, time point and technology across cell lines, >=80% median target reduction, and 400 curated cells per intervention. Baseline similarity alone is not sufficient evidence of response similarity.",
+      "action": "Keep dose-normalized causal source responses and test whole-family transfer; do not tune from guessed context names."
+    },
+    {
+      "title": "Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.24.740459v1.full",
+      "finding": "The preprint separates global, context, conserved perturbation and context-interaction components. Generic response structure can dominate aggregate metrics, while context interactions are difficult to predict from control expression.",
+      "action": "Test a training-only perturbation-response subspace, rather than another control-expression autoencoder. V13 is an independent implementation inspired by the decomposition, not a reproduction of the paper."
+    },
+    {
+      "title": "Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.28.735106v2",
+      "code": "https://github.com/royerlab/tfm-perturbation",
+      "finding": "The preprint benchmarks general-purpose tabular models on several perturbation tasks and reports competitive performance against specialized architectures. These settings do not establish leaderboard gains for our zero-shot task.",
+      "action": "Prioritize transferable response features and rigorous held-context tests over architecture size."
+    },
+    {
+      "title": "Replogle et al. 2022 raw RPE1 pseudobulk release",
+      "url": "https://plus.figshare.com/articles/dataset/20029387",
+      "finding": "Author raw pseudobulk dataset verified against published MD5. Composite intervention IDs were explicitly parsed to HGNC symbols: zero intervention overlap with the 300 competition targets; 8,260 output genes overlap. Reproducible identifier audit and original coverage record retained.",
+      "action": "Retain coverage evidence and reproducible downloader; do not add generic RPE1 responses as direct evidence for unmeasured interventions."
+    }
+  ],
+  "limits": "Technical papers and public participant claims do not supply hidden ABC responses or prove that a candidate will improve the leaderboard."
+}
