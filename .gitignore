@@ -340,3 +340,19 @@ __marimo__/
 /experiments/v11_consensus_coverage/*.log
 !/experiments/v11_consensus_coverage/analysis/power_audit_original_code.txt
 !/experiments/v11_consensus_coverage/analysis/scientific_test_output.txt
+
+# Isolated V12 runtime and regenerable scientific inputs
+/.v12_eval_env/
+/reference/v12_resources/
+/experiments/v12_distribution_calibrated/analysis/count_cache/
+/experiments/v12_distribution_calibrated/analysis/*.npz
+/experiments/v12_distribution_calibrated/*.log
+
+# V12 nested generated count caches
+/experiments/v12_distribution_calibrated/analysis/**/count_cache/
+/experiments/v12_distribution_calibrated/analysis/**/*.npz
+
+# Regenerable V12 per-gene neutral diagnostics (summary and hashes are tracked)
+/experiments/v12_distribution_calibrated/analysis/**/neutral_genes_*.csv
+
+!/experiments/v12_distribution_calibrated/analysis/official_runtime_freeze.txt

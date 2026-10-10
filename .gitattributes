@@ -70,3 +70,13 @@
 /audit_faq.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /FAQ_AUDIT.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /analysis/faq_audit/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V12 numerical code, frozen plans and result hashes.
+/*v12*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/*v12*.R -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v12_distribution_calibrated/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V12_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Keep V12 report and evaluator pins consistent with the recorded byte hashes.
+/V12_RESEARCH.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/v12_official_requirements.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

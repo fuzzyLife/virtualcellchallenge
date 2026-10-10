@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": {
+    "whole_K562_exclusion_erases_Flex_exactly": true
+  },
+  "unique_cells": 22733,
+  "unique_controls": 7949,
+  "control_guide_identities_verified": true,
+  "all_targets_present": true,
+  "own_gene_excluded": true,
+  "failed_intervention_unavailable": true,
+  "summary_sha256": "a5dda7d50adcbbe9d8775e22b4bb4b3458e7543fd1298c55b7ece89097322d28",
+  "script_sha256": "dd88bcd2daf1ced2ca8705660350984e1c8a6993a703e3d31d9e9669311b392d",
+  "scope": "Existing public source summaries; normal-q proxies only, not official count tests. Reserved confirmation targets excluded from evaluation."
+}

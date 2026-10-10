@@ -1,0 +1,83 @@
+{
+  "completed": true,
+  "plan_sha256": "17cd5a4ceada3f332544937fa7c4e02c4ce89f987185299b46ca51424c1ec23c",
+  "scores_sha256": "8d9b399de22b93c382b6a4fa51f6b80f360985e45e1de050c5fbc9ded0524c33",
+  "calibration": {
+    "K562": {
+      "gain": 0.25,
+      "inner_ratios": [
+        0.010731533124542055,
+        0.051100024503449595,
+        0.043684497313512094,
+        0.02711355400509978
+      ],
+      "inner_pairs": [
+        5320441,
+        292646,
+        2998348,
+        3128072
+      ]
+    },
+    "CD4": {
+      "gain": 0.25,
+      "inner_ratios": [
+        0.02865927527445789,
+        0.047998275941464705,
+        0.041355352686510215,
+        0.025706921906587
+      ],
+      "inner_pairs": [
+        1803820,
+        291953,
+        2971326,
+        3057949
+      ]
+    },
+    "H1": {
+      "gain": 0.25,
+      "inner_ratios": [
+        0.03516448155532228,
+        0.012215354927688627,
+        0.04455856571904457,
+        0.027363786829255363
+      ],
+      "inner_pairs": [
+        1849333,
+        5446661,
+        2996937,
+        3134081
+      ]
+    },
+    "HCT116": {
+      "gain": 0.25,
+      "inner_ratios": [
+        0.024999962038627834,
+        0.009910491765697544,
+        0.045338847498469934,
+        0.017168434458957875
+      ],
+      "inner_pairs": [
+        1849167,
+        5374937,
+        291069,
+        2540373
+      ]
+    },
+    "HEK293T": {
+      "gain": 0.25,
+      "inner_ratios": [
+        0.027755819369768363,
+        0.010995578763627695,
+        0.043138943950178574,
+        0.027326545859317587
+      ],
+      "inner_pairs": [
+        1832047,
+        5211646,
+        281369,
+        2393529
+      ]
+    }
+  },
+  "scope": "Existing source-summary normal-q proxies only; not competition count metrics, independent biological blind data, or hosted score estimates. Whole family excluded, reserved count-confirmation targets omitted from evaluation and gain fitting."
+}

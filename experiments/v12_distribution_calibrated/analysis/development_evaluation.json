@@ -1,0 +1,74 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "408d90daba410c8a52fa5c6d2d47ec1b1cdfeae18000fafc8bd06f7928135af7",
+    "methods": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "script": "f9fa9bdb0f4fc7053ad12aa1e18119b6d433073b187394068a5453d1cfee4393",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "gamma100": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "gamma25": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "empirical100": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "976963e2b5416fc1262f137de36656c87a2f134f2bf882cb096e0b4dbf691b71",
+  "panels_sha256": "745cfa1f55ad0e89a65131488fbd8ca46fb23e8eed3cca3ac5b37fa393a7095b",
+  "summary_sha256": "a14ba8cd31b1ca5bc8bd07a6490eb4a6f9d7ec9fb5e5f18fc003d6d2f9dafb6c",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "gamma100": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "gamma25": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "empirical100": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

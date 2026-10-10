@@ -1,0 +1,9 @@
+{
+  "parent_preprocessing_plan_sha256": "0744b53162a212a6aa639ae79b5805febba9b08fcd8021ec676df6a49637d9c8",
+  "reason": "Initial whitelist wrongly treated the human gene CTRL as a negative-control label and omitted NO-TARGET. Corrected using the author library, before fitting any Flex effects.",
+  "true_control_cells_observed_binB": 7949,
+  "supersedes_initial_69_control_count": true,
+  "true_control_policy": "Only NO-TARGET cells whose guide ID is in the verified 496-guide reference. Deduplicate exact repeated cells across bins. Match two lanes as prospectively planned.",
+  "no_model_fitted_with_wrong_labels": true,
+  "guide_reference_sha256": "0a5d53e058619025fce0a85c06cda7ef56ec306059dd3d39bf98b7873d0a34f5"
+}

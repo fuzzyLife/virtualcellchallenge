@@ -1,0 +1,41 @@
+{
+  "doi": "10.5281/zenodo.18460279",
+  "license": "CC-BY-4.0",
+  "bins": [
+    {
+      "bin": "genome_wide_binA",
+      "cells": 14408,
+      "genes": 19068,
+      "measured_challenge_genes": 18111,
+      "metadata_sha256": "20578166ec76d24e8a54d06ee238c2ab5badcc465f84bdec624f376d96df77fb"
+    },
+    {
+      "bin": "genome_wide_binB",
+      "cells": 13044,
+      "genes": 19068,
+      "measured_challenge_genes": 18111,
+      "metadata_sha256": "1ed4483dfc908875d23f407ad3fb27a0b8712800d8982d3662d885bd178eaa12"
+    },
+    {
+      "bin": "genome_wide_binC",
+      "cells": 11179,
+      "genes": 19068,
+      "measured_challenge_genes": 18111,
+      "metadata_sha256": "48ca1bab91f36ee010f4db7ff0b7e7fc4c17d7d12c62461bd0a86c22d8b97e4a"
+    }
+  ],
+  "duplicated_controls_removed": 15898,
+  "unique_cells": 22733,
+  "unique_controls": 7949,
+  "all_300_targets_present": true,
+  "measured_challenge_genes": 18111,
+  "summary_sha256": "a5dda7d50adcbbe9d8775e22b4bb4b3458e7543fd1298c55b7ece89097322d28",
+  "counts_sha256": "338a3dea42116d30709d94f5dc5f33ba178f72c53bd2d6b0ae3c5c71968264a5",
+  "metadata_sha256": "10bf4988ebda3f97e627eb1a9b6c507b87f16eee7d4fe50ec5045fc6aacb070e",
+  "script_sha256": "e67bf6fa8042435ee61a16f419edcc15f1bb9b0681514038b03cd41ae990d3c1",
+  "r_script_sha256": "04051f78af4838159f4126c07fab7f7f74755245c42edca6c82e95ad467c3c36",
+  "preprocessing_plan_sha256": "0744b53162a212a6aa639ae79b5805febba9b08fcd8021ec676df6a49637d9c8",
+  "qc_plan_sha256": "b3e3b9145b115a8a3da0eb829178fa5f09ad8eba063aa5b4200437c90fa22405",
+  "control_identity_correction_sha256": "edc631b3cccd4124a15b300afe0ed4e718e54ac4d236cddfdc2e2776861e0cc3",
+  "normalization": "Actual full RNA-assay library before projection; matched per-lane NTCs; original aliquots retained; normal-q summaries are proxies only."
+}

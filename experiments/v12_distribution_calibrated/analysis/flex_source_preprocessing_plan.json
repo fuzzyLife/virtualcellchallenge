@@ -1,0 +1,11 @@
+{
+  "before_source_fitting": true,
+  "controls_observed_first_bin": 69,
+  "sample_labels_observed": 48,
+  "technical_batch_policy": "Match actual non-targeting controls by the two GEM-X Flex v2 lanes L1/L2. The 24 indexed aliquots are random splits of the same K562 culture, not independent biological contexts. Keep original aliquot labels for audit.",
+  "control_limit": "69 total NTCs and three CTRL guides; no duplication across source bins, no synthetic control cells, no independent-family support vote.",
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919025/",
+  "paper_evidence_paraphrase": "The genome-wide screen split one transduced K562 culture into 24 indexed aliquots and processed them across two Flex v2 lanes.",
+  "source_q_policy": "Matched-lane per-cell CPM means, delta-method SE with .05 floor, source normal-q proxies only; uncertainty of sparse lane controls retained.",
+  "source_extraction_R_sha256": "61c1dcd1014b7ee7549139761a8f3377357c3a8dfd0277adf61aec542e300bcc"
+}

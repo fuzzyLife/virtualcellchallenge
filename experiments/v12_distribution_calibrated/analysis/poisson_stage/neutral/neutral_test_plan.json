@@ -1,0 +1,36 @@
+{
+  "methods": [
+    "real_resample",
+    "v11",
+    "noise85",
+    "noise100"
+  ],
+  "seeds": [
+    2026100911,
+    2026100927
+  ],
+  "contexts": [
+    "A",
+    "B",
+    "C"
+  ],
+  "prediction_cells": 400,
+  "reference_cells": [
+    400,
+    2000
+  ],
+  "split": "Per-guide disjoint 50% fit, 25% templates, 25% references; control-only; no own-target knockdown.",
+  "script_sha256": "d64c1c9c742f61a07be3ef540fad835d2af0791b0acab789636b15538d3206d7",
+  "v11_model_sha256": "8bc968716e2f04f33216d0c6da3d512f3a654aa9af02b5bd9d7cc375ae582e5a",
+  "purpose": "Distribution and null diagnostics only; no parameter sweep or winner selection; no hidden response labels.",
+  "gamma_note": "Independent per-gene overdispersion is a diagnostic, not a scVI model; correlated biological structure is absent.",
+  "empirical_note": "Full empirical composition template preserves covariance with both moments constrained; not a CellOT reproduction.",
+  "dependencies": {
+    "v12_poisson_methods.py": "2bdfeb2cf859b6727bdb1913679c2739eb1b33a9a6dc62dbb109788b9c134321",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v11_methods.py": "2d28dae79bbf6f458e474efd2868f090b16bf06daa99d64335a0683080a0c1d6",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce"
+  }
+}

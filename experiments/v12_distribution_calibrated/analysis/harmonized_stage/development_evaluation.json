@@ -1,0 +1,77 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "84ec77430e3fda63ef16205d65f14bd5889d19441be62cbde4817e3383e08625",
+    "methods": "ca1ea6942423dad4d6e0887f7143a6311e35ed74065b65b807a4e4b8fb3d6f93",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "flex_summary": "a5dda7d50adcbbe9d8775e22b4bb4b3458e7543fd1298c55b7ece89097322d28",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "31bd37bf52b661cc4dbf80dfabb1c5b900cbbe89e42262bd390f361728953862",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_centered": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_agreement": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_reliability": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "9a4a996a2573a8205fce78ecfed2124add25d4f6b9cb6678a0791a006fd5ef9b",
+  "panels_sha256": "219a8b662226f61e5193600549f0b4905386f3557e28ac27b910a2e384bbfb3c",
+  "summary_sha256": "b965fe07044946ea3f891f60aa16c4f5b814fe8183f18188a45cadd2accadebe",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_centered": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_agreement": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_reliability": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

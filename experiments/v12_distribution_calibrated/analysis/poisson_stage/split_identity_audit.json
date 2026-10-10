@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "case_count": 98,
+  "sources": {
+    "H1": {
+      "metadata_sha256": "02dadfcf89adac67e74d17582ab8cf7bd6c7576ef93d4a5ca321a224a7b6dc71",
+      "cells": 10366
+    },
+    "HCT116": {
+      "metadata_sha256": "a4ba8d2311833f9a48e08bbfd8156bb80c1288706e62751e0913e538c53f4f0c",
+      "cells": 52295
+    },
+    "HEK293T": {
+      "metadata_sha256": "b6febac28e4a1044d3b6a75521be96a84e6c320f3ba0e595e0570da335a000e8",
+      "cells": 70082
+    }
+  },
+  "plan_sha256": "b433c2708c82dc140bf85b6b4d903f406f656d378dd8489ac7a4a4ce26e75a67",
+  "script_sha256": "70130f92a302a285909d3ed0cab89141100f7c63933d021ee40e020b5126a47b",
+  "source_cache_hash_verified": true,
+  "globally_disjoint_target_sets": true,
+  "target_independent_shared_templates": true,
+  "actual_cells_unique_with_correct_target_batch": true,
+  "template_reference_actual_identity_disjoint": true,
+  "limitation": "Seeds reuse some or all actual treatment cells, and technical strata are not independent biological families. Do not treat seeds or individual cells as independent experiments."
+}

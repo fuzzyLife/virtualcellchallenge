@@ -1,0 +1,61 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "49236e231d1662181d4144588cea2c3fb8be67a717d842cff8475dcde5c76252",
+    "methods": "b72596408cee524f16b4f4a3fd50e436337663cd012bdff4ea43aed15de2bb50",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "9a3b27119ff8f785414c98c5bf1e99710ef76861f1b6297e6f6550cc980950e0",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "thinning_immigration": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "response_linked_variance": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "7db89b6b8584c4277253564847dda5c50976484d1d1f277c209160a4235293ae",
+  "panels_sha256": "fe0b97b2abba5b9f1a69826bc8eb95b00ec4503d0baecf637a75eaff3e71182d",
+  "summary_sha256": "c168c8607901cb0ccc0da1e2437b6f1b8049f7b927356a4c0a62914052d15113",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "thinning_immigration": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "response_linked_variance": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

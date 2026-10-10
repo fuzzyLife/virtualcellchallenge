@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "comparisons": [
+    {
+      "folder": "harmonized_stage",
+      "shared_target_seed_cases": 60,
+      "all_truth_and_V11_profiles_jackknives_exact": true
+    },
+    {
+      "folder": "poisson_stage",
+      "shared_target_seed_cases": 22,
+      "all_truth_and_V11_profiles_jackknives_exact": true
+    },
+    {
+      "folder": "intervention_stage",
+      "shared_target_seed_cases": 58,
+      "all_truth_and_V11_profiles_jackknives_exact": true
+    }
+  ],
+  "script_sha256": "80a2c97023400af8a248d5d60fcf7e8920174917fd6b89f0c19969c7d07878ef",
+  "scope": "Exact profile/jackknife equality across shared cells, seeds and baseline implementations; no intervention-count rerun."
+}

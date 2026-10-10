@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-09T13:04:16.104276+00:00",
+  "choice": {
+    "stage": null,
+    "candidate": "v11",
+    "decision": "No new candidate passes fixed raw guards and public source-anchored improvement; retain V11, leave confirmation unopened."
+  },
+  "passing_choices": [],
+  "evidence": {
+    "flex_stage": {
+      "validation_plan.json": "d52478cd6a8b00275ba50ffb4999429011d8f3e402cd2ace0841621f87e72247",
+      "development_assessment.json": "91378d1dd87f93dac955fef7710fbcb27994aa4a6adae172e440ef8cf76e36ee",
+      "development_evidence_audit.json": "33781ec8060056e8b0179b174c2e4357380a2e504b11ce3b537db2736153dd60",
+      "development_source_anchored_summary.csv": "a434519f56ae2481be87474b8bc74f1960006bab4d9b8faf3da4225f6fe32765",
+      "source_checks.json": "009f0fc18745598a9a7df419e055a57500f7e14f0a6f3a574acf09d33151d91b",
+      "split_identity_audit.json": "63e9367d67a4349399935c4baba2b26b2bb56332892fc7bb91913364e85e56be"
+    },
+    "harmonized_stage": {
+      "validation_plan.json": "84ec77430e3fda63ef16205d65f14bd5889d19441be62cbde4817e3383e08625",
+      "development_assessment.json": "6db000f63b893bd81970f85b226a4e9282116187919eff30cdd6f0b048b55689",
+      "development_evidence_audit.json": "70d9900c9de5895a1704056a21ed2f738d01c6cac5d02a8f95d7d389a202e3c9",
+      "development_source_anchored_summary.csv": "7ff42bee396dcb3405a44e22ac1f443395eca37021cf0b934decd3cfad393821",
+      "source_checks.json": "6c80e5f90c34e9f63d312afb41ae130e262cd082c4a3c205fcd3008bf4ef5c10",
+      "split_identity_audit.json": "ddbcff4c6d01ced19d33e559af2c785c65ec39c429a937950662976a44131025"
+    },
+    "poisson_stage": {
+      "validation_plan.json": "b433c2708c82dc140bf85b6b4d903f406f656d378dd8489ac7a4a4ce26e75a67",
+      "futility_stop.json": "685cec9325653e5338211753509cd57e308dbe5cac6797a4297037399aba4364",
+      "source_checks.json": "ad50e5dc5d32c3d6c7398f4bb16bb9f14968e400d17ca821974fd5e78f551fa5",
+      "split_identity_audit.json": "7b1a604abe752f0ce06b25acfc7cb73cf42c71cab615d9832a9408e5ef2c0b61"
+    }
+  },
+  "confirmation_read": false,
+  "script_sha256": "4b4453fe98c1278f4c39cf472b37a36269687326971488eec8517af30e718776",
+  "scope": "One final development choice across three bounded source/emitter stages, all on reused public development panels. Confirmation may be used once; no retuning after failure. Source anchors are noisy and are not private leaderboard anchors."
+}

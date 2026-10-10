@@ -1,0 +1,99 @@
+{
+  "stage": "development",
+  "results": {
+    "response_linked_variance": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "all_six_metrics_complete": false,
+            "fidelity": false,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": false,
+            "family_reach": true
+          },
+          "difference": {
+            "pds": 0.0,
+            "fidelity": -0.18274900388841053,
+            "reach": 0.0738875328885582,
+            "jaccard": 0.015890812399572102,
+            "nmae": 0.002162284107104284,
+            "common_expression_ratio": -0.003155318031410781
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "all_six_metrics_complete": true,
+            "fidelity": false,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": false,
+            "family_reach": true
+          },
+          "difference": {
+            "pds": 0.0,
+            "fidelity": -0.1403952554882691,
+            "reach": 0.059231909748049594,
+            "jaccard": -0.036656904157824376,
+            "nmae": 0.00010524934646038986,
+            "common_expression_ratio": -0.003185908821306427
+          }
+        }
+      }
+    },
+    "thinning_immigration": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "all_six_metrics_complete": false,
+            "fidelity": false,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": false,
+            "family_reach": true
+          },
+          "difference": {
+            "pds": -0.002777777777777768,
+            "fidelity": -0.2635762576044763,
+            "reach": 0.11699214943316205,
+            "jaccard": 0.027853369981085688,
+            "nmae": 0.003273572519485901,
+            "common_expression_ratio": -0.002947880133835179
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "all_six_metrics_complete": true,
+            "fidelity": false,
+            "reach": true,
+            "nmae": true,
+            "pds": true,
+            "expression_improves": true,
+            "family_fidelity": false,
+            "family_reach": true
+          },
+          "difference": {
+            "pds": 0.0,
+            "fidelity": -0.2349240085115929,
+            "reach": 0.1102607752279558,
+            "jaccard": -0.0028618200810150915,
+            "nmae": 0.0021496626350603343,
+            "common_expression_ratio": -0.002982715030601435
+          }
+        }
+      }
+    }
+  },
+  "passing_candidates": [],
+  "scores_sha256": "7db89b6b8584c4277253564847dda5c50976484d1d1f277c209160a4235293ae",
+  "plan_sha256": "49236e231d1662181d4144588cea2c3fb8be67a717d842cff8475dcde5c76252",
+  "scope": "Fixed unanchored six-metric guards and complete panels; expression must improve in both reference modes, worst-family fidelity/reach protected. No hosted-score prediction."
+}

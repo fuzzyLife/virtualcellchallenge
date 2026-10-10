@@ -1,0 +1,28 @@
+{
+  "candidates": [
+    "v11",
+    "heterogeneity1",
+    "heterogeneity4",
+    "calibrated_gain",
+    "pathway_fill",
+    "shuffled_pathway",
+    "target_shuffle",
+    "train_centroid",
+    "zero"
+  ],
+  "whole_family_exclusion": true,
+  "nested_gain_bounds": [
+    0.25,
+    1.25
+  ],
+  "pathway_policy": "Fill missing family/target only with >=2 annotated neighbors, Reactome paths 3..200 genes; output gene mask requires >=2 measured neighbor votes; uncertainty floor .5 LFC.",
+  "negative_controls": [
+    "target label permutation",
+    "graph node permutation within annotation-degree bins",
+    "training centroid",
+    "zero"
+  ],
+  "promotion": "Count stage remains frozen V11 biology. Response changes can advance only with consistent held-family improvements; no confirmation counts used here.",
+  "script_sha256": "844b905d173b4bfe0c9d074d9f766a098f627c63a637b263242499ce1cfa7042",
+  "annotations_sha256": "eb442c23990f40e65118ec74da11de74d90af6f2d1fb31fdb762d8aab22643d2"
+}

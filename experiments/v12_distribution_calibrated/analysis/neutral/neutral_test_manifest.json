@@ -1,0 +1,21 @@
+{
+  "completed": true,
+  "plan_sha256": "f043f2d7e2663213db143579ad10ab214aa4cf519692b2f5cd6e93bcda26904f",
+  "inputs": [
+    {
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "atlas_solver_sha256": "fa856bb651b57ebfccd1c47b3f3b82a4ff9c2f56a22f994b42ecb64656a69d4a",
+  "records": 60,
+  "scope": "Null-distribution pilot only, no perturbation performance claim. Two seeds and all three controls; references independent of fit and template populations."
+}

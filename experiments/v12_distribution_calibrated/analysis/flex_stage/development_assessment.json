@@ -1,0 +1,144 @@
+{
+  "stage": "development",
+  "results": {
+    "flex_combine": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "all_six_metrics_complete": false,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "difference": {
+            "pds": 0.0007936507936507908,
+            "fidelity": -0.0010618414547852728,
+            "reach": -0.03480486646273917,
+            "jaccard": 0.00018705717931252752,
+            "nmae": 0.02471221288519443,
+            "common_expression_ratio": 0.3331073131918212
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "all_six_metrics_complete": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "difference": {
+            "pds": -0.013690476190476142,
+            "fidelity": -0.004001791415077838,
+            "reach": -0.008082667522416598,
+            "jaccard": 0.0004711431011963363,
+            "nmae": 0.02213206406833701,
+            "common_expression_ratio": 0.3435583296954825
+          }
+        }
+      }
+    },
+    "flex_overlap": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "all_six_metrics_complete": false,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "difference": {
+            "pds": -0.0005952380952379821,
+            "fidelity": -0.006704990358954777,
+            "reach": -0.011154911451141447,
+            "jaccard": -0.0011257962803401939,
+            "nmae": 0.013314260287985658,
+            "common_expression_ratio": 0.014813857772543182
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "all_six_metrics_complete": true,
+            "fidelity": true,
+            "reach": true,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": true
+          },
+          "difference": {
+            "pds": 0.012500000000000067,
+            "fidelity": -0.003155915673839882,
+            "reach": -0.0006789214843909153,
+            "jaccard": -0.0013024767974109813,
+            "nmae": 0.013694725705329702,
+            "common_expression_ratio": 0.01563972072295794
+          }
+        }
+      }
+    },
+    "flex_prefer": {
+      "passed": false,
+      "modes": {
+        "sampled400": {
+          "checks": {
+            "all_six_metrics_complete": false,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "difference": {
+            "pds": -0.004761904761904745,
+            "fidelity": -0.002811484048250046,
+            "reach": -0.0717771870351962,
+            "jaccard": 0.0008352583954746029,
+            "nmae": 0.027938833986966616,
+            "common_expression_ratio": 0.4130080178721758
+          }
+        },
+        "full_independent": {
+          "checks": {
+            "all_six_metrics_complete": true,
+            "fidelity": true,
+            "reach": false,
+            "nmae": false,
+            "pds": true,
+            "expression_improves": false,
+            "family_fidelity": true,
+            "family_reach": false
+          },
+          "difference": {
+            "pds": -0.019246031746031678,
+            "fidelity": -0.00578445719584475,
+            "reach": -0.10913735137893643,
+            "jaccard": 0.0009404771558689379,
+            "nmae": 0.02987556103199074,
+            "common_expression_ratio": 0.4270239104416622
+          }
+        }
+      }
+    }
+  },
+  "passing_candidates": [],
+  "scores_sha256": "1f3fc489ef81fc549bb0de09cfb4c9cd0956cca938a870e80becc2fb309efab7",
+  "plan_sha256": "d52478cd6a8b00275ba50ffb4999429011d8f3e402cd2ace0841621f87e72247",
+  "scope": "Fixed unanchored six-metric guards and complete panels; expression must improve in both reference modes, worst-family fidelity/reach protected. No hosted-score prediction."
+}

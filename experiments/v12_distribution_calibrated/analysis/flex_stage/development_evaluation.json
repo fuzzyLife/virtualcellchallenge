@@ -1,0 +1,77 @@
+{
+  "completed": true,
+  "inputs": {
+    "plan": "d52478cd6a8b00275ba50ffb4999429011d8f3e402cd2ace0841621f87e72247",
+    "methods": "e486740a8302c0f3a49e6f87fe96fad77435ca8abd07b5b11accbf763f8b27b7",
+    "emitter": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "flex_summary": "a5dda7d50adcbbe9d8775e22b4bb4b3458e7543fd1298c55b7ece89097322d28",
+    "metrics": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "script": "9c1f3b59e2fca4e7b3f8b9736d8f093098646fdf565a53adac72d74c26b70526",
+    "settings": {
+      "v11": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_combine": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_prefer": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      },
+      "flex_overlap": {
+        "response": "consensus20",
+        "amplitude": 1.0,
+        "noise": 0.65,
+        "bulk_amplitude": 1.0,
+        "eligible": true
+      }
+    }
+  },
+  "scores_sha256": "1f3fc489ef81fc549bb0de09cfb4c9cd0956cca938a870e80becc2fb309efab7",
+  "panels_sha256": "ef2378991e991d2841253fb4bd4f3b6f1b7ba023390126d1b9838a4f44ed398b",
+  "summary_sha256": "56d730e838cc510446ca7c4a5101808889fe460af732fdb50e27e8984f02af8d",
+  "settings": {
+    "v11": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_combine": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_prefer": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    },
+    "flex_overlap": {
+      "response": "consensus20",
+      "amplitude": 1.0,
+      "noise": 0.65,
+      "bulk_amplitude": 1.0,
+      "eligible": true
+    }
+  },
+  "template_depths_verified_exactly": true,
+  "shared_reference_chance_discrimination_verified": true,
+  "scope": "Corrected-metric unanchored public panels; two new seeds, whole-family response exclusion, 400 and full independent controls. Not private leaderboard anchors."
+}

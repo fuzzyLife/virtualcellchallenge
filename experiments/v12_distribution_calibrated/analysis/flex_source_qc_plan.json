@@ -1,0 +1,9 @@
+{
+  "before_first_Flex_response_fit": true,
+  "minimum_measured_target_knockdown": 0.25,
+  "minimum_target_baseline_CPM": 5.0,
+  "minimum_real_target_cells": 30,
+  "failed_source_policy": "Mark the added Flex response unavailable and retain legacy fallback; never label it a measured zero effect.",
+  "reason": "An added source without detectable on-target intervention should not be amplified by the V11 dose correction. Fixed moderate QC threshold, not selected from held-family outcomes. Retain all raw extracted target cells and report excluded source estimates.",
+  "preprocessing_plan_sha256": "0744b53162a212a6aa639ae79b5805febba9b08fcd8021ec676df6a49637d9c8"
+}

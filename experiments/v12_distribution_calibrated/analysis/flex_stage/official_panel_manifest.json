@@ -1,0 +1,81 @@
+{
+  "panels": [
+    {
+      "family": "H1",
+      "context": "H1_controlstratum0",
+      "file": "experiments\\v12_distribution_calibrated\\analysis\\official_panels\\H1_controlstratum0_real.h5ad",
+      "sha256": "6c2673e5404a55a695ed4f28056afc77d61376037ed3ad2ac130a4357a4fd172",
+      "cells": 2525,
+      "targets": [
+        "ADNP",
+        "ANKZF1",
+        "BRPF1",
+        "MED25",
+        "SMARCA5",
+        "ZFP62"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum0",
+      "file": "experiments\\v12_distribution_calibrated\\analysis\\official_panels\\HCT116_controlstratum0_real.h5ad",
+      "sha256": "a184cf9704da309ed83d1b93b36701c9efb83c8bd9e5da1fee38f0f1a292afbe",
+      "cells": 2050,
+      "targets": [
+        "CARM1",
+        "COQ10B",
+        "DDHD1",
+        "DHX35",
+        "MED15",
+        "SMARCA5"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "context": "HCT116_controlstratum1",
+      "file": "experiments\\v12_distribution_calibrated\\analysis\\official_panels\\HCT116_controlstratum1_real.h5ad",
+      "sha256": "ae6264d9ca2aa0c5587a29382913fcbd3ecaab19e8f31f0a4d6e2b59ab2cc1e4",
+      "cells": 1769,
+      "targets": [
+        "CARM1",
+        "COQ10B",
+        "DDHD1",
+        "DHX35",
+        "MED15",
+        "SMARCA5"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum0",
+      "file": "experiments\\v12_distribution_calibrated\\analysis\\official_panels\\HEK293T_controlstratum0_real.h5ad",
+      "sha256": "f839dc5c98b909819550a9df737d6c80cb5220cb8cc0e4947d728901aa35e5c6",
+      "cells": 3215,
+      "targets": [
+        "DHX35",
+        "PARP3",
+        "PHF19",
+        "RNF10",
+        "TMF1"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "context": "HEK293T_controlstratum1",
+      "file": "experiments\\v12_distribution_calibrated\\analysis\\flex_stage\\official_panels\\HEK293T_controlstratum1_real.h5ad",
+      "sha256": "db6ba7e107628107dd089297e01814a19b2df4d63255bafcb90fac74a635f5ad",
+      "cells": 2561,
+      "targets": [
+        "CHKB",
+        "DHX35",
+        "MTF1",
+        "PARP3",
+        "PHF19",
+        "TMF1",
+        "RNF10"
+      ]
+    }
+  ],
+  "plan_sha256": "d52478cd6a8b00275ba50ffb4999429011d8f3e402cd2ace0841621f87e72247",
+  "scope": "Development only; official source anchors are not private competition anchors."
+}

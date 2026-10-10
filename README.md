@@ -438,3 +438,13 @@ V10 is published as `CYpAqJP7bUYqjA2ouD7U`, overall **0.116754121**, an improvem
 ## V11 published result
 
 V11 is published as `bmIAGveuEvFiYQTvz0Ma`, overall **0.137003974**, rank 529 at publication, improving on V10 by **+0.020249853**. Five of six scaled components improve; expression accuracy declines. Official preparation and independent full-payload/replay/provenance audits passed. Source consensus rescue and higher dispersion improve coverage together; neutral-control bias remains. See [V11_LEADERBOARD_RESULTS.md](V11_LEADERBOARD_RESULTS.md), [V11_STRATEGY.md](V11_STRATEGY.md) and [V11_SUBMISSION.md](V11_SUBMISSION.md).
+
+<!-- V12_RIGOROUS_RESEARCH -->
+
+## V12 validation and matched-Flex experiments
+
+V12 first reproduces the official CPU scorer and tests count emission, response calibration, and new intervention sources separately. Six DE metric fixtures and an independent count-pipeline parity test passed. Full-variance, gamma, thinning/immigration, and intervention-linked emitters failed the fixed fidelity/expression guards; pathway imputation did not beat its shuffled control.
+
+The added VIPerturb-seq Flex source contains all 300 targets and measures 18,111 competition genes. After exact repeated-control removal, it has 22,733 unique cells, including 7,949 verified non-targeting controls; 214 interventions provide usable responses under the predeclared QC rules. A control-label inspection error involving the human gene `CTRL` was corrected against the authors' guide annotation before any source model was fitted. Flex remains within the K562 family and cannot add an independent-lineage consensus vote. Development and confirmation are separated, and every candidate must protect the six metrics against V11. See [V12_RESEARCH.md](V12_RESEARCH.md) for methods, outcomes, limitations, and reproduction commands.
+
+All 13 new count/source alternatives were rejected by fixed development or terminal worst-family guards. The complete source and calibration stages both worsen expression error; no V12 package was generated and confirmation remains unopened. V11 remains the best supported upload artifact. The report records 952 generated test populations, exact cross-stage baseline replay, public-source anchors, paired-family uncertainty, and the remaining sampled-reference metric-power limitation.

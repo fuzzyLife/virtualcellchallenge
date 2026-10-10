@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-09T12:57:55.832220+00:00",
+  "terminal_rejection": true,
+  "results": {
+    "noise85": {
+      "terminal_rejection": true,
+      "family_fidelity_difference": {
+        "sampled400": -0.2974546785044856,
+        "full_independent": -0.28721965745159
+      },
+      "maximum_allowed_loss": 0.03
+    },
+    "noise100": {
+      "terminal_rejection": true,
+      "family_fidelity_difference": {
+        "sampled400": -0.40133018488195116,
+        "full_independent": -0.40713085784872244
+      },
+      "maximum_allowed_loss": 0.03
+    }
+  },
+  "completed_family": "H1",
+  "completed_family_target_seed_cases": 12,
+  "partial_count_cache_cases": 22,
+  "plan_sha256": "b433c2708c82dc140bf85b6b4d903f406f656d378dd8489ac7a4a4ce26e75a67",
+  "scores_sha256": "55bc1e279dd580f179b7c6f0bf6b86bcd4c929e2faab77411be093e83cd7286d",
+  "panels_sha256": "d5443c4463f6534959b18e55481308c14fe09e4731397b8ec810f90b6c50d784",
+  "script_sha256": "8e4289f3a1db93a1fb19f3409a3fa5a99d18692d31750c1dc46dd27c6ae0df97",
+  "scope": "Rejected early after both seeds of the entire H1 family fail the fixed worst-family guard. Other families cannot repair that failure. Partial later-family caches are retained; no claim of a completed full development run or overall score. No confirmation opened."
+}
