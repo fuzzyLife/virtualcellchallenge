@@ -1,0 +1,79 @@
+{
+  "best_version": 13,
+  "best_overall": 0.13788313368012328,
+  "v4_to_v10_gain": 0.16742803152544683,
+  "v10_to_v11_gain": 0.020249852747207794,
+  "v11_to_v13_gain": 0.0008791595683897702,
+  "v13_pds_fraction_of_net_overall": 0.7725575150748665,
+  "v13_scaled_component_contributions": {
+    "pds": 0.10652265112665167,
+    "mse": 0.005479725259585406,
+    "nmae": 0.013636935301055282,
+    "fid": -0.002603070552183551,
+    "reach": 0.012595605438495527,
+    "jac": 0.0022512871065189506
+  },
+  "raw_metric_scope": "Raw fidelity is budget-normalized yield, not sign precision; Jaccard is not recall.",
+  "context_geometry": {
+    "fully_open_output_genes": 7991,
+    "fully_open_targets": 288,
+    "identical_downstream_target_gene_pairs": 2301120,
+    "max_gate_removed_disagreement": 3.1330069871771116e-07,
+    "pairs": [
+      {
+        "contexts": "A-B",
+        "joint_nonzero_effects": 3782890,
+        "opposite_sign_effects": 0,
+        "exact_equal_fraction": 0.7117023687476394,
+        "max_difference_fully_open_gates": 0.0
+      },
+      {
+        "contexts": "A-C",
+        "joint_nonzero_effects": 3795332,
+        "opposite_sign_effects": 0,
+        "exact_equal_fraction": 0.7169217072249501,
+        "max_difference_fully_open_gates": 0.0
+      },
+      {
+        "contexts": "B-C",
+        "joint_nonzero_effects": 3830229,
+        "opposite_sign_effects": 0,
+        "exact_equal_fraction": 0.726939333441249,
+        "max_difference_fully_open_gates": 0.0
+      }
+    ],
+    "scope": "Pre-emission log2 effects; final normalized fold changes/DE calls can differ. No hidden truth comparison."
+  },
+  "student3": {
+    "primary_metric_changes": {
+      "pds": 0.011111111111111072,
+      "fidelity": 0.0007099359326313559,
+      "reach": 0.022280225835865086,
+      "jaccard": 0.0004805650283309995,
+      "nmae": -0.00982429165930565,
+      "common_expression_ratio": 0.002999075007804386
+    },
+    "relative_expression_error_increase": 0.0021345889700898108,
+    "source_anchored_development_overall_v11": 0.0138403440621368,
+    "source_anchored_development_overall_student3": 0.0304031273529013,
+    "scope": "Reused development; first-seed public anchors with small denominators. No independent count confirmation or private leaderboard result for Student3.",
+    "failed_frozen_guards": {
+      "sampled400": [
+        "expression_improves"
+      ],
+      "full_independent": [
+        "expression_improves"
+      ]
+    }
+  },
+  "validation_scope": {
+    "v13_development_target_seed_cases": 58,
+    "v13_confirmation_target_seed_cases": 30,
+    "v13_confirmation_families": [
+      "HCT116",
+      "HEK293T"
+    ],
+    "v12_supplemental_confirmation_cases_not_in_v13_plan": 8,
+    "scope": "Identity comparison only, not a claim of unseen biology or adequate DE power. Original V13 confirmation has been used."
+  }
+}

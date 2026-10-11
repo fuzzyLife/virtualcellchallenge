@@ -1,0 +1,19 @@
+area,tested_scope,outcome,evidence_status,evidence
+Controls and rank analyses,"Full/300-gene clustering, external mapping and marker audit",Baseline separation; no causal response labels,diagnostic,TARGET_LINEAGE_INTERPRETATION.md;EXTERNAL_RANK_MAPPING_RESULTS.md;TARGET_CELL_DISPERSION_RESULTS.md
+V1/V2,"K562 transfer, then donor-calibrated CD4 and zero-aware count increases","Published improvement, still one shared response",published,COMPETITION_ANALYSIS.md;V2_SUBMISSION.md;build_submission.py
+V3,"Basal NNLS ensembles, CD4/H1 fitting and common templates",Generated and audited; no recorded score,unsubmitted,V3_SUBMISSION.md
+V4,Lineage-guided source policies and downstream response coverage,Large published gain; raw expression worsened; bundled changes,published,V4_MODEL_STRATEGY.md;V4_SUBMISSION.md
+V5/V9,Mean/bulk moment calibration; activation-preserving partial calibration,Five scaled gains versus V4 outweighed by fidelity loss,published,V5_MODEL_STRATEGY.md;V5_LEADERBOARD_RESULTS.md;V9_LEADERBOARD_RESULTS.md
+Control reconstruction,36 ridge candidates; 24 shallow/deep/bottleneck/residual neural networks,Neural raw MSE improves; causal intervention accuracy untested,observational only,GENE300_MODEL_RESULTS.md;GENE300_NEURAL_RESULTS.md;GENE300_NEURAL_MODELS.md
+V6,"Response calibration, fidelity guards and neural-template gate",Published below V4; local guards did not protect the leaderboard,published,V6_MODEL_STRATEGY.md;V6_SUBMISSION.md;V6_LEADERBOARD_RESULTS.md
+Embedding pilot,Four Tahoe/PCA response heads and H1 generated-cell blends,Tested blends failed; proteomics checkpoint absent,rejected limited heads,CROSS_MODAL_MODEL_REVIEW.md;EMBEDDING_RESPONSE_PILOT.md
+V7,"Expanded HCT/HEK, nested pooling, supervised neural/ridge alternatives",Alternatives rejected; upload equals V4 effects with new sampling,published fallback,V7_MODEL_STRATEGY.md;V7_LEADERBOARD_RESULTS.md
+V8,"Common-origin PDS repair, response and count calibration",Diagnostic package; no recorded score,unsubmitted,TRANSFER_VALIDATION_AUDIT.md;V8_SUBMISSION.md
+V10,"Measured family pooling, dose correction, EB shrinkage and compact emission",Major published gain; response and emission changed together,published,V10_STRATEGY.md;V10_LEADERBOARD_RESULTS.md;v10_methods.py
+V11,"Consensus rescue and noise 0.65, isolated/combined local ablations",Published gain; expression worsened; population bias remains,published,V11_STRATEGY.md;V11_LEADERBOARD_RESULTS.md;v11_methods.py
+V12 distributions,"Empirical/gamma mixtures, response-linked variation, thinning and higher Poisson noise",Better null realism often loses intervention fidelity/error guards,rejected,V12_RESEARCH.md;v12_methods.py
+V12 sources and priors,"K562 Flex, six platform variants, heterogeneity/amplitude and Reactome priors",No accepted candidate; pathway screen did not beat shuffled annotations,rejected limited priors,V12_RESEARCH.md;v12_harmonized_methods.py;screen_v12_responses.py
+V13 programs,Low-rank response bases: ranks 8/32/64 and blends,Count finalists failed; not the production response,rejected,V13_STRATEGY.md;v13_methods.py
+V13 robust,Median-radius clipping and Student-t source reliability,Student3 improves five primary development metrics; expression guard fails,unconfirmed lead,V13_STRATEGY.md;v13_robust_methods.py;assess_v13_submission.py
+V13 quality,"Unknown-KD correction, soft weights and hard KD gate",Unknown-KD released; incomplete confirmation; tiny published gain,published exploratory,V13_STRATEGY.md;V13_LEADERBOARD_RESULTS.md;v13_quality_methods.py
+Data feasibility,"Reactome/fingerprinting code, RPE1 overlap, recovered construct KD",Fingerprint fitting not run; RPE1 zero target overlap; actual KD unused after freeze,mixed / partly untested,POST_V11_RESEARCH.md;audit_v13_rpe1.py;audit_v13_knockdown.py

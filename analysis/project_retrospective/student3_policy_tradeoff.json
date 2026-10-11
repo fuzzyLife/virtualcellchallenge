@@ -1,0 +1,22 @@
+{
+  "primary_metric_changes": {
+    "pds": 0.011111111111111072,
+    "fidelity": 0.0007099359326313559,
+    "reach": 0.022280225835865086,
+    "jaccard": 0.0004805650283309995,
+    "nmae": -0.00982429165930565,
+    "common_expression_ratio": 0.002999075007804386
+  },
+  "relative_expression_error_increase": 0.0021345889700898108,
+  "source_anchored_development_overall_v11": 0.0138403440621368,
+  "source_anchored_development_overall_student3": 0.0304031273529013,
+  "scope": "Reused development; first-seed public anchors with small denominators. No independent count confirmation or private leaderboard result for Student3.",
+  "failed_frozen_guards": {
+    "sampled400": [
+      "expression_improves"
+    ],
+    "full_independent": [
+      "expression_improves"
+    ]
+  }
+}

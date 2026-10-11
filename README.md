@@ -2,6 +2,16 @@
 
 This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Ten submissions (first, V2, V4, V5, V6, V7, V9, V10, V11 and V13) have been published. V13 is the best recorded validation submission, with overall score **0.137883134**, improving on V11 by **0.000879160** (0.64%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md) for the current result and [V13_SUBMISSION.md](V13_SUBMISSION.md) for reproducibility.
 
+<!-- project-retrospective:begin -->
+
+## Experiment retrospective (2026-10-11)
+
+Reviewed all ten published submissions, observational/neural studies and rejected V12/V13 alternatives. V10/V11 supplied the main recent gains; V13 adds only 0.000879160 over V11. A new complete-array audit finds identical A/B/C pre-emission effects for 288 targets across 7,991 fully expressed genes, with no opposite-sign effects between contexts. The production model lacks learned context interactions and treated-state population structure. Student-t pooling remains an unconfirmed five-metric development lead rejected by the strict expression guard. Proposed next tests separate response error from population error before learning conditional intervention effects.
+
+See [PROJECT_RETROSPECTIVE.md](PROJECT_RETROSPECTIVE.md) for the history, evidence strength, gaps and prospective tests. Root `review_project_experiments.py` reproduces the score/component comparisons, verifies frozen V13 dependencies, and audits all saved effect coordinates; small evidence and hashes are in `analysis/project_retrospective/`. This review does not change any model or create/upload a submission.
+
+<!-- project-retrospective:end -->
+
 The latest and best published submission is V13 (`AvAsYkuxFSjbxYDCd0wJ`), overall **0.137883134**. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.

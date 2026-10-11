@@ -1,0 +1,30 @@
+{
+  "fully_open_output_genes": 7991,
+  "fully_open_targets": 288,
+  "identical_downstream_target_gene_pairs": 2301120,
+  "max_gate_removed_disagreement": 3.1330069871771116e-07,
+  "pairs": [
+    {
+      "contexts": "A-B",
+      "joint_nonzero_effects": 3782890,
+      "opposite_sign_effects": 0,
+      "exact_equal_fraction": 0.7117023687476394,
+      "max_difference_fully_open_gates": 0.0
+    },
+    {
+      "contexts": "A-C",
+      "joint_nonzero_effects": 3795332,
+      "opposite_sign_effects": 0,
+      "exact_equal_fraction": 0.7169217072249501,
+      "max_difference_fully_open_gates": 0.0
+    },
+    {
+      "contexts": "B-C",
+      "joint_nonzero_effects": 3830229,
+      "opposite_sign_effects": 0,
+      "exact_equal_fraction": 0.726939333441249,
+      "max_difference_fully_open_gates": 0.0
+    }
+  ],
+  "scope": "Pre-emission log2 effects; final normalized fold changes/DE calls can differ. No hidden truth comparison."
+}
