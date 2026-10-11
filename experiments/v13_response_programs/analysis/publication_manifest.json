@@ -1,0 +1,25 @@
+{
+  "entry_id": "AvAsYkuxFSjbxYDCd0wJ",
+  "recorder_sha256": "11ec2393fedef267dd66a02dd94dde724a0c269d62d7432eb1f87556eecbefb7",
+  "publication_artifact_sha256": {
+    "published_api_status.json": "65a0b59325e1718028e5007ec35531a0b7813a948e13e2f05af86af75fa2bf6c",
+    "leaderboard_result.json": "dd3bb6cb1018864e63a570e61ff271e2591dad2b4e210920ccfbe9f47c2d1c2e",
+    "leaderboard_comparison.csv": "2bd6b0c0b030e30839c2fae11ab3eee362b0b7a7e7c221f24ea269a42f25829b",
+    "raw_metric_comparison.csv": "754ae03cabfeae3382eac499740d852838925a7c5894b518b3ed93f990018214",
+    "generation_submission_document.md": "d8f6f221592ab5f411a2897209e57a79f6fc9497ac017c2f8bd3376c3f0ac4b1"
+  },
+  "publication_document_sha256": {
+    "V13_SUBMISSION.md": "c8f9cb798aa93693837ec564bee2626941ec0d44d0a72340678b45abb89d4574",
+    "V13_LEADERBOARD_RESULTS.md": "952617ccfe2abbd25d95dd6df90edf02ef6f365c300bf1e98c0a1939dcb0018e"
+  },
+  "release_manifest_sha256": "c54530b436761e41c45654ca327c5c40501bfceeaa87e2168941dafb81c560ce",
+  "release_document_overlay": {
+    "V13_SUBMISSION.md": "experiments/v13_response_programs/analysis/generation_submission_document.md"
+  },
+  "comparison_baseline_sha256": "d72aa5a0140022734d6f257e508f1b83c8cc80b04ca2c557c45fe2fd3b4b32a7",
+  "all_generation_file_hashes_verified_before_and_after": true,
+  "recorder_dependency_sha256": {
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce"
+  },
+  "scope": "Publication overlay only; no change to frozen predictor, local acceptance, populations or package."
+}

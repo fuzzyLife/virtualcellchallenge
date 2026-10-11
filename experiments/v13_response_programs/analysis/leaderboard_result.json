@@ -1,0 +1,46 @@
+{
+  "source": "User-reported CLI publication confirmed by read-only vcc --json status.",
+  "recorded_utc": "2026-10-11T08:13:31.684715+00:00",
+  "entry_id": "AvAsYkuxFSjbxYDCd0wJ",
+  "model_name": "Assay-aware knockdown transport v13",
+  "final_status": "published",
+  "submitted_utc": "2026-10-11T07:28:25.755195Z",
+  "rank_at_user_report": 558,
+  "rank_at_api_check": 559,
+  "overall": 0.13788313368012328,
+  "metrics": {
+    "pds": 0.63913590675991,
+    "mse": 0.03287835155751243,
+    "nmae": 0.0818216118063317,
+    "fid": -0.015618423313101306,
+    "reach": 0.07557363263097316,
+    "jac": 0.013507722639113704
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.7894871794871795,
+    "expr_mse_unbiased_capped_norm": 0.976550468164322,
+    "de_wilcoxon_lfc_nmae": 0.9512121857607971,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.508106419872579,
+    "de_wilcoxon_direction_reach_raw": 0.14563094784619654,
+    "de_wilcoxon_sig_jaccard": 0.035249773249065856
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "2454a8b8ce694217962b89f1bac4ec0fb1bbd01a396c1ffe5cd780f4baa11591",
+  "upload_bytes": 4081111040,
+  "upload_duration_seconds": 987,
+  "overall_change_from_v11": 0.0008791595683897702,
+  "relative_overall_change_from_v11": 0.006417036980786938,
+  "raw_relative_change": {
+    "pds_cosine": 0.0005557308567203378,
+    "expr_mse_unbiased_capped_norm": -0.010754956181396547,
+    "de_wilcoxon_lfc_nmae": -0.0004135069402599889,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.0001873154355500617,
+    "de_wilcoxon_direction_reach_raw": -0.025893317066927657,
+    "de_wilcoxon_sig_jaccard": -0.000914484379128222
+  },
+  "release_manifest_sha256": "c54530b436761e41c45654ca327c5c40501bfceeaa87e2168941dafb81c560ce",
+  "recorder_sha256": "11ec2393fedef267dd66a02dd94dde724a0c269d62d7432eb1f87556eecbefb7",
+  "interpretation": "Best recorded project validation score; modest improvement, four scaled components up, reach and overlap down. Local confirmation remains inconclusive. A single submission is not proof of statistical significance or final-round generalization."
+}

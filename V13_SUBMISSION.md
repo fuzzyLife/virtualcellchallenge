@@ -1,15 +1,17 @@
 # V13 submission and validation
 
-**Exploratory candidate: local tests did not confirm improvement over V11. V11 remains the recommended best-supported submission.**
+Published as `AvAsYkuxFSjbxYDCd0wJ`, overall **0.137883134**, a gain of **+0.000879160** (0.64%) over V11 on the same panel and anchors. This is the best recorded project validation score. Rank was **558** in the user report and **559** at the API check; ranks change with other entries. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
-A new package is ready at `experiments/v13_response_programs/prediction.vcc`. Official prep and independent full-payload/replay checks passed. It has not been uploaded.
+**Generation-time assessment:** local count confirmation was inconclusive because some primary NMAE panels were ineligible. The model was packaged as exploratory. This remains the historical validation outcome despite the later small leaderboard gain.
+
+A new package is ready at `experiments/v13_response_programs/prediction.vcc`. Official prep and independent full-payload/replay checks passed. It is now published; the original generation-time report is archived in `experiments/v13_response_programs/analysis/generation_submission_document.md`.
 
 - Selected model: `unknown_kd` from `v13_quality_methods`.
 - Package size: 4,081,111,040 bytes (3.80 GiB).
 - SHA-256: `2454a8b8ce694217962b89f1bac4ec0fb1bbd01a396c1ffe5cd780f4baa11591`.
 - Cells/genes: 360,000 by 18,533; 900 context-target groups with 400 cells each.
 - Nonzero counts: 2,375,909,107.
-- Published reference: V11, overall 0.137003974; no V13 leaderboard result exists.
+- Prior published reference: V11, overall 0.137003974. The V13 publication and metric comparison are recorded in [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
 ## Research and tests
 
@@ -78,11 +80,11 @@ After completed development and selection:
 
 Run in a fresh checkout with the documented source data, or preserve the already frozen plan/model/package rather than overwriting it. Large source/count caches and packages are intentionally excluded from Git; root code and JSON/CSV evidence are tracked.
 
-## Upload from Windows Command Prompt
+## Historical upload command (already published)
 
 ```cmd
 cd /d L:\promec\Animesh\Download\Virtual
 .\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v13_response_programs\prediction.vcc -m "Assay-aware knockdown transport v13" --wait
 ```
 
-An upload is a leaderboard experiment. If interrupted after scoring starts, use `vcc status <entry-id> --wait` instead of creating another entry. V11's package and its published result remain intact.
+Inspect the existing entry with `vcc status AvAsYkuxFSjbxYDCd0wJ`. The historical submit command creates a duplicate entry. V11 remains preserved for comparison.
