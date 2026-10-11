@@ -373,3 +373,8 @@ __marimo__/
 /experiments/v14_context_interactions/analysis/models/*.npz
 /experiments/v14_context_interactions/analysis/*_cache/
 /experiments/v14_context_interactions/*.log
+
+# V15 regenerable model, source-distribution and count-profile caches
+/experiments/v15_weighted_transport/**/*.npz
+/experiments/v15_weighted_transport/analysis/*_cache/
+/experiments/v15_weighted_transport/analysis/prediction_control_rows.csv

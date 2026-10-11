@@ -1,0 +1,199 @@
+{
+  "stage": "development",
+  "candidate": "v13",
+  "new_candidate_passes": false,
+  "comparisons": [
+    {
+      "candidate": "response",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": false,
+        "DE_metric_improves": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.0012695324387926126,
+        "reach": -0.003969020383579599,
+        "jaccard": -3.203599605229895e-05,
+        "nmae": -0.0022450099585770156,
+        "relative_expression_worsening": 0.022342052003773667
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": true,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2,
+      "scope": "Public partly reused biology; paired absolute expression numerators protect tiny-denominator panels. No statistical or private leaderboard guarantee."
+    },
+    {
+      "candidate": "v13_quantile25",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": false,
+        "DE_metric_improves": false,
+        "null_calls": false,
+        "beats_shuffled_distribution": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.016622977181098786,
+        "reach": -0.018795363020425625,
+        "jaccard": -0.0025261439376658835,
+        "nmae": 0.007041383934635798,
+        "relative_expression_worsening": 0.029941975725983744
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2,
+      "scope": "Public partly reused biology; paired absolute expression numerators protect tiny-denominator panels. No statistical or private leaderboard guarantee."
+    },
+    {
+      "candidate": "response_quantile10",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": false,
+        "DE_metric_improves": true,
+        "null_calls": false,
+        "beats_shuffled_distribution": true
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.009539672291603407,
+        "reach": 0.04717023440032836,
+        "jaccard": -0.0013626805815219508,
+        "nmae": 0.008650234068734858,
+        "relative_expression_worsening": 0.055676496123079816
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2,
+      "scope": "Public partly reused biology; paired absolute expression numerators protect tiny-denominator panels. No statistical or private leaderboard guarantee."
+    },
+    {
+      "candidate": "response_quantile25",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": false,
+        "DE_metric_improves": false,
+        "null_calls": false,
+        "beats_shuffled_distribution": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.01792717726232011,
+        "reach": -0.04008608287192438,
+        "jaccard": -0.0022025931667707488,
+        "nmae": -0.004017178167318974,
+        "relative_expression_worsening": 0.08432087714102539
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": true,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2,
+      "scope": "Public partly reused biology; paired absolute expression numerators protect tiny-denominator panels. No statistical or private leaderboard guarantee."
+    }
+  ],
+  "metric_rank_scores": {},
+  "complete_six_metric_verification": false,
+  "scores_sha256": "b5277e43c73a55c72a120960368f9753db41ade8870ec2c59ba603fc0d0933a5",
+  "plan_sha256": "78fd81b7dac855df118a838434acd5eccc87214175ca51609f5a571785a76302",
+  "null_sha256": "44cc8b9f025b66f779fc4869385fbe410c1435b9cb02628362b03a3946beefb0",
+  "scope": "Frozen exploratory public raw policy; reserved algorithm verification on previously inspected biology, not independent biological proof. No retuning."
+}

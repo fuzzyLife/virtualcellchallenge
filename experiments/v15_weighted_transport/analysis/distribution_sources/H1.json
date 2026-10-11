@@ -1,0 +1,88 @@
+{
+  "family": "H1",
+  "inputs": {
+    "source_cache": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "code": "62126894085a4d4719c7a4eff0b5231e50c6b82f8b6d611bdac412805490bbfe"
+  },
+  "sha256": "4cb96717c8a10e19d339ad02edf406c5b2815c11066fecad121f1f63ef70f61c",
+  "eligible_targets": 25,
+  "control_quantile_cell_counts": [
+    768,
+    768
+  ],
+  "source": {
+    "original_training_extraction": {
+      "source": {
+        "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+        "bytes": 15482497461,
+        "etag": "\"-CKCuwqrMwpEDEAE=\""
+      },
+      "public_release": "2025 training only",
+      "selection": "First source-ordered 32 controls per batch; first N target cells per target/batch, adaptive bounded plan",
+      "target_cells_per_batch": 2,
+      "targets": 13,
+      "selected_cells": 2772,
+      "control_cells": 1536,
+      "genes": 18080,
+      "range_bytes_used": 1635264949,
+      "downloaded_this_run": 741867520,
+      "byte_budget": 2147483648,
+      "counts_sha256": "6d2f9389735ee1c29dc6b71fee55c4b5b0067af8e95c3fc9e034bee414bd3a33",
+      "selected_cells_sha256": "b43c1cd3ef36767ece5f2fb55b5d70f6d291f6bfe09f4aa2f5a2a79856fa7bc0",
+      "gene_names_sha256": "78be667f0e5c7b515d8403fda699f3aed19dc7207a2ccf9233b0b927a4a90723",
+      "script_sha256": "660d9fb626eab5eaf9691bf1c764f0b4e2660a31ecc70db226f130578c353f63"
+    },
+    "additional_splits": [
+      {
+        "source": {
+          "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad?generation=1765905029341737",
+          "bytes": 6928967541,
+          "etag": "\"-CKnE7O/MwpEDEAE=\""
+        },
+        "target_cells_per_target_batch": 16,
+        "selected_cells": 4570,
+        "target_cells": 3034,
+        "targets": 4,
+        "shared_controls_checked_count_exact": 1536,
+        "shared_controls_retained_in_combined_matrix_once": true,
+        "budget_bytes": 4294967296,
+        "range_bytes_used": 2579998581,
+        "downloaded_this_run": 2570846208,
+        "counts_sha256": "2922db5dd0733f874b4f1416823ef9e9bf40d1c278e808e957643c4f9eb4249d",
+        "selected_cells_sha256": "d7e5ee84ee74a5d40fbadeea0c31adf2623bd24ca1c032276cbeaa61a7a5f34e",
+        "script_sha256": "3c0a30508af78cb2e09ecdd5bb734adc77d4b1e962fd27eb0938fa8a102921f1",
+        "selection": "Existing 1536 training controls matched by ID and exactly verified, first N target cells per target/batch; largest predeclared N fitting bounded range plan."
+      },
+      {
+        "source": {
+          "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad?generation=1765905295402700",
+          "bytes": 11950739168,
+          "etag": "\"-CMzN2+7NwpEDEAE=\""
+        },
+        "target_cells_per_target_batch": 16,
+        "selected_cells": 6096,
+        "target_cells": 4560,
+        "targets": 8,
+        "shared_controls_checked_count_exact": 1536,
+        "shared_controls_retained_in_combined_matrix_once": true,
+        "budget_bytes": 4294967296,
+        "range_bytes_used": 3774467808,
+        "downloaded_this_run": 2627993600,
+        "counts_sha256": "a09d1ab39759242bdf0c140e6a5f4c18c95146fa524e10966ec149242e583766",
+        "selected_cells_sha256": "9f6e9ca1934ff10c3488804af137f0bc8fc03d1ad202ce226ce8a5bbbf8b65c0",
+        "script_sha256": "bece5d53b4854a1d98c7c7715cd4e335f117aa9bda5902b6e8f9aee21a118a95",
+        "selection": "Existing 1536 training controls matched by ID and exactly verified, first N target cells per target/batch; largest predeclared N fitting bounded range plan."
+      }
+    ],
+    "targets": 25,
+    "control_cells": 1536,
+    "selected_cells": 10366,
+    "genes": 18080,
+    "counts_sha256": "83d31b5be41f663247f0184fce15d5455099479d68cd66ac2122886ffe6f0e92",
+    "selected_cells_sha256": "02dadfcf89adac67e74d17582ab8cf7bd6c7576ef93d4a5ca321a224a7b6dc71",
+    "gene_names_sha256": "78be667f0e5c7b515d8403fda699f3aed19dc7207a2ccf9233b0b927a4a90723",
+    "script_sha256": "bece5d53b4854a1d98c7c7715cd4e335f117aa9bda5902b6e8f9aee21a118a95",
+    "scope": "Released public 2025 H1, combined unique cells; source batch splits globally disjoint; no hidden 2026 response data."
+  },
+  "policy": "Raw source controls/treatments only; normalized within-population means, two source-control depth bins, five quantiles, minimum 80 treatments and 25 per depth bin; source library totals projected to competition gene axis."
+}

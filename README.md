@@ -22,6 +22,16 @@ Nine disjoint 200/200-treatment oracle splits separate response and population l
 
 <!-- v14-research:end -->
 
+<!-- v15-research:begin -->
+
+## V15 response ensemble and population transport
+
+Implemented nested held-family calibration of V13, robust Student-t pooling and a source specialist, plus depth-stratified source-treated marginal changes and matched shuffled controls. Frozen development includes 168 generated populations from 14 targets/two seeds; separate NTC diagnostics and reserved algorithm verification guard release. Selected development candidate: `v13`. No new package was released; V13 remains the upload reference. See [V15_SUBMISSION.md](V15_SUBMISSION.md) for the retained artifact and why no repeat upload is needed. These are public exploratory comparisons on partly reused biology, with missing-metric and tiny-denominator limitations; no new leaderboard score is claimed.
+
+Methods/reproduction: [V15_STRATEGY.md](V15_STRATEGY.md). Measured comparisons, expert diversity and verification: [V15_RESULTS.md](V15_RESULTS.md). Root code and small hashed evidence are versioned; prior numerical models/packages remain unchanged.
+
+<!-- v15-research:end -->
+
 The latest and best published submission is V13 (`AvAsYkuxFSjbxYDCd0wJ`), overall **0.137883134**. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.

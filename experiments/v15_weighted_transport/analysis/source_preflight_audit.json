@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "exact_v14_baseline_count_and_DE_replays": 0,
+  "splits": [
+    {
+      "family": "H1",
+      "source_cell_ids_unique": true,
+      "control_halves_disjoint": true,
+      "400_cell_cases": 14,
+      "null_200_plus_200_cases": 2
+    },
+    {
+      "family": "HCT116",
+      "source_cell_ids_unique": true,
+      "control_halves_disjoint": true,
+      "400_cell_cases": 12,
+      "null_200_plus_200_cases": 2
+    },
+    {
+      "family": "HEK293T",
+      "source_cell_ids_unique": true,
+      "control_halves_disjoint": true,
+      "400_cell_cases": 20,
+      "null_200_plus_200_cases": 2
+    }
+  ],
+  "quantile_replays": [
+    {
+      "family": "H1",
+      "targets": 3,
+      "genes": 24,
+      "bins": 2,
+      "quantile_coordinates": 720,
+      "maximum_difference": 5.49244274949956e-07
+    },
+    {
+      "family": "HCT116",
+      "targets": 3,
+      "genes": 24,
+      "bins": 2,
+      "quantile_coordinates": 720,
+      "maximum_difference": 6.206856077994871e-07
+    },
+    {
+      "family": "HEK293T",
+      "targets": 3,
+      "genes": 24,
+      "bins": 2,
+      "quantile_coordinates": 720,
+      "maximum_difference": 4.736404495275792e-07
+    }
+  ],
+  "models": [
+    {
+      "family": "CD4",
+      "weights": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "excluded": [
+        "CD4"
+      ],
+      "grid_selection_replayed": true
+    },
+    {
+      "family": "H1",
+      "weights": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "excluded": [
+        "H1"
+      ],
+      "grid_selection_replayed": true
+    },
+    {
+      "family": "HCT116",
+      "weights": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "excluded": [
+        "HCT116"
+      ],
+      "grid_selection_replayed": true
+    },
+    {
+      "family": "K562",
+      "weights": [
+        0.5,
+        0.5,
+        0.0
+      ],
+      "excluded": [
+        "K562"
+      ],
+      "grid_selection_replayed": true
+    }
+  ],
+  "count_profile_caches": [],
+  "v13_dependencies_unchanged": true,
+  "script_sha256": "a37d596bb9ecbea615cc878e67cacf11ad11dfafe00529fdb06a1c19ec558ed4",
+  "scope": "Original unique identities, frozen dependencies, all cache hashes/shapes, nested grid choices, manually sorted/interpolated source quantile samples. Does not prove hidden leaderboard accuracy or independently rerun every DE test."
+}

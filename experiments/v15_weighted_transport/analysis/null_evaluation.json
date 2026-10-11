@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "population_cases": 18,
+  "target_seed_cases": 6,
+  "provenance": [
+    {
+      "family": "H1",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "H1",
+      "distribution_training_excludes": "H1"
+    },
+    {
+      "family": "H1",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "H1",
+      "distribution_training_excludes": "H1"
+    },
+    {
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "HCT116",
+      "distribution_training_excludes": "HCT116"
+    },
+    {
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "HCT116",
+      "distribution_training_excludes": "HCT116"
+    },
+    {
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "HEK293T",
+      "distribution_training_excludes": "HEK293T"
+    },
+    {
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "actual_unique_cells": 200,
+      "template_unique_cells": 200,
+      "response_training_excludes": "HEK293T",
+      "distribution_training_excludes": "HEK293T"
+    }
+  ],
+  "scores_sha256": "80969cd27eaf8917c5facb8f8225d8f3efc3dcd5ac13c9d34421689c85210f57",
+  "panels_sha256": "29f615875ac07fd08ae74836b159a15087edfde696e2e8a30205234c9081822c",
+  "plan_sha256": "78fd81b7dac855df118a838434acd5eccc87214175ca51609f5a571785a76302"
+}

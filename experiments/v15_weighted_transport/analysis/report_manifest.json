@@ -1,0 +1,29 @@
+{
+  "inputs": {
+    "experiments\\v15_weighted_transport\\analysis\\audit_correction.json": "fdf763e864a6f6330de2333174820e8c7e4f379d7c312aba021d94963baaf7a6",
+    "experiments\\v15_weighted_transport\\analysis\\same_input_baseline_replay.json": "82f5ef04e17e915633aa69de2dc3ea79e89f692aa7414b6ff8da6a2f2196ac88",
+    "experiments\\v15_weighted_transport\\analysis\\historical_baseline_differences.csv": "125b0f016cf0c8cd747572f8ea373b5a70900066f7d79537a1c98c7bb905a0ee",
+    "experiments\\v15_weighted_transport\\analysis\\baseline_package_check.json": "aa08c561a7844811124a0f486450b6bd117c91c553eef9c366a00a852015cc06",
+    "experiments\\v15_weighted_transport\\analysis\\plan.json": "78fd81b7dac855df118a838434acd5eccc87214175ca51609f5a571785a76302",
+    "experiments\\v15_weighted_transport\\analysis\\matched_control_plan.json": "3b553e3444a779d28c2753b21cafbf87ca072e66896e16f1418c1e8b29581b63",
+    "experiments\\v15_weighted_transport\\analysis\\unit_tests.json": "c2531c0b4395b51d5aced6e2344649451a9a62f98a5a2b33868f13e3740404af",
+    "experiments\\v15_weighted_transport\\analysis\\response_selection.json": "d3c19e90f113a52383523d60b995e1efe70bb6c1709b1761254c9b31382228a4",
+    "experiments\\v15_weighted_transport\\analysis\\response_summary.csv": "3d6340d5d408bad1adc14d773d69a2a82d94de10c33f624af3744f838441613c",
+    "experiments\\v15_weighted_transport\\analysis\\expert_diversity.csv": "77b73aa78c2f9de1cea676466a5ada542396b8be74704373b4810cc52b0047e2",
+    "experiments\\v15_weighted_transport\\analysis\\null_evaluation.json": "48c84549dfa3dfd76602a99461774fd35853479c8e47a606e89d5288ca849680",
+    "experiments\\v15_weighted_transport\\analysis\\null_summary.csv": "44cc8b9f025b66f779fc4869385fbe410c1435b9cb02628362b03a3946beefb0",
+    "experiments\\v15_weighted_transport\\analysis\\development_evaluation.json": "29a02f5d4118b2f1b1864dde2f58957edc798b3444bbf583d6a2476e72465927",
+    "experiments\\v15_weighted_transport\\analysis\\development_scores.csv": "f3e0c3444b8b9bca37a9a07affa118cc04876e0afbadf5b65f84390f40ddf6b5",
+    "experiments\\v15_weighted_transport\\analysis\\development_panels.csv": "b5277e43c73a55c72a120960368f9753db41ade8870ec2c59ba603fc0d0933a5",
+    "experiments\\v15_weighted_transport\\analysis\\development_summary.csv": "a19c7d38cc3df07997c0fd9b3ed08e9ec8d54ca8ee26e77602d07441a40e2f3d",
+    "experiments\\v15_weighted_transport\\analysis\\selection.json": "d80536c9366c8eba2bb3bd4a803bc8677e626884c80b392de1dbc9db47e01a0a",
+    "experiments\\v15_weighted_transport\\analysis\\independent_experiment_audit.json": "ee62b37b70e675e1917f57a68ecdbc109ede5dc8e4d4e1f88b155e6e75053f66"
+  },
+  "outputs": {
+    "V15_RESULTS.md": "730463e5c474a400c83096b0fd0c7c2ddbcd1fdf1ff4161e016e62560cf4780e",
+    "V15_SUBMISSION.md": "cb6ce0d7c537b9d2a0d2cd9b63752d58ebdb627111e2eafa09978fd5a3af0412"
+  },
+  "generator_sha256": "dde4371fc8c505cbfd2587e2473af2c4bb3f3c523819dddd494533178048e640",
+  "uploaded": false,
+  "scope": "Measured public-source research and, if present, independently verified exploratory package; no private score or rank guarantee."
+}

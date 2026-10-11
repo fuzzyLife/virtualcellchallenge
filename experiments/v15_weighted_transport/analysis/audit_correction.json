@@ -1,0 +1,159 @@
+{
+  "created_utc": "2026-10-11T11:10:48.215984+00:00",
+  "initial_audit_failed": true,
+  "failed_assertion": "All 18 historical V14/V15 baseline count SHA digests must match",
+  "historical_digest_matches": 0,
+  "expected_historical_matches": 18,
+  "reason": "V14 sampled unsorted left/right pools and saved sorted pools; V15 sampled the saved sorted pools. Whole control halves and actual treatment identities match, but sampled template/reference identities do not. Historical count replay is therefore inapplicable.",
+  "resolution": "Replay the unchanged original baseline loader, gating and V11 emitter on exact frozen V15 templates/seeds; verify count digest, profiles and DE scores. Keep historical outputs and all V15 methods/inputs/outcomes/selection unchanged.",
+  "input_checks": [
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "actual_ids_match": true,
+      "template_ids_match": false,
+      "sampled_reference_ids_match": false
+    }
+  ],
+  "plan_sha256": "78fd81b7dac855df118a838434acd5eccc87214175ca51609f5a571785a76302",
+  "initial_auditor_sha256": "a37d596bb9ecbea615cc878e67cacf11ad11dfafe00529fdb06a1c19ec558ed4",
+  "replayer_sha256": "962729ca58cc23d576f9d42b5bbb573f96a048906160d1228a5499c78bda0208",
+  "outcome_selection_unchanged": true
+}
