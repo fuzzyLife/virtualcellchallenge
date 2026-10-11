@@ -1,0 +1,388 @@
+{
+  "stage": "development",
+  "candidate": "residual10",
+  "new_candidate_passes": true,
+  "comparisons": [
+    {
+      "candidate": "calibrated_compact",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "beats_amplitude_matched_uniform": true
+      },
+      "changes": {
+        "pds": -0.06388888888888888,
+        "fidelity": 0.002262547754890931,
+        "reach": -0.055209463895461074,
+        "jaccard": -0.0006015804700965831,
+        "nmae": -0.04594419492252197,
+        "relative_expression_worsening": -0.0417946812623656
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "balanced",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": false,
+        "expression": false,
+        "family_fidelity": false,
+        "family_reach": false,
+        "three_metrics_improve": false,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true
+      },
+      "changes": {
+        "pds": -0.025000000000000022,
+        "fidelity": -0.32255294840779863,
+        "reach": 0.017000335034996674,
+        "jaccard": 0.14738951869133568,
+        "nmae": 0.011527537988022696,
+        "relative_expression_worsening": 1.7612059595337535
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "calibrated_balanced",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": false,
+        "family_reach": false,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true,
+        "beats_amplitude_matched_uniform": true
+      },
+      "changes": {
+        "pds": -0.05833333333333333,
+        "fidelity": -0.39845096206042746,
+        "reach": 0.011954881447786567,
+        "jaccard": 0.14812652598424236,
+        "nmae": -0.04684566581603103,
+        "relative_expression_worsening": 1.7540010429052257
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "residual10",
+      "pass": true,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.0004491893408999729,
+        "reach": 0.023911476512722605,
+        "jaccard": 0.00015542510326563457,
+        "nmae": -0.0015588407499478596,
+        "relative_expression_worsening": -0.0009166059570983775
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "calibrated_residual10",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true,
+        "beats_amplitude_matched_uniform": true
+      },
+      "changes": {
+        "pds": -0.06388888888888888,
+        "fidelity": 0.004482192756584236,
+        "reach": -0.0334708326872158,
+        "jaccard": -0.0001747971329851667,
+        "nmae": -0.05736748261686972,
+        "relative_expression_worsening": -0.04187749897972481
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "uniform_compact",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true
+      },
+      "changes": {
+        "pds": -0.06388888888888888,
+        "fidelity": 0.0012969438436774006,
+        "reach": 0.020566837357868073,
+        "jaccard": -0.0009711706429508343,
+        "nmae": -0.06838885774448722,
+        "relative_expression_worsening": -0.02643202206261736
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "uniform_balanced",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false,
+        "family_fidelity": false,
+        "family_reach": false,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true
+      },
+      "changes": {
+        "pds": -0.05833333333333333,
+        "fidelity": -0.4114742243119725,
+        "reach": 0.009275606772280629,
+        "jaccard": 0.15073787140922584,
+        "nmae": -0.05660577647733053,
+        "relative_expression_worsening": 1.766214272781624
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    },
+    {
+      "candidate": "uniform_residual10",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true
+      },
+      "changes": {
+        "pds": -0.06388888888888888,
+        "fidelity": 0.003427223491826281,
+        "reach": 0.012963798909827157,
+        "jaccard": -0.0005531436669918656,
+        "nmae": -0.05743762431755137,
+        "relative_expression_worsening": -0.026584405068726332
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    }
+  ],
+  "metric_rank_scores": {
+    "residual10": 1.0
+  },
+  "complete_six_metric_verification": false,
+  "scope": "Exploratory public partly reused biology. Available raw guards are not a private anchor-scaled score or a statistical rank guarantee.",
+  "plan_sha256": "eec134995547da9a62040cfc998db4843e1a4ffef25544d0eae6deb9016ca62b",
+  "scores_sha256": "340cf9267f157404a6b85634bb46a0a964a9a359b6cd4fefef3614b144e8d341",
+  "null_sha256": "7400497c3011c09dcd931c8a68f1bde71d84a46ef67fd94b70746a191f6db331"
+}

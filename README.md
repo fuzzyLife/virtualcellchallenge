@@ -32,6 +32,14 @@ Methods/reproduction: [V15_STRATEGY.md](V15_STRATEGY.md). Measured comparisons, 
 
 <!-- v15-research:end -->
 
+<!-- v16-research:begin -->
+
+## V16 control-preserving response transport
+
+Tested cross-family evidence shrinkage and amplitude-matched uniform controls with compact, balanced and noise-preserving residual generators. Frozen development compares 252 populations (224 new, 28 verified reused baseline), plus 18 control diagnostics. Selected candidate: `residual10`. New exploratory package validated; see [V16_SUBMISSION.md](V16_SUBMISSION.md). Public partly reused biology and missing NMAE panels limit inference; no private score or rank gain is claimed. Methods/reproduction: [V16_STRATEGY.md](V16_STRATEGY.md). Results/audits: [V16_RESULTS.md](V16_RESULTS.md). Root code and small hashed evidence are versioned.
+
+<!-- v16-research:end -->
+
 The latest and best published submission is V13 (`AvAsYkuxFSjbxYDCd0wJ`), overall **0.137883134**. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.

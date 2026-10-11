@@ -108,3 +108,9 @@
 /V15_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V15_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /experiments/v15_weighted_transport/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve V16 tested numerical code and evidence bytes on Windows.
+/*v16*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V16_STRATEGY.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V16_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V16_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v16_control_preserving/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

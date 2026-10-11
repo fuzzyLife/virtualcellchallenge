@@ -1,0 +1,68 @@
+{
+  "stage": "confirmation",
+  "candidate": "residual10",
+  "new_candidate_passes": true,
+  "comparisons": [
+    {
+      "candidate": "residual10",
+      "pass": true,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "null_calls": true,
+        "null_variance_improves": true,
+        "null_detection": true
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.003419854904376,
+        "reach": 0.04298941798941797,
+        "jaccard": -0.00045290117549679865,
+        "nmae": -0.0030404719587956985,
+        "relative_expression_worsening": -0.0006332255063328689
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        },
+        {
+          "family": "HEK293T",
+          "seed": 2026101411
+        },
+        {
+          "family": "HEK293T",
+          "seed": 2026101427
+        }
+      ],
+      "tiny_expression_denominator_panels": 2
+    }
+  ],
+  "metric_rank_scores": {},
+  "complete_six_metric_verification": false,
+  "scope": "Exploratory public partly reused biology. Available raw guards are not a private anchor-scaled score or a statistical rank guarantee.",
+  "plan_sha256": "eec134995547da9a62040cfc998db4843e1a4ffef25544d0eae6deb9016ca62b",
+  "scores_sha256": "18ce4ca4990645567938be4b2c98e75ffa1b5972ede7ee5f1db265aed818c340",
+  "null_sha256": "7400497c3011c09dcd931c8a68f1bde71d84a46ef67fd94b70746a191f6db331"
+}

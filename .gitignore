@@ -378,3 +378,7 @@ __marimo__/
 /experiments/v15_weighted_transport/**/*.npz
 /experiments/v15_weighted_transport/analysis/*_cache/
 /experiments/v15_weighted_transport/analysis/prediction_control_rows.csv
+# V16 regenerable arrays, count/profile caches and complete sampling provenance
+/experiments/v16_control_preserving/**/*.npz
+/experiments/v16_control_preserving/analysis/*_cache/
+/experiments/v16_control_preserving/analysis/prediction_control_rows.csv

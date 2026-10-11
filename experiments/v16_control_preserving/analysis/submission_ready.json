@@ -1,0 +1,35 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v16_control_preserving\\prediction.vcc",
+  "bytes": 4073615360,
+  "sha256": "aec15ac5e5ef38e835bb4206f62c431772a28690fe5823490f045c5f0319cc08",
+  "official_prep_passed": true,
+  "validation_status": "exploratory_public_algorithm_verification",
+  "fixed_public_development_and_confirmation_guards_passed": true,
+  "complete_six_metric_public_verification": false,
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2368784027,
+    "schema": 1
+  },
+  "prediction_validation": {
+    "n_cells": 360000,
+    "n_genes": 18533,
+    "nnz": 2368784027,
+    "maximum_cell_counts": 52420,
+    "groups": 900,
+    "cells_per_group": 400,
+    "all_stored_counts": "positive integers",
+    "gene_order": "exact match",
+    "context_target_cell_counts": "exact match"
+  },
+  "uploaded": false,
+  "leaderboard_score": null,
+  "generator_sha256": "c0a5f507bf0cc2e51e9163580a779bbc5a736505817aa174c6f50347982d21d1",
+  "methods_sha256": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+  "emitter_sha256": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+  "model_sha256": "8bb56edcf4b1bcd7601349c847a06a4722f359425714eabaf3272953e760d160",
+  "packaging_adapter_sha256": "296f2390d84ee0e60cd88052736173ee13588a2726fd8c9619811d6a319b224f",
+  "memory_safe_stage_sha256": "9557d7bd48f7798eeda1260edf5b0ed258d3134ac3b5ead63b1b84981b9515ae"
+}
