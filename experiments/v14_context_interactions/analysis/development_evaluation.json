@@ -1,0 +1,161 @@
+{
+  "completed": true,
+  "names": [
+    "v13",
+    "context2",
+    "shuffled2",
+    "amplitude110"
+  ],
+  "generated_or_real_population_cases": 72,
+  "target_seed_cases": 18,
+  "provenance": [
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "truth_cells": 400,
+      "oracle_calibration_cells": 0,
+      "shared_depths": "Actual disjoint template-control libraries."
+    }
+  ],
+  "plan_sha256": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714",
+  "scores_sha256": "bdb2e3f193550167998286a563360ab311acf6f2d5ed1325b5bf21474377618b",
+  "summary_sha256": "a30ea59ac5a3c88694a4ec546a2535415e4381257d57b0de162b6b7060ce1bf1",
+  "scope": "Unanchored public counts; oracle arms use held treatments only for diagnostic ceilings. Development/confirmation responses exclude the entire scored family."
+}

@@ -95,3 +95,9 @@
 /review_project_experiments.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /PROJECT_RETROSPECTIVE.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /analysis/project_retrospective/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Keep V14 prospective code, plans and evidence hashes stable on Windows.
+/*v14*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V14_STRATEGY.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V14_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v14_context_interactions/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

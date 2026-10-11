@@ -1,0 +1,71 @@
+{
+  "completed": true,
+  "advance": "context2",
+  "count_candidates": [
+    "v13",
+    "context2",
+    "shuffled2",
+    "amplitude110"
+  ],
+  "feature_diagnostics": [
+    {
+      "family": "K562",
+      "context": 0,
+      "coverage": 0.4152376568074577,
+      "abstain": true,
+      "clipped": false,
+      "feature_genes": 17378
+    },
+    {
+      "family": "CD4",
+      "context": 1,
+      "coverage": 0.9990308735982278,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7223
+    },
+    {
+      "family": "CD4",
+      "context": 2,
+      "coverage": 0.9990308735982278,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7223
+    },
+    {
+      "family": "CD4",
+      "context": 3,
+      "coverage": 0.9990308735982278,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7223
+    },
+    {
+      "family": "H1",
+      "context": 4,
+      "coverage": 0.9942132818958391,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7258
+    },
+    {
+      "family": "HCT116",
+      "context": 5,
+      "coverage": 1.0,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7216
+    },
+    {
+      "family": "HEK293T",
+      "context": 6,
+      "coverage": 1.0,
+      "abstain": false,
+      "clipped": false,
+      "feature_genes": 7216
+    }
+  ],
+  "plan_sha256": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714",
+  "scores_sha256": "583f5790c61a8fc00ebe893c24b437f15a911a2ecc93943d0571a7d5e7ff2dec",
+  "scope": "Previously viewed public summary proxies; count validation required. Whole evaluated family excluded; control feature basis trained only on other families. Reserved count-confirmation targets omitted from summary evaluation."
+}

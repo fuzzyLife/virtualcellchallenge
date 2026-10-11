@@ -1,0 +1,88 @@
+{
+  "completed": true,
+  "names": [
+    "v13_compact",
+    "oracle_moments_compact",
+    "actual_treatment_replica"
+  ],
+  "generated_or_real_population_cases": 27,
+  "target_seed_cases": 9,
+  "provenance": [
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "seed": 2026101477,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101524,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101552,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "seed": 2026102470,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "seed": 2026102534,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "seed": 2026102688,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "seed": 2026103662,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "seed": 2026103561,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "seed": 2026103614,
+      "oracle_calibration_cells": 200,
+      "truth_cells": 200,
+      "shared_depths": "Known treated-calibration depths for all oracle arms, diagnostic only; distinct from deployable count tests."
+    }
+  ],
+  "plan_sha256": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714",
+  "scores_sha256": "bd49db3a2eb179c13f8ca18856a58347ffe3cc51e181a5245d4e26c8f74b73f2",
+  "summary_sha256": "ee79a10183a03e5ed39d9bf8642e6e3d06738bff4ef800e9526ed529d1b243a3",
+  "scope": "Unanchored public counts; oracle arms use held treatments only for diagnostic ceilings. Development/confirmation responses exclude the entire scored family."
+}

@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "development_targets": {
+    "H1": [
+      "HDAC8",
+      "NFE2L1",
+      "PLAGL2"
+    ],
+    "HCT116": [
+      "GLI3",
+      "PATL1",
+      "ZNF627"
+    ],
+    "HEK293T": [
+      "ZDHHC4",
+      "PRKAB2",
+      "SYVN1"
+    ]
+  },
+  "confirmation_targets": [
+    "CAT",
+    "DCAF16",
+    "MYRF",
+    "PSMB9"
+  ],
+  "all_count_targets_400_unique": true,
+  "all_oracle_halves_disjoint": true,
+  "plan_sha256": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714"
+}

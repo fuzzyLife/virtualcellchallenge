@@ -12,6 +12,16 @@ See [PROJECT_RETROSPECTIVE.md](PROJECT_RETROSPECTIVE.md) for the history, eviden
 
 <!-- project-retrospective:end -->
 
+<!-- v14-research:begin -->
+
+## V14 context interactions and treatment-population diagnostic
+
+Tested conserved V13 responses plus context interactions, with shuffled-context and amplitude controls. The 72-population, 400-cell development comparison rejected the interaction model: only reach improves, while PDS drops from 0.8333 to 0.7222 and other metrics worsen. Missing HCT116 NMAE and tiny expression denominators limit local power. V13 remains the best recorded submission; no V14 package was created and reserved algorithm verification was not opened.
+
+Nine disjoint 200/200-treatment oracle splits separate response and population limitations. Measured H1 moments reduce NMAE from 0.8910 to 0.2401, but compact oracle cells still have Jaccard 0.0260 versus 0.2963 for real treatment replicas. Next tests should isolate conditional distributions rather than retune the same response head. Four focused tests and the independent split/hash/coefficient/aggregation audit passed. Methods: [V14_STRATEGY.md](V14_STRATEGY.md). Outcomes, limitations and commands: [V14_RESULTS.md](V14_RESULTS.md). Root scripts and small evidence are versioned; V13 numerical dependencies remain unchanged.
+
+<!-- v14-research:end -->
+
 The latest and best published submission is V13 (`AvAsYkuxFSjbxYDCd0wJ`), overall **0.137883134**. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.

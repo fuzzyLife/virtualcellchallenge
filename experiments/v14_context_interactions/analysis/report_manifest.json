@@ -1,0 +1,25 @@
+{
+  "inputs": {
+    "experiments\\v14_context_interactions\\analysis\\plan.json": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714",
+    "experiments\\v14_context_interactions\\analysis\\execution_freeze.json": "658e5f9eae4e1cbeaceb3f0c1ea4288a21ce90b64686cd1d64ac5b83f473f60d",
+    "experiments\\v14_context_interactions\\analysis\\assessment_freeze.json": "371a3ab14e32af9e6d3784d9e27e8795ac3790736712602f4db578b9ebad3c2c",
+    "experiments\\v14_context_interactions\\analysis\\metadata_correction.json": "f714bbf574cb90ba52b749d3599d0621e85c64e8912e6a4a0b2af3c21f2f385a",
+    "experiments\\v14_context_interactions\\analysis\\screen_summary.csv": "e3f4e3d34909c7443b9ae088e353d6ce8b8a3b29019d94a1198062a4852574cf",
+    "experiments\\v14_context_interactions\\analysis\\screen_result.json": "a1eee64274348820a8f8e73546ff766c0f13546425b925eec52c559cf49f756d",
+    "experiments\\v14_context_interactions\\analysis\\development_scores.csv": "bdb2e3f193550167998286a563360ab311acf6f2d5ed1325b5bf21474377618b",
+    "experiments\\v14_context_interactions\\analysis\\development_panels.csv": "d086e12d70e5cae1fdb8b7ffd4acb5cf68394544156e1d3f291c66d96f0b96d9",
+    "experiments\\v14_context_interactions\\analysis\\development_summary.csv": "a30ea59ac5a3c88694a4ec546a2535415e4381257d57b0de162b6b7060ce1bf1",
+    "experiments\\v14_context_interactions\\analysis\\development_evaluation.json": "af38a450732e893c09f788dfe9b827cbd19ba39ff1657ee8f12366e8398c7ae0",
+    "experiments\\v14_context_interactions\\analysis\\oracle_scores.csv": "bd49db3a2eb179c13f8ca18856a58347ffe3cc51e181a5245d4e26c8f74b73f2",
+    "experiments\\v14_context_interactions\\analysis\\oracle_panels.csv": "87a5a48ee9c8f098ae647f76b7e8d4e51684160aba06a6de3005b5e6f9cb0cbc",
+    "experiments\\v14_context_interactions\\analysis\\oracle_summary.csv": "ee79a10183a03e5ed39d9bf8642e6e3d06738bff4ef800e9526ed529d1b243a3",
+    "experiments\\v14_context_interactions\\analysis\\oracle_evaluation.json": "d82ecb86ce99a3572a9b9bd825a21094e76d18a01597563c5b5c91bef8b2d335",
+    "experiments\\v14_context_interactions\\analysis\\selection.json": "b26a44e9f35651f7a18e2f9671acee66025148b85ed35eb9d71a0e1c49dc9fd4",
+    "experiments\\v14_context_interactions\\analysis\\independent_audit.json": "cb985d39bdffa9c6d49fadde2b03ba3d973049a381d4d0d71c9817bddb9ae043"
+  },
+  "generator_sha256": "2a7d28bec263707cdf2863867139aa05fcbb61972d0baa8f60b8ff73c18e3c38",
+  "output_sha256": "93d89944127fd064332362d918a1459c58df1829be7336e719a2e1f1c0c64867",
+  "report": "V14_RESULTS.md",
+  "decision": "retain_v13_no_v14_submission",
+  "scope": "Public raw exploratory measurements; no private-score prediction; metadata correction supersedes original freshness annotation."
+}

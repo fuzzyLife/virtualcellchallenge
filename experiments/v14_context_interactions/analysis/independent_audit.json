@@ -1,0 +1,226 @@
+{
+  "passed": true,
+  "ridge_coordinate_replays": [
+    {
+      "family": "H1",
+      "candidate": "context2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 1.6102037231346955e-08
+    },
+    {
+      "family": "H1",
+      "candidate": "context8",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 9.806914308407855e-09
+    },
+    {
+      "family": "H1",
+      "candidate": "shuffled2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 1.3109222873897153e-08
+    },
+    {
+      "family": "HCT116",
+      "candidate": "context2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 9.933570771503142e-09
+    },
+    {
+      "family": "HCT116",
+      "candidate": "context8",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 5.057077048786773e-09
+    },
+    {
+      "family": "HCT116",
+      "candidate": "shuffled2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 1.5785930118639158e-08
+    },
+    {
+      "family": "HEK293T",
+      "candidate": "context2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 1.1358260526561637e-08
+    },
+    {
+      "family": "HEK293T",
+      "candidate": "context8",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 5.775626671367107e-09
+    },
+    {
+      "family": "HEK293T",
+      "candidate": "shuffled2",
+      "sampled_target_gene_pairs": 288,
+      "maximum_beta_difference": 1.148889894331262e-08
+    }
+  ],
+  "cache_files_checked": 27,
+  "split_identity_checks": [
+    {
+      "family": "H1",
+      "unique_source_cell_ids": 10366,
+      "control_halves_disjoint": true,
+      "400_cell_plan_cases_checked": 6,
+      "200_plus_200_oracle_cases_checked": 3
+    },
+    {
+      "family": "HCT116",
+      "unique_source_cell_ids": 52295,
+      "control_halves_disjoint": true,
+      "400_cell_plan_cases_checked": 10,
+      "200_plus_200_oracle_cases_checked": 3
+    },
+    {
+      "family": "HEK293T",
+      "unique_source_cell_ids": 70082,
+      "control_halves_disjoint": true,
+      "400_cell_plan_cases_checked": 10,
+      "200_plus_200_oracle_cases_checked": 3
+    }
+  ],
+  "aggregate_checks": [
+    {
+      "stage": "development",
+      "population_cases": 72,
+      "score_rows": 144,
+      "panel_rows": 48,
+      "family_balanced_aggregation_replayed": true
+    },
+    {
+      "stage": "oracle",
+      "population_cases": 27,
+      "score_rows": 27,
+      "panel_rows": 9,
+      "family_balanced_aggregation_replayed": true
+    }
+  ],
+  "cache_hashes": [
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_076_2026101411.npz",
+      "sha256": "809f784dc514fc33ade9cc19dd062796588abe8472e79e253b32b385d416d282"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_076_2026101427.npz",
+      "sha256": "0c2ec3ebeadec149fd2ed2a74deefb4d208b87b7a3abadc2afb8c2ee19caabdd"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_123_2026101411.npz",
+      "sha256": "bf756ed2240df317b15964e0d61a970573029363e094fb5b522d4a46ce4276e3"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_123_2026101427.npz",
+      "sha256": "16302a72bc8b7261ac50e36ebc2e1fbc158b8c9baee37a83ae17fdc0a0d348f9"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_151_2026101411.npz",
+      "sha256": "a0d3a2efce9b7eb7c91f14dd3af41c0bcdb819f8456fbba9bad34f2685328bf5"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\H1_151_2026101427.npz",
+      "sha256": "6aa573d9181143ba7c11271ffeb4698616a0c539ef6f185c826f467c9a326ab7"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_069_2026101411.npz",
+      "sha256": "c280c2d565cca46f984a8bad870bd7c841777ebc473f98f1ad84c1edeaf977ad"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_069_2026101427.npz",
+      "sha256": "07b5a9795cecc0717218029f1a27001e09c8a7ec0657706ca9fb03c935900740"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_133_2026101411.npz",
+      "sha256": "2a5812c62a5ca26f5d7fc39a0b153e1c898c7292151364f47c0f0174a3526948"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_133_2026101427.npz",
+      "sha256": "6eabde0774aaa68399b9d27635aead7ea803c8656eb595c48f3bd58ffb54e5f1"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_287_2026101411.npz",
+      "sha256": "ad2949aceb7afe798f9f6dda584d1c4da840d94b8843b95dd0ffc6e233abbb15"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HCT116_287_2026101427.npz",
+      "sha256": "3797f7af93a9c8f4fb7925d3544b7d6f398018ce3357303a76e683172ce7f146"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_160_2026101411.npz",
+      "sha256": "a89e683d60f65a9b1f85aff1f0883dfdc141493455a1296b0f624f8c58b415ca"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_160_2026101427.npz",
+      "sha256": "3a9f06f1cf3d58a90c2f6e3c6e5c6b05a345499020e0bba33660bd7939061518"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_213_2026101411.npz",
+      "sha256": "fbcab4ffab7b2f1c2fe236cfaf08631fb2daf132f41f6c601f0b0b6ebe470a53"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_213_2026101427.npz",
+      "sha256": "9f4992d1f874eb8646e70368f1ef156ed54042f840d5875cb518d2130fcfb4f7"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_261_2026101411.npz",
+      "sha256": "56a200afaeaf078dea1f7793609cf35133db0ad3fc4351cd1eee2a8f164f72b7"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\development_cache\\HEK293T_261_2026101427.npz",
+      "sha256": "2d05b4e2b76861bdbce6282596ee57ee93fc090ac17a4891db98e5c57113aa1f"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\H1_076_2026101477.npz",
+      "sha256": "6986b6b2911ee0cd105640e2b473751c187ba77d5e91dd6f26da3dae5919f7b0"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\H1_123_2026101524.npz",
+      "sha256": "dd061c9f129c5e8946d0dac4d09515be0653cabae7462327b04372e9f688d11e"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\H1_151_2026101552.npz",
+      "sha256": "8b1890724f04093bb5e1a4e1163eb995cb946eb4bb414b568dfbc4926ab1fdb4"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HCT116_069_2026102470.npz",
+      "sha256": "6c1eeafa4bbcababa51ab0c0861d030361d820428b850b4cad06e5314c501a26"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HCT116_133_2026102534.npz",
+      "sha256": "2f9a1b4a7487dfe0b57bd96c49795a8c0fe248c133493c53e7ee9885ea26b726"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HCT116_287_2026102688.npz",
+      "sha256": "ccfd3e1d30a3239bbc68f90bb30abb7b36027ba2e51f3eb9e32ff0c43e3a9ff4"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HEK293T_160_2026103561.npz",
+      "sha256": "3ea6335b212ba49ee449769fbd37a46fe2297000a8f08e400cb1a1adbb4849a3"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HEK293T_213_2026103614.npz",
+      "sha256": "b231689bd5ecae74b2bc1136db1cb438b6f9784f2aa2aaee593bff2881391b81"
+    },
+    {
+      "file": "experiments\\v14_context_interactions\\analysis\\oracle_cache\\HEK293T_261_2026103662.npz",
+      "sha256": "00eccb58bd0a2656dd964480a58bacb758dfa4a3a26c3f65ff3261c16f3e167e"
+    }
+  ],
+  "model_hashes": {
+    "experiments\\v14_context_interactions\\analysis\\models\\H1.npz": "f1b842c373752413e26a00ec9874f891eb474502f47263595b61e7648f634c16",
+    "experiments\\v14_context_interactions\\analysis\\models\\HCT116.npz": "a2a59b24be88c82e74c49d13cf179550612099f70f9af5356cd9169e08bc43f7",
+    "experiments\\v14_context_interactions\\analysis\\models\\HEK293T.npz": "e1e559adf244372ece5697d7f61a88991decdb414506d3c8cc8c6d97a5dbd2c6"
+  },
+  "frozen_v13_dependencies_unchanged": true,
+  "own_target_slopes_zero": true,
+  "training_features_exclude_panel_genes_and_held_family": true,
+  "metadata_correction_applied": true,
+  "script_sha256": "3df471dfda582754b52a676bead0fb0b4b79f621131acf639fcf9247819dbe48",
+  "runtime": {
+    "python": "3.14.3",
+    "executable": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\.competition_env\\Scripts\\python.exe",
+    "numpy": "2.4.2",
+    "pandas": "3.0.1"
+  },
+  "scope": "All cached profile/jackknife arrays and SHA checks; independent scalar ridge replay at 2592 sampled coordinates. No claim to rerun every DE test or validate hidden biological accuracy."
+}

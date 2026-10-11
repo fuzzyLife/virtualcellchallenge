@@ -368,3 +368,8 @@ __marimo__/
 
 # Regenerable 360,000-row V13 sampling provenance (hash and full audit tracked)
 /experiments/v13_response_programs/analysis/prediction_control_rows.csv
+
+# V14 regenerable interaction models and count/profile caches
+/experiments/v14_context_interactions/analysis/models/*.npz
+/experiments/v14_context_interactions/analysis/*_cache/
+/experiments/v14_context_interactions/*.log

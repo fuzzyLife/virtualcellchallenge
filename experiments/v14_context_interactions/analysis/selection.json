@@ -1,0 +1,46 @@
+{
+  "stage": "development",
+  "candidate": "context2",
+  "promote": false,
+  "checks": {
+    "primary_complete": false,
+    "expression_noninferiority": false,
+    "fidelity": true,
+    "reach": true,
+    "nmae": true,
+    "pds": false,
+    "at_least_four_metrics_improve": false,
+    "DE_yield_or_overlap_improves": true,
+    "utility_improves": false,
+    "family_fidelity": true,
+    "family_reach": true,
+    "beats_shuffled_context_utility": false
+  },
+  "changes": {
+    "pds": -0.11111111111111116,
+    "fidelity": -0.00514995754755776,
+    "reach": 0.060146124052112004,
+    "jaccard": -0.0001581633857841002,
+    "nmae": 0.0019055995242143187,
+    "common_expression_ratio": 6.9589007423074065
+  },
+  "metric_improvements": {
+    "pds": false,
+    "fidelity": false,
+    "reach": true,
+    "jaccard": false,
+    "nmae": false,
+    "common_expression_ratio": false
+  },
+  "utility": {
+    "amplitude110": -32.35689032705012,
+    "context2": -33.10382419595607,
+    "shuffled2": -32.25226383413009,
+    "v13": -31.934310954318743
+  },
+  "development_sha256": "a30ea59ac5a3c88694a4ec546a2535415e4381257d57b0de162b6b7060ce1bf1",
+  "panels_sha256": "d086e12d70e5cae1fdb8b7ffd4acb5cf68394544156e1d3f291c66d96f0b96d9",
+  "plan_sha256": "1b043d9c8a977af457522b7c756cb6c352faeeb2f807dcf25ffe6f02bd990714",
+  "metadata_correction_sha256": "f714bbf574cb90ba52b749d3599d0621e85c64e8912e6a4a0b2af3c21f2f385a",
+  "scope": "Prospectively bounded exploratory raw utility and guards on partly reused public biology; reserved verification is not blind biological confirmation. Not private anchored scores or statistical noninferiority. No retuning after verification."
+}
