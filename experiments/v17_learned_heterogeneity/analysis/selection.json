@@ -1,0 +1,106 @@
+{
+  "stage": "development",
+  "candidate": "v16",
+  "new_candidate_passes": false,
+  "comparisons": [
+    {
+      "candidate": "learned_half",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": true,
+        "nmae": false,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "response_distribution_improves": false,
+        "beats_generic": true,
+        "beats_shuffled": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.0008604265086964805,
+        "reach": -0.020701754385964905,
+        "jaccard": 3.768390950191564e-05,
+        "nmae": 0.010005546925257541,
+        "relative_expression_worsening": -5.214352513910723e-05,
+        "shape_wasserstein": 0.0021454574798525083
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": true,
+        "nmae": false,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "learned_full",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "response_distribution_improves": true,
+        "beats_generic": true,
+        "beats_shuffled": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.0004307791966488746,
+        "reach": 0.013333333333333327,
+        "jaccard": 5.9371199417366204e-05,
+        "nmae": 0.009367030324066633,
+        "relative_expression_worsening": -5.749993497052267e-05,
+        "shape_wasserstein": -0.000522796039617727
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": false,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {},
+  "plan_sha256": "8bf8d89e86bae979353670047edb7c089b7c6ce810a931b12ebaaf29cdcf5f8b",
+  "panels_sha256": "ff7519bfdc4f79777fe4b9ae2b39f2a01f3ce359b5c203426a0087c53dc0779d",
+  "null_sha256": "57079a47866afd1c8de0b4c3d5752dd6004227f461c9873e2abb99f78b97f658",
+  "scope": "Public reused biology; family-balanced raw guards and joint-response shape, not private anchor-scaled score or guaranteed ranking."
+}

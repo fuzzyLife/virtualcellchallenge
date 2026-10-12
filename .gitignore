@@ -386,3 +386,10 @@ __marimo__/
 # Regenerable full point table and standalone interactive cell scatter plot
 /analysis/v16_cell_projection/cell_coordinates.csv
 /analysis/v16_cell_projection/cells_observed_vs_v16.html
+
+# V17 regenerable arrays, cell metadata tables and population caches
+/experiments/v17_learned_heterogeneity/**/*.npz
+/experiments/v17_learned_heterogeneity/analysis/*_cache/
+/experiments/v17_learned_heterogeneity/analysis/*Cell-Metadata.tsv.gz
+/experiments/v17_learned_heterogeneity/analysis/prediction_control_rows.csv
+/experiments/v17_learned_heterogeneity/*.log

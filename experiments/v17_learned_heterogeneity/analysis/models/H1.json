@@ -1,0 +1,19 @@
+{
+  "excluded_families": [
+    "H1"
+  ],
+  "training_families": [
+    "HCT116",
+    "HEK293T"
+  ],
+  "training_sources": {
+    "HCT116": "bc7b3bbf7a2aafdf31e06f3bf2c56a26ed25786e85f64e9937c506fcd1a59e11",
+    "HEK293T": "863a3345b3133367892d2c2a24a08e93dd50b3b8bf1a23f1f1d0357357213d2f"
+  },
+  "sha256": "c97666eb5a860e9f27e260edf1eda99a96732dd65490d21295226a5ba8f476e9",
+  "plan_sha256": "8bf8d89e86bae979353670047edb7c089b7c6ce810a931b12ebaaf29cdcf5f8b",
+  "supported_targets": 256,
+  "nonzero_targets": 73,
+  "mean_cv2": 0.012185413832626633,
+  "max_cv2": 0.1969018495628611
+}

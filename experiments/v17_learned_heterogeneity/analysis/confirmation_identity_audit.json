@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "targets": [
+    {
+      "family": "H1",
+      "verification_targets": [
+        "ANKZF1",
+        "MED15"
+      ],
+      "development_targets": [
+        "ACLY",
+        "HDAC8",
+        "NFE2L1",
+        "PLAGL2"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "verification_targets": [
+        "CAT",
+        "MYRF"
+      ],
+      "development_targets": [
+        "GLI3",
+        "PATL1",
+        "RNF141",
+        "ZNF627"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "verification_targets": [
+        "CAT",
+        "CHD6",
+        "COQ10B",
+        "DCAF16"
+      ],
+      "development_targets": [
+        "ADNP",
+        "PRKAB2",
+        "PSMB9",
+        "SYVN1",
+        "ZDHHC4",
+        "ZNF777"
+      ]
+    }
+  ],
+  "all_disjoint_from_current_development": true,
+  "original_plan_unchanged_sha256": "8bf8d89e86bae979353670047edb7c089b7c6ce810a931b12ebaaf29cdcf5f8b",
+  "verification_plan_sha256": "5b526a1e7e515f7df95b02677df6aec228bfce70cdd906a1f058b6b078643a64",
+  "before_candidate_selection": true,
+  "blind_new_biology": false
+}

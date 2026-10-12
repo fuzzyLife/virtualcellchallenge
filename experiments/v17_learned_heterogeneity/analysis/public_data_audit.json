@@ -1,0 +1,30 @@
+{
+  "retrieved_date": "2026-10-12",
+  "dataset": "Arc PIE Replogle/Nadig essential-gene screens",
+  "revision": "91f86154aa1761a2dd0d885b979b9169f3b9983f",
+  "url": "https://huggingface.co/datasets/arcinstitute/PIE_replogle_nadig_essential/resolve/91f86154aa1761a2dd0d885b979b9169f3b9983f/preprocessed/meta.json",
+  "sha256": "188bddb7df9682fa73a6621e2c8e58b7595a5409cf1ad82ed36185425633cb97",
+  "bytes": 162999,
+  "metadata_keys": [
+    "format_version",
+    "dataset",
+    "genes",
+    "context_to_id",
+    "pert_to_id",
+    "pert_ensembl",
+    "pert_kind",
+    "control_label",
+    "num_rows",
+    "num_genes",
+    "num_contexts",
+    "num_perts",
+    "controls_only",
+    "tool_version",
+    "array_sha256"
+  ],
+  "perturbation_count": 1857,
+  "competition_target_overlap": [],
+  "gene_overlap": 6290,
+  "raw_counts_downloaded": false,
+  "reason": "Inspect exact target overlap before 5.2/8.7 GB raw downloads. Summary metadata is not raw cell-level training data."
+}

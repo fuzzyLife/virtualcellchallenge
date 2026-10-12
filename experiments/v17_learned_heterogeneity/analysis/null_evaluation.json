@@ -1,0 +1,64 @@
+{
+  "complete": true,
+  "population_comparisons": 6,
+  "target_seed_cases": 6,
+  "provenance": [
+    {
+      "family": "H1",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "held_family": "H1",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    },
+    {
+      "family": "H1",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "held_family": "H1",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    },
+    {
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "held_family": "HCT116",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    },
+    {
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "held_family": "HCT116",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    },
+    {
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "seed": 2026101411,
+      "held_family": "HEK293T",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    },
+    {
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "seed": 2026101427,
+      "held_family": "HEK293T",
+      "actual_unique_cells": 200,
+      "template_unique_cells": 400,
+      "compared_populations": 1
+    }
+  ],
+  "scores_sha256": "57079a47866afd1c8de0b4c3d5752dd6004227f461c9873e2abb99f78b97f658",
+  "panels_sha256": "a3ed9acbde0952f1812e9053ddac8912f6a27bf75dcde88a0c9d89d117e6a2d8",
+  "plan_sha256": "8bf8d89e86bae979353670047edb7c089b7c6ce810a931b12ebaaf29cdcf5f8b"
+}

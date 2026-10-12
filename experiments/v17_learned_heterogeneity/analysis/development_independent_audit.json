@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "plan_sha256": "8bf8d89e86bae979353670047edb7c089b7c6ce810a931b12ebaaf29cdcf5f8b",
+  "auditor_sha256": "c6729238b7d257b9d97ac5ea9b9b104c64d4050e4f826570432fb6dc9e931e2c",
+  "verified_case_identities": [
+    {
+      "family": "H1",
+      "control_fit_rows": 768,
+      "independent_control_rows": 768,
+      "cases": 12
+    },
+    {
+      "family": "HCT116",
+      "control_fit_rows": 1742,
+      "independent_control_rows": 1742,
+      "cases": 12
+    },
+    {
+      "family": "HEK293T",
+      "control_fit_rows": 3558,
+      "independent_control_rows": 3558,
+      "cases": 20
+    }
+  ],
+  "compared_populations": 140,
+  "whole_family_exclusions_verified": true,
+  "model_arrays_recomputed_from_source_fits": true,
+  "negative_controls_recomputed_exactly": true,
+  "cache_and_metric_hashes_verified": true,
+  "scope": "Source/exclusion/identity/provenance verification; no independent biological ground truth or hidden anchor score."
+}

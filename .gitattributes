@@ -117,3 +117,8 @@
 /V16_LEADERBOARD_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V16_CELL_PROJECTION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /analysis/v16_cell_projection/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V17 frozen code, source metadata and scientific evidence bytes.
+/*v17*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V17*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v17_learned_heterogeneity/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
