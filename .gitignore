@@ -382,3 +382,7 @@ __marimo__/
 /experiments/v16_control_preserving/**/*.npz
 /experiments/v16_control_preserving/analysis/*_cache/
 /experiments/v16_control_preserving/analysis/prediction_control_rows.csv
+
+# Regenerable full point table and standalone interactive cell scatter plot
+/analysis/v16_cell_projection/cell_coordinates.csv
+/analysis/v16_cell_projection/cells_observed_vs_v16.html

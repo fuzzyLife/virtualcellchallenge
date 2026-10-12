@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-12T13:23:55.436224+00:00",
+  "script_sha256": "44c3ba9921044dbde6a18cc022e337054216635ec8ccb2bd01208ced041d8f19",
+  "seed": 20261012,
+  "observed_cells": 55200,
+  "sampled_prediction_cells": 18000,
+  "sampled_per_target_context": 20,
+  "total_prediction_cells": 360000,
+  "genes": 18533,
+  "groups": 900,
+  "sampling": "Simple random sample without replacement separately within every 400-cell target/context group.",
+  "embedding": "Frozen eight-PC PCA of per-cell average tied raw-count ranks, centered and unit-normalized across all 18,533 genes. Fitted only on 55,200 original controls; no prediction refit, no pseudocounts.",
+  "control_projection_checks": [
+    {
+      "context": "A",
+      "cached_control_projection_rows_verified": 8,
+      "max_absolute_error": 6.694386673056218e-07
+    },
+    {
+      "context": "B",
+      "cached_control_projection_rows_verified": 8,
+      "max_absolute_error": 6.590597534106291e-07
+    },
+    {
+      "context": "C",
+      "cached_control_projection_rows_verified": 8,
+      "max_absolute_error": 7.098345756462177e-07
+    }
+  ],
+  "prediction_projection_batch_check_passed": true,
+  "prediction_file": "experiments\\v16_control_preserving\\prediction.h5ad",
+  "prediction_file_fingerprint": {
+    "bytes": 2614261428,
+    "mtime_ns": 1791737952261386400
+  },
+  "expected_prediction_sha256_from_prior_full_audit": "9e3122a2d23c5685d851f60e1ae4cf4ab0706afb8df2c02d1317a9fe8918c308",
+  "prediction_integrity_scope": "Axes, all group sizes and sampled counts checked; file fingerprint unchanged during plotting. Full-file hash inherited from prior audit, not recomputed.",
+  "frozen_embedding_inputs": {
+    "analysis_report.json": "262aec03c031ee4aa5ae95327d426db292df3abe14abee931198f33fe3026226",
+    "cluster_models.npz": "db5eb515e45710ffeb0e98fda46332940f6a340569ae970015acaf75b7d82273",
+    "gene_axis.csv": "5822df63a0c7bc171f52d2d42cef5635ecef36cb87a9599723031dc63a2f2238",
+    "per_cell_full_rank_clusters.csv": "387a3c754d642d3c31ae8732f5043d8c7dbd51e43636205e2e2198dc21a34a88",
+    "pca_variance.csv": "d939421b76a64fc2d760a76d2e7f6f120031d29cdedd41ef5cabf693676f122d"
+  },
+  "outputs": {
+    "cell_coordinates.csv": "8785863977a25e8a3508e249ecc083a08f6fd3be2cf69704962471559219bd24",
+    "projection_summary.csv": "603882e854f45b6e346b77dd77dcc4873b27392626c6095f24bcf97892258b75",
+    "cells_observed_vs_v16.png": "b7bcdd05ae83362e2c51abeb80ae1ce2ce8002ebef986cedbc7972a8bad06fa1",
+    "cells_observed_vs_v16.pdf": "780c9ceee37bd7d7c7d5cfc61b4c641aabd68545be2ba420824993cb0fcea829",
+    "cells_observed_vs_v16.html": "a2ff702395eedae81d5e3acc4b22769727444a2019aeee0a208da42b177f29fc"
+  },
+  "runtime_seconds": 213.63610909995623,
+  "limits": "Observed cells are non-targeting controls, not real treated truth. Prediction sampling covers all targets but is not a full-cell census. A two-dimensional projection cannot establish perturbation accuracy; pooled target heterogeneity affects prediction dispersion."
+}

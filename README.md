@@ -42,6 +42,12 @@ Frozen development compares 252 populations (224 new, 28 verified reused baselin
 
 <!-- v16-research:end -->
 
+<!-- v16-cell-projection -->
+
+## Observed and predicted cell scatter plots
+
+All 55,200 observed A/B/C controls and 18,000 sampled V16 predictions (20 cells from every target/context group) are displayed on the same frozen, control-fitted full-gene rank PCA axes. Colors identify context; circles identify controls and crosses identify predictions. The interactive plot supports target selection, source/context toggles, hover and zoom. These are controls versus predictions, with no observed A/B/C treated truth. See [V16_CELL_PROJECTION.md](V16_CELL_PROJECTION.md) for figures, method, checks and reproduction with root `plot_v16_cell_projection.py`.
+
 The latest and best published submission is V16 (`wG3GGbaTsl2dXFn7cQy1`), overall **0.141613857**. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.
