@@ -1,0 +1,39 @@
+{
+  "source": "User-reported CLI publication confirmed by read-only vcc --json status.",
+  "recorded_utc": "2026-10-12T08:16:40.478739+00:00",
+  "entry_id": "wG3GGbaTsl2dXFn7cQy1",
+  "model_name": "V13 response residual dispersion v16",
+  "final_status": "published",
+  "submitted_utc": "2026-10-12T07:32:46.609932Z",
+  "rank_at_user_report": 562,
+  "rank_at_api_check": 561,
+  "overall": 0.1416138568460195,
+  "metrics": {
+    "pds": 0.6415529345408622,
+    "mse": 0.046085071692100965,
+    "nmae": 0.08034481237466624,
+    "fid": -0.017295587840992322,
+    "reach": 0.08438107714423089,
+    "jac": 0.01461483316524908
+  },
+  "raw_metrics": {
+    "pds_cosine": 0.7905611296915646,
+    "expr_mse_unbiased_capped_norm": 0.9618353572538315,
+    "de_wilcoxon_lfc_nmae": 0.9520860284309908,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.5075582664586284,
+    "de_wilcoxon_direction_reach_raw": 0.15371441330477695,
+    "de_wilcoxon_sig_jaccard": 0.03566021514135337
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "aec15ac5e5ef38e835bb4206f62c431772a28690fe5823490f045c5f0319cc08",
+  "upload_bytes": 4073615360,
+  "upload_duration_seconds": 986,
+  "overall_change_from_v13": 0.003730723165896205,
+  "relative_overall_change_from_v13": 0.02705713937827344,
+  "report_manifest_sha256": "9713ced7e9200b75a668a13dfef9ca70fa2d16583de24008974c9add136137c8",
+  "recorder_sha256": "fef19378b6ee63b66e5b5d7024981f91678accd56c500a7b0d50c810fadfdf5a",
+  "best_recorded_project_validation_score": true,
+  "interpretation": "Four scaled components improve; fidelity and NMAE decline. V13 response arrays are retained; count generation changes. A single published result does not establish significance or final-round generalization."
+}

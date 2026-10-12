@@ -1,6 +1,6 @@
 # Virtual Cell Challenge 2026
 
-This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Ten submissions (first, V2, V4, V5, V6, V7, V9, V10, V11 and V13) have been published. V13 is the best recorded validation submission, with overall score **0.137883134**, improving on V11 by **0.000879160** (0.64%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md) for the current result and [V13_SUBMISSION.md](V13_SUBMISSION.md) for reproducibility.
+This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Eleven submissions (first, V2, V4, V5, V6, V7, V9, V10, V11, V13 and V16) have been published. V16 is the best recorded validation submission, with overall score **0.141613857**, improving on V13 by **0.003730723** (2.71%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md) for the current result and [V16_SUBMISSION.md](V16_SUBMISSION.md) for reproducibility.
 
 <!-- project-retrospective:begin -->
 
@@ -34,13 +34,15 @@ Methods/reproduction: [V15_STRATEGY.md](V15_STRATEGY.md). Measured comparisons, 
 
 <!-- v16-research:begin -->
 
-## V16 control-preserving response transport
+## V16 published result
 
-Tested cross-family evidence shrinkage and amplitude-matched uniform controls with compact, balanced and noise-preserving residual generators. Frozen development compares 252 populations (224 new, 28 verified reused baseline), plus 18 control diagnostics. Selected candidate: `residual10`. New exploratory package validated; see [V16_SUBMISSION.md](V16_SUBMISSION.md). Public partly reused biology and missing NMAE panels limit inference; no private score or rank gain is claimed. Methods/reproduction: [V16_STRATEGY.md](V16_STRATEGY.md). Results/audits: [V16_RESULTS.md](V16_RESULTS.md). Root code and small hashed evidence are versioned.
+V16 is published as `wG3GGbaTsl2dXFn7cQy1`, overall **0.141613857**, a gain of **+0.003730723** (2.71%) over V13 on the same panel and anchors. It is the best recorded project validation score. Rank was **562** in the user report and **561** at the API check; historical ranks are not directly comparable. Four scaled components improve, led by expression accuracy and reach; fidelity and NMAE decline. The exact V13 response predictor is retained, with residual10 count generation.
+
+Frozen development compares 252 populations (224 new, 28 verified reused baseline), plus 18 control diagnostics and 36 reserved comparisons. Calibrated response shrinkage and balanced transport were rejected. Available public guards passed, with missing NMAE panels limiting complete validation. Official packaging and independent full-payload/provenance/replay checks passed. Methods: [V16_STRATEGY.md](V16_STRATEGY.md). Public tests: [V16_RESULTS.md](V16_RESULTS.md). Hosted comparison: [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md). Artifact/status: [V16_SUBMISSION.md](V16_SUBMISSION.md).
 
 <!-- v16-research:end -->
 
-The latest and best published submission is V13 (`AvAsYkuxFSjbxYDCd0wJ`), overall **0.137883134**. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md).
+The latest and best published submission is V16 (`wG3GGbaTsl2dXFn7cQy1`), overall **0.141613857**. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.
 
@@ -52,7 +54,7 @@ A fresh public-method review and a reproducible evaluation audit found that our 
 
 <!-- v8-status:begin -->
 
-V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_transfer/prediction.vcc`, with official prep and independent payload verification passed. Candidate `baseline_dual` uses `v4_a100` and `dual`; public confirmation proxy improvement accepted: False. It has not been submitted. See [V8_SUBMISSION.md](V8_SUBMISSION.md) for the corrected validation, neutral controls and tradeoffs. V9 is published below; V13 is now the best published reference.
+V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_transfer/prediction.vcc`, with official prep and independent payload verification passed. Candidate `baseline_dual` uses `v4_a100` and `dual`; public confirmation proxy improvement accepted: False. It has not been submitted. See [V8_SUBMISSION.md](V8_SUBMISSION.md) for the corrected validation, neutral controls and tradeoffs. V9 is published below; V16 is now the best published reference.
 
 <!-- v8-status:end -->
 
@@ -61,7 +63,7 @@ V8 is retained as a verified diagnostic pilot at `experiments/v8_corrected_trans
 
 ## V9 published result
 
-V9 is published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**. Official prep and independent full-payload audit passed. Its 50% count calibration improved five scaled metrics versus V4 but worsened fidelity enough to lower overall performance. V4 biological effects are unchanged. Public confirmation acceptance did not predict leaderboard improvement; its subset fidelity guard was too permissive. V4 remained best at V9 publication; V13 is now best. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md) and [V9_SUBMISSION.md](V9_SUBMISSION.md). V8 remains an unsubmitted diagnostic pilot.
+V9 is published as `QBpef7kQNiFa4IFSxNi5`, overall **-0.070447281**. Official prep and independent full-payload audit passed. Its 50% count calibration improved five scaled metrics versus V4 but worsened fidelity enough to lower overall performance. V4 biological effects are unchanged. Public confirmation acceptance did not predict leaderboard improvement; its subset fidelity guard was too permissive. V4 remained best at V9 publication; V16 is now best. See [V9_LEADERBOARD_RESULTS.md](V9_LEADERBOARD_RESULTS.md) and [V9_SUBMISSION.md](V9_SUBMISSION.md). V8 remains an unsubmitted diagnostic pilot.
 
 
 <!-- faq-audit:begin -->
@@ -491,4 +493,4 @@ All 13 new count/source alternatives were rejected by fixed development or termi
 
 ## V13 published result
 
-Published as `AvAsYkuxFSjbxYDCd0wJ`, overall **0.137883134**, a gain of **+0.000879160** (0.64%) over V11 on the same panel and anchors. This is the best recorded project validation score. Rank was **558** in the user report and **559** at the API check; ranks change with other entries. Four components improve; reach and overlap decline. Local confirmation remains inconclusive. Official packaging and independent full-payload/provenance/replay checks passed. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md), [V13_STRATEGY.md](V13_STRATEGY.md) and [V13_SUBMISSION.md](V13_SUBMISSION.md).
+Published as `AvAsYkuxFSjbxYDCd0wJ`, overall **0.137883134**, a gain of **+0.000879160** (0.64%) over V11 on the same panel and anchors. This was the best recorded project validation score at V13 publication; V16 now improves it. Rank was **558** in the user report and **559** at the API check; ranks change with other entries. Four components improve; reach and overlap decline. Local confirmation remains inconclusive. Official packaging and independent full-payload/provenance/replay checks passed. See [V13_LEADERBOARD_RESULTS.md](V13_LEADERBOARD_RESULTS.md), [V13_STRATEGY.md](V13_STRATEGY.md) and [V13_SUBMISSION.md](V13_SUBMISSION.md).

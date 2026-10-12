@@ -1,8 +1,10 @@
 # V16 measured results: control-preserving confidence transport
 
-A new exploratory package passed official prep and full-payload validation. It has not been uploaded; no score or rank gain is known.
+V16 is published as `wG3GGbaTsl2dXFn7cQy1`, overall **0.141613857**, a gain of **+0.003730723** (2.71%) over V13 on the same panel and anchors. It is the best recorded project validation score. Rank was **562** in the user report and **561** at the API check; historical ranks are not directly comparable. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md).
 
-V13 remains the best published project score (0.13788313368012328). Public raw comparisons below are not an official anchored score or a prediction of rank. Current public source biology and development targets are partly reused; missing NMAE panels prevent complete six-metric verification.
+A new exploratory package passed official prep and full-payload validation. At generation time it had not been uploaded and no score was known; publication is recorded below.
+
+V13 was the best published project score at generation time (0.13788313368012328). Public raw comparisons below are not an official anchored score or a prediction of rank. Current public source biology and development targets are partly reused; missing NMAE panels prevent complete six-metric verification.
 
 ## Implemented and tested
 
@@ -107,4 +109,4 @@ Final release validation passed: every 2,368,784,027 nonzero count and index, ev
 
 The source file and official staging file were compared losslessly before official prep. Balanced production, if selected, additionally checks every predicted nonzero was present in its original cell; the released residual10 generator does not enforce that support restriction.
 
-Root code includes `v16_methods.py`, `test_v16_transport.py`, `prepare_v16_experiment.py`, `run_v16_experiment.py`, `assess_v16_experiment.py`, `audit_v16_experiment.py`, `fit_v16_submission.py`, `build_v16_submission.py`, `package_v16_submission.py`, `validate_v16_submission.py`, `release_v16_submission.py` and this report generator. Small evidence is versioned in `experiments/v16_control_preserving/analysis/`; large arrays/counts/packages/provenance are regenerated locally and excluded from Git. No upload is performed.
+Root code includes `v16_methods.py`, `test_v16_transport.py`, `prepare_v16_experiment.py`, `run_v16_experiment.py`, `assess_v16_experiment.py`, `audit_v16_experiment.py`, `fit_v16_submission.py`, `build_v16_submission.py`, `package_v16_submission.py`, `validate_v16_submission.py`, `release_v16_submission.py` and this report generator. Small evidence is versioned in `experiments/v16_control_preserving/analysis/`; large arrays/counts/packages/provenance are regenerated locally and excluded from Git. The generation pipeline performs no upload; the user subsequently uploaded this package.
