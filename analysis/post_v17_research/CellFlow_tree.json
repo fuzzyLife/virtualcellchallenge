@@ -1,0 +1,1205 @@
+{
+  "sha": "446ed6073c60ac2e8db13c4ea096a43cdec288b2",
+  "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/446ed6073c60ac2e8db13c4ea096a43cdec288b2",
+  "tree": [
+    {
+      "path": ".codecov.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b3db9a7eaa3ec13420a28da837ecd32d5af37db",
+      "size": 292,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/3b3db9a7eaa3ec13420a28da837ecd32d5af37db"
+    },
+    {
+      "path": ".cruft.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4003d85ed08ce63ff949e805ae3c8fc6e791a3ea",
+      "size": 932,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/4003d85ed08ce63ff949e805ae3c8fc6e791a3ea"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050f91184824c3b9bb44d6bb123b6944cfc5598e",
+      "size": 241,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/050f91184824c3b9bb44d6bb123b6944cfc5598e"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2aba89b07024969da3cbe0842266f0bbdd399e7b",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/2aba89b07024969da3cbe0842266f0bbdd399e7b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6438e8f6e2cb3f69dae2b672829271bd976a56e",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/a6438e8f6e2cb3f69dae2b672829271bd976a56e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a20e68c8a77dd7eacbadf8336638dfbe0be957",
+      "size": 3080,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a5a20e68c8a77dd7eacbadf8336638dfbe0be957"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b62547f9aef3da3a38806baf365ea8c059675d6",
+      "size": 197,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/5b62547f9aef3da3a38806baf365ea8c059675d6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13d50f1d246c9bb9dc9039ed127a03b7dd88e61e",
+      "size": 392,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/13d50f1d246c9bb9dc9039ed127a03b7dd88e61e"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b630a1d20405d9283d13740ccee6caf5d99f17bb",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/b630a1d20405d9283d13740ccee6caf5d99f17bb"
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bba03e7ea48d929f7ab44368c7be71f45b62e20",
+      "size": 702,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/8bba03e7ea48d929f7ab44368c7be71f45b62e20"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3756f05532928a3445b639978c26b337281169fd",
+      "size": 1285,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/3756f05532928a3445b639978c26b337281169fd"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4c9989c3ae453cc416412c57d5d8cd6791c819",
+      "size": 766,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/7e4c9989c3ae453cc416412c57d5d8cd6791c819"
+    },
+    {
+      "path": ".github/workflows/test-slow.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a074af1a2112734b4b8b22eb44182dc8dd12986e",
+      "size": 1747,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a074af1a2112734b4b8b22eb44182dc8dd12986e"
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77792499d3bd3db20303ad84b6d0760ae7df14aa",
+      "size": 1767,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/77792499d3bd3db20303ad84b6d0760ae7df14aa"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd1f14488c524d91577873401a52659fc91edf5",
+      "size": 2082,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/1fd1f14488c524d91577873401a52659fc91edf5"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afbbabcd13d83f33cff0f4d2339120e8b57d6d15",
+      "size": 515,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/afbbabcd13d83f33cff0f4d2339120e8b57d6d15"
+    },
+    {
+      "path": ".readthedocs.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a416ab5a1e6c12a2752546a34b00cce1027899b",
+      "size": 403,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9a416ab5a1e6c12a2752546a34b00cce1027899b"
+    },
+    {
+      "path": ".test_durations",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d71d1e4a7a73b39064b92c809f56ac64d7ac1559",
+      "size": 21416,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/d71d1e4a7a73b39064b92c809f56ac64d7ac1559"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b78085019d5f4fec580af56dadf043320ebb4a",
+      "size": 380,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e7b78085019d5f4fec580af56dadf043320ebb4a"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d30e5fbd07a0bbe7b0dc5906f5e5b3d550401695",
+      "size": 1057,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/d30e5fbd07a0bbe7b0dc5906f5e5b3d550401695"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0b0f9d3d28ac9ae2fca3866408efcf39c20ea90",
+      "size": 2148,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e0b0f9d3d28ac9ae2fca3866408efcf39c20ea90"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afbdd9261e87f14a708f5e722d65969275bc92f1",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/afbdd9261e87f14a708f5e722d65969275bc92f1"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53869ff310223ff82bc24b5e86db652816ce093c",
+      "size": 701,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/53869ff310223ff82bc24b5e86db652816ce093c"
+    },
+    {
+      "path": "docs/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bae52632bc0f33235a6dd5aeb9badf4415adda8",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/9bae52632bc0f33235a6dd5aeb9badf4415adda8"
+    },
+    {
+      "path": "docs/_static/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/_static/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cddb7b09913161fb2ec32601302258628c829dd9",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/cddb7b09913161fb2ec32601302258628c829dd9"
+    },
+    {
+      "path": "docs/_static/css/custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc7affee5d5f23eec16b8c85cfaa63bf9ccc9667",
+      "size": 366,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/bc7affee5d5f23eec16b8c85cfaa63bf9ccc9667"
+    },
+    {
+      "path": "docs/_static/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01d052a5286f4cfad897a462b765da6144c657c1",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/01d052a5286f4cfad897a462b765da6144c657c1"
+    },
+    {
+      "path": "docs/_static/images/cellflow_dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173315af461bf360e43703a577f586c2b9d023f1",
+      "size": 330014,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/173315af461bf360e43703a577f586c2b9d023f1"
+    },
+    {
+      "path": "docs/_static/images/cellflow_light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d382250df9fecadb7365d9eb90c52c6bc216fdc",
+      "size": 308167,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/7d382250df9fecadb7365d9eb90c52c6bc216fdc"
+    },
+    {
+      "path": "docs/_templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "544b13007d130b18731c18285337643953445ece",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/544b13007d130b18731c18285337643953445ece"
+    },
+    {
+      "path": "docs/_templates/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/_templates/autosummary",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0677a9df82ea3beb185fb0ff80146a171b32f07",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/b0677a9df82ea3beb185fb0ff80146a171b32f07"
+    },
+    {
+      "path": "docs/_templates/autosummary/class.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7f7bc9a3dfb38eb009fa1b4dae6441e2c40616",
+      "size": 780,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/1c7f7bc9a3dfb38eb009fa1b4dae6441e2c40616"
+    },
+    {
+      "path": "docs/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b21eedfd6a94db4833ca80d711a75b99c860b764",
+      "size": 5324,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b21eedfd6a94db4833ca80d711a75b99c860b764"
+    },
+    {
+      "path": "docs/contributing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24229aab44f334c8b12471b10055718763123481",
+      "size": 4619,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/24229aab44f334c8b12471b10055718763123481"
+    },
+    {
+      "path": "docs/developer.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e16530962c2afe0f71d927b3d04f78b6bccb73",
+      "size": 326,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a8e16530962c2afe0f71d927b3d04f78b6bccb73"
+    },
+    {
+      "path": "docs/extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "939982f45c3026f1c0402664bc3f2dd8f551974f",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/939982f45c3026f1c0402664bc3f2dd8f551974f"
+    },
+    {
+      "path": "docs/extensions/typed_returns.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74563867407197b98e36e153b20bc5e1de4122c3",
+      "size": 1124,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/74563867407197b98e36e153b20bc5e1de4122c3"
+    },
+    {
+      "path": "docs/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e64452ab72aa37ede65fa609fde591939e8b01",
+      "size": 1400,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a1e64452ab72aa37ede65fa609fde591939e8b01"
+    },
+    {
+      "path": "docs/installation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8f571143d154ff5360e301764db10517b8bdb9",
+      "size": 762,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9e8f571143d154ff5360e301764db10517b8bdb9"
+    },
+    {
+      "path": "docs/notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c24dead6932b8a4aa2b5c228c0962bcd0f10094",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/2c24dead6932b8a4aa2b5c228c0962bcd0f10094"
+    },
+    {
+      "path": "docs/notebooks/100_pbmc.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b9facf6cf48f5e9ca659d8453053600abf6506",
+      "size": 1100127,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/95b9facf6cf48f5e9ca659d8453053600abf6506"
+    },
+    {
+      "path": "docs/notebooks/200_zebrafish.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c566c6860f5352ca61e254bc0ce3fb21ae393c2c",
+      "size": 1201852,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/c566c6860f5352ca61e254bc0ce3fb21ae393c2c"
+    },
+    {
+      "path": "docs/notebooks/201_zebrafish_continuous.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f78516f14259073439ad0c7a61fb8ce96b9e11",
+      "size": 815396,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/60f78516f14259073439ad0c7a61fb8ce96b9e11"
+    },
+    {
+      "path": "docs/notebooks/300_ineuron_tutorial.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d87eef85a07eac4d73455a80e4b08f4accfe8f",
+      "size": 343966,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/25d87eef85a07eac4d73455a80e4b08f4accfe8f"
+    },
+    {
+      "path": "docs/notebooks/500_combosciplex.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e42b30bbc7a479af0e0d03751e7c967b0c0cbf3",
+      "size": 94283,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/8e42b30bbc7a479af0e0d03751e7c967b0c0cbf3"
+    },
+    {
+      "path": "docs/notebooks/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d2842fe91a7e24aa0d7f360b2fa7435c265381",
+      "size": 69,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/00d2842fe91a7e24aa0d7f360b2fa7435c265381"
+    },
+    {
+      "path": "docs/references.bib",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "849b72a5fb38005adf5ddbb432693b26fff66aba",
+      "size": 7498,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/849b72a5fb38005adf5ddbb432693b26fff66aba"
+    },
+    {
+      "path": "docs/references.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e90ed75d0566a63247af7b98f470f9e71e01e7",
+      "size": 79,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b7e90ed75d0566a63247af7b98f470f9e71e01e7"
+    },
+    {
+      "path": "docs/user",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f3b839d6b9882bcc5772fc857ec280b35fc744",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/41f3b839d6b9882bcc5772fc857ec280b35fc744"
+    },
+    {
+      "path": "docs/user/datasets.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b674e7db75f26be108d44298f9cf6f7d20f5db4c",
+      "size": 165,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b674e7db75f26be108d44298f9cf6f7d20f5db4c"
+    },
+    {
+      "path": "docs/user/external.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "124c16b2349bb2d61980e10ebc4d2fd0f39dee84",
+      "size": 138,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/124c16b2349bb2d61980e10ebc4d2fd0f39dee84"
+    },
+    {
+      "path": "docs/user/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af12c42e3a8bb0a55261aac6a42c461b6c055eac",
+      "size": 204,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/af12c42e3a8bb0a55261aac6a42c461b6c055eac"
+    },
+    {
+      "path": "docs/user/metrics.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1b558e8a6c2a023d3755bbbcc05ffbe430c3a1",
+      "size": 335,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/3f1b558e8a6c2a023d3755bbbcc05ffbe430c3a1"
+    },
+    {
+      "path": "docs/user/model.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae3774fbd40dc8d184b9f8ba20b25e0707ff42c",
+      "size": 125,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/aae3774fbd40dc8d184b9f8ba20b25e0707ff42c"
+    },
+    {
+      "path": "docs/user/networks.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76302a4b3085b0c199f3a9b22c80834ba68a2149",
+      "size": 480,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/76302a4b3085b0c199f3a9b22c80834ba68a2149"
+    },
+    {
+      "path": "docs/user/plotting.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88a0389b5cc24a6633835a8933d04e3b84d647c6",
+      "size": 153,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/88a0389b5cc24a6633835a8933d04e3b84d647c6"
+    },
+    {
+      "path": "docs/user/preprocessing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada1ca2b2e149266789cb87a96d998bbed2e3823",
+      "size": 404,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/ada1ca2b2e149266789cb87a96d998bbed2e3823"
+    },
+    {
+      "path": "docs/user/solvers.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1991264a18bdddb3e0116446bd5de1e4fd8a13f",
+      "size": 158,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/f1991264a18bdddb3e0116446bd5de1e4fd8a13f"
+    },
+    {
+      "path": "docs/user/training.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a274142498378e61894a0cee5dbf7a605d1eb257",
+      "size": 368,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a274142498378e61894a0cee5dbf7a605d1eb257"
+    },
+    {
+      "path": "docs/user/utils.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28be622467141e3283249fea6e029135a2dfa9a4",
+      "size": 129,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/28be622467141e3283249fea6e029135a2dfa9a4"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13e8e6969c0aaa50018cf730b9937438dbf91eeb",
+      "size": 8854,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/13e8e6969c0aaa50018cf730b9937438dbf91eeb"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "152f63cd5752bccb6f7a34cdbdde976ae1d50b76",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/152f63cd5752bccb6f7a34cdbdde976ae1d50b76"
+    },
+    {
+      "path": "src/cellflow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df7463e6135d5e543ce30a07a5d044207a428173",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/df7463e6135d5e543ce30a07a5d044207a428173"
+    },
+    {
+      "path": "src/cellflow/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "526fc741f10473baf4d6d8da73e8c2b4fc109d1c",
+      "size": 156,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/526fc741f10473baf4d6d8da73e8c2b4fc109d1c"
+    },
+    {
+      "path": "src/cellflow/_compat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b366457df505a607097a19423e1dd3bf52b15745",
+      "size": 4259,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b366457df505a607097a19423e1dd3bf52b15745"
+    },
+    {
+      "path": "src/cellflow/_constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b782c8d613deff78047654b2d859795733ccdbc",
+      "size": 151,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/3b782c8d613deff78047654b2d859795733ccdbc"
+    },
+    {
+      "path": "src/cellflow/_logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab86cc25df2ad3c1552a6c2523d51d0ab80a5cf",
+      "size": 555,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/aab86cc25df2ad3c1552a6c2523d51d0ab80a5cf"
+    },
+    {
+      "path": "src/cellflow/_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6485eac76a0067ce1e5516fe9d577ca743bb77dd",
+      "size": 616,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/6485eac76a0067ce1e5516fe9d577ca743bb77dd"
+    },
+    {
+      "path": "src/cellflow/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81b988d142ce2e4d37a33dcde29e3baa61ce029b",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/81b988d142ce2e4d37a33dcde29e3baa61ce029b"
+    },
+    {
+      "path": "src/cellflow/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6f6f2de06b4ec345f744f40b40916508d1b4c6e",
+      "size": 457,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e6f6f2de06b4ec345f744f40b40916508d1b4c6e"
+    },
+    {
+      "path": "src/cellflow/data/_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f51d304d37f59c65ac52cf9abd412d0e3bfb9fe",
+      "size": 7453,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/0f51d304d37f59c65ac52cf9abd412d0e3bfb9fe"
+    },
+    {
+      "path": "src/cellflow/data/_dataloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bd91ef0654d8059efe3bc5be5f2fc07296174e",
+      "size": 11299,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/70bd91ef0654d8059efe3bc5be5f2fc07296174e"
+    },
+    {
+      "path": "src/cellflow/data/_datamanager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b085d39e4fa5e33af9a6ba8698322af1f4b521b",
+      "size": 55969,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/1b085d39e4fa5e33af9a6ba8698322af1f4b521b"
+    },
+    {
+      "path": "src/cellflow/data/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22d50bbaee7fd8343926a618fe00f5e085e49db",
+      "size": 427,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/c22d50bbaee7fd8343926a618fe00f5e085e49db"
+    },
+    {
+      "path": "src/cellflow/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24bb4baa38f6531858662ba16d8959320388728f",
+      "size": 2567,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/24bb4baa38f6531858662ba16d8959320388728f"
+    },
+    {
+      "path": "src/cellflow/external",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bd9e62b82a1e4820452ce1be3b8c6ea0f02cb32",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/2bd9e62b82a1e4820452ce1be3b8c6ea0f02cb32"
+    },
+    {
+      "path": "src/cellflow/external/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7ef3e22a04873939333885fe87da73d3535b0d",
+      "size": 46,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/cb7ef3e22a04873939333885fe87da73d3535b0d"
+    },
+    {
+      "path": "src/cellflow/external/_scvi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2ea25a8907d7cd22586351eaa7addb9401b611",
+      "size": 7578,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/bb2ea25a8907d7cd22586351eaa7addb9401b611"
+    },
+    {
+      "path": "src/cellflow/external/_scvi_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4c211021f39fe8582114e68e8df11bfab3b4c0",
+      "size": 4781,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/8a4c211021f39fe8582114e68e8df11bfab3b4c0"
+    },
+    {
+      "path": "src/cellflow/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b93e210589e7ef6260f5ce0388fb427b49665663",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/b93e210589e7ef6260f5ce0388fb427b49665663"
+    },
+    {
+      "path": "src/cellflow/metrics/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79cb1738309708a7362c0c869a6e862997bfafff",
+      "size": 533,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/79cb1738309708a7362c0c869a6e862997bfafff"
+    },
+    {
+      "path": "src/cellflow/metrics/_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcfdaa58d41bc2489b2308f42059935fb55b6b69",
+      "size": 7510,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/dcfdaa58d41bc2489b2308f42059935fb55b6b69"
+    },
+    {
+      "path": "src/cellflow/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "120a1b7fe6ea53ba37d350544a84ab489f15673f",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/120a1b7fe6ea53ba37d350544a84ab489f15673f"
+    },
+    {
+      "path": "src/cellflow/model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8731f241e4eba3670ed279e39d992d79bf1a8eab",
+      "size": 70,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/8731f241e4eba3670ed279e39d992d79bf1a8eab"
+    },
+    {
+      "path": "src/cellflow/model/_cellflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15960777edbae0d3b8d77ce25884a1bd28c0274",
+      "size": 38377,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/f15960777edbae0d3b8d77ce25884a1bd28c0274"
+    },
+    {
+      "path": "src/cellflow/model/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76384b3825c7336e63c09501305e1761e608e5d3",
+      "size": 988,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/76384b3825c7336e63c09501305e1761e608e5d3"
+    },
+    {
+      "path": "src/cellflow/networks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10dba485226e6d943dbc82de4518ae1a40136e09",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/10dba485226e6d943dbc82de4518ae1a40136e09"
+    },
+    {
+      "path": "src/cellflow/networks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c605eac321517819f63deaf139998a00061e337d",
+      "size": 763,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/c605eac321517819f63deaf139998a00061e337d"
+    },
+    {
+      "path": "src/cellflow/networks/_set_encoders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74279872ee508bd69ee4899dbbd89fd5fc1d7bff",
+      "size": 9406,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/74279872ee508bd69ee4899dbbd89fd5fc1d7bff"
+    },
+    {
+      "path": "src/cellflow/networks/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45984fac4e995a0d59fab0429daa27ead795aa99",
+      "size": 21260,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/45984fac4e995a0d59fab0429daa27ead795aa99"
+    },
+    {
+      "path": "src/cellflow/networks/_velocity_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7155b78f598a063e2a682a13d8a4f0ddee238b4e",
+      "size": 33281,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/7155b78f598a063e2a682a13d8a4f0ddee238b4e"
+    },
+    {
+      "path": "src/cellflow/plotting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19a60600c9d61a1fb457abd279ee93fc66b4bc96",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/19a60600c9d61a1fb457abd279ee93fc66b4bc96"
+    },
+    {
+      "path": "src/cellflow/plotting/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7fd387e1d333dff75092122780cd2afc9fd323e",
+      "size": 105,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/c7fd387e1d333dff75092122780cd2afc9fd323e"
+    },
+    {
+      "path": "src/cellflow/plotting/_plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389f37d0d2782d5be3e76539bff12795af0e344d",
+      "size": 5313,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/389f37d0d2782d5be3e76539bff12795af0e344d"
+    },
+    {
+      "path": "src/cellflow/plotting/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6378122d4edd9b079bff9b5ad469e708f4355fc3",
+      "size": 3042,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/6378122d4edd9b079bff9b5ad469e708f4355fc3"
+    },
+    {
+      "path": "src/cellflow/preprocessing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ecdf6c08fffeb6cbef4dc15fcaf09e664abd0b6",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/7ecdf6c08fffeb6cbef4dc15fcaf09e664abd0b6"
+    },
+    {
+      "path": "src/cellflow/preprocessing/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21eaa99312a17a7af8d7c222f9a9e126ff79215d",
+      "size": 417,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/21eaa99312a17a7af8d7c222f9a9e126ff79215d"
+    },
+    {
+      "path": "src/cellflow/preprocessing/_gene_emb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdda73cfc63a3a96b3b5c6a5e2ce2b7c2346b5e6",
+      "size": 12067,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/bdda73cfc63a3a96b3b5c6a5e2ce2b7c2346b5e6"
+    },
+    {
+      "path": "src/cellflow/preprocessing/_pca.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b722381de78f21337637a5a8c5a39d4300f283",
+      "size": 7177,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b6b722381de78f21337637a5a8c5a39d4300f283"
+    },
+    {
+      "path": "src/cellflow/preprocessing/_preprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a12bd627ea21fd7dcaabb972434f23d798ac50f9",
+      "size": 8818,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a12bd627ea21fd7dcaabb972434f23d798ac50f9"
+    },
+    {
+      "path": "src/cellflow/preprocessing/_wknn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222a9dcfdbc4f911243eccee31e864c38b820c88",
+      "size": 8619,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/222a9dcfdbc4f911243eccee31e864c38b820c88"
+    },
+    {
+      "path": "src/cellflow/solvers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dd1bd2380a4bc030357e67397d36b058ed6b099",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/7dd1bd2380a4bc030357e67397d36b058ed6b099"
+    },
+    {
+      "path": "src/cellflow/solvers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58af9ce5b5747e737fa6b1d15fb092e7bdce864",
+      "size": 609,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/c58af9ce5b5747e737fa6b1d15fb092e7bdce864"
+    },
+    {
+      "path": "src/cellflow/solvers/_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d0dc8ede98c0ec8dfd773ef7fb111c93d4d5f79",
+      "size": 2644,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9d0dc8ede98c0ec8dfd773ef7fb111c93d4d5f79"
+    },
+    {
+      "path": "src/cellflow/solvers/_genot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11049ae8214301de5bd3c7de03c70aa43e3e22f6",
+      "size": 15307,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/11049ae8214301de5bd3c7de03c70aa43e3e22f6"
+    },
+    {
+      "path": "src/cellflow/solvers/_otfm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c41db74ffc2278620a6b81a04ea3fa6d8ea1df2",
+      "size": 18298,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/0c41db74ffc2278620a6b81a04ea3fa6d8ea1df2"
+    },
+    {
+      "path": "src/cellflow/solvers/_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2acab04c74819d10d3f96103b47ad952e51af9",
+      "size": 1309,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/2f2acab04c74819d10d3f96103b47ad952e51af9"
+    },
+    {
+      "path": "src/cellflow/solvers/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88b928939e01999a64040f3857b6461d3810787",
+      "size": 3218,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/b88b928939e01999a64040f3857b6461d3810787"
+    },
+    {
+      "path": "src/cellflow/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f5c87b96f41d05918d31533efb0f7526cdc31a4",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/9f5c87b96f41d05918d31533efb0f7526cdc31a4"
+    },
+    {
+      "path": "src/cellflow/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "387411d232a04d79eec259d4db852f5bb18a2042",
+      "size": 492,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/387411d232a04d79eec259d4db852f5bb18a2042"
+    },
+    {
+      "path": "src/cellflow/training/_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b65f33f221afd15eeae5c2903c2456a66d778b0",
+      "size": 21132,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/5b65f33f221afd15eeae5c2903c2456a66d778b0"
+    },
+    {
+      "path": "src/cellflow/training/_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0130690751e907005c34e0e0bc7e21eedac40c0",
+      "size": 5780,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/f0130690751e907005c34e0e0bc7e21eedac40c0"
+    },
+    {
+      "path": "src/cellflow/training/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/cellflow/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8192d1e484d3e948e4d2cad66db441c1b4be86c8",
+      "size": 2455,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/8192d1e484d3e948e4d2cad66db441c1b4be86c8"
+    },
+    {
+      "path": "src/cfp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c31be29f492bc638ab5622480746ba9a6d1e814",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/3c31be29f492bc638ab5622480746ba9a6d1e814"
+    },
+    {
+      "path": "src/cfp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f0742f7ea624908d73bbac28812987a4aead77",
+      "size": 37,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/76f0742f7ea624908d73bbac28812987a4aead77"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eaf95a4ff2e60a8380b21e3ff866abbbb24c1aae",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/eaf95a4ff2e60a8380b21e3ff866abbbb24c1aae"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ef3428566f9cb0f39be77a415e939be53eee37",
+      "size": 9385,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/e8ef3428566f9cb0f39be77a415e939be53eee37"
+    },
+    {
+      "path": "tests/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57192d72dd214ddb82b4486417663b4a7572c8dd",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/57192d72dd214ddb82b4486417663b4a7572c8dd"
+    },
+    {
+      "path": "tests/data/test_cfsampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae5405afb2da0f55c1f5b2c844ee8eeca163ab9",
+      "size": 6366,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/0ae5405afb2da0f55c1f5b2c844ee8eeca163ab9"
+    },
+    {
+      "path": "tests/data/test_condition_id_key.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd6e7e3d2eacf8d303c769333e819a339c36fda2",
+      "size": 6114,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/bd6e7e3d2eacf8d303c769333e819a339c36fda2"
+    },
+    {
+      "path": "tests/data/test_datamanager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237af9c704ec0c9ea6b30a38a5c9b3e11a175eb2",
+      "size": 17788,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/237af9c704ec0c9ea6b30a38a5c9b3e11a175eb2"
+    },
+    {
+      "path": "tests/data/test_old_get_condition_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cdc52aab0e4d8fb750bf2fc44b5b6a750cc105f",
+      "size": 20958,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9cdc52aab0e4d8fb750bf2fc44b5b6a750cc105f"
+    },
+    {
+      "path": "tests/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c916b90f3c76af1123326e3890137b6e8c403897",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/c916b90f3c76af1123326e3890137b6e8c403897"
+    },
+    {
+      "path": "tests/metrics/test_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9239fcf1ff6966f213dba5280d7415de2ce69c4e",
+      "size": 2630,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9239fcf1ff6966f213dba5280d7415de2ce69c4e"
+    },
+    {
+      "path": "tests/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16daf729dbc2184d6c65a4f7775fd582f993894f",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/16daf729dbc2184d6c65a4f7775fd582f993894f"
+    },
+    {
+      "path": "tests/model/test_cellflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d82e4c3c5e15941763dfa3580336b2f71bcd7c4",
+      "size": 19762,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/2d82e4c3c5e15941763dfa3580336b2f71bcd7c4"
+    },
+    {
+      "path": "tests/networks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46b3f2938eb799aeae8bf75f3d0ccdb6a9a11e89",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/46b3f2938eb799aeae8bf75f3d0ccdb6a9a11e89"
+    },
+    {
+      "path": "tests/networks/test_aggregators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e187b84be3772b44373a1b95aeea9d5f36db4e3",
+      "size": 6039,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/2e187b84be3772b44373a1b95aeea9d5f36db4e3"
+    },
+    {
+      "path": "tests/networks/test_condencoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54589d62018122c28a8f9384b6cddf936972f101",
+      "size": 2662,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/54589d62018122c28a8f9384b6cddf936972f101"
+    },
+    {
+      "path": "tests/networks/test_layer_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9912da160d7d2bedd38272245520758fe6ff604b",
+      "size": 5186,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/9912da160d7d2bedd38272245520758fe6ff604b"
+    },
+    {
+      "path": "tests/networks/test_velocityfield.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e651d266b8b41b8602260380cf423c027812e8c",
+      "size": 7408,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/4e651d266b8b41b8602260380cf423c027812e8c"
+    },
+    {
+      "path": "tests/plotting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d3f91c729f2432b4bb46457bfd031f9e923aff7",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/9d3f91c729f2432b4bb46457bfd031f9e923aff7"
+    },
+    {
+      "path": "tests/plotting/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b30ed37db7a314542220da317c908c5c79164d",
+      "size": 651,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/60b30ed37db7a314542220da317c908c5c79164d"
+    },
+    {
+      "path": "tests/plotting/test_plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f431ff25b992d41f169553eaf6ff9e9b1063f2e",
+      "size": 841,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/7f431ff25b992d41f169553eaf6ff9e9b1063f2e"
+    },
+    {
+      "path": "tests/preprocessing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abcc7aa76bd9c1e90274f73ea8d3d5020988f564",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/abcc7aa76bd9c1e90274f73ea8d3d5020988f564"
+    },
+    {
+      "path": "tests/preprocessing/test_gene_emb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffce07c18952a44dd845aa12f4dd988b0d5460d7",
+      "size": 3836,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/ffce07c18952a44dd845aa12f4dd988b0d5460d7"
+    },
+    {
+      "path": "tests/preprocessing/test_pca.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662c721ff79ea2d828700cd21f0477728240680f",
+      "size": 2026,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/662c721ff79ea2d828700cd21f0477728240680f"
+    },
+    {
+      "path": "tests/preprocessing/test_preprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e31b8a6ee29f81afcb71e74aaedd0d6b690a78e",
+      "size": 3622,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/1e31b8a6ee29f81afcb71e74aaedd0d6b690a78e"
+    },
+    {
+      "path": "tests/preprocessing/test_wknn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bbe12ab7b533245928dff16ecbd8beb6348c9e1",
+      "size": 3233,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/2bbe12ab7b533245928dff16ecbd8beb6348c9e1"
+    },
+    {
+      "path": "tests/solver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ede7b26be1b78d837c929c36633f7fd8a6730ee2",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/ede7b26be1b78d837c929c36633f7fd8a6730ee2"
+    },
+    {
+      "path": "tests/solver/test_genot_flow_target.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435e8609b109d6affafde0840424ca4bca8e5ef2",
+      "size": 3240,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/435e8609b109d6affafde0840424ca4bca8e5ef2"
+    },
+    {
+      "path": "tests/solver/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306de88441e3fbf693f0fca9f81df99c7c138313",
+      "size": 4071,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/306de88441e3fbf693f0fca9f81df99c7c138313"
+    },
+    {
+      "path": "tests/solver/test_registry_regression.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e9498ee77d0e83a1d3303ef518b624c6e6fa1e1",
+      "size": 8108,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/5e9498ee77d0e83a1d3303ef518b624c6e6fa1e1"
+    },
+    {
+      "path": "tests/solver/test_solver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3d75d27e84f49c41ddb7540990cd76124ac24a",
+      "size": 22275,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/5b3d75d27e84f49c41ddb7540990cd76124ac24a"
+    },
+    {
+      "path": "tests/test_artifacts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa97458247d6e64646e7941a437bc79c10ffae87",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/fa97458247d6e64646e7941a437bc79c10ffae87"
+    },
+    {
+      "path": "tests/test_artifacts/ENSG00000169047_emb.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "105a49907b6ec8ce4f3128f6d0ec349daa370255",
+      "size": 12193,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/105a49907b6ec8ce4f3128f6d0ec349daa370255"
+    },
+    {
+      "path": "tests/test_artifacts/ENSG00000171105_emb.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc08a19bce00f0254a852c3658b64d4b8b95f22",
+      "size": 12193,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/4dc08a19bce00f0254a852c3658b64d4b8b95f22"
+    },
+    {
+      "path": "tests/test_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a031986429348ef126dd66a6a24bbf94c9d9aa87",
+      "size": 379,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/a031986429348ef126dd66a6a24bbf94c9d9aa87"
+    },
+    {
+      "path": "tests/trainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f91334c4ccb23f2c0fc2ad46133433285ae3cc6",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/7f91334c4ccb23f2c0fc2ad46133433285ae3cc6"
+    },
+    {
+      "path": "tests/trainer/test_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a5f67907ae99d02a52178a9ca4daefb3eba292",
+      "size": 626,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/60a5f67907ae99d02a52178a9ca4daefb3eba292"
+    },
+    {
+      "path": "tests/trainer/test_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabcab61b08e55c54e279bc1a7d88a1a280a92e6",
+      "size": 9955,
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/blobs/dabcab61b08e55c54e279bc1a7d88a1a280a92e6"
+    }
+  ],
+  "truncated": false
+}

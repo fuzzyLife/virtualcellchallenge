@@ -1,0 +1,3384 @@
+{
+  "sha": "11f0fca33b891d83032ea7788c216d02b67ca6e5",
+  "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/11f0fca33b891d83032ea7788c216d02b67ca6e5",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c9a33847e4614e1925fbf4923fe36f0bc81e7b1",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/0c9a33847e4614e1925fbf4923fe36f0bc81e7b1"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "943735f3f96d7e553ae580dc48fc899883ff1d22",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/943735f3f96d7e553ae580dc48fc899883ff1d22"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c081b7ba5abc065becc8b98ff2465dd5a92a94",
+      "size": 1812,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/82c081b7ba5abc065becc8b98ff2465dd5a92a94"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecb1659f363fd371c8218b71d6b3d6f50db9873",
+      "size": 1035,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7ecb1659f363fd371c8218b71d6b3d6f50db9873"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c20dafcfa183e06653bda9ce887236f2b8c57c5f",
+      "size": 1257,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c20dafcfa183e06653bda9ce887236f2b8c57c5f"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e7f1628e99fa8f9ec3c9bb98095ae7ea8ef66df",
+      "size": 515,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3e7f1628e99fa8f9ec3c9bb98095ae7ea8ef66df"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403867223b4269a416bfab9e32cedf2236565f0c",
+      "size": 16812,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/403867223b4269a416bfab9e32cedf2236565f0c"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37e6ebed1b622efa0940b7c774324ee4f12cc13a",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/37e6ebed1b622efa0940b7c774324ee4f12cc13a"
+    },
+    {
+      "path": "benchmarks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b73c6e2b8c794efee203c5a497750ce5503262a",
+      "size": 8847,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1b73c6e2b8c794efee203c5a497750ce5503262a"
+    },
+    {
+      "path": "benchmarks/conda_envs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cff96b13c156b12abfc7256411319745269fd7e6",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/cff96b13c156b12abfc7256411319745269fd7e6"
+    },
+    {
+      "path": "benchmarks/conda_envs/CIPHER.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcee3f6ab25b94414841b60b2a4462d585bd37a6",
+      "size": 8942,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/bcee3f6ab25b94414841b60b2a4462d585bd37a6"
+    },
+    {
+      "path": "benchmarks/conda_envs/GEARS.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff3e492959b5a18465778b9182c604b54100b880",
+      "size": 9350,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ff3e492959b5a18465778b9182c604b54100b880"
+    },
+    {
+      "path": "benchmarks/conda_envs/GenePert.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbe153d0014ebcac86badcb8ae17813c6de117d",
+      "size": 2611,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8bbe153d0014ebcac86badcb8ae17813c6de117d"
+    },
+    {
+      "path": "benchmarks/conda_envs/linear_mean.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbe153d0014ebcac86badcb8ae17813c6de117d",
+      "size": 2611,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8bbe153d0014ebcac86badcb8ae17813c6de117d"
+    },
+    {
+      "path": "benchmarks/conda_envs/scGPT.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236226f19867feb4e5f46c3526ec9f59d90a5ba7",
+      "size": 8790,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/236226f19867feb4e5f46c3526ec9f59d90a5ba7"
+    },
+    {
+      "path": "benchmarks/conda_envs/sclambda.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a89a875f6f37ba065612d2bfbd57e504e31804eb",
+      "size": 7791,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a89a875f6f37ba065612d2bfbd57e504e31804eb"
+    },
+    {
+      "path": "benchmarks/conda_envs/scouter.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4260e0a7df6d5ae5fa0bbe5f71177b3e89853eda",
+      "size": 7844,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4260e0a7df6d5ae5fa0bbe5f71177b3e89853eda"
+    },
+    {
+      "path": "benchmarks/dataset_splits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9029a3ff06dc7991191dcffe6ffeb1780301702",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/c9029a3ff06dc7991191dcffe6ffeb1780301702"
+    },
+    {
+      "path": "benchmarks/dataset_splits/FrangiehIzar2021_RNA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91d869a0a06aab4db73b7307e0253d20054da0a2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/91d869a0a06aab4db73b7307e0253d20054da0a2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/FrangiehIzar2021_RNA/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eab3b589f1c9c35452c9393ed14185953f0c0f1e",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/eab3b589f1c9c35452c9393ed14185953f0c0f1e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/FrangiehIzar2021_RNA/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ad66a14dd0807bdcf7d68b0df213e09ac096bc",
+      "size": 602520,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b9ad66a14dd0807bdcf7d68b0df213e09ac096bc"
+    },
+    {
+      "path": "benchmarks/dataset_splits/FrangiehIzar2021_RNA/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bf1d2bf7796cfff7a51fde6a430f80f5eabacf",
+      "size": 603024,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/84bf1d2bf7796cfff7a51fde6a430f80f5eabacf"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_hepg2_raw_singlecell_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84efdcc7369593bcc47eac07ac1c32fd32d5185b",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/84efdcc7369593bcc47eac07ac1c32fd32d5185b"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_hepg2_raw_singlecell_01/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb214b0015e7210c82118fe86a05429f9a3abdb",
+      "size": 39936,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fdb214b0015e7210c82118fe86a05429f9a3abdb"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_hepg2_raw_singlecell_01/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea5e3fb62720e47397a5114cde7c27295fb4989",
+      "size": 156400,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fea5e3fb62720e47397a5114cde7c27295fb4989"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_hepg2_raw_singlecell_01/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195bf46d2a446fe44c6672a0fe01b9eaadbf60b7",
+      "size": 156776,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/195bf46d2a446fe44c6672a0fe01b9eaadbf60b7"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_jurkat_raw_singlecell_01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f432c04b22e5efd1b626e392e1be2ffe801db6de",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/f432c04b22e5efd1b626e392e1be2ffe801db6de"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_jurkat_raw_singlecell_01/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d442eb83516c2b3f2ef1a509c11e558ad5546968",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d442eb83516c2b3f2ef1a509c11e558ad5546968"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_jurkat_raw_singlecell_01/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d393951f77953543af52e18333aa084e92daa9",
+      "size": 568152,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/14d393951f77953543af52e18333aa084e92daa9"
+    },
+    {
+      "path": "benchmarks/dataset_splits/GSE264667_jurkat_raw_singlecell_01/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b4179424dd48271bdfe01b30cc70436b65851df",
+      "size": 569792,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6b4179424dd48271bdfe01b30cc70436b65851df"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Rest_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7edf1ad78778b83537aaf25788f6809b91213ae2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7edf1ad78778b83537aaf25788f6809b91213ae2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Rest_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0e5cd9c30fb9c7ac16850c792923d1f36c8660",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6f0e5cd9c30fb9c7ac16850c792923d1f36c8660"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Rest_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "013444142440f7a8587899b6ab25c5eb5106276e",
+      "size": 1253248,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/013444142440f7a8587899b6ab25c5eb5106276e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Rest_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "157350209dd9054eddeb0065b538ae2dd41ccd43",
+      "size": 1255240,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/157350209dd9054eddeb0065b538ae2dd41ccd43"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim48hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5fd6390499a11ed5f2842ab8bcdd667f3769fb2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/b5fd6390499a11ed5f2842ab8bcdd667f3769fb2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim48hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f02d3800c904a39449a4b422fc88869148ad3b",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d1f02d3800c904a39449a4b422fc88869148ad3b"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim48hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "364e4660da18dd060e5cd64700c78ea407aa1083",
+      "size": 1004768,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/364e4660da18dd060e5cd64700c78ea407aa1083"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim48hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e1f9208260f8962dd88df22e12a43bf6224627d",
+      "size": 1006656,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2e1f9208260f8962dd88df22e12a43bf6224627d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim8hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed81fa2b37f50e12ffce2c6b2a19fbb3cac7e8a8",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/ed81fa2b37f50e12ffce2c6b2a19fbb3cac7e8a8"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim8hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de1c771f858af7ce790b963418a62059a372381",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9de1c771f858af7ce790b963418a62059a372381"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim8hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0e0d8b0ae8f59a23e552100820e8cf57a79f5c2",
+      "size": 987448,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b0e0d8b0ae8f59a23e552100820e8cf57a79f5c2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D1_Stim8hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b43aacc841ead60623c07ee56f26952e5b86e6",
+      "size": 989440,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/17b43aacc841ead60623c07ee56f26952e5b86e6"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim48hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d87343486a3bd9dabc53526bb26f8c53319f1d4f",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/d87343486a3bd9dabc53526bb26f8c53319f1d4f"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim48hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61261975e32f7d5476b99503729276c4201178f6",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/61261975e32f7d5476b99503729276c4201178f6"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim48hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c950a5f0ab7ed0b22afad55b5979fe4a388b6c",
+      "size": 1810328,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f3c950a5f0ab7ed0b22afad55b5979fe4a388b6c"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim48hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad519c2448a407dc93abe02c2173bdedf2988c66",
+      "size": 1812088,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ad519c2448a407dc93abe02c2173bdedf2988c66"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim8hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "857aea7964bec8312abada676ee6f5919e88f8ba",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/857aea7964bec8312abada676ee6f5919e88f8ba"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim8hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a71d655830958e7133fa2c2878057b5e302b998",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5a71d655830958e7133fa2c2878057b5e302b998"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim8hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cece194c80167badd46492faaaabaf39cd9ff0",
+      "size": 1789000,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f1cece194c80167badd46492faaaabaf39cd9ff0"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D2_Stim8hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b40ed6661a15bc2fae9d7a5ad31de8815c769ef",
+      "size": 1791072,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0b40ed6661a15bc2fae9d7a5ad31de8815c769ef"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Rest_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bb326172a199876d85805013f8e561a2a932eb2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/1bb326172a199876d85805013f8e561a2a932eb2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Rest_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c4b412580e18b20fcc193e5a3db53d7a3efb0b",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/85c4b412580e18b20fcc193e5a3db53d7a3efb0b"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Rest_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71d939b93830a70f1503f6ff8a6d216bf468bd1",
+      "size": 1587736,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e71d939b93830a70f1503f6ff8a6d216bf468bd1"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Rest_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936ebeb836199470fb94cf7487446eca794a8dfb",
+      "size": 1589568,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/936ebeb836199470fb94cf7487446eca794a8dfb"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim48hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad0d741464cddc7f50090be2b842283028aa7087",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/ad0d741464cddc7f50090be2b842283028aa7087"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim48hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c53f150b582337f7853f15b6d2acb4beda5987a3",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c53f150b582337f7853f15b6d2acb4beda5987a3"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim48hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "572eb4e52d4b5eebf2e92e16885965a96c6535ff",
+      "size": 1514112,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/572eb4e52d4b5eebf2e92e16885965a96c6535ff"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim48hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a39836dd061449685cf100ecbb1caba9c18e6ccf",
+      "size": 1515976,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a39836dd061449685cf100ecbb1caba9c18e6ccf"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim8hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ec9bada4aa80ff54a52318f77bada57e2620875",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/9ec9bada4aa80ff54a52318f77bada57e2620875"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim8hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d0d7fd33aef1a4f0638809b090e317c6e71b916",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1d0d7fd33aef1a4f0638809b090e317c6e71b916"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim8hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8a4db0470900dbe7a346d839fe8cb0556563e21",
+      "size": 1316040,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f8a4db0470900dbe7a346d839fe8cb0556563e21"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D3_Stim8hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c99896d06f453384d8008ee93291c8ea8af0b18",
+      "size": 1318032,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5c99896d06f453384d8008ee93291c8ea8af0b18"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Rest_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57cb00e0c8a3abdab092725ab3c917c926618f98",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/57cb00e0c8a3abdab092725ab3c917c926618f98"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Rest_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9999f5eb56ec0ccefc668f050355e0e66b6450",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6a9999f5eb56ec0ccefc668f050355e0e66b6450"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Rest_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cccba3da5dd422c401479f8b3de84877d4d8e5fa",
+      "size": 1028720,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cccba3da5dd422c401479f8b3de84877d4d8e5fa"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Rest_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f84d481d9ae0f579535df1659fa3583be30652c",
+      "size": 1030760,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7f84d481d9ae0f579535df1659fa3583be30652c"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim48hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc3f5509020e83131babcddba21e3efa8f34b2c5",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/fc3f5509020e83131babcddba21e3efa8f34b2c5"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim48hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4335b29153cedd685f467cb2d7819e4d2a1428",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9c4335b29153cedd685f467cb2d7819e4d2a1428"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim48hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9629ab60cd609e0f93d08c88b1f36f6fbd6b310d",
+      "size": 1097064,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9629ab60cd609e0f93d08c88b1f36f6fbd6b310d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim48hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f923a786f0e7cca91ccc3c9952e921baefe15e8e",
+      "size": 1099088,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f923a786f0e7cca91ccc3c9952e921baefe15e8e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim8hr_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90b26b9d6fb2fc3075278be21d9fe34500f09d99",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/90b26b9d6fb2fc3075278be21d9fe34500f09d99"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim8hr_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c99e27c2be4b2bad115f5d83ca3c8e046b6d67",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b3c99e27c2be4b2bad115f5d83ca3c8e046b6d67"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim8hr_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef65420015424cc9c1bdc8c596e245e6918254ac",
+      "size": 896968,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ef65420015424cc9c1bdc8c596e245e6918254ac"
+    },
+    {
+      "path": "benchmarks/dataset_splits/Marson2025_D4_Stim8hr_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a6bb1c33103df59f40ed966ccd63c606964c3b9",
+      "size": 898896,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5a6bb1c33103df59f40ed966ccd63c606964c3b9"
+    },
+    {
+      "path": "benchmarks/dataset_splits/NormanWeissman2019_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4929e9b0971d14a38faa1edee329db6495719a6",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/a4929e9b0971d14a38faa1edee329db6495719a6"
+    },
+    {
+      "path": "benchmarks/dataset_splits/NormanWeissman2019_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23e4a3af53e9efbe7c1082a7211235798156805e",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/23e4a3af53e9efbe7c1082a7211235798156805e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/NormanWeissman2019_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947074fa782ea8910d23d1802e60ce9c24586f1a",
+      "size": 225592,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/947074fa782ea8910d23d1802e60ce9c24586f1a"
+    },
+    {
+      "path": "benchmarks/dataset_splits/NormanWeissman2019_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cc26de059382abf46ad77573003032c7996b1f",
+      "size": 225792,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/64cc26de059382abf46ad77573003032c7996b1f"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_K562_essential",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "703e8251c5dea4d9c2eca9ed1aedb163a85cd76d",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/703e8251c5dea4d9c2eca9ed1aedb163a85cd76d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_K562_essential/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b04bd3f719b24ef9d7e54bf1663072b95177104d",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b04bd3f719b24ef9d7e54bf1663072b95177104d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_K562_essential/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152a790dcdbe976e51bb1ee1fcdfbdcc8b30f855",
+      "size": 844344,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/152a790dcdbe976e51bb1ee1fcdfbdcc8b30f855"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_K562_essential/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b7dba1bca23135df210ee5559cedc97ae18cf2",
+      "size": 846272,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a0b7dba1bca23135df210ee5559cedc97ae18cf2"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_rpe1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe8a9c06da9533b03bdad12445323cc682e1fbf4",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/fe8a9c06da9533b03bdad12445323cc682e1fbf4"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_rpe1/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73491f2cd2c95db8e4833268ac8766bbfde08f0",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a73491f2cd2c95db8e4833268ac8766bbfde08f0"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_rpe1/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b265845690991217273179ba6cadc2d8b001264d",
+      "size": 511208,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b265845690991217273179ba6cadc2d8b001264d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/ReplogleWeissman2022_rpe1/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e973cf3fa5f9da51bdb2a6afd2d4d7c1d65a9e",
+      "size": 512464,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/27e973cf3fa5f9da51bdb2a6afd2d4d7c1d65a9e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_day7neuron",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cbf396bdf36561c49725a577adb81b022a1b963",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/2cbf396bdf36561c49725a577adb81b022a1b963"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_day7neuron/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3757a6095d52f0d910541f4fd1bd78e5456e4191",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3757a6095d52f0d910541f4fd1bd78e5456e4191"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_day7neuron/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6411b2ab1ec3fefdd0c599eebf71a8c9f4737b7",
+      "size": 278920,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c6411b2ab1ec3fefdd0c599eebf71a8c9f4737b7"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_day7neuron/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0b63df2389094a978416a18b2db0c0af768a803",
+      "size": 278968,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c0b63df2389094a978416a18b2db0c0af768a803"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_iPSC",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b48ea212ab82f0386d2697a8b419f14b772fcad8",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/b48ea212ab82f0386d2697a8b419f14b772fcad8"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_iPSC/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53e54741e4e54eb507b08897dbf9e25e8dcc9810",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/53e54741e4e54eb507b08897dbf9e25e8dcc9810"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_iPSC/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a8126843e5abc3f4aa388b07cef2552e335e0d",
+      "size": 518664,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/43a8126843e5abc3f4aa388b07cef2552e335e0d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2019_iPSC/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d1bbc1f2890f29488bc048a6d8d426c39e3924",
+      "size": 518728,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b8d1bbc1f2890f29488bc048a6d8d426c39e3924"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d56a488296703d8bed4553e097d19f363cc5255d",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/d56a488296703d8bed4553e097d19f363cc5255d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRa/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea83166eb421442f0573de0b11345c6105f766f",
+      "size": 3600,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3ea83166eb421442f0573de0b11345c6105f766f"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRa/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2546baddab6965c26d4c8893a92339e2cedf02d7",
+      "size": 79208,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2546baddab6965c26d4c8893a92339e2cedf02d7"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRa/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2505295e9a924712b38de7688eb167ad71b08abf",
+      "size": 79416,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2505295e9a924712b38de7688eb167ad71b08abf"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4db0f943515456fcf8d3f377db4c693c80a96b9",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/f4db0f943515456fcf8d3f377db4c693c80a96b9"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRi/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcac056d2dfd1f13fb9ecc78dd190c6102d5ff49",
+      "size": 3624,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/dcac056d2dfd1f13fb9ecc78dd190c6102d5ff49"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRi/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cca165ba0cb2779bcb5abea76e2ff3f89d0ce103",
+      "size": 121824,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cca165ba0cb2779bcb5abea76e2ff3f89d0ce103"
+    },
+    {
+      "path": "benchmarks/dataset_splits/TianKampmann2021_CRISPRi/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507ee67721a75c0f2589bc31b471fd35a9ede92b",
+      "size": 122216,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/507ee67721a75c0f2589bc31b471fd35a9ede92b"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HCT116_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b6c5982b9c08e9efd96dc71c16d7cb96585c52e",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/9b6c5982b9c08e9efd96dc71c16d7cb96585c52e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HCT116_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1daee85c00817f9bb4c82469463acd9ad828093",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b1daee85c00817f9bb4c82469463acd9ad828093"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HCT116_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a72dda69c3eb504baad391be5f5d4c2e530991",
+      "size": 1462128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/73a72dda69c3eb504baad391be5f5d4c2e530991"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HCT116_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c70e63938b6093011a29b88465720d4f6bfd82e",
+      "size": 1464120,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2c70e63938b6093011a29b88465720d4f6bfd82e"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HEK293T_filtered",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7470b2eeb035a33780472b288880f3e406448e6",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/b7470b2eeb035a33780472b288880f3e406448e6"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HEK293T_filtered/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce22ce89c7425a8946d9284b7463fd709bf505e7",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ce22ce89c7425a8946d9284b7463fd709bf505e7"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HEK293T_filtered/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f012425eebeea7c750f76a8452b5341177b396d",
+      "size": 1963232,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0f012425eebeea7c750f76a8452b5341177b396d"
+    },
+    {
+      "path": "benchmarks/dataset_splits/XAtlas2025_HEK293T_filtered/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2cfa7b2ef27a00c97d34fadd68a51aeb884d27",
+      "size": 1965208,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3a2cfa7b2ef27a00c97d34fadd68a51aeb884d27"
+    },
+    {
+      "path": "benchmarks/dataset_splits/akana_etal_2026_crispra_perturbseq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "384d4441db72c741f366a14a6db357d07715f315",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/384d4441db72c741f366a14a6db357d07715f315"
+    },
+    {
+      "path": "benchmarks/dataset_splits/akana_etal_2026_crispra_perturbseq/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8f74064ae7f8c3c11172fb1368be714af8e1582",
+      "size": 21408,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f8f74064ae7f8c3c11172fb1368be714af8e1582"
+    },
+    {
+      "path": "benchmarks/dataset_splits/akana_etal_2026_crispra_perturbseq/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "841148d9ab16f58eb3f43549bab49f9bdf54f5b0",
+      "size": 68296,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/841148d9ab16f58eb3f43549bab49f9bdf54f5b0"
+    },
+    {
+      "path": "benchmarks/dataset_splits/akana_etal_2026_crispra_perturbseq/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a545cbe359718c3bbbfe414af4f82f43ad0810e5",
+      "size": 68456,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a545cbe359718c3bbbfe414af4f82f43ad0810e5"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_fibroblast_ctrl_10k_min100_greedy_4gb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3328d80f0c110927082e6649f1efdf95a20f21b5",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/3328d80f0c110927082e6649f1efdf95a20f21b5"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_fibroblast_ctrl_10k_min100_greedy_4gb/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe7dbd2071fd8fa4ba9b9408c58e878fd94322f",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8fe7dbd2071fd8fa4ba9b9408c58e878fd94322f"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_fibroblast_ctrl_10k_min100_greedy_4gb/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d03f845b5848fd265af2709c1a9fe7c41d8bc704",
+      "size": 400128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d03f845b5848fd265af2709c1a9fe7c41d8bc704"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_fibroblast_ctrl_10k_min100_greedy_4gb/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3a5e09b8ee4336df04dc036ad23da903c43af9",
+      "size": 400128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7f3a5e09b8ee4336df04dc036ad23da903c43af9"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_rpe1_ctrl_10k_min100_greedy_4gb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00494d93e9079d471a8115227a69a9ad61c6a275",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/00494d93e9079d471a8115227a69a9ad61c6a275"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_rpe1_ctrl_10k_min100_greedy_4gb/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d2a1c90ab5dcddf4a5d8b0d1d7abd1eb48d47a",
+      "size": 80128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/48d2a1c90ab5dcddf4a5d8b0d1d7abd1eb48d47a"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_rpe1_ctrl_10k_min100_greedy_4gb/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b21763bbb5d082dc04a999a8fcf6fdb9d214b0",
+      "size": 400128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/38b21763bbb5d082dc04a999a8fcf6fdb9d214b0"
+    },
+    {
+      "path": "benchmarks/dataset_splits/kaden25_rpe1_ctrl_10k_min100_greedy_4gb/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25414315c10bbc843a25244322bdca2f266fcadf",
+      "size": 400128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/25414315c10bbc843a25244322bdca2f266fcadf"
+    },
+    {
+      "path": "benchmarks/dataset_splits/schemidt_etal_2022_crispra_perturbseq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09444c564ed0569ce514e754bff3c7cd12e44c00",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/09444c564ed0569ce514e754bff3c7cd12e44c00"
+    },
+    {
+      "path": "benchmarks/dataset_splits/schemidt_etal_2022_crispra_perturbseq/control_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f57307bfd4711c9df7a4c1401edc963eb0e0304",
+      "size": 29920,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1f57307bfd4711c9df7a4c1401edc963eb0e0304"
+    },
+    {
+      "path": "benchmarks/dataset_splits/schemidt_etal_2022_crispra_perturbseq/test_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4cf979dc722db96d0d4d12b5c9168e8ff755d9b",
+      "size": 216440,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b4cf979dc722db96d0d4d12b5c9168e8ff755d9b"
+    },
+    {
+      "path": "benchmarks/dataset_splits/schemidt_etal_2022_crispra_perturbseq/train_idx.npy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e0a3a0635880f2a84b2cda5d4d44d7177e5d8b",
+      "size": 216560,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b1e0a3a0635880f2a84b2cda5d4d44d7177e5d8b"
+    },
+    {
+      "path": "benchmarks/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb5bad3aa608d381a1082cda3a7b72a96b23ebe3",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/eb5bad3aa608d381a1082cda3a7b72a96b23ebe3"
+    },
+    {
+      "path": "benchmarks/models/GEARS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7425a4f282baa8b4c5c0668649734fd92baed36f",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7425a4f282baa8b4c5c0668649734fd92baed36f"
+    },
+    {
+      "path": "benchmarks/models/GEARS/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99da10b21088479292a171b20b4776fbeaf4b0bb",
+      "size": 48,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/99da10b21088479292a171b20b4776fbeaf4b0bb"
+    },
+    {
+      "path": "benchmarks/models/GEARS/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d8b9b643dfebc976084bb32c47d8392bb715cf",
+      "size": 1098,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/61d8b9b643dfebc976084bb32c47d8392bb715cf"
+    },
+    {
+      "path": "benchmarks/models/GEARS/MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b801c51b3da8915b66e4fa119587fad5c745601",
+      "size": 69,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6b801c51b3da8915b66e4fa119587fad5c745601"
+    },
+    {
+      "path": "benchmarks/models/GEARS/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfee4c2bd58eacefe33c6de4483a17f1535b86e1",
+      "size": 3850,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/dfee4c2bd58eacefe33c6de4483a17f1535b86e1"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd8a546de93d3cb2afa3201db0e37068afbaf1e4",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/dd8a546de93d3cb2afa3201db0e37068afbaf1e4"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff038835b9ef5bc672693af2acf697ec6862282c",
+      "size": 55,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ff038835b9ef5bc672693af2acf697ec6862282c"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/data_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc838adc298e2d40401ffdcfe2fdba48ac5b5af2",
+      "size": 18958,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cc838adc298e2d40401ffdcfe2fdba48ac5b5af2"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/gears.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bb5d5358edcda7909152ae33352c42f6c800f34",
+      "size": 33084,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1bb5d5358edcda7909152ae33352c42f6c800f34"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a9a6876c0ea2831cd19f286135a53b27b7bf28c",
+      "size": 34094,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5a9a6876c0ea2831cd19f286135a53b27b7bf28c"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6153973f74ea52555eb0145014ac23101155021f",
+      "size": 9156,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6153973f74ea52555eb0145014ac23101155021f"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/pertdata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbb3cc2373ad17ecde4911a62b2ab13ab6920d6",
+      "size": 23978,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8bbb3cc2373ad17ecde4911a62b2ab13ab6920d6"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae571f4da47dc28860da339930218d63bc6f2809",
+      "size": 21055,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ae571f4da47dc28860da339930218d63bc6f2809"
+    },
+    {
+      "path": "benchmarks/models/GEARS/gears/version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631678f157adbb73d402497cb2a1612d89b4b2c7",
+      "size": 537,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/631678f157adbb73d402497cb2a1612d89b4b2c7"
+    },
+    {
+      "path": "benchmarks/models/GEARS/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "785fa1f86d06bf4ba5a8376a4902fcda34631c6f",
+      "size": 131,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/785fa1f86d06bf4ba5a8376a4902fcda34631c6f"
+    },
+    {
+      "path": "benchmarks/models/GEARS/saved_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03fa7c71926bd0aef31dbd8189805e5ce13913e6",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/03fa7c71926bd0aef31dbd8189805e5ce13913e6"
+    },
+    {
+      "path": "benchmarks/models/GEARS/saved_data/essential_all_data_pert_genes.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "100b13727aeb15faf5bca6a025a170b3006815dc",
+      "size": 558811,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/100b13727aeb15faf5bca6a025a170b3006815dc"
+    },
+    {
+      "path": "benchmarks/models/GEARS/saved_data/gene2go_all.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0339811e99abd7adbd4b3e005930b42a8413108",
+      "size": 9462558,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f0339811e99abd7adbd4b3e005930b42a8413108"
+    },
+    {
+      "path": "benchmarks/models/GEARS/setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224a77957f5db48dfa25c8bb4a35f535202da203",
+      "size": 39,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/224a77957f5db48dfa25c8bb4a35f535202da203"
+    },
+    {
+      "path": "benchmarks/models/GEARS/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9f0c13d9fda46cb3c98343e64fa512ef7bc40e",
+      "size": 1149,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ce9f0c13d9fda46cb3c98343e64fa512ef7bc40e"
+    },
+    {
+      "path": "benchmarks/models/GenePert",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "847a451239a46aad2c9c3703fef5005b6e3f737c",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/847a451239a46aad2c9c3703fef5005b6e3f737c"
+    },
+    {
+      "path": "benchmarks/models/GenePert/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d0c5de0815b1cb7d6ed65a6af5ad72cff1c2c2f4",
+      "size": 3148,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d0c5de0815b1cb7d6ed65a6af5ad72cff1c2c2f4"
+    },
+    {
+      "path": "benchmarks/models/GenePert/GenePertExperiment.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f76631337db3f35c9283f01f40cdf3e4dedf223c",
+      "size": 24923,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f76631337db3f35c9283f01f40cdf3e4dedf223c"
+    },
+    {
+      "path": "benchmarks/models/GenePert/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06e54f2eccd061a7c207bf123b1007258d997791",
+      "size": 3097,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/06e54f2eccd061a7c207bf123b1007258d997791"
+    },
+    {
+      "path": "benchmarks/models/GenePert/run_GenePert.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "31147d92cdc9204958cb70b0cd816a2da19064df",
+      "size": 7998,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/31147d92cdc9204958cb70b0cd816a2da19064df"
+    },
+    {
+      "path": "benchmarks/models/GenePert/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c977d814f1ccaf78fe163c08f8b68a520c6ec30a",
+      "size": 18660,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c977d814f1ccaf78fe163c08f8b68a520c6ec30a"
+    },
+    {
+      "path": "benchmarks/models/VENDORED.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb83c762884f39784cc1670831135b88d8a9cba",
+      "size": 1269,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8fb83c762884f39784cc1670831135b88d8a9cba"
+    },
+    {
+      "path": "benchmarks/models/scGPT",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f25b2f6947294245dd4f7c5bd6d02a03094714d",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7f25b2f6947294245dd4f7c5bd6d02a03094714d"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4911863b0616b34fd81389d15f669f23d800766a",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/4911863b0616b34fd81389d15f669f23d800766a"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62be93f5a771a1167b854bda9f0c2560d5897ab5",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/62be93f5a771a1167b854bda9f0c2560d5897ab5"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.github/workflows/claude-code-review.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4caf96a2fa44143e69c338aa8cd58f02382f3e66",
+      "size": 1893,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4caf96a2fa44143e69c338aa8cd58f02382f3e66"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.github/workflows/claude.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae36c007f36934936df72862cfa10b577d692f54",
+      "size": 1947,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ae36c007f36934936df72862cfa10b577d692f54"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06f1b1cf479eac4f718e14a878d42ddb0933e22f",
+      "size": 2031,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/06f1b1cf479eac4f718e14a878d42ddb0933e22f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/.readthedocs.yaml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "43d4354bb700d2d0824cebc42b70dccb011c1ed1",
+      "size": 878,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/43d4354bb700d2d0824cebc42b70dccb011c1ed1"
+    },
+    {
+      "path": "benchmarks/models/scGPT/LICENSE",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39fc81d0fb21c8df5c25235b12766bafcfbbfc8c",
+      "size": 1062,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/39fc81d0fb21c8df5c25235b12766bafcfbbfc8c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "321cd2343c1e4ed4f54bcc973b548947952b2cba",
+      "size": 8908,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/321cd2343c1e4ed4f54bcc973b548947952b2cba"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4dcbf5deb165a23cd6db00d8744f63e2a22fcc2d",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/4dcbf5deb165a23cd6db00d8744f63e2a22fcc2d"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/Makefile",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d4bb2cbb9eddb1bb1b4f366623044af8e4830919",
+      "size": 634,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d4bb2cbb9eddb1bb1b4f366623044af8e4830919"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/conf.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1334d81ffbcbfe60f0be94c57e4af5b74ec488e4",
+      "size": 1339,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1334d81ffbcbfe60f0be94c57e4af5b74ec488e4"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/environment.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61d5920474d5111d13f01c3e55e19303bd6a2dd9",
+      "size": 567,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/61d5920474d5111d13f01c3e55e19303bd6a2dd9"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/faq.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4515e7cfedcc1278c6f9c0012664f56b21a40e97",
+      "size": 7,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4515e7cfedcc1278c6f9c0012664f56b21a40e97"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/index.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d09d29f4fe5077639e129f184c181a8d1de6260",
+      "size": 1641,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8d09d29f4fe5077639e129f184c181a8d1de6260"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/installation.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fbf660e91072bd0f93eab0cfbb99920beb26a4ca",
+      "size": 128,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fbf660e91072bd0f93eab0cfbb99920beb26a4ca"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/introduction.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b12fe4e5207bee5dc8bdfa1a680e47296dff76cd",
+      "size": 1744,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b12fe4e5207bee5dc8bdfa1a680e47296dff76cd"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/make.bat",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "32bb24529f92346af26219baed295b7488b77534",
+      "size": 800,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/32bb24529f92346af26219baed295b7488b77534"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/references.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f97cb5b2acabe4fcb830ebfe442a5927a69a0c9d",
+      "size": 21,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f97cb5b2acabe4fcb830ebfe442a5927a69a0c9d"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/requirements.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7f837be4c1b9b3161b9a484937488cdab2b6720d",
+      "size": 1582,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7f837be4c1b9b3161b9a484937488cdab2b6720d"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.model.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39852478a2d81733697b8892f93d95b284e5d1ff",
+      "size": 794,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/39852478a2d81733697b8892f93d95b284e5d1ff"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bfe057d7e4d9586e3dee69df4a2e2591e8b4cc60",
+      "size": 802,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/bfe057d7e4d9586e3dee69df4a2e2591e8b4cc60"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.scbank.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "710c2f0777c81ff04a405cade1113c60d1762f81",
+      "size": 772,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/710c2f0777c81ff04a405cade1113c60d1762f81"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.tasks.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0a41109960a30394f7117f08eaaa40f69917cf3f",
+      "size": 464,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0a41109960a30394f7117f08eaaa40f69917cf3f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.tokenizer.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "98f40cfd82e784646398f32a88d4d9482b381d6c",
+      "size": 372,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/98f40cfd82e784646398f32a88d4d9482b381d6c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/scgpt.utils.rst",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cbef25bc18c9726ad962cf70706f0a3ef1798b57",
+      "size": 316,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cbef25bc18c9726ad962cf70706f0a3ef1798b57"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/tutorial_annotation.nblink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "549d6a045c08ed7cc16a1b599d270530c3208d62",
+      "size": 56,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/549d6a045c08ed7cc16a1b599d270530c3208d62"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/tutorial_grn.nblink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7d57d3c35f413af58f2dea89307a87a2991214e7",
+      "size": 49,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7d57d3c35f413af58f2dea89307a87a2991214e7"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/tutorial_integraion.nblink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06229f136f40352bf670c2dbbb5453ee66e15e4f",
+      "size": 57,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/06229f136f40352bf670c2dbbb5453ee66e15e4f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/tutorial_perturbation.nblink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b824e9cc1b683f85df2dd8035dcbfaf80330c13f",
+      "size": 58,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b824e9cc1b683f85df2dd8035dcbfaf80330c13f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/docs/tutorial_reference_mapping.nblink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e6f199891f3961b28efe69e0716af33883da1305",
+      "size": 63,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e6f199891f3961b28efe69e0716af33883da1305"
+    },
+    {
+      "path": "benchmarks/models/scGPT/examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3d3e8b720872c76ad068ccc0e9951a51b83e32c",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/e3d3e8b720872c76ad068ccc0e9951a51b83e32c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/examples/finetune_integration.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "54ffc0e061769475840ef896e13c87297ddb15ae",
+      "size": 26162,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/54ffc0e061769475840ef896e13c87297ddb15ae"
+    },
+    {
+      "path": "benchmarks/models/scGPT/poetry.lock",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d0fedd424852af4d5267bfd43b2185a5b5e74c17",
+      "size": 378174,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d0fedd424852af4d5267bfd43b2185a5b5e74c17"
+    },
+    {
+      "path": "benchmarks/models/scGPT/pyproject.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e3cd1c71d3fc69ef2ab33f1ed364d3b3602ba252",
+      "size": 1291,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e3cd1c71d3fc69ef2ab33f1ed364d3b3602ba252"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a786419799cce0f23548de7fd2f7bb1e85ebad1",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7a786419799cce0f23548de7fd2f7bb1e85ebad1"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "75cef8ffb571ea671820fa3662237d7a7bbc6724",
+      "size": 792,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/75cef8ffb571ea671820fa3662237d7a7bbc6724"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/data_collator.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9769eba2e0acebcf9aad77f08d0dbc6714dc2b07",
+      "size": 7497,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9769eba2e0acebcf9aad77f08d0dbc6714dc2b07"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/data_sampler.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "439beda2a08025fbde15762a6318762b8b35cd94",
+      "size": 3573,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/439beda2a08025fbde15762a6318762b8b35cd94"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/loss.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce1812aa8a33d816724804637329733e6b4f695e",
+      "size": 1068,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ce1812aa8a33d816724804637329733e6b4f695e"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "226ee6ed480d5e78f6cdb72682cb17519b51dbc0",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/226ee6ed480d5e78f6cdb72682cb17519b51dbc0"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4411db4709c1c7fc43b8a484603d3a3c68894b27",
+      "size": 277,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4411db4709c1c7fc43b8a484603d3a3c68894b27"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/dsbn.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "324b128e6c0dc23cf4d6bebc3819109df9901c5f",
+      "size": 2393,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/324b128e6c0dc23cf4d6bebc3819109df9901c5f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/flash_attn_compat.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "42258f36d7c32f8df8baac8c1f81a05e1fcb38b4",
+      "size": 18602,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/42258f36d7c32f8df8baac8c1f81a05e1fcb38b4"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/generation_model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2fcdeb07e37e3646875204f732f565ba495af531",
+      "size": 19594,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2fcdeb07e37e3646875204f732f565ba495af531"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/grad_reverse.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7dc7e6127717d1682253fb6d278d2f389ba974c0",
+      "size": 469,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7dc7e6127717d1682253fb6d278d2f389ba974c0"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a853234a3a2102d6c737146d7f2ea86d001c11dd",
+      "size": 39040,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a853234a3a2102d6c737146d7f2ea86d001c11dd"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/model/multiomic_model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4261e4d0d6617c921fe441807f2973968d1ed7f0",
+      "size": 40811,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4261e4d0d6617c921fe441807f2973968d1ed7f0"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/preprocess.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "60b653acf146393894ae30e8f07f1d80a3d00074",
+      "size": 12140,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/60b653acf146393894ae30e8f07f1d80a3d00074"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d737ad44b4f15376d77ab2d22c7d2330b9a03e2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/1d737ad44b4f15376d77ab2d22c7d2330b9a03e2"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0cfe600458117234a4daf6c9ac822d52501edaeb",
+      "size": 611,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0cfe600458117234a4daf6c9ac822d52501edaeb"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank/data.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "af952aee1aeb68cef416fea6ed97d01f6069c32c",
+      "size": 4044,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/af952aee1aeb68cef416fea6ed97d01f6069c32c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank/databank.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a938db2452df6a2e6eec292d09db54c1b981fb97",
+      "size": 29599,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a938db2452df6a2e6eec292d09db54c1b981fb97"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank/monitor.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "db779de30b8782a26d6ea128247d65441b2660e1",
+      "size": 129,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/db779de30b8782a26d6ea128247d65441b2660e1"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/scbank/setting.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0486590bc5883a43cb151061ab7166ccae8d21c1",
+      "size": 844,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0486590bc5883a43cb151061ab7166ccae8d21c1"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24b7a9509f3825d9783498d8ffd9c6580de58259",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/24b7a9509f3825d9783498d8ffd9c6580de58259"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tasks/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3f642058942fe49ea2b1a0336db56b3f1d9d4d5f",
+      "size": 91,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3f642058942fe49ea2b1a0336db56b3f1d9d4d5f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tasks/cell_emb.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d3837213a35f0e3ea5062b8e561f2f2b20f6ff56",
+      "size": 9953,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d3837213a35f0e3ea5062b8e561f2f2b20f6ff56"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tasks/grn.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3f5daa6b26fca6d585fd8f3a3e0f51ea4965b3f2",
+      "size": 10925,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3f5daa6b26fca6d585fd8f3a3e0f51ea4965b3f2"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "009beaaa02d886787e8a15e77862c43c0363710c",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/009beaaa02d886787e8a15e77862c43c0363710c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "241812fafa8553e37b170870071bf3dba7745404",
+      "size": 30,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/241812fafa8553e37b170870071bf3dba7745404"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer/default_census_vocab.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9154a27009483a048915a83868d6c225030b569a",
+      "size": 1317585,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9154a27009483a048915a83868d6c225030b569a"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer/default_gene_vocab.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fbe11216e91c12b30c4f0d3ee007959e0101cc4c",
+      "size": 940574,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fbe11216e91c12b30c4f0d3ee007959e0101cc4c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer/gene_tokenizer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9227dd4ae8f1f04d489ae19892f49516cc8dc75f",
+      "size": 17362,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9227dd4ae8f1f04d489ae19892f49516cc8dc75f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/tokenizer/vocab_compat.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b930a2cc9c5e0d1d1067ac388f106b728d01d95a",
+      "size": 8868,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b930a2cc9c5e0d1d1067ac388f106b728d01d95a"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/trainer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d3961d7379f12d4b02676f6d9a1902ac3720758e",
+      "size": 23754,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d3961d7379f12d4b02676f6d9a1902ac3720758e"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20728d6353a5da156ddd90f767cbd6e4da5aac0b",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/20728d6353a5da156ddd90f767cbd6e4da5aac0b"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/utils/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "46d3a156a78c6ef994a0ba7e92a334a4a6b16b8b",
+      "size": 20,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/46d3a156a78c6ef994a0ba7e92a334a4a6b16b8b"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scgpt/utils/util.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c533c519e6988440913fa7dcb994cb0cec3ab97",
+      "size": 20592,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0c533c519e6988440913fa7dcb994cb0cec3ab97"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ea0ef650426c4da2cc8bae2228fcd521ef92950",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/2ea0ef650426c4da2cc8bae2228fcd521ef92950"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scripts/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c3b7b34fb6e34ed1369b4cc17e69bc4ff467a31c",
+      "size": 1712,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c3b7b34fb6e34ed1369b4cc17e69bc4ff467a31c"
+    },
+    {
+      "path": "benchmarks/models/scGPT/scripts/diagnose_flash_attn.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d88de01acda154b6c0ab271c1ff021df98ad12c1",
+      "size": 22105,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d88de01acda154b6c0ab271c1ff021df98ad12c1"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "072f3ddd93326cb361e4403da1b5e2444d70de16",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/072f3ddd93326cb361e4403da1b5e2444d70de16"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/test_flash_attn.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1700c6b8abfa91a7d85c40573ab1d25eb5c14702",
+      "size": 13612,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1700c6b8abfa91a7d85c40573ab1d25eb5c14702"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/test_sampler.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d6f4afd4f552404901a646a67f76f9c2c231ab0f",
+      "size": 3203,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d6f4afd4f552404901a646a67f76f9c2c231ab0f"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/test_scbank.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4079f35bafdf94a1a2573599c90349148ada1b13",
+      "size": 7342,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4079f35bafdf94a1a2573599c90349148ada1b13"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/test_scformer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e880933c7e63d564d5b8ffe5c1bb6455dc5bad76",
+      "size": 222,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e880933c7e63d564d5b8ffe5c1bb6455dc5bad76"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/test_tokenizer.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "545eb9f8a7f750f98a575228a6b556de7064d2cf",
+      "size": 4691,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/545eb9f8a7f750f98a575228a6b556de7064d2cf"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tests/vocab.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c5623ffb3d789144a16cb260f8c9e1e2d15ac548",
+      "size": 44,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c5623ffb3d789144a16cb260f8c9e1e2d15ac548"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61503f4b36b5776a9278986d5dba5bc86da18806",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/61503f4b36b5776a9278986d5dba5bc86da18806"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Annotation.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3b5e43ccebb924e124aaa61eee93606deb98e1ba",
+      "size": 4291940,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3b5e43ccebb924e124aaa61eee93606deb98e1ba"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Attention_GRN.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2705144e4473d62c5c85d071ae7e66f75668269a",
+      "size": 417895,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2705144e4473d62c5c85d071ae7e66f75668269a"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_GRN.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61b4c69e62f24362c1a297a65e830663fec792b6",
+      "size": 374582,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/61b4c69e62f24362c1a297a65e830663fec792b6"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Integration.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4e44aa727996569bb7efb08b29496dd8b9b8c8b4",
+      "size": 1024304,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4e44aa727996569bb7efb08b29496dd8b9b8c8b4"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Multiomics.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aac1fbdc468ac4ccea717ad1a57027ebb3f9c543",
+      "size": 2121107,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/aac1fbdc468ac4ccea717ad1a57027ebb3f9c543"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Perturbation.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9567fa66f8f6b205be7c454da43e97c4f196efb9",
+      "size": 144523,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9567fa66f8f6b205be7c454da43e97c4f196efb9"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/Tutorial_Reference_Mapping.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0e0812b4eff0273937ee8ac6843d54bba24537c6",
+      "size": 200954,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0e0812b4eff0273937ee8ac6843d54bba24537c6"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/build_atlas_index_faiss.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fecbda0f8e7e402763191407704af35306de3813",
+      "size": 16314,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fecbda0f8e7e402763191407704af35306de3813"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/run_scGPT_notebook.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "89a27f0ee1a832155e336e9e88b38d2e01e9211b",
+      "size": 58742,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/89a27f0ee1a832155e336e9e88b38d2e01e9211b"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/zero-shot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbadac1ae4a6bc3169a802cb222f6352783d8c02",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/dbadac1ae4a6bc3169a802cb222f6352783d8c02"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/zero-shot/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "62233a6f9b65c659f1ada7ae2f79878420993eb3",
+      "size": 5594,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/62233a6f9b65c659f1ada7ae2f79878420993eb3"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/zero-shot/Tutorial_ZeroShot_Integration.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f3075fc1715a6079d6e05834ef6ce6db83b5a360",
+      "size": 3767843,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f3075fc1715a6079d6e05834ef6ce6db83b5a360"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/zero-shot/Tutorial_ZeroShot_Integration_Continual_Pretraining.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "20b5cb25f79a2c6d854944cea0fc4d3a107dc2f6",
+      "size": 1524203,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/20b5cb25f79a2c6d854944cea0fc4d3a107dc2f6"
+    },
+    {
+      "path": "benchmarks/models/scGPT/tutorials/zero-shot/Tutorial_ZeroShot_Reference_Mapping.ipynb",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2071dbefbcc3f050aa571ac07b7dad7bb3ea11a9",
+      "size": 1487281,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2071dbefbcc3f050aa571ac07b7dad7bb3ea11a9"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "336ab2f35bad94362419e50d42c5a10ca902ecae",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/336ab2f35bad94362419e50d42c5a10ca902ecae"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/LICENSE",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "22ba8195f68dd86d5774bd6d4ca34ea0bd4bedfe",
+      "size": 6085,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/22ba8195f68dd86d5774bd6d4ca34ea0bd4bedfe"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/environment.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d550b53da48f4ac5104bada2991fae2952c43d18",
+      "size": 320,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d550b53da48f4ac5104bada2991fae2952c43d18"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/sclambda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a839651aede3801f1814be34b09f7461ee6c5d22",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/a839651aede3801f1814be34b09f7461ee6c5d22"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/sclambda/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "68d84e3af49803335e90684584246c276db4f8eb",
+      "size": 92,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/68d84e3af49803335e90684584246c276db4f8eb"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/sclambda/model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "11c1e1990a4c0c76dcad123fbf769904e0f10845",
+      "size": 41312,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/11c1e1990a4c0c76dcad123fbf769904e0f10845"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/sclambda/networks.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5216476c1672e49eacf8672d6fb5f4ea9ac4374c",
+      "size": 7153,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5216476c1672e49eacf8672d6fb5f4ea9ac4374c"
+    },
+    {
+      "path": "benchmarks/models/scLAMBDA/sclambda/utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4e455472baccfe421557d6707e7bfa350cc2fe35",
+      "size": 12013,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4e455472baccfe421557d6707e7bfa350cc2fe35"
+    },
+    {
+      "path": "benchmarks/models/scouter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7aaa2450b20eb53da38a2c8493e93fd17a95e4b9",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7aaa2450b20eb53da38a2c8493e93fd17a95e4b9"
+    },
+    {
+      "path": "benchmarks/models/scouter/.gitignore",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d618b39e99b40b1b80d9fd5f3944cf98efb2334b",
+      "size": 120,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d618b39e99b40b1b80d9fd5f3944cf98efb2334b"
+    },
+    {
+      "path": "benchmarks/models/scouter/LICENSE",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dbb13a1f3de04a0ef1df4e855a0f3bce337fc125",
+      "size": 1067,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/dbb13a1f3de04a0ef1df4e855a0f3bce337fc125"
+    },
+    {
+      "path": "benchmarks/models/scouter/README.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4321362e5a5d988c6ab1e2b14b825b0b28399fc8",
+      "size": 2319,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4321362e5a5d988c6ab1e2b14b825b0b28399fc8"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb989d8a7545085f240f65b69f20c135491b60e0",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/fb989d8a7545085f240f65b69f20c135491b60e0"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/Scouter.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7d81ab76b91b8bbd75bf643aa94b4407a6f639fd",
+      "size": 16623,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7d81ab76b91b8bbd75bf643aa94b4407a6f639fd"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/ScouterData.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ffd9a8ff1517b2f0219f3c95f35bf4fd26ea907",
+      "size": 11696,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2ffd9a8ff1517b2f0219f3c95f35bf4fd26ea907"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/__init__.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4b291265baf9b58067ef265e7c59985b1bac7140",
+      "size": 150,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4b291265baf9b58067ef265e7c59985b1bac7140"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/_datasets.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5d9f389a4ea3eb4fb5ceb8db9b040949042c9d42",
+      "size": 2727,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5d9f389a4ea3eb4fb5ceb8db9b040949042c9d42"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/_model.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6e69cce5cc4e76f75a917e5aef97aa64ad0f355a",
+      "size": 4514,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6e69cce5cc4e76f75a917e5aef97aa64ad0f355a"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/_utils.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2e94e12bf0356afd6c513fc6c265a5a630e9b93e",
+      "size": 5135,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2e94e12bf0356afd6c513fc6c265a5a630e9b93e"
+    },
+    {
+      "path": "benchmarks/models/scouter/scouter/_version.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "58e87acf65bf9233d4741f834a366ac49f69cd7f",
+      "size": 22,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/58e87acf65bf9233d4741f834a366ac49f69cd7f"
+    },
+    {
+      "path": "benchmarks/models/scouter/setup.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5b25ba9e8b626003b48e39bc1d2a36bfbf7aefca",
+      "size": 1086,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5b25ba9e8b626003b48e39bc1d2a36bfbf7aefca"
+    },
+    {
+      "path": "benchmarks/parameters.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2f906120004576d80088753584101dfee183294",
+      "size": 2605,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e2f906120004576d80088753584101dfee183294"
+    },
+    {
+      "path": "benchmarks/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "015daa300df5f1a7cff9564b9139c291264852ac",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/015daa300df5f1a7cff9564b9139c291264852ac"
+    },
+    {
+      "path": "benchmarks/resources/gene_alias_to_symbol.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae846da1985491cef1496c612fc267c3d7ec1123",
+      "size": 662884,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ae846da1985491cef1496c612fc267c3d7ec1123"
+    },
+    {
+      "path": "benchmarks/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a254dc81bf842109a7f9e593e419d322c06a5360",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/a254dc81bf842109a7f9e593e419d322c06a5360"
+    },
+    {
+      "path": "benchmarks/results/benchmark_metrics.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd02653db0f321b4be9c862cb66d1e30f4ee630c",
+      "size": 15324121,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/bd02653db0f321b4be9c862cb66d1e30f4ee630c"
+    },
+    {
+      "path": "benchmarks/results/centroid_accuracy.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8cb017fdbeee86e6d853459438078735502abf2",
+      "size": 1448185,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a8cb017fdbeee86e6d853459438078735502abf2"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_Cosine.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236b3e5169a47f61a09f1099e0ec232876970aab",
+      "size": 66479,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/236b3e5169a47f61a09f1099e0ec232876970aab"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_L2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0374eaa9fb58a883f0296a6e40e6c26cec69baa5",
+      "size": 65204,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0374eaa9fb58a883f0296a6e40e6c26cec69baa5"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_MSE.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d912ac1f71014be4f147a09d1b79342c366ebef",
+      "size": 65551,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1d912ac1f71014be4f147a09d1b79342c366ebef"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_PCC.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43417a4be937fec5241932b64128782c9732df47",
+      "size": 66611,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/43417a4be937fec5241932b64128782c9732df47"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_Spearman.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cf4028c25c9ee86be8ca014bdfe613ca6f18696",
+      "size": 67024,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8cf4028c25c9ee86be8ca014bdfe613ca6f18696"
+    },
+    {
+      "path": "benchmarks/results/fig3_benchmark_centroid.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "314eb59fc6512406979f4692cfffe7801f7e9c0f",
+      "size": 66300,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/314eb59fc6512406979f4692cfffe7801f7e9c0f"
+    },
+    {
+      "path": "benchmarks/results/logs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd0dd20c11948237e38c242a50a1c76557ea6cf9",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/fd0dd20c11948237e38c242a50a1c76557ea6cf9"
+    },
+    {
+      "path": "benchmarks/results/logs/fig3_benchmarks.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c9c664cd82b92175e98e3395915ddfc8ccc068",
+      "size": 924,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d6c9c664cd82b92175e98e3395915ddfc8ccc068"
+    },
+    {
+      "path": "benchmarks/results/perturbation_status.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d3d762a71401fb51448939ec836576dd380be6a",
+      "size": 1345,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5d3d762a71401fb51448939ec836576dd380be6a"
+    },
+    {
+      "path": "benchmarks/run_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89962e8d529d7a54363bc64892ec84bc63f1e47b",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/89962e8d529d7a54363bc64892ec84bc63f1e47b"
+    },
+    {
+      "path": "benchmarks/run_files/_bench_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ff33346f651678a53f72039401dddfbace6102b",
+      "size": 8988,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9ff33346f651678a53f72039401dddfbace6102b"
+    },
+    {
+      "path": "benchmarks/run_files/run_CIPHER.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e5c2c7b505dfd3665431183211f9e0aa28228f",
+      "size": 10245,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/91e5c2c7b505dfd3665431183211f9e0aa28228f"
+    },
+    {
+      "path": "benchmarks/run_files/run_GEARS.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a7544e03515b43acae48903dd6e4c8ebfc283b",
+      "size": 25456,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e5a7544e03515b43acae48903dd6e4c8ebfc283b"
+    },
+    {
+      "path": "benchmarks/run_files/run_GenePert.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5547c8657251429dc5a546258c31b5ca512a4728",
+      "size": 12782,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5547c8657251429dc5a546258c31b5ca512a4728"
+    },
+    {
+      "path": "benchmarks/run_files/run_linear_mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97b5e28ec65fe0120482bae9a91de0cb54ad43c",
+      "size": 9045,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e97b5e28ec65fe0120482bae9a91de0cb54ad43c"
+    },
+    {
+      "path": "benchmarks/run_files/run_scGPT.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a94e1b4661ec5ebffb0b9a49ecc73570d5665f5",
+      "size": 32257,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6a94e1b4661ec5ebffb0b9a49ecc73570d5665f5"
+    },
+    {
+      "path": "benchmarks/run_files/run_scLAMBDA.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5a8c8c6ef47f728a05dda8ff20abe7838375bc",
+      "size": 11288,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ae5a8c8c6ef47f728a05dda8ff20abe7838375bc"
+    },
+    {
+      "path": "benchmarks/run_files/run_scouter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857f1659ed3490d59b3f1619c8c471c369c445d0",
+      "size": 11414,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/857f1659ed3490d59b3f1619c8c471c369c445d0"
+    },
+    {
+      "path": "benchmarks/setup_resources.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faac7ecd243cb3ffcf6ad743c96e879c6840668e",
+      "size": 15723,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/faac7ecd243cb3ffcf6ad743c96e879c6840668e"
+    },
+    {
+      "path": "cipher",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c3b8a1e9d04a9c28466732fc34f2811df8e6f13",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/4c3b8a1e9d04a9c28466732fc34f2811df8e6f13"
+    },
+    {
+      "path": "cipher/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b5b9eff9250d6e945bb5466558765a73e29012f",
+      "size": 3779,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6b5b9eff9250d6e945bb5466558765a73e29012f"
+    },
+    {
+      "path": "cipher/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a0900f2d1144e810d5b9241c1cf3641a2027bf1",
+      "size": 5764,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1a0900f2d1144e810d5b9241c1cf3641a2027bf1"
+    },
+    {
+      "path": "cipher/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc47d0190ebc58163cba78bd7d41f8881c72c153",
+      "size": 11237,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/dc47d0190ebc58163cba78bd7d41f8881c72c153"
+    },
+    {
+      "path": "cipher/covariance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c9bb5c7a951e27bb06f341693e3b57597235b3",
+      "size": 5143,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/51c9bb5c7a951e27bb06f341693e3b57597235b3"
+    },
+    {
+      "path": "cipher/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620e73ce74bf94ecbd9b9ad75abdc38202985aeb",
+      "size": 15280,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/620e73ce74bf94ecbd9b9ad75abdc38202985aeb"
+    },
+    {
+      "path": "cipher/driver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eceafbe32fb339779ba13d2a169ae61e1bb1bd05",
+      "size": 7014,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/eceafbe32fb339779ba13d2a169ae61e1bb1bd05"
+    },
+    {
+      "path": "cipher/forward.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a252798dfd48878739bfbed743275fc50845615",
+      "size": 10610,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5a252798dfd48878739bfbed743275fc50845615"
+    },
+    {
+      "path": "cipher/identify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223e1d69d46a7023937e60bc6d0aad30580d424b",
+      "size": 7517,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/223e1d69d46a7023937e60bc6d0aad30580d424b"
+    },
+    {
+      "path": "cipher/inverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223ede669bc045cc0d0134651bb76720eb360499",
+      "size": 26485,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/223ede669bc045cc0d0134651bb76720eb360499"
+    },
+    {
+      "path": "cipher/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "099b2eed0684e370a21d1d248b6b6d069d0c59a4",
+      "size": 4721,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/099b2eed0684e370a21d1d248b6b6d069d0c59a4"
+    },
+    {
+      "path": "cipher/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10c73124ab9b997a4f4d955bfeaeb782bdc36572",
+      "size": 3684,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/10c73124ab9b997a4f4d955bfeaeb782bdc36572"
+    },
+    {
+      "path": "cipher/normalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cdce37eb2a6753868f8268dfcc2de1a48c96851",
+      "size": 12055,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0cdce37eb2a6753868f8268dfcc2de1a48c96851"
+    },
+    {
+      "path": "cipher/plotting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71d79747aa2956a80fc275e0060cfe20bde09fb",
+      "size": 12812,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a71d79747aa2956a80fc275e0060cfe20bde09fb"
+    },
+    {
+      "path": "cipher/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7976bbb3333bdf52cbf3a4b8e45241813e63096",
+      "size": 18762,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d7976bbb3333bdf52cbf3a4b8e45241813e63096"
+    },
+    {
+      "path": "cipher/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cipher/reverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42524c081a48b57ccac349c14e8506a99ab858f5",
+      "size": 13085,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/42524c081a48b57ccac349c14e8506a99ab858f5"
+    },
+    {
+      "path": "cipher/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05c4bb55e6d1acc8ab2887d2fdb7df2f3ba9db0",
+      "size": 2025,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f05c4bb55e6d1acc8ab2887d2fdb7df2f3ba9db0"
+    },
+    {
+      "path": "environment.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c57f54fc24d314b3e13bd191e5899118c3cbffc",
+      "size": 8275,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7c57f54fc24d314b3e13bd191e5899118c3cbffc"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c5164aa9970002fb8775cedc1c12344c2b3d9a7",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7c5164aa9970002fb8775cedc1c12344c2b3d9a7"
+    },
+    {
+      "path": "notebooks/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c0b9f7bec848bb41f65e5ac77d19a2d4d6b5b6a",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/3c0b9f7bec848bb41f65e5ac77d19a2d4d6b5b6a"
+    },
+    {
+      "path": "notebooks/main/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407f0c7b273df55682761134a678fd606186844a",
+      "size": 3165,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/407f0c7b273df55682761134a678fd606186844a"
+    },
+    {
+      "path": "notebooks/main/fig3_benchmarks.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb9f3fb82385a93af1409708e6b83394e898a7a",
+      "size": 434307,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0fb9f3fb82385a93af1409708e6b83394e898a7a"
+    },
+    {
+      "path": "notebooks/main/fig3_forward.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a99cdaa426bca8e409533b911787a37972dbf502",
+      "size": 406170,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a99cdaa426bca8e409533b911787a37972dbf502"
+    },
+    {
+      "path": "notebooks/main/fig4_cross_dataset.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d471c11409c6a00f85f8a349ffa4e3033eb5a52",
+      "size": 2684413,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1d471c11409c6a00f85f8a349ffa4e3033eb5a52"
+    },
+    {
+      "path": "notebooks/main/fig5_inverse.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f16829ca01f90059cf1aacb7a46e3230756846",
+      "size": 723894,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/55f16829ca01f90059cf1aacb7a46e3230756846"
+    },
+    {
+      "path": "notebooks/main/fig6_effective_dims.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b0cd94c564643fe121c98150055d4413503f6f9",
+      "size": 658872,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5b0cd94c564643fe121c98150055d4413503f6f9"
+    },
+    {
+      "path": "notebooks/main/fig7_validation.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1e22bf4c62c60decf0dcb0da5935633418150b",
+      "size": 2122404,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fc1e22bf4c62c60decf0dcb0da5935633418150b"
+    },
+    {
+      "path": "notebooks/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "526484afbc2cee9ea774d7897a3c3a1ad34e063c",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/526484afbc2cee9ea774d7897a3c3a1ad34e063c"
+    },
+    {
+      "path": "notebooks/src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adceb0297ba922a03391b8b0b7cdb381182b32e3",
+      "size": 105,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/adceb0297ba922a03391b8b0b7cdb381182b32e3"
+    },
+    {
+      "path": "notebooks/src/download_cellxgene_atlas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f1614fb3ec479a4b61ba46262ca019b7e6870d5",
+      "size": 14581,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5f1614fb3ec479a4b61ba46262ca019b7e6870d5"
+    },
+    {
+      "path": "notebooks/src/gen_breadth_table.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f7bdcf81063ad7c07e41086ae8beb9f94a9c9d",
+      "size": 11156,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a7f7bdcf81063ad7c07e41086ae8beb9f94a9c9d"
+    },
+    {
+      "path": "notebooks/src/gen_depth_diagnostic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016403ed8318643e8902b77af1adbeee250efbac",
+      "size": 12338,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/016403ed8318643e8902b77af1adbeee250efbac"
+    },
+    {
+      "path": "notebooks/src/gen_forward_precompute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0315deb2e1eb5eb72a3a4648296e0e96ab4f74db",
+      "size": 6859,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0315deb2e1eb5eb72a3a4648296e0e96ab4f74db"
+    },
+    {
+      "path": "notebooks/src/gen_fullcov_scores.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ebd7cc6e4cc2e2166882f652fee42e0fb7c13db",
+      "size": 12062,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1ebd7cc6e4cc2e2166882f652fee42e0fb7c13db"
+    },
+    {
+      "path": "notebooks/src/gen_inverse_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0281d90efaaa8b3efe33a17fea1353c5affbb1c",
+      "size": 13471,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/d0281d90efaaa8b3efe33a17fea1353c5affbb1c"
+    },
+    {
+      "path": "notebooks/src/logutil.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c2c0efd89bb7c5b0c0a0669a06f04f5b0768844",
+      "size": 7156,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8c2c0efd89bb7c5b0c0a0669a06f04f5b0768844"
+    },
+    {
+      "path": "notebooks/src/regenerate_sigma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87685a5670a7fe7b74b1bb6377c397917facfc8b",
+      "size": 3727,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/87685a5670a7fe7b74b1bb6377c397917facfc8b"
+    },
+    {
+      "path": "notebooks/src/run_fate_bayesian.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c24f3d83c601114f172fc57f05886dfc09554da",
+      "size": 271264,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6c24f3d83c601114f172fc57f05886dfc09554da"
+    },
+    {
+      "path": "notebooks/src/run_fate_figM7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d29e175323d1308170062335430a2d51bccc7c",
+      "size": 631324,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/99d29e175323d1308170062335430a2d51bccc7c"
+    },
+    {
+      "path": "notebooks/src/run_fig3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52a657875058e42e90eb8dd3d992f32a246ad238",
+      "size": 12415,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/52a657875058e42e90eb8dd3d992f32a246ad238"
+    },
+    {
+      "path": "notebooks/src/run_fig3_atlas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6acabb5c88fb9e04737730751d11c3a6510055ba",
+      "size": 180948,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6acabb5c88fb9e04737730751d11c3a6510055ba"
+    },
+    {
+      "path": "notebooks/src/run_fig3_benchmarks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8827a2c6423c0b287ee594b8efc991f60fb6d990",
+      "size": 16327,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8827a2c6423c0b287ee594b8efc991f60fb6d990"
+    },
+    {
+      "path": "notebooks/src/run_fig4.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb40004fc4d03373694709bfa82047771ebf3e3c",
+      "size": 10306,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cb40004fc4d03373694709bfa82047771ebf3e3c"
+    },
+    {
+      "path": "notebooks/src/run_fig5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "620282aad11bd6cf36db0d513cb34482b3a7815d",
+      "size": 23118,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/620282aad11bd6cf36db0d513cb34482b3a7815d"
+    },
+    {
+      "path": "notebooks/src/run_fig6.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df97b94ed755676d6dd741a87264a0307f262557",
+      "size": 20858,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/df97b94ed755676d6dd741a87264a0307f262557"
+    },
+    {
+      "path": "notebooks/src/run_fig7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51131ad009515cf7768fc0e45bcf0240413372e",
+      "size": 5751,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a51131ad009515cf7768fc0e45bcf0240413372e"
+    },
+    {
+      "path": "notebooks/src/run_figS11.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b82ab874775626d1223c168a22c501f00c888065",
+      "size": 63181,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b82ab874775626d1223c168a22c501f00c888065"
+    },
+    {
+      "path": "notebooks/src/run_figS13D.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0ac391607ac0b8579b9a3b7aaf44f38f0fbf97",
+      "size": 96298,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2b0ac391607ac0b8579b9a3b7aaf44f38f0fbf97"
+    },
+    {
+      "path": "notebooks/src/run_figS14.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f53ffc86bcf704fcc10e7f691d7c306f132233",
+      "size": 102809,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/12f53ffc86bcf704fcc10e7f691d7c306f132233"
+    },
+    {
+      "path": "notebooks/src/run_figS15.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8559d70109933e30b02827486fda51fff3a3516",
+      "size": 98647,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c8559d70109933e30b02827486fda51fff3a3516"
+    },
+    {
+      "path": "notebooks/src/run_figS16.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb1baa8178dabda6f446b5be814baa5993d25b5c",
+      "size": 14840,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/cb1baa8178dabda6f446b5be814baa5993d25b5c"
+    },
+    {
+      "path": "notebooks/src/run_figS18.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6969d579590b61fe1188293ce25fb33e96ee44b9",
+      "size": 104675,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6969d579590b61fe1188293ce25fb33e96ee44b9"
+    },
+    {
+      "path": "notebooks/src/run_figS19.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02456d440be7011f8b2fc7ceaf77f8b3a8e8433e",
+      "size": 182853,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/02456d440be7011f8b2fc7ceaf77f8b3a8e8433e"
+    },
+    {
+      "path": "notebooks/src/run_figS5.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04bd30a588f4925c1ad5aac86a786718b5ff646e",
+      "size": 140189,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/04bd30a588f4925c1ad5aac86a786718b5ff646e"
+    },
+    {
+      "path": "notebooks/src/run_figS7.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46a6be1c72c054656df5614cdc8d89c3968060a9",
+      "size": 161739,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/46a6be1c72c054656df5614cdc8d89c3968060a9"
+    },
+    {
+      "path": "notebooks/src/run_figS9.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f1237f47628ce7596077963cfda5618ea671bb9",
+      "size": 68294,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5f1237f47628ce7596077963cfda5618ea671bb9"
+    },
+    {
+      "path": "notebooks/src/run_figS9A.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aff05dc1100a886ad5e0a8757571850e88ffd98",
+      "size": 119954,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0aff05dc1100a886ad5e0a8757571850e88ffd98"
+    },
+    {
+      "path": "notebooks/src/run_figS9B.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c49021bd4b34408a77e86c53cc0e7b8fb51a9a",
+      "size": 100048,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/47c49021bd4b34408a77e86c53cc0e7b8fb51a9a"
+    },
+    {
+      "path": "notebooks/src/run_figS9cd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368897bec04d13df4c594ce87b82ee1bf9085376",
+      "size": 56542,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/368897bec04d13df4c594ce87b82ee1bf9085376"
+    },
+    {
+      "path": "notebooks/src/run_kras_resistance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c01e96060155252823238402115cdf4e3977dd",
+      "size": 56266,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e1c01e96060155252823238402115cdf4e3977dd"
+    },
+    {
+      "path": "notebooks/src/run_melanoma_resistance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b81e17209f57bd49a42a58b8ae5749f1f16edff",
+      "size": 156182,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/8b81e17209f57bd49a42a58b8ae5749f1f16edff"
+    },
+    {
+      "path": "notebooks/src/run_umapvis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "909f74bf63e1106740e25b5f4b0393edbfd35a78",
+      "size": 44650,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/909f74bf63e1106740e25b5f4b0393edbfd35a78"
+    },
+    {
+      "path": "notebooks/src/suppl_atlas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f666162dc325ea6e59f3e552727b88c3842222f5",
+      "size": 11384,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f666162dc325ea6e59f3e552727b88c3842222f5"
+    },
+    {
+      "path": "notebooks/src/suppl_coexpr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f242be4cc8b21f1ebb9326f4092376bf14a1c88",
+      "size": 39854,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0f242be4cc8b21f1ebb9326f4092376bf14a1c88"
+    },
+    {
+      "path": "notebooks/src/suppl_covcorr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d46b325d0ca8c3d8b0b49cc584f78a32cfd6b1c",
+      "size": 17977,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3d46b325d0ca8c3d8b0b49cc584f78a32cfd6b1c"
+    },
+    {
+      "path": "notebooks/src/suppl_druginv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00cf969d934b9d324df73f0b9c44a354437423ad",
+      "size": 122200,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/00cf969d934b9d324df73f0b9c44a354437423ad"
+    },
+    {
+      "path": "notebooks/src/suppl_effn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d1afb632fd0f72f3444ec6e680e39b7245b227",
+      "size": 21195,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/32d1afb632fd0f72f3444ec6e680e39b7245b227"
+    },
+    {
+      "path": "notebooks/src/suppl_fate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0db8e62dc8ef2e78470468f4e83ece4f477897c3",
+      "size": 9431,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0db8e62dc8ef2e78470468f4e83ece4f477897c3"
+    },
+    {
+      "path": "notebooks/src/suppl_forward6.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a287ea129f5d4aad699e9d65a9d4fb7c0cb5561",
+      "size": 69116,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6a287ea129f5d4aad699e9d65a9d4fb7c0cb5561"
+    },
+    {
+      "path": "notebooks/src/suppl_generanking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b31b8759c8a9b1ee2bed688b24a40595c204bc",
+      "size": 16312,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f2b31b8759c8a9b1ee2bed688b24a40595c204bc"
+    },
+    {
+      "path": "notebooks/src/suppl_mel_resistance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddaa9cb0b746b3a900d9ad131d80dd2d301507b3",
+      "size": 75454,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ddaa9cb0b746b3a900d9ad131d80dd2d301507b3"
+    },
+    {
+      "path": "notebooks/src/suppl_pcs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e695bf5e6d5aa2a8b7a6551458c128c1dc4298d",
+      "size": 40252,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7e695bf5e6d5aa2a8b7a6551458c128c1dc4298d"
+    },
+    {
+      "path": "notebooks/src/suppl_posterior.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1007dadc1389b81b860fbd03a7da5bc6066f112",
+      "size": 51270,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b1007dadc1389b81b860fbd03a7da5bc6066f112"
+    },
+    {
+      "path": "notebooks/src/suppl_resistance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059b65f9e82e1e96d59057a02a335cc2443c06cb",
+      "size": 51409,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/059b65f9e82e1e96d59057a02a335cc2443c06cb"
+    },
+    {
+      "path": "notebooks/suppl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7ba78ec36b83724aa59e0dd44224b5baebdbd5ea",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/7ba78ec36b83724aa59e0dd44224b5baebdbd5ea"
+    },
+    {
+      "path": "notebooks/suppl/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e740b4d522ffa3fbd241c19aceb6597d987b75",
+      "size": 4933,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f9e740b4d522ffa3fbd241c19aceb6597d987b75"
+    },
+    {
+      "path": "notebooks/suppl/fate_commitment_bayesian_figM7_S17.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9577d36621fb486f1f1eda86d00cf3b50d95e8",
+      "size": 7570855,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7d9577d36621fb486f1f1eda86d00cf3b50d95e8"
+    },
+    {
+      "path": "notebooks/suppl/fate_commitment_figM7.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f94f8a8efcfbdbbdc0eab2ae4341a2b577d5bcc6",
+      "size": 29264075,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f94f8a8efcfbdbbdc0eab2ae4341a2b577d5bcc6"
+    },
+    {
+      "path": "notebooks/suppl/fig3_atlas.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83340619368a99a51d326324aff14cb7312b380f",
+      "size": 2886692,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/83340619368a99a51d326324aff14cb7312b380f"
+    },
+    {
+      "path": "notebooks/suppl/figS11_drug_inverse.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74de5f6de6608a9709f259754d74f1749c755570",
+      "size": 6630078,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/74de5f6de6608a9709f259754d74f1749c755570"
+    },
+    {
+      "path": "notebooks/suppl/figS13D_cov_eigenspectrum.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e84066e2936bc939c5fb4c3b159c22d8f4bd81f",
+      "size": 5332619,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7e84066e2936bc939c5fb4c3b159c22d8f4bd81f"
+    },
+    {
+      "path": "notebooks/suppl/figS14_pcs_dx_sigma.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7491d45c4df2350cf34b54fb35a0c4b3b7ee613",
+      "size": 10178231,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a7491d45c4df2350cf34b54fb35a0c4b3b7ee613"
+    },
+    {
+      "path": "notebooks/suppl/figS15_effective_N.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cefdf18b190a53df3271a25342080f6eaf7b918",
+      "size": 2603767,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0cefdf18b190a53df3271a25342080f6eaf7b918"
+    },
+    {
+      "path": "notebooks/suppl/figS16_forward.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "873dedf3766ebd3e08ec207a99069d3b19373f7a",
+      "size": 7857766,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/873dedf3766ebd3e08ec207a99069d3b19373f7a"
+    },
+    {
+      "path": "notebooks/suppl/figS18_coexpr.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2cad5e73f0a9c7338cade5e6fb14fdedd995b88",
+      "size": 11058635,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e2cad5e73f0a9c7338cade5e6fb14fdedd995b88"
+    },
+    {
+      "path": "notebooks/suppl/figS19_umap_cov_visualization.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bffb1ed96592ffa359e9a80ff4d7b1cd2f0416fe",
+      "size": 4756903,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/bffb1ed96592ffa359e9a80ff4d7b1cd2f0416fe"
+    },
+    {
+      "path": "notebooks/suppl/figS5_frequency_normalization.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff6078e439f63845081960c03a53bcc2e1672a1",
+      "size": 4386328,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/bff6078e439f63845081960c03a53bcc2e1672a1"
+    },
+    {
+      "path": "notebooks/suppl/figS7_covariance_correlation.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83a25f64d1d8db8dbb848906501e36712e35d97a",
+      "size": 2346829,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/83a25f64d1d8db8dbb848906501e36712e35d97a"
+    },
+    {
+      "path": "notebooks/suppl/figS9A_analytical_H.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c9b6249a45442b41406deeb141d6548d1d89e3",
+      "size": 6604014,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/37c9b6249a45442b41406deeb141d6548d1d89e3"
+    },
+    {
+      "path": "notebooks/suppl/figS9B_inverse_noise_model.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958e3466b202719f1234a48474703a8f44ed236c",
+      "size": 1172869,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/958e3466b202719f1234a48474703a8f44ed236c"
+    },
+    {
+      "path": "notebooks/suppl/figS9_generanking.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba5e4de5402ab26059fdfcd7550885fb6f48d95",
+      "size": 652233,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1ba5e4de5402ab26059fdfcd7550885fb6f48d95"
+    },
+    {
+      "path": "notebooks/suppl/figS9cd_double_pert_inverse.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1117a4d71da1d1c33e02dfe330a9f36296ee4a",
+      "size": 258256,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/fc1117a4d71da1d1c33e02dfe330a9f36296ee4a"
+    },
+    {
+      "path": "notebooks/suppl/kras_resistance_figM7_S17.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916e8b17ab7715e2404957cb5ae27b77e9a38a37",
+      "size": 1501048,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/916e8b17ab7715e2404957cb5ae27b77e9a38a37"
+    },
+    {
+      "path": "notebooks/suppl/melanoma_resistance_figM7_S17.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4aa3158431026eab7a392198542812eddd3641",
+      "size": 2972335,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2a4aa3158431026eab7a392198542812eddd3641"
+    },
+    {
+      "path": "notebooks/suppl/tau2_selection.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9662a113c6f4525a27227507d7d08d80224279d4",
+      "size": 511814,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/9662a113c6f4525a27227507d7d08d80224279d4"
+    },
+    {
+      "path": "notebooks/suppl/umapvis_figS.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "944b7989bb75418b10715cdb912c9534acb0a2ce",
+      "size": 5280625,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/944b7989bb75418b10715cdb912c9534acb0a2ce"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dda73a88e4b86717f1e4e18e2fbf442229ba3ef",
+      "size": 1709,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/1dda73a88e4b86717f1e4e18e2fbf442229ba3ef"
+    },
+    {
+      "path": "resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9d82e9d4a19095ebfbaf9a3d6dbea0c0b36779b",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/c9d82e9d4a19095ebfbaf9a3d6dbea0c0b36779b"
+    },
+    {
+      "path": "resources/datasets.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bf7c12b1c74e1c1da7729580115d53d9227431b",
+      "size": 5397,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/3bf7c12b1c74e1c1da7729580115d53d9227431b"
+    },
+    {
+      "path": "resources/download_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58493e6712ac729470bf8a9e3f1066b83128d5a4",
+      "size": 23008,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/58493e6712ac729470bf8a9e3f1066b83128d5a4"
+    },
+    {
+      "path": "resources/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "825154300c4807b4e7deca0917ed50f3b68469c8",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/825154300c4807b4e7deca0917ed50f3b68469c8"
+    },
+    {
+      "path": "resources/img/cipher.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c9807be9463613f0a8764298c6f8c57c424b1a0",
+      "size": 63239,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/2c9807be9463613f0a8764298c6f8c57c424b1a0"
+    },
+    {
+      "path": "resources/paper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e84609228addfff8e41389e7e03171674a485df",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/5e84609228addfff8e41389e7e03171674a485df"
+    },
+    {
+      "path": "resources/paper/fig1.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675e62fe6b12eee1b9d1f2f228c4245b3c7334ec",
+      "size": 608008,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/675e62fe6b12eee1b9d1f2f228c4245b3c7334ec"
+    },
+    {
+      "path": "resources/paper/fig2.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af2cc11314d9c1d1a347c7c320a2802e0f61723",
+      "size": 1440233,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/4af2cc11314d9c1d1a347c7c320a2802e0f61723"
+    },
+    {
+      "path": "resources/paper/fig3.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "351c9dc8a3707ab45bd274da31497cfdc9e1d7fc",
+      "size": 757300,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/351c9dc8a3707ab45bd274da31497cfdc9e1d7fc"
+    },
+    {
+      "path": "resources/paper/fig4.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beecc830804d8219ca5911518aecf11738e8c47f",
+      "size": 388424,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/beecc830804d8219ca5911518aecf11738e8c47f"
+    },
+    {
+      "path": "resources/paper/fig5.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68aaf911087cb0986242c822810a7af38140f54",
+      "size": 451678,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f68aaf911087cb0986242c822810a7af38140f54"
+    },
+    {
+      "path": "resources/paper/fig6.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "055d2983f81d46fcc9eac7de6b3d6527a0a7185a",
+      "size": 1014955,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/055d2983f81d46fcc9eac7de6b3d6527a0a7185a"
+    },
+    {
+      "path": "resources/paper/fig7.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5a1fb52cba2a675fccfdec6a4e100bd969cfc2a",
+      "size": 1109530,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c5a1fb52cba2a675fccfdec6a4e100bd969cfc2a"
+    },
+    {
+      "path": "resources/zenodo_file_descriptions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ec65086c87ea5a9ce09c9570c6f09888b19ab5",
+      "size": 9235,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/c0ec65086c87ea5a9ce09c9570c6f09888b19ab5"
+    },
+    {
+      "path": "resources/zenodo_manifest.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8971e6ee66926edd7f95065695a62f828309b7",
+      "size": 4648,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6e8971e6ee66926edd7f95065695a62f828309b7"
+    },
+    {
+      "path": "resources/zenodo_metadata.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b34fe7db4e2f23829fce0f3c264bd97c80b493d",
+      "size": 6923,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/7b34fe7db4e2f23829fce0f3c264bd97c80b493d"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5b9279d33d342771f0b50bd6bc42e15e5a48fa2",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/f5b9279d33d342771f0b50bd6bc42e15e5a48fa2"
+    },
+    {
+      "path": "scripts/cov.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09deeadefa4983f7e669c0fdf145d51018c4ccc8",
+      "size": 901,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/09deeadefa4983f7e669c0fdf145d51018c4ccc8"
+    },
+    {
+      "path": "scripts/r2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08c6b1917ec62e5e1710bfc0229643feb6e0495",
+      "size": 628,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a08c6b1917ec62e5e1710bfc0229643feb6e0495"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5ce9e1992cb1ac0198c7a6b77ee4bf16da039a4",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/f5ce9e1992cb1ac0198c7a6b77ee4bf16da039a4"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/cov.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d688ec68fe67417b51d297d4c8c8e398207583",
+      "size": 11448,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/96d688ec68fe67417b51d297d4c8c8e398207583"
+    },
+    {
+      "path": "src/deg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3bfbe5459a68115b21eb7cd13b67ce7ce549ef",
+      "size": 1646,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/6e3bfbe5459a68115b21eb7cd13b67ce7ce549ef"
+    },
+    {
+      "path": "src/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fab230ab6119016354c5dc809823be120e6eb5e",
+      "size": 10165,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/5fab230ab6119016354c5dc809823be120e6eb5e"
+    },
+    {
+      "path": "src/r2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b502ff0f47a2ee1d8fbf51dfa2a73db21b201ea1",
+      "size": 21663,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b502ff0f47a2ee1d8fbf51dfa2a73db21b201ea1"
+    },
+    {
+      "path": "src/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a67b9f8a4e1eef50b40ce419177fbe197edeaf4e",
+      "size": 895,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a67b9f8a4e1eef50b40ce419177fbe197edeaf4e"
+    },
+    {
+      "path": "src/slurm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f096cd27bcc0418464978be047a2b9039dc704",
+      "size": 2326,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/a5f096cd27bcc0418464978be047a2b9039dc704"
+    },
+    {
+      "path": "src/split_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450eb2f6c07387bd3b361048b6f203e7297cbe83",
+      "size": 2817,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/450eb2f6c07387bd3b361048b6f203e7297cbe83"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27b1aaf97a89b1219f22589a5b61ddc2223eaf95",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/27b1aaf97a89b1219f22589a5b61ddc2223eaf95"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b53eba720a03808b11e1d5cb3ef2ef5603c5ce7",
+      "size": 4179,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/0b53eba720a03808b11e1d5cb3ef2ef5603c5ce7"
+    },
+    {
+      "path": "tests/test_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "808a74459e5de6409716531d64e5a0dba8057aba",
+      "size": 8276,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/808a74459e5de6409716531d64e5a0dba8057aba"
+    },
+    {
+      "path": "tests/test_data_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "107ec156eb8ec7d87981a943ecf6d752c12291b8",
+      "size": 2505,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/107ec156eb8ec7d87981a943ecf6d752c12291b8"
+    },
+    {
+      "path": "tests/test_identify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27a43a5957a60de84b873205294a3f0d4c846e0",
+      "size": 2861,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/b27a43a5957a60de84b873205294a3f0d4c846e0"
+    },
+    {
+      "path": "tests/test_identify_recipe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f98963e7d199aad7f44ce5954d725cf6940e0d9a",
+      "size": 4355,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/f98963e7d199aad7f44ce5954d725cf6940e0d9a"
+    },
+    {
+      "path": "tests/test_inverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cd9b1fbdf3e1f5d6f1052f9f5a2326ac473e5a",
+      "size": 5535,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/81cd9b1fbdf3e1f5d6f1052f9f5a2326ac473e5a"
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec91a28ab7560de0b3bd81481335cd9168d5865b",
+      "size": 5863,
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/blobs/ec91a28ab7560de0b3bd81481335cd9168d5865b"
+    }
+  ],
+  "truncated": false
+}

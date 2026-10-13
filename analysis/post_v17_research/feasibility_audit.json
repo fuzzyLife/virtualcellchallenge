@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-13",
+  "script_sha256": "b250abc9d1d275af96721c6fef3e014b39212393ae726e984ea8556df562081f",
+  "coverage": [
+    {
+      "asset": "Stack published vocabulary",
+      "vocabulary_size": 15012,
+      "output_genes": 13078,
+      "targets": 213,
+      "file_sha256": "d8761dfda955b9897d3251798b72361ddd0171ef707119eaf65381bed2d85dcc"
+    },
+    {
+      "asset": "PIE gene_text",
+      "vocabulary_size": 31684,
+      "output_genes": 18262,
+      "targets": 300,
+      "file_sha256": "edb1fa415cbc02c9d27101991407ac8a63b74f38f377a76c19a28b7ebddafcc1"
+    },
+    {
+      "asset": "PIE perturbation_text",
+      "vocabulary_size": 12441,
+      "output_genes": 10710,
+      "targets": 155,
+      "file_sha256": "7ad8611e90a13d523a93bdf777a4975362d738da10e8d5989822ed6bdb71dee7"
+    },
+    {
+      "asset": "PIE esm2",
+      "vocabulary_size": 19203,
+      "output_genes": 17876,
+      "targets": 299,
+      "file_sha256": "6f8d9b56215c628a60d0f05ae635a65a6d6567a138f49c2c94863aa136f3d25c"
+    }
+  ],
+  "PIE_exact_training_revision": {
+    "revision": "20c9faef76fc96fdc809871340bd93499413dfe7",
+    "perturbation_names": 1857,
+    "competition_target_overlap": [],
+    "training_output_genes": 6642,
+    "competition_output_overlap": 6290,
+    "metadata_sha256": "188bddb7df9682fa73a6621e2c8e58b7595a5409cf1ad82ed36185425633cb97"
+  },
+  "runtime": {
+    "python": "3.14.3",
+    "platform": "Windows-11-10.0.22635-SP0",
+    "torch": "2.10.0+cu126",
+    "torch_cuda": "12.6",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "gpu_memory_bytes": 8589606912,
+    "bfloat16_native": false
+  },
+  "assets": {
+    "PIE_replogle_xdataset": {
+      "revision": "f6da9607226139a1040b6992736118c9b5c7c313",
+      "gated": false,
+      "checkpoint_files": {
+        "best_auprc.ckpt": 966412013
+      }
+    },
+    "PIE_replogle_wdataset": {
+      "revision": "055c7a2cabdaff5659121c64fa2b609c231fc5be",
+      "gated": false,
+      "checkpoint_files": {
+        "hepg2/best_auprc.ckpt": 949595187,
+        "jurkat/best_auprc.ckpt": 949595187,
+        "k562/best_auprc.ckpt": 949595187,
+        "rpe1/best_auprc.ckpt": 949558067
+      }
+    },
+    "Stack-Large": {
+      "revision": "6e1f352e8cc7f8718c74fe1d20b95c42e0942d9b",
+      "gated": false,
+      "checkpoint_files": {
+        "bc_large.ckpt": 2610004146
+      }
+    },
+    "Stack-Large-Aligned": {
+      "revision": "b09f085dac03d170b078a5c72f550ae93686e544",
+      "gated": false,
+      "checkpoint_files": {
+        "bc_large_aligned.ckpt": 2613863242
+      }
+    }
+  },
+  "PIE_embedding_file_bytes": {
+    "context_text/embeddings.npy": 1081472,
+    "depmap_gene_effect/embeddings.npy": 87455768,
+    "esm2/embeddings.npy": 98319488,
+    "gene_text/embeddings.npy": 389333120,
+    "jump_morphology/embeddings.npy": 2379164,
+    "l1000_tas/embeddings.npy": 220244,
+    "ncbi_text/embeddings.npy": 43182215296,
+    "perturbation_text/embeddings.npy": 152875136,
+    "prism_secondary/embeddings.npy": 668288,
+    "smiles/embeddings.npy": 1737344,
+    "string_space/embeddings.npy": 20171904
+  },
+  "models_loaded": false,
+  "checkpoints_downloaded": false,
+  "new_predictions_generated": false,
+  "vocabulary_decoding": "Non-executing pickletools interpreter restricted to literal strings/lists and numpy-unicode scalar descriptions",
+  "limitations": [
+    "Feature availability does not prove predictive coverage or checkpoint inference compatibility.",
+    "PIE within-dataset training output axis has 6642 genes; extending to new genes is an extrapolation test.",
+    "PIE cross-dataset checkpoint trained on ARC VCC25 and Orion: existing H1/HCT116/HEK293T holdouts cannot establish its unseen-family performance.",
+    "Stack pretraining overlap with public benchmark cell IDs is not yet audited."
+  ]
+}

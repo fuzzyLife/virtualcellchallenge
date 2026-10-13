@@ -1,0 +1,170 @@
+{
+  "_id": "6abeb63b51f1efec75f0ca3e",
+  "id": "arcinstitute/PIE_replogle_wdataset",
+  "private": false,
+  "library_name": "pytorch",
+  "tags": [
+    "pytorch",
+    "biology",
+    "gene-expression",
+    "perturbation-prediction",
+    "perceiver",
+    "cross-validation",
+    "dataset:arcinstitute/PIE_replogle_nadig_essential",
+    "dataset:arcinstitute/PIE_sources",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "arcinstitute/PIE_replogle_wdataset",
+  "author": "arcinstitute",
+  "sha": "055c7a2cabdaff5659121c64fa2b609c231fc5be",
+  "lastModified": "2026-10-05T18:05:15.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "library_name": "pytorch",
+    "license": "other",
+    "license_name": "pie-model-license",
+    "license_link": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/blob/main/MODEL_LICENSE.md",
+    "tags": [
+      "biology",
+      "gene-expression",
+      "perturbation-prediction",
+      "perceiver",
+      "cross-validation"
+    ],
+    "datasets": [
+      "arcinstitute/PIE_replogle_nadig_essential",
+      "arcinstitute/PIE_sources"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "MODEL_ACCEPTABLE_USE_POLICY.md"
+    },
+    {
+      "rfilename": "MODEL_LICENSE.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "hepg2/best_auprc.ckpt"
+    },
+    {
+      "rfilename": "hepg2/config.yaml"
+    },
+    {
+      "rfilename": "hepg2/data_stats.json"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_ctx/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_ctx/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_ctx_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_ctx_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "hepg2/eval/unseen_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/best_auprc.ckpt"
+    },
+    {
+      "rfilename": "jurkat/config.yaml"
+    },
+    {
+      "rfilename": "jurkat/data_stats.json"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_ctx/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_ctx/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_ctx_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_ctx_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "jurkat/eval/unseen_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/best_auprc.ckpt"
+    },
+    {
+      "rfilename": "k562/config.yaml"
+    },
+    {
+      "rfilename": "k562/data_stats.json"
+    },
+    {
+      "rfilename": "k562/eval/unseen_ctx/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/eval/unseen_ctx/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/eval/unseen_ctx_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/eval/unseen_ctx_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/eval/unseen_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "k562/eval/unseen_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/best_auprc.ckpt"
+    },
+    {
+      "rfilename": "rpe1/config.yaml"
+    },
+    {
+      "rfilename": "rpe1/data_stats.json"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_ctx/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_ctx/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_ctx_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_ctx_pert/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_pert/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "rpe1/eval/unseen_pert/metrics_best_auprc.csv"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-01T19:36:27.000Z",
+  "usedStorage": 3798343628
+}

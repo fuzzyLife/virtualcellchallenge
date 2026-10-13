@@ -1,0 +1,1520 @@
+{
+  "sha": "21a526add9ff3a81b4f962d9b16bbae570052c63",
+  "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/21a526add9ff3a81b4f962d9b16bbae570052c63",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "036098568d35adf29e975aab46146b528f2a0b45",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/036098568d35adf29e975aab46146b528f2a0b45"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cf3a0416f075cda37deee44007aee5568c5d003",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/6cf3a0416f075cda37deee44007aee5568c5d003"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a7c4ba972ada515bfb086ac1edfba2bf28ba12f",
+      "size": 1135,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/5a7c4ba972ada515bfb086ac1edfba2bf28ba12f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b61aa1deedc1233547a2c94af8cd5b0350e7de",
+      "size": 242,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b8b61aa1deedc1233547a2c94af8cd5b0350e7de"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+      "size": 5,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4dced7ae7fa7f533d52bc7bf573f1e278ede65d",
+      "size": 13414,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c4dced7ae7fa7f533d52bc7bf573f1e278ede65d"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b6c58e7f461deb5549cbf8274f5ac0ad43c212",
+      "size": 18859,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/30b6c58e7f461deb5549cbf8274f5ac0ad43c212"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e55e8c258e14321e2f3841ed59f66a115d0ade",
+      "size": 6987,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/47e55e8c258e14321e2f3841ed59f66a115d0ade"
+    },
+    {
+      "path": "common.sh.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47efb7fa49d3f13c8e2f3a8e72b8108daca488da",
+      "size": 378,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/47efb7fa49d3f13c8e2f3a8e72b8108daca488da"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cca9993acf9a7b59c7e2dab1bc14c86eeb257e8",
+      "size": 2718,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2cca9993acf9a7b59c7e2dab1bc14c86eeb257e8"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c6d4dd63070a68df2f9695dfb694e408ea84104",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/4c6d4dd63070a68df2f9695dfb694e408ea84104"
+    },
+    {
+      "path": "src/pie",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c654bdd9db3ad0e455d515926daf4955857f148",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/5c654bdd9db3ad0e455d515926daf4955857f148"
+    },
+    {
+      "path": "src/pie/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e842643703a430e0befc3a4f27de42c68b25433",
+      "size": 313,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7e842643703a430e0befc3a4f27de42c68b25433"
+    },
+    {
+      "path": "src/pie/assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d14d53d44229bae24b49e0d1555064b9a8ec1280",
+      "size": 11471,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/d14d53d44229bae24b49e0d1555064b9a8ec1280"
+    },
+    {
+      "path": "src/pie/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2875bde40d7138ecc10ffd8e8bcd4c7fd3d369d",
+      "size": 8783,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c2875bde40d7138ecc10ffd8e8bcd4c7fd3d369d"
+    },
+    {
+      "path": "src/pie/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf518a7b6f579e91ad26b72654074aff60d18411",
+      "size": 10190,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/cf518a7b6f579e91ad26b72654074aff60d18411"
+    },
+    {
+      "path": "src/pie/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a4ac06b3d0aaaf236642a2972916e7e9a563593",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/6a4ac06b3d0aaaf236642a2972916e7e9a563593"
+    },
+    {
+      "path": "src/pie/configs/eval.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6944d3dbc923ebae6a63f7fc36b5805cf9893a35",
+      "size": 284,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6944d3dbc923ebae6a63f7fc36b5805cf9893a35"
+    },
+    {
+      "path": "src/pie/configs/experiment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6a968cce7265a474924d3446304b17436f1e1a4",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/e6a968cce7265a474924d3446304b17436f1e1a4"
+    },
+    {
+      "path": "src/pie/configs/experiment/replogle_wdataset.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc2adc1cfba9ca2c1fea442afb74020161baf910",
+      "size": 1750,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/dc2adc1cfba9ca2c1fea442afb74020161baf910"
+    },
+    {
+      "path": "src/pie/configs/experiment/replogle_xdataset.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c066b5e40877dcb19a22bc61f308ccaa0d60866",
+      "size": 2567,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/5c066b5e40877dcb19a22bc61f308ccaa0d60866"
+    },
+    {
+      "path": "src/pie/configs/infer.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c488c1ef0401f7630cefe0c8046536c4baa03ffc",
+      "size": 332,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c488c1ef0401f7630cefe0c8046536c4baa03ffc"
+    },
+    {
+      "path": "src/pie/configs/prep.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235254c2e48d90656b96401e963d115567de9bce",
+      "size": 969,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/235254c2e48d90656b96401e963d115567de9bce"
+    },
+    {
+      "path": "src/pie/configs/prep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "afccefd044a347d0b356f7a01c0af26771aff6c5",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/afccefd044a347d0b356f7a01c0af26771aff6c5"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9015cb12a009f48d4cca920a730a13d2b2169438",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/9015cb12a009f48d4cca920a730a13d2b2169438"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset/arc_vcc_25.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9935b9d89250c265f12f9482d6c857397d00a7",
+      "size": 394,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/ee9935b9d89250c265f12f9482d6c857397d00a7"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset/jiang.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de54147653e3bd4c756a39f77564bd7833da59d8",
+      "size": 143,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/de54147653e3bd4c756a39f77564bd7833da59d8"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset/orion.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f4d8c022f36e145dec15d4d3dd0242826bbb61",
+      "size": 142,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/92f4d8c022f36e145dec15d4d3dd0242826bbb61"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset/replogle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92faef6760ff1b37986a9523722c72116af3db2b",
+      "size": 387,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/92faef6760ff1b37986a9523722c72116af3db2b"
+    },
+    {
+      "path": "src/pie/configs/prep/dataset/tahoe.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92c82bbeae1036a0af047d059455300b7ec4eaa7",
+      "size": 256,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/92c82bbeae1036a0af047d059455300b7ec4eaa7"
+    },
+    {
+      "path": "src/pie/configs/prep/label_format",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d938f25db40ac80427dfc451901a0d20835b64a6",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/d938f25db40ac80427dfc451901a0d20835b64a6"
+    },
+    {
+      "path": "src/pie/configs/prep/label_format/pie_process.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5df69facf0011bd047325cbdd5e8112ca7a71b1",
+      "size": 267,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c5df69facf0011bd047325cbdd5e8112ca7a71b1"
+    },
+    {
+      "path": "src/pie/configs/prep/label_format/table.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6704ea3d6c00613f82a02afac371d02514cd87f7",
+      "size": 253,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6704ea3d6c00613f82a02afac371d02514cd87f7"
+    },
+    {
+      "path": "src/pie/configs/process.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9805fe25cc0f8e522c6babca0521d24d2316ac",
+      "size": 920,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9d9805fe25cc0f8e522c6babca0521d24d2316ac"
+    },
+    {
+      "path": "src/pie/configs/process",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2fac6ddf0e6ca9532a215e4fa753e10ccbe6204",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/d2fac6ddf0e6ca9532a215e4fa753e10ccbe6204"
+    },
+    {
+      "path": "src/pie/configs/process/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93db79723fcf6604b8249570644e279fbf4bda7f",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/93db79723fcf6604b8249570644e279fbf4bda7f"
+    },
+    {
+      "path": "src/pie/configs/process/dataset/arc_vcc_25.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa090a2712136d62d586244bb7657d55fb86877",
+      "size": 308,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1aa090a2712136d62d586244bb7657d55fb86877"
+    },
+    {
+      "path": "src/pie/configs/process/dataset/jiang.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1262c6574004712a15396e3302a48f1cad21d4e5",
+      "size": 262,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1262c6574004712a15396e3302a48f1cad21d4e5"
+    },
+    {
+      "path": "src/pie/configs/process/dataset/orion.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "515790155aeb50df3c47ca54cbe6a08ccb210a65",
+      "size": 253,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/515790155aeb50df3c47ca54cbe6a08ccb210a65"
+    },
+    {
+      "path": "src/pie/configs/process/dataset/replogle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ae02d81bcf7783f1b9ac78f69709c97adb72b7",
+      "size": 236,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/f1ae02d81bcf7783f1b9ac78f69709c97adb72b7"
+    },
+    {
+      "path": "src/pie/configs/process/dataset/tahoe.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d72a7d27c9576f32a719f540b86eecb17f927f88",
+      "size": 212,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/d72a7d27c9576f32a719f540b86eecb17f927f88"
+    },
+    {
+      "path": "src/pie/configs/sources.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1e1264ef284c94d29053a4e9c390742de6c6db",
+      "size": 691,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1e1e1264ef284c94d29053a4e9c390742de6c6db"
+    },
+    {
+      "path": "src/pie/configs/train.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b3bcba7cb19ec2bd78c048f8a94e557c9a759d7",
+      "size": 1602,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/8b3bcba7cb19ec2bd78c048f8a94e557c9a759d7"
+    },
+    {
+      "path": "src/pie/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5903b0444b382b019d9d5d4497f4ff3206e200f9",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/5903b0444b382b019d9d5d4497f4ff3206e200f9"
+    },
+    {
+      "path": "src/pie/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/data/datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d683acc12628ae3fb283ddb392763f05d197a5",
+      "size": 19373,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/d4d683acc12628ae3fb283ddb392763f05d197a5"
+    },
+    {
+      "path": "src/pie/data/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3bc1422a50d3ffd8fc6017bcacf0be05ac7b83b",
+      "size": 11410,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/a3bc1422a50d3ffd8fc6017bcacf0be05ac7b83b"
+    },
+    {
+      "path": "src/pie/data/delta_p.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb0bfb22603ecd3b49ea5828585f0446fe167707",
+      "size": 4491,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/cb0bfb22603ecd3b49ea5828585f0446fe167707"
+    },
+    {
+      "path": "src/pie/data/evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280b90d7d18803c130b2d98d2688326969ff8410",
+      "size": 41107,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/280b90d7d18803c130b2d98d2688326969ff8410"
+    },
+    {
+      "path": "src/pie/data/preprocessed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19421ce1646a058b8aea50dea6320105b0d6d5c5",
+      "size": 11207,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/19421ce1646a058b8aea50dea6320105b0d6d5c5"
+    },
+    {
+      "path": "src/pie/data/samplers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8c89879e6e9ca9799cab346e2a18c28a1a8c99",
+      "size": 6574,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/4e8c89879e6e9ca9799cab346e2a18c28a1a8c99"
+    },
+    {
+      "path": "src/pie/data/splits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "846fe7f9dab7dedb808811e96f3904b9beff93d5",
+      "size": 4990,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/846fe7f9dab7dedb808811e96f3904b9beff93d5"
+    },
+    {
+      "path": "src/pie/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044f28fc7e033028bbb77921f69e7ba09561d2db",
+      "size": 5195,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/044f28fc7e033028bbb77921f69e7ba09561d2db"
+    },
+    {
+      "path": "src/pie/infer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd67740a37f1039079e3fe0ee2e510f941e7822",
+      "size": 1447,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/3fd67740a37f1039079e3fe0ee2e510f941e7822"
+    },
+    {
+      "path": "src/pie/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e937321ce077f3e5b796c7a9630fe9ff9e74a0a6",
+      "size": 17353,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e937321ce077f3e5b796c7a9630fe9ff9e74a0a6"
+    },
+    {
+      "path": "src/pie/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a5ee75aa96083961652afa77fc269fbe2dd7805",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/4a5ee75aa96083961652afa77fc269fbe2dd7805"
+    },
+    {
+      "path": "src/pie/model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ee433f25fc0d6ff31c00c2b13d8cc035b15e888",
+      "size": 435,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6ee433f25fc0d6ff31c00c2b13d8cc035b15e888"
+    },
+    {
+      "path": "src/pie/model/evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0e29e7ed90afa1074b918a540dee6303383279",
+      "size": 3103,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9f0e29e7ed90afa1074b918a540dee6303383279"
+    },
+    {
+      "path": "src/pie/model/heads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565800705dd91176fd333d643676d882317b0ea3",
+      "size": 1224,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/565800705dd91176fd333d643676d882317b0ea3"
+    },
+    {
+      "path": "src/pie/model/layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a69aa754624c95c17e3d90ef26f3759b8f617e21",
+      "size": 1981,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/a69aa754624c95c17e3d90ef26f3759b8f617e21"
+    },
+    {
+      "path": "src/pie/model/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5835a341b5bafe2c0090fdb9860ebd805cbd9185",
+      "size": 6343,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/5835a341b5bafe2c0090fdb9860ebd805cbd9185"
+    },
+    {
+      "path": "src/pie/model/pie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6235d45e480dc43c215d071de5d59220fb6450d",
+      "size": 11879,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e6235d45e480dc43c215d071de5d59220fb6450d"
+    },
+    {
+      "path": "src/pie/model/trunk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e05696acb5fb362f39a5ea70ea3a60df93abe9b",
+      "size": 4038,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/8e05696acb5fb362f39a5ea70ea3a60df93abe9b"
+    },
+    {
+      "path": "src/pie/predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a089e795e870ba6ff0c6ceec63848356ace0941",
+      "size": 12397,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/4a089e795e870ba6ff0c6ceec63848356ace0941"
+    },
+    {
+      "path": "src/pie/prep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "859ea1ee06d1cf08bea33fea4c45db4118bafdf8",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/859ea1ee06d1cf08bea33fea4c45db4118bafdf8"
+    },
+    {
+      "path": "src/pie/prep/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/prep/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d8ab3a3b2870efcf5fb3b4fbdd818b1742f7b43",
+      "size": 2630,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7d8ab3a3b2870efcf5fb3b4fbdd818b1742f7b43"
+    },
+    {
+      "path": "src/pie/prep/labels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17e90b95388eb4146e6d6922b32072c36998e6a4",
+      "size": 29023,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/17e90b95388eb4146e6d6922b32072c36998e6a4"
+    },
+    {
+      "path": "src/pie/process",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97e10d55e68d591a6855cbe96007faabaca1eeed",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/97e10d55e68d591a6855cbe96007faabaca1eeed"
+    },
+    {
+      "path": "src/pie/process/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/process/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08edf44be18b4bc9d8e0ab2cde737a32107405bd",
+      "size": 2919,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/08edf44be18b4bc9d8e0ab2cde737a32107405bd"
+    },
+    {
+      "path": "src/pie/process/de.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec5395eb7d3a5d58614f847413d12bade16ea0b",
+      "size": 5521,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2ec5395eb7d3a5d58614f847413d12bade16ea0b"
+    },
+    {
+      "path": "src/pie/process/io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adbccecca89e4b1252ac6cc9dec7a5527c4edb54",
+      "size": 4037,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/adbccecca89e4b1252ac6cc9dec7a5527c4edb54"
+    },
+    {
+      "path": "src/pie/process/knockdown.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd3c94e8b68bd4f62bec91a72cfe988952960b9",
+      "size": 12140,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2bd3c94e8b68bd4f62bec91a72cfe988952960b9"
+    },
+    {
+      "path": "src/pie/process/normalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e8f7887aebe8993c09c1525c8ff42426c3fd27",
+      "size": 6970,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/f7e8f7887aebe8993c09c1525c8ff42426c3fd27"
+    },
+    {
+      "path": "src/pie/process/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff966d3e3e43078761f229f8e01784614992121a",
+      "size": 2757,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/ff966d3e3e43078761f229f8e01784614992121a"
+    },
+    {
+      "path": "src/pie/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fca483a5d009c2ce30e6eb692d5097d07c681761",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/fca483a5d009c2ce30e6eb692d5097d07c681761"
+    },
+    {
+      "path": "src/pie/sources/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/sources/chem_profiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "253948b6f13e483babd4afe172bf396c5b86c524",
+      "size": 20419,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/253948b6f13e483babd4afe172bf396c5b86c524"
+    },
+    {
+      "path": "src/pie/sources/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b79f3ad9dbbf623dae4b365aeba710884b7ad54",
+      "size": 4910,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/3b79f3ad9dbbf623dae4b365aeba710884b7ad54"
+    },
+    {
+      "path": "src/pie/sources/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b7814d8e22fceede9367f7d86b2ad092d05b87",
+      "size": 2376,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c1b7814d8e22fceede9367f7d86b2ad092d05b87"
+    },
+    {
+      "path": "src/pie/sources/contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f337f9ede7422b9b8eaa17a8c7edc2b3387f08a",
+      "size": 12575,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6f337f9ede7422b9b8eaa17a8c7edc2b3387f08a"
+    },
+    {
+      "path": "src/pie/sources/curated_aliases.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1492197ba52cc13f7619b1be87be6c6f2127444",
+      "size": 770,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b1492197ba52cc13f7619b1be87be6c6f2127444"
+    },
+    {
+      "path": "src/pie/sources/depmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5360b16e62b38110fb32a4611d81204791272105",
+      "size": 3084,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/5360b16e62b38110fb32a4611d81204791272105"
+    },
+    {
+      "path": "src/pie/sources/embed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55d6378401a6d46a3f04f0aed993a1faa2fe6dbf",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/55d6378401a6d46a3f04f0aed993a1faa2fe6dbf"
+    },
+    {
+      "path": "src/pie/sources/embed/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/sources/embed/chemberta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2bd73e295fbb50c46233baeef36abaa0d1dbbb",
+      "size": 6088,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2a2bd73e295fbb50c46233baeef36abaa0d1dbbb"
+    },
+    {
+      "path": "src/pie/sources/embed/esm2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7809ccad9caa8d9cbc581df3bb9c802708baa2b",
+      "size": 5195,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/a7809ccad9caa8d9cbc581df3bb9c802708baa2b"
+    },
+    {
+      "path": "src/pie/sources/embed/openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25ddf2a7c4b00dd8e9e011330bc04c33e37adbc8",
+      "size": 4330,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/25ddf2a7c4b00dd8e9e011330bc04c33e37adbc8"
+    },
+    {
+      "path": "src/pie/sources/embed/qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7e5b9de7efb3442c4375eae5f092e691279f4c",
+      "size": 5277,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/fd7e5b9de7efb3442c4375eae5f092e691279f4c"
+    },
+    {
+      "path": "src/pie/sources/registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8d6bf61652f77eb251f60d1e19befb38413ed0",
+      "size": 7964,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/8c8d6bf61652f77eb251f60d1e19befb38413ed0"
+    },
+    {
+      "path": "src/pie/sources/string.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a50ca778cffeb5747a43528388d851ed870584d",
+      "size": 3572,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/3a50ca778cffeb5747a43528388d851ed870584d"
+    },
+    {
+      "path": "src/pie/sources/text",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec824cf190315ccbc6ffaadf6174c8dff40d78cc",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/ec824cf190315ccbc6ffaadf6174c8dff40d78cc"
+    },
+    {
+      "path": "src/pie/sources/text/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/pie/sources/text/_http.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02244e3132723c0fc069cd9d98f091b84d9a47ed",
+      "size": 2325,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/02244e3132723c0fc069cd9d98f091b84d9a47ed"
+    },
+    {
+      "path": "src/pie/sources/text/context_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af478de8d8495387dc5d12c7f58944385c489e1",
+      "size": 1569,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7af478de8d8495387dc5d12c7f58944385c489e1"
+    },
+    {
+      "path": "src/pie/sources/text/contexts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b39bc6f30fba8aad9902cfa4dd75bbcfacb0a96d",
+      "size": 23384,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b39bc6f30fba8aad9902cfa4dd75bbcfacb0a96d"
+    },
+    {
+      "path": "src/pie/sources/text/drugs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad495afdb6be47db914ab5ceb2bdbcd3d3c1a1e",
+      "size": 21083,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/dad495afdb6be47db914ab5ceb2bdbcd3d3c1a1e"
+    },
+    {
+      "path": "src/pie/sources/text/genes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4158665aca56e6e1f5fde11c2b8ea62bace387",
+      "size": 21868,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9a4158665aca56e6e1f5fde11c2b8ea62bace387"
+    },
+    {
+      "path": "src/pie/sources/text/ncbi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e6f9e443c5f391b221beebb653c6fc570fd20e",
+      "size": 19032,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c9e6f9e443c5f391b221beebb653c6fc570fd20e"
+    },
+    {
+      "path": "src/pie/sources/text/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058b7241145c128957ebf0690b3e47c4f07bfaf7",
+      "size": 10109,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/058b7241145c128957ebf0690b3e47c4f07bfaf7"
+    },
+    {
+      "path": "src/pie/sources/uniprot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7b58475433e477719b90933978258bbd95c605",
+      "size": 5227,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2d7b58475433e477719b90933978258bbd95c605"
+    },
+    {
+      "path": "src/pie/sources/verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45274cf820ed1bf7d0c1275824253a0c9975daf",
+      "size": 6094,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/f45274cf820ed1bf7d0c1275824253a0c9975daf"
+    },
+    {
+      "path": "src/pie/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55b99cf42f2d7036cd2e81e06d4a0ae3a36ab40f",
+      "size": 19180,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/55b99cf42f2d7036cd2e81e06d4a0ae3a36ab40f"
+    },
+    {
+      "path": "src/pie/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65db526167c230636176db5659b60de28659419e",
+      "size": 12823,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/65db526167c230636176db5659b60de28659419e"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a770be251152a95bba843843c338fd9b3cf1d5c",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/6a770be251152a95bba843843c338fd9b3cf1d5c"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a0748c5e0f7b0a3e516e9ae45610323fabd435",
+      "size": 1336,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/f1a0748c5e0f7b0a3e516e9ae45610323fabd435"
+    },
+    {
+      "path": "tests/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "818e54ea6ae8c135548ad1d433212ef1d53ea08f",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/818e54ea6ae8c135548ad1d433212ef1d53ea08f"
+    },
+    {
+      "path": "tests/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/data/test_datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9ec81e83f9cc852d43ab8a48efc653d6b62757",
+      "size": 13854,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7d9ec81e83f9cc852d43ab8a48efc653d6b62757"
+    },
+    {
+      "path": "tests/data/test_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ffeac0c158f8ed7857141cdc7480ed6fbd543ed",
+      "size": 8587,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9ffeac0c158f8ed7857141cdc7480ed6fbd543ed"
+    },
+    {
+      "path": "tests/data/test_delta_p.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "874cd2dc53a0ff8b7d47c8d29cb1839201a4dda1",
+      "size": 6014,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/874cd2dc53a0ff8b7d47c8d29cb1839201a4dda1"
+    },
+    {
+      "path": "tests/data/test_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12e76e41a6554702058f185ae7f03496155ced7",
+      "size": 10959,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e12e76e41a6554702058f185ae7f03496155ced7"
+    },
+    {
+      "path": "tests/data/test_preprocessed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfab5799d71559f14e7f68ca4bc8ed27ae23917f",
+      "size": 8900,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/dfab5799d71559f14e7f68ca4bc8ed27ae23917f"
+    },
+    {
+      "path": "tests/data/test_samplers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84288a1bde4f4615ad7dabdcffad591dcc3b0a48",
+      "size": 10079,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/84288a1bde4f4615ad7dabdcffad591dcc3b0a48"
+    },
+    {
+      "path": "tests/data/test_splits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12d5fdbbec794ddf3b592cbebdb0f36e5fddf0b",
+      "size": 6755,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b12d5fdbbec794ddf3b592cbebdb0f36e5fddf0b"
+    },
+    {
+      "path": "tests/fixtures.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "912d0533a05e8818aa0dbb814397ffd4b431d3dc",
+      "size": 11646,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/912d0533a05e8818aa0dbb814397ffd4b431d3dc"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c961c8ffc2003bedc10e9c4a41b5aaac02bd78e",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/0c961c8ffc2003bedc10e9c4a41b5aaac02bd78e"
+    },
+    {
+      "path": "tests/fixtures/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "beb154ef1a7ed14ec3b0ea7a2bb8cd1cd358141e",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/beb154ef1a7ed14ec3b0ea7a2bb8cd1cd358141e"
+    },
+    {
+      "path": "tests/fixtures/metrics/de_metrics_oracle.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1d37b2b3621ae5d542d13a657a99e7df9acc94",
+      "size": 60395,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/3d1d37b2b3621ae5d542d13a657a99e7df9acc94"
+    },
+    {
+      "path": "tests/fixtures/metrics/l1_parity.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a238d707e09664b419992c3462dd6392ccea2b",
+      "size": 86304,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c2a238d707e09664b419992c3462dd6392ccea2b"
+    },
+    {
+      "path": "tests/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3f024b2203b57e3c632c863d9c6b3505a5c5ee9",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/f3f024b2203b57e3c632c863d9c6b3505a5c5ee9"
+    },
+    {
+      "path": "tests/model/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/model/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ad566d0f1f9f3656d6d05f67270ba7ee4d90fed",
+      "size": 4759,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9ad566d0f1f9f3656d6d05f67270ba7ee4d90fed"
+    },
+    {
+      "path": "tests/model/test_evidence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38cda29ac3166dffad50c6fbfd7073b2118c05b0",
+      "size": 3023,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/38cda29ac3166dffad50c6fbfd7073b2118c05b0"
+    },
+    {
+      "path": "tests/model/test_heads.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c10848e4d59dcd13a734d66ffaea7b975a4f93",
+      "size": 2300,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/98c10848e4d59dcd13a734d66ffaea7b975a4f93"
+    },
+    {
+      "path": "tests/model/test_layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb460421920d645769884138b19d33a7b18fe64",
+      "size": 2712,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/5cb460421920d645769884138b19d33a7b18fe64"
+    },
+    {
+      "path": "tests/model/test_losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c1e1b24b7297df8b82a4f5a1cc585c9226770b",
+      "size": 8357,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/50c1e1b24b7297df8b82a4f5a1cc585c9226770b"
+    },
+    {
+      "path": "tests/model/test_pie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f4d9ea664c3b724d8db6ca2455d2a280208558",
+      "size": 9716,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/45f4d9ea664c3b724d8db6ca2455d2a280208558"
+    },
+    {
+      "path": "tests/model/test_trunk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0347294880617a2cb2c14008345b318fb50ab0bf",
+      "size": 2476,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/0347294880617a2cb2c14008345b318fb50ab0bf"
+    },
+    {
+      "path": "tests/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b350f914c182d850f3e1befa8b07ddf72f0bda",
+      "size": 3200,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b5b350f914c182d850f3e1befa8b07ddf72f0bda"
+    },
+    {
+      "path": "tests/prep",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e112700edfba8a7e89af40245be3c0501c3a9aa4",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/e112700edfba8a7e89af40245be3c0501c3a9aa4"
+    },
+    {
+      "path": "tests/prep/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/prep/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b3681399a7c6f130ccd89afa16d66a822161fe9",
+      "size": 6174,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1b3681399a7c6f130ccd89afa16d66a822161fe9"
+    },
+    {
+      "path": "tests/prep/test_labels.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be08c6582c4ff2c33c9e95ea89a7c09398da510a",
+      "size": 25098,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/be08c6582c4ff2c33c9e95ea89a7c09398da510a"
+    },
+    {
+      "path": "tests/process",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3016e2b76d38cf54fbd7d23397c4681d661ab109",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/3016e2b76d38cf54fbd7d23397c4681d661ab109"
+    },
+    {
+      "path": "tests/process/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/process/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd4ad1328d05828b5aac7b6acf4894de8c971874",
+      "size": 1997,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/bd4ad1328d05828b5aac7b6acf4894de8c971874"
+    },
+    {
+      "path": "tests/process/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1054d6e82adb02dabb458d75864854707adee0bf",
+      "size": 3205,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1054d6e82adb02dabb458d75864854707adee0bf"
+    },
+    {
+      "path": "tests/process/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4213ba98cf98f460811d2fbe876a4b48843ec70",
+      "size": 3136,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e4213ba98cf98f460811d2fbe876a4b48843ec70"
+    },
+    {
+      "path": "tests/process/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "201540d66b27b95bf25111964a13c9ee0cea83ac",
+      "size": 7055,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/201540d66b27b95bf25111964a13c9ee0cea83ac"
+    },
+    {
+      "path": "tests/process/test_de.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38caac27766d9e551b2973ae59b5915a29fdf45",
+      "size": 7676,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e38caac27766d9e551b2973ae59b5915a29fdf45"
+    },
+    {
+      "path": "tests/process/test_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56270d6f30f9b22c93370d879a96e591bcb17b37",
+      "size": 3888,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/56270d6f30f9b22c93370d879a96e591bcb17b37"
+    },
+    {
+      "path": "tests/process/test_knockdown.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90fc49ac783b741f86d9231a0e0a34aaf4712804",
+      "size": 8087,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/90fc49ac783b741f86d9231a0e0a34aaf4712804"
+    },
+    {
+      "path": "tests/process/test_normalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5402282a9c90c372c6c0793e82ff58202512fd",
+      "size": 7369,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/8a5402282a9c90c372c6c0793e82ff58202512fd"
+    },
+    {
+      "path": "tests/process/test_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de7cfe6d599f90d572773bbd3def4d0af4307c6",
+      "size": 6156,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9de7cfe6d599f90d572773bbd3def4d0af4307c6"
+    },
+    {
+      "path": "tests/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0c89d2bb6df155a78dea196d7880a4b6e8f3c0b",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/e0c89d2bb6df155a78dea196d7880a4b6e8f3c0b"
+    },
+    {
+      "path": "tests/sources/embed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cccf8b062bc5554f23d4d98a80d59838686b557b",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/cccf8b062bc5554f23d4d98a80d59838686b557b"
+    },
+    {
+      "path": "tests/sources/embed/test_chemberta.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb3e690f794baaa0e5864cc7b89c4389cb5d437d",
+      "size": 2610,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/fb3e690f794baaa0e5864cc7b89c4389cb5d437d"
+    },
+    {
+      "path": "tests/sources/embed/test_esm2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08cd58dece05fe098f51b378160bfb9fed1f2eda",
+      "size": 5049,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/08cd58dece05fe098f51b378160bfb9fed1f2eda"
+    },
+    {
+      "path": "tests/sources/embed/test_openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1dbeb7922a29b457f7bf8c999d1821c5fb9047",
+      "size": 5025,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9a1dbeb7922a29b457f7bf8c999d1821c5fb9047"
+    },
+    {
+      "path": "tests/sources/embed/test_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e25e260dc321ebcbbf16c5517a0272ae9f1af7e",
+      "size": 3419,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6e25e260dc321ebcbbf16c5517a0272ae9f1af7e"
+    },
+    {
+      "path": "tests/sources/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584f10b221afaa5d7d778103f61e9e9a80c44010",
+      "size": 502,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/584f10b221afaa5d7d778103f61e9e9a80c44010"
+    },
+    {
+      "path": "tests/sources/inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0dced83bad7cb619ba470469c1fa17f01a48381",
+      "size": 16215,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/b0dced83bad7cb619ba470469c1fa17f01a48381"
+    },
+    {
+      "path": "tests/sources/test_chem_profiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e15d2dd4572c28d13fde1cb7982049faf0f46915",
+      "size": 5724,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e15d2dd4572c28d13fde1cb7982049faf0f46915"
+    },
+    {
+      "path": "tests/sources/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ffd24c2900d89bed6a799ec61ac3596027753d",
+      "size": 4490,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/83ffd24c2900d89bed6a799ec61ac3596027753d"
+    },
+    {
+      "path": "tests/sources/test_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd2b8f189c027b0a7c2611f95b5497816c26dc71",
+      "size": 4645,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/cd2b8f189c027b0a7c2611f95b5497816c26dc71"
+    },
+    {
+      "path": "tests/sources/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "645d349cc84649461f038046867322672235b181",
+      "size": 1876,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/645d349cc84649461f038046867322672235b181"
+    },
+    {
+      "path": "tests/sources/test_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02541e0f9b4701aeaac67914d21a485daee1bb98",
+      "size": 17010,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/02541e0f9b4701aeaac67914d21a485daee1bb98"
+    },
+    {
+      "path": "tests/sources/test_depmap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f283820a31776de34ff4f1ed335c782b9597cc24",
+      "size": 950,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/f283820a31776de34ff4f1ed335c782b9597cc24"
+    },
+    {
+      "path": "tests/sources/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e320c587c051ccfe0edffdc84893c8bea1c60186",
+      "size": 16004,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/e320c587c051ccfe0edffdc84893c8bea1c60186"
+    },
+    {
+      "path": "tests/sources/test_registry_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e25e110432b7a9a6b762f6a66bc38b8944807c8",
+      "size": 8266,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/9e25e110432b7a9a6b762f6a66bc38b8944807c8"
+    },
+    {
+      "path": "tests/sources/test_string.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf64c1b4bdf8bcb6502096cc9cc9948e1bf838a",
+      "size": 1444,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/3cf64c1b4bdf8bcb6502096cc9cc9948e1bf838a"
+    },
+    {
+      "path": "tests/sources/test_uniprot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6685e30d4c85bc48be3c4aae3c194427badc8169",
+      "size": 2716,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6685e30d4c85bc48be3c4aae3c194427badc8169"
+    },
+    {
+      "path": "tests/sources/test_verify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a698112a98707ec7c0d4cec6abcb00917e3d5610",
+      "size": 5672,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/a698112a98707ec7c0d4cec6abcb00917e3d5610"
+    },
+    {
+      "path": "tests/sources/text",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c01ee096eebd961fbdc770413eff1753ce60b637",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/c01ee096eebd961fbdc770413eff1753ce60b637"
+    },
+    {
+      "path": "tests/sources/text/fakes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf63e267d13c84ebe13dc1ce6af23432160fc583",
+      "size": 1865,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/bf63e267d13c84ebe13dc1ce6af23432160fc583"
+    },
+    {
+      "path": "tests/sources/text/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "784619fb2b88a9e4434706f3c88c5d4d5fdc70bd",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/784619fb2b88a9e4434706f3c88c5d4d5fdc70bd"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee15d3ab7b32c979bb836457d4a09dfb049cfcfa",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/ee15d3ab7b32c979bb836457d4a09dfb049cfcfa"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "28746c27346499b693c8fb56c435d9d565cc9447",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/28746c27346499b693c8fb56c435d9d565cc9447"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0/CVCL_0186.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9454459fa86e58661bf30bb2e029a2b7eabb15",
+      "size": 626,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/cf9454459fa86e58661bf30bb2e029a2b7eabb15"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0/CVCL_9771.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249a8d2e788a73632cf99c719239366495931c19",
+      "size": 578,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/249a8d2e788a73632cf99c719239366495931c19"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0/CVCL_Y001.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5e9befaf13d62f9375a25508204d137a153aab",
+      "size": 781,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1e5e9befaf13d62f9375a25508204d137a153aab"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0/CVCL_Y002.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7c1eb97b7b3e713aa60d3dc1391694eeb4504d",
+      "size": 1099,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/2a7c1eb97b7b3e713aa60d3dc1391694eeb4504d"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/56.0/CVCL_Y003.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea701fc234a166b28ee8d76032a394633fbc762",
+      "size": 1669,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/bea701fc234a166b28ee8d76032a394633fbc762"
+    },
+    {
+      "path": "tests/sources/text/fixtures/cellosaurus/release-info.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecadbb3277d1610ba972e11c64017a4d2c6ee46",
+      "size": 117,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7ecadbb3277d1610ba972e11c64017a4d2c6ee46"
+    },
+    {
+      "path": "tests/sources/text/test_contexts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e99fb9f7d16fcf3cce66a3e2883bde8271a82c4",
+      "size": 15669,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/7e99fb9f7d16fcf3cce66a3e2883bde8271a82c4"
+    },
+    {
+      "path": "tests/sources/text/test_drugs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0892dc222a9811377bb8b635fc73f98c1b5fdd17",
+      "size": 10451,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/0892dc222a9811377bb8b635fc73f98c1b5fdd17"
+    },
+    {
+      "path": "tests/sources/text/test_genes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4447678ec586ebf81c600e6b61d45070b63cb30a",
+      "size": 17849,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/4447678ec586ebf81c600e6b61d45070b63cb30a"
+    },
+    {
+      "path": "tests/sources/text/test_http.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1638694927d0fb42289084fcd852c06e5dd752e5",
+      "size": 3408,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/1638694927d0fb42289084fcd852c06e5dd752e5"
+    },
+    {
+      "path": "tests/sources/text/test_ncbi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fccc234a91f9a662fe462919f5ad39bc5d3e4df",
+      "size": 8809,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/8fccc234a91f9a662fe462919f5ad39bc5d3e4df"
+    },
+    {
+      "path": "tests/test_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8615458c7b197fab236c68602b83539fdfd937",
+      "size": 17609,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/ac8615458c7b197fab236c68602b83539fdfd937"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108d11c4843d77094221a13775bfbacffd313816",
+      "size": 4665,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/108d11c4843d77094221a13775bfbacffd313816"
+    },
+    {
+      "path": "tests/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fed9449cc7dffbe35e22ec5e11c79ebfafbc5d1b",
+      "size": 26212,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/fed9449cc7dffbe35e22ec5e11c79ebfafbc5d1b"
+    },
+    {
+      "path": "tests/test_evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6438306ae9cbf35ffa2eb1a7349a9ee279047503",
+      "size": 8252,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/6438306ae9cbf35ffa2eb1a7349a9ee279047503"
+    },
+    {
+      "path": "tests/test_infer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1f2a6b71648a668e4928a981f0a378b579b006d",
+      "size": 3181,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/c1f2a6b71648a668e4928a981f0a378b579b006d"
+    },
+    {
+      "path": "tests/test_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50f78b0ac99035d5c5a2fa10a078a5cbfda4ceb1",
+      "size": 20745,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/50f78b0ac99035d5c5a2fa10a078a5cbfda4ceb1"
+    },
+    {
+      "path": "tests/test_package.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852eab5d748d1d440ef4f52c10c779c68e56ce42",
+      "size": 1640,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/852eab5d748d1d440ef4f52c10c779c68e56ce42"
+    },
+    {
+      "path": "tests/test_predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "064290bc29de115f985862496ad396832aed56a2",
+      "size": 8277,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/064290bc29de115f985862496ad396832aed56a2"
+    },
+    {
+      "path": "tests/test_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aca11639bcde2a13e6619282612ef6879110d03",
+      "size": 19603,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/4aca11639bcde2a13e6619282612ef6879110d03"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fee917ab958a3f550cecd57f6a898aa577ea761a",
+      "size": 15760,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/fee917ab958a3f550cecd57f6a898aa577ea761a"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc4bac7d5343aa610bb927eff8308f9d85516069",
+      "size": 232827,
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/blobs/bc4bac7d5343aa610bb927eff8308f9d85516069"
+    }
+  ],
+  "truncated": false
+}

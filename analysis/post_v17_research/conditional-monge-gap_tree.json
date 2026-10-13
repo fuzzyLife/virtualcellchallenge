@@ -1,0 +1,876 @@
+{
+  "sha": "195f5cd1822e7c7de7c7ee842a7e4082992ccc04",
+  "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/195f5cd1822e7c7de7c7ee842a7e4082992ccc04",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "080698ed1621183f88450152ef4afb90f27b8aa5",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/080698ed1621183f88450152ef4afb90f27b8aa5"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c0291f6a819c25a13484a56b955c5e9e2d3cda8",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/3c0291f6a819c25a13484a56b955c5e9e2d3cda8"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c7a2487d7a425525c9e1fba361a2fead58f4fa",
+      "size": 657,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/53c7a2487d7a425525c9e1fba361a2fead58f4fa"
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b6450b8243e6fbab8d4578a914e0e420afeaca7",
+      "size": 621,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/2b6450b8243e6fbab8d4578a914e0e420afeaca7"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa27258eb0028942a330e867ddef741eced34f0",
+      "size": 1279,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/afa27258eb0028942a330e867ddef741eced34f0"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca01ef6c22b5d41c9db7e846a9d1a61239acd76",
+      "size": 562,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/4ca01ef6c22b5d41c9db7e846a9d1a61239acd76"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754f4e603fc11af493ffd5fdb5bc31e9b0cc596f",
+      "size": 1088,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/754f4e603fc11af493ffd5fdb5bc31e9b0cc596f"
+    },
+    {
+      "path": "Notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3923af6a4e6132fa3f37afcc7e95234b89c8b80",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/e3923af6a4e6132fa3f37afcc7e95234b89c8b80"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0293b56cb31e9fb649a3d089c5f4db6fc57658bc",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/0293b56cb31e9fb649a3d089c5f4db6fc57658bc"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Fig. 2D, 2E, Extended Data Fig. 3 - Pathway Enrichment Venn and Bars.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc0d57bdde5e5f09a462c7e0022ae0ca83ca46a5",
+      "size": 379994,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/dc0d57bdde5e5f09a462c7e0022ae0ca83ca46a5"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Fig. A7, A10- Performance vs distance in embedding.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd6e00639d206b9634fc6b43a8865e4d651028a",
+      "size": 3621056,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/6dd6e00639d206b9634fc6b43a8865e4d651028a"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figure 2, Fig. A8, A9 - Table A1, A8- Monge benchmark 4i.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0e6c239aa9db402943c941f0e5b7a560e3142ef",
+      "size": 6199736,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/c0e6c239aa9db402943c941f0e5b7a560e3142ef"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figure 4, Fig. A4 - 4i ID OOD results.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5737e3c37168d9c3a46222ccd749f040301d7eb9",
+      "size": 2964283,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/5737e3c37168d9c3a46222ccd749f040301d7eb9"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figure 5C - Full sciplex chemCPA and CMonge comparison.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d620f7f5129345627b1e9452b383da8087831ff",
+      "size": 767764,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/5d620f7f5129345627b1e9452b383da8087831ff"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figure 5D,  Fig. A11  - CMonge sciplex Source, target, transport UMAPs.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20f6c81a125c4933eef6ed8134a8c60896c1f35",
+      "size": 621147,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f20f6c81a125c4933eef6ed8134a8c60896c1f35"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figure 5D, Fig. A11 - chemCPA sciplex Source, Target, Transport UMAPs.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb8ce1f484e0ae90d12fa6b97a50eb3701f27709",
+      "size": 8256,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/bb8ce1f484e0ae90d12fa6b97a50eb3701f27709"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figures 1C&3, Fig. A3 - Table 1, A2, A3 - Sciplex ID.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e311d5f0c8df810f33d39938b311042beb31957",
+      "size": 5308027,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/8e311d5f0c8df810f33d39938b311042beb31957"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Figures 1D, 5A, 5B, Fig. A5, A6 - Table 1, 2, A3, A5 - Sciplex OOD.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e61f30c6e8dfa55ab2a4f3b041156f62f3cba5",
+      "size": 5406118,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f4e61f30c6e8dfa55ab2a4f3b041156f62f3cba5"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Table A4, A6, A7 - chemCPA - ID - OOD.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02cd1acce93173593f44a3c30fea10ca4968ee37",
+      "size": 310636,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/02cd1acce93173593f44a3c30fea10ca4968ee37"
+    },
+    {
+      "path": "Notebooks/03_CMonge_results/Table A6, A7 - CMonge 5perc OOD CV.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "048fefc3c99676f4533036affcb9524ff5f2d79c",
+      "size": 26035,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/048fefc3c99676f4533036affcb9524ff5f2d79c"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc69fe121544d8af9b139732bd3a2ec3d8492630",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/cc69fe121544d8af9b139732bd3a2ec3d8492630"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/5perc drug split.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7e3ca09123c27d94512441bc8eccb8798fe56f",
+      "size": 13227,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/ed7e3ca09123c27d94512441bc8eccb8798fe56f"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/Adata for monge drug dose ood.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3749137298b4c7cf949dba44a267c113d8eef74f",
+      "size": 7340,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/3749137298b4c7cf949dba44a267c113d8eef74f"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/Adata for monge drug dose.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c91d80b0bca4828009c71184acb40cfcbc62ea7",
+      "size": 7357,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/9c91d80b0bca4828009c71184acb40cfcbc62ea7"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/Adata_for_monge_ID_sciplex.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857feceda516d01809483ab3a44ba6a5ae5971d9",
+      "size": 19052,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/857feceda516d01809483ab3a44ba6a5ae5971d9"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/Adata_for_monge_dose_ood.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54e564329624513f4601633d649091007da4816",
+      "size": 5556,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e54e564329624513f4601633d649091007da4816"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/RDkit embeddings for 4i.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8af4da34fcc45661ef2517d58946194333359d",
+      "size": 50961,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/1e8af4da34fcc45661ef2517d58946194333359d"
+    },
+    {
+      "path": "Notebooks/04_CMonge_manuscript_analyses/chemCPA model size.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2834a8d13549b0a6863bc572a0c89fbf81ab5eb",
+      "size": 21494,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/b2834a8d13549b0a6863bc572a0c89fbf81ab5eb"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664e35353b1e9ba23c433457cf6abcfc3f10e0bd",
+      "size": 6777,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/664e35353b1e9ba23c433457cf6abcfc3f10e0bd"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d70fea0e423b7392559ea08f26380cecfd8d121",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/9d70fea0e423b7392559ea08f26380cecfd8d121"
+    },
+    {
+      "path": "assets/nature-machine-intelligence-cover-vol8-issue6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f052212256631976238173bc338a54103ce08b4",
+      "size": 148998,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/9f052212256631976238173bc338a54103ce08b4"
+    },
+    {
+      "path": "assets/overview.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0620c74a946beb16675de30392dc47953ab3353f",
+      "size": 488440,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/0620c74a946beb16675de30392dc47953ab3353f"
+    },
+    {
+      "path": "cmonge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a661ddd32adc93a8b4cbcd18120731df8559c182",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/a661ddd32adc93a8b4cbcd18120731df8559c182"
+    },
+    {
+      "path": "cmonge/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e014dfbbbe12646174bef316355c2dbdeb12b5",
+      "size": 92,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/27e014dfbbbe12646174bef316355c2dbdeb12b5"
+    },
+    {
+      "path": "cmonge/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4dcab6b7b4041e73da2a7c5e74baf237ba45777",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/e4dcab6b7b4041e73da2a7c5e74baf237ba45777"
+    },
+    {
+      "path": "cmonge/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/datasets/conditional_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390d66bc14eab49ed55a1007277b9d50a0558732",
+      "size": 6846,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/390d66bc14eab49ed55a1007277b9d50a0558732"
+    },
+    {
+      "path": "cmonge/datasets/single_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4453bcd73029ee1668fc0d60dd5d8c45068ee14c",
+      "size": 15043,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/4453bcd73029ee1668fc0d60dd5d8c45068ee14c"
+    },
+    {
+      "path": "cmonge/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e89de0a7fa076331d596a32365321cc848289e",
+      "size": 2960,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/95e89de0a7fa076331d596a32365321cc848289e"
+    },
+    {
+      "path": "cmonge/metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f076e46cfc4670c564037493a1d1e4b35871ab",
+      "size": 3558,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e9f076e46cfc4670c564037493a1d1e4b35871ab"
+    },
+    {
+      "path": "cmonge/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35000e1de82656732a6e8c1baa1fe273b3165509",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/35000e1de82656732a6e8c1baa1fe273b3165509"
+    },
+    {
+      "path": "cmonge/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/models/embedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6be90e8c11b34f87289cbdad9da756f2d2d0a3",
+      "size": 8877,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/3a6be90e8c11b34f87289cbdad9da756f2d2d0a3"
+    },
+    {
+      "path": "cmonge/models/nn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60460a3a70899f2de540671254e210236af601b1",
+      "size": 15842,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/60460a3a70899f2de540671254e210236af601b1"
+    },
+    {
+      "path": "cmonge/models/rdkit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "810d3115f3114ff7592c1b6f287099e37271a3cd",
+      "size": 4492,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/810d3115f3114ff7592c1b6f287099e37271a3cd"
+    },
+    {
+      "path": "cmonge/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06b5e9c1ccf042df311ba6fad347dbdcf5497ef1",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/06b5e9c1ccf042df311ba6fad347dbdcf5497ef1"
+    },
+    {
+      "path": "cmonge/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/tests/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d2d130ef506c4287067ec18a1f706209ca462e0",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/9d2d130ef506c4287067ec18a1f706209ca462e0"
+    },
+    {
+      "path": "cmonge/tests/configs/synthetic.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a47edf5b7606280dfda84080ee1ab772112876a",
+      "size": 218,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/3a47edf5b7606280dfda84080ee1ab772112876a"
+    },
+    {
+      "path": "cmonge/tests/configs/test.h5ad",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbeeaa4e409e173e8ccc28f235aeaf11536de9e5",
+      "size": 44384,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/bbeeaa4e409e173e8ccc28f235aeaf11536de9e5"
+    },
+    {
+      "path": "cmonge/tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6be9efff3b2faac416ded4852932e21bc369fc5c",
+      "size": 450,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/6be9efff3b2faac416ded4852932e21bc369fc5c"
+    },
+    {
+      "path": "cmonge/tests/datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "014fa419566cc292bbc5d5b5347bf7356cd5cecc",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/014fa419566cc292bbc5d5b5347bf7356cd5cecc"
+    },
+    {
+      "path": "cmonge/tests/datasets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/tests/datasets/test_conditional_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "571cbb14747e48397e4880e705de1f36d97d4ecc",
+      "size": 2701,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/571cbb14747e48397e4880e705de1f36d97d4ecc"
+    },
+    {
+      "path": "cmonge/tests/datasets/test_single_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef4d7906f4a44a38ff015c8d5afc0f0864e5996f",
+      "size": 1607,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/ef4d7906f4a44a38ff015c8d5afc0f0864e5996f"
+    },
+    {
+      "path": "cmonge/tests/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dc1d4fb1d937ca19f84cf8eb4c229d3dca5819e",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/2dc1d4fb1d937ca19f84cf8eb4c229d3dca5819e"
+    },
+    {
+      "path": "cmonge/tests/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/tests/models/test_attention_pooling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5723b47500cc7e8b8ed06deb3083e2db0eadb0a",
+      "size": 4831,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/b5723b47500cc7e8b8ed06deb3083e2db0eadb0a"
+    },
+    {
+      "path": "cmonge/tests/test_imports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4cc0110f73cb051c5ca25c8549d90ae36ae0937",
+      "size": 1523,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f4cc0110f73cb051c5ca25c8549d90ae36ae0937"
+    },
+    {
+      "path": "cmonge/trainers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd49b7f725793763db700d36ffc03af7e2ca76fb",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/bd49b7f725793763db700d36ffc03af7e2ca76fb"
+    },
+    {
+      "path": "cmonge/trainers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cmonge/trainers/ae_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3171b7e45e64c647753c0ab711b81de7d9a52c0c",
+      "size": 8764,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/3171b7e45e64c647753c0ab711b81de7d9a52c0c"
+    },
+    {
+      "path": "cmonge/trainers/conditional_monge_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4a3e07a01ffb2f5bee4738527dfe5f87f11859f",
+      "size": 13465,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/c4a3e07a01ffb2f5bee4738527dfe5f87f11859f"
+    },
+    {
+      "path": "cmonge/trainers/conditional_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93f9167a8eed0f1a8053775470b1e1962fa67c7",
+      "size": 15051,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/a93f9167a8eed0f1a8053775470b1e1962fa67c7"
+    },
+    {
+      "path": "cmonge/trainers/ot_trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f23525c23655ca5d229bd8c2e16e8f9d48e23e6e",
+      "size": 12916,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f23525c23655ca5d229bd8c2e16e8f9d48e23e6e"
+    },
+    {
+      "path": "cmonge/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b74c39ecf68c055010b9f60c74014d7d1e76ef",
+      "size": 6239,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/38b74c39ecf68c055010b9f60c74014d7d1e76ef"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac5952cecc1d909e306d3d5699ca62130f49c9e0",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/ac5952cecc1d909e306d3d5699ca62130f49c9e0"
+    },
+    {
+      "path": "configs/autoencoder-4i.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0153b731a2d58ef1fdb3b389af3c96f27b9276dd",
+      "size": 538,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/0153b731a2d58ef1fdb3b389af3c96f27b9276dd"
+    },
+    {
+      "path": "configs/autoencoder-demo.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35cd23048a5a4e432e24cac3cb5023b01bd747c1",
+      "size": 563,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/35cd23048a5a4e432e24cac3cb5023b01bd747c1"
+    },
+    {
+      "path": "configs/autoencoder-sciplex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e1beb53a9c2edcdb0fceefd4bb669340522a99",
+      "size": 562,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/87e1beb53a9c2edcdb0fceefd4bb669340522a99"
+    },
+    {
+      "path": "configs/autoencoder-synthetic.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abb407fac906d2c625fbf733770fadfd285b3a00",
+      "size": 833,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/abb407fac906d2c625fbf733770fadfd285b3a00"
+    },
+    {
+      "path": "configs/conditional-dual-sciplex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc302e3662f96a04f6a1640321a656e97e3508b",
+      "size": 1033,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/8bc302e3662f96a04f6a1640321a656e97e3508b"
+    },
+    {
+      "path": "configs/conditional-monge-sciplex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1cb5f81160c8322762b5ab21b4ed666f285ee2",
+      "size": 1402,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/db1cb5f81160c8322762b5ab21b4ed666f285ee2"
+    },
+    {
+      "path": "configs/demo_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86f562939768d979dd4a92dc12dae9de0153a7d7",
+      "size": 1413,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/86f562939768d979dd4a92dc12dae9de0153a7d7"
+    },
+    {
+      "path": "configs/dual-4i.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2f488851d40104a0115021569ff952a8c0f1f6",
+      "size": 698,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/dd2f488851d40104a0115021569ff952a8c0f1f6"
+    },
+    {
+      "path": "configs/dual-sciplex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deafdcd643cef971fce199d8a76f62d978540eaf",
+      "size": 559,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/deafdcd643cef971fce199d8a76f62d978540eaf"
+    },
+    {
+      "path": "configs/dual-synthetic.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2199382227bd3c44a64551bb8a10fa1feec9396d",
+      "size": 754,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/2199382227bd3c44a64551bb8a10fa1feec9396d"
+    },
+    {
+      "path": "configs/monge-4i.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87df6adf19e90bab4ebc2536313a53631bd918ca",
+      "size": 653,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/87df6adf19e90bab4ebc2536313a53631bd918ca"
+    },
+    {
+      "path": "configs/monge-sciplex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f689e599144cb6aeca7b5253af6577c7d2176fd2",
+      "size": 769,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f689e599144cb6aeca7b5253af6577c7d2176fd2"
+    },
+    {
+      "path": "configs/monge-synthetic.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00ffe9644ad20d60f649d205e94a5a6d77ba47d",
+      "size": 806,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/b00ffe9644ad20d60f649d205e94a5a6d77ba47d"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b74f1927ed70256ba9309b58b8b90a9b0ccd4978",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/b74f1927ed70256ba9309b58b8b90a9b0ccd4978"
+    },
+    {
+      "path": "data/dummy_data.h5ad",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4656f4a3f58d993b898f8cc8d2e8d5b2b7cc52f3",
+      "size": 3456480,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/4656f4a3f58d993b898f8cc8d2e8d5b2b7cc52f3"
+    },
+    {
+      "path": "data/lincs_trapnell.smiles",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ade8a02fbfa34c0263da0e837404c15e4ffea71",
+      "size": 1190081,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/7ade8a02fbfa34c0263da0e837404c15e4ffea71"
+    },
+    {
+      "path": "data/trapnell_drugs_smiles.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fcc682c74e4deadc65b753913addc84d82128af",
+      "size": 14230,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/0fcc682c74e4deadc65b753913addc84d82128af"
+    },
+    {
+      "path": "logs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2517e2b63e0e4f2a34e8dbdc8346689bfdb4f3c4",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/2517e2b63e0e4f2a34e8dbdc8346689bfdb4f3c4"
+    },
+    {
+      "path": "logs/demo_logs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342ec2062373f0fd6b2bccefaf996bf108e1386d",
+      "size": 15984,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/342ec2062373f0fd6b2bccefaf996bf108e1386d"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88bab1379d92b47b8470681f0c46d790ff0b94d3",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/88bab1379d92b47b8470681f0c46d790ff0b94d3"
+    },
+    {
+      "path": "models/demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ddd255fb08a712ae550d6fc1ea756bc254da0cc",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/8ddd255fb08a712ae550d6fc1ea756bc254da0cc"
+    },
+    {
+      "path": "models/demo/cond-sciplex",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a11dac32566011a8c217ebe9d87fb70be5fe5f07",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/a11dac32566011a8c217ebe9d87fb70be5fe5f07"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93fab7ed19b7f6695f095f71a7574c25768f5343",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/93fab7ed19b7f6695f095f71a7574c25768f5343"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/_CHECKPOINT_METADATA",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83fa72eae1098c8ff2dcacbf04658fd4d49cbc0e",
+      "size": 249,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/83fa72eae1098c8ff2dcacbf04658fd4d49cbc0e"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/_METADATA",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "542edc265a271bac07a62017ca3bdc374075cef5",
+      "size": 3577,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/542edc265a271bac07a62017ca3bdc374075cef5"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/_sharding",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "482f535d458e80749a90cf3a5e2325a28acc14ee",
+      "size": 1552,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/482f535d458e80749a90cf3a5e2325a28acc14ee"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd59c4349ad0922c65294cc561189687286c077a",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/fd59c4349ad0922c65294cc561189687286c077a"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/d/4769feb186b5ce623050448ae2f326ab",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c9dab7ab14d47c89878c9bf2031356217294a8",
+      "size": 1149,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e3c9dab7ab14d47c89878c9bf2031356217294a8"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/manifest.ocdbt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb0b11171929db2a987804b5e88c9bfc3320942",
+      "size": 116,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/0fb0b11171929db2a987804b5e88c9bfc3320942"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a75a5f904a19b8918cf1ae2e32bacf3cd4ad802a",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/a75a5f904a19b8918cf1ae2e32bacf3cd4ad802a"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4f7c2443d75f858cb48cbff1ebb4edb43ce19a9",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/d4f7c2443d75f858cb48cbff1ebb4edb43ce19a9"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/d/11097d75a32032875ec7756bab40cb78",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c519630a7258a47b9d67f44fc04367d1748c6946",
+      "size": 2512368,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/c519630a7258a47b9d67f44fc04367d1748c6946"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/d/2441ea942e782fcca157b632cef2ba6b",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ca09667faa9b71a680ebb43e33ba6fb52c47645",
+      "size": 358,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/9ca09667faa9b71a680ebb43e33ba6fb52c47645"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/d/7f23f30c838699325bb8d7bc7792cc67",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a050b52d144472af05f2a659a297f1151f453b95",
+      "size": 392,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/a050b52d144472af05f2a659a297f1151f453b95"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/d/bc274c4cbe1abeacd2324985ad6665cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cfae47d35f6dffb9d0a09ea577bca04c90d292d",
+      "size": 183,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/3cfae47d35f6dffb9d0a09ea577bca04c90d292d"
+    },
+    {
+      "path": "models/demo/cond-sciplex/autoencoder_50_cond-sciplex_homogeneous_49/ocdbt.process_0/manifest.ocdbt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc14db4750f6920671017fce6d46be6bc9775ec",
+      "size": 243,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/bcc14db4750f6920671017fce6d46be6bc9775ec"
+    },
+    {
+      "path": "models/embed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6a3f1d3fe9e8a8a23d675404d78ea41d06a52c1",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/b6a3f1d3fe9e8a8a23d675404d78ea41d06a52c1"
+    },
+    {
+      "path": "models/embed/demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24694bfe0cb5a4dffcd2060aa9fbe6abc56605db",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/24694bfe0cb5a4dffcd2060aa9fbe6abc56605db"
+    },
+    {
+      "path": "models/embed/demo/rdkit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "796d63a43ba39b38bc4558cfecaa67c2606c6aec",
+      "size": 37863,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/796d63a43ba39b38bc4558cfecaa67c2606c6aec"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d11a99f2f95979ce954aa00cbbc8e950d03f3a",
+      "size": 2162,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/91d11a99f2f95979ce954aa00cbbc8e950d03f3a"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b201030efad817ed73b424ab37b108424fb5bc9f",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/b201030efad817ed73b424ab37b108424fb5bc9f"
+    },
+    {
+      "path": "scripts/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "scripts/demo_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584f1d6e2746fabdeb7e3bab875d9db2d5b83cb0",
+      "size": 1089,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/584f1d6e2746fabdeb7e3bab875d9db2d5b83cb0"
+    },
+    {
+      "path": "scripts/train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc887cfea2797f02a6c8c9d6d48cfaa7ccaad428",
+      "size": 1395,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/fc887cfea2797f02a6c8c9d6d48cfaa7ccaad428"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f94c946aa2f7b0f9ede952e385b3fe5bef6d6187",
+      "size": 222647,
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/blobs/f94c946aa2f7b0f9ede952e385b3fe5bef6d6187"
+    }
+  ],
+  "truncated": false
+}

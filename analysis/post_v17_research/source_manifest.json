@@ -1,0 +1,356 @@
+{
+  "date": "2026-10-13",
+  "purpose": "Pinned author-code and asset inspection only. No model weights or large expression matrices downloaded.",
+  "sources": [
+    {
+      "file": "CIPHER_tree.json",
+      "url": "https://api.github.com/repos/GoyalLab/CIPHER/git/trees/11f0fca33b891d83032ea7788c216d02b67ca6e5?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "de2c98a32594972991c307b7e96d37f40b45ab5d9a247f76ba78b4dafb94545e",
+      "bytes": 135076
+    },
+    {
+      "file": "CIPHER_README.md",
+      "url": "https://raw.githubusercontent.com/GoyalLab/CIPHER/11f0fca33b891d83032ea7788c216d02b67ca6e5/README.md",
+      "kind": "immutable_download",
+      "sha256": "d82da44564ab6494e19b9d9d5cf669e4561f25f7514303ead34849c1e47f0522",
+      "bytes": 16812
+    },
+    {
+      "file": "CIPHER_LICENSE",
+      "url": "https://raw.githubusercontent.com/GoyalLab/CIPHER/11f0fca33b891d83032ea7788c216d02b67ca6e5/LICENSE",
+      "kind": "immutable_download",
+      "sha256": "b52de17aa593c8dff15abc2f1343e117cde78ecb91519ad9e35bdc8e145643f0",
+      "bytes": 1257
+    },
+    {
+      "file": "CIPHER_cipher_forward.py",
+      "url": "https://raw.githubusercontent.com/GoyalLab/CIPHER/11f0fca33b891d83032ea7788c216d02b67ca6e5/cipher/forward.py",
+      "kind": "immutable_download",
+      "sha256": "e5040a5a03abd8163e71cbe2a98d0ee3fd4139d2089dd5bb93dfb31d1194d0f0",
+      "bytes": 10610
+    },
+    {
+      "file": "CIPHER_cipher_covariance.py",
+      "url": "https://raw.githubusercontent.com/GoyalLab/CIPHER/11f0fca33b891d83032ea7788c216d02b67ca6e5/cipher/covariance.py",
+      "kind": "immutable_download",
+      "sha256": "2bc9e0b6ff9a395ba37f75dfb894ea96d93c0fff98a502ccd4614096241a8ddd",
+      "bytes": 5143
+    },
+    {
+      "file": "CIPHER_resources_zenodo_manifest.csv",
+      "url": "https://raw.githubusercontent.com/GoyalLab/CIPHER/11f0fca33b891d83032ea7788c216d02b67ca6e5/resources/zenodo_manifest.csv",
+      "kind": "immutable_download",
+      "sha256": "bded3a53dcd34ec931b9b8db1418c840e3fd4b9259e3b8e0e9e348d9779b203b",
+      "bytes": 4648
+    },
+    {
+      "file": "stack_tree.json",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/cacc2e4b09435c3e536d46237d10b50f222dd144?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "597e101a0385be1c0446997e585ec646654f501a5a53850633ad0ac856763dd4",
+      "bytes": 24098
+    },
+    {
+      "file": "stack_README.md",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/README.md",
+      "kind": "immutable_download",
+      "sha256": "386d08b18c33822bf3234e6697c3e2ea2a8769b59f8696c9a62859bb494b1388",
+      "bytes": 6987
+    },
+    {
+      "file": "stack_LICENSE",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/LICENSE",
+      "kind": "immutable_download",
+      "sha256": "1349a4b6148492b44f629e64eed676612e234fe9a839e4f3b277c1482c8849f1",
+      "bytes": 20849
+    },
+    {
+      "file": "stack_MODEL_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/MODEL_LICENSE.md",
+      "kind": "immutable_download",
+      "sha256": "6dc79b8a936f9f3b3eaf5541a11c46a5a6edb6164461940b6656b7f3b25d0cb1",
+      "bytes": 9864
+    },
+    {
+      "file": "stack_setup.cfg",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/setup.cfg",
+      "kind": "immutable_download",
+      "sha256": "8820503e859b18f04ac5f20120bd9d0d0da60620a12cdd6ceb31ef6f051927bd",
+      "bytes": 873
+    },
+    {
+      "file": "stack_src_stack_cli_generation.py",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/src/stack/cli/generation.py",
+      "kind": "immutable_download",
+      "sha256": "bb50a6ca39d37d80944f01019256065ab09ccf819e58749bd67756359e71ede9",
+      "bytes": 18612
+    },
+    {
+      "file": "stack_src_stack_models_core_inference.py",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/src/stack/models/core/inference.py",
+      "kind": "immutable_download",
+      "sha256": "3c4cc2a621415f1b1eb32f84763258e5e2f14aa482eaa2c94e225763e13dc5f4",
+      "bytes": 39029
+    },
+    {
+      "file": "stack_notebooks_tutorial-predict.ipynb",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/stack/cacc2e4b09435c3e536d46237d10b50f222dd144/notebooks/tutorial-predict.ipynb",
+      "kind": "immutable_download",
+      "sha256": "fbf41ab12ad62682e9ca35b5b5c7caf59fd1ed01a26cdca1c3af0f40a9b35a9b",
+      "bytes": 99452
+    },
+    {
+      "file": "pie_tree.json",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/git/trees/21a526add9ff3a81b4f962d9b16bbae570052c63?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "16ba7033acecf057df334ca972122f963af213d2c174bc411d0af031f2282d46",
+      "bytes": 57476
+    },
+    {
+      "file": "pie_README.md",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/README.md",
+      "kind": "immutable_download",
+      "sha256": "de9aec7f61d464e5c33814b594ae833e2d6b3fc7de0c287be6cfbc263a7ba48c",
+      "bytes": 6987
+    },
+    {
+      "file": "pie_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/LICENSE.md",
+      "kind": "immutable_download",
+      "sha256": "8dad297919c8c508c5cae28aac6fa059e34daf66071ef0f30f3d1528b262c86a",
+      "bytes": 18859
+    },
+    {
+      "file": "pie_pyproject.toml",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/pyproject.toml",
+      "kind": "immutable_download",
+      "sha256": "5446264e574539f2f76ad3a35e425a543c2d018fdef4fe254b98a211bcac08b6",
+      "bytes": 2718
+    },
+    {
+      "file": "pie_src_pie_predict.py",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/src/pie/predict.py",
+      "kind": "immutable_download",
+      "sha256": "fe842a627545997dfc3fee5fde6698b1de58fe092ff668fe734180188bb40bde",
+      "bytes": 12397
+    },
+    {
+      "file": "pie_src_pie_infer.py",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/src/pie/infer.py",
+      "kind": "immutable_download",
+      "sha256": "941d00a00e7614697538f62688a553114bd8b3f605f46a82e0736bd2d3ea7eb2",
+      "bytes": 1447
+    },
+    {
+      "file": "pie_tests_test_predict.py",
+      "url": "https://raw.githubusercontent.com/ArcInstitute/pie/21a526add9ff3a81b4f962d9b16bbae570052c63/tests/test_predict.py",
+      "kind": "immutable_download",
+      "sha256": "f2d1619c088795cad7ecd2e6f2a7350a1bc46d51409b76f30cea25d644ce5ec6",
+      "bytes": 8277
+    },
+    {
+      "file": "CellFlow_tree.json",
+      "url": "https://api.github.com/repos/theislab/CellFlow/git/trees/446ed6073c60ac2e8db13c4ea096a43cdec288b2?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "0005d7301022034ffc0c1e42ee6a8245a23c13ddf5e520c391cdc781bbe0f2f9",
+      "bytes": 45700
+    },
+    {
+      "file": "nubot_tree.json",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/4953dda96397405d790b0d90d7db3f825099b20f?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "171bf260a22417c2e9095c232c64007d2567f7db56505373cf2231d9c9bd2657",
+      "bytes": 30088
+    },
+    {
+      "file": "conditional-monge-gap_tree.json",
+      "url": "https://api.github.com/repos/AI4SCR/conditional-monge-gap/git/trees/195f5cd1822e7c7de7c7ee842a7e4082992ccc04?recursive=1",
+      "kind": "api_snapshot",
+      "sha256": "637309f7a98129a393518ee79c58aa2ef7adf6308c819e63accff6727dcd368d",
+      "bytes": 36244
+    },
+    {
+      "file": "PIE_replogle_xdataset_model_info.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_xdataset",
+      "kind": "api_snapshot",
+      "sha256": "8d67476d214e4ef6ef8968610b752fbfbebdaedf62c6ede25a3ccb7dc3eee4f1",
+      "bytes": 2247
+    },
+    {
+      "file": "PIE_replogle_xdataset_model_files.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_xdataset/tree/f6da9607226139a1040b6992736118c9b5c7c313?recursive=true&limit=1000",
+      "kind": "api_snapshot",
+      "sha256": "ffb9c283fc974a8cf69ff8841fc038309208e267a6f0c76ca58b96dcf08004ce",
+      "bytes": 2276
+    },
+    {
+      "file": "PIE_replogle_xdataset_README.md",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_xdataset/resolve/f6da9607226139a1040b6992736118c9b5c7c313/README.md",
+      "kind": "immutable_download",
+      "sha256": "bde5897b89eb7aff393ea6d810c6dc7c701fdfe17229609f5fbe0c5f9dae3694",
+      "bytes": 7096
+    },
+    {
+      "file": "PIE_replogle_xdataset_config.yaml",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_xdataset/resolve/f6da9607226139a1040b6992736118c9b5c7c313/config.yaml",
+      "kind": "immutable_download",
+      "sha256": "375e3e92584d7048f9b9b5790aadea47bd2280a71fe14e2c9446fef9ff84d821",
+      "bytes": 3209
+    },
+    {
+      "file": "PIE_replogle_xdataset_data_stats.json",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_xdataset/resolve/f6da9607226139a1040b6992736118c9b5c7c313/data_stats.json",
+      "kind": "immutable_download",
+      "sha256": "86602cd2b5940108dedf8debbdc815736eb1692982a030a041d6009454766bf8",
+      "bytes": 1059
+    },
+    {
+      "file": "PIE_replogle_wdataset_model_info.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_wdataset",
+      "kind": "api_snapshot",
+      "sha256": "04a250f1bd1d09fccf9a1b9322e8b32706cfb1abab285ea29cce8ec8e3a3df8d",
+      "bytes": 4260
+    },
+    {
+      "file": "PIE_replogle_wdataset_model_files.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_wdataset/tree/055c7a2cabdaff5659121c64fa2b609c231fc5be?recursive=true&limit=1000",
+      "kind": "api_snapshot",
+      "sha256": "56795550ee1aa25f66d1407d6bce60314791845d32bb44743284ed372f5212d9",
+      "bytes": 10147
+    },
+    {
+      "file": "PIE_replogle_wdataset_README.md",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/resolve/055c7a2cabdaff5659121c64fa2b609c231fc5be/README.md",
+      "kind": "immutable_download",
+      "sha256": "965c008aed18f85e269cea725cd0fe9c7709dd64d15581e426ba257d4fc7d0ee",
+      "bytes": 6612
+    },
+    {
+      "file": "PIE_wdataset_k562_config.yaml",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/resolve/055c7a2cabdaff5659121c64fa2b609c231fc5be/k562/config.yaml",
+      "kind": "immutable_download",
+      "sha256": "bd8eab2dafaf2eb9a4daac3788ade8de96286506658e8ef5f1df6ef3e133243e",
+      "bytes": 2335
+    },
+    {
+      "file": "PIE_wdataset_k562_data_stats.json",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/resolve/055c7a2cabdaff5659121c64fa2b609c231fc5be/k562/data_stats.json",
+      "kind": "immutable_download",
+      "sha256": "76225c44a60c6ab1d4d887385ba2175cd39aed289101e62b4d46a589798a10c9",
+      "bytes": 754
+    },
+    {
+      "file": "PIE_wdataset_MODEL_LICENSE.md",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/resolve/055c7a2cabdaff5659121c64fa2b609c231fc5be/MODEL_LICENSE.md",
+      "kind": "immutable_download",
+      "sha256": "bea5d97e8119ee580e46f67f7ffe577ef5a89da073796fddb641fdf20208c1b2",
+      "bytes": 9844
+    },
+    {
+      "file": "PIE_wdataset_MODEL_ACCEPTABLE_USE_POLICY.md",
+      "url": "https://huggingface.co/arcinstitute/PIE_replogle_wdataset/resolve/055c7a2cabdaff5659121c64fa2b609c231fc5be/MODEL_ACCEPTABLE_USE_POLICY.md",
+      "kind": "immutable_download",
+      "sha256": "59361c546dafa34c7d10e0aee5af565b6d4c658a64661ca7465eda2604082b63",
+      "bytes": 5166
+    },
+    {
+      "file": "Stack-Large_model_info.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/Stack-Large",
+      "kind": "api_snapshot",
+      "sha256": "7c7daddc4d8d28117ecd61b98a5245409d9bceb03be437a1f44fe5b74aad3a8a",
+      "bytes": 1193
+    },
+    {
+      "file": "Stack-Large_model_files.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/Stack-Large/tree/6e1f352e8cc7f8718c74fe1d20b95c42e0942d9b?recursive=true&limit=1000",
+      "kind": "api_snapshot",
+      "sha256": "106798c2f3362e7acc090b3bf958ff89de1d27e0316f6fc304154c908386cd93",
+      "bytes": 1339
+    },
+    {
+      "file": "Stack-Large_README.md",
+      "url": "https://huggingface.co/arcinstitute/Stack-Large/resolve/6e1f352e8cc7f8718c74fe1d20b95c42e0942d9b/README.md",
+      "kind": "immutable_download",
+      "sha256": "c016eb95128bbba1d02c48ebba88829aa221fa298b5eff5791ac9970b3cd687f",
+      "bytes": 1806
+    },
+    {
+      "file": "Stack-Large-Aligned_model_info.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/Stack-Large-Aligned",
+      "kind": "api_snapshot",
+      "sha256": "754a6337cc8d74057000f3c4636a13c5b95bc7dbee3ed650f5686d39b65f050d",
+      "bytes": 1216
+    },
+    {
+      "file": "Stack-Large-Aligned_model_files.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/Stack-Large-Aligned/tree/b09f085dac03d170b078a5c72f550ae93686e544?recursive=true&limit=1000",
+      "kind": "api_snapshot",
+      "sha256": "f1fc417ae3b51daea7fb4c32dbbfe39ba8abbf17748f6107884f63ea420ce7ab",
+      "bytes": 1347
+    },
+    {
+      "file": "Stack-Large-Aligned_README.md",
+      "url": "https://huggingface.co/arcinstitute/Stack-Large-Aligned/resolve/b09f085dac03d170b078a5c72f550ae93686e544/README.md",
+      "kind": "immutable_download",
+      "sha256": "76106046880bb7cbbb71482bf9cf76b3614a243e6efc836138c7000d4100ce5e",
+      "bytes": 1917
+    },
+    {
+      "file": "stack_gene_vocabulary.pkl",
+      "url": "https://huggingface.co/arcinstitute/Stack-Large-Aligned/resolve/b09f085dac03d170b078a5c72f550ae93686e544/basecount_1000per_15000max.pkl",
+      "kind": "immutable_download",
+      "sha256": "d8761dfda955b9897d3251798b72361ddd0171ef707119eaf65381bed2d85dcc",
+      "bytes": 925039
+    },
+    {
+      "file": "gene_text_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/gene_text/meta.json",
+      "kind": "immutable_download",
+      "sha256": "edb1fa415cbc02c9d27101991407ac8a63b74f38f377a76c19a28b7ebddafcc1",
+      "bytes": 433168
+    },
+    {
+      "file": "perturbation_text_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/perturbation_text/meta.json",
+      "kind": "immutable_download",
+      "sha256": "7ad8611e90a13d523a93bdf777a4975362d738da10e8d5989822ed6bdb71dee7",
+      "bytes": 160288
+    },
+    {
+      "file": "esm2_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/esm2/meta.json",
+      "kind": "immutable_download",
+      "sha256": "6f8d9b56215c628a60d0f05ae635a65a6d6567a138f49c2c94863aa136f3d25c",
+      "bytes": 220332
+    },
+    {
+      "file": "PIE_sources_files.json",
+      "url": "https://huggingface.co/api/datasets/arcinstitute/PIE_sources/tree/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7?recursive=true&limit=1000",
+      "kind": "api_snapshot",
+      "sha256": "29bcbc50543f3d5cf43ee950ce7edaa8db976985ae47b47f80b60c3e1c36e17e",
+      "bytes": 9415
+    },
+    {
+      "file": "PIE_training_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_replogle_nadig_essential/resolve/20c9faef76fc96fdc809871340bd93499413dfe7/preprocessed/meta.json",
+      "kind": "immutable_download",
+      "sha256": "188bddb7df9682fa73a6621e2c8e58b7595a5409cf1ad82ed36185425633cb97",
+      "bytes": 162999
+    },
+    {
+      "file": "PIE_hf_models.json",
+      "url": "https://huggingface.co/api/models?author=arcinstitute&search=PIE",
+      "kind": "api_snapshot",
+      "sha256": "61c97e96419383e3c5d4135bff401f52d3538b67d8002a5a3941ca67cfa7272f",
+      "bytes": 1396
+    },
+    {
+      "file": "stack_hf_models.json",
+      "url": "https://huggingface.co/api/models?author=arcinstitute&search=stack",
+      "kind": "api_snapshot",
+      "sha256": "8e91f43d27064de6604ec8d4c7cf96b0032f2b634b68494f907632a80f5a5529",
+      "bytes": 918
+    }
+  ]
+}

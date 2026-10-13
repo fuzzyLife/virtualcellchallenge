@@ -1,0 +1,382 @@
+# CIPHER
+
+![CIPHER](resources/img/cipher.jpg)
+
+**Covariance Inference for Perturbation and High-dimensional Expression Response**
+
+CIPHER models the mean transcriptomic response to a perturbation as a linear
+readout of the *control* gene–gene covariance. Writing the mean expression shift
+of a perturbation as `delta_x`, CIPHER assumes
+
+```
+delta_x  ≈  Sigma @ u
+```
+
+where `Sigma` is the covariance estimated from unperturbed (control) cells and
+`u` is a sparse driver vector. This single relation powers two complementary
+tasks:
+
+- **Forward** — given a *known* perturbation (a gene that was knocked
+  down/out), predict its transcriptome-wide expression shift as a rank-1
+  projection `dx ≈ a_hat · Sigma[:, g]`. The scalar `a_hat` is fit by least
+  squares on a *train* set of genes and scored on a (optionally held-out) *test*
+  set, reporting uncentered/centered R², Pearson, Spearman, cosine, MSE/RMSE/MAE
+  and sign accuracy. Null covariances quantify the baseline expected from
+  marginal statistics with the gene-gene covariance destroyed.
+- **Reverse** — given only an observed shift `delta_x`, solve for `u` and rank
+  genes by `|u|` to recover the perturbed gene (the *driver*). On Perturb-seq
+  data, where the true target is known, this yields a rank / ROC-AUC per
+  perturbation; on any control-vs-condition dataset it yields a ranked list of
+  candidate driver genes.
+
+Preprint: https://www.biorxiv.org/content/10.1101/2025.06.27.661814v1
+
+## Installation
+
+Install the package in editable mode from the repository root:
+
+```bash
+pip install -e .
+```
+
+The core install is lightweight (`numpy`, `scipy`, `pandas`, `anndata`, `h5py`,
+`tqdm`). Optional extras add heavier, feature-specific dependencies:
+
+```bash
+pip install -e ".[plot]"    # matplotlib plotting helpers (cipher.plotting)
+pip install -e ".[bayes]"   # PyMC horseshoe reverse (bayesian_reverse)
+pip install -e ".[dev]"     # tests (pytest)
+```
+
+On the lab HPC the full conda environment (matching the exact versions used for
+the paper) can be built from the pinned spec:
+
+```bash
+conda env create -f environment.yaml
+```
+
+Installing does not run the test suite. To verify the install works, install the
+`[dev]` extra and run the tests (a fast synthetic suite, no datasets or GPU needed):
+
+```bash
+pip install -e ".[dev]"
+pytest                      # or: python -m pytest
+```
+
+## Quickstart (Python)
+
+The public API is exposed at the top level of the `cipher` package. Each
+application below takes a Perturb-seq `.h5ad` file and returns a result object —
+**start here**. The six normalization modes are `raw`, `log1p`, `frequency`,
+`libsize10k`, `log1CP10k`, and `pflog` (see `cipher.NORMALIZATION_MODES`). Every
+entry point **defaults to `raw`** (no transform); when a normalization is wanted,
+**`pflog`** is the recommended, variance-stabilizing choice for the covariance
+model (its dispersion is fit over the full control expression range). Driver
+recovery (reverse prediction) defaults to the empirical-Bayes **posterior inverse**
+(the most accurate, section 3); the linear solvers `matched_filter`, `pinv`,
+`ridge`, and `lstsq` remain available as lightweight baselines. For large or
+repeated analyses, precompute `Sigma` and the per-perturbation statistics to disk
+once (section 5).
+
+### 1. Forward prediction — predict a perturbation's shift (`ForwardResult`)
+
+```python
+import cipher
+
+res = cipher.forward_prediction(
+    "path/to/perturbseq.h5ad",
+    normalization="raw",   # default; use "pflog" for variance stabilization
+    nulls=("meanfield", "shuffled"),   # baseline covariance models
+    holdout_frac=0.0,                  # 0.5 for out-of-sample gene holdout (paper setting)
+    max_perturbations=None,            # int for a quick smoke test
+)
+
+res.results     # DataFrame per perturbation: r2_uncentered_real, r2_centered_real,
+                # pearson_real, spearman_real, cosine_real, mse_real, sign_accuracy_real,
+                # a_hat, n_train_genes, n_test_genes, r2_uncentered_<null>, ...
+res.summary     # dict: mean_r2_uncentered_real, mean_pearson_real, mean_r2_uncentered_<null>, ...
+res.save("path/to/output_dir")        # writes <dataset>_forward_<norm>.csv
+```
+
+You can also run forward metrics straight from a preprocessed directory
+(real `Sigma` only, matching the paper's final forward recompute):
+`cipher.forward_from_precomputed("path/to/output_dir", "log1p", holdout_frac=0.5)`.
+
+### 2. Reverse prediction — recover the perturbed gene (`ReverseResult`)
+
+```python
+import cipher
+
+res = cipher.reverse_prediction(
+    "path/to/perturbseq.h5ad",
+    normalization="raw",   # default; use "pflog" for variance stabilization
+    method="posterior",   # posterior (default) | pip | matched_filter | pinv | ridge | lstsq
+    top_k=10,
+)
+
+res.summary["mean_auc"]                 # mean one-vs-rest ROC-AUC of the true driver
+res.summary["top10_accuracy"]           # fraction with the target gene in the top-k
+res.results.sort_values("auc").head()   # per-perturbation ranks / AUC
+res.save("path/to/output_dir")          # writes <dataset>_reverse_<norm>_<method>.csv
+```
+
+The default `posterior` method is the fullH_diag empirical-Bayes inverse (the most
+accurate, section 3); `matched_filter`/`pinv`/`ridge`/`lstsq` are lightweight
+linear baselines. For the pooled ROC / precision-recall curves of the posterior,
+use `cipher.posterior_inverse_prediction` (section 3) directly.
+`cipher.reverse_from_precomputed(...)` runs the same from a preprocessed
+directory. With the `[bayes]` extra, `cipher.bayesian_reverse(Sigma, delta_x)`
+fits a horseshoe prior and returns posterior inclusion probabilities.
+
+### 3. Posterior inverse — strongest driver recovery (`InverseResult`)
+
+The strongest inverse solver is the **fullH_diag posterior**: it whitens `dx` by
+its per-perturbation sampling covariance (`lambda/n0 + projected_var/nu`), fits a
+prior variance by empirical Bayes, and scores each gene by its posterior
+perturbation strength (or a single-effect PIP), scored with pooled ROC /
+precision-recall curves.
+
+```python
+import cipher
+
+# End-to-end from an .h5ad (moderate datasets):
+res = cipher.posterior_inverse_prediction(
+    "path/to/perturbseq.h5ad",
+    normalization="pflog",
+    method="posterior",         # "posterior" (default) or "pip"
+)
+res.summary["pooled_auc"]                 # pooled one-vs-rest ROC-AUC
+res.summary["mean_per_pert_auc"]          # mean over perturbations
+res.summary["pooled_average_precision"]   # pooled AP (precision-recall)
+res.roc, res.prc                          # (fpr, tpr), (precision, recall) for plotting
+
+# For large datasets, precompute once (section 5) then run from disk:
+res = cipher.posterior_inverse_from_precomputed("path/to/output_dir", "pflog",
+                                                method="posterior")
+```
+
+To reproduce the paper's per-dataset **CRISPRi vs CRISPRa** ROC/PR figure, run the
+inverse for each dataset, group with `cipher.dataset_group(name)`, and draw each
+group with `cipher.plotting.plot_inverse_group` (thin per-dataset traces + a mean
+trace):
+
+```python
+import matplotlib.pyplot as plt
+from cipher import plotting
+
+results = {"CRISPRi": [...], "CRISPRa": [...]}   # InverseResult per dataset, by group
+fig, axes = plt.subplots(1, 2, figsize=(12, 6))
+plotting.plot_inverse_group(results["CRISPRi"], curve="roc", ax=axes[0], color="#d62728")
+plotting.plot_inverse_group(results["CRISPRa"], curve="roc", ax=axes[1], color="#1f77b4")
+```
+
+### 4. Condition drivers — control vs condition (`DriverResult`)
+
+The reverse problem applied outside Perturb-seq: given a control group and a
+condition group, rank the genes most likely to *drive* the condition. There is
+no ground-truth label, so the output is a ranked candidate list.
+
+```python
+import cipher
+
+# From an .h5ad / AnnData with a grouping column in obs:
+res = cipher.condition_drivers(
+    "path/to/dataset.h5ad",
+    condition_key="stim",       # obs column grouping the cells
+    control_value="rest",       # value marking control cells
+    condition_value="stim",     # None => every non-control cell
+    normalization="raw",   # default; use "pflog" for variance stabilization
+    method="matched_filter",    # default; also "posterior"/"pip" (fullH_diag inverse), "pinv"/"ridge"
+)
+res.top(20)                     # top-ranked candidate driver genes
+res.save("path/to/output_dir") # writes <name>_drivers_<norm>_<method>.csv
+
+# Or directly from two raw (cells x genes) matrices sharing a gene axis:
+res = cipher.condition_drivers_from_matrices(
+    control_X, condition_X, gene_names,
+    normalization="raw",   # default; use "pflog" for variance stabilization
+    method="matched_filter",
+)
+```
+
+### 5. Precompute Σ + statistics to disk (for large or repeated analyses)
+
+Every application above recomputes the covariance from the `.h5ad` each call.
+For large datasets or repeated runs, `preprocess_dataset` estimates `Sigma` and
+the per-perturbation statistics for one or more normalizations and writes them to
+a directory **once**; each application then has a fast `*_from_precomputed`
+variant (`forward_from_precomputed`, `reverse_from_precomputed`,
+`posterior_inverse_from_precomputed`). `load_precomputed` reads one mode back as a
+lightweight, memory-mappable object.
+
+```python
+import cipher
+
+cfg = cipher.PreprocessConfig(
+    expression_threshold=1.0,
+    min_samples_per_pert=100,
+    cov_max_cells=10000,
+)
+outdir = cipher.preprocess_dataset(
+    "path/to/perturbseq.h5ad",
+    "path/to/output_dir",
+    modes=["log1p", "log1CP10k"],   # None => all six modes
+    config=cfg,
+    overwrite=False,
+)
+
+pc = cipher.load_precomputed("path/to/output_dir", mode="log1p")
+Sigma = pc.sigma(mmap=True)          # (p, p) covariance, memory-mapped
+dx = pc.dx                           # (n_perts, p) mean shifts
+print(cipher.list_modes("path/to/output_dir"))
+```
+
+### Lower-level `Dataset`
+
+For custom pipelines, `load_dataset` returns a `Dataset` that handles
+perturbation detection, target-gene mapping, and control/perturbation matrices.
+
+```python
+import cipher
+
+ds = cipher.load_dataset(
+    "path/to/perturbseq.h5ad",
+    expression_threshold=1.0,
+    min_samples=100,
+)
+ds.n_genes, ds.n_perturbations
+ds.gene_names                       # np.array[str], length p
+ds.perturbations                    # list[str], non-control perturbation labels
+ds.target_gene_indices              # int64 array parallel to perturbations (-1 if absent)
+
+control = ds.control_matrix(dense=True)          # (n_control, p)
+pert = ds.perturbation_matrix(ds.perturbations[0], dense=True)
+g = ds.gene_index("GATA1")
+
+# Estimate the control covariance and run one perturbation forward by hand:
+Sigma = cipher.compute_covariance(cipher.normalize_matrix(control, "log1p"))
+```
+
+## Command-line usage
+
+Installing the package registers a `cipher` console script with four
+subcommands. Each takes an input `.h5ad` and an output directory (`-o`).
+
+```bash
+# Forward prediction (transcriptomic shift) against null covariances.
+cipher forward path/to/perturbseq.h5ad -o out/ --normalization log1p \
+    --nulls meanfield shuffled
+
+# Reverse prediction (recover the perturbed gene).
+cipher reverse path/to/perturbseq.h5ad -o out/ --normalization log1p \
+    --method matched_filter --top-k 10
+
+# Condition-driver prediction (control vs condition, no ground truth).
+cipher driver path/to/dataset.h5ad -o out/ \
+    --condition-key stim --control rest --condition stim \
+    --method matched_filter --top 25
+
+# Precompute Sigma + per-perturbation stats for chosen modes (for scale/reuse).
+cipher preprocess path/to/perturbseq.h5ad -o out/ --modes log1p log1CP10k
+```
+
+Run `cipher --version` or `cipher <command> --help` for all options.
+
+## Data / source datasets
+
+All data needed to run the notebooks is public. Set a destination and fetch it with one
+command:
+
+```bash
+export CIPHER_DATA_DIR=/path/to/cipher_data
+python resources/download_data.py            # 45 files, ~82 GB
+```
+
+On a cluster, run it as a batch job instead of on a login node:
+
+```bash
+sbatch --export=ALL,CIPHER_DATA_DIR=/path/to/cipher_data resources/download_data.sbatch
+```
+
+[`download_data.py`](resources/download_data.py) is driven by
+[`resources/zenodo_manifest.csv`](resources/zenodo_manifest.csv), which records every file's
+md5, size and destination path. It fetches three groups:
+
+| group | source | files | size |
+|---|---|---|---|
+| main | Zenodo [10.5281/zenodo.21729034](https://doi.org/10.5281/zenodo.21729034) | 22 | 47.9 GB |
+| supplement | Zenodo [10.5281/zenodo.21728754](https://doi.org/10.5281/zenodo.21728754) | 12 | 10.3 GB |
+| already-public | scPerturb (Zenodo `7041849`, `13350497`) and GEO `GSE264667` | 11 | 23.5 GB |
+
+Datasets that already have a public home are **not** re-hosted; they are fetched from it. Every
+file is md5-verified on arrival, interrupted transfers resume, and files already present and
+correct are skipped — so re-running is cheap and a failed run just needs re-running. Useful
+flags:
+
+```bash
+python resources/download_data.py --check            # verify what is on disk, download nothing
+python resources/download_data.py --record suppl     # one group only
+python resources/download_data.py --only Marson2025  # substring match
+python resources/download_data.py --dry-run          # show the plan, no network
+```
+
+### Precomputed caches (not downloaded)
+
+About 40 GB of covariance/forward caches under `$CIPHER_DATA_DIR/suppl/precomputed_*` are
+**not** deposited, because they rebuild from the datasets above. Seven notebooks read them
+(`fig3_atlas`, `fig4_cross_dataset` E/F, `figS7`, `figS9A`, `figS9B`, `figS16`, `figS19`) and
+will fail without them. `download_data.py` prints the exact regeneration commands when it
+finishes; they are CPU-only but heavy, so run them as batch jobs.
+
+## Reproducing paper figures
+
+Reproduction notebooks live under `notebooks/`, split into **`notebooks/main/`** (main
+figures 3–7) and **`notebooks/suppl/`** (supplements). They run against the installed
+`cipher` package (no legacy `src/`; shared notebook-only helpers live in `notebooks/src/`
+and are added to `sys.path`). Each notebook reads the dataset directory from the
+`CIPHER_DATA_DIR` environment variable, writes to `SUPPL_OUT`, and expects expression on
+raw counts (`NORM="raw"`, the package default); set those in your sbatch script. Panels
+are one-indexed to the published figures.
+
+Before running anything, populate `$CIPHER_DATA_DIR` (see [Data / source
+datasets](#data--source-datasets)) and confirm it with
+`python resources/download_data.py --check`. Notebooks that additionally need a regenerated
+precompute are marked in the supplementary table.
+
+### Main figures — `notebooks/main/`
+
+| Notebook | Figure panels |
+| --- | --- |
+| `fig3_forward.ipynb` | Fig. 3 C, D, E (per-dataset real-Σ vs mean-field accuracy) + G, H, I (held-out prediction / estimator convergence). |
+| `fig3_benchmarks.ipynb` | Fig. 3 J–N — CIPHER vs GEARS / scGPT / scLAMBDA / scouter / GenePert / linear-mean, scored in raw space (Pearson, cosine, L2, MSE, Spearman) plus Systema centroid accuracy. Reads the benchmark result pkls (see `benchmarks/`) via a small cached CSV. |
+| `fig4_cross_dataset.ipynb` | Fig. 4 B, C (cross-dataset covariance transfer) + E, F (CellxGene-atlas transfer). |
+| `fig5_inverse.ipynb` | Fig. 5 — inverse ROC/PR, CRISPRi/a perturbation identification (`sigma_count`), sci-Plex drug identification (`within_cov`). |
+| `fig6_effective_dims.ipynb` | Fig. 6 A, B (participation ratio), C–F (μ-axis reconstruction), G (PR vs ΔR²), H, I (effective response dimension). |
+| `fig7_validation.ipynb` | Fig. 7 B, F (naive-vs-resistant UMAPs), C (melanoma), G (KRAS resistance), K, L (LARRY prospective fate). Wet-lab panels (D, E, H–J) are not computable from the release data. |
+
+Schematic panels (Fig. 3 A/B/F, Fig. 4 A, Fig. 5 A/B, and the Fig. 6 diagrams) are not
+reproduced.
+
+### Supplementary figures — `notebooks/suppl/`
+
+See [`notebooks/suppl/README.md`](notebooks/suppl/README.md) for the full list of
+supplementary-figure notebooks, the panels each reproduces, and the extra inputs they need.
+
+> The published figure numbering differs from the pre-publication draft (e.g. the
+> cross-dataset analysis was draft "Fig 3 Q/R" but is Figure 4 in the paper); the
+> notebooks use the published numbering.
+
+**Method benchmarks** comparing CIPHER against other approaches are in the
+`benchmarks/` folder; `notebooks/main/fig3_benchmarks.ipynb` turns their outputs into the
+Fig. 3 J–N panels.
+
+## Preprint
+
+Kuznets-Speck, B., Schwartz, L., Sun, H., Melzer, M. E., Kumari, N., Haley, B.,
+Prashnani, E., Vaikuntanathan, S., & Goyal, Y. (2025). *Fluctuation structure
+predicts genome-wide perturbation outcomes.* bioRxiv.
+https://www.biorxiv.org/content/10.1101/2025.06.27.661814v1
+
+## License
+
+[MIT License](LICENSE)

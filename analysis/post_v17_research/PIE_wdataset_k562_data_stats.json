@@ -1,0 +1,32 @@
+{
+ "launch_id": "b842e660-0ba3-4324-95fa-5f2b54412080",
+ "written_at": 1790831863.3020763,
+ "stats": {
+  "format_version": 1,
+  "datasets": [
+   "replogle"
+  ],
+  "delta_p": {
+   "n_bins": 17,
+   "max_delta": 0.7726817727088928,
+   "width": 0.09531017980432493
+  },
+  "per_dir_percentile": {
+   "replogle": 0.7726817727088928
+  },
+  "evidence_key": "9931c69f8107896760cef64a777b1e072601f17b99675f0f18e6ffbcbcd38ce2",
+  "evidence_datasets": [
+   "replogle"
+  ],
+  "train_json_sha256": "6143b4d1bdc30f09a323a5af944fe9049c77c724909fb20fdde0039b7faeddfb",
+  "source_dims": {
+   "esm2": 1280,
+   "ncbi_text": 2048,
+   "string_space": 512,
+   "depmap_gene_effect": 1186,
+   "context_text": 3072,
+   "perturbation_text": 3072
+  },
+  "gene_query_dim": 3072
+ }
+}

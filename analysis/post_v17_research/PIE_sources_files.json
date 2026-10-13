@@ -1,0 +1,332 @@
+[
+  {
+    "type": "directory",
+    "oid": "ea82c8cda5ca565574865f7396a7525c46faa5f4",
+    "size": 0,
+    "path": "context_text"
+  },
+  {
+    "type": "directory",
+    "oid": "0d8cc52d26babb4b671203bb2ee5443cbe23fdab",
+    "size": 0,
+    "path": "depmap_gene_effect"
+  },
+  {
+    "type": "directory",
+    "oid": "74503c21819bb677bc6c544f95652796b050b674",
+    "size": 0,
+    "path": "esm2"
+  },
+  {
+    "type": "directory",
+    "oid": "9e8c9a7becc874800c31a9a22fc94554fd640dfa",
+    "size": 0,
+    "path": "gene_text"
+  },
+  {
+    "type": "directory",
+    "oid": "c20824b07e1f4b715d4f691b7eabb2d584188f66",
+    "size": 0,
+    "path": "jump_morphology"
+  },
+  {
+    "type": "directory",
+    "oid": "995e28b61d16aa433329e26622de34b88cd6d258",
+    "size": 0,
+    "path": "l1000_tas"
+  },
+  {
+    "type": "directory",
+    "oid": "2c018344160f23f72bf6a89812fa9c95be918f78",
+    "size": 0,
+    "path": "ncbi_text"
+  },
+  {
+    "type": "directory",
+    "oid": "97ea374ab6f609170abb3ecff37f25feec3c36dc",
+    "size": 0,
+    "path": "perturbation_text"
+  },
+  {
+    "type": "directory",
+    "oid": "92b4f4f4ac56e64ad72d033aeb4e2717ce32769b",
+    "size": 0,
+    "path": "prism_secondary"
+  },
+  {
+    "type": "directory",
+    "oid": "123b69bb25e026bd7850a43b3d455e067535efa0",
+    "size": 0,
+    "path": "smiles"
+  },
+  {
+    "type": "directory",
+    "oid": "381dd9516bd12f0f547ba175d732b8ce830efe0b",
+    "size": 0,
+    "path": "string_space"
+  },
+  {
+    "type": "file",
+    "oid": "435e7f43b115b152cc2cdb245f6b60887f0e42a7",
+    "size": 2704,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "5c9bbe224b579796ad5cd3031c44db74de642c5f",
+    "size": 3538,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "ed6e3cb6d8411024511ae99e28d91d6f9fbe98bc",
+    "size": 62725,
+    "path": "context_text/descriptions.json"
+  },
+  {
+    "type": "file",
+    "oid": "bb06a2b0b16bfd60023f580ceb4ce5b218e7e190",
+    "size": 1081472,
+    "lfs": {
+      "oid": "2cbe3ccf7cbc583374e34c4f589af7185d75f17ff97e0ded4a0281af4b1a90b6",
+      "size": 1081472,
+      "pointerSize": 132
+    },
+    "xetHash": "384b4bb0717ddeb3b6fb3bbe3253c185b4eea2f9964829a3a126a5f5ad6f57d2",
+    "path": "context_text/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "00eb9462923f3fd2684ca8ef2c598ada49eff9e1",
+    "size": 1905,
+    "path": "context_text/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "6d945d512d956e0c097e27fdfe9c9436006dcc22",
+    "size": 87455768,
+    "lfs": {
+      "oid": "d2bd753f7228343853165bae9ba32909292b049ec0e28e7ff408bc339c16d1dd",
+      "size": 87455768,
+      "pointerSize": 133
+    },
+    "xetHash": "162eed4c851cfd34b9699aae78b436d5ef35affd28443302ef03b0fa242cac3f",
+    "path": "depmap_gene_effect/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "8e610b2a304add5d922cb3a1962ddf12421a7166",
+    "size": 231632,
+    "path": "depmap_gene_effect/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "11dd4b7c9f488e2c86d5a9626b844580551913a1",
+    "size": 98319488,
+    "lfs": {
+      "oid": "427b867ccfddf2050686815b97063e2ceeb4044bc48c67b6baa8d3778f0bebcd",
+      "size": 98319488,
+      "pointerSize": 133
+    },
+    "xetHash": "81d98ff9407288b1dbab1bb47dbca0f24302cb106f478eb0acb1135843902281",
+    "path": "esm2/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "a75b02fa311cd17094fe828f58e4d168550e504e",
+    "size": 220332,
+    "path": "esm2/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "3aa7e31aa89619a048deee098f4d81f810290586",
+    "size": 21975189,
+    "lfs": {
+      "oid": "2df2392720d00bb9b1989238758d613a4fbea9c97623af4638731baf1d76062c",
+      "size": 21975189,
+      "pointerSize": 133
+    },
+    "xetHash": "8a92ac9725298b1264e59b48e4ff45e7a46647b5a13339ab8135c90c02949464",
+    "path": "gene_text/descriptions.json"
+  },
+  {
+    "type": "file",
+    "oid": "1f9f4d58a13f44e79796a1ca9e0db8673b0d8a0b",
+    "size": 389333120,
+    "lfs": {
+      "oid": "7ae69de3086f65a145ea571d4c34ad9fc52d9c60cd72b6fc02d3b213428c6cf7",
+      "size": 389333120,
+      "pointerSize": 134
+    },
+    "xetHash": "b87f5d259f9852e89ecce54a6a4466642e8f7b3e12e057fce3ad5327d13750ec",
+    "path": "gene_text/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "46f50960aa25d0180eef2fb72dd76031fde64331",
+    "size": 433168,
+    "path": "gene_text/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "a1dbd8cc6107dd460a751d7e611849314f09a552",
+    "size": 2379164,
+    "lfs": {
+      "oid": "9ed8657d9632dc2669a8ef6dc543874f297d18f7838af0cf363a059601b33538",
+      "size": 2379164,
+      "pointerSize": 132
+    },
+    "xetHash": "dd5668cb17db99f08cb51519b1d9ca48058392fbcfdf6fbec5874994ad4c31db",
+    "path": "jump_morphology/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "ae2d7b89f4704f869d1062524ea89dbef5a2ce8c",
+    "size": 31330,
+    "path": "jump_morphology/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "c3c1708f8359ba913c76dfd3f85609d84438339b",
+    "size": 220244,
+    "lfs": {
+      "oid": "f7cfe5abec9bc78cc9ee4d3bcecf78864699ce11e0fd08f38d2074190ca469c0",
+      "size": 220244,
+      "pointerSize": 131
+    },
+    "xetHash": "4f1d6a164f37dd3239ecc0e5748951a428ccc5dc57c1bfda28c725f54ac06172",
+    "path": "l1000_tas/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "18cbd4736a1c910be6ced75d731dc2430cb4ada0",
+    "size": 20430,
+    "path": "l1000_tas/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "6de7050f3bf0d68817b73630a00257d8bc01e41a",
+    "size": 31201266,
+    "lfs": {
+      "oid": "4a03c8917dc1241b49b9b6a6716dc1c2f2d4ef1ebfacf25551d0b2062b210fa5",
+      "size": 31201266,
+      "pointerSize": 133
+    },
+    "xetHash": "d3206b889cb08de8ec098d58bc7993d71b91ac6bc9b2b005ccfc6ea60f4c4f36",
+    "path": "ncbi_text/descriptions.json"
+  },
+  {
+    "type": "file",
+    "oid": "dc4485164130e299fc96bd71b52a5a44f1686809",
+    "size": 43182215296,
+    "lfs": {
+      "oid": "437b88bcf30246003a5962d4a440095d8c292c578e917fa77c92c27fe4d544ae",
+      "size": 43182215296,
+      "pointerSize": 136
+    },
+    "xetHash": "c4cad12784f5c3cb5c05fe1058737ddc894e181b87501682f1d72df80739596e",
+    "path": "ncbi_text/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "cb21061c2b1041b81a0c6b49adc853abc05e04d0",
+    "size": 244942,
+    "path": "ncbi_text/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "11ef6cf4e00e8d74110ae5d12d2b1be51fd87f02",
+    "size": 164928,
+    "lfs": {
+      "oid": "c511cf53123525f1575534c4f585ae9bd120051bced71dc2f73c05b07ab9b291",
+      "size": 164928,
+      "pointerSize": 131
+    },
+    "xetHash": "3d893c37fbac364bc490382f93220583b60b7b062284abcb4475f22b692cb159",
+    "path": "ncbi_text/offsets.npy"
+  },
+  {
+    "type": "file",
+    "oid": "6059de5c27a9a3b03fa9d178c8d6704d49c73916",
+    "size": 12764498,
+    "lfs": {
+      "oid": "5ed1856ab6ac30e9bed6b4d44ac44ef176497788e1fbc43ac8d765055f9c3c01",
+      "size": 12764498,
+      "pointerSize": 133
+    },
+    "xetHash": "3546f6d4e6c3c57b6dd0d9ae273da5b0dd7c5c51eb5c4d030edfb8535582cee4",
+    "path": "perturbation_text/descriptions.json"
+  },
+  {
+    "type": "file",
+    "oid": "7874c546dc5bc3ec850c896075c6c74ecda9ade2",
+    "size": 152875136,
+    "lfs": {
+      "oid": "b0e41a8c4c6e3da50bd8767ddfd12005e9076cc3682d2d853589f09d56886889",
+      "size": 152875136,
+      "pointerSize": 134
+    },
+    "xetHash": "67af608e43f4be2668e35f0750abf721a287509aaa23c2dd9b6f1ab4ea2cc04a",
+    "path": "perturbation_text/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "817a11346cd6799060b5028ff73372a0cc21c813",
+    "size": 160288,
+    "path": "perturbation_text/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "2d29c29435a2547def85fd33dfaf6462c81371f5",
+    "size": 668288,
+    "lfs": {
+      "oid": "ab7d45d91e60b3579194b14165edabb1b8800dc8bcee98f7dbba28b91e382d44",
+      "size": 668288,
+      "pointerSize": 131
+    },
+    "xetHash": "8bf29e04ed326aaa7d2b7a82654031d94c4b5f0be6244b189bcdf50c0db9aa54",
+    "path": "prism_secondary/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "50b4f62b9ee1492cd6c17eb83f628614132fea02",
+    "size": 25277,
+    "path": "prism_secondary/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "58174d4cb3a366805c19eea2e30b1d69b34d95d2",
+    "size": 1737344,
+    "lfs": {
+      "oid": "9152c64ad36abc097d6c54058d0657c5f93d33fcb24378b05ff901620cd41241",
+      "size": 1737344,
+      "pointerSize": 132
+    },
+    "xetHash": "2feaa6a84195fccd472db37a0c61464742953c91aa5b94d4e2cca8e475b05a56",
+    "path": "smiles/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "0ea7ea1e98d2a9eb35986f9b9b9e3e1e772af369",
+    "size": 30958,
+    "path": "smiles/meta.json"
+  },
+  {
+    "type": "file",
+    "oid": "6d1aab6d80b03863a56e200d317e37f2e5fcf9b0",
+    "size": 20171904,
+    "lfs": {
+      "oid": "7821a545053825eb4e62e9597d542c0cbbdf24c8e8648e2ba8ccb38da825e83a",
+      "size": 20171904,
+      "pointerSize": 133
+    },
+    "xetHash": "f2b1074c1cabca6b5e4fde4383e912419b1aa8c2fbab216d2409a6945b9185a3",
+    "path": "string_space/embeddings.npy"
+  },
+  {
+    "type": "file",
+    "oid": "0befb592657fab27fa450f5f82e1d54a64899e37",
+    "size": 229020,
+    "path": "string_space/meta.json"
+  }
+]

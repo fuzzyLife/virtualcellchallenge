@@ -1,0 +1,92 @@
+[
+  {
+    "type": "directory",
+    "oid": "c875cb5b70793c7d87911fb1e6aa2845ae11c3fd",
+    "size": 0,
+    "path": "eval"
+  },
+  {
+    "type": "directory",
+    "oid": "2abc2b2d11380aae9046aba9058bcb5ff2892eea",
+    "size": 0,
+    "path": "eval/test_seen"
+  },
+  {
+    "type": "directory",
+    "oid": "7163a7357355d0b20cec73ea01f023cfb0f441d0",
+    "size": 0,
+    "path": "eval/test_unseen"
+  },
+  {
+    "type": "file",
+    "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+    "size": 1519,
+    "path": ".gitattributes"
+  },
+  {
+    "type": "file",
+    "oid": "da4c3c25685c84e4cc56b32ea095c3122efa827c",
+    "size": 5166,
+    "path": "MODEL_ACCEPTABLE_USE_POLICY.md"
+  },
+  {
+    "type": "file",
+    "oid": "dcf7844fadef6d9c7772b0626b7967224a890673",
+    "size": 9844,
+    "path": "MODEL_LICENSE.md"
+  },
+  {
+    "type": "file",
+    "oid": "492293102a4e1a5c4a114c9861a8a0833320654b",
+    "size": 7096,
+    "path": "README.md"
+  },
+  {
+    "type": "file",
+    "oid": "2510c52979ceff62671509d335656230a04d75d2",
+    "size": 966412013,
+    "lfs": {
+      "oid": "e60a1304d074706405939bde94c5edf9851e78070f2d584c6b5025a002ed9a7c",
+      "size": 966412013,
+      "pointerSize": 134
+    },
+    "xetHash": "9125e92e232dd91c33e68009818edaf11c9583eb4e52e0dd284bb1e050b05bbe",
+    "path": "best_auprc.ckpt"
+  },
+  {
+    "type": "file",
+    "oid": "de832f0a8536c5bdf88e1d1160c1118cc2319eba",
+    "size": 3209,
+    "path": "config.yaml"
+  },
+  {
+    "type": "file",
+    "oid": "56f7a0fd4161eff794ad4a17eb4aa4938683a445",
+    "size": 1059,
+    "path": "data_stats.json"
+  },
+  {
+    "type": "file",
+    "oid": "4be0eab9a0cf99d428aaade1df4479ea7576d0d8",
+    "size": 225301,
+    "path": "eval/test_seen/granular_best_auprc.csv"
+  },
+  {
+    "type": "file",
+    "oid": "07a47ef949dd15f9febd9166b7c7a64a1c562583",
+    "size": 730,
+    "path": "eval/test_seen/metrics_best_auprc.csv"
+  },
+  {
+    "type": "file",
+    "oid": "2ca217e6903a60a8868286ccbdf4645267dd4921",
+    "size": 320811,
+    "path": "eval/test_unseen/granular_best_auprc.csv"
+  },
+  {
+    "type": "file",
+    "oid": "eaacc0cc85e0b1873262f5f4878535ec44580626",
+    "size": 731,
+    "path": "eval/test_unseen/metrics_best_auprc.csv"
+  }
+]

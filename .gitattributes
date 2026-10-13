@@ -122,3 +122,16 @@
 /*v17*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V17*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /experiments/v17_learned_heterogeneity/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve post-V17 research source and feasibility audit byte hashes.
+/*post_v17*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/POST_V17*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Archived upstream files retain intentional/original trailing spaces.
+/analysis/post_v17_research/PIE_wdataset_MODEL_ACCEPTABLE_USE_POLICY.md -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/PIE_wdataset_MODEL_LICENSE.md -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/pie_README.md -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/stack_MODEL_LICENSE.md -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/stack_src_stack_cli_generation.py -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+/analysis/post_v17_research/stack_src_stack_models_core_inference.py -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol

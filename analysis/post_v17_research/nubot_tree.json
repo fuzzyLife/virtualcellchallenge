@@ -1,0 +1,784 @@
+{
+  "sha": "4953dda96397405d790b0d90d7db3f825099b20f",
+  "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/4953dda96397405d790b0d90d7db3f825099b20f",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ab2dbcfc09e0ac7a38e49dd784e265b1fbc140",
+      "size": 67,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/54ab2dbcfc09e0ac7a38e49dd784e265b1fbc140"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b385a71bd2977febc470bf4e7dd896a228d7900",
+      "size": 1094,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1b385a71bd2977febc470bf4e7dd896a228d7900"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dcd99891de174aa25aef0942d9a2f760dc5ddbb",
+      "size": 3162,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1dcd99891de174aa25aef0942d9a2f760dc5ddbb"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f7bc517f12846ae6e25ef363c8360bd40e82b43",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/8f7bc517f12846ae6e25ef363c8360bd40e82b43"
+    },
+    {
+      "path": "config/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5919737835a8ce84b1a5442da95861ab3a2146a",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/f5919737835a8ce84b1a5442da95861ab3a2146a"
+    },
+    {
+      "path": "config/data/4i-24h-raw.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c193810e1c6f1e34900aa7c2a6043e592e30e963",
+      "size": 244,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/c193810e1c6f1e34900aa7c2a6043e592e30e963"
+    },
+    {
+      "path": "config/data/4i-8h-raw.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a3b5150cecbdbc3dcaa3578b8c3b51f9b657619",
+      "size": 239,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3a3b5150cecbdbc3dcaa3578b8c3b51f9b657619"
+    },
+    {
+      "path": "config/data/gaussian.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee28f528cd6d8766472dc5d5d7d77183aa4ba585",
+      "size": 121,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/ee28f528cd6d8766472dc5d5d7d77183aa4ba585"
+    },
+    {
+      "path": "config/data/prep.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f4b85589e20ad0daed8cf4749243117e2c003e",
+      "size": 204,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/e8f4b85589e20ad0daed8cf4749243117e2c003e"
+    },
+    {
+      "path": "config/data/toy-checkerboard.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121491065c1058b4173211e884b1f5500470a69a",
+      "size": 93,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/121491065c1058b4173211e884b1f5500470a69a"
+    },
+    {
+      "path": "config/data/toy-circle.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468cbd83f787d15eb227f4b3ac07c248ca6c55fe",
+      "size": 83,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/468cbd83f787d15eb227f4b3ac07c248ca6c55fe"
+    },
+    {
+      "path": "config/data/toy-simple-gaussian.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5452f0ea129e19c051baf6b4ca406b97272b19",
+      "size": 98,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/fc5452f0ea129e19c051baf6b4ca406b97272b19"
+    },
+    {
+      "path": "config/data/toy-triangle-A.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f98579d7b1c62e2932b3c142ae0bc33e3a95167",
+      "size": 120,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3f98579d7b1c62e2932b3c142ae0bc33e3a95167"
+    },
+    {
+      "path": "config/data/toy-triangle-B.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b71479f18b2677d4b71bb544b4cc4c782c2b0e",
+      "size": 120,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/c1b71479f18b2677d4b71bb544b4cc4c782c2b0e"
+    },
+    {
+      "path": "config/data/toy-triangle-C.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521388c5d6f9627a155110b0503be8b934b83fe3",
+      "size": 133,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/521388c5d6f9627a155110b0503be8b934b83fe3"
+    },
+    {
+      "path": "config/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bcab503b866531d3ff26a064326252744d1b1be",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/4bcab503b866531d3ff26a064326252744d1b1be"
+    },
+    {
+      "path": "config/models/cell_experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33cc6ed60e09c24326911f8e870853cdbf745a5a",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/33cc6ed60e09c24326911f8e870853cdbf745a5a"
+    },
+    {
+      "path": "config/models/cell_experiments/cellot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d03028aa50fafe54cb4fb429daa9f2c98c1266d",
+      "size": 344,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/4d03028aa50fafe54cb4fb429daa9f2c98c1266d"
+    },
+    {
+      "path": "config/models/cell_experiments/nubot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f930537be3e962a5edc42d20c55e299ae4a17c20",
+      "size": 599,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/f930537be3e962a5edc42d20c55e299ae4a17c20"
+    },
+    {
+      "path": "config/models/cell_experiments/ubot_gan.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77cbefaa78356380ad94ada4b291e6e57139b5e9",
+      "size": 490,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/77cbefaa78356380ad94ada4b291e6e57139b5e9"
+    },
+    {
+      "path": "config/models/control.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc97533731c75cff2bc17f0cc9bc5530361fb33c",
+      "size": 21,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/bc97533731c75cff2bc17f0cc9bc5530361fb33c"
+    },
+    {
+      "path": "config/models/gaussian_approx.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbe0f062fa6ce7d6f85c0139146bd556af5a7afd",
+      "size": 76,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/fbe0f062fa6ce7d6f85c0139146bd556af5a7afd"
+    },
+    {
+      "path": "config/models/gaussian_approx_unb.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a51910a8a6f6d42ecbf7560f58ce33967e64dc4",
+      "size": 71,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1a51910a8a6f6d42ecbf7560f58ce33967e64dc4"
+    },
+    {
+      "path": "config/models/identity.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adacd28524161bfe30be5dbebd0af9ef882fcdfc",
+      "size": 23,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/adacd28524161bfe30be5dbebd0af9ef882fcdfc"
+    },
+    {
+      "path": "config/models/ot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3551d443bd5b202fb94e6053ebd8e98aeb1e3e",
+      "size": 17,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/dd3551d443bd5b202fb94e6053ebd8e98aeb1e3e"
+    },
+    {
+      "path": "config/models/toy_hyperparameter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8534482fcecc25a60e45bc416f6f979d9bf3924",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/f8534482fcecc25a60e45bc416f6f979d9bf3924"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_base.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68e99858b30dc6d8a5cffbe2158a011e8939917e",
+      "size": 592,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/68e99858b30dc6d8a5cffbe2158a011e8939917e"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_0p0025.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1116ebba54d24f8a905bb2f2686289583f75514",
+      "size": 593,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/d1116ebba54d24f8a905bb2f2686289583f75514"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_0p0075.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f56c6038b2ed2922d9ef230d16b0a875ecd5de2",
+      "size": 593,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/2f56c6038b2ed2922d9ef230d16b0a875ecd5de2"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_0p01.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9465009b221a6bfab178c47bf3ed6680ed37f40",
+      "size": 591,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/c9465009b221a6bfab178c47bf3ed6680ed37f40"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_0p05.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63bd6377effea130c4f96d380b9540930674cd4e",
+      "size": 591,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/63bd6377effea130c4f96d380b9540930674cd4e"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_m_0p075.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d23130d8a874018dfd75d7fd6f9caaf2fa928db9",
+      "size": 593,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/d23130d8a874018dfd75d7fd6f9caaf2fa928db9"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_m_0p1.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d4cf4071e0d14066db21fdf59788dcf5e14249",
+      "size": 591,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/27d4cf4071e0d14066db21fdf59788dcf5e14249"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_m_0p5.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852d6e6a0bce8909f0e49b01e84a4f9ec8803f0b",
+      "size": 591,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/852d6e6a0bce8909f0e49b01e84a4f9ec8803f0b"
+    },
+    {
+      "path": "config/models/toy_hyperparameter/nubot_reg_m_1.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50be0668e2b94a8ae983d5566d8bb231a9348c98",
+      "size": 591,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/50be0668e2b94a8ae983d5566d8bb231a9348c98"
+    },
+    {
+      "path": "config/models/ubot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863c0ef7bef62053c58799baebbe6c87d02e1c9b",
+      "size": 19,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/863c0ef7bef62053c58799baebbe6c87d02e1c9b"
+    },
+    {
+      "path": "environment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6da258b93f75455eccfe33b0d134c492077292c",
+      "size": 363,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/f6da258b93f75455eccfe33b0d134c492077292c"
+    },
+    {
+      "path": "fig_overview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15085078e15fab98e854bd2d2c25a3308d8053b4",
+      "size": 85948,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/15085078e15fab98e854bd2d2c25a3308d8053b4"
+    },
+    {
+      "path": "install_dependencies.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fd169bbd7498e8aac6d9594b0e618528da5e3a7",
+      "size": 242,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/0fd169bbd7498e8aac6d9594b0e618528da5e3a7"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "549131a5b7e9b9fab1f283b09376c32403d941bf",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/549131a5b7e9b9fab1f283b09376c32403d941bf"
+    },
+    {
+      "path": "notebooks/4i_growth_factors.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76cedbcc55a51d3f2e5d3eb569354de0e4d7d2d",
+      "size": 5546,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/b76cedbcc55a51d3f2e5d3eb569354de0e4d7d2d"
+    },
+    {
+      "path": "notebooks/cell_results.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d8d29ccc6b11bb347612be7ece528e18b34b0e",
+      "size": 11956,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/f2d8d29ccc6b11bb347612be7ece528e18b34b0e"
+    },
+    {
+      "path": "notebooks/toy_nubot_ubotgan.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e5dfa968bba34041f567a2a038c8114ad8d69b",
+      "size": 15517,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/e0e5dfa968bba34041f567a2a038c8114ad8d69b"
+    },
+    {
+      "path": "notebooks/toy_robustness_wrt_hyperparameters.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ae29417c77a958dea65208d05cdeb82630c8629",
+      "size": 13853,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/8ae29417c77a958dea65208d05cdeb82630c8629"
+    },
+    {
+      "path": "notebooks/toy_ubot.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d7bb968c79064139baca42df96550059b74b1cd",
+      "size": 10209,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/8d7bb968c79064139baca42df96550059b74b1cd"
+    },
+    {
+      "path": "requirements_freeze.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f4e93df91cacd2d74bdcc80d658c7de4a3d45c",
+      "size": 7579,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/65f4e93df91cacd2d74bdcc80d658c7de4a3d45c"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "291b83150610d2cba76e9369d252e45161c011c4",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/291b83150610d2cba76e9369d252e45161c011c4"
+    },
+    {
+      "path": "scripts/mkdirs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f367180e6adaac90063679700ee2ec36396514a",
+      "size": 2547,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3f367180e6adaac90063679700ee2ec36396514a"
+    },
+    {
+      "path": "scripts/preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc12e81afd37dd233fc24e1a09cd8b128f1b8de2",
+      "size": 4472,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/fc12e81afd37dd233fc24e1a09cd8b128f1b8de2"
+    },
+    {
+      "path": "scripts/run_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba57b17661a2a84e55bb9926b535fadea0f27bb",
+      "size": 9144,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/6ba57b17661a2a84e55bb9926b535fadea0f27bb"
+    },
+    {
+      "path": "scripts/run_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "181d4f14cd60f84e639a471c51ad084601512235",
+      "size": 4310,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/181d4f14cd60f84e639a471c51ad084601512235"
+    },
+    {
+      "path": "scripts/run_toy_evaluation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65fe0f4dfebc4c9d7c8722a8e53054d0285dd9f",
+      "size": 5108,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/f65fe0f4dfebc4c9d7c8722a8e53054d0285dd9f"
+    },
+    {
+      "path": "scripts/submit_jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d6325b13f4516e14120faf1691410ddd0715737",
+      "size": 4285,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/2d6325b13f4516e14120faf1691410ddd0715737"
+    },
+    {
+      "path": "scripts/submit_toy_jobs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2ffa15f4a89f5374135f20fa7c86ecd962a0fc",
+      "size": 4147,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1f2ffa15f4a89f5374135f20fa7c86ecd962a0fc"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94679b48d1280f03be870e6c9533b14f277e5fe0",
+      "size": 265,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/94679b48d1280f03be870e6c9533b14f277e5fe0"
+    },
+    {
+      "path": "unot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fec0ca3ce4a6ea589c736ad4270d9711c69b560",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/9fec0ca3ce4a6ea589c736ad4270d9711c69b560"
+    },
+    {
+      "path": "unot/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16bc651b29e9c6ce38bac5b6254c4e34bbe7cfb1",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/16bc651b29e9c6ce38bac5b6254c4e34bbe7cfb1"
+    },
+    {
+      "path": "unot/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "unot/data/cell.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f1ffb7fba58860153ccd870ec83b220e7b8e30b",
+      "size": 13969,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3f1ffb7fba58860153ccd870ec83b220e7b8e30b"
+    },
+    {
+      "path": "unot/data/gaussians.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d951a6d393bdf615a36bfe094a026b663a1ee40",
+      "size": 3098,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/4d951a6d393bdf615a36bfe094a026b663a1ee40"
+    },
+    {
+      "path": "unot/data/toy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "296fc4e8fda7339cd54d1adf1484ddf5ae618a8d",
+      "size": 5282,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/296fc4e8fda7339cd54d1adf1484ddf5ae618a8d"
+    },
+    {
+      "path": "unot/data/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c5b0790e9356c4101b5337a2fb31ed5b482abd",
+      "size": 2477,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/d7c5b0790e9356c4101b5337a2fb31ed5b482abd"
+    },
+    {
+      "path": "unot/losses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "223841d3cbf69126a4778481bde70861f716a013",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/223841d3cbf69126a4778481bde70861f716a013"
+    },
+    {
+      "path": "unot/losses/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "923bd6260e62d9bc2f16459ce38a7079d0da2ca8",
+      "size": 65,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/923bd6260e62d9bc2f16459ce38a7079d0da2ca8"
+    },
+    {
+      "path": "unot/losses/mmd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80348d8af47f686089a0e76242df75b5fa8eeed0",
+      "size": 1800,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/80348d8af47f686089a0e76242df75b5fa8eeed0"
+    },
+    {
+      "path": "unot/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f10e16e3dc5d5138e6bc83a2a3b4d7feb85869b",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/5f10e16e3dc5d5138e6bc83a2a3b4d7feb85869b"
+    },
+    {
+      "path": "unot/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b2dedd2dbdcbf3faad0d87a56cdedea7be8236f",
+      "size": 160,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/6b2dedd2dbdcbf3faad0d87a56cdedea7be8236f"
+    },
+    {
+      "path": "unot/models/cellot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24241951069e9e417394dcd621b4940f966b2f70",
+      "size": 5948,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/24241951069e9e417394dcd621b4940f966b2f70"
+    },
+    {
+      "path": "unot/models/gan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca9eb40d7f3835d72b0c59b21710551b7ab7588a",
+      "size": 8988,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/ca9eb40d7f3835d72b0c59b21710551b7ab7588a"
+    },
+    {
+      "path": "unot/models/gaussian_closed_form.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a6ec00f0fe5a95809e1aae0d74f5b93ea0e4df",
+      "size": 5572,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/66a6ec00f0fe5a95809e1aae0d74f5b93ea0e4df"
+    },
+    {
+      "path": "unot/models/nn_scaling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48162ba79ce97247cfdb29560633414ced7df5bb",
+      "size": 3120,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/48162ba79ce97247cfdb29560633414ced7df5bb"
+    },
+    {
+      "path": "unot/models/nubot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c2862aad8f8e08d4dc442b0ad9ef1b4b8a09c7",
+      "size": 6377,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/b3c2862aad8f8e08d4dc442b0ad9ef1b4b8a09c7"
+    },
+    {
+      "path": "unot/networks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b548d4e48e76f42e4320653299d32880eb76528",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/5b548d4e48e76f42e4320653299d32880eb76528"
+    },
+    {
+      "path": "unot/networks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a697acf4ae8a1cd351a2af8fc6854b5dc4a3b0",
+      "size": 177,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/e4a697acf4ae8a1cd351a2af8fc6854b5dc4a3b0"
+    },
+    {
+      "path": "unot/networks/icnn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798cc489efee57a65bd63b18fcc052ec65e939fe",
+      "size": 3320,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/798cc489efee57a65bd63b18fcc052ec65e939fe"
+    },
+    {
+      "path": "unot/networks/layers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3541d5ce56189a47de385553d8f5cf318ccd01f7",
+      "size": 727,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3541d5ce56189a47de385553d8f5cf318ccd01f7"
+    },
+    {
+      "path": "unot/networks/nicnn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9df57e9c299112a9e94411cfbc111deffb4d7c",
+      "size": 3150,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/aa9df57e9c299112a9e94411cfbc111deffb4d7c"
+    },
+    {
+      "path": "unot/networks/nn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f727cd4bac242a302fe5c1ebee1fa42e6bf0421",
+      "size": 1218,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/8f727cd4bac242a302fe5c1ebee1fa42e6bf0421"
+    },
+    {
+      "path": "unot/networks/nonnegNN.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd2235ef46e93d041220715bc54d068540b0c9e",
+      "size": 1821,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/3cd2235ef46e93d041220715bc54d068540b0c9e"
+    },
+    {
+      "path": "unot/plotting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "544de5434ee8df11294b7d99c5adfdce3ff0df44",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/544de5434ee8df11294b7d99c5adfdce3ff0df44"
+    },
+    {
+      "path": "unot/plotting/plots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7d3584bee4bcf4dc5fdcd99b78d7e0ee292190",
+      "size": 3517,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/0b7d3584bee4bcf4dc5fdcd99b78d7e0ee292190"
+    },
+    {
+      "path": "unot/plotting/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cda684856ce8726463df63bdc2def4e1d580638",
+      "size": 3071,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1cda684856ce8726463df63bdc2def4e1d580638"
+    },
+    {
+      "path": "unot/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e554cf0caae642ef0cefb41b0bc820d20c791b95",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/e554cf0caae642ef0cefb41b0bc820d20c791b95"
+    },
+    {
+      "path": "unot/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8cc77e3af872398f8e4c91869d09eb4cc805a2",
+      "size": 373,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1a8cc77e3af872398f8e4c91869d09eb4cc805a2"
+    },
+    {
+      "path": "unot/training/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d493aaed103a307e64fe9d65b6fbcea7540fc02",
+      "size": 1022,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/7d493aaed103a307e64fe9d65b6fbcea7540fc02"
+    },
+    {
+      "path": "unot/training/fit_gaussian_approx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17863c344229752e3114fbe54d94290fe26e940f",
+      "size": 1950,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/17863c344229752e3114fbe54d94290fe26e940f"
+    },
+    {
+      "path": "unot/training/train_cellot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c0ed03112153fabeae94c6007415cbdb566f877",
+      "size": 3236,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/9c0ed03112153fabeae94c6007415cbdb566f877"
+    },
+    {
+      "path": "unot/training/train_nubot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f253ff32c91954bdd8d7e563cb9bcc1da2813aaf",
+      "size": 7544,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/f253ff32c91954bdd8d7e563cb9bcc1da2813aaf"
+    },
+    {
+      "path": "unot/training/train_unbalanced_gan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1603f01c136c23f33ab6b9d31c181046a41decd7",
+      "size": 3644,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/1603f01c136c23f33ab6b9d31c181046a41decd7"
+    },
+    {
+      "path": "unot/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67c212c2a5b1f18432059f3d5f787b79d702de9b",
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/trees/67c212c2a5b1f18432059f3d5f787b79d702de9b"
+    },
+    {
+      "path": "unot/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "275445a14118db5d1a8df0e0def43600ecb01996",
+      "size": 33,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/275445a14118db5d1a8df0e0def43600ecb01996"
+    },
+    {
+      "path": "unot/utils/evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "166df903fc89bc4cc1a6f1d35e8278dbf75b77eb",
+      "size": 23502,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/166df903fc89bc4cc1a6f1d35e8278dbf75b77eb"
+    },
+    {
+      "path": "unot/utils/helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4bea6a7fb59c5f15d01c7804bb4e909ba53250e",
+      "size": 4298,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/c4bea6a7fb59c5f15d01c7804bb4e909ba53250e"
+    },
+    {
+      "path": "unot/utils/loaders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ad5742d5161c53569a39ba467c3f03cab1bb45b",
+      "size": 1341,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/6ad5742d5161c53569a39ba467c3f03cab1bb45b"
+    },
+    {
+      "path": "unot/utils/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad208f71568f9f41245582d53341e506f9ee1868",
+      "size": 327,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/ad208f71568f9f41245582d53341e506f9ee1868"
+    },
+    {
+      "path": "unot/utils/marginals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08690d70090c3a80dc90994325371bcd1fad9e86",
+      "size": 819,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/08690d70090c3a80dc90994325371bcd1fad9e86"
+    },
+    {
+      "path": "unot/utils/sinkhorn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bce52cdc131c323b1ab4ccf32e1217b90f2210d5",
+      "size": 290,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/bce52cdc131c323b1ab4ccf32e1217b90f2210d5"
+    },
+    {
+      "path": "unot/utils/transport.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96eb3015517df24c08260a2db4d5cbb00a8365a",
+      "size": 4493,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/d96eb3015517df24c08260a2db4d5cbb00a8365a"
+    },
+    {
+      "path": "unot/utils/wasserstein.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "914db73cbfc6614ee58d6e744db4c0af8be7dd83",
+      "size": 530,
+      "url": "https://api.github.com/repos/FrederikeLuebeck/nubot/git/blobs/914db73cbfc6614ee58d6e744db4c0af8be7dd83"
+    }
+  ],
+  "truncated": false
+}

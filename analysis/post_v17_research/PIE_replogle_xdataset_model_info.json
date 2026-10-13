@@ -1,0 +1,89 @@
+{
+  "_id": "6abeb65d81784569f37fa6d9",
+  "id": "arcinstitute/PIE_replogle_xdataset",
+  "private": false,
+  "library_name": "pytorch",
+  "tags": [
+    "pytorch",
+    "biology",
+    "gene-expression",
+    "perturbation-prediction",
+    "perceiver",
+    "cross-dataset-generalization",
+    "dataset:arcinstitute/PIE_tahoe100m",
+    "dataset:arcinstitute/PIE_jiang",
+    "dataset:arcinstitute/PIE_arc_vcc_25",
+    "dataset:arcinstitute/PIE_x_atlas_orion",
+    "dataset:arcinstitute/PIE_sources",
+    "license:other",
+    "region:us"
+  ],
+  "downloads": 302,
+  "likes": 0,
+  "modelId": "arcinstitute/PIE_replogle_xdataset",
+  "author": "arcinstitute",
+  "sha": "f6da9607226139a1040b6992736118c9b5c7c313",
+  "lastModified": "2026-10-05T18:05:16.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "library_name": "pytorch",
+    "license": "other",
+    "license_name": "pie-model-license",
+    "license_link": "https://huggingface.co/arcinstitute/PIE_replogle_xdataset/blob/main/MODEL_LICENSE.md",
+    "tags": [
+      "biology",
+      "gene-expression",
+      "perturbation-prediction",
+      "perceiver",
+      "cross-dataset-generalization"
+    ],
+    "datasets": [
+      "arcinstitute/PIE_tahoe100m",
+      "arcinstitute/PIE_jiang",
+      "arcinstitute/PIE_arc_vcc_25",
+      "arcinstitute/PIE_x_atlas_orion",
+      "arcinstitute/PIE_sources"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "MODEL_ACCEPTABLE_USE_POLICY.md"
+    },
+    {
+      "rfilename": "MODEL_LICENSE.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "best_auprc.ckpt"
+    },
+    {
+      "rfilename": "config.yaml"
+    },
+    {
+      "rfilename": "data_stats.json"
+    },
+    {
+      "rfilename": "eval/test_seen/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "eval/test_seen/metrics_best_auprc.csv"
+    },
+    {
+      "rfilename": "eval/test_unseen/granular_best_auprc.csv"
+    },
+    {
+      "rfilename": "eval/test_unseen/metrics_best_auprc.csv"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-10-01T19:37:01.000Z",
+  "usedStorage": 966412013
+}

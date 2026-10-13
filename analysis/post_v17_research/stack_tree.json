@@ -1,0 +1,636 @@
+{
+  "sha": "cacc2e4b09435c3e536d46237d10b50f222dd144",
+  "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/cacc2e4b09435c3e536d46237d10b50f222dd144",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "933355e366a58a63014b9ea560a31cd89caed49f",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/933355e366a58a63014b9ea560a31cd89caed49f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56839b260ed4fd97f17d9f213a7b29a84ba117ac",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/56839b260ed4fd97f17d9f213a7b29a84ba117ac"
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4755685e7c4423f094244801ea33b97958c0826",
+      "size": 1791,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/c4755685e7c4423f094244801ea33b97958c0826"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07d5edc9688cdf5bcbb50fd373db0217fd7f7042",
+      "size": 599,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/07d5edc9688cdf5bcbb50fd373db0217fd7f7042"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe5ad1670406e4402217edfb82d2c56af7e8631",
+      "size": 20849,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/cbe5ad1670406e4402217edfb82d2c56af7e8631"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a8b7349e3ca9738af6797f91a0e00a069df58b",
+      "size": 104,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/b8a8b7349e3ca9738af6797f91a0e00a069df58b"
+    },
+    {
+      "path": "MODEL_ACCEPTABLE_USE_POLICY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbcfc8ee95fa8095c0b21af1a033b24d7915434",
+      "size": 5130,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/acbcfc8ee95fa8095c0b21af1a033b24d7915434"
+    },
+    {
+      "path": "MODEL_LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25342fc87893a373a0ec91dbf8990cd6dd44dd16",
+      "size": 9864,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/25342fc87893a373a0ec91dbf8990cd6dd44dd16"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1798d4d5f5e401be77bd49727bcfa9975600e73",
+      "size": 6987,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/e1798d4d5f5e401be77bd49727bcfa9975600e73"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49c837fd647cd9c45b320858a8191774ba428cd6",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/49c837fd647cd9c45b320858a8191774ba428cd6"
+    },
+    {
+      "path": "configs/finetuning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae62d407e526e2b6a51acd9093f88edbbece59ad",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/ae62d407e526e2b6a51acd9093f88edbbece59ad"
+    },
+    {
+      "path": "configs/finetuning/ft_parsecg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4593de72c7677f6056bbd2d1cf6e65e511b450",
+      "size": 605,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/7d4593de72c7677f6056bbd2d1cf6e65e511b450"
+    },
+    {
+      "path": "configs/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "538c05c894cc02f6138f57cee83744387b7b635d",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/538c05c894cc02f6138f57cee83744387b7b635d"
+    },
+    {
+      "path": "configs/training/bc_large.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6911830602c57394c58351d575847b6ee0db22",
+      "size": 461,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/5f6911830602c57394c58351d575847b6ee0db22"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b7bd5aad23aa765cf622e167cd7770d9ef0d667",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/5b7bd5aad23aa765cf622e167cd7770d9ef0d667"
+    },
+    {
+      "path": "notebooks/tutorial-embed.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8259dd339e712c61418a26ec4bae990fd70350a5",
+      "size": 748956,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/8259dd339e712c61418a26ec4bae990fd70350a5"
+    },
+    {
+      "path": "notebooks/tutorial-predict.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec79f6112388fcb1d711431c66c4b5254edafb88",
+      "size": 99452,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/ec79f6112388fcb1d711431c66c4b5254edafb88"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82e74cb1ae0e406666a2d964ebac093c1ebfe9c",
+      "size": 1191,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/f82e74cb1ae0e406666a2d964ebac093c1ebfe9c"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d50607257df81f7e384ecf6159c05650efe90184",
+      "size": 873,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/d50607257df81f7e384ecf6159c05650efe90184"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1a1763ca9cebc7bc16576d353d3284ee5d3c7d",
+      "size": 69,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/7f1a1763ca9cebc7bc16576d353d3284ee5d3c7d"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a33b00e7aaecd83ebab259d98da6eb2326f78a3",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/3a33b00e7aaecd83ebab259d98da6eb2326f78a3"
+    },
+    {
+      "path": "src/stack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a669f894474290781b3c0f65fc053a6798c2daa",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/4a669f894474290781b3c0f65fc053a6798c2daa"
+    },
+    {
+      "path": "src/stack/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "171d7d4540e7e3302f8499ca3eda7a644e89f8a5",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/171d7d4540e7e3302f8499ca3eda7a644e89f8a5"
+    },
+    {
+      "path": "src/stack/cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed98c46a679cdd8fd3ce26fd7a633aea04b68175",
+      "size": 62,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/ed98c46a679cdd8fd3ce26fd7a633aea04b68175"
+    },
+    {
+      "path": "src/stack/cli/embedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df32dc2201080f93b5881060267466a66a2ee0d",
+      "size": 6516,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/8df32dc2201080f93b5881060267466a66a2ee0d"
+    },
+    {
+      "path": "src/stack/cli/generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "164c24409faac2078f3b2e25f38b07bc27e8c40d",
+      "size": 18612,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/164c24409faac2078f3b2e25f38b07bc27e8c40d"
+    },
+    {
+      "path": "src/stack/cli/launch_finetuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8deba9e6e4bdaeebb78313a79adfdc65de9db577",
+      "size": 16643,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/8deba9e6e4bdaeebb78313a79adfdc65de9db577"
+    },
+    {
+      "path": "src/stack/cli/launch_training.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006b4d3ac047c41850c30a4830dc1fdf9b43c204",
+      "size": 12441,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/006b4d3ac047c41850c30a4830dc1fdf9b43c204"
+    },
+    {
+      "path": "src/stack/cli_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63dc070a65e69ec8fb1122c619e6720204f704c",
+      "size": 3609,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/b63dc070a65e69ec8fb1122c619e6720204f704c"
+    },
+    {
+      "path": "src/stack/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81e6bae894aea27925b3e775f8c0aaf426248781",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/81e6bae894aea27925b3e775f8c0aaf426248781"
+    },
+    {
+      "path": "src/stack/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7919dff168014ebd6a8917241ab28b4a654f3cd",
+      "size": 893,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/b7919dff168014ebd6a8917241ab28b4a654f3cd"
+    },
+    {
+      "path": "src/stack/data/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb88c657380c50eaa16217d1df9114d4ac23cc7",
+      "size": 117,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/adb88c657380c50eaa16217d1df9114d4ac23cc7"
+    },
+    {
+      "path": "src/stack/data/finetuning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "047b1dd78142190cbf55840844a8102e258baf0b",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/047b1dd78142190cbf55840844a8102e258baf0b"
+    },
+    {
+      "path": "src/stack/data/finetuning/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029846add68a6f58383289e5b85746c904a9ee3a",
+      "size": 161,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/029846add68a6f58383289e5b85746c904a9ee3a"
+    },
+    {
+      "path": "src/stack/data/finetuning/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e60c7bb4fb704ddcfda2e2c83977fc437f49da7e",
+      "size": 108915,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/e60c7bb4fb704ddcfda2e2c83977fc437f49da7e"
+    },
+    {
+      "path": "src/stack/data/gene_processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f688d62b4f090b71cb22a317169c1f27db0fefdd",
+      "size": 2730,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/f688d62b4f090b71cb22a317169c1f27db0fefdd"
+    },
+    {
+      "path": "src/stack/data/h5_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c36fe6996eeba7002e9b0eb70657001a0b6fbb",
+      "size": 2869,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/c3c36fe6996eeba7002e9b0eb70657001a0b6fbb"
+    },
+    {
+      "path": "src/stack/data/hvg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da7e452d2ad708d1413d58b36cf6cb3cf24353e",
+      "size": 7963,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/6da7e452d2ad708d1413d58b36cf6cb3cf24353e"
+    },
+    {
+      "path": "src/stack/data/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01bb368c56b283c0e0addf77194b37e06145be3c",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/01bb368c56b283c0e0addf77194b37e06145be3c"
+    },
+    {
+      "path": "src/stack/data/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180519966f27135870629c74443781ce99ee03ca",
+      "size": 161,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/180519966f27135870629c74443781ce99ee03ca"
+    },
+    {
+      "path": "src/stack/data/training/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd674f060a78505f1f77283d80f82aa1e0ce070",
+      "size": 61919,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/3cd674f060a78505f1f77283d80f82aa1e0ce070"
+    },
+    {
+      "path": "src/stack/dataloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9278d005dcff4b445e9e18d39c93b48b55a103",
+      "size": 1063,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/cd9278d005dcff4b445e9e18d39c93b48b55a103"
+    },
+    {
+      "path": "src/stack/finetune",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04dbf9ac1a651fbf85475f65650ea649fe2bfb69",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/04dbf9ac1a651fbf85475f65650ea649fe2bfb69"
+    },
+    {
+      "path": "src/stack/finetune/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7cdc853bce56f0c616510e9ae5a5e271fe254a",
+      "size": 284,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/dc7cdc853bce56f0c616510e9ae5a5e271fe254a"
+    },
+    {
+      "path": "src/stack/finetune/datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5846fda415ee67553170ed0329d9ed593c38cf8",
+      "size": 6487,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/c5846fda415ee67553170ed0329d9ed593c38cf8"
+    },
+    {
+      "path": "src/stack/finetune/datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb35e42b09fcbcc8906bec846c628d6dd1701535",
+      "size": 112,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/eb35e42b09fcbcc8906bec846c628d6dd1701535"
+    },
+    {
+      "path": "src/stack/finetune/lightning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f159cf928192fddcb7d9ee850f59d46d2c7aa0a6",
+      "size": 13303,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/f159cf928192fddcb7d9ee850f59d46d2c7aa0a6"
+    },
+    {
+      "path": "src/stack/finetune/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d85c4586b5b94ec1224c17e1ff80046dd0d617",
+      "size": 5186,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/05d85c4586b5b94ec1224c17e1ff80046dd0d617"
+    },
+    {
+      "path": "src/stack/finetuning_dataloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87ee3d9fdd94fdca91e7f72ddc46e0f9f64c4aa5",
+      "size": 155,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/87ee3d9fdd94fdca91e7f72ddc46e0f9f64c4aa5"
+    },
+    {
+      "path": "src/stack/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653f5769ffae0555c4090c95c6a909a739cf2be8",
+      "size": 304,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/653f5769ffae0555c4090c95c6a909a739cf2be8"
+    },
+    {
+      "path": "src/stack/model_finetune.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ab0e26c737c4c48e84837eb18ad1c8c1aa0a18",
+      "size": 342,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/69ab0e26c737c4c48e84837eb18ad1c8c1aa0a18"
+    },
+    {
+      "path": "src/stack/model_loading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfb74547f96447dea92d489bea35ed8b412d24c0",
+      "size": 3227,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/bfb74547f96447dea92d489bea35ed8b412d24c0"
+    },
+    {
+      "path": "src/stack/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ced7e0372395e1836457a97750adada3539efc2f",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/ced7e0372395e1836457a97750adada3539efc2f"
+    },
+    {
+      "path": "src/stack/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27ad4369af6f6782d9e05e56e3fcbede8c8ee22",
+      "size": 234,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/e27ad4369af6f6782d9e05e56e3fcbede8c8ee22"
+    },
+    {
+      "path": "src/stack/models/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11dfe8c150e505e2a786e7a27c9ba2849f4dfe3f",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/11dfe8c150e505e2a786e7a27c9ba2849f4dfe3f"
+    },
+    {
+      "path": "src/stack/models/core/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1aae3b088a28db1e47c234ebcca1650e2dcc10e",
+      "size": 535,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/d1aae3b088a28db1e47c234ebcca1650e2dcc10e"
+    },
+    {
+      "path": "src/stack/models/core/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9163fe3f50ae6c14b14a48edccd07281ddc8842f",
+      "size": 6991,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/9163fe3f50ae6c14b14a48edccd07281ddc8842f"
+    },
+    {
+      "path": "src/stack/models/core/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abbdea752f35337491093ce26e7c98eedd8db3f9",
+      "size": 39029,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/abbdea752f35337491093ce26e7c98eedd8db3f9"
+    },
+    {
+      "path": "src/stack/models/core/losses.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9156a36f34f6932b243ae8e13f17a339861a51e9",
+      "size": 3593,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/9156a36f34f6932b243ae8e13f17a339861a51e9"
+    },
+    {
+      "path": "src/stack/models/finetune",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e63243127dd2ab703f5871e8aadcf1705600e8de",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/e63243127dd2ab703f5871e8aadcf1705600e8de"
+    },
+    {
+      "path": "src/stack/models/finetune/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6251eb0a23f3d53461be607e8b511a8917ed65b7",
+      "size": 129,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/6251eb0a23f3d53461be607e8b511a8917ed65b7"
+    },
+    {
+      "path": "src/stack/models/finetune/mixins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0aca1aff8e4fc932949cd6d7f6721a2345b6484",
+      "size": 8209,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/a0aca1aff8e4fc932949cd6d7f6721a2345b6484"
+    },
+    {
+      "path": "src/stack/models/finetune/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64399cef14c1cccb80c9713a045b14e0c9194e15",
+      "size": 5498,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/64399cef14c1cccb80c9713a045b14e0c9194e15"
+    },
+    {
+      "path": "src/stack/models/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cf5c1079782a03cdf1c5be502617e546029d705",
+      "size": 6685,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/6cf5c1079782a03cdf1c5be502617e546029d705"
+    },
+    {
+      "path": "src/stack/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "834aaf6bd1cc9e0bf5ad574d2a626519f49ad7da",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/834aaf6bd1cc9e0bf5ad574d2a626519f49ad7da"
+    },
+    {
+      "path": "src/stack/modules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a902e6ac0266fd1ebceb98870fda860270dc9196",
+      "size": 280,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/a902e6ac0266fd1ebceb98870fda860270dc9196"
+    },
+    {
+      "path": "src/stack/modules/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e1fbacd239f85d64e7331622ac04ffa165a40b",
+      "size": 4774,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/91e1fbacd239f85d64e7331622ac04ffa165a40b"
+    },
+    {
+      "path": "src/stack/modules/regularizers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4062274067250bdf88c03c32439cef223d36da32",
+      "size": 971,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/4062274067250bdf88c03c32439cef223d36da32"
+    },
+    {
+      "path": "src/stack/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbcf37ea788dee4eb215039eefa976708f52073c",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/dbcf37ea788dee4eb215039eefa976708f52073c"
+    },
+    {
+      "path": "src/stack/training/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed76444b9f2e1b07b2e02a1cb05ab6ba427504b3",
+      "size": 546,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/ed76444b9f2e1b07b2e02a1cb05ab6ba427504b3"
+    },
+    {
+      "path": "src/stack/training/datamodule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "924744b5439f70faade12d9a617dbb9dc024d735",
+      "size": 5151,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/924744b5439f70faade12d9a617dbb9dc024d735"
+    },
+    {
+      "path": "src/stack/training/lightning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d7b62c01c9041e8f61ead6e3aa9fb00ab031c3d",
+      "size": 4309,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/4d7b62c01c9041e8f61ead6e3aa9fb00ab031c3d"
+    },
+    {
+      "path": "src/stack/training/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6baa11037446e20ac092bd3093a0b76981b1ea58",
+      "size": 8408,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/6baa11037446e20ac092bd3093a0b76981b1ea58"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4121f4931d24752664c58cab0b1fc583f4605f4e",
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/trees/4121f4931d24752664c58cab0b1fc583f4605f4e"
+    },
+    {
+      "path": "tests/test_cli_help.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8f0308840e57a14e62b6780906dd301547e61e",
+      "size": 927,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/0c8f0308840e57a14e62b6780906dd301547e61e"
+    },
+    {
+      "path": "tests/test_cli_smoke_runs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d9e79c20de16e4704b662bcb68090c358bc8ae3",
+      "size": 7124,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/0d9e79c20de16e4704b662bcb68090c358bc8ae3"
+    },
+    {
+      "path": "tests/test_cli_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb834285b6d0336ebf8c012bdbe306c5b9521e9",
+      "size": 1673,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/7cb834285b6d0336ebf8c012bdbe306c5b9521e9"
+    },
+    {
+      "path": "tests/test_finetune_mixins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb2a10743ee970ee245cbceb87511cb321ed23c",
+      "size": 815,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/0fb2a10743ee970ee245cbceb87511cb321ed23c"
+    },
+    {
+      "path": "tests/test_model_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e8e73a68827fbe3887e9177d99fc77c03b50fd1",
+      "size": 1214,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/0e8e73a68827fbe3887e9177d99fc77c03b50fd1"
+    },
+    {
+      "path": "tests/test_model_loading_import.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5730530d510467e45157e72614176aa2bd4df7",
+      "size": 555,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/1c5730530d510467e45157e72614176aa2bd4df7"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c6314bf7df238668fb86f23ec69d3051fd5073a",
+      "size": 588570,
+      "url": "https://api.github.com/repos/ArcInstitute/stack/git/blobs/4c6314bf7df238668fb86f23ec69d3051fd5073a"
+    }
+  ],
+  "truncated": false
+}

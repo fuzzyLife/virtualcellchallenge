@@ -1,0 +1,93 @@
+vars: {}
+experiment_name: replogle_xdataset
+seed: 42
+run_dir: ${PIE_RUNS_ROOT}/replogle_xdataset
+overwrite: false
+resume: false
+data:
+  preprocessed_dirs:
+  - hf://datasets/arcinstitute/pie_replogle_nadig_essential@20c9faef76fc96fdc809871340bd93499413dfe7/preprocessed
+  - hf://datasets/arcinstitute/pie_tahoe100m@597d6ded9f9a148331388484ffb193489121c702/preprocessed
+  - hf://datasets/arcinstitute/pie_jiang@99242356dfcf58e049d867703c5743df8d1790bf/preprocessed
+  - hf://datasets/arcinstitute/pie_arc_vcc_25@e7dda6065316959958b87583ddf0a15f6e69c37d/preprocessed
+  - hf://datasets/arcinstitute/pie_x_atlas_orion@0950c8aa5ce5b33dc9d6f0c5eade3ae445ca0ffb/preprocessed
+  dataset_weights:
+    replogle: 0.0
+    tahoe: 0.68
+    jiang: 0.01
+    arc_vcc_25: 0.01
+    orion: 0.3
+  split_dir: data/splits/replogle_xdataset
+  source_dirs:
+    esm2: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/esm2
+    ncbi_text: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text
+    string_space: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/string_space
+    depmap_gene_effect: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/depmap_gene_effect
+    context_text: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/context_text
+    perturbation_text: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/perturbation_text
+    smiles: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/smiles
+    l1000_tas: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/l1000_tas
+    prism_secondary: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/prism_secondary
+    jump_morphology: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/jump_morphology
+  gene_text_dir: hf://datasets/arcinstitute/pie_sources@cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/gene_text
+  aliases_path: data/sources/aliases.yaml
+  delta_p:
+    bin_width_fold_change: 1.01
+    max_delta_percentile: 99.9
+    max_delta: null
+  evidence:
+    seed: 0
+    chunk: 2048
+    lfc_clip_percentile: 95.0
+  batch_size: 16
+  num_workers: 4
+  fdr_threshold: 0.05
+model:
+  d_model: 768
+  n_latents: 512
+  n_encoder_layers: 4
+  n_processor_layers: 6
+  n_decoder_layers: 4
+  num_heads: 8
+  ff_mult: 2
+  dropout: 0.1
+  drop_src: 0.05
+  inference_chunk_size: 2048
+  class_weight_cap: 10.0
+  class_weight_cap_delta_p: 5.0
+  lfc_huber_delta: 1.0
+  lfc_target_gene_alpha: 0.001
+  lfc_direction_temperature: 0.25
+  evidence:
+    encoder_dim: 64
+    dim: 128
+    dropout: 0.1
+    response_dropout: 0.25
+  temperature:
+    de: 4.0
+    delta_p: 4.5
+optimizer:
+  lr: 0.0001
+  weight_decay: 0.01
+  betas:
+  - 0.9
+  - 0.999
+scheduler:
+  warmup_fraction: 0.05
+  constant_steps: 4250
+  eta_min: 1.0e-06
+trainer:
+  accelerator: gpu
+  devices: 8
+  num_nodes: 1
+  precision: bf16-mixed
+  max_steps: 10000
+  accumulate_grad_batches: 1
+  val_every_n_steps: 100
+  gradient_clip_val: 10.0
+  log_every_n_steps: 50
+logger:
+  enabled: true
+  group: replogle_xdataset
+  tags:
+  - replogle_xdataset
