@@ -41,3 +41,7 @@ The final A/B/C matrix contains 360,000 cells, 900 groups and 18,533 genes. **86
 The 24-group count preflight passed. Official VCC prep passed, and the independent validator reconstructed all 900 correction vectors, compared every one of **2,368,754,215 packaged nonzero values** plus indices/pointers/axes, verified all original cell/guide/library identities and exactly regenerated 12 groups. The separate input audit checked 1,200 genuine query controls and 233,296 source count rows across 587 source-target prompts, including reused conditioning controls. Metadata-only export and runtime compatibility fixes are archived and documented; no selected parameters or reserved outcomes were changed.
 
 The upload package is **4,073,574,400 bytes**, SHA-256 `8370080f290febfbec59e25a54b175317f1a22609ee3c90faa1997774611ac50`. It has not been uploaded by this workflow and has no new leaderboard score. See [V20_SUBMISSION.md](V20_SUBMISSION.md) for the artifact and Windows CMD upload command.
+
+## Published result
+
+Published `B92qai3cUvEHeobzp8Fk`, overall **0.139011567**, below V16 by **0.002602290** (1.84%). Expression and fidelity improve; reach and three other scaled components decline. V16 remains the best model. See [V20_LEADERBOARD_RESULTS.md](V20_LEADERBOARD_RESULTS.md) for exact comparisons and limitations. The preceding generation report is archived unchanged.

@@ -1,0 +1,46 @@
+{
+  "scope": "Pre-emission LFC magnitude on query-control CPM>5, own targets excluded. Includes non-DE genes; no private treated truth, significance or causal attribution.",
+  "contexts": [
+    {
+      "context": "A",
+      "eligible_changed_coordinates": 2037524,
+      "magnitude_increased_coordinates": 811778,
+      "magnitude_reduced_coordinates": 1225746,
+      "opposite_sign_coordinates": 53654,
+      "previously_zero_activated_coordinates": 29661,
+      "eligible_absolute_LFC_sum_v16": 69047.84503324094,
+      "eligible_absolute_LFC_sum_v20": 69005.64157878945,
+      "relative_LFC_mass_change": -0.0006112204433197377
+    },
+    {
+      "context": "B",
+      "eligible_changed_coordinates": 1986870,
+      "magnitude_increased_coordinates": 916829,
+      "magnitude_reduced_coordinates": 1070041,
+      "opposite_sign_coordinates": 112783,
+      "previously_zero_activated_coordinates": 26405,
+      "eligible_absolute_LFC_sum_v16": 65409.485980762576,
+      "eligible_absolute_LFC_sum_v20": 65923.701049769,
+      "relative_LFC_mass_change": 0.007861475461795608
+    },
+    {
+      "context": "C",
+      "eligible_changed_coordinates": 2091941,
+      "magnitude_increased_coordinates": 1023381,
+      "magnitude_reduced_coordinates": 1068560,
+      "opposite_sign_coordinates": 170523,
+      "previously_zero_activated_coordinates": 41141,
+      "eligible_absolute_LFC_sum_v16": 71892.55187194937,
+      "eligible_absolute_LFC_sum_v20": 72984.8229391221,
+      "relative_LFC_mass_change": 0.015193104692099668
+    }
+  ],
+  "input_sha256": {
+    "experiments/v20_stack_transfer/analysis/reference_model_arrays.npz": "59bbb446f10fcca58f625bda7b12d11fce6c9afc35fda9acc3d89702033bddec",
+    "experiments/v16_control_preserving/analysis/reference_model_arrays.npz": "b071aa7c439f2216362a925c06a43623e440af5e56e6b0aa05ff781109c4893f",
+    "experiments/v20_stack_transfer/analysis/production_inputs/A_query.npz": "38264cce01ae083646a8a9fafcde32958198c9cb230bf2c9ef3135c2c5b4f95d",
+    "experiments/v20_stack_transfer/analysis/production_inputs/B_query.npz": "fc4d46d8b02cd6ad7ddf10fdb30502da36010387be45df31d4a8caeae592667e",
+    "experiments/v20_stack_transfer/analysis/production_inputs/C_query.npz": "54c7e2e66a4abb565ba853f2865ee6d6cadbb8aa4b6143a0a322de800ee2b1cd"
+  },
+  "auditor_sha256": "be7fa9a1107ecd6340ed2cf4d0de593a545052167964e2f0bc5cea9a729ba954"
+}

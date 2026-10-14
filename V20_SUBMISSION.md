@@ -1,19 +1,19 @@
-# V20 submission: independently validated and ready for manual upload
+# V20 submission: published
 
 Artifact: `experiments/v20_stack_transfer/prediction.vcc` (3.79 GiB; 4,073,574,400 bytes).
 
 SHA-256: `8370080f290febfbec59e25a54b175317f1a22609ee3c90faa1997774611ac50`.
 
-The file has **not been uploaded** and has no leaderboard score. V16 remains the best published submission until the new result is reported. V20 is the bounded Stack mean ensemble that passed both the development and once-only reserved available-metric guards. The active V21 variation mechanism was rejected and is not included. Missing HCT116 NMAE, reused public biology and unaudited pretrained-study overlap limit the validation claim; a leaderboard improvement is not guaranteed.
+Published entry `B92qai3cUvEHeobzp8Fk`, overall **0.139011567**. V16 remains the best model; see [published comparison](V20_LEADERBOARD_RESULTS.md). V20 is the bounded Stack mean ensemble that passed both the development and once-only reserved available-metric guards. The active V21 variation mechanism was rejected and is not included. Missing HCT116 NMAE, reused public biology and unaudited pretrained-study overlap limit the validation claim; a leaderboard improvement is not guaranteed.
 
-## Upload from Windows CMD
+## Published status
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual
-.\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v20_stack_transfer\prediction.vcc -m "Stack-calibrated response ensemble v20" --wait
+.\.competition_env\Scripts\python.exe -m vcc status B92qai3cUvEHeobzp8Fk --wait
 ```
 
-If waiting is interrupted after upload, use the entry ID returned by the CLI with `.\.competition_env\Scripts\python.exe -m vcc status <entry-id> --wait`, rather than starting another upload.
+The audited artifact is already published. Generation-time release receipts remain immutable; current status is recorded separately in `analysis/leaderboard_result.json`.
 
 ## What passed
 
