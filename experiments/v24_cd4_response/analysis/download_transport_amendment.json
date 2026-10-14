@@ -1,0 +1,12 @@
+{
+  "preserved_prefix_bytes": [
+    825229312,
+    661651456,
+    165675008,
+    739246080
+  ],
+  "parts": 4,
+  "workers": 16,
+  "range_bytes": 16777216,
+  "reason": "Large individual streaming requests stalled; transport-only resume preserves each exact existing prefix and author full-file MD5. No outcome-dependent data/model change."
+}

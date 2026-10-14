@@ -1,0 +1,411 @@
+{
+  "created": "2026-07-31T23:09:12.991103+00:00",
+  "modified": "2026-07-31T23:09:13.850516+00:00",
+  "id": 21729034,
+  "conceptrecid": "21729033",
+  "doi": "10.5281/zenodo.21729034",
+  "conceptdoi": "10.5281/zenodo.21729033",
+  "doi_url": "https://doi.org/10.5281/zenodo.21729034",
+  "metadata": {
+    "title": "CIPHER: curated single-cell perturbation datasets \u2014 main",
+    "doi": "10.5281/zenodo.21729034",
+    "publication_date": "2026-08-01",
+    "description": "<p>Curated base Perturb-seq objects underlying the CIPHER analyses (Kuznets-Speck et al., <em>Fluctuation structure predicts genome-wide perturbation outcomes</em>). This record holds the lab-generated and re-curated datasets that have no other public home; the already-public datasets CIPHER uses (Frangieh, Norman, Replogle essential/rpe1, Tian, sci-Plex 3, GSE264667) are <strong>not</strong> re-hosted here and are fetched from their original repositories by <code>resources/download_resources.py</code>.</p><p><strong>Format.</strong> Each <code>.h5ad</code> is an AnnData object readable with <code>cipher.load_dataset(path)</code>: <code>var_names</code> are gene symbols, <code>obs['perturbation']</code> holds the perturbation label with <code>'control'</code> marking control cells (<code>proper_filtered.h5ad</code> uses <code>'negative'</code>), and <code>X</code> is raw counts. The two astrocyte CSVs are MERFISH measurements plus their perturbation design table.</p><p><strong>Regenerable caches are deliberately excluded.</strong> The covariance/forward precomputes the supplementary notebooks read are rebuilt from these files with the generators in <code>notebooks/src/</code>; see the repository README.</p><p><strong>Files</strong></p><table><tbody><tr><th>file</th><th>size</th><th>contents</th><th>md5</th></tr><tr><td><code>Marson2025_D1_Rest_filtered.h5ad</code></td><td>1.53 GB</td><td>335,298 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>70a49f15fddf62ab767188df0df112de</code></td></tr><tr><td><code>Marson2025_D1_Stim48hr_filtered.h5ad</code></td><td>2.25 GB</td><td>270,659 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>fdd0c99edf47db174412ad721fe547dd</code></td></tr><tr><td><code>Marson2025_D1_Stim8hr_filtered.h5ad</code></td><td>1.41 GB</td><td>265,455 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>c751deade135a04cb070c67dad532496</code></td></tr><tr><td><code>Marson2025_D2_Rest_filtered.h5ad</code></td><td>2.29 GB</td><td>479,555 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>474833a3f246a748b8076cdcbdcf63e1</code></td></tr><tr><td><code>Marson2025_D2_Stim48hr_filtered.h5ad</code></td><td>3.47 GB</td><td>473,318 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>24bcb324497d813a73fe85dfc559b8f5</code></td></tr><tr><td><code>Marson2025_D2_Stim8hr_filtered.h5ad</code></td><td>2.57 GB</td><td>467,697 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>98dab3fe3fc0070f7862050091380c7d</code></td></tr><tr><td><code>Marson2025_D3_Rest_filtered.h5ad</code></td><td>2.65 GB</td><td>423,747 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>e8c066b72f12caea34d26985f49474ea</code></td></tr><tr><td><code>Marson2025_D3_Stim48hr_filtered.h5ad</code></td><td>3.31 GB</td><td>403,100 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>50079baba74ca7234d5218ab2dbc30f4</code></td></tr><tr><td><code>Marson2025_D3_Stim8hr_filtered.h5ad</code></td><td>2.65 GB</td><td>353,408 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>ed690ea5c48cba784c1cdafec8cd9224</code></td></tr><tr><td><code>Marson2025_D4_Rest_filtered.h5ad</code></td><td>1.57 GB</td><td>275,022 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>1eef63cdcecdfeed408f05df701823ed</code></td></tr><tr><td><code>Marson2025_D4_Stim48hr_filtered.h5ad</code></td><td>2.56 GB</td><td>293,102 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>8af5688ba53377e7ab2565f87d81bf03</code></td></tr><tr><td><code>Marson2025_D4_Stim8hr_filtered.h5ad</code></td><td>1.60 GB</td><td>241,035 cells x 18,130 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>5a8d0a68b1161ebf38b615362b597978</code></td></tr><tr><td><code>ReplogleWeissman2022_K562_gwps_filtered.h5ad</code></td><td>1.36 GB</td><td>385,848 cells x 8,248 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>1820bd6080c50de4eeef487ee7ee4443</code></td></tr><tr><td><code>XAtlas2025_HCT116_filtered.h5ad</code></td><td>2.62 GB</td><td>377,537 cells x 38,606 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>c7c45287d87db928197d308f0ac9da3e</code></td></tr><tr><td><code>XAtlas2025_HEK293T_filtered.h5ad</code></td><td>4.16 GB</td><td>504,256 cells x 38,606 genes; 999 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, int16</td><td><code>559fa6d0ea6bc062649ac972ec6e3f5b</code></td></tr><tr><td><code>akana_etal_2026_crispra_perturbseq.h5ad</code></td><td>1.36 GB</td><td>20,207 cells x 36,591 genes; 61 perturbations plus control; control is obs['perturbation'] == 'control' (2,660 cells); csr_matrix, float64</td><td><code>21ccba8fda1f632a0cfdd0e0cceb5539</code></td></tr><tr><td><code>kaden25_fibroblast_ctrl_10k_min100_greedy_4gb.h5ad</code></td><td>3.98 GB</td><td>185,700 cells x 30,395 genes; 1,757 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, float32</td><td><code>c6f3996124ce6760e605ebdb1600f10d</code></td></tr><tr><td><code>kaden25_rpe1_ctrl_10k_min100_greedy_4gb.h5ad</code></td><td>3.97 GB</td><td>118,900 cells x 31,419 genes; 1,089 perturbations plus control; control is obs['perturbation'] == 'control' (10,000 cells); csr_matrix, float32</td><td><code>85bf6634340c1502906699cfa268e56e</code></td></tr><tr><td><code>merfish_perturbed_cells_astrocytes.csv</code></td><td>8.6 MB</td><td>14,926 rows x 277 columns; columns: PPP5C, LAPTM4A, CA12 ...</td><td><code>5525ffd9614e03cc323fe5b19436b4d4</code></td></tr><tr><td><code>perturbation_design_astrocytes.csv</code></td><td>4.0 MB</td><td>129 rows x 14927 columns; columns: , Cell_1, Cell_2 ...</td><td><code>4e1ed53683fd99986f4ed6e0c25990a5</code></td></tr><tr><td><code>proper_filtered.h5ad</code></td><td>2.23 GB</td><td>52,030 cells x 18,099 genes; 192 perturbations plus control; control is obs['perturbation'] == 'negative' (2,280 cells); csr_matrix, float32</td><td><code>7791a37cb0a129d8011fc490638918d9</code></td></tr><tr><td><code>schemidt_etal_2022_crispra_perturbseq.h5ad</code></td><td>364.8 MB</td><td>57,835 cells x 24,709 genes; 69 perturbations plus control; control is obs['perturbation'] == 'control' (3,724 cells); csr_matrix, float64</td><td><code>63ed2ec36456d5ce429a228252ee89eb</code></td></tr></tbody></table><p>Paths shown relative to <code>CIPHER_DATA_DIR</code> in <code>resources/zenodo_manifest.csv</code>.</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Kuznets-Speck, Benjamin",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0000-0001-9859-8749"
+      },
+      {
+        "name": "Kumari, Nitu",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0009-0004-7004-0400"
+      },
+      {
+        "name": "Senthilkumar, Irish",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0000-0002-7194-3685"
+      },
+      {
+        "name": "Jung, Jaekwon",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0009-0002-8931-1595"
+      },
+      {
+        "name": "Lopez Rios, Hector Manuel",
+        "affiliation": "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL, USA",
+        "orcid": "0000-0002-4276-7432"
+      },
+      {
+        "name": "Schwartz, Leon",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0000-0001-8621-4146"
+      },
+      {
+        "name": "Sun, Hanxiao",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA"
+      },
+      {
+        "name": "Anisetti, Vidyesh Rao",
+        "affiliation": "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL, USA",
+        "orcid": "0000-0002-2769-4773"
+      },
+      {
+        "name": "Wang, Changhu",
+        "affiliation": "Biostatistics Program, Fred Hutchinson Cancer Center, Seattle WA, USA"
+      },
+      {
+        "name": "Wang, Qingyang",
+        "affiliation": "Biostatistics Program, Fred Hutchinson Cancer Center, Seattle WA, USA"
+      },
+      {
+        "name": "Pholraksa, Pornchanan",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA"
+      },
+      {
+        "name": "Grody, Emanuelle I.",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA"
+      },
+      {
+        "name": "Melzer, Madeline E.",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0009-0000-2607-6490"
+      },
+      {
+        "name": "Haley, Benjamin",
+        "affiliation": "Department of Ophthalmology, Universite de Montreal, Canada",
+        "orcid": "0000-0002-0074-0020"
+      },
+      {
+        "name": "Prashnani, Ekta",
+        "affiliation": "NVIDIA, Santa Clara CA, USA",
+        "orcid": "0009-0000-5086-2416"
+      },
+      {
+        "name": "Li, Jingyi Jessica",
+        "affiliation": "Biostatistics Program, Fred Hutchinson Cancer Center, Seattle WA, USA",
+        "orcid": "0000-0002-9288-5648"
+      },
+      {
+        "name": "Goyal, Akshit",
+        "affiliation": "International Centre for Theoretical Sciences, Tata Institute of Fundamental Research, Bengaluru, India"
+      },
+      {
+        "name": "Vaikuntanathan, Suriyanarayanan",
+        "affiliation": "Department of Chemistry, University of Chicago, Chicago IL, USA"
+      },
+      {
+        "name": "Goyal, Yogesh",
+        "affiliation": "Department of Cell and Developmental Biology, Feinberg School of Medicine, Northwestern University, Chicago IL, USA",
+        "orcid": "0000-0003-3502-6465"
+      }
+    ],
+    "keywords": [
+      "Perturb-seq",
+      "single-cell",
+      "CRISPR",
+      "perturbation",
+      "covariance",
+      "transcriptomics",
+      "gene regulation"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "10.1101/2025.06.27.661814",
+        "relation": "isSupplementTo",
+        "resource_type": "publication-preprint",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.7041849",
+        "relation": "references",
+        "resource_type": "dataset",
+        "scheme": "doi"
+      },
+      {
+        "identifier": "10.5281/zenodo.21728753",
+        "relation": "isPartOf",
+        "resource_type": "dataset",
+        "scheme": "doi"
+      }
+    ],
+    "version": "v0.1.0",
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "21729033"
+          }
+        }
+      ]
+    }
+  },
+  "title": "CIPHER: curated single-cell perturbation datasets \u2014 main",
+  "links": {
+    "self": "https://zenodo.org/api/records/21729034",
+    "self_html": "https://zenodo.org/records/21729034",
+    "preview_html": "https://zenodo.org/records/21729034?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.21729034",
+    "self_doi": "https://doi.org/10.5281/zenodo.21729034",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21729034",
+    "reserve_doi": "https://zenodo.org/api/records/21729034/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/21729033",
+    "parent_html": "https://zenodo.org/records/21729033",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21729033",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21729033",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:21729034/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:21729034/sequence/default",
+    "files": "https://zenodo.org/api/records/21729034/files",
+    "media_files": "https://zenodo.org/api/records/21729034/media-files",
+    "latest": "https://zenodo.org/api/records/21729034/versions/latest",
+    "latest_html": "https://zenodo.org/records/21729034/latest",
+    "versions": "https://zenodo.org/api/records/21729034/versions",
+    "draft": "https://zenodo.org/api/records/21729034/draft",
+    "access_links": "https://zenodo.org/api/records/21729034/access/links",
+    "access_grants": "https://zenodo.org/api/records/21729034/access/grants",
+    "access_users": "https://zenodo.org/api/records/21729034/access/users",
+    "access_request": "https://zenodo.org/api/records/21729034/access/request",
+    "access": "https://zenodo.org/api/records/21729034/access",
+    "communities": "https://zenodo.org/api/records/21729034/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/21729034/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/21729034/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/21729034/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/21729034/quota-increase",
+    "requests": "https://zenodo.org/api/records/21729034/requests"
+  },
+  "updated": "2026-07-31T23:09:13.850516+00:00",
+  "recid": "21729034",
+  "revision": 3,
+  "files": [
+    {
+      "id": "3f31e9d4-0d91-49bf-8242-636cde425d01",
+      "key": "Marson2025_D4_Rest_filtered.h5ad",
+      "size": 1571599873,
+      "checksum": "md5:1eef63cdcecdfeed408f05df701823ed",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D4_Rest_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "5d9c6e12-6a05-4f5b-8b32-b886cf84e342",
+      "key": "Marson2025_D1_Stim48hr_filtered.h5ad",
+      "size": 2254120218,
+      "checksum": "md5:fdd0c99edf47db174412ad721fe547dd",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D1_Stim48hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "897bb4a2-caf1-4636-83f9-c8a286d96d68",
+      "key": "kaden25_rpe1_ctrl_10k_min100_greedy_4gb.h5ad",
+      "size": 3974230588,
+      "checksum": "md5:85bf6634340c1502906699cfa268e56e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/kaden25_rpe1_ctrl_10k_min100_greedy_4gb.h5ad/content"
+      }
+    },
+    {
+      "id": "f525ff40-bdf5-4d07-b741-23fb829e1bae",
+      "key": "ReplogleWeissman2022_K562_gwps_filtered.h5ad",
+      "size": 1362155463,
+      "checksum": "md5:1820bd6080c50de4eeef487ee7ee4443",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/ReplogleWeissman2022_K562_gwps_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "a2d16108-0dda-4462-a0bc-c1cf69916a26",
+      "key": "Marson2025_D1_Rest_filtered.h5ad",
+      "size": 1526580299,
+      "checksum": "md5:70a49f15fddf62ab767188df0df112de",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D1_Rest_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "8396a2e2-0471-4bd0-8659-e4aa64277572",
+      "key": "akana_etal_2026_crispra_perturbseq.h5ad",
+      "size": 1358718215,
+      "checksum": "md5:21ccba8fda1f632a0cfdd0e0cceb5539",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/akana_etal_2026_crispra_perturbseq.h5ad/content"
+      }
+    },
+    {
+      "id": "6d06f632-209c-48bc-a2c1-087abf340b73",
+      "key": "perturbation_design_astrocytes.csv",
+      "size": 4004937,
+      "checksum": "md5:4e1ed53683fd99986f4ed6e0c25990a5",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/perturbation_design_astrocytes.csv/content"
+      }
+    },
+    {
+      "id": "10d2929e-13df-40cc-a943-14681e4b95ed",
+      "key": "Marson2025_D1_Stim8hr_filtered.h5ad",
+      "size": 1408658493,
+      "checksum": "md5:c751deade135a04cb070c67dad532496",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D1_Stim8hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "67bd4caf-0d58-4cb9-a101-8c8e37623efa",
+      "key": "merfish_perturbed_cells_astrocytes.csv",
+      "size": 8569510,
+      "checksum": "md5:5525ffd9614e03cc323fe5b19436b4d4",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/merfish_perturbed_cells_astrocytes.csv/content"
+      }
+    },
+    {
+      "id": "52e91a2f-e92e-4c9c-94fa-aaf02d3c48a7",
+      "key": "proper_filtered.h5ad",
+      "size": 2225888694,
+      "checksum": "md5:7791a37cb0a129d8011fc490638918d9",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/proper_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "49e60975-b690-41cc-a552-625ac2675da8",
+      "key": "schemidt_etal_2022_crispra_perturbseq.h5ad",
+      "size": 364839931,
+      "checksum": "md5:63ed2ec36456d5ce429a228252ee89eb",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/schemidt_etal_2022_crispra_perturbseq.h5ad/content"
+      }
+    },
+    {
+      "id": "93c13c25-b145-4cdf-ad25-54d9dd63ed0f",
+      "key": "Marson2025_D2_Rest_filtered.h5ad",
+      "size": 2287711561,
+      "checksum": "md5:474833a3f246a748b8076cdcbdcf63e1",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D2_Rest_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "62516104-2852-43be-a8a8-74c14fede57c",
+      "key": "Marson2025_D4_Stim48hr_filtered.h5ad",
+      "size": 2560593668,
+      "checksum": "md5:8af5688ba53377e7ab2565f87d81bf03",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D4_Stim48hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "d53a5df9-bbb0-42de-8bb3-fd4845f288d0",
+      "key": "Marson2025_D4_Stim8hr_filtered.h5ad",
+      "size": 1602026416,
+      "checksum": "md5:5a8d0a68b1161ebf38b615362b597978",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D4_Stim8hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "e51f7ce0-ada9-4a1d-ba2f-a822c2cb68fd",
+      "key": "Marson2025_D3_Rest_filtered.h5ad",
+      "size": 2645560241,
+      "checksum": "md5:e8c066b72f12caea34d26985f49474ea",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D3_Rest_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "ebf68cb2-8e71-4c9f-ac05-6fb424490c46",
+      "key": "Marson2025_D2_Stim8hr_filtered.h5ad",
+      "size": 2570210721,
+      "checksum": "md5:98dab3fe3fc0070f7862050091380c7d",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D2_Stim8hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "ab5142a4-de82-4715-8985-6e9c5c978df5",
+      "key": "XAtlas2025_HCT116_filtered.h5ad",
+      "size": 2616081554,
+      "checksum": "md5:c7c45287d87db928197d308f0ac9da3e",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/XAtlas2025_HCT116_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "370d3d61-9797-407b-aac1-ab8aa0dd2611",
+      "key": "Marson2025_D3_Stim48hr_filtered.h5ad",
+      "size": 3308589270,
+      "checksum": "md5:50079baba74ca7234d5218ab2dbc30f4",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D3_Stim48hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "3245ceea-6424-418f-b3d0-a0bfc2562f98",
+      "key": "Marson2025_D2_Stim48hr_filtered.h5ad",
+      "size": 3474151389,
+      "checksum": "md5:24bcb324497d813a73fe85dfc559b8f5",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D2_Stim48hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "2f001fcf-5dcb-4c07-8f1d-aa2463fa9ff1",
+      "key": "Marson2025_D3_Stim8hr_filtered.h5ad",
+      "size": 2646406008,
+      "checksum": "md5:ed690ea5c48cba784c1cdafec8cd9224",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/Marson2025_D3_Stim8hr_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "e7cb8753-1684-4264-b319-6383e7ae72ee",
+      "key": "XAtlas2025_HEK293T_filtered.h5ad",
+      "size": 4158326933,
+      "checksum": "md5:559fa6d0ea6bc062649ac972ec6e3f5b",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/XAtlas2025_HEK293T_filtered.h5ad/content"
+      }
+    },
+    {
+      "id": "a7defe63-dc2b-404f-8cb3-3cc0af900e03",
+      "key": "kaden25_fibroblast_ctrl_10k_min100_greedy_4gb.h5ad",
+      "size": 3979671860,
+      "checksum": "md5:c6f3996124ce6760e605ebdb1600f10d",
+      "links": {
+        "self": "https://zenodo.org/api/records/21729034/files/kaden25_fibroblast_ctrl_10k_min100_greedy_4gb.h5ad/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1793162"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 426,
+    "unique_downloads": 230,
+    "views": 23,
+    "unique_views": 22,
+    "version_downloads": 426,
+    "version_unique_downloads": 230,
+    "version_unique_views": 22,
+    "version_views": 23
+  },
+  "state": "done",
+  "submitted": true
+}

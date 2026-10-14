@@ -1,0 +1,147 @@
+{
+  "candidate": "cdf50_de",
+  "new_candidate_passes": 1,
+  "comparisons": [
+    {
+      "candidate": "cdf25",
+      "pass": 1,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 1,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 1,
+        "beats_alpha_matched_target_shuffle": 1
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.004780666022622032,
+        "reach": 0.007658925639221201,
+        "jaccard": 0.0010834284799751993,
+        "nmae": -0.00813183758402595,
+        "relative_expression_worsening": -0.014407994912341276
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "nmae": 1,
+        "expression": 1
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "cdf50",
+      "pass": 1,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 1,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 1,
+        "beats_alpha_matched_target_shuffle": 1
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.007199850250451112,
+        "reach": 0.0005387931034482769,
+        "jaccard": 0.0018684280962769986,
+        "nmae": -0.011797056163641276,
+        "relative_expression_worsening": -0.02869275220572291
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "nmae": 1,
+        "expression": 1
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "cdf50_de",
+      "pass": 1,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 1,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 1,
+        "beats_alpha_matched_target_shuffle": 1
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.007949800626501663,
+        "reach": 0.0007524322781264255,
+        "jaccard": 0.0024823646387138257,
+        "nmae": -0.013389376914744807,
+        "relative_expression_worsening": -0.02869526163297365
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "nmae": 1,
+        "expression": 1
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_improvement_ranks": {
+    "cdf25": 2.5,
+    "cdf50": 2.1666666666666665,
+    "cdf50_de": 1.3333333333333333
+  },
+  "complete_primary_metrics": 0,
+  "plan_sha256": "1549076a625d6659a05a728ac011e8fc8919500d90c755a1fac746b371e64766",
+  "panels_sha256": "faa5308bef222e9e5f1fc822518bac4f6bc866438abdbd8c77cc9d440a6935b6",
+  "scope": "Rest raw calibration overlaps public summaries; independent400-cell condition test follows. No private anchor score estimated."
+}

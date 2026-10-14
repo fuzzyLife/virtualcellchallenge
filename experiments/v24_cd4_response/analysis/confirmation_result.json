@@ -1,0 +1,48 @@
+{
+  "candidate": "cdf50_de",
+  "new_candidate_passes": 1,
+  "comparisons": [
+    {
+      "candidate": "cdf50_de",
+      "pass": 1,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 1,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 1,
+        "beats_alpha_matched_target_shuffle": 1
+      },
+      "changes": {
+        "pds": 0.03571428571428581,
+        "fidelity": 0.007790860895049878,
+        "reach": -0.0001380766731644001,
+        "jaccard": -0.0007978518693042003,
+        "nmae": -0.004280049042397427,
+        "relative_expression_worsening": -0.013098748154846414
+      },
+      "improvements": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 0,
+        "jaccard": 0,
+        "nmae": 1,
+        "expression": 1
+      },
+      "complete_primary_metrics": 1,
+      "missing_nmae_panels": []
+    }
+  ],
+  "metric_improvement_ranks": {
+    "cdf50_de": 1.0
+  },
+  "complete_primary_metrics": 1,
+  "plan_sha256": "1549076a625d6659a05a728ac011e8fc8919500d90c755a1fac746b371e64766",
+  "panels_sha256": "ec8dbe573b4691cba8befe5bc005ef5d4efce9bf0aee61f881428fbe73f54da7",
+  "scope": "Rest raw calibration overlaps public summaries; independent400-cell condition test follows. No private anchor score estimated."
+}

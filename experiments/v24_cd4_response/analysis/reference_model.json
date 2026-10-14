@@ -1,0 +1,142 @@
+{
+  "model": "V24 context-matched donor-supported CD4 mean response",
+  "candidate": "cdf50_de",
+  "emitter": "residual10",
+  "routing": {
+    "A": {
+      "lineage_compatibility_gate": 0.9941653716655696,
+      "CD4_broad_rho": [
+        0.8578483098158337,
+        0.8559234530749705,
+        0.861331810215062
+      ],
+      "other_rho": [
+        0.44605827538809556,
+        0.753680015193101,
+        0.761915273048505,
+        0.7516099504786666
+      ],
+      "state_rho": [
+        0.2481427588591135,
+        -0.020433606102454174,
+        0.16065685053643816
+      ],
+      "condition_weights": [
+        0.6733599165514303,
+        0.04590235079622361,
+        0.2807377326523461
+      ],
+      "changed_targets_at_alpha50": 223
+    },
+    "B": {
+      "lineage_compatibility_gate": 0.0,
+      "CD4_broad_rho": [
+        0.7515146035844592,
+        0.7630778032217108,
+        0.7625491957079056
+      ],
+      "other_rho": [
+        0.33342003201485526,
+        0.7999300680517203,
+        0.799633326545146,
+        0.7781081923113522
+      ],
+      "state_rho": [
+        0.07778581278312686,
+        0.05063003321896146,
+        0.18078919064651738
+      ],
+      "condition_weights": [
+        0.21913717578489705,
+        0.16702443373950235,
+        0.6138383904756006
+      ],
+      "changed_targets_at_alpha50": 0
+    },
+    "C": {
+      "lineage_compatibility_gate": 0.0,
+      "CD4_broad_rho": [
+        0.7610811453737224,
+        0.7662876914772647,
+        0.7778103403058214
+      ],
+      "other_rho": [
+        0.37449755102391225,
+        0.7906316173835404,
+        0.8164764752754445,
+        0.7478917595575861
+      ],
+      "state_rho": [
+        0.1192043657516192,
+        0.01692457796458516,
+        0.2522085744089983
+      ],
+      "condition_weights": [
+        0.19452263280553483,
+        0.06994789742872796,
+        0.7355294697657373
+      ],
+      "changed_targets_at_alpha50": 0
+    }
+  },
+  "confirmed_improvement": 0,
+  "available_public_guards_passed": 1,
+  "status": "exploratory_public_condition_transfer_verification",
+  "runtime_sha256": "243d7d64e2dff94b1b006848cce7cae8d341c3ba1317f31df7e8ba22fe7f4b9a",
+  "model_arrays_sha256": "4e797d18e149568657f87c310fd115e417ad93340f1781ef3f7dceaa278f6250",
+  "context_original_inputs": [
+    {
+      "context": "A",
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "query_sha256": "f399ae33e6b4b96e94f9fe11ef5ce1242d594ed0211c9bf7db8c75b333d9cd73"
+    },
+    {
+      "context": "B",
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "query_sha256": "b07cc98437899a4746d38be1809fcb6a22e15b498387d6bc016a32158b5e00cd"
+    },
+    {
+      "context": "C",
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "query_sha256": "795536763ab38b52b28e17e0886265f6729d551905a014cf8c115c2ba37b02af"
+    }
+  ],
+  "teacher_all_sha256": "f309009b3070ba0697d09f0106cfea4f77726905bead263c0f3ce3223c2d8430",
+  "teacher_all_record_sha256": "0684ba220f5e211baaa95e627ca7ac40d4ab448d945db6197d2610d715f37e4c",
+  "parent_V16_arrays_sha256": "b071aa7c439f2216362a925c06a43623e440af5e56e6b0aa05ff781109c4893f",
+  "plan_sha256": "1549076a625d6659a05a728ac011e8fc8919500d90c755a1fac746b371e64766",
+  "selection_sha256": "155b99c9b86b2491fc394e5f2a380f535b303bae5b8d7d6b237ccb5847631ab2",
+  "confirmation_sha256": "f1ab5bcf0985555296b9d0a55ec1bbec31c6f4fa1c5e56accd983be08095d917",
+  "independent_experiment_audit_sha256": "7688e915415b2c6a954cf4d10d2b0f8ffeee22c4215b7f29ba4b25c7096b6c53",
+  "dependencies": {
+    "analyze_target_rank_correlations.py": "5ea29490602fa196b85914bc7cd6171ff1c17ac7e27e806931485e5ba7bb8861",
+    "assess_v24_experiment.py": "2f1d8b0cd989ad7faae8dc70efff13e96bdcd0569d7c2167d28684a356d61a2f",
+    "audit_v24_cd4_inputs.py": "abbfd89d3231d7dc1698a70916953b57bb7ddf25159670717554bcefcd052b64",
+    "audit_v24_experiment.py": "a5a54d8b2f98dd6757f3ce554579522116a23f7afe09722ad0615566375888b0",
+    "build_cd4_model.py": "6db1ce52aae12b9f642740546eae5e0efdc0c91b9a22e6e603c13dbd40ffcea2",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "build_v24_submission.py": "8923560167badc4a274c9408b659feb1f895fbfa4d2020953c2546669d82f0c6",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+    "fit_v24_submission.py": "77254ef4fd51a034e6d371e2b9f9bf18e529a15c1ef9928fb0c9b1e5464ead66",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "package_v24_submission.py": "dceb61003557e4958f3959d40116a4a398a70a6e516eeafb25ddec18195aca51",
+    "prepare_v24_experiment.py": "ac4eea7a88271af4d8d4c24e6cea5515db3e4ed9cb49d84d0e5194e911bf7109",
+    "run_v24_experiment.py": "420cd23a7528225f75c90b5ad116ced38d2da56f34c91c48a9d03a9ea2e20b4e",
+    "test_v24_means.py": "20e70f9fd112276b39c46355eeccab021a04a31f1262bcec87a38abe483cc474",
+    "unpack_v24_official_payload.py": "b3d90a8d778285ea1837d2df6af9116637a52e83037ad2f9c86441f22dc4fee8",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v12_methods.py": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v24_methods.py": "098e4594ca06aa1604a2982cc568936b98c98ac9c738999b956db37183488bef",
+    "v24_runtime.py": "10d43dad41f87e9597ac77bf0096e8373c00aba52b0cae649a8f22e1bfeaa747",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "validate_v24_submission.py": "a0fa83604a178288f079a53fc62f507be3d5791a699a005164040eac0b8e7e0f"
+  },
+  "scope": "Development calibration overlaps public Rest summaries; condition reserve excludes Stim48hr response rows, but upstream nuisance preprocessing may overlap. All three public conditions used only in standard final refit. Private controls supply compatibility, never hidden treatment labels. Missing development NMAE prevents complete six-metric verification; no hidden leaderboard guarantee."
+}

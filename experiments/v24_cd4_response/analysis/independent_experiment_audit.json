@@ -1,0 +1,19 @@
+{
+  "passed": 1,
+  "frozen_case_count": 44,
+  "count_populations": 352,
+  "cache_hashes_checked": 44,
+  "full_axis_replayed_cases": 5,
+  "full_axis_two_arm_replays": 10,
+  "no_effect_emitter_V16_identity_cases": 5,
+  "condition_response_exclusion_verified": 1,
+  "teacher_source_rows_and_conditions_verified": 400,
+  "independent_raw_input_audit_sha256": "4528e3eba3856c79b77136e696ef893913dc8b5d44af578976d08f2a4051f219",
+  "selected_candidate": "cdf50_de",
+  "reserve_release_guards_pass": 1,
+  "plan_sha256": "1549076a625d6659a05a728ac011e8fc8919500d90c755a1fac746b371e64766",
+  "selection_sha256": "155b99c9b86b2491fc394e5f2a380f535b303bae5b8d7d6b237ccb5847631ab2",
+  "confirmation_sha256": "f1ab5bcf0985555296b9d0a55ec1bbec31c6f4fa1c5e56accd983be08095d917",
+  "auditor_sha256": "a5a54d8b2f98dd6757f3ce554579522116a23f7afe09722ad0615566375888b0",
+  "limitations": "Rest development overlaps public summaries; condition reserve is existing study and upstream nuisance preprocessing may share information. Development HCT116 NMAE missing. Baseline refit excludes48hr; published production V16 arrays are separately retained. Null identity does not prove null-DE calibration."
+}

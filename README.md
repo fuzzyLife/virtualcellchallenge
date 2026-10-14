@@ -1,5 +1,15 @@
 # Virtual Cell Challenge 2026
 
+<!-- v22-v24-tests:begin -->
+
+## Conditional-response and lineage expert tests (2026-10-14)
+
+V22 learns state-dependent response strengths/interactions but fails its NMAE guard. V23 protects emitted means, passes development, then fails fidelity/Jaccard on new raw resting CD4 cells. Both are retained as negative results. V24 separately tests donor-supported CD4 mean responses, pairwise-valid rank compatibility and condition matching, with the unchanged V16 count emitter. Passed the locked raw-condition reserve. The new V24 file is upload-ready after official preparation and independent full-count/axis/provenance validation; it is not uploaded. V16 remains the best published submission at0.1416138568460195.
+
+Methods and commands: [V22](V22_STRATEGY.md), [V23](V23_STRATEGY.md), [V24](V24_STRATEGY.md). Measured outcomes: [V22](V22_RESULTS.md), [V23](V23_RESULTS.md), [V24](V24_RESULTS.md). Current artifact/command: [V24_SUBMISSION.md](V24_SUBMISSION.md). New raw CD4 files have verified author MD5s and original cell/count audits; development calibration/public study overlap and missing metrics are explicit. Frozen old models/packages are preserved.
+
+<!-- v22-v24-tests:end -->
+
 <!-- post-v20-review:begin -->
 
 ## Complete retrospective after V20 (2026-10-14)
