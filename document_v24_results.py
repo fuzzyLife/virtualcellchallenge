@@ -31,4 +31,7 @@ def main():
  if start in s:a=s.index(start);z=s.index(end,a)+len(end);s=s[:a]+block+s[z:]
  else:s=s.replace('# Virtual Cell Challenge 2026','# Virtual Cell Challenge 2026\n\n'+block,1)
  readme.write_text(s,encoding='utf-8');print('V22/V23/V24 actual results and README documented; released=',released,flush=True)
+ if (A/'leaderboard_result.json').exists():
+  from record_v24_result import main as record_publication
+  record_publication(A/'published_api_status.json')
 if __name__=='__main__':main()

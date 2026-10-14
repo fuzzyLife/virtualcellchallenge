@@ -1,10 +1,20 @@
 # Virtual Cell Challenge 2026
 
+<!-- v24-publication:begin -->
+
+## V24 published result
+
+V24 is published as `81Y2yX7utdAau9rr3jCj`, overall **0.142997855**, improving on V16 by **+0.001383998** (0.98%) and V20 by **+0.003986288**. It is the new best recorded project validation submission. All six scaled components improve versus V16. Rank was530 at publication; the API check records531. Same validation panel and anchors as V16/V20.
+
+The bounded donor-supported CD4 expert updates207 context-A groups while693 groups retain verified V16 counts. Full package and provenance checks passed. [Published comparison](V24_LEADERBOARD_RESULTS.md), [local tests](V24_RESULTS.md), [methods](V24_STRATEGY.md), [artifact/status](V24_SUBMISSION.md). Generation-time receipts are preserved; publication is recorded separately.
+
+<!-- v24-publication:end -->
+
 <!-- v22-v24-tests:begin -->
 
 ## Conditional-response and lineage expert tests (2026-10-14)
 
-V22 learns state-dependent response strengths/interactions but fails its NMAE guard. V23 protects emitted means, passes development, then fails fidelity/Jaccard on new raw resting CD4 cells. Both are retained as negative results. V24 separately tests donor-supported CD4 mean responses, pairwise-valid rank compatibility and condition matching, with the unchanged V16 count emitter. Passed the locked raw-condition reserve. The new V24 file is upload-ready after official preparation and independent full-count/axis/provenance validation; it is not uploaded. V16 remains the best published submission at0.1416138568460195.
+V22 learns state-dependent response strengths/interactions but fails its NMAE guard. V23 protects emitted means, passes development, then fails fidelity/Jaccard on new raw resting CD4 cells. Both are retained as negative results. V24 separately tests donor-supported CD4 mean responses, pairwise-valid rank compatibility and condition matching, with the unchanged V16 count emitter. Passed the locked raw-condition reserve. The V24 file passed official preparation and independent full-count/axis/provenance validation. It is now published at0.14299785521745675, exceeding V16 in all six scaled components.
 
 Methods and commands: [V22](V22_STRATEGY.md), [V23](V23_STRATEGY.md), [V24](V24_STRATEGY.md). Measured outcomes: [V22](V22_RESULTS.md), [V23](V23_RESULTS.md), [V24](V24_RESULTS.md). Current artifact/command: [V24_SUBMISSION.md](V24_SUBMISSION.md). New raw CD4 files have verified author MD5s and original cell/count audits; development calibration/public study overlap and missing metrics are explicit. Frozen old models/packages are preserved.
 
@@ -14,19 +24,19 @@ Methods and commands: [V22](V22_STRATEGY.md), [V23](V23_STRATEGY.md), [V24](V24_
 
 ## Complete retrospective after V20 (2026-10-14)
 
-Reviewed all 12 published submissions and the unsubmitted/rejected experiments through V21. The main recent gain came from V10/V11; V16 remains the champion. V20 passed public algorithm verification but regressed on the leaderboard, exposing a transfer-validation gap. The new review distinguishes implemented scalar/program variation from the still-unfitted full state-dependent continuous-response model, and extends the existing treatment-moment oracle into a proposed factorial diagnostic. It also checks raw-data feasibility rather than treating every overlapping target list as a usable count dataset.
+Reviewed all 12 published submissions and the unsubmitted/rejected experiments through V21. The main recent gain came from V10/V11; V16 was the champion at the time of this review. V20 passed public algorithm verification but regressed on the leaderboard, exposing a transfer-validation gap. The new review distinguishes implemented scalar/program variation from the still-unfitted full state-dependent continuous-response model, and extends the existing treatment-moment oracle into a proposed factorial diagnostic. It also checks raw-data feasibility rather than treating every overlapping target list as a usable count dataset.
 
 Full step-by-step history, remaining gaps and ordered tests: [POST_V20_RETROSPECTIVE.md](POST_V20_RETROSPECTIVE.md). Root `review_post_v20_experiments.py` reproduces the 12-receipt arithmetic, panel/anchor checks, scope tables and evidence hashes; run it with `--check` to verify saved review artifacts. No training or new submission was produced for this review. Earlier experiment plans, numerical code and packages remain frozen.
 
 <!-- post-v20-review:end -->
 
-This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Twelve submissions (first, V2, V4, V5, V6, V7, V9, V10, V11, V13, V16 and V20) have been published. V16 is the best recorded validation submission, with overall score **0.141613857**, improving on V13 by **0.003730723** (2.71%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md) for the current result and [V16_SUBMISSION.md](V16_SUBMISSION.md) for reproducibility.
+This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Thirteen submissions (first, V2, V4, V5, V6, V7, V9, V10, V11, V13, V16, V20 and V24) have been published. V24 is the best recorded validation submission, with overall score **0.142997855**, improving on V16 by **0.001383998** (0.98%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V24_LEADERBOARD_RESULTS.md](V24_LEADERBOARD_RESULTS.md) for the current result and [V24_SUBMISSION.md](V24_SUBMISSION.md) for reproducibility.
 
 <!-- v18-v21-tests:begin -->
 
 ## Pretrained and covariance experiments (2026-10-13)
 
-Implemented the post-V17 plan and completed **644 full-count development comparisons** across PIE knowledge/confidence experts (V18), covariance transport (V19), a generated-control-calibrated Stack response ensemble (V20), and active vocabulary-compatible Stack variation programs (V21). PIE, covariance transport and active variation fail their frozen release criteria. V20 mean-only passes development and the once-only eight-pair algorithm reserve with modest mixed gains. V20 is published with overall **0.139011567**, below V16 by **0.002602290** (1.84%). Expression and fidelity improve, while DE reach falls; V16 remains the best published submission. See [V20 published results](V20_LEADERBOARD_RESULTS.md) and [artifact status](V20_SUBMISSION.md). Public biology is partly reused, pretrained study overlap is unaudited and some NMAE panels are missing.
+Implemented the post-V17 plan and completed **644 full-count development comparisons** across PIE knowledge/confidence experts (V18), covariance transport (V19), a generated-control-calibrated Stack response ensemble (V20), and active vocabulary-compatible Stack variation programs (V21). PIE, covariance transport and active variation fail their frozen release criteria. V20 mean-only passes development and the once-only eight-pair algorithm reserve with modest mixed gains. V20 is published with overall **0.139011567**, below V16 by **0.002602290** (1.84%). Expression and fidelity improve, while DE reach falls; V16 remained the best published submission at that stage. See [V20 published results](V20_LEADERBOARD_RESULTS.md) and [artifact status](V20_SUBMISSION.md). Public biology is partly reused, pretrained study overlap is unaudited and some NMAE panels are missing.
 
 Root scripts, strict checkpoint/code hashes, package pins, frozen plans, emitted-count comparisons and independent input/case/array audits are recorded. Large weights, raw data and regenerable arrays stay outside Git. Methods and results: [V18 strategy](V18_STRATEGY.md) / [results](V18_RESULTS.md), [V19 strategy](V19_STRATEGY.md) / [results](V19_RESULTS.md), [V20 strategy](V20_STRATEGY.md) / [results](V20_RESULTS.md), [V21 strategy](V21_STRATEGY.md) / [results](V21_RESULTS.md). The earlier research-only snapshot below describes the state before these execution tests.
 
@@ -36,7 +46,7 @@ Root scripts, strict checkpoint/code hashes, package pins, frozen plans, emitted
 
 ## New research after V17 (2026-10-13)
 
-Audited genuinely untested pretrained models and distributional mechanisms. Proposed first: PIE as a biological-knowledge/DE-confidence expert, followed by Stack with generated-control calibration. Pinned 50 small author-code/model metadata inputs and audited exact coverage, checkpoint sizes, training-data overlap and the local 8 GiB GPU. PIE feature coverage is broader than its trained output axis; Stack covers 13,078 competition genes. CIPHER forward benchmarks fit an amplitude using observed treatment shifts, so that number cannot be reused as a zero-shot prediction claim. No model weights were downloaded, no model inference was run and no new submission was produced. Literature/code findings and data priorities: [POST_V17_RESEARCH.md](POST_V17_RESEARCH.md). Concrete staged tests: [POST_V17_NEXT_EXPERIMENT.md](POST_V17_NEXT_EXPERIMENT.md). Root collectors/audits reproduce the checks. V16 remains the best published reference.
+Audited genuinely untested pretrained models and distributional mechanisms. Proposed first: PIE as a biological-knowledge/DE-confidence expert, followed by Stack with generated-control calibration. Pinned 50 small author-code/model metadata inputs and audited exact coverage, checkpoint sizes, training-data overlap and the local 8 GiB GPU. PIE feature coverage is broader than its trained output axis; Stack covers 13,078 competition genes. CIPHER forward benchmarks fit an amplitude using observed treatment shifts, so that number cannot be reused as a zero-shot prediction claim. No model weights were downloaded, no model inference was run and no new submission was produced. Literature/code findings and data priorities: [POST_V17_RESEARCH.md](POST_V17_RESEARCH.md). Concrete staged tests: [POST_V17_NEXT_EXPERIMENT.md](POST_V17_NEXT_EXPERIMENT.md). Root collectors/audits reproduce the checks. V16 was the best published reference at that stage.
 
 <!-- post-v17-research:end -->
 
@@ -44,7 +54,7 @@ Audited genuinely untested pretrained models and distributional mechanisms. Prop
 
 ## V17 learned intervention variation
 
-Fitted cross-fitted response-strength variation from verified public raw counts and tested 140 paired full-count populations plus six exact-null checks. The full candidate modestly improves reach, but worsens NMAE and fails the learned-versus-shuffled DE guard; no new upload package is released. V16 remains the best recorded submission. Collected new iPSC/KOLF author metadata and exact target/donor coverage; KOLF has 273 target names in common, but its browser values are mean NTC z-scores and were not treated as counts. Root scripts, frozen plans, source exclusions, independent audits and small evidence are versioned. Methods/data: [V17_STRATEGY.md](V17_STRATEGY.md). Outcomes: [V17_RESULTS.md](V17_RESULTS.md). Artifact decision: [V17_SUBMISSION.md](V17_SUBMISSION.md).
+Fitted cross-fitted response-strength variation from verified public raw counts and tested 140 paired full-count populations plus six exact-null checks. The full candidate modestly improves reach, but worsens NMAE and fails the learned-versus-shuffled DE guard; no new upload package is released. V16 was the best recorded submission at that stage. Collected new iPSC/KOLF author metadata and exact target/donor coverage; KOLF has 273 target names in common, but its browser values are mean NTC z-scores and were not treated as counts. Root scripts, frozen plans, source exclusions, independent audits and small evidence are versioned. Methods/data: [V17_STRATEGY.md](V17_STRATEGY.md). Outcomes: [V17_RESULTS.md](V17_RESULTS.md). Artifact decision: [V17_SUBMISSION.md](V17_SUBMISSION.md).
 
 <!-- v17-research:end -->
 
@@ -82,7 +92,7 @@ Methods/reproduction: [V15_STRATEGY.md](V15_STRATEGY.md). Measured comparisons, 
 
 ## V16 published result
 
-V16 is published as `wG3GGbaTsl2dXFn7cQy1`, overall **0.141613857**, a gain of **+0.003730723** (2.71%) over V13 on the same panel and anchors. It is the best recorded project validation score. Rank was **562** in the user report and **561** at the API check; historical ranks are not directly comparable. Four scaled components improve, led by expression accuracy and reach; fidelity and NMAE decline. The exact V13 response predictor is retained, with residual10 count generation.
+V16 is published as `wG3GGbaTsl2dXFn7cQy1`, overall **0.141613857**, a gain of **+0.003730723** (2.71%) over V13 on the same panel and anchors. It was the best recorded project validation score at publication; V24 now exceeds it. Rank was **562** in the user report and **561** at the API check; historical ranks are not directly comparable. Four scaled components improve, led by expression accuracy and reach; fidelity and NMAE decline. The exact V13 response predictor is retained, with residual10 count generation.
 
 Frozen development compares 252 populations (224 new, 28 verified reused baseline), plus 18 control diagnostics and 36 reserved comparisons. Calibrated response shrinkage and balanced transport were rejected. Available public guards passed, with missing NMAE panels limiting complete validation. Official packaging and independent full-payload/provenance/replay checks passed. Methods: [V16_STRATEGY.md](V16_STRATEGY.md). Public tests: [V16_RESULTS.md](V16_RESULTS.md). Hosted comparison: [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md). Artifact/status: [V16_SUBMISSION.md](V16_SUBMISSION.md).
 
@@ -94,7 +104,7 @@ Frozen development compares 252 populations (224 new, 28 verified reused baselin
 
 All 55,200 observed A/B/C controls and 18,000 sampled V16 predictions (20 cells from every target/context group) are displayed on the same frozen, control-fitted full-gene rank PCA axes. Colors identify context; circles identify controls and crosses identify predictions. The interactive plot supports target selection, source/context toggles, hover and zoom. These are controls versus predictions, with no observed A/B/C treated truth. See [V16_CELL_PROJECTION.md](V16_CELL_PROJECTION.md) for figures, method, checks and reproduction with root `plot_v16_cell_projection.py`.
 
-The latest and best published submission is V16 (`wG3GGbaTsl2dXFn7cQy1`), overall **0.141613857**. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md).
+The latest and best published submission is V24 (`81Y2yX7utdAau9rr3jCj`), overall **0.142997855**. See [V24_LEADERBOARD_RESULTS.md](V24_LEADERBOARD_RESULTS.md).
 
 Reviewed the paper, code and cached embeddings in `cross_modal_foundation_model`. The root script `review_cross_modal_model.py` records provenance, exact gene coverage and synthetic checks. See [CROSS_MODAL_MODEL_REVIEW.md](CROSS_MODAL_MODEL_REVIEW.md): RNA-only Tahoe embeddings cover 235/300 targets, while the advertised proteomics checkpoint is currently absent. A context-aware response-head pilot is recommended; no submission was changed.
 

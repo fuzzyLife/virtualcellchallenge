@@ -1,8 +1,10 @@
 # V24 measured results
 
+V24 is published as `81Y2yX7utdAau9rr3jCj`, overall **0.142997855**, improving on V16 by **+0.001383998** (0.98%) and V20 by **+0.003986288**. It is the new best recorded project validation submission. All six scaled components improve versus V16. See [V24_LEADERBOARD_RESULTS.md](V24_LEADERBOARD_RESULTS.md).
+
 **Passed the locked raw-condition reserve.** Locked candidate: `cdf50_de`. The new package passed official preparation and independent full-payload validation.
 
-V16 remains the best published project result, overall0.1416138568460195. V24 has not been uploaded and has no leaderboard score.
+At generation time V16 was the best published score (0.1416138568460195), and V24 was not yet uploaded. The subsequent hosted result is recorded above.
 
 ## Development
 
@@ -117,4 +119,4 @@ Two focused model tests pass (withheld-response removal, bounded correction, zer
 
 `experiments/v24_cd4_response/prediction.vcc`: 4,073,656,320 bytes; SHA256 `42cd3906e17aa2e8e546efea44f1e726a38e577605f211ad96f1564362a20cc6`. All900 groups,360,000 cells and18,533 genes pass official requirements. 207 groups receive new effects; unchanged groups reuse verified V16 count blocks. All three public conditions are used only in final refitting. Every production coefficient is independently reconstructed; every packaged CSR value/index/pointer is compared and12 full groups are regenerated exactly. Original control IDs, guides, unique sampling and libraries are checked for every prediction.
 
-No automatic upload or Git push occurred. See V24_SUBMISSION.md for the exact CMD upload command.
+The generator performed no automatic upload; the user subsequently submitted this exact path. Current status is in V24_SUBMISSION.md.
