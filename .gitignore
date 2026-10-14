@@ -396,3 +396,33 @@ __marimo__/
 
 # Small reproducible Stack vocabulary binary; decoded coverage and source hash are tracked
 /analysis/post_v17_research/stack_gene_vocabulary.pkl
+
+# V18 isolated pretrained-model runtime and regenerable arrays
+/.v18_pie_env/
+/reference/v18_pie/
+/experiments/v18_pie_expert/**/*.npz
+/experiments/v18_pie_expert/analysis/*_cache/
+/experiments/v18_pie_expert/*.log
+
+
+# V19 regenerable program models and paired population caches
+/experiments/v19_covariance_forces/**/*.npz
+/experiments/v19_covariance_forces/analysis/*_cache/
+/experiments/v19_covariance_forces/*.log
+
+/reference/v20_stack/
+/experiments/v20_stack_transfer/**/*.npz
+/experiments/v20_stack_transfer/analysis/*_cache/
+/experiments/v20_stack_transfer/*.log
+
+/experiments/v21_stack_programs/**/*.npz
+/experiments/v21_stack_programs/analysis/*_cache/
+/experiments/v21_stack_programs/*.log
+
+# Keep the exact pretrained-inference package pins reproducible.
+!/experiments/v18_pie_expert/analysis/inference_runtime_freeze.txt
+!/experiments/v20_stack_transfer/analysis/inference_runtime_freeze.txt
+
+# V20 regenerable production sampling and per-prompt provenance.
+/experiments/v20_stack_transfer/analysis/prediction_control_rows.csv
+/experiments/v20_stack_transfer/analysis/production_inputs/sources/

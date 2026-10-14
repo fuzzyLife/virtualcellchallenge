@@ -1,0 +1,68 @@
+{
+  "stage": "confirmation",
+  "candidate": "stack_mean",
+  "new_candidate_passes": true,
+  "comparisons": [
+    {
+      "candidate": "stack_mean",
+      "pass": true,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "beats_amplitude": true,
+        "beats_shuffled": true
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": 0.0010535658052903685,
+        "reach": 0.022050779165332473,
+        "jaccard": -0.0001011023065099828,
+        "nmae": -0.004328330926461177,
+        "relative_expression_worsening": -0.002717562603458307,
+        "versus_amplitude": {
+          "fidelity": 0.0013435998453249127,
+          "reach": 0.007004482869036171,
+          "jaccard": -8.052519968121565e-05
+        },
+        "versus_shuffled": {
+          "fidelity": 0.001320891442695075,
+          "reach": 0.025523001387554683,
+          "jaccard": 0.00012341291214019868
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {
+    "stack_mean": 1.0
+  },
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "panels_sha256": "03e5748521e2d533e6556609ce5d3e478fcf741a6376ead72d5231f0e1f43c10",
+  "scope": "Public reused biology; family-balanced raw guards; no private anchor-scaled score or guaranteed ranking."
+}

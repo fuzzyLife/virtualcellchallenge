@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "reason": "Our new exporter saved gene and target axes as object dtype. Rejecting safe loader caught this before any expert output. Use plain Unicode string axes.",
+  "model_formula_source_choices_seeds_and_all_numeric_input_arrays_unchanged": true,
+  "no_pickle_loaded": true,
+  "original_plan_sha256": "5af5e884aea2e9ee08fb44e6c7da811dec4a37f94d3f6735a450418e2f3553cb",
+  "checks": [
+    {
+      "context": "A",
+      "all_non_axis_arrays_bitwise_preserved": true,
+      "axes_read_independently_from_official_CSV": true,
+      "old_query_sha256": "af94aac884e97f523fb90576d67abdeb57edca5a3e4ca0dce091875da5624f0b",
+      "new_query_sha256": "38264cce01ae083646a8a9fafcde32958198c9cb230bf2c9ef3135c2c5b4f95d"
+    },
+    {
+      "context": "B",
+      "all_non_axis_arrays_bitwise_preserved": true,
+      "axes_read_independently_from_official_CSV": true,
+      "old_query_sha256": "eb9e6d97b65d055e4c111b6f6bfb1d15e9a727e4fb488e5bf3027d6089dce476",
+      "new_query_sha256": "fc4d46d8b02cd6ad7ddf10fdb30502da36010387be45df31d4a8caeae592667e"
+    },
+    {
+      "context": "C",
+      "all_non_axis_arrays_bitwise_preserved": true,
+      "axes_read_independently_from_official_CSV": true,
+      "old_query_sha256": "af7ec01934eee7f9cd8674fa325d40e430891f7bc4756672c3853fe376595b8b",
+      "new_query_sha256": "54c7e2e66a4abb565ba853f2865ee6d6cadbb8aa4b6143a0a322de800ee2b1cd"
+    }
+  ],
+  "repair_script_sha256": "5de3457c5398d419114e784429c3aca89fe079780d2e970a1bdc36ce4b527852"
+}

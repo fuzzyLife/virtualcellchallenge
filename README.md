@@ -2,6 +2,16 @@
 
 This project analyses the validation bundle for the [Virtual Cell Challenge](https://virtualcellchallenge.org/), generates raw single-cell CRISPRi response predictions, and packages them using the official VCC CLI. Eleven submissions (first, V2, V4, V5, V6, V7, V9, V10, V11, V13 and V16) have been published. V16 is the best recorded validation submission, with overall score **0.141613857**, improving on V13 by **0.003730723** (2.71%). Expression accuracy and biological dispersion remain weaknesses. V3 remains an unsubmitted candidate. See [V16_LEADERBOARD_RESULTS.md](V16_LEADERBOARD_RESULTS.md) for the current result and [V16_SUBMISSION.md](V16_SUBMISSION.md) for reproducibility.
 
+<!-- v18-v21-tests:begin -->
+
+## Pretrained and covariance experiments (2026-10-13)
+
+Implemented the post-V17 plan and compared **644 full-count development comparisons** across PIE knowledge/confidence experts (V18), covariance transport (V19), a generated-control-calibrated Stack response ensemble (V20), and active vocabulary-compatible Stack variation programs (V21). PIE, covariance transport and active variation fail their frozen release criteria. V20 mean-only passes development and the once-only eight-pair algorithm reserve with modest mixed gains. Its full production package is independently validated and ready for manual upload: [V20 submission and command](V20_SUBMISSION.md). No new leaderboard score is claimed; V16 remains the best published submission. Public biology is partly reused, pretrained study overlap is unaudited and some NMAE panels are missing.
+
+Root scripts, strict checkpoint/code hashes, package pins, frozen plans, emitted-count comparisons and independent input/case/array audits are recorded. Large weights, raw data and regenerable arrays stay outside Git. Methods and results: [V18 strategy](V18_STRATEGY.md) / [results](V18_RESULTS.md), [V19 strategy](V19_STRATEGY.md) / [results](V19_RESULTS.md), [V20 strategy](V20_STRATEGY.md) / [results](V20_RESULTS.md), [V21 strategy](V21_STRATEGY.md) / [results](V21_RESULTS.md). The earlier research-only snapshot below describes the state before these execution tests.
+
+<!-- v18-v21-tests:end -->
+
 <!-- post-v17-research:begin -->
 
 ## New research after V17 (2026-10-13)

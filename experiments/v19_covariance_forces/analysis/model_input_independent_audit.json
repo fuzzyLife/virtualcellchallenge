@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "held": "H1",
+      "source": "HCT116",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "H1",
+      "source": "HEK293T",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "HCT116",
+      "source": "H1",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "HDAC8",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "HCT116",
+      "source": "HEK293T",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "HEK293T",
+      "source": "H1",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "HDAC8",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "HEK293T",
+      "source": "HCT116",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "all",
+      "source": "H1",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "HDAC8",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "all",
+      "source": "HCT116",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    },
+    {
+      "held": "all",
+      "source": "HEK293T",
+      "control_covariance_recomputed": true,
+      "source_shifts_recomputed": [
+        "ABCD1",
+        "HDAC8",
+        "VIM",
+        "SMARCA5"
+      ]
+    }
+  ],
+  "plan_sha256": "911d9be92d0f69322f68c6d538dba9528cfc9909a83ffc27e79651605b8fcb38",
+  "auditor_sha256": "4f6c334fef48e14be412bcc988eed3f808a4324ad7f50cff191588f44a9686e6",
+  "frozen_source_cache_sha256_verified": true,
+  "method": "Dense selected-gene log1p normalization, direct within-batch depth least squares, direct score cross-products and selected treatment means; distinct from fitted sparse pipeline."
+}

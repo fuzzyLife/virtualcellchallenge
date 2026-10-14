@@ -1,0 +1,2400 @@
+{
+  "source_array_bytes": 43182215296,
+  "source_lfs_sha256": "437b88bcf30246003a5962d4a440095d8c292c578e917fa77c92c27fe4d544ae",
+  "npy_header_hex": "934e554d5059010076007b276465736372273a20273c6632272c2027666f727472616e5f6f72646572273a2046616c73652c20277368617065273a202831303534323533332c2032303438292c207d2020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020200a",
+  "ranges": [
+    {
+      "key": "ACLY",
+      "lo": 116162688,
+      "hi": 118894719,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4f7323fc2129e8ae815edb166daca8cba88196589207dca5886e6252f3e4f78f",
+      "tokens": 667
+    },
+    {
+      "key": "AP2A2",
+      "lo": 423878784,
+      "hi": 427401343,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3a69390ccb92e16d158e4a150d243ce85785ca641cc40acd0554e7149ad25bea",
+      "tokens": 860
+    },
+    {
+      "key": "AKT2",
+      "lo": 540893312,
+      "hi": 545976447,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8373848efbc92f5adee5a75035ad481bcfa181615793e616d7d4ff6e3eb95441",
+      "tokens": 1241
+    },
+    {
+      "key": "ABCD1",
+      "lo": 564265088,
+      "hi": 570351743,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bd22587c0042392ef7f8554371d9ae98b62e54615dba029720d7e7a78c5d5704",
+      "tokens": 1486
+    },
+    {
+      "key": "BCL6",
+      "lo": 1527304320,
+      "hi": 1532059775,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1cba585b370279a5dc8a8451b4e50e0fdfb8845fd7401e023260fd42a62bc298",
+      "tokens": 1161
+    },
+    {
+      "key": "MYRF",
+      "lo": 1894043776,
+      "hi": 1897275519,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "eebe63eead22de86dbcb4b54db64e1af2e66d0d35d9c46b7acb783963ba3e61b",
+      "tokens": 789
+    },
+    {
+      "key": "CAT",
+      "lo": 2166235264,
+      "hi": 2172436607,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6c3787302b351c560a644ec3343402b298a90135d447996ec6daeb73f18b5ed0",
+      "tokens": 1514
+    },
+    {
+      "key": "CDK8",
+      "lo": 2628124800,
+      "hi": 2630578303,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c1e2eb1294ee5bca3a92edd1024c943c1d9346072fc682b1eee52f9b75cbde39",
+      "tokens": 599
+    },
+    {
+      "key": "CHD3",
+      "lo": 2784559232,
+      "hi": 2788130943,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "804d2b1d73ee92c53aa4b79b33394c36dcd74b1cb3863bd38aa678a5853a2ca4",
+      "tokens": 872
+    },
+    {
+      "key": "CHKB",
+      "lo": 2818052224,
+      "hi": 2819911807,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "63d5a2ceea9e3b368ed539053160e225ad239f96f017e8ee8b9440f4d6b0f3e8",
+      "tokens": 454
+    },
+    {
+      "key": "CLCN6",
+      "lo": 2968576128,
+      "hi": 2971029631,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6cb5c645360333f27566b99abea708eb70d513ab381d7d8a59817672711f766a",
+      "tokens": 599
+    },
+    {
+      "key": "CSNK2A1",
+      "lo": 3496931456,
+      "hi": 3501846655,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "65426ab0ce6cf066db68ded2f17824e11c0ef9e997eb77c49b6daa3ebd6587de",
+      "tokens": 1200
+    },
+    {
+      "key": "DBN1",
+      "lo": 3892441216,
+      "hi": 3896094847,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "82c819f99747a017001af26cc144eef25c088348ba9addc53e077b67a40d0074",
+      "tokens": 892
+    },
+    {
+      "key": "DLAT",
+      "lo": 4092661888,
+      "hi": 4094582911,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a23194cd3d12dce6fb99283ebef254fd6357ffe84bf48ee91593237489881946",
+      "tokens": 469
+    },
+    {
+      "key": "DRG2",
+      "lo": 4308590720,
+      "hi": 4310237311,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "65fa8b586a4823bc0ac18753b5e12ca4f4064a73818c47f16e6037034114cee2",
+      "tokens": 402
+    },
+    {
+      "key": "DVL3",
+      "lo": 4404617344,
+      "hi": 4407492735,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "acf27b20e5e1cbfc4cd9cae7537a341b15d48fe0398f974a4458f4d5472d0eab",
+      "tokens": 702
+    },
+    {
+      "key": "E2F1",
+      "lo": 4417867904,
+      "hi": 4423114879,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0acc04dc1836b815d4fe49bbeac139633c24b1580d42aa242a39d4be89c2ad09",
+      "tokens": 1281
+    },
+    {
+      "key": "E2F4",
+      "lo": 4428931200,
+      "hi": 4432015487,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7e8c92f0e91f99cb01659bc3eaeb1b9cc57e865f9c1061d3d1e553020330b61e",
+      "tokens": 753
+    },
+    {
+      "key": "EEF1A2",
+      "lo": 4525850752,
+      "hi": 4529123455,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "71d79df33647f6d75d917c31d341799c1be3323cf8c408aaec726139a95784bf",
+      "tokens": 799
+    },
+    {
+      "key": "ELK1",
+      "lo": 4683501696,
+      "hi": 4687519871,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6feb3c314c8d43056a6092ef2f4a59303a0df2cb5496b9c283735c4b60e5f57d",
+      "tokens": 981
+    },
+    {
+      "key": "EPHB2",
+      "lo": 4825866368,
+      "hi": 4834709631,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fad1610f0f1b36884cfbc6923698dfddc8bc7ade5fa71ca732204158f98c9d66",
+      "tokens": 2159
+    },
+    {
+      "key": "EZH2",
+      "lo": 5042118784,
+      "hi": 5049393279,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4232739e9931d3b7b36be877d01c191bf91b9e01247deb8fe925d98ccb8c5fbd",
+      "tokens": 1776
+    },
+    {
+      "key": "FCGRT",
+      "lo": 5228494976,
+      "hi": 5229977727,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "aea608497c75112559881642c5829e1d8bb649c15f6ce384b411eeb77863d35e",
+      "tokens": 362
+    },
+    {
+      "key": "FHL3",
+      "lo": 5392212096,
+      "hi": 5393776767,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b0d4e5fe96fc85e17ff9c38b91bdc2abd5ad383ae93731616b37c58faaf8ac9d",
+      "tokens": 382
+    },
+    {
+      "key": "FZD2",
+      "lo": 5694369920,
+      "hi": 5696925823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2a6f2d11f54b5b43c836a4423f1fcd254ddaced1d60937e9b7d4b75a0342607b",
+      "tokens": 624
+    },
+    {
+      "key": "GLI3",
+      "lo": 6135791744,
+      "hi": 6141780095,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "107c55d1a18cc2232a6a52ef4145c844f1aa8ae0cb1572dce5b0d2501f33d348",
+      "tokens": 1462
+    },
+    {
+      "key": "HDAC1",
+      "lo": 6862205056,
+      "hi": 6870892671,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8840ea21e4e381fcb71dd1238597ba4ed2223ac19fdfcdba4fc6be836410ae56",
+      "tokens": 2121
+    },
+    {
+      "key": "ZBTB48",
+      "lo": 6970941568,
+      "hi": 6973288575,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bec7ca60e64ccdf5664720c2990790aa6034605088cbb76110ddabd94e071d5a",
+      "tokens": 573
+    },
+    {
+      "key": "PRMT2",
+      "lo": 7350452352,
+      "hi": 7354065023,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5a03a58b6cec052f97535c2985a7667dc3643750f18df6b04afc408fba8af215",
+      "tokens": 882
+    },
+    {
+      "key": "HSBP1",
+      "lo": 7368798336,
+      "hi": 7370559615,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d285d256016c1329b1695a5a305c0c57644e6b7043e18be61f28d5b5372c88ae",
+      "tokens": 430
+    },
+    {
+      "key": "HSP90AB1",
+      "lo": 7476920448,
+      "hi": 7485235327,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d4c3a1c39abcfbcbdd98f88a7f6b9b4813772058d2a356c1cb5bccb4ac8ebf8a",
+      "tokens": 2030
+    },
+    {
+      "key": "FOXN2",
+      "lo": 7508181120,
+      "hi": 7509844095,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0f4cea6379521a268c0c7cabea4bdb940015e23aa71b47cde0c8f3d509bebb82",
+      "tokens": 406
+    },
+    {
+      "key": "IFNAR2",
+      "lo": 7676711040,
+      "hi": 7679545471,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "623749364d1219f39114b3d3ca6c3219e4ebb7f16978f4311687fd016bf28ff6",
+      "tokens": 692
+    },
+    {
+      "key": "IFNGR2",
+      "lo": 7695655040,
+      "hi": 7697895551,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "024df24c45a75d3df1061e160216341c1af944b1c6a8b639401286a808acd137",
+      "tokens": 547
+    },
+    {
+      "key": "IL10RB",
+      "lo": 7920197760,
+      "hi": 7923273855,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7027fff963277f2a2f64d468be91333d323df760776856bbaa429c15268fa140",
+      "tokens": 751
+    },
+    {
+      "key": "IREB2",
+      "lo": 8110284928,
+      "hi": 8112271487,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a592b3baef307a7a564eb3d5185d6195a9ba9222a0d792f8c3506c9f3e144fa4",
+      "tokens": 485
+    },
+    {
+      "key": "STT3A",
+      "lo": 8276832384,
+      "hi": 8279310463,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1016b39777178d058526058735f775732656569ba7aa2878ac0cd18f4c057b5c",
+      "tokens": 605
+    },
+    {
+      "key": "KIF2A",
+      "lo": 8552927360,
+      "hi": 8556372095,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "370ca4fbfb542a5ed3429515f2211a4a3029aa62050733fb2cf2a6bd62f11f8b",
+      "tokens": 841
+    },
+    {
+      "key": "LDLR",
+      "lo": 8836751488,
+      "hi": 8844677247,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c60f4cb9552714b5f9b92e0d63b057629b2c43f9624f1d779a3c97f88214ddf1",
+      "tokens": 1935
+    },
+    {
+      "key": "LMAN1",
+      "lo": 8952000640,
+      "hi": 8955191423,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "984565d05b8caf9ac70a2ae8909ab68887815c64d3f0f12a1c277c3c46cafcdd",
+      "tokens": 779
+    },
+    {
+      "key": "MAN2A1",
+      "lo": 9234563200,
+      "hi": 9237069951,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "593b612ad38f838f0f42e855dcf665ccd9e9a2495b17e819c5c6cd09c6758e0e",
+      "tokens": 612
+    },
+    {
+      "key": "KMT2A",
+      "lo": 9569767552,
+      "hi": 9574457471,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "44d9a5b25e3fc425831690af2831e8a6ab8457e14692b3d61a5f324a1a6f21d1",
+      "tokens": 1145
+    },
+    {
+      "key": "FOXO4",
+      "lo": 9584345216,
+      "hi": 9588285567,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b73d28b29f5e893f26d9e0f2a6c547526bb93803601a6e5394581dbc7a5c2d1e",
+      "tokens": 962
+    },
+    {
+      "key": "MTF1",
+      "lo": 9797144704,
+      "hi": 9799528575,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "472f538d5899fec856a8ef0c536677fb1d0a7e95ee9e7fb7932a97aee92523db",
+      "tokens": 582
+    },
+    {
+      "key": "MTM1",
+      "lo": 9812070528,
+      "hi": 9815453823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f102c133fb9507356680ac1417f651cf9d56a295cd4d3d3a0c0a9bc18e0c9427",
+      "tokens": 826
+    },
+    {
+      "key": "MYD88",
+      "lo": 9913856128,
+      "hi": 9921966207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "97ce9ee170bd7f905dd0c270f934cd354dfed9901688acdd6e994acf1058d4f1",
+      "tokens": 1980
+    },
+    {
+      "key": "NFE2L1",
+      "lo": 10286948480,
+      "hi": 10291019903,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4edc800075b68e1eebfddbf3ed62fe12b2f5ad0ad0b4a2f5c1eb6ecce2da7aaa",
+      "tokens": 994
+    },
+    {
+      "key": "PNP",
+      "lo": 10500829312,
+      "hi": 10505367679,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b01dba460183e587f28345cd97f46537dfd2f4370ee52886a7c9db8159c0c2e5",
+      "tokens": 1108
+    },
+    {
+      "key": "PDE6D",
+      "lo": 11127558272,
+      "hi": 11129086079,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "51e3e1b14b050b9818324aaa295901ab11a13cc258466d121e9b57ee432bcf51",
+      "tokens": 373
+    },
+    {
+      "key": "PDK1",
+      "lo": 11182555264,
+      "hi": 11185131647,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2f4556dc0631b2214e5c2ce970db14d07535a6fedc877c4ae3f60d814a4028c9",
+      "tokens": 629
+    },
+    {
+      "key": "PDK3",
+      "lo": 11187904640,
+      "hi": 11190485119,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "566c9574208b1c6c56841ccace6bc9edb39e48d4fdb015155d3ebb66610d79bd",
+      "tokens": 630
+    },
+    {
+      "key": "PI4KB",
+      "lo": 11479220352,
+      "hi": 11482382463,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "42839dec2fcc1d7fc5181a4b3e37b68f70a3a4735e7f852ec1573dfb22777664",
+      "tokens": 772
+    },
+    {
+      "key": "PIN1",
+      "lo": 11482382464,
+      "hi": 11487662207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b7757b82fc3d7e9718a2abc1b40371c6800c3c58222cba203da7399133235e32",
+      "tokens": 1289
+    },
+    {
+      "key": "PLAGL2",
+      "lo": 11575165056,
+      "hi": 11576852607,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8f48c970744e4a1876a6b0aa20e4f04db080b2ae0c1611181d85ff3f00d5cf85",
+      "tokens": 412
+    },
+    {
+      "key": "PLCG1",
+      "lo": 11603484800,
+      "hi": 11608445055,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "99e9b357343b3617fcffa44c066c367a035c85c91c76a4c63e7519ba72bf374d",
+      "tokens": 1211
+    },
+    {
+      "key": "POR",
+      "lo": 11839873152,
+      "hi": 11844898943,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8e623457bcfefc75382244fa85e8d07b54efebadc588ece93a1bfcf7af2ec5ac",
+      "tokens": 1227
+    },
+    {
+      "key": "PRKAB2",
+      "lo": 12103983232,
+      "hi": 12105900159,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4057c77d783b25858724c36798bd44d509ba1ca3b2e24182390674da6cfdbc7f",
+      "tokens": 468
+    },
+    {
+      "key": "PRKACA",
+      "lo": 12105900160,
+      "hi": 12115222655,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c40da54ab76093bc48611130628a61b96f33abffabccabbf07a68b61dd4f26f5",
+      "tokens": 2276
+    },
+    {
+      "key": "MAPK7",
+      "lo": 12250067072,
+      "hi": 12254273663,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "92e7aa5f142bc02eb79b1c7331fb19a854a4be9c5a597a4e8941305f8f10bc30",
+      "tokens": 1027
+    },
+    {
+      "key": "MAP2K2",
+      "lo": 12281471104,
+      "hi": 12286787711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4818c320a8e813081cbcd008d5995b9c3c9b1cfe2b8ffbe974200dde942ab383",
+      "tokens": 1298
+    },
+    {
+      "key": "PRNP",
+      "lo": 12324352128,
+      "hi": 12332978303,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a07690e95cdffd6c0f99c8a5210a2550431297d9d1dc0172833ef3ebf7f2cdfd",
+      "tokens": 2106
+    },
+    {
+      "key": "PSKH1",
+      "lo": 12430368896,
+      "hi": 12432486527,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a31e69f86a27eced84710906b59eb0c96c7f3c73a4a19f7ee34fe18457425c26",
+      "tokens": 517
+    },
+    {
+      "key": "PSMB9",
+      "lo": 12499107968,
+      "hi": 12502487167,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "04282defcbf128cecbd8f2258bcbfaddf99c7f70cf6261986bed533e53265acd",
+      "tokens": 825
+    },
+    {
+      "key": "PTMS",
+      "lo": 12652212352,
+      "hi": 12653256831,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "57a4455681ab48f08eb39c257cd662dde38abca9515d173437ea17ed329c4718",
+      "tokens": 255
+    },
+    {
+      "key": "PYCR1",
+      "lo": 12807946368,
+      "hi": 12809904255,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4be7fdf3234b437770e468eaaee98799efdd999f07b03d672d55068a2870dcbc",
+      "tokens": 478
+    },
+    {
+      "key": "RAB5A",
+      "lo": 12848681088,
+      "hi": 12854849663,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "892da4648ef542ab342877e15fc2ca146c5ca8a514a1a5216dff1580fee5c560",
+      "tokens": 1506
+    },
+    {
+      "key": "KDM5A",
+      "lo": 13051015296,
+      "hi": 13054451839,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3578942b2aae4d3b1a078cf4f7280ce9c84917d867bb4ea88b7af215453b5e74",
+      "tokens": 839
+    },
+    {
+      "key": "RNF2",
+      "lo": 13263003776,
+      "hi": 13266653311,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fff939e1006cf25bf86622779aa2abc7788cf41d4ebcc68d3226040c03f05609",
+      "tokens": 891
+    },
+    {
+      "key": "S100A11",
+      "lo": 13776195712,
+      "hi": 13779415167,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "94061096a61f54253ba7c8744bd157fabfc7bd407814ab807cdf0828f1f91f7c",
+      "tokens": 786
+    },
+    {
+      "key": "MAPK12",
+      "lo": 13811536000,
+      "hi": 13814579327,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "133ec69d71e923b238d6827d916461acfabdf44e2c6b9ef143e5f2779d290a07",
+      "tokens": 743
+    },
+    {
+      "key": "SRSF5",
+      "lo": 14127153280,
+      "hi": 14129320063,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "18f50ff946a705ef27af6008561ff917119350e8f47a77e150d48027348893fc",
+      "tokens": 529
+    },
+    {
+      "key": "SMARCC2",
+      "lo": 14597832832,
+      "hi": 14601388159,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "97cc1379bcb7099558e6528ae3f1219c71836223debd7690420acf744d21d619",
+      "tokens": 868
+    },
+    {
+      "key": "SSR4",
+      "lo": 15022305408,
+      "hi": 15023689855,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f8f0bb235a9c1c64cb288ed87550e07e821766629b1b2a9776c583b096924feb",
+      "tokens": 338
+    },
+    {
+      "key": "STAT6",
+      "lo": 15093317760,
+      "hi": 15096963199,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f7d963be1590fdc95091ceb78a15eeed12181321e016aade27b18069fb007087",
+      "tokens": 890
+    },
+    {
+      "key": "STK3",
+      "lo": 15119667328,
+      "hi": 15123267711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3abaf97107dd0471ee68b8a086ed13a271b9e222f3537f4de9ea5c86f2394e98",
+      "tokens": 879
+    },
+    {
+      "key": "TAF4",
+      "lo": 15344644224,
+      "hi": 15347662975,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bda3c90234f66d05eb9b212daf1dc86bb1c87ef07559dca7e0f3d044c7a2b6aa",
+      "tokens": 737
+    },
+    {
+      "key": "TARBP2",
+      "lo": 15406178432,
+      "hi": 15410139263,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7817edb22750c420de126c6d5d0b6a44a938535a6febde1a0e8bed8c138e2e4b",
+      "tokens": 967
+    },
+    {
+      "key": "TEAD4",
+      "lo": 15591469184,
+      "hi": 15594131583,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1ec915fe3cbe8414aaeb0777835788bcd20116cf657f338f1b00b881aeb91c2b",
+      "tokens": 650
+    },
+    {
+      "key": "TFCP2",
+      "lo": 15660634240,
+      "hi": 15662891135,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7d9f661653eecd4a0652482a25f249856542e5c7cd5a22c4def23d0029916d5f",
+      "tokens": 551
+    },
+    {
+      "key": "TMF1",
+      "lo": 15937212544,
+      "hi": 15939022975,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b1c513da72b96303545f7bb9a262b6eb0bfd81aaaf850436b2f0841c29b30aca",
+      "tokens": 442
+    },
+    {
+      "key": "UROS",
+      "lo": 16479043712,
+      "hi": 16481194111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6ee2864f9fd44f134186fddce6bc2bfe562a9afb445d5ad82257342e0da947fb",
+      "tokens": 525
+    },
+    {
+      "key": "VIM",
+      "lo": 16601428096,
+      "hi": 16605282431,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8968bdbdb265ba922ab59eff6416670c96c5248bb6dd223dcc827b79fb3cf240",
+      "tokens": 941
+    },
+    {
+      "key": "ZNF16",
+      "lo": 16883662976,
+      "hi": 16886259839,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5322001c8cf43114e80dda58cb1c20bb22b750c0505b58eebf24d65e5a12a507",
+      "tokens": 634
+    },
+    {
+      "key": "ZNF22",
+      "lo": 16894201984,
+      "hi": 16895598719,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "555bf4e85f4a685ad8b7e05be39c0e48fb593d0a46eed27c93a0763a97d9e160",
+      "tokens": 341
+    },
+    {
+      "key": "ZNF32",
+      "lo": 16903127168,
+      "hi": 16904515711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "332e6d92a3960f45393bf614eab61bf04f86357aebfef0a229b346d61ab37b79",
+      "tokens": 339
+    },
+    {
+      "key": "ZKSCAN1",
+      "lo": 16910065792,
+      "hi": 16911773823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6fdf9ff35a886c49c8b7c8c42cf2de17d8dd38c6f487a799e73d325b438e0a3c",
+      "tokens": 417
+    },
+    {
+      "key": "ZNF174",
+      "lo": 17000804480,
+      "hi": 17003118719,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b56859fb4b28bdac79c000e2ac565a1b313802f30df00cfc489b10c37ea8707c",
+      "tokens": 565
+    },
+    {
+      "key": "BRPF1",
+      "lo": 17155174528,
+      "hi": 17157861503,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0c671945f9c06de9daecc903332db46847b2594a54702a297b366f33a8ded93d",
+      "tokens": 656
+    },
+    {
+      "key": "DEK",
+      "lo": 17188401280,
+      "hi": 17190609023,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8a9dc2b783304dfc78725a0d7360480bb1c15c93ab725739c0dc8fe75a615b79",
+      "tokens": 539
+    },
+    {
+      "key": "MLLT10",
+      "lo": 17274265728,
+      "hi": 17276416127,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2326890d9ae85a8bb34d6eac7d8e2dff3b2f0f94ea82b1a67894f04b348f9d13",
+      "tokens": 525
+    },
+    {
+      "key": "TAF15",
+      "lo": 17369804928,
+      "hi": 17371684991,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7509b9ff94ef9bca06645fb100961a8198b760d4837d28e85da07c48731dfed2",
+      "tokens": 459
+    },
+    {
+      "key": "COIL",
+      "lo": 17373397120,
+      "hi": 17375076479,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "cdfa727ccbb09699a2e6dd640bbcc2d968661cd3e51ecfa674d02cc24fe1f4e0",
+      "tokens": 410
+    },
+    {
+      "key": "AKAP1",
+      "lo": 17375076480,
+      "hi": 17376473215,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a7b85bfcef9c197dcc140a76d222c3c1c1d3437c7ce3596d696b7df7b9a734b1",
+      "tokens": 341
+    },
+    {
+      "key": "SNN",
+      "lo": 17490784384,
+      "hi": 17491710079,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "51838f13ab8cdab6e645970d300c71573946bbf6d6862ef0028acb761ccc6ca8",
+      "tokens": 226
+    },
+    {
+      "key": "ZNF282",
+      "lo": 17700642944,
+      "hi": 17702117503,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6108687bad6694328ed417ee158d8186216b7205dbb54354556121b2765405ae",
+      "tokens": 360
+    },
+    {
+      "key": "SMARCA5",
+      "lo": 17787064448,
+      "hi": 17792209023,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "19f5a4750ae84e8edbf6143dfce08ec35e882e716cc72fdae9130e40a4947e77",
+      "tokens": 1256
+    },
+    {
+      "key": "API5",
+      "lo": 17933521024,
+      "hi": 17935016063,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9c513cfcdcafe11ef77d55f87d1d78bcc65f919f15d783885e081e31229c985b",
+      "tokens": 365
+    },
+    {
+      "key": "KHSRP",
+      "lo": 18005225600,
+      "hi": 18008420479,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "85cfc7dac53fa2b151cb3d23bdcafbd4a52c0af2f602fdd1f7a68987e0d1c80d",
+      "tokens": 780
+    },
+    {
+      "key": "SNX4",
+      "lo": 18292973696,
+      "hi": 18295570559,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d7eac26b039936458c74d10bad27ddf4288edeb3055d2769eefee998994e57df",
+      "tokens": 634
+    },
+    {
+      "key": "MBD4",
+      "lo": 18765467776,
+      "hi": 18767609983,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "502f92336a3f0381b1662a59ba873c9eca53fbe655eeec7f09f828392adfd2f0",
+      "tokens": 523
+    },
+    {
+      "key": "FUBP3",
+      "lo": 18785800320,
+      "hi": 18787971199,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0ff20c232614f57745010a3345ec866872a1b26d227b92292feac891204ac288",
+      "tokens": 530
+    },
+    {
+      "key": "MTA1",
+      "lo": 19064090752,
+      "hi": 19068141695,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e3a56cb93e5a86070ed984edace1024c6d8f19d729f195686a0957ef021eb020",
+      "tokens": 989
+    },
+    {
+      "key": "VAPB",
+      "lo": 19256619136,
+      "hi": 19261341823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e46d0203448f217c9819dc6e71a3300732202482bbdd146a483b3e6b2ddb2cfa",
+      "tokens": 1153
+    },
+    {
+      "key": "CYTH2",
+      "lo": 19345657984,
+      "hi": 19347755135,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "455739ccc7d50d8df039596f6471b6b4c440f98c7857577cef42ab0ef16c8046",
+      "tokens": 512
+    },
+    {
+      "key": "BCL7C",
+      "lo": 19359715456,
+      "hi": 19361730687,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e0e3a742f1a872e2debd820280afea3dafaa5e71deb908c4bf00281924bec923",
+      "tokens": 492
+    },
+    {
+      "key": "HMGN3",
+      "lo": 19425386624,
+      "hi": 19426754687,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9f7c5fa9420399c4a14367cd3eb3e58f33031f8e7427193897c58335e5f3038b",
+      "tokens": 334
+    },
+    {
+      "key": "TRIP4",
+      "lo": 19426754688,
+      "hi": 19430129791,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b07f891c0a9df9df67bb4d4e31382a75077596562dbc973c7741b26d02e57479",
+      "tokens": 824
+    },
+    {
+      "key": "GTF2IRD1",
+      "lo": 19919143040,
+      "hi": 19921055871,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ca77d7861a13bd7204aab3e1bc7da61c3b239b203745b7db16161e795c4ed6a1",
+      "tokens": 467
+    },
+    {
+      "key": "SOCS5",
+      "lo": 20087558272,
+      "hi": 20090482815,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ab2c07918f00c8728d10c439e1c77f7066b1a2bb8d069ee566437c6140e92dd4",
+      "tokens": 714
+    },
+    {
+      "key": "EPM2AIP1",
+      "lo": 20431491200,
+      "hi": 20432683135,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ae9a3c2bb4e15b232e0da31c6ce7759e15eb6d1eebabdf4e76224639ff15e983",
+      "tokens": 291
+    },
+    {
+      "key": "SUPT7L",
+      "lo": 20537794688,
+      "hi": 20539342975,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b0c8dfebd54c668a298efb831536d8fbcd4d937176299ef522674af684a7b293",
+      "tokens": 378
+    },
+    {
+      "key": "RNF10",
+      "lo": 20553224320,
+      "hi": 20556099711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9c65cda3043211001ed110ee49eeb0b89116470eebccd730322fbe6d425f01fe",
+      "tokens": 702
+    },
+    {
+      "key": "PAN2",
+      "lo": 20559765632,
+      "hi": 20562227327,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5f678a314bbbcb4ea8dd7213553798990a150c00dede8c2c43b94b341b3fbff5",
+      "tokens": 601
+    },
+    {
+      "key": "MED13",
+      "lo": 20643930240,
+      "hi": 20646264959,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a2f6e844334d4f7a0ff700593ea068f5bf735ca7561faa5af860b684aec79a58",
+      "tokens": 570
+    },
+    {
+      "key": "DMTF1",
+      "lo": 20691918976,
+      "hi": 20693229695,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f8c127415bbcfb987335180394b93459fcdfa67e63c984b33a0b826747d1bb99",
+      "tokens": 320
+    },
+    {
+      "key": "PARP3",
+      "lo": 20795240576,
+      "hi": 20799250559,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "60804c3a10030e421124279ac59c6aa2ae6290a7bed4dba457c3cbfba4ff6e61",
+      "tokens": 979
+    },
+    {
+      "key": "SH2D3A",
+      "lo": 20807704704,
+      "hi": 20808704127,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "23a0ffa329573bb3857620cbfcf62b797876dd838b48ffbd740c6e91d3051463",
+      "tokens": 244
+    },
+    {
+      "key": "PQBP1",
+      "lo": 20892991616,
+      "hi": 20896186495,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5268d1d4b4a1b0edb44b117792b5185231abcbba36f7b36d3830a5ac9d48f905",
+      "tokens": 780
+    },
+    {
+      "key": "PPIF",
+      "lo": 20929437824,
+      "hi": 20932345983,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "016c063221b26f428887d265031ad44b995f60697dca9d3be621e827e7bd5443",
+      "tokens": 710
+    },
+    {
+      "key": "LPCAT3",
+      "lo": 21043998848,
+      "hi": 21047689343,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4244456dab4d9ef1615257bfc25972e9f7944eaedc52e8d0c4317658eb3bccae",
+      "tokens": 901
+    },
+    {
+      "key": "SLC25A13",
+      "lo": 21052821632,
+      "hi": 21056073855,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "62a16deb46d240f789c9e8ee4c2a08d89c03719b1529607f3ad71caf9198110d",
+      "tokens": 794
+    },
+    {
+      "key": "RBM5",
+      "lo": 21077164160,
+      "hi": 21079404671,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7ff5783116b8660f741720bdb43b05e360f65b299daf6494c503380e19ef1156",
+      "tokens": 547
+    },
+    {
+      "key": "TIMM17B",
+      "lo": 21199171712,
+      "hi": 21200523391,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "cc45b26ad7d248497deb9ad31b96ded32012201eceabd3c31f94ced98a3dc096",
+      "tokens": 330
+    },
+    {
+      "key": "BCKDK",
+      "lo": 21304045696,
+      "hi": 21307318399,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3147fbe6ec25bb6f0394156eaba89a55509244206b7cdc96ec152ce088eef444",
+      "tokens": 799
+    },
+    {
+      "key": "TESK2",
+      "lo": 21538050176,
+      "hi": 21540229247,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c30cc653fc52a284b07613c34e3f52ab2699d2d9c0c1a512f1fbbc549c8b8521",
+      "tokens": 532
+    },
+    {
+      "key": "TMEM147",
+      "lo": 21556510848,
+      "hi": 21558026367,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "19f4f3ff451ad31f46e57ae2fc3e7d3297d3b6d7161992ddc40dfba5ecc8d71f",
+      "tokens": 370
+    },
+    {
+      "key": "HMGN4",
+      "lo": 21646180480,
+      "hi": 21647278207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "22c4324663aa198639d439da5ca92ae8ea206819d814f7e08a6ec90ff62adaa6",
+      "tokens": 268
+    },
+    {
+      "key": "CARM1",
+      "lo": 21705736320,
+      "hi": 21709373567,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "00eb91a6733afc9818fee5ce75fca7f283a0c75aa90d790524ea03dd4474d2c0",
+      "tokens": 888
+    },
+    {
+      "key": "SEMA4F",
+      "lo": 21716803712,
+      "hi": 21719355519,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0c0558c90983f15fd1b00778a35fca43acbfbf7ac4167486ac188502ba1f310a",
+      "tokens": 623
+    },
+    {
+      "key": "DEAF1",
+      "lo": 21754486912,
+      "hi": 21757870207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "cb0f4c645c78d3e333353da84c3e9f413da3a855c17bd1fe15763f0241347d98",
+      "tokens": 826
+    },
+    {
+      "key": "ANP32B",
+      "lo": 21803217024,
+      "hi": 21805125759,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6834ab6b4408217d451602573f5355a47a9f79f09600555b4fb5d7a9d2919280",
+      "tokens": 466
+    },
+    {
+      "key": "KHDRBS1",
+      "lo": 22033657984,
+      "hi": 22037799039,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2b31209aa21594d83d3bd08ff2675051db636047d69ccc162f3ea34c442fdf16",
+      "tokens": 1011
+    },
+    {
+      "key": "PAPOLA",
+      "lo": 22439420032,
+      "hi": 22441525375,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7a084df8e900416a6fff39c22e1791aa3289af836de6e330f32974d2a40b6aab",
+      "tokens": 514
+    },
+    {
+      "key": "PRDX3",
+      "lo": 22476333184,
+      "hi": 22480519295,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2318111edeb68d98cbee5133adaf9fff1d3456807010c9aec31ba0e6dae5797b",
+      "tokens": 1022
+    },
+    {
+      "key": "PIM2",
+      "lo": 22687006848,
+      "hi": 22689431679,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1ee75eefba1063fc51dcfcdb35a658897ed179576b77608bc84fda1bbd39fcd1",
+      "tokens": 592
+    },
+    {
+      "key": "WBP4",
+      "lo": 22974701696,
+      "hi": 22976835711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8a354ae070ab513105a27330835e371b17f9b07d99675f065c74dd15784d93db",
+      "tokens": 521
+    },
+    {
+      "key": "TWF2",
+      "lo": 23211958400,
+      "hi": 23215538303,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "05db8595f36f17657b0ad09430525028e9c6c6dd599d92bbe2fcb0e9c0f9cd00",
+      "tokens": 874
+    },
+    {
+      "key": "SCAF8",
+      "lo": 23266750592,
+      "hi": 23268765823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ac93cf691c8b3c3e49b70d7ba60b1ee167596c34e7b302c9d81816bc49c71d54",
+      "tokens": 492
+    },
+    {
+      "key": "ZNF507",
+      "lo": 23291125888,
+      "hi": 23292272767,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6afdbbc20b0da2303f192a2e7b37ff40bbce8d4969e6ec58129129c4ab8afd8d",
+      "tokens": 280
+    },
+    {
+      "key": "HMGXB3",
+      "lo": 23550734464,
+      "hi": 23551561855,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "56c79f1909785e8ee9728e618bee9d35dd02297702854e0413cbbca7e9822725",
+      "tokens": 202
+    },
+    {
+      "key": "KIF21B",
+      "lo": 23646875776,
+      "hi": 23648755839,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2b136ebc56237e4a08e2d9967e1d0c1be921bad8436c737362cef19a13652a30",
+      "tokens": 459
+    },
+    {
+      "key": "ZHX3",
+      "lo": 23655727232,
+      "hi": 23657898111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6c62a095cf277c4e1dc040d78671b7ee18e27768de14f13ddf05245541006e51",
+      "tokens": 530
+    },
+    {
+      "key": "TRIM35",
+      "lo": 23709626496,
+      "hi": 23711330431,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3b134551d84a34ea1ab1129e6c3cb0dffc453aadf20f4ad8dfd5b68c5d1a78ff",
+      "tokens": 416
+    },
+    {
+      "key": "GPATCH8",
+      "lo": 23781757056,
+      "hi": 23782862975,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "385563208fb78b68b52a2cda4150bb565450a0ec20fbf1ef7586c56517c07d86",
+      "tokens": 270
+    },
+    {
+      "key": "PHF8",
+      "lo": 23785242752,
+      "hi": 23788683391,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8d375a4d69c15f79913b4e1cab00e1b61ad3a4363171f60f47237de1ade3d879",
+      "tokens": 840
+    },
+    {
+      "key": "FAM120A",
+      "lo": 23897182336,
+      "hi": 23898284159,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1fd33b9cd916782359c1eb21eb426ee7c2237c587fec01018a203a057a320c6a",
+      "tokens": 269
+    },
+    {
+      "key": "PPIP5K2",
+      "lo": 24020668544,
+      "hi": 24023146623,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5bce4d0ab7066b40a4b1e77d7c51c0bb38d04b6b106efaff31eccba42cd9155f",
+      "tokens": 605
+    },
+    {
+      "key": "SIN3B",
+      "lo": 24091377792,
+      "hi": 24093466751,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bdca88aee1a4fe8935eaf841a0d0854d3eaf854b8a3c0c8fb20acc734c38e8ce",
+      "tokens": 510
+    },
+    {
+      "key": "ADNP",
+      "lo": 24238035072,
+      "hi": 24242008191,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d976652cb14942fd4e4926b867556541a67dd7838d0443bd07e0cd9cbbea672d",
+      "tokens": 970
+    },
+    {
+      "key": "TMED3",
+      "lo": 24324378752,
+      "hi": 24326537343,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c68d841a7cf1664d34af5d2d8ee01bb5ba901252f0aedfed65ff6e2972726cb0",
+      "tokens": 527
+    },
+    {
+      "key": "TDRD7",
+      "lo": 24326537344,
+      "hi": 24328544383,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8e45928ca0003467a6ac29c097d207291eb56fc22e8d947bb19e76e58e87f026",
+      "tokens": 490
+    },
+    {
+      "key": "SLC44A1",
+      "lo": 24358613120,
+      "hi": 24360906879,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "eb1de46364da03da1ffdbc58cc298261f55fcfbdf6e1b0b4b9e6ceb82022ac60",
+      "tokens": 560
+    },
+    {
+      "key": "BRD1",
+      "lo": 24773116032,
+      "hi": 24776138879,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e5b8af59fe88ce59b838e0dc2973acb436d0a58186a11c9355cd1fe37a28c309",
+      "tokens": 738
+    },
+    {
+      "key": "PGLS",
+      "lo": 24853098624,
+      "hi": 24854560895,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c19be6922027e7ea13f432b80e7e650bd3b811f56c485cf08e1b350086281158",
+      "tokens": 357
+    },
+    {
+      "key": "ZNF324",
+      "lo": 24857776256,
+      "hi": 24859287679,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f1a5f01a21c3695fb517fa09145bc347aa352d2ff8e0cdcac16171823a5fee71",
+      "tokens": 369
+    },
+    {
+      "key": "TMEM186",
+      "lo": 24977342592,
+      "hi": 24978305151,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "791b4eda8209c0bd8f408d3fc81ee0f055149520a6b88b0d18b52321ddab85f6",
+      "tokens": 235
+    },
+    {
+      "key": "NIPSNAP3A",
+      "lo": 25048170624,
+      "hi": 25049104511,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a44b9397ec2806494fa5a65893fb14ddd936118bc63254da5596881b92df53ae",
+      "tokens": 228
+    },
+    {
+      "key": "RAB11FIP5",
+      "lo": 25218289792,
+      "hi": 25221021823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "281270aeb55ae79092bc0710d4285ee6d1f78fabdc0e3b6379a1e11a15b1c35c",
+      "tokens": 667
+    },
+    {
+      "key": "GIGYF2",
+      "lo": 25223344256,
+      "hi": 25226367103,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "86bd2087c0fc2ed733a3c2ba214eda45bf217eb3f33f3d257fa9bd90e1434b82",
+      "tokens": 738
+    },
+    {
+      "key": "EPC2",
+      "lo": 25283448960,
+      "hi": 25285267583,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4f00f9a36d8203295a9e0e80255b100120b673c6e5c41b8255d33661da088187",
+      "tokens": 444
+    },
+    {
+      "key": "TRPC4AP",
+      "lo": 25291640960,
+      "hi": 25293500543,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3dce0eed3646b7cf13495004ffe92c57693e41626ba3a4959f4bbf9514862c0f",
+      "tokens": 454
+    },
+    {
+      "key": "PHF19",
+      "lo": 25307607168,
+      "hi": 25309757567,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "df035b1e1c04aeee9f0acfd789fe33a9b213d555889ae0107e001dfd79bc59c0",
+      "tokens": 525
+    },
+    {
+      "key": "GMEB2",
+      "lo": 25350049920,
+      "hi": 25352122495,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e327401353476c384960f6793d93a92de317ab44c88938d7a060cdafdd3f8b10",
+      "tokens": 506
+    },
+    {
+      "key": "AGO1",
+      "lo": 25529905280,
+      "hi": 25533870207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b89c6a422fec78e17214be2ec617d7e2c398039031ff0e743343fd820e91b7a6",
+      "tokens": 968
+    },
+    {
+      "key": "SND1",
+      "lo": 25704509568,
+      "hi": 25707372671,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "94c8e647f8eaa0dfc7445bbad5ee2c2f9c84d6afb043da6191536eb4aa44e28b",
+      "tokens": 699
+    },
+    {
+      "key": "ZNF777",
+      "lo": 25824583808,
+      "hi": 25826390143,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "51a606d7ecd2637bed63f2e799c12a0f5acae714558a2039cd9a73c80119c1f1",
+      "tokens": 441
+    },
+    {
+      "key": "SLC39A1",
+      "lo": 25849753728,
+      "hi": 25851789439,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c54fd74195a2a93793b7b1cdbd6af001c3a86a02e5dd3f2ce950a32c49fa681b",
+      "tokens": 497
+    },
+    {
+      "key": "PDCD4",
+      "lo": 25928781952,
+      "hi": 25931276415,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8c0b6b049c6b6bfa2622ca29835072491b623cf11904c01fa31d88b787dabf1f",
+      "tokens": 609
+    },
+    {
+      "key": "R3HCC1L",
+      "lo": 25959444608,
+      "hi": 25960132735,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a818a61ae3bb646a483969de76e32d1a8939742bba82cf1dfa91436fdf4ef950",
+      "tokens": 168
+    },
+    {
+      "key": "PKN3",
+      "lo": 26445660288,
+      "hi": 26447855743,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9f9165a1d1c7be5ada32100b79fdd9dea2562ad47c9dbe1fdedc97dcdc1a1a33",
+      "tokens": 536
+    },
+    {
+      "key": "RNF141",
+      "lo": 26760704128,
+      "hi": 26761752703,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d347b5b86ba33ea897952a2c2bb70a224b467608902621ab4dfa38e156d087c0",
+      "tokens": 256
+    },
+    {
+      "key": "ZC2HC1A",
+      "lo": 26942369920,
+      "hi": 26943148159,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "820027454910deacbcff95791ba737347728fca2ab1a1ad2b29da3152475b079",
+      "tokens": 190
+    },
+    {
+      "key": "PHF11",
+      "lo": 26996854912,
+      "hi": 26998009983,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9eee26967d3eed6b6d427bb2e17bad5b63672127c76f1e10bade802b7f857092",
+      "tokens": 282
+    },
+    {
+      "key": "ZNF219",
+      "lo": 27129114752,
+      "hi": 27131543679,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "07f29e5ce002a134284bcd958e46066a80cb04174ff0aa1d54926bd71a57e613",
+      "tokens": 593
+    },
+    {
+      "key": "RSRC1",
+      "lo": 27266031744,
+      "hi": 27267555455,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "50d3fb9a9f334d89a67e815f33b82d29705a5d2309b1af46df4acd712f26a0d4",
+      "tokens": 372
+    },
+    {
+      "key": "REV1",
+      "lo": 27425890432,
+      "hi": 27428946047,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "238c3eef49762e2ff8dc59a56d05e438a0e80e8ec9fe2e907f1a584406522101",
+      "tokens": 746
+    },
+    {
+      "key": "MED15",
+      "lo": 27589644416,
+      "hi": 27591585919,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ffcc97f2a25410b9d30f19e500469f77abec8108ebde01490e4701046c910c44",
+      "tokens": 474
+    },
+    {
+      "key": "PTOV1",
+      "lo": 27883131008,
+      "hi": 27884380287,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "09e3dec3fc5a66343ed350c7e1a9a52fa1eb2281bbd248f5025710506e029f5d",
+      "tokens": 305
+    },
+    {
+      "key": "FXYD5",
+      "lo": 27891974272,
+      "hi": 27894521983,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "0a33528cc7629d2024ff803efa57fc43d45f10643d932579e7f9b1139e04916b",
+      "tokens": 622
+    },
+    {
+      "key": "PRMT7",
+      "lo": 28127010944,
+      "hi": 28129947775,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "534f48322ff862f4354740f5e50088f8ed58e578d6adbb907216b42b1c7b54a4",
+      "tokens": 717
+    },
+    {
+      "key": "RC3H2",
+      "lo": 28182454400,
+      "hi": 28184887423,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "23c424355365dbdb78b7a69f8da987a750a5f67c64d6f23ecc8cdaa46218f6de",
+      "tokens": 594
+    },
+    {
+      "key": "TBC1D13",
+      "lo": 28276441216,
+      "hi": 28277678207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "3de0c77df4bc03cca6c5f578c4a9bceacaa531e217f3048c64ef29f69099c0f0",
+      "tokens": 302
+    },
+    {
+      "key": "SNRK",
+      "lo": 28464550016,
+      "hi": 28466131071,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6f1f2af9a6fdfd17aa7bcc8a600d432ac73d05b8745a9de296b37624b5860508",
+      "tokens": 386
+    },
+    {
+      "key": "DCAF16",
+      "lo": 28484276352,
+      "hi": 28485345407,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d5b653057e68d0ea1a5125f755060d9ca661501e7cbc313a7fe5d1775430c0cf",
+      "tokens": 261
+    },
+    {
+      "key": "COMMD8",
+      "lo": 28600516736,
+      "hi": 28601901183,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6891fc2ca277799980b78f4304f4ac0a8e33c228f59402168175774e4ad56294",
+      "tokens": 338
+    },
+    {
+      "key": "ANKZF1",
+      "lo": 28849283200,
+      "hi": 28851228799,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4c2f6b2bd3d6fb6626e7ed9b243e98f18d04c237a9d8752ecc09b92fd6413e75",
+      "tokens": 475
+    },
+    {
+      "key": "ZDHHC4",
+      "lo": 28864102528,
+      "hi": 28865962111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6d17a0a3ad3ec66dc573a6ac09df516c681fed0a1a2056a95792f35b2edbb96f",
+      "tokens": 454
+    },
+    {
+      "key": "PRMT6",
+      "lo": 28900073600,
+      "hi": 28903489663,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "97db08d8eddf7b63f17f2f85e7aa526fe4a89d0819e3556b8116279721c2d8f0",
+      "tokens": 834
+    },
+    {
+      "key": "TBC1D19",
+      "lo": 29097451648,
+      "hi": 29098242175,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "71253c64a0b6686018bd905a1dd9d34fe980fde8a8f891482f8d2dd15f0efc0d",
+      "tokens": 193
+    },
+    {
+      "key": "ZNF444",
+      "lo": 29110562944,
+      "hi": 29112234111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d83f7fbc709f897bd0309eb4aad8d375b584f4d9d091ebb66854958bb9021219",
+      "tokens": 408
+    },
+    {
+      "key": "RFK",
+      "lo": 29112234112,
+      "hi": 29114462335,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2d25dd3753effc25c764212ace16a20787408c5633f43cfc64901c9721e60997",
+      "tokens": 544
+    },
+    {
+      "key": "C5orf22",
+      "lo": 29127020672,
+      "hi": 29127614591,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c6add35b8b3a3d8216f8eed06680683c78bb2f0de3f22b79a330dd7978658b6a",
+      "tokens": 145
+    },
+    {
+      "key": "TMCO6",
+      "lo": 29198282880,
+      "hi": 29199126655,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fd6d1372fdcc8d308be9d0110c6355d7a286d4bb75b979278f57d8cbe7f95135",
+      "tokens": 206
+    },
+    {
+      "key": "ZNF821",
+      "lo": 29291815040,
+      "hi": 29293273215,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e073bd2698d0b0cb0d56a52eafa131ce2ad513be2bb5ffd306dc00f1445635c3",
+      "tokens": 356
+    },
+    {
+      "key": "ZNF280C",
+      "lo": 29344538752,
+      "hi": 29345935487,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1396da54b4255fd83e9cc48574d3aa5cabf9b07c33b23d2f6569fd8f7d725967",
+      "tokens": 341
+    },
+    {
+      "key": "TRMT1",
+      "lo": 29367328896,
+      "hi": 29369634943,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "82bbc1a5e6f16df304c1e864e1cf30d563b65278fc4e447565a46cac8d7d4816",
+      "tokens": 563
+    },
+    {
+      "key": "NGLY1",
+      "lo": 29612683392,
+      "hi": 29614272639,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6323d45db7e2f3b80a1174af8d0fbaa921521fe06041eaf7b6ccde6b7755a0ff",
+      "tokens": 388
+    },
+    {
+      "key": "CAND1",
+      "lo": 29715038336,
+      "hi": 29717377151,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "71454691aa309f9cb5a9997034410014e42e3d0dfe05b9194c0034f33cf7c931",
+      "tokens": 571
+    },
+    {
+      "key": "EAPP",
+      "lo": 29722423424,
+      "hi": 29723689087,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b9faa45b595e5a24ee620577809377698ca9d2c1a400e05a3fe09b8183fcc78e",
+      "tokens": 309
+    },
+    {
+      "key": "TEX2",
+      "lo": 29742506112,
+      "hi": 29743730815,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "cb554581788a70fba7e385d4ae4e524a6423d08ebe477fda374ee129d2c189dd",
+      "tokens": 299
+    },
+    {
+      "key": "HDAC8",
+      "lo": 29759795328,
+      "hi": 29762756735,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "32f35bc8f469ef50afeaabb255b34f2f1dd67c6bbb61ad7f50bed33972caaef2",
+      "tokens": 723
+    },
+    {
+      "key": "ZC3HAV1",
+      "lo": 30110986368,
+      "hi": 30113951871,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5c646d3e1a21d136b81019c437583f9e2eb14dbd985738afa687368e3290774a",
+      "tokens": 724
+    },
+    {
+      "key": "NCLN",
+      "lo": 30204878976,
+      "hi": 30206652543,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b79b2cf93fce28b6a7f77b8cea51e09eb0f4bbd000a07d0927778d6357869bf4",
+      "tokens": 433
+    },
+    {
+      "key": "SMYD2",
+      "lo": 30238593152,
+      "hi": 30241951871,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "64b1f5273ad735466134006be539c6363531b9dc89112d486ab6f98d9b461528",
+      "tokens": 820
+    },
+    {
+      "key": "NIPAL3",
+      "lo": 30518669440,
+      "hi": 30519623807,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d429f80d51cc2919f71cda2ccd361f161832a450f2ff3f9320ca5c01a8b05c4e",
+      "tokens": 233
+    },
+    {
+      "key": "TXNDC16",
+      "lo": 30783594624,
+      "hi": 30784475263,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "93b3e2235be1c65913e70679be35bbf098841fc1f5344a189e9b412cb3665cb3",
+      "tokens": 215
+    },
+    {
+      "key": "HOMEZ",
+      "lo": 30859452544,
+      "hi": 30860726399,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7827845b828f08756d799b4674abcf0cf88be62c3fef1f4a45687bb9f6133ab7",
+      "tokens": 311
+    },
+    {
+      "key": "USP28",
+      "lo": 30919839872,
+      "hi": 30922494079,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fbc1395811cbc0b8f3a656f22abafb5b5cb7914136f5a126df68669d33f03827",
+      "tokens": 648
+    },
+    {
+      "key": "GRAMD1A",
+      "lo": 30931218560,
+      "hi": 30933037183,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "033bea03f37c27860a2b247b5c6bbfe2a594e0991a72ac0460679914d02f7411",
+      "tokens": 444
+    },
+    {
+      "key": "TRIB3",
+      "lo": 31048564864,
+      "hi": 31052206207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a4cae9efae9742ab45fdc16d007e44d9cd2f2695f04bcb092be7d88f47614cb5",
+      "tokens": 889
+    },
+    {
+      "key": "POLD4",
+      "lo": 31069220992,
+      "hi": 31070662783,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "83af3b96c641ae5119d0df44f1837f92bd028465b8afaaee33586f10df276f31",
+      "tokens": 352
+    },
+    {
+      "key": "ZNF410",
+      "lo": 31104536704,
+      "hi": 31106625663,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a8e13e62e60393e2ab0486662dc7c9e264dcf9143313553d8a18e3d188d6da70",
+      "tokens": 510
+    },
+    {
+      "key": "ZNF462",
+      "lo": 31160750208,
+      "hi": 31162167423,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "333de0e3bd250c35d6001900af03a3071841cea21b536526de08065683444b63",
+      "tokens": 346
+    },
+    {
+      "key": "DHX35",
+      "lo": 31347818624,
+      "hi": 31349514367,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "928479884a041fb3582d205743085235be232cf3b26b030aa9b30df8552b57da",
+      "tokens": 414
+    },
+    {
+      "key": "HEATR6",
+      "lo": 31396192384,
+      "hi": 31396778111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f0fad3a20e674bfd4dbce9d1d2bb740a9105fbb768bdd4b6180af05142259bf2",
+      "tokens": 143
+    },
+    {
+      "key": "RBM26",
+      "lo": 31482437760,
+      "hi": 31483641983,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "34dfbd2d3bd8e0097e723b54d58896b5a0d66aa4a2bf6554ee2695f8f351f8cc",
+      "tokens": 294
+    },
+    {
+      "key": "PBLD",
+      "lo": 31503003776,
+      "hi": 31505170559,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a26870d40370d083953a538fbcfa33b9ddaf358b255507f3c66db25bdd05e767",
+      "tokens": 529
+    },
+    {
+      "key": "MTHFSD",
+      "lo": 31857471616,
+      "hi": 31858237567,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "39caf372aaa94db619accb5f76d41154014f8344ae6c3ebc411031f9946b0adb",
+      "tokens": 187
+    },
+    {
+      "key": "SPATA20",
+      "lo": 31919427712,
+      "hi": 31920459903,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f6c05f86ffc7e57893dec143c3a2900fef476dca78ceb437e3dedcc7367d0369",
+      "tokens": 252
+    },
+    {
+      "key": "PINK1",
+      "lo": 32009797760,
+      "hi": 32020570239,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6248ff56b8d074b3a76c3bf52875220320ea4ac53afc2d6626828bbac4879e49",
+      "tokens": 2630
+    },
+    {
+      "key": "MARCKSL1",
+      "lo": 32048550016,
+      "hi": 32050098303,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7dae84a69fbd8a55bc29d728269830e29767d7481d2562502a777fdf20e8739e",
+      "tokens": 378
+    },
+    {
+      "key": "UPF3B",
+      "lo": 32050098304,
+      "hi": 32052109439,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "646762eb0f94e2891df4fa29d3b39aeb10b71b377cc5d103d3966f88e87e93a7",
+      "tokens": 491
+    },
+    {
+      "key": "CAPRIN2",
+      "lo": 32105853056,
+      "hi": 32107958399,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bdcb70939a869ecee604de4e3579c48e6821a00478d9bc31b5ab646da09a7b60",
+      "tokens": 514
+    },
+    {
+      "key": "NUP37",
+      "lo": 32192508032,
+      "hi": 32194273407,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c27f9febab7244d1eed34264e89b09eb5e613d2bbf950e02d6d9cedc5398950b",
+      "tokens": 431
+    },
+    {
+      "key": "NABP2",
+      "lo": 32207978624,
+      "hi": 32210362495,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "189355bc5b322dd27a8ff09c003883a7873e9408d711e9b57561810979d2c129",
+      "tokens": 582
+    },
+    {
+      "key": "ALG12",
+      "lo": 32267972736,
+      "hi": 32269938815,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6fdad4fecbc59824697c36832c321556ba454ca9c85452d5ec4c6c2b7974a855",
+      "tokens": 480
+    },
+    {
+      "key": "TRAPPC6A",
+      "lo": 32272195712,
+      "hi": 32273952895,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b512dd9d06665cdfb5dffb7c97585b18c5cc7aaa816598f1320b47964cee3ea0",
+      "tokens": 429
+    },
+    {
+      "key": "PHF23",
+      "lo": 32306372736,
+      "hi": 32307900543,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2fb9139db9afa6f87f4628c0063de60ec5bc2cce461b3c50de1492903e79644d",
+      "tokens": 373
+    },
+    {
+      "key": "LENG1",
+      "lo": 32335118464,
+      "hi": 32335782015,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "00fe5a5be759a4b3a334f33d83bed4efae805647058e7a5977a9e8c6e7dee38a",
+      "tokens": 162
+    },
+    {
+      "key": "AKIRIN1",
+      "lo": 32530120832,
+      "hi": 32532037759,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "26f1cc0aa5fd37393a230b2b6fea2bf2b9f10fd9c6c7ebdf3c34a1736011649b",
+      "tokens": 468
+    },
+    {
+      "key": "SAP30L",
+      "lo": 32581468288,
+      "hi": 32584261759,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4dc9678046bcacaffa58d3a3a76397d1249b8a6937da5c90a0de9046efe1ed9a",
+      "tokens": 682
+    },
+    {
+      "key": "ZNF768",
+      "lo": 32634634368,
+      "hi": 32636293247,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "768880a7a7bc5f1b6a62c0a47a19c6c38bc2f68363d4ece5a87ce8f09201011f",
+      "tokens": 405
+    },
+    {
+      "key": "RABEP2",
+      "lo": 32824766592,
+      "hi": 32826552447,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f6b4aaeb34db70e06b477b67f01aa85f4c63649461cf66e07415fcdc600d08fd",
+      "tokens": 436
+    },
+    {
+      "key": "DBF4B",
+      "lo": 33076011136,
+      "hi": 33078063231,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d983361e3bbe2d687271917e7103073b991b8ec19fda935b5b743bd6ac02a5c8",
+      "tokens": 501
+    },
+    {
+      "key": "COQ10B",
+      "lo": 33126277248,
+      "hi": 33127280767,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1179597fd353ffc95083679600cc50f0cc7a79cf2c5c53993a4fe821242eb2bf",
+      "tokens": 245
+    },
+    {
+      "key": "ZKSCAN3",
+      "lo": 33200963712,
+      "hi": 33203773567,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ff9cfa478d04c7dadf24702bafa258c4f46b8882bb1d8bdeebe5c6871da7a8b8",
+      "tokens": 686
+    },
+    {
+      "key": "THAP7",
+      "lo": 33305407616,
+      "hi": 33307791487,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "a94dea97781e3dddcc069d0177efe51772046ed7221fb2e44dcbbb9d3725a947",
+      "tokens": 582
+    },
+    {
+      "key": "DDHD1",
+      "lo": 33330098304,
+      "hi": 33331691647,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fb345dbcf0c8dc2636becc32c91dd4f1c94f2f9b673cfac06d172748fc6c118c",
+      "tokens": 389
+    },
+    {
+      "key": "MED25",
+      "lo": 33596575872,
+      "hi": 33598984319,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6b417b047e9a5073bb22135aa96cf419ecf25509f80271e87ba9ff897fddd31b",
+      "tokens": 588
+    },
+    {
+      "key": "SLIRP",
+      "lo": 33618256000,
+      "hi": 33620172927,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4bdfd3d8678bd1f5f357b34b6e0cf7df532838cd70f388d83997d1ebcc3fa68d",
+      "tokens": 468
+    },
+    {
+      "key": "RBM4B",
+      "lo": 33817829504,
+      "hi": 33819996287,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bc67102135ba3f7c8143f337a6db0bfa5098c5145b51ea7ed2427ba9b6dd51a9",
+      "tokens": 529
+    },
+    {
+      "key": "IFI27L2",
+      "lo": 33916969088,
+      "hi": 33918001279,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c5d46869602d8815f9420458a339e81631f94eda51581e541240704eceb5b2b2",
+      "tokens": 252
+    },
+    {
+      "key": "DTNBP1",
+      "lo": 33958920320,
+      "hi": 33964978303,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "572b70aafbf29b03fc279dc73580622e5204b917d27179aabaceac7dafebf872",
+      "tokens": 1479
+    },
+    {
+      "key": "ZRANB3",
+      "lo": 33993040000,
+      "hi": 33995948159,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1e4c7b78e4ae70a40bc358b5bb5336f56e7e4c391fedca003748159408dde78b",
+      "tokens": 710
+    },
+    {
+      "key": "PCGF6",
+      "lo": 34013307008,
+      "hi": 34015101055,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8ca9ef816a6c41cfe364b48ad8d2c2ccaeee2e957c1c4a0ad224ad5bb9c03535",
+      "tokens": 438
+    },
+    {
+      "key": "ASCC2",
+      "lo": 34059014272,
+      "hi": 34061140095,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e50290db0fd22b9c4d486b0c5b3b2974cfea120de7637b2007ba64c33797e13f",
+      "tokens": 519
+    },
+    {
+      "key": "CHD6",
+      "lo": 34075553920,
+      "hi": 34077732991,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b366097a4ce18f1fb2a85cea45ca63a43eb0e1ef2d7cf81f78ffecf1c6fe6741",
+      "tokens": 532
+    },
+    {
+      "key": "NICN1",
+      "lo": 34176245888,
+      "hi": 34177163391,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2dbad673819440c7efc752ab2ad68b01520c67618f58247f26dbc2011c3b41c5",
+      "tokens": 224
+    },
+    {
+      "key": "TMEM79",
+      "lo": 34183901312,
+      "hi": 34185502847,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f3bc6a842733b9984c2b1b67b5e72d21dbb1a4e26679ab177fa062572607db86",
+      "tokens": 391
+    },
+    {
+      "key": "ZNF397",
+      "lo": 34217226368,
+      "hi": 34219311231,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "07ab84f2ff7886244bbc4de36d1b8b37366e191368fe642a4ee4b38aef378c92",
+      "tokens": 509
+    },
+    {
+      "key": "MSANTD4",
+      "lo": 34282385536,
+      "hi": 34283049087,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "70423aa5d6b714348ea94789f9b4cffc2ab39e3cea3b390347b617e3f914a75b",
+      "tokens": 162
+    },
+    {
+      "key": "SYVN1",
+      "lo": 34298404992,
+      "hi": 34302062719,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "47951c40d079c853d8e4106662ac624e66c3a78496d3075a18800b8419787c92",
+      "tokens": 893
+    },
+    {
+      "key": "GLYR1",
+      "lo": 34433372288,
+      "hi": 34435330175,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e3f3ef227f3e1aca90c998e1f58e5dc2c3baaf899b66a62ff4b87b28e013c3f2",
+      "tokens": 478
+    },
+    {
+      "key": "PCGF1",
+      "lo": 34535501952,
+      "hi": 34537316479,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "5dbc5777567085891eaee6e389daf5a22d2ea0c23cb5618356e2bb943034f14b",
+      "tokens": 443
+    },
+    {
+      "key": "ZNF496",
+      "lo": 34581725312,
+      "hi": 34583228543,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "bb167baa806096f2e26ed4dff2d52640772c3a31e5e3e0b53f1fe495605ebaf2",
+      "tokens": 367
+    },
+    {
+      "key": "ZNF514",
+      "lo": 34618667136,
+      "hi": 34619973759,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1d2afb896e684ec38d8d200bc744d44de9c7aad7ea3f1334d5deaf112ff8018b",
+      "tokens": 319
+    },
+    {
+      "key": "ZDHHC12",
+      "lo": 34639745152,
+      "hi": 34641821823,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "83f3e161897b0f10a42eb4f97dc02e30c8a0dc16ba6a282d1ab49721f0ad56f4",
+      "tokens": 507
+    },
+    {
+      "key": "TMEM209",
+      "lo": 34695467136,
+      "hi": 34696323199,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4040779e0e8a47c426551449a3b8fa49985d22fae66549f6d4a6d2bcbc0c4f82",
+      "tokens": 209
+    },
+    {
+      "key": "UNK",
+      "lo": 34874495104,
+      "hi": 34875912319,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e6a1f18cee374d090906c913cc266ba2668f7e430162187632f34b859670c36f",
+      "tokens": 346
+    },
+    {
+      "key": "ZNF628",
+      "lo": 34995343488,
+      "hi": 34997133439,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e7ee38798a71b0693103821d6df5b284ff2402a6070240420dd3c2b39231f153",
+      "tokens": 437
+    },
+    {
+      "key": "THAP3",
+      "lo": 35063726208,
+      "hi": 35064766591,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ec15d8900f60bcc205d762803e70ac18942fc7a1589b524bec53122cb272f97f",
+      "tokens": 254
+    },
+    {
+      "key": "ZNF251",
+      "lo": 35178516608,
+      "hi": 35180138623,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f913f79d51619729946d2a5d745cf2336b13bb5e6fe839cf73c3342c68a093de",
+      "tokens": 396
+    },
+    {
+      "key": "LMBRD2",
+      "lo": 35364532352,
+      "hi": 35365412991,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7a13946a2fa7e01499a7ffc885cd833bea9d33f098c7d3573aa334340b2c828d",
+      "tokens": 215
+    },
+    {
+      "key": "RBM18",
+      "lo": 35392831616,
+      "hi": 35393687679,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b956f9bde691fe89f705fef9eb357f53473301caeafe9f5099b3149e78587b54",
+      "tokens": 209
+    },
+    {
+      "key": "TIMM50",
+      "lo": 35413778560,
+      "hi": 35416494207,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "b2d5616356a08a7d529268fa8d8bb129e0190bb214e69cfe98d6255ce0499c07",
+      "tokens": 663
+    },
+    {
+      "key": "ZNF670",
+      "lo": 35501961344,
+      "hi": 35504070783,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "483757d84698fbfe3c86f19e8f484a6c54d11bd14b2cc84aad4b986c117a573a",
+      "tokens": 515
+    },
+    {
+      "key": "TBCK",
+      "lo": 35519504512,
+      "hi": 35521409151,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8e87f521b98771214f8bbef39608b5f4dce44565bcf535bb97352c3d801584b7",
+      "tokens": 465
+    },
+    {
+      "key": "DHRS1",
+      "lo": 35949826176,
+      "hi": 35951186047,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "c25c09f574969a888c85c2e90cb0f54d0a4a133cd8c18ff60f4d16947a6991d2",
+      "tokens": 332
+    },
+    {
+      "key": "DNTTIP1",
+      "lo": 35976687744,
+      "hi": 35978182783,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "7f7ce9c8386456d4cebf487a10cba37095cdbc1fc40410608babdde1019185bb",
+      "tokens": 365
+    },
+    {
+      "key": "ZNF526",
+      "lo": 35980378240,
+      "hi": 35981414527,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "060a7f8f2df3ef16b1fbb1be8db00cf2c1b3a3de9f8eef686a3439620c06f009",
+      "tokens": 253
+    },
+    {
+      "key": "SFXN4",
+      "lo": 36193312896,
+      "hi": 36194979967,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ab2c89808d699048065bfe7a4dda9f82a646633d951339392a77182c5348c727",
+      "tokens": 407
+    },
+    {
+      "key": "ARL14EP",
+      "lo": 36236288128,
+      "hi": 36237176959,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ef89a73bee1e2e154ab3303797670865f22cb3f6a929eaae0151a4b0aca3f63b",
+      "tokens": 217
+    },
+    {
+      "key": "ZNF641",
+      "lo": 36281581696,
+      "hi": 36283150463,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "db2a9f96bf1d37630fcec67daeb28791f775e8cf97f7f97560c7408e4144ca5e",
+      "tokens": 383
+    },
+    {
+      "key": "MSI2",
+      "lo": 36449570944,
+      "hi": 36451143807,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "efbd3c04a035d90a0199f193cf285f3823b1a29ef907d9a704507db9704a9d1e",
+      "tokens": 384
+    },
+    {
+      "key": "ZNF543",
+      "lo": 36519178368,
+      "hi": 36520677503,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8f6e1c531fc90f62890f348254e50f5449dfbfa6241b325639eba3e0f99bc7cd",
+      "tokens": 366
+    },
+    {
+      "key": "ZNF786",
+      "lo": 37033123968,
+      "hi": 37034410111,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "4d3366b7a93aa0c1e870888667c62e6bf5902329b483b5ce3a8fcde617f659df",
+      "tokens": 314
+    },
+    {
+      "key": "TTBK2",
+      "lo": 37438324864,
+      "hi": 37442207871,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "805751edbc5691a22770a40723d9c16476f8df113e94bd761212a3c50eed217c",
+      "tokens": 948
+    },
+    {
+      "key": "ZNF784",
+      "lo": 37563879552,
+      "hi": 37565390975,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "e53794cccc522a2c0e11567f4ff01136ff5f4c5f8c12eda70ac3730369990912",
+      "tokens": 369
+    },
+    {
+      "key": "ZNF714",
+      "lo": 37602857088,
+      "hi": 37604163711,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2216e4848ceea2bebb5f9b8dc82c6519606422266e2583b2b0d234efaa8fff79",
+      "tokens": 319
+    },
+    {
+      "key": "CCDC112",
+      "lo": 37920170112,
+      "hi": 37920968831,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "32dba7a8b5292e0d62421280b6ed04f00de4916651987933e329c3d5f4dcc519",
+      "tokens": 195
+    },
+    {
+      "key": "DCP2",
+      "lo": 38319235200,
+      "hi": 38322208895,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9f24427fdffc4d95b6b8b660c59f6c026e966d12103afeb402c1e044066f4f61",
+      "tokens": 726
+    },
+    {
+      "key": "MLKL",
+      "lo": 38544580736,
+      "hi": 38546919551,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "6c0e0d2aa1b76436cefec5e1c248a25702b61c9ee4d61933a9d4241da71b331b",
+      "tokens": 571
+    },
+    {
+      "key": "ZNF627",
+      "lo": 38565298304,
+      "hi": 38566776959,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "56239011278134708a9d0e118b7b2902263fad3e140a29c7d91ea35013768142",
+      "tokens": 361
+    },
+    {
+      "key": "NAIF1",
+      "lo": 38772142208,
+      "hi": 38773284991,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "1d9ef36b00b6a1cebe040d4cedb7e8fdc12918f489df4ff522654851654f0704",
+      "tokens": 279
+    },
+    {
+      "key": "ZNF25",
+      "lo": 38871732352,
+      "hi": 38873116799,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "d9acaa507fb8f7c64bbfd2e30661ae11502df4cddba6ea4016c9a52e1ea71a66",
+      "tokens": 338
+    },
+    {
+      "key": "PATL1",
+      "lo": 38921343104,
+      "hi": 38923346047,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8d1477c005455dca4bb31aea26d1486897d3c0d36333b61756681d009edb5af3",
+      "tokens": 489
+    },
+    {
+      "key": "NT5DC1",
+      "lo": 39000428672,
+      "hi": 39001444479,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "82183c97624a5d5e14355120c8b9bff9d1e88ab6277041068b02f6c4a804fde6",
+      "tokens": 248
+    },
+    {
+      "key": "SHPRH",
+      "lo": 39434137728,
+      "hi": 39436456063,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "ebf37304f29db6b7ef6f8d19def47335007dcb8ea5d1b0502a886d0ae13bea1b",
+      "tokens": 566
+    },
+    {
+      "key": "ZNF740",
+      "lo": 39599325312,
+      "hi": 39600816255,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "34d4bb2cee73ec5efe8ae8895beb7087d59bc074132033d16d92076a81a75ed9",
+      "tokens": 364
+    },
+    {
+      "key": "ANKRD52",
+      "lo": 39604441216,
+      "hi": 39605035135,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "f9380a53257b6c0af4b6514377ab929edf61000bbd032ae28e2357fb9117bdfe",
+      "tokens": 145
+    },
+    {
+      "key": "YIPF6",
+      "lo": 39979487360,
+      "hi": 39981183103,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "35864f6cd2df93585e361e55ae5737c00a6b955208142cf778c96d93ca44f47d",
+      "tokens": 414
+    },
+    {
+      "key": "MYPOP",
+      "lo": 40136626304,
+      "hi": 40138150015,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "475d8a9a4d9db830e6b243efead73934016984a7df04e1408b2f988ded38c8c3",
+      "tokens": 372
+    },
+    {
+      "key": "ZKSCAN2",
+      "lo": 40298160256,
+      "hi": 40299655295,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "fb68c1f6ce6d056c4be66654e7516e7f6b301d6426a908e68ad0259b3d0181fd",
+      "tokens": 365
+    },
+    {
+      "key": "ZNF530",
+      "lo": 40510247040,
+      "hi": 40511979647,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "248ab7996b844c48c908284eb8651d5627e61538044c9205350a9490361ccdbb",
+      "tokens": 423
+    },
+    {
+      "key": "ZBTB41",
+      "lo": 40598638720,
+      "hi": 40599838847,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9a61c2369760a6c5666408c0fef35ece8253e28f2c4a851b6a79b715df44e2c2",
+      "tokens": 293
+    },
+    {
+      "key": "ZBTB34",
+      "lo": 41363091584,
+      "hi": 41364881535,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "dccc39ddb39601789f60617174756ab15fd64cad442be537c9afa3b0e60ec59d",
+      "tokens": 437
+    },
+    {
+      "key": "TMEM41B",
+      "lo": 41416732800,
+      "hi": 41418522751,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "9b5414fb2f2b48c5acde5160902dd80d4ed04d57f4321fb1801b0d569d21214c",
+      "tokens": 437
+    },
+    {
+      "key": "ZFP62",
+      "lo": 41748082816,
+      "hi": 41749045375,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "8be8bd54b9adf430706f40b6b77bba2e8169801b4316d8266bb4756378149ad1",
+      "tokens": 235
+    },
+    {
+      "key": "ZNF783",
+      "lo": 42281959552,
+      "hi": 42283307135,
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_sources/resolve/cb1aaa4e7655605bdc70a9bd77bbd62016b8c7d7/ncbi_text/embeddings.npy",
+      "sha256": "2305f9ffbfa0025c37ef011b020840c1f24ad690647ac9c78aaa6593b76ce722",
+      "tokens": 329
+    }
+  ],
+  "total_payload_bytes": 744243200
+}

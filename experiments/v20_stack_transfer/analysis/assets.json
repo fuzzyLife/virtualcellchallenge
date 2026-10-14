@@ -1,0 +1,181 @@
+{
+  "code_revision": "cacc2e4b09435c3e536d46237d10b50f222dd144",
+  "checkpoint_revision": "b09f085dac03d170b078a5c72f550ae93686e544",
+  "checkpoint_sha256": "f93cf6f42f36c8a85dc570d92e801c1fc3e1f45d55741e6bb250d178a6b6ad36",
+  "files": [
+    {
+      "path": "reference/v20_stack/code/src/stack/cli/__init__.py",
+      "sha256": "1c906e5909fc209aaa10f428fd7edff771777deb6e440ddfebb634fc5e711e9e"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/cli/embedding.py",
+      "sha256": "2ee9abe9608af0cf50b846a7b88f3c909dbb074978505f5c3121155f012d2e99"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/cli/generation.py",
+      "sha256": "bb50a6ca39d37d80944f01019256065ab09ccf819e58749bd67756359e71ede9"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/cli/launch_finetuning.py",
+      "sha256": "b253c49185220263240da79ed0b49b37202139ac7b57a972052f622f7a760898"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/cli/launch_training.py",
+      "sha256": "e432a72296903f3f0b597497bf7e738970530e7fab11a8b83bf7f141c2f791bf"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/cli_utils.py",
+      "sha256": "490b4bff63bc7536f998dccd01a7f171792347061d07e9c1b1a8ca672218bd39"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/__init__.py",
+      "sha256": "8dd72f168d89c8b3d3a67913d2fe95294d98a37dfb0b8cf83f940fbd037b97fe"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/datasets.py",
+      "sha256": "eb079eed6180721d55c332b29e57534f4b217f08447769eec3d32c4a597ed0b3"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/finetuning/__init__.py",
+      "sha256": "ed208a0766a88610d645ab30523e546763b8458d7026f88449cba13c23076c05"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/finetuning/datasets.py",
+      "sha256": "825141d18f3889ced5664828800ca3b07d23e1bd7ac58cbfe550aed0bd637b1a"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/gene_processing.py",
+      "sha256": "e2c0220cc37b84ad92380ec1079eaeb88934b224ad8eec0df8b3aae9a26d1dbb"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/h5_manager.py",
+      "sha256": "45a811b2f90a531bc299004e185de0fb50f196db7f099959b03128f31fc4ada0"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/hvg.py",
+      "sha256": "ee24a8afb1430513f2ccdaab9e87f0a688fd77fa7a3948346091df3334393090"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/training/__init__.py",
+      "sha256": "c4350a5b7e0fad9148e682c3c77cbb2556a4a1d1630e78d8c93bfe8abef19cbe"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/data/training/datasets.py",
+      "sha256": "81911f07017e601759f8fd13c9394bb7d6e8ab8dd65f9d59b468a3ed4f2210d1"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/dataloader.py",
+      "sha256": "e83339acb1a437c4b8e2f4a65e378472cb6fa4ae335134d68b4c9c822d0179f1"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetune/__init__.py",
+      "sha256": "70b797641e801ab6933a0af226fcffe3376ed22a233fd2e91f0a49c2ba70f1b9"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetune/datamodule.py",
+      "sha256": "fe4d8b35b72541e952cf1e3c892cfafb1870ad19d58f52be5f1867c35dbff670"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetune/datasets.py",
+      "sha256": "3640e42b36ddc31dc9b858497b1648870321f24e7a85438387e891cac066853c"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetune/lightning.py",
+      "sha256": "405db3ee1bcf9f7e55012e25bcf888648b31643aa68c55b4393af429493ec3c5"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetune/utils.py",
+      "sha256": "4ab990b213943e7aca3c9383d39890a8cf80b6acb7ba634c027d0c6a4895e9bd"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/finetuning_dataloader.py",
+      "sha256": "9409c9807c3b47ef5165faaad3eb668141665e29cf0977e5a6aa6e632ead6e7d"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/model.py",
+      "sha256": "cd780720aae081db17d03589ca1f854cccd256ccb55b2a465541277165a4c089"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/model_finetune.py",
+      "sha256": "4c102a5661a956351bd9c4febf0bdf753104fb30c547b053702777062510685e"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/model_loading.py",
+      "sha256": "57a2a08fb4f0afe0cc03c168ec1310ff97c3b71dc737d47ab46abaad6c545285"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/__init__.py",
+      "sha256": "091a4ec2f038ce264727b722e9fa9bf4d9d2dd7e80ca6d5ed2e644b0a1495eb4"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/core/__init__.py",
+      "sha256": "d293eb3de21d99fe0d3a8a739c95fa3125b220403f8f44419aaffe985b1aa620"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/core/base.py",
+      "sha256": "2d48eb2792cb9a8f851954bbc0db8899b50dffca860c81c8402223c23ede149d"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/core/inference.py",
+      "sha256": "3c4cc2a621415f1b1eb32f84763258e5e2f14aa482eaa2c94e225763e13dc5f4"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/core/losses.py",
+      "sha256": "86002a6d23903ea00099caf4e07dd96bda33fb212e23483fb588ca865eb2d6bd"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/finetune/__init__.py",
+      "sha256": "3efee4dda7018d09e02c748b5307fc01e77a5d49eb4686c7c8394ea80d2ebe86"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/finetune/mixins.py",
+      "sha256": "be8a38266e3dcc22f7625786ab2676c7fc6c278bc6936fdc6c632f2d93eaaf0e"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/finetune/model.py",
+      "sha256": "967c871693e8e201e3030b2d65efc554cc5e51f2efbab84450cf857d7d7acd26"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/models/utils.py",
+      "sha256": "78da07751f0fe0253152bfc87fd24edf0601bea5368cfdcec26ee4bb015355ef"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/modules/__init__.py",
+      "sha256": "a7e01c41e922aa5613824c4889c4b35e42b98fe5a8b3942f439e9a61f4462e92"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/modules/attention.py",
+      "sha256": "c253fb3566ca648c9e27b063ac9624b5d02d4d2da7b93f00fe8ca78c854d8677"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/modules/regularizers.py",
+      "sha256": "87907f48a9af3ff6f5d28d5f8b779f2bad0923ba6a2ef6792bdba82edf9a428a"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/training/__init__.py",
+      "sha256": "586529f715532e3ed36d25302cacecffade4a441672cac7fb8680ae114eec481"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/training/datamodule.py",
+      "sha256": "e3c6baff91a4f534389465a153cac050b938000497ae806f3044798add6790a2"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/training/lightning.py",
+      "sha256": "1c3db0261f0d4f5cddfbe8946205ec67ad77031e1369ab562a827db0b0b42896"
+    },
+    {
+      "path": "reference/v20_stack/code/src/stack/training/utils.py",
+      "sha256": "a9388b69f82c0f24882e09f082e61aab8755aee1769f865ff01f3b0cc1841905"
+    },
+    {
+      "path": "reference/v20_stack/genes.json",
+      "sha256": "3d6b003bfb9b915b793c72330747333610eca210482f1dcdc130a61f8ffe2692"
+    },
+    {
+      "path": "reference/v20_stack/genes.pkl",
+      "sha256": "22b0227d07ebf61aed37f3863049885911d5c178742ba40c9efc54bac5687468"
+    }
+  ],
+  "author_source_git_blobs_verified": 41,
+  "vocabulary_original_sha256": "d8761dfda955b9897d3251798b72361ddd0171ef707119eaf65381bed2d85dcc"
+}

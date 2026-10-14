@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "query_groups_verified": 3,
+  "query_controls_verified": 1200,
+  "source_target_prompts_verified": 587,
+  "source_count_rows_verified_including_reused_controls": 233296,
+  "all_vocab_count_values_and_missing_padding_compared_to_original_raw_counts": true,
+  "all_source_target_labels_NTC_membership_unique_treatments_batch_pairing_and_seeds_verified": true,
+  "production_plan_sha256": "1ce3a1f27a44a7aa190523bec10e480c6e0067b662b57edecd9140ecd0d78a49",
+  "checks": [
+    {
+      "context": "A",
+      "query_cells_verified": 400,
+      "all_control_mean_CPM_independently_checked": true
+    },
+    {
+      "context": "B",
+      "query_cells_verified": 400,
+      "all_control_mean_CPM_independently_checked": true
+    },
+    {
+      "context": "C",
+      "query_cells_verified": 400,
+      "all_control_mean_CPM_independently_checked": true
+    }
+  ],
+  "auditor_sha256": "1646b9c8f71e675f9e98de1925bb9083bae3f4ad6d322117434f6b640ee226c6"
+}

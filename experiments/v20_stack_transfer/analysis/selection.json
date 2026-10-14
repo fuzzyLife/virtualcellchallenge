@@ -1,0 +1,137 @@
+{
+  "stage": "development",
+  "candidate": "stack_mean",
+  "new_candidate_passes": true,
+  "comparisons": [
+    {
+      "candidate": "stack_mean",
+      "pass": true,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "beats_amplitude": true,
+        "beats_shuffled": true
+      },
+      "changes": {
+        "pds": -0.011111111111111146,
+        "fidelity": 0.0018936991040970352,
+        "reach": 0.014542302495633666,
+        "jaccard": -0.0001242713057953839,
+        "nmae": 0.0066969436196116505,
+        "relative_expression_worsening": -0.00017776435790296214,
+        "versus_amplitude": {
+          "fidelity": 0.0017399002725791424,
+          "reach": 0.06537309071043022,
+          "jaccard": 0.00010041066381760082
+        },
+        "versus_shuffled": {
+          "fidelity": 0.0028576137113165236,
+          "reach": 0.053671206461586435,
+          "jaccard": -1.9392955045716763e-05
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": false,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "stack_joint",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": true,
+        "DE_metric_improves": true,
+        "beats_amplitude": true,
+        "beats_shuffled": true,
+        "beats_stack_mean": false,
+        "shape_beats_stack_mean": false,
+        "beats_reweight": false,
+        "shape_beats_reweight": false
+      },
+      "changes": {
+        "pds": -0.011111111111111146,
+        "fidelity": 0.0018936991040970352,
+        "reach": 0.014542302495633666,
+        "jaccard": -0.0001242713057953839,
+        "nmae": 0.0066969436196116505,
+        "relative_expression_worsening": -0.00017776435790296214,
+        "versus_amplitude": {
+          "fidelity": 0.0017399002725791424,
+          "reach": 0.06537309071043022,
+          "jaccard": 0.00010041066381760082
+        },
+        "versus_shuffled": {
+          "fidelity": 0.0028576137113165236,
+          "reach": 0.053671206461586435,
+          "jaccard": -1.9392955045716763e-05
+        },
+        "versus_stack_mean": {
+          "fidelity": 0.0,
+          "reach": 0.0,
+          "jaccard": 0.0
+        },
+        "versus_reweight": {
+          "fidelity": 0.0,
+          "reach": 0.0,
+          "jaccard": 0.0
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": false,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {
+    "stack_mean": 1.0
+  },
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "panels_sha256": "5557a7076d93f3dc1e377cbf43e352a15c84fbfac6408d9054ebdafb0ecd3ef5",
+  "scope": "Public reused biology; family-balanced raw guards; no private anchor-scaled score or guaranteed ranking."
+}

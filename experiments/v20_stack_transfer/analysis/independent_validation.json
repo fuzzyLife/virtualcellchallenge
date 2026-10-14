@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "verified_rows": 360000,
+  "verified_groups": 900,
+  "packaged_nonzero_values_checked": 2368754215,
+  "all_packaged_counts_indices_pointers_axes_match": true,
+  "all_production_responses_independently_reconstructed": true,
+  "all_original_control_rows_ids_guides_libraries_verified": true,
+  "all_counts_nonnegative_integer_values_and_within_library_limit": true,
+  "exact_replayed_groups": 12,
+  "exact_replayed_gene_counts": 88958400,
+  "package_sha256": "8370080f290febfbec59e25a54b175317f1a22609ee3c90faa1997774611ac50",
+  "prediction_sha256": "db0199c76719ec72794fa0c8c6459fe15dcdbfc53d05caad82acf72f5a1709ea",
+  "provenance_sha256": "dc1bfb1a6ba0801bda2f3abe9702734221de65c7acb9dae1ca02e981ebdb8cab",
+  "model_sha256": "de991576a08c03f3981c88bffca6db97691a8363300cb405b4e0c5a138879364",
+  "validator_sha256": "86fae4e6dea343818e0f1350e948aca24119bb81297a7b002cf7b313f76132dd",
+  "scope": "Full package integrity, unique original-control provenance and selected deterministic regeneration; no hidden leaderboard accuracy guarantee."
+}

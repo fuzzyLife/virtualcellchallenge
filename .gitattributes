@@ -135,3 +135,23 @@
 /analysis/post_v17_research/stack_MODEL_LICENSE.md -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 /analysis/post_v17_research/stack_src_stack_cli_generation.py -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
 /analysis/post_v17_research/stack_src_stack_models_core_inference.py -text whitespace=-blank-at-eol,-blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V18 frozen comparison and evidence bytes.
+/*v18*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V18*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v18_pie_expert/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V19 frozen comparison and evidence bytes.
+/*v19*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V19*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v19_covariance_forces/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V20 frozen model comparison, paired inputs and evidence.
+/*v20*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V20*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v20_stack_transfer/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V21 compatibility freeze and evidence.
+/*v21*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V21*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v21_stack_programs/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

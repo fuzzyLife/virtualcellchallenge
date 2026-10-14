@@ -1,0 +1,80 @@
+{
+  "stage": "development",
+  "candidate": "v16",
+  "new_candidate_passes": false,
+  "comparisons": [
+    {
+      "candidate": "stack_joint",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": true,
+        "nmae": false,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": false,
+        "three_metrics_improve": false,
+        "DE_metric_improves": true,
+        "beats_amplitude": true,
+        "beats_shuffled_joint": false,
+        "beats_stack_mean": false,
+        "shape_beats_stack_mean": false,
+        "beats_reweight": true,
+        "shape_beats_reweight": true
+      },
+      "changes": {
+        "pds": -0.011111111111111146,
+        "fidelity": 0.002352036619401939,
+        "reach": -0.023777705496696014,
+        "jaccard": -0.00020815308644861786,
+        "nmae": 0.013251848555509704,
+        "relative_expression_worsening": -0.00017502470352542257,
+        "versus_amplitude": {
+          "fidelity": 0.0021982377878840462,
+          "reach": 0.027053082718100547,
+          "jaccard": 1.6528883164366866e-05
+        },
+        "versus_shuffled_joint": {
+          "fidelity": 0.0005763515344322512,
+          "reach": -0.02712415816728408,
+          "jaccard": -0.00011879235793898319
+        },
+        "versus_stack_mean": {
+          "fidelity": 0.0004583375153049037,
+          "reach": -0.03832000799232968,
+          "jaccard": -8.388178065323396e-05
+        },
+        "versus_reweight": {
+          "fidelity": 0.0011546172581045993,
+          "reach": -0.02455718843257707,
+          "jaccard": 6.1639055995835515e-06
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": false,
+        "nmae": false,
+        "expression": true
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {},
+  "plan_sha256": "5c6bb1beb88de1ccb9bd7d792274737955e7fa7c83d85d9fbd46c953ee5fc9b5",
+  "panels_sha256": "3f99ef17855ddde7b40fab637bcf572bf4526ce5c12868f1a8981640755c39ca",
+  "scope": "Public reused biology; family-balanced raw guards; no private anchor-scaled score or guaranteed ranking."
+}

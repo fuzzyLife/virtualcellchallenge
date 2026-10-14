@@ -1,0 +1,72 @@
+{
+  "stage": "development",
+  "candidate": "v16",
+  "new_candidate_passes": false,
+  "comparisons": [
+    {
+      "candidate": "covariance",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "expression": true,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": false,
+        "DE_metric_improves": true,
+        "beats_diagonal": true,
+        "beats_amplitude": false,
+        "beats_shuffled": true
+      },
+      "changes": {
+        "pds": 0.016666666666666646,
+        "fidelity": 0.0008423415300542839,
+        "reach": -0.001447779613778499,
+        "jaccard": -3.166475067426806e-05,
+        "nmae": 0.003986218226418592,
+        "relative_expression_worsening": 0.0029585579100535387,
+        "versus_diagonal": {
+          "fidelity": 0.0011973806310482023,
+          "reach": 0.07496261189529722,
+          "jaccard": 0.0003302115616410168
+        },
+        "versus_amplitude": {
+          "fidelity": 0.00022641223422411225,
+          "reach": -0.004256850694943099,
+          "jaccard": -0.00034878041762563295
+        },
+        "versus_shuffled": {
+          "fidelity": 0.001336298848751934,
+          "reach": -0.018937026696336342,
+          "jaccard": 0.00012503449207734913
+        }
+      },
+      "improvements": {
+        "pds": true,
+        "fidelity": true,
+        "reach": false,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {},
+  "plan_sha256": "911d9be92d0f69322f68c6d538dba9528cfc9909a83ffc27e79651605b8fcb38",
+  "panels_sha256": "a7292ae114cc78d70ffe081c01ae5ebdd19a5ee3a567fd1c974b53cd482b501d",
+  "scope": "Public reused biology; family-balanced raw guards; no private anchor-scaled score or guaranteed ranking."
+}

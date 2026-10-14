@@ -1,0 +1,82 @@
+{
+  "model": "Stack-calibrated bounded response ensemble V20",
+  "candidate": "stack_mean",
+  "emitter": "residual10",
+  "status": "exploratory_public_algorithm_verification",
+  "available_public_guards_passed": true,
+  "confirmed_improvement": false,
+  "context_original_inputs": [
+    {
+      "context": "A",
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e"
+    },
+    {
+      "context": "B",
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380"
+    },
+    {
+      "context": "C",
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0"
+    }
+  ],
+  "model_arrays_sha256": "59bbb446f10fcca58f625bda7b12d11fce6c9afc35fda9acc3d89702033bddec",
+  "parent_model_arrays_sha256": "b071aa7c439f2216362a925c06a43623e440af5e56e6b0aa05ff781109c4893f",
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "production_plan_sha256": "1ce3a1f27a44a7aa190523bec10e480c6e0067b662b57edecd9140ecd0d78a49",
+  "selection_sha256": "c078c88a1978d10f416e19e36527675bb1209fe15582bbc5d545a34931e62dfd",
+  "confirmation_sha256": "8f33377c87d1e3e888993cd1fbd347e336e8fa2a274a625a3e9f6e20b156d583",
+  "independent_experiment_audit_sha256": "3889ea8733299f8fbd514bc971ad35d07bf76ee2f6fcd8a346dcbe91977b91d1",
+  "source_input_audit_sha256": "6f64ac3a8ff18506a370e67637d2aaaecd3451e772cb1ded086ed3f2d27dbf34",
+  "experts": [
+    {
+      "context": "A",
+      "path": "experiments/v20_stack_transfer/analysis/production_experts/A.npz",
+      "sha256": "7be1057d094b8e385e72eaa8ed4dd694316b617ebb7d6edaef3ced8465c4b3ec",
+      "metadata_sha256": "63217d715ae60e67020e893751099c77621b83478a98ad0146abc51baa88e764"
+    },
+    {
+      "context": "B",
+      "path": "experiments/v20_stack_transfer/analysis/production_experts/B.npz",
+      "sha256": "76f75e5f2b89f1f67f99edc256c82191f79640372c2b719b3b9c676422807f5c",
+      "metadata_sha256": "008f711d34ddb2791f5b9da6035e29f145ceacb2bc7cbc0c896ca01f6d68b5a3"
+    },
+    {
+      "context": "C",
+      "path": "experiments/v20_stack_transfer/analysis/production_experts/C.npz",
+      "sha256": "7c6c85ed0aa6082ec6d9cb79b1efc3945d7f8d838b39c0f60ed8383425ff34be",
+      "metadata_sha256": "db6a0abd81b1c068f39e1945314432382df251b5b423222425b747fcf4547944"
+    }
+  ],
+  "dependencies": {
+    "assess_v20_experiment.py": "b77c4f4cbfc1226340902e665820705370a3eaa4818eec6f5f796c91aff81db6",
+    "audit_v20_confirmation_inputs.py": "ef321c6e3443f982478028f703cdb922c329594d7db7bb37687b660215c8f234",
+    "audit_v20_experiment.py": "5006d056ba252324d1ac80d883bac158301dcb5a207d1a52e7af802bd695c96e",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "build_v20_submission.py": "6723e30f58cb0dd944e1cf2a1f3de1a7009d95551221aa2067cbc8d68d691944",
+    "evaluate_atlas_transfer.py": "b52a8363b0b00e4c089582ca58290703c092435186471a0d1fea0a500474ca3e",
+    "fit_v20_submission.py": "e62670eb93f922d5e1e4b12e2adcaa8f25318b2023a3e3dfcadd0478d826966f",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "infer_v20_stack.py": "974c276ea922d1f1cec2a97f7fb1fbc53b07f685b8d119c7f4168acd4e4446ea",
+    "infer_v20_submission.py": "fbce7c2ebb792675c3a6ed9a98e8aa32d22e4985b5e8741b02e0c5760b729e79",
+    "package_v20_submission.py": "c22b971dd1b264b945048955d4894a7eaa571b1dd5d94fdd31e1ee216164e9ee",
+    "prepare_v20_confirmation_inputs.py": "fe95dfde3eac663060531b379a030a5e3652fe06442d3339ffe7b3605b6164ec",
+    "prepare_v20_experiment.py": "d64addab37be33092ce742ea6c8feff0d4d2d16153fd671d53d95f274628f874",
+    "prepare_v20_inputs.py": "bde21d012ece64b9f86c60475dd3552d54dc9cb443cf1f7215bac0a547439a26",
+    "run_v20_experiment.py": "4b499d54aaff917de0967cc74d38b41a7c7ea17807e2d920c6c67958c377135c",
+    "stack_v20_mean_adapter.py": "4e64251b68265544e85e74ae0ebd281520ed34d62a518cb9ff12ab724c887dc7",
+    "test_v20_counts.py": "3a054ca4000091ad576fa720d93f7ec2eb9b80e3a5009e7f86fab2a7b058bc58",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v19_methods.py": "b9255c47d95ff046faa388498870311b5f3027b795f7ddf16dcac4d3862eea23",
+    "v20_methods.py": "0c225d8effd1859865002ec6de4ab36d74398b39fe302d4c37125090f5006454",
+    "v20_production.py": "c4ad5655ebd7b4813f60f3ea523cc0e3fb93bd3aec9dcad75e36a423db2ec204",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "validate_v20_submission.py": "86fae4e6dea343818e0f1350e948aca24119bb81297a7b002cf7b313f76132dd"
+  },
+  "pretraining_overlap_audited": false,
+  "scope": "Available development and once-only reserved raw guards passed; reused public biology and missing NMAE remain limitations. No hidden leaderboard ranking guarantee."
+}

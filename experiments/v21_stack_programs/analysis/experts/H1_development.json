@@ -1,0 +1,125 @@
+{
+  "sha256": "097d018c7d0a4f3f2e689d305e6d1ea526aedae61ccb15c0925cc40343f6417c",
+  "plan_sha256": "5c6bb1beb88de1ccb9bd7d792274737955e7fa7c83d85d9fbd46c953ee5fc9b5",
+  "query_input_sha256": "325c28104d89273c41e561ddbab33e7a60f76e241c5116b418213204c6fede3d",
+  "parent_expert_sha256": "57b6c1e5019a08b18fb5b186a2bab4ad1c2e3e4ef6a8d7928398d9371ff14af1",
+  "records": [
+    {
+      "family": "H1",
+      "target": "ACLY",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "ACLY",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_ACLY.json",
+          "source_input_sha256": "362c01d055247bff738b33d3e127e1e89545840328ec4d8f7bcdbd16103637e6",
+          "control_mean_array_sha256": "0d8695c1badf236b4c1111d1917c047132aa18444a474aa83f384fb876eb4271",
+          "treated_mean_array_sha256": "1d545e48131ca5921a615163ae1528ff4ba91fb180c5fdd65184fedacf206ef1",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "PLCG1",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PLCG1.json",
+          "source_input_sha256": "0743cf0eee4ab7e3c1222e2d52a66ec4f9a9c5c63734c6d0023c1ecb0a534210",
+          "control_mean_array_sha256": "a5672ebe8e022394869dd5b51049fe8106089014868abff248c5143d870b41f6",
+          "treated_mean_array_sha256": "02bd31f4641c92e957ef11d47557ebb44d24794de557f8152844a118e18f488c",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 11.927518844604492,
+      "shuffled_program_norm_before_matching": 10.65503978729248
+    },
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "HDAC8",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_HDAC8.json",
+          "source_input_sha256": "4b5871d1ddd37894b02411eea9999303963433e9fa78661d3fa23dc869cd6f2b",
+          "control_mean_array_sha256": "ebe90e222b799def806c46e565830014785cfa5deb0083f97cbb4d53ab711b07",
+          "treated_mean_array_sha256": "451e3851303ba60530eac40fd1c02d838d3975f343a009e3fd9d1cf862f82d9b",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "CCDC112",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_CCDC112.json",
+          "source_input_sha256": "497dc62201be859e54f73f25d5b97b0804f563e1692e6c19d912ab6ce49099ad",
+          "control_mean_array_sha256": "31919a8a1113e598c1576310fd2bbac2141648a25b269341af412cd77951f12f",
+          "treated_mean_array_sha256": "2d8be7a2e6e4375c2beda57ba866cec1d39bbd6756f9b7cab03d04da91cbef4e",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 10.302422523498535,
+      "shuffled_program_norm_before_matching": 10.651247024536133
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "NFE2L1",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_NFE2L1.json",
+          "source_input_sha256": "7a6a3d43f0eed37409e0d077ede1741655717c4ed3ae2ad2639586fc40be1726",
+          "control_mean_array_sha256": "aec4373540f185dad1ffa6a64cbaab795f5ca41d6125ae5df1cffc38eb0c5c00",
+          "treated_mean_array_sha256": "918c27254eeb465b83a3fae1e76e557cf4debcd304a48f3311091bc35d92215e",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "PDE6D",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PDE6D.json",
+          "source_input_sha256": "daa30bad394bde775b6978ba6d948efe4bc4571db59cb8e2413d5b282e48fca3",
+          "control_mean_array_sha256": "c3c9ef0b666454944111456f86bcc43fec71dd6a274ba97397ab1f971fcca4cf",
+          "treated_mean_array_sha256": "dc4c68772da491729e0b2dde3cd726dbacb35eaae0173583547c4333715c3891",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 11.179670333862305,
+      "shuffled_program_norm_before_matching": 9.645384788513184
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "PLAGL2",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PLAGL2.json",
+          "source_input_sha256": "40462719b364b7ed760e7e04318e520a5613782258bef710aa6f8396592d6e74",
+          "control_mean_array_sha256": "7348dfa6f5d651ea0fa79d5ae73c6ffed1c1c6356693b7c47192634f499ec8d8",
+          "treated_mean_array_sha256": "1a7d2502afd267c596a1175a4e3b7fc79eb064995e384fb13a9d1ba2610f87bd",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "PTMS",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PTMS.json",
+          "source_input_sha256": "18b7b7ba3042ff530c7c5b438a37d5098418d0607fa12aedbbc53b80002bad70",
+          "control_mean_array_sha256": "613050251370725eb8f235f88a62db30ea765fadf03aa8f32f9c6b5de553e37c",
+          "treated_mean_array_sha256": "82b44a7d320a94728905e3db72d37df8627569848a7f52948dc105209e9affbe",
+          "program_coverage": 0.98583984375,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 12.275863647460938,
+      "shuffled_program_norm_before_matching": 9.831202507019043
+    }
+  ],
+  "mean_response_arrays_unchanged": true
+}

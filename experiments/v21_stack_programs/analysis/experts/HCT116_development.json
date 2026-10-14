@@ -1,0 +1,125 @@
+{
+  "sha256": "e8da564b26703a6459d2f0cb75c846b336b56f8addfb501fb38ec925c37a46c4",
+  "plan_sha256": "5c6bb1beb88de1ccb9bd7d792274737955e7fa7c83d85d9fbd46c953ee5fc9b5",
+  "query_input_sha256": "9d854428c941a85611a429b17366bc43ff11b400bfd33965bebf98cbb2c4919a",
+  "parent_expert_sha256": "b1f0dfa7c9bb2dfe6aedd5501f2cb949b01c1725fa4e54a27961b090a9989200",
+  "records": [
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "GLI3",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_GLI3.json",
+          "source_input_sha256": "c4e36c7afe096dcdc4dba93758e1352174c86883fc5ed1e4a1e7849b36bf8c93",
+          "control_mean_array_sha256": "fe35c4559dd22dff30f904161dba8d6cb81e665ffb0a3e51857b2f7c7447f42c",
+          "treated_mean_array_sha256": "6387cbc1b739cbca61f7a5dc6bbaa1f8cbba2e1f32b999916aa89e2eb7749294",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "CHD3",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_CHD3.json",
+          "source_input_sha256": "7898f049917f8c7d26ec60720ff2dc1c73b26f66bdade81436d133dd0432bda7",
+          "control_mean_array_sha256": "e944f4f1176ceb03853c7d733a64143ec83f2b2294aeceb5343768da2359bb20",
+          "treated_mean_array_sha256": "e418be42e77bc94419a512e69236da34828237c63620feef6b7d9fe425a15791",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 12.811067581176758,
+      "shuffled_program_norm_before_matching": 13.462825775146484
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "PATL1",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PATL1.json",
+          "source_input_sha256": "0a1c8f529de4c2442d60687345b4785f7136ad9300a4e37afe50122da93ccda3",
+          "control_mean_array_sha256": "950b901b46a8b1ec9547b98bbfda539982ec427117a9b8f301774eaf9ebc6327",
+          "treated_mean_array_sha256": "a3ddbac3cb30d73bcd29d21d089400cc8aed350f36d814f82ec43b4b858ed058",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "PHF19",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_PHF19.json",
+          "source_input_sha256": "bb4c93430433b5e554a39b916921ac0e43959b5ba936378f5a2ae88e7fca0107",
+          "control_mean_array_sha256": "d553443a8804d14511eeb36a2be45acbb307bd82f2439cee766087cf839c7b67",
+          "treated_mean_array_sha256": "53e62007f66ddc5c1286d7faa6a96d05163b02662c2b52445c5a97e26e4b742a",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 16.213180541992188,
+      "shuffled_program_norm_before_matching": 13.941366195678711
+    },
+    {
+      "family": "HCT116",
+      "target": "RNF141",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "RNF141",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_RNF141.json",
+          "source_input_sha256": "e0d8a49ee1eab57fd15d5d253f083bc51c020a9319ada135156f2450799ee836",
+          "control_mean_array_sha256": "62b5c348029e6de87ea3d35161ae27eb375770f6fc80b3917627943a1c1eca4f",
+          "treated_mean_array_sha256": "a33352a4ec8f9d416d7b81aa05d491d5db841fc1285f91e94cbe2fe33e693241",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "MTA1",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_MTA1.json",
+          "source_input_sha256": "a2acc8c92a385403aaecb93718765840c6ef94fa85cbd6387729821609d55742",
+          "control_mean_array_sha256": "a6de86a522236020db4eb1ae26f4d4eec94c0c10687aa99e285a4d0a904bd832",
+          "treated_mean_array_sha256": "ed08d3d068a26dd2ac00e2438bae6f5ac76e77c3ed21ce2f1b7ed8a76a95b6ee",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 12.524438858032227,
+      "shuffled_program_norm_before_matching": 13.498116493225098
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "source_family": "HEK293T",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "ZNF627",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_ZNF627.json",
+          "source_input_sha256": "57dcf72c8edd0967b864580abf557112b1eb25ddf3ff7252d8979a18f7fb5a97",
+          "control_mean_array_sha256": "380d60ccd07210b291dbc8ddafdeb258ba2b5291149df7fa6f4531b2c6303125",
+          "treated_mean_array_sha256": "ea86bee4e9fde1ed3bb967f0907d9935ccb0b14522921d8bff2139f319096024",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "AP2A2",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HEK293T_AP2A2.json",
+          "source_input_sha256": "09c2e1a5a753b0fd8ec93255cbae7ea2f53029ef0bd8190015ed7312dbb2fae8",
+          "control_mean_array_sha256": "2eee2320e9491f47d09930a0d780f6c27742ec229f969093a47c277823aab986",
+          "treated_mean_array_sha256": "89f2113fc965eb7174a5259da02d9ed7a46b78658fdbe3183fc9682aa903ca81",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 13.418466567993164,
+      "shuffled_program_norm_before_matching": 14.074235916137695
+    }
+  ],
+  "mean_response_arrays_unchanged": true
+}

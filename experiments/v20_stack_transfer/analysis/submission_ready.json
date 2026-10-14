@@ -1,0 +1,42 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v20_stack_transfer\\prediction.vcc",
+  "bytes": 4073574400,
+  "sha256": "8370080f290febfbec59e25a54b175317f1a22609ee3c90faa1997774611ac50",
+  "official_prep_passed": true,
+  "validation_status": "exploratory_public_algorithm_verification",
+  "fixed_public_development_and_confirmation_guards_passed": true,
+  "complete_six_metric_public_verification": false,
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2368754215,
+    "schema": 1
+  },
+  "prediction_validation": {
+    "n_cells": 360000,
+    "n_genes": 18533,
+    "nnz": 2368754215,
+    "maximum_cell_counts": 52420,
+    "groups": 900,
+    "cells_per_group": 400,
+    "all_stored_counts": "positive integers",
+    "gene_order": "exact match",
+    "context_target_cell_counts": "exact match"
+  },
+  "uploaded": false,
+  "leaderboard_score": null,
+  "generator_sha256": "6723e30f58cb0dd944e1cf2a1f3de1a7009d95551221aa2067cbc8d68d691944",
+  "methods_sha256": "0c225d8effd1859865002ec6de4ab36d74398b39fe302d4c37125090f5006454",
+  "emitter_sha256": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+  "model_sha256": "de991576a08c03f3981c88bffca6db97691a8363300cb405b4e0c5a138879364",
+  "packaging_adapter_sha256": "c22b971dd1b264b945048955d4894a7eaa571b1dd5d94fdd31e1ee216164e9ee",
+  "memory_safe_stage_sha256": "5e6e22279404852a86b58b2f0e05f9b5940e888b3b980afe74f3cbfe12dfb603",
+  "inference_runtime_compatibility_sha256": "5240a11bcc54e38d0e432aac10c7a98e835391a83dbfcd10cbf18b0c9ec07698",
+  "independent_full_payload_validation_passed": true,
+  "independent_production_input_validation_passed": true,
+  "upload_ready": true,
+  "independent_validation_sha256": "f89d829dfee2b43e5a6a620420b24c9adf14f2d5746d32c3814a943072b5cb5f",
+  "production_input_audit_sha256": "a24ec80c647f09a0b8637861275b02b4568f93f30d2fc4ba07cc751879325dd6",
+  "release_checker_sha256": "38d336bf3fa56b677634f5bffd9b8ba08e2fbfaf0620848a6326ebce202a3911"
+}

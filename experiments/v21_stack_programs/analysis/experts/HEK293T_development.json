@@ -1,0 +1,183 @@
+{
+  "sha256": "e6bfb19c0ff0bf0e35df59f42a4c2fa409580385366cdeeaa2475adc62bf1cd1",
+  "plan_sha256": "5c6bb1beb88de1ccb9bd7d792274737955e7fa7c83d85d9fbd46c953ee5fc9b5",
+  "query_input_sha256": "016187f26390dd19aa09cd59773095ceb98b6adc7cbb0712f60e912e0294f2e6",
+  "parent_expert_sha256": "7d54109c2078e0dc57f40173d86748a4dfa298f38a393ce2e3e589c1c15c2925",
+  "records": [
+    {
+      "family": "HEK293T",
+      "target": "ADNP",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "ADNP",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_ADNP.json",
+          "source_input_sha256": "c44b2c1f60cba38fdab099ff85d3f0a0a0e87fb16b67365b0b1a84d2ed83d34c",
+          "control_mean_array_sha256": "eb2a74c2aa5cb65a06f8268eac863f8f495746a0cb611bf325a7b2b804e6ce2b",
+          "treated_mean_array_sha256": "0dc3295936b97b0b61f6eea9f6d25b240a1b4d2e14a665d6856fe62a7f9c05e4",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "DCAF16",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_DCAF16.json",
+          "source_input_sha256": "1365e63edd291cd3fc22c1d2311ce17a5f07f45c9930a5dc037489a95bf6e89f",
+          "control_mean_array_sha256": "e4823c55f7f565ee61e537646b88d7b1f4fe517a18279a463efc01f8870525fa",
+          "treated_mean_array_sha256": "89b13615c147da5e2267e21a6f521e3b20127882ead6b74b4abc8b95b61204be",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 27.302453994750977,
+      "shuffled_program_norm_before_matching": 14.381927490234375
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "PRKAB2",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_PRKAB2.json",
+          "source_input_sha256": "f87e79ac60d901f000e21becdb2df127397f26b5cc5a4ce487cc679a29255d47",
+          "control_mean_array_sha256": "7eb1ca5d58d5ac4bfb66c0348e0fda628593103aa23ebc9d7bfa319a01818cd8",
+          "treated_mean_array_sha256": "7d2815d1ffcd572c3863ea25ab1d5f3428d50a63b27e88042e8dbbb022451a00",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "MED15",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_MED15.json",
+          "source_input_sha256": "fe5b534779e67e9585d4277df26467d59e405271f4b9a6602121a99f0b41486e",
+          "control_mean_array_sha256": "c88865c91df313e8b4a480eef3fa8af3925af5398b5df72761d4a4c58e722dbf",
+          "treated_mean_array_sha256": "b6f74e4061182e17843fa896e34b09aae4d895d35ee49c129dc5708835870895",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 22.207103729248047,
+      "shuffled_program_norm_before_matching": 21.987266540527344
+    },
+    {
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "PSMB9",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_PSMB9.json",
+          "source_input_sha256": "e0a0e936ddc755ae21b5f60794c4481587adb0a26571f1801f8b1a2ea90acc28",
+          "control_mean_array_sha256": "370eaee0d9a8224f8f300b71927ad2e070b66f8fe64a60bb65f0c1a35e7f3d55",
+          "treated_mean_array_sha256": "da0cf21d108edad271f8a1419c978aeef2e62613b5d2f5b925ad66aa091a1dab",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "FAM120A",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_FAM120A.json",
+          "source_input_sha256": "9ebe7b095b2260f4a9c61466ff2e2f07ce03e8e6988096493ec70685047ba6af",
+          "control_mean_array_sha256": "24df584d3edbfdc42368043a2cb7d70c840cfb17e0b8123868a34ba539fea162",
+          "treated_mean_array_sha256": "d141aed1d6c8c9993695f4d5928eefc88e88024c4cd144a8d10d9f7bd8c33b45",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 23.499109268188477,
+      "shuffled_program_norm_before_matching": 26.819223403930664
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "SYVN1",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_SYVN1.json",
+          "source_input_sha256": "86eafb2a2bcc93c9e3c39727f3cc66f886d08a39ee6ad46e04c12d1dc1a4ae49",
+          "control_mean_array_sha256": "f9eede2b9dad22bb8724a7d963a3752274bf975b4a88390f036ee32d00130833",
+          "treated_mean_array_sha256": "ded768c285628fcb2b844bb98788f8c1686351e76d6fdb9445a19c36f249d0bd",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "CHD6",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_CHD6.json",
+          "source_input_sha256": "c6c25e3d8b6e5347ebc26c0653b91903e6d632c35afda1ef977d14a2079814a5",
+          "control_mean_array_sha256": "ddd79ce6c3b6e5da0f86a4d42deeada05633bb03f628494cdccf2f1edd3f0951",
+          "treated_mean_array_sha256": "b986575a183b575eccc2e178b79e4eeba92e0b028c7fba8e4e1697890744bbed",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 26.065467834472656,
+      "shuffled_program_norm_before_matching": 21.08935546875
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "ZDHHC4",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_ZDHHC4.json",
+          "source_input_sha256": "ae3878733e0386460aa6878731ae27353798072d55f8ec0648f6d39247e76594",
+          "control_mean_array_sha256": "b6620b9e3e6a82ac7d6e0bcc177351030754894a86b8818bb404b7f5b5699bfe",
+          "treated_mean_array_sha256": "21c7a044f50384377e2866d4138deff2004d2c088a58741576bf037c880ee4b9",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "MSANTD4",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_MSANTD4.json",
+          "source_input_sha256": "06b5059afa34e3c19db05071041b114edd16ccbd824ee88a309ea958cb8f7bbf",
+          "control_mean_array_sha256": "6221e72607817ceedf160c641589113f64642a95a2c78ec920e89bab5ff6c7b9",
+          "treated_mean_array_sha256": "c8f2fab40245e3f7166bc06649616f91ccc0bdf702c5f067bf74095a8f697fbe",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 13.233410835266113,
+      "shuffled_program_norm_before_matching": 25.826711654663086
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZNF777",
+      "source_family": "HCT116",
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "ZNF777",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_ZNF777.json",
+          "source_input_sha256": "646b9238a2db1d040954bf9668825e091129fa95af44f12cb023247fabd45f27",
+          "control_mean_array_sha256": "e35921e48f567677ebe543b8a9c52a61bcc5ff15cbb7291762fb56f04f04b986",
+          "treated_mean_array_sha256": "19b912a4628122e4924177694f2e9aac24b863882fc54a9f483a9bb1a18dd4d6",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "GPATCH8",
+          "source_input_path": "experiments/v20_stack_transfer/analysis/inputs/sources/HCT116_GPATCH8.json",
+          "source_input_sha256": "22706c34400b1e2270772ab74b139b66c75faac4efb6d83d1b71de5360cf7018",
+          "control_mean_array_sha256": "e7d441cd6c3ae4aa907efd0c02aecbcc19c770fa259feb16ee6f5cc8bd516f7f",
+          "treated_mean_array_sha256": "d56ee9806d23064fffa6f1cefed49cbc368db5c478aa11f26a2456f0484451f4",
+          "program_coverage": 1.0,
+          "parent_mean_hash_matched": true
+        }
+      ],
+      "real_program_norm": 12.777956008911133,
+      "shuffled_program_norm_before_matching": 15.721525192260742
+    }
+  ],
+  "mean_response_arrays_unchanged": true
+}

@@ -1,0 +1,70 @@
+{
+  "sha256": "c4beb916d17e13b79f0353b234769144a5f9fd026510a52820876a132c0308c0",
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "query_input_sha256": "3aea640bc9994c2880e3c5b0a98acc4437683e134c8b2ca417bf34e8c3103c44",
+  "records": [
+    {
+      "family": "HCT116",
+      "target": "CAT",
+      "source_family": "HEK293T",
+      "input_count": 203,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "CAT",
+          "source_input_sha256": "f6ffd52580cb510d11d14aa9ca1f388ebe5989243381d333e6f71af0dc1ea1e3",
+          "seed": 20271044,
+          "control_mean_array_sha256": "747a95ef71fbcaad5b598a286c0c4ca6a6ba144fcd9c32d790169f3b9d030ac9",
+          "treated_mean_array_sha256": "a655b42898055e9629a7d37d6b0bbf61087ba63468baf64f8296edf814aaae81",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.79931640625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "ALG12",
+          "source_input_sha256": "b3cb078aa34cc0d5c858578b40f6e4a72c56c6747c749cc7bb31e7f82fc9a384",
+          "seed": 20271044,
+          "control_mean_array_sha256": "024302ee15aee035ac4d9caf4ef284e2ee898dcc98268333d10d3356bacb7ed6",
+          "treated_mean_array_sha256": "c434eef7639b8d414b84c40d50bcc824fdabda67a85a71d33f829227724b9049",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.79931640625
+        }
+      ],
+      "seconds": 3.481367588043213
+    },
+    {
+      "family": "HCT116",
+      "target": "MYRF",
+      "source_family": "HEK293T",
+      "input_count": 297,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "MYRF",
+          "source_input_sha256": "46552ba2d30eb048b16b4a9fdcc528020f9297d81690fdd8dafe4162486fe1f9",
+          "seed": 20271139,
+          "control_mean_array_sha256": "b83d62f302b412a2d23bdd8a4c8d373c39485aa18566ee820726dcdd8ac4ab0b",
+          "treated_mean_array_sha256": "eaf4c41eeba2f89d47695918224173810075d3e3b75dd5a1fd4987f62e06bd61",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.79931640625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "TARBP2",
+          "source_input_sha256": "6d792b7456bd4d04dc95c19935a8daa519fb5c3154d8cf5024de6d477a611fa3",
+          "seed": 20271139,
+          "control_mean_array_sha256": "4ebb8aca0909882f4891986dcd7adb98bb273f4a0110a426bc88cea6df2bdec1",
+          "treated_mean_array_sha256": "d9249768065e606a1ffa0508098c9f8317eb3c6d460d1da6bf885bddf0e0ac15",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.79931640625
+        }
+      ],
+      "seconds": 4.089794874191284
+    }
+  ],
+  "strict_state_dict": true,
+  "precision": "FP32",
+  "decoder": "one-step original conditional mean/dispersion, bitwise parity certified",
+  "source_prompt_holdout": true,
+  "pretraining_overlap_audited": false
+}

@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "all_reserved_prompt_files_verified": 48,
+  "paired_target_groups": 8,
+  "held_family_exclusion_and_exact_frozen_choices": true,
+  "query_treatment_inputs_used": false,
+  "checks": [
+    {
+      "family": "H1",
+      "target": "ANKZF1",
+      "source_family": "HEK293T",
+      "matched_prompt_size": 237
+    },
+    {
+      "family": "H1",
+      "target": "MED15",
+      "source_family": "HEK293T",
+      "matched_prompt_size": 331
+    },
+    {
+      "family": "HCT116",
+      "target": "CAT",
+      "source_family": "HEK293T",
+      "matched_prompt_size": 203
+    },
+    {
+      "family": "HCT116",
+      "target": "MYRF",
+      "source_family": "HEK293T",
+      "matched_prompt_size": 297
+    },
+    {
+      "family": "HEK293T",
+      "target": "CAT",
+      "source_family": "HCT116",
+      "matched_prompt_size": 311
+    },
+    {
+      "family": "HEK293T",
+      "target": "CHD6",
+      "source_family": "HCT116",
+      "matched_prompt_size": 201
+    },
+    {
+      "family": "HEK293T",
+      "target": "COQ10B",
+      "source_family": "HCT116",
+      "matched_prompt_size": 279
+    },
+    {
+      "family": "HEK293T",
+      "target": "DCAF16",
+      "source_family": "HCT116",
+      "matched_prompt_size": 226
+    }
+  ],
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "preparation_receipt_sha256": "4108bf5a18d698f429a16c2da833ed11656211e9f67363800a173d38d89431c2",
+  "auditor_sha256": "ef321c6e3443f982478028f703cdb922c329594d7db7bb37687b660215c8f234"
+}

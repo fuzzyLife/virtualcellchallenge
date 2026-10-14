@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "family": "H1",
+  "target": "VIM",
+  "device": "cuda:0",
+  "torch": "2.10.0+cu126",
+  "dtype": "float32",
+  "batch_size": 1,
+  "decoder_chunk_size": 512,
+  "gene_count": 6290,
+  "strict_state_dict": true,
+  "bitwise_repeat": true,
+  "seconds_two_forwards": 1.1528823375701904,
+  "peak_gpu_bytes": 466024448,
+  "original_train_split_sha256": "6143b4d1bdc30f09a323a5af944fe9049c77c724909fb20fdde0039b7faeddfb",
+  "original_evidence_key": "9931c69f8107896760cef64a777b1e072601f17b99675f0f18e6ffbcbcd38ce2",
+  "source_mask": {
+    "depmap_gene_effect": 1,
+    "esm2": 1,
+    "ncbi_text": 941,
+    "perturbation_text": 1,
+    "string_space": 1
+  },
+  "lfc_range": [
+    -26.112197875976562,
+    2.0673139095306396
+  ],
+  "p_de_range": [
+    0.08660346269607544,
+    0.6441547870635986
+  ]
+}

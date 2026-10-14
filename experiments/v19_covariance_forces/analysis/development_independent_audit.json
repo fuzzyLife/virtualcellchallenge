@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "plan_sha256": "911d9be92d0f69322f68c6d538dba9528cfc9909a83ffc27e79651605b8fcb38",
+  "auditor_sha256": "e8841508e7e7a493336e6bf54639380607ca9b47d814de156a7ed7535a2aab18",
+  "identities": [
+    {
+      "family": "H1",
+      "control_fit_rows": 768,
+      "independent_control_rows": 768,
+      "development_target_count": 4,
+      "reserved_target_count": 2
+    },
+    {
+      "family": "HCT116",
+      "control_fit_rows": 1742,
+      "independent_control_rows": 1742,
+      "development_target_count": 4,
+      "reserved_target_count": 2
+    },
+    {
+      "family": "HEK293T",
+      "control_fit_rows": 3558,
+      "independent_control_rows": 3558,
+      "development_target_count": 6,
+      "reserved_target_count": 4
+    }
+  ],
+  "compared_populations": 140,
+  "whole_family_exclusion_verified": true,
+  "V16_count_digests_match_previous_development": true,
+  "cache_metric_hashes_verified": true
+}

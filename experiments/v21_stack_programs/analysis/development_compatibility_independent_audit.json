@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "family": "H1",
+      "all_program_genes_in_vocabulary": true,
+      "query_scores_independently_recomputed": true,
+      "mean_arrays_bitwise_match_parent": true,
+      "active_targets": 4,
+      "minimum_program_norm": 10.302421569824219,
+      "matched_shuffled_norm": true
+    },
+    {
+      "family": "HCT116",
+      "all_program_genes_in_vocabulary": true,
+      "query_scores_independently_recomputed": true,
+      "mean_arrays_bitwise_match_parent": true,
+      "active_targets": 4,
+      "minimum_program_norm": 12.524436950683594,
+      "matched_shuffled_norm": true
+    },
+    {
+      "family": "HEK293T",
+      "all_program_genes_in_vocabulary": true,
+      "query_scores_independently_recomputed": true,
+      "mean_arrays_bitwise_match_parent": true,
+      "active_targets": 6,
+      "minimum_program_norm": 12.77795696258545,
+      "matched_shuffled_norm": true
+    }
+  ],
+  "plan_sha256": "5c6bb1beb88de1ccb9bd7d792274737955e7fa7c83d85d9fbd46c953ee5fc9b5",
+  "auditor_sha256": "4adc239c7ec3e308c093fd7e3b83b0c40f3cd8534b5c0a8eb010710bba17b6e7",
+  "pretraining_overlap_audited": false
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "plan_sha256": "3cc7a58ac972c42c46f3969ec44faa05c729ba52552974c11a3793d427270bba",
+  "records": [
+    {
+      "family": "H1",
+      "original_NTC_rows": 768,
+      "input_sha256": "522dd368e052fd30e00cd428c9897096f24cf7fbb31acd75647e0ad880490eb1",
+      "all_arrays_recomputed_exactly": true
+    },
+    {
+      "family": "HCT116",
+      "original_NTC_rows": 1742,
+      "input_sha256": "64f1b84d88144876971f52422001e137b24f55138edf54b013b1f51f50c77fa7",
+      "all_arrays_recomputed_exactly": true
+    },
+    {
+      "family": "HEK293T",
+      "original_NTC_rows": 3558,
+      "input_sha256": "11d084dfd22348cddd13e4b75702add50b6b7d0d53324bcdd116ebd37bb6fee5",
+      "all_arrays_recomputed_exactly": true
+    }
+  ],
+  "auditor_sha256": "f65d63ca8655fc41a4a4244a93c78039bb5a17d03478f659eefb5bcc2e9fed4e",
+  "treatment_labels_or_values_used_for_inference": false
+}

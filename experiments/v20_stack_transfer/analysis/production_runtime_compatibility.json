@@ -1,0 +1,7 @@
+{
+  "pandas_future_infer_string": false,
+  "scope": "Metadata-only CSV string compatibility, same flag as original-author smoke/parity test. Production reader explicitly converts axes to Unicode. Numeric inputs, model weights, correction, seeds and count emitter unchanged.",
+  "wrapper_sha256": "79e541e33de7ce3b9b28393287d50c927d72bca57c15cbe7ae729440029cc900",
+  "frozen_inference_sha256": "fbce7c2ebb792675c3a6ed9a98e8aa32d22e4985b5e8741b02e0c5760b729e79",
+  "observed_native_failure_before_flag": "Windows access violation 0xc0000005 in pandas string_arrow._from_sequence while build_submission.read_spec reads CSV, before first target inferred."
+}

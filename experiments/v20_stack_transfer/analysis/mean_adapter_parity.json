@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "mean_bitwise_matches_author": true,
+  "dispersion_bitwise_matches_author": true,
+  "mean_and_dispersion_bitwise_repeat": true,
+  "shape": [
+    400,
+    15012
+  ],
+  "seconds_optimized_forward": 1.1665890216827393,
+  "peak_gpu_bytes": 2288645632,
+  "optimized_path_deterministic_algorithms": true,
+  "sampler_omitted": "Original author mean/dispersion outputs retained; no stochastic NB sample or median is needed for the mean expert. Final submission counts still come from validated integer emitter.",
+  "adapter_sha256": "4e64251b68265544e85e74ae0ebd281520ed34d62a518cb9ff12ab724c887dc7",
+  "test_sha256": "c53e754261b011c4d54a0dd4c9d5fe6732444bfae82a83b6ea3a945f49278268"
+}

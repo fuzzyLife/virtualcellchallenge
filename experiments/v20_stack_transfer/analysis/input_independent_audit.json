@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "family": "H1",
+      "query_controls": 768,
+      "cached_distinct_query_controls": 400,
+      "query_treatment_values_used": false
+    },
+    {
+      "family": "HCT116",
+      "query_controls": 1742,
+      "cached_distinct_query_controls": 400,
+      "query_treatment_values_used": false
+    },
+    {
+      "family": "HEK293T",
+      "query_controls": 3558,
+      "cached_distinct_query_controls": 400,
+      "query_treatment_values_used": false
+    }
+  ],
+  "source_prompt_pairs_reconstructed": 28,
+  "all_counts_reconstructed_from_original_matrices": true,
+  "source_batch_matching_verified": true,
+  "missing_vocabulary_inputs_are_padding_not_measured_zero": true,
+  "all_query_controls_and_program_states_verified": true,
+  "pretraining_overlap_audited": false,
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "auditor_sha256": "fcff78ed3de115ab148fa6d6bc71f75722eacdcb062d430dfb97849bde0cc5f8"
+}

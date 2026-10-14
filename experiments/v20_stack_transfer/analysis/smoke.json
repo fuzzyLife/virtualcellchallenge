@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checkpoint_sha256": "f93cf6f42f36c8a85dc570d92e801c1fc3e1f45d55741e6bb250d178a6b6ad36",
+  "strict_state_dict": true,
+  "dtype": "FP32",
+  "deterministic_algorithms": "warn_only for author CUDA median values; actual full-count repeat required",
+  "model_config": {
+    "n_genes": 15012,
+    "n_hidden": 100,
+    "token_dim": 16,
+    "n_cells": 512,
+    "n_layers": 9,
+    "n_heads": 8,
+    "dropout": 0.0,
+    "mask_rate_min": 0.1,
+    "mask_rate_max": 0.8,
+    "sw_weight": 0.01,
+    "n_proj": 64
+  },
+  "batch_size": 1,
+  "num_steps": 5,
+  "mode": "author mdm",
+  "counts_shape": [
+    400,
+    15012
+  ],
+  "bitwise_control_repeat": true,
+  "peak_gpu_bytes": 1475074560,
+  "seconds": 47.293187618255615,
+  "query_treatments_used": false,
+  "supported_output_genes": 12683,
+  "counts_sha256": {
+    "control": "27181657fd0b5a26ff8e9e1d073d5353b993a4e2740f48ab7b58fa242c0bca90",
+    "treated": "69d9f807999a2b7acfa5d49f13b0f98ce1f00b27d5afbe0ce6d6fe873c8a6fd9",
+    "repeat_control": "27181657fd0b5a26ff8e9e1d073d5353b993a4e2740f48ab7b58fa242c0bca90"
+  },
+  "code_sha256": "4165e7638a465c9d6444445243d4d29bb170489cb43c3ac3e29d696b848fd631"
+}

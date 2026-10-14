@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "recorded_files": 97,
+  "original_author_git_blobs": 79,
+  "complete_target_token_sequences": 299,
+  "compact_ncbi_payload_bytes": 744243200,
+  "all_compact_slices_match_original_range_receipts": true,
+  "canonical_split_hash_verified": true,
+  "asset_manifest_sha256": "c6385ed1b24fb62ff95a74ec185fecf6b0959de36fe72f1581fe1d0ed1f4dac3",
+  "auditor_sha256": "3f10a8cf53310e24595bf653ee365dbe2ebfd3fdda83d06aa0e8bd027bc57716",
+  "limitation": "The full 43GB NCBI array was not downloaded or globally rehashed. Complete selected ranges fetched from pinned HTTPS asset; range hashes retained and compact reconstruction verified."
+}

@@ -1,0 +1,121 @@
+{
+  "stage": "development",
+  "candidate": "v16",
+  "new_candidate_passes": false,
+  "comparisons": [
+    {
+      "candidate": "pie25",
+      "pass": false,
+      "checks": {
+        "pds": false,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false,
+        "family_fidelity": false,
+        "family_reach": false,
+        "three_metrics_improve": false,
+        "DE_metric_improves": false,
+        "beats_amplitude": false,
+        "beats_shuffled": false
+      },
+      "changes": {
+        "pds": -0.12500000000000003,
+        "fidelity": -0.06408399612544056,
+        "reach": -0.12018004751867699,
+        "jaccard": -0.00374008962626585,
+        "nmae": 0.054019656452383547,
+        "relative_expression_worsening": 6.502994619182643,
+        "versus_amplitude": {
+          "fidelity": -0.0627407492335111,
+          "reach": -0.08970448600745502,
+          "jaccard": -0.0037460042268180997
+        },
+        "versus_shuffled": {
+          "fidelity": -0.06333668879216915,
+          "reach": -0.04608962216358273,
+          "jaccard": -0.0036376663626952166
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": false,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "confidence",
+      "pass": false,
+      "checks": {
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": false,
+        "expression": false,
+        "family_fidelity": true,
+        "family_reach": true,
+        "three_metrics_improve": false,
+        "DE_metric_improves": true,
+        "beats_amplitude": false,
+        "beats_shuffled": false
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.00162346730760717,
+        "reach": 0.02551818996371319,
+        "jaccard": -0.0006483082433353176,
+        "nmae": 0.013570002857374003,
+        "relative_expression_worsening": 0.06607744865504032,
+        "versus_amplitude": {
+          "fidelity": -0.00028022041567771216,
+          "reach": 0.05599375147493513,
+          "jaccard": -0.0006542228438875668
+        },
+        "versus_shuffled": {
+          "fidelity": -0.0008761599743357662,
+          "reach": 0.09960861531880742,
+          "jaccard": -0.0005458849797646837
+        }
+      },
+      "improvements": {
+        "pds": false,
+        "fidelity": false,
+        "reach": true,
+        "jaccard": false,
+        "nmae": false,
+        "expression": false
+      },
+      "complete_primary_metrics": false,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_rank_scores": {},
+  "plan_sha256": "3cc7a58ac972c42c46f3969ec44faa05c729ba52552974c11a3793d427270bba",
+  "panels_sha256": "36ec07db2e3a9e54e28ca27b23cf1858f94f9c350c0213ec4b76ce395ce53191",
+  "scope": "Public reused biology; family-balanced raw guards; no private anchor-scaled score or guaranteed ranking."
+}

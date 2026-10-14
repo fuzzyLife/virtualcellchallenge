@@ -1,0 +1,128 @@
+{
+  "sha256": "4e13760c1ce78836552048db56240d5f6a68123cc5743aacdb0c8734a0a7a629",
+  "plan_sha256": "afdb437428290453b714b613ad97ff965a16ddd4cf14d59d37302ee2ef6d911e",
+  "query_input_sha256": "576eeb71efe3eec4eb001856fcad1f9402580e286268043e4e0836c8312c44c4",
+  "records": [
+    {
+      "family": "HEK293T",
+      "target": "CAT",
+      "source_family": "HCT116",
+      "input_count": 311,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "CAT",
+          "source_input_sha256": "63ad4bf655690b6ab4dbafeaa2b90641781b412c771681189e6212dffbfaeb3d",
+          "seed": 20281044,
+          "control_mean_array_sha256": "d276a10091f3eb5d45a4f4c71484a4561a8564116358bf6668477dda97cc6b81",
+          "treated_mean_array_sha256": "67c3cdc914356e674af23acc43f779d77db7967b0b82baa1d3a15355ee07ab34",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "PRNP",
+          "source_input_sha256": "500e7951b820a64deb7872d558a2c4f58a85b559529bb37db57e77f973e748a8",
+          "seed": 20281044,
+          "control_mean_array_sha256": "4e89b1db442e4d381b5d6d0465c57bf75c1eaed36bb840a60469a063f2e79292",
+          "treated_mean_array_sha256": "e49ad4cb855bbe39f4c300256b4b3b9bea554ae667f6b083dd342def7ec8ea0a",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        }
+      ],
+      "seconds": 4.247813940048218
+    },
+    {
+      "family": "HEK293T",
+      "target": "CHD6",
+      "source_family": "HCT116",
+      "input_count": 201,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "CHD6",
+          "source_input_sha256": "c6c25e3d8b6e5347ebc26c0653b91903e6d632c35afda1ef977d14a2079814a5",
+          "seed": 20281048,
+          "control_mean_array_sha256": "e6d1ccf7d98fe07a4bfa6e21414e1cc1f38d1485bedd92005db2e7c2dac1fa1e",
+          "treated_mean_array_sha256": "f4656ef678d1837a735b94b302d99c4def118a6a3a7c953edc25969e64be933b",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "CLCN6",
+          "source_input_sha256": "78a87ddb80806ac56894cbc3050b24e8418d86bf9a382931317b1f3ffaf0fac5",
+          "seed": 20281048,
+          "control_mean_array_sha256": "896431d904a5f31725fb3d95f2be0042b0567834b3d33d48bfec97fa7c45a8e1",
+          "treated_mean_array_sha256": "ad17578aa0ed6d1671e0d5898f6637dbe1e1b31b299158061aca033d5ad8db20",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        }
+      ],
+      "seconds": 3.4355292320251465
+    },
+    {
+      "family": "HEK293T",
+      "target": "COQ10B",
+      "source_family": "HCT116",
+      "input_count": 279,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "COQ10B",
+          "source_input_sha256": "3f8c955c2827f7f50d3ea8540bfe86ef0beadbbf6c70f2f8a6e9160f614e0f1a",
+          "seed": 20281053,
+          "control_mean_array_sha256": "705443cd211825fc8cc2936043411aeeadca807b4c364ae31a7d4ceed29847d6",
+          "treated_mean_array_sha256": "c3fb90aaab668fc7fb3e4e5ea2c6a52ac85c803d5a0d66799a8835922210c3ea",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "MBD4",
+          "source_input_sha256": "ae6c577900744707e512e4665e013c42cbfb9ae5cba1d9bf98ee903b958c59ca",
+          "seed": 20281053,
+          "control_mean_array_sha256": "ed38c0890dd25ccf7bd3f5beae448fa933d60f233ac1f563ef28edfe13211c2c",
+          "treated_mean_array_sha256": "2289b477eea46211976052dabdc7c39e011def4db93b88ebb3abd344a738a980",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        }
+      ],
+      "seconds": 3.735538959503174
+    },
+    {
+      "family": "HEK293T",
+      "target": "DCAF16",
+      "source_family": "HCT116",
+      "input_count": 226,
+      "pairs": [
+        {
+          "kind": "real",
+          "source_target": "DCAF16",
+          "source_input_sha256": "1365e63edd291cd3fc22c1d2311ce17a5f07f45c9930a5dc037489a95bf6e89f",
+          "seed": 20281058,
+          "control_mean_array_sha256": "fe5c3eb4d8516c7c20e39432f0f468bed46d8f9b64a2dc3e7b57018ab73cb1d1",
+          "treated_mean_array_sha256": "0f21dcbfc67b59fb068aba148f8a3206c079357ea9967a45ca4fb45bcc2f9298",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        },
+        {
+          "kind": "shuffled",
+          "source_target": "TBC1D19",
+          "source_input_sha256": "5cb6cb0108b7299f71bdfedd3f1348315105c90f1ea5ed14c6795e9dea5f40fe",
+          "seed": 20281058,
+          "control_mean_array_sha256": "e92ba76d0c3c00419030005cf2c6e97f860b10d299f4bb94a1ce0e2a4e45cacb",
+          "treated_mean_array_sha256": "a4fa1b721fca9632f7e71dcb91fc0b5ab836944ebd131f15a712f76d0e2db281",
+          "supported_output_genes": 12878,
+          "program_coverage": 0.78369140625
+        }
+      ],
+      "seconds": 3.6445586681365967
+    }
+  ],
+  "strict_state_dict": true,
+  "precision": "FP32",
+  "decoder": "one-step original conditional mean/dispersion, bitwise parity certified",
+  "source_prompt_holdout": true,
+  "pretraining_overlap_audited": false
+}
