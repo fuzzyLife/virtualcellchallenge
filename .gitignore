@@ -426,3 +426,28 @@ __marimo__/
 # V20 regenerable production sampling and per-prompt provenance.
 /experiments/v20_stack_transfer/analysis/prediction_control_rows.csv
 /experiments/v20_stack_transfer/analysis/production_inputs/sources/
+
+# V22 verified raw CD4 data and regenerable factor/count arrays
+/reference/v22_cd4/
+/experiments/v22_state_response/**/*.npz
+/experiments/v22_state_response/analysis/*_cache/
+/experiments/v22_state_response/analysis/cd4_selected/cells.csv
+/experiments/v22_state_response/analysis/prediction_control_rows.csv
+/experiments/v22_state_response/*.log
+
+/experiments/v22_state_response/analysis/cd4_D1_selected/cells.csv
+
+/experiments/v23_mean_preserving/**/*.npz
+/experiments/v23_mean_preserving/analysis/*_cache/
+/experiments/v23_mean_preserving/analysis/prediction_control_rows.csv
+/experiments/v23_mean_preserving/*.log
+
+/experiments/v23_mean_preserving/analysis/parallel/
+
+/reference/v24_cd4/
+/experiments/v24_cd4_response/**/*.npz
+/experiments/v24_cd4_response/analysis/*_cache/
+/experiments/v24_cd4_response/analysis/parallel/
+/experiments/v24_cd4_response/analysis/holdout/cells.csv
+/experiments/v24_cd4_response/analysis/prediction_control_rows.csv
+/experiments/v24_cd4_response/*.log

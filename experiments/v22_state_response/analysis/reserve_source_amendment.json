@@ -1,0 +1,10 @@
+{
+  "reason": "D1 Rest has only two competition targets with >=400 cells; metadata-only probe finds D2 Rest15. Choose D2 Rest with the same alphabetical/count rule. Explicitly use lane_id for matched source batches. No reserve treatment metric opened; frozen model, scorer, development and release criteria unchanged.",
+  "original_plan_sha256": "1782c3268014dd8ed272ef96950b00975667179498af8aec1cee1e5fa7ec7eb4",
+  "power_evidence_sha256": "627cb133332bf329f18e4784486769661ef6df8b0dcc4417571831e458746dd9",
+  "d2_extractor_sha256": "ef5e6e3972ba3d914d6ed407b542569bde27bab69442e2275325a83b2c5c83fa",
+  "d2_downloader_sha256": "6a89eb1d893e38d8ae3e416998364a03b0b960110bbe605e9eaad17f5ade93ea",
+  "initial_D1_archive": "analysis/cd4_D1_selected",
+  "source": "Marson2025 D2 Rest, same Marson study family",
+  "treatment_metrics_opened": 0
+}

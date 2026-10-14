@@ -1,0 +1,53 @@
+{
+  "candidate": "v16",
+  "new_candidate_passes": 0,
+  "checks": {
+    "pds": 1,
+    "fidelity": 1,
+    "reach": 1,
+    "jaccard": 1,
+    "nmae": 0,
+    "expression": 1,
+    "three_metrics_improve": 1,
+    "DE_metric_improves": 1,
+    "shape_improves": 1,
+    "family_fidelity": 1,
+    "family_reach": 1,
+    "beats_scalar": 1,
+    "beats_independent": 1,
+    "beats_shuffled_state": 1,
+    "exact_null_identity": 1
+  },
+  "changes": {
+    "pds": -0.005555555555555573,
+    "fidelity": 0.0031950227160068936,
+    "reach": 0.003932117844962446,
+    "jaccard": 0.0002576578190374161,
+    "nmae": 0.014778784046283328,
+    "shape_wasserstein": -0.007934500606656417,
+    "relative_expression_worsening": -0.00010031468882445599
+  },
+  "improvements": {
+    "pds": 0,
+    "fidelity": 1,
+    "reach": 1,
+    "jaccard": 1,
+    "nmae": 0,
+    "shape_wasserstein": 1,
+    "expression": 1
+  },
+  "complete_primary_metrics": 0,
+  "missing_nmae_panels": [
+    {
+      "family": "HCT116",
+      "seed": 2026101411
+    },
+    {
+      "family": "HCT116",
+      "seed": 2026101427
+    }
+  ],
+  "panels_sha256": "672f81972c7e99fcfd8e2ccfce204547132a1c07c8a05651b7232971d9f78be3",
+  "plan_sha256": "1782c3268014dd8ed272ef96950b00975667179498af8aec1cee1e5fa7ec7eb4",
+  "scope": "New bounded factor pilot, not complete causal identification or predicted anchored competition score."
+}

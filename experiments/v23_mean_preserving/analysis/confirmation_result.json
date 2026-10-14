@@ -1,0 +1,44 @@
+{
+  "candidate": "v16",
+  "new_candidate_passes": 0,
+  "checks": {
+    "pds": 1,
+    "fidelity": 0,
+    "reach": 1,
+    "jaccard": 0,
+    "nmae": 1,
+    "expression": 1,
+    "three_metrics_improve": 0,
+    "DE_metric_improves": 1,
+    "shape_improves": 1,
+    "family_fidelity": 1,
+    "family_reach": 1,
+    "beats_scalar_preserved": 1,
+    "beats_independent_preserved": 1,
+    "beats_shuffled_preserved": 1,
+    "exact_null_identity": 1
+  },
+  "changes": {
+    "pds": 0.0,
+    "fidelity": -0.02047916664741173,
+    "reach": 0.00011215791834899997,
+    "jaccard": -0.00557760544981889,
+    "nmae": -7.656034768377395e-07,
+    "shape_wasserstein": -0.024438128812905136,
+    "relative_expression_worsening": 0.0
+  },
+  "improvements": {
+    "pds": 0,
+    "fidelity": 0,
+    "reach": 1,
+    "jaccard": 0,
+    "nmae": 1,
+    "shape_wasserstein": 1,
+    "expression": 0
+  },
+  "complete_primary_metrics": 1,
+  "missing_nmae_panels": [],
+  "panels_sha256": "887a00c5f47b675600d5499327b4a432e53c7e5b8a2ffd36c40ad1f2b0ee193c",
+  "plan_sha256": "3df04505c1c52b77b4ceb9d2fac6e0fe97b095be3ac3a72682ebefcc49e1c52b",
+  "scope": "New bounded factor pilot, not complete causal identification or predicted anchored competition score."
+}

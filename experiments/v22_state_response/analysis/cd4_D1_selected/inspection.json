@@ -1,0 +1,121 @@
+{
+  "obs_columns": [
+    "lane_id",
+    "n_genes_by_counts",
+    "total_counts",
+    "pct_counts_mt",
+    "top_guide_UMI_counts",
+    "guide_id",
+    "perturbed_gene_name",
+    "perturbed_gene_id",
+    "guide_type",
+    "PuroR",
+    "guide_group",
+    "low_quality",
+    "perturbation"
+  ],
+  "var_columns": [
+    "ensembl_id",
+    "gene_ids",
+    "feature_types",
+    "genome",
+    "mt",
+    "highly_variable",
+    "highly_variable_rank",
+    "means",
+    "variances",
+    "variances_norm"
+  ],
+  "shape": [
+    335298,
+    18130
+  ],
+  "obs_head": [
+    {
+      "lane_id": "CD4i_R1L08",
+      "n_genes_by_counts": "5070",
+      "total_counts": "16130.0",
+      "pct_counts_mt": "0.4401736",
+      "top_guide_UMI_counts": "10.0",
+      "guide_id": "ATXN7L3-1",
+      "perturbed_gene_name": "ATXN7L3",
+      "perturbed_gene_id": "ENSG00000087152",
+      "guide_type": "targeting",
+      "PuroR": "1.0153025",
+      "guide_group": "targeting single sgRNA",
+      "low_quality": "False",
+      "perturbation": "ATXN7L3"
+    },
+    {
+      "lane_id": "CD4i_R1L08",
+      "n_genes_by_counts": "3552",
+      "total_counts": "9031.0",
+      "pct_counts_mt": "0.3100432",
+      "top_guide_UMI_counts": "28.0",
+      "guide_id": "LRP6-1",
+      "perturbed_gene_name": "LRP6",
+      "perturbed_gene_id": "ENSG00000070018",
+      "guide_type": "targeting",
+      "PuroR": "1.9861846",
+      "guide_group": "targeting single sgRNA",
+      "low_quality": "False",
+      "perturbation": "LRP6"
+    },
+    {
+      "lane_id": "CD4i_R1L08",
+      "n_genes_by_counts": "2580",
+      "total_counts": "4308.0",
+      "pct_counts_mt": "0.23212628",
+      "top_guide_UMI_counts": "51.0",
+      "guide_id": "ZNF200-1",
+      "perturbed_gene_name": "ZNF200",
+      "perturbed_gene_id": "ENSG00000010539",
+      "guide_type": "targeting",
+      "PuroR": "1.7821968",
+      "guide_group": "targeting single sgRNA",
+      "low_quality": "False",
+      "perturbation": "ZNF200"
+    }
+  ],
+  "var_head": [
+    {
+      "ensembl_id": "ENSG00000000003",
+      "gene_ids": "ENSG00000000003",
+      "feature_types": "Gene Expression",
+      "genome": "GRCh38",
+      "mt": "False",
+      "highly_variable": "False",
+      "highly_variable_rank": null,
+      "means": "9.797470559205751e-05",
+      "variances": "0.00011489914525898258",
+      "variances_norm": "0.9912551118351542"
+    },
+    {
+      "ensembl_id": "ENSG00000000005",
+      "gene_ids": "ENSG00000000005",
+      "feature_types": "Gene Expression",
+      "genome": "GRCh38",
+      "mt": "False",
+      "highly_variable": "False",
+      "highly_variable_rank": null,
+      "means": "1.2095642665686113e-06",
+      "variances": "1.2095642665686113e-06",
+      "variances_norm": "1.0000024378624224"
+    },
+    {
+      "ensembl_id": "ENSG00000000419",
+      "gene_ids": "ENSG00000000419",
+      "feature_types": "Gene Expression",
+      "genome": "GRCh38",
+      "mt": "False",
+      "highly_variable": "False",
+      "highly_variable_rank": null,
+      "means": "1.4865351305845582",
+      "variances": "2.4139981942074713",
+      "variances_norm": "0.9163388493876319"
+    }
+  ],
+  "layers": [
+    null
+  ]
+}

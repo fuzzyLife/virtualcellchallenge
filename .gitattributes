@@ -159,3 +159,22 @@
 /review_post_v20_experiments.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /POST_V20_RETROSPECTIVE.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /analysis/post_v20_review/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Preserve V22 frozen scientific code and evidence bytes
+/*v22*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v22_state_response/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V22_STRATEGY.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V22_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V22_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v23*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v23_mean_preserving/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V23_STRATEGY.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V23_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V23_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v24*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v24_cd4_response/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V24_STRATEGY.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V24_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V24_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

@@ -1,0 +1,41 @@
+{
+  "plan_sha256": "3df04505c1c52b77b4ceb9d2fac6e0fe97b095be3ac3a72682ebefcc49e1c52b",
+  "scheduler_sha256": "f21cfed7cc49ec0eee38167930e6abd6e8206d0136beba6f8f840115e8b5f88f",
+  "frozen_runner_sha256": "2b85317101658b8c51539cbb81f767352692bc5ec785f1dd090cb75ccf61b237",
+  "tasks": [
+    [
+      "H1",
+      2026101411,
+      "development"
+    ],
+    [
+      "H1",
+      2026101427,
+      "development"
+    ],
+    [
+      "HCT116",
+      2026101411,
+      "development"
+    ],
+    [
+      "HCT116",
+      2026101427,
+      "development"
+    ],
+    [
+      "HEK293T",
+      2026101411,
+      "development"
+    ],
+    [
+      "HEK293T",
+      2026101427,
+      "development"
+    ]
+  ],
+  "processes": 6,
+  "BLAS_threads_per_process": 2,
+  "numerical_changes": 0,
+  "reason": "Python-heavy integer repair does not scale across threads; isolated full family/seed panels retain identical numerical code, cells, seeds, comparators and release rules. Initial threaded attempt produced no completed cases and was stopped; no scoring result informed this scheduling change."
+}
