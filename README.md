@@ -1,5 +1,16 @@
 # Virtual Cell Challenge 2026
 
+<!-- v25-cross-domain:begin -->
+
+## V25 cross-domain geometry tests (2026-10-14)
+
+Verified the supplied conceptual posters against primary mathematical literature and tested intervention-aligned response geometry: bounded force/Bures transport, split-control agreement and a Fisher-proxy trust region. All three finalists failed the frozen development criteria across44 public cases/396 generated populations. The independent family-exclusion,20 source-covariance recomputations,44 cache checks and15 full-axis count replays passed. V24 remains the best published submission at0.14299785521745675; no V25 package is released and the donor reserve remains unopened. The new donor download was stopped after rejection, with partial ranges retained; no complete-file MD5 or raw-row audit is claimed. Metadata also identifies low-power CRISPRa fibroblast/RPE1 files, which were not added as CRISPRi labels.
+
+Methods, literature, limits and commands: [V25_STRATEGY.md](V25_STRATEGY.md). Numeric results and evidence: [V25_RESULTS.md](V25_RESULTS.md). Artifact decision: [V25_SUBMISSION.md](V25_SUBMISSION.md). Root scripts and small evidence are versioned; prior numerical code and packages are preserved.
+
+<!-- v25-cross-domain:end -->
+
+
 <!-- v24-publication:begin -->
 
 ## V24 published result

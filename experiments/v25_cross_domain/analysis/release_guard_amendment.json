@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-10-14T19:08:10.120651+00:00",
+  "plan_sha256": "883d51adb203f90e30a2473b728e986ba5961a1668394eb81efbe47da9b5943b",
+  "outcome_tables_opened": false,
+  "amendment": "Additional conservative diagnostic only, no numeric model/cell/seed/old-threshold changes. If force50 wins, require two DE wins versus separately emitted alpha0.5 source-program and amplitude controls. If bures25 wins, require two DE wins versus a Bures map with the same query-coordinate permutation. Existing force-shuffle is not a mechanism-matched Bures shuffle. Other frozen guards remain mandatory. No fallback/re-selection after failure.",
+  "reason": "Close known alpha/operator mismatch in diagnostic controls before inspecting development results. Guard can only reject additional candidates."
+}

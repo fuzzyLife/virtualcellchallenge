@@ -1,0 +1,18 @@
+{
+  "passed": 1,
+  "model_count": 5,
+  "independently_recomputed_source_covariances": 20,
+  "frozen_cases": 44,
+  "count_populations": 396,
+  "cache_hashes_checked": 44,
+  "full_axis_count_replays": 15,
+  "no_effect_emitter_V16_identity_cases": 5,
+  "whole_held_family_excluded_from_means_and_geometry": 1,
+  "transitive_assessor_dependency_verified_against_V24_plan": 1,
+  "plan_sha256": "883d51adb203f90e30a2473b728e986ba5961a1668394eb81efbe47da9b5943b",
+  "selection_sha256": "39b028dbaae529b328cabc106a42fad391e9a6d19ba84476c05bfb72846a62a0",
+  "auditor_sha256": "7028345c35bd38c619835fed3dbd6df943ad567b99a385ab96115c2657ac66bb",
+  "limitations": "Covariance recomputation verifies implementation, not causal identification. Source programs use linearized means. Null emitter identity does not establish null-DE calibration. Development reuses public biology, CD4 D1 has200 actual cells, HCT116 NMAE missing.",
+  "executed_auditor_sha256": "1f167919f935064381173356113ba7d55533b3f5bdb8b738efbc778d4da68d44",
+  "auditor_formatting_cleanup_ast_identical": true
+}

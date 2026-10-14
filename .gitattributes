@@ -179,3 +179,7 @@
 /V24_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V24_SUBMISSION.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V24_LEADERBOARD_RESULTS.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v25*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/V25*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/experiments/v25_cross_domain/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

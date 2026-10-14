@@ -1,0 +1,148 @@
+{
+  "candidate": "v24",
+  "new_candidate_passes": 0,
+  "comparisons": [
+    {
+      "candidate": "force25",
+      "pass": 0,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 0,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 0,
+        "beats_alpha_matched_target_shuffle": 1,
+        "beats_amplitude25": 1,
+        "beats_source_program25": 1
+      },
+      "changes": {
+        "pds": -0.01000000000000002,
+        "fidelity": 0.0020077441267170814,
+        "reach": -0.013474755884487766,
+        "jaccard": -7.606714558569755e-05,
+        "nmae": 0.005067248829956822,
+        "relative_expression_worsening": -0.0004143437319111473
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 1,
+        "reach": 0,
+        "jaccard": 0,
+        "nmae": 0,
+        "expression": 1
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "force50",
+      "pass": 0,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 1,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 0,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 1,
+        "beats_alpha_matched_target_shuffle": 1,
+        "beats_amplitude25": 0,
+        "beats_source_program25": 0
+      },
+      "changes": {
+        "pds": -0.006666666666666643,
+        "fidelity": -0.002350868438088782,
+        "reach": 0.020271548509551915,
+        "jaccard": -0.0003983434745313232,
+        "nmae": 0.004628607488708261,
+        "relative_expression_worsening": 0.0005007312912276195
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 0,
+        "reach": 1,
+        "jaccard": 0,
+        "nmae": 0,
+        "expression": 0
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    },
+    {
+      "candidate": "bures25",
+      "pass": 0,
+      "checks": {
+        "pds": 1,
+        "fidelity": 1,
+        "reach": 0,
+        "jaccard": 1,
+        "expression": 1,
+        "nmae": 1,
+        "three_metrics_improve": 0,
+        "DE_metric_improves": 1,
+        "family_fidelity": 1,
+        "family_reach": 0,
+        "beats_alpha_matched_target_shuffle": 0,
+        "beats_amplitude25": 0,
+        "beats_source_program25": 0
+      },
+      "changes": {
+        "pds": 0.0,
+        "fidelity": -0.0009561727203547532,
+        "reach": -0.03629825534147111,
+        "jaccard": 1.6938570470878784e-05,
+        "nmae": 0.00246414906820952,
+        "relative_expression_worsening": 0.0005750984285023537
+      },
+      "improvements": {
+        "pds": 0,
+        "fidelity": 0,
+        "reach": 0,
+        "jaccard": 1,
+        "nmae": 0,
+        "expression": 0
+      },
+      "complete_primary_metrics": 0,
+      "missing_nmae_panels": [
+        {
+          "family": "HCT116",
+          "seed": 2026101411
+        },
+        {
+          "family": "HCT116",
+          "seed": 2026101427
+        }
+      ]
+    }
+  ],
+  "metric_improvement_ranks": {},
+  "plan_sha256": "883d51adb203f90e30a2473b728e986ba5961a1668394eb81efbe47da9b5943b",
+  "panels_sha256": "dea3db4119cbdd1148a0177a91ebce1867289f4f12fa79fe7b7f70158b47e292",
+  "scope": "Repeated public biology; new donor reserve fully excludes CD4 source family. Geometry is not causal identification or hidden anchored-score prediction."
+}
