@@ -1,0 +1,24 @@
+{
+  "review_date": "2026-10-15",
+  "source": "User-supplied leaderboard screenshot, manually transcribed; capture time unspecified",
+  "source_file": "codex-clipboard-bb4acb72-d959-474a-96fb-c616574060fa.png",
+  "source_sha256": "b2e907794f7ed5e871c8f9e065dec433bb55b4bfdada14100eedba7c17c5965d",
+  "competitor_anchor_set": null,
+  "teams_count": 1537,
+  "own_displayed_rank": 524,
+  "own_displayed_overall": 0.143,
+  "teams": [
+    {"rank": 1, "team": "Illumina AI", "model": "iCell", "overall": 0.4610,
+     "submissions": 83,
+     "scaled_metrics": {"pds": 0.874, "mse": 0.787, "nmae": 0.419, "fid": 0.153, "reach": 0.444, "jac": 0.088},
+     "raw_metrics": {"pds": 0.894, "mse": 0.240, "nmae": 0.748, "fid": 0.557, "reach": 0.473, "jac": 0.063}},
+    {"rank": 2, "team": "X-team", "model": "X-89", "overall": 0.3353,
+     "submissions": 45,
+     "scaled_metrics": {"pds": 0.776, "mse": 0.458, "nmae": 0.283, "fid": 0.045, "reach": 0.362, "jac": 0.088},
+     "raw_metrics": {"pds": 0.850, "mse": 0.552, "nmae": 0.828, "fid": 0.526, "reach": 0.401, "jac": 0.064}},
+    {"rank": 3, "team": "cqawesome", "model": "m0983n", "overall": 0.3304,
+     "submissions": 108,
+     "scaled_metrics": {"pds": 0.830, "mse": 0.455, "nmae": 0.288, "fid": 0.089, "reach": 0.295, "jac": 0.026},
+     "raw_metrics": {"pds": 0.874, "mse": 0.556, "nmae": 0.826, "fid": 0.539, "reach": 0.340, "jac": 0.040}}
+  ]
+}

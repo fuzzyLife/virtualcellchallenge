@@ -1,0 +1,117 @@
+{
+  "review_date": "2026-10-15",
+  "own_entry": "81Y2yX7utdAau9rr3jCj",
+  "own_overall": 0.14299785521745675,
+  "own_scaled_metrics": {
+    "pds": 0.644246366710111,
+    "mse": 0.04756840736075477,
+    "nmae": 0.08227057284911048,
+    "fid": -0.01579183745269364,
+    "reach": 0.08483984010194835,
+    "jac": 0.01485378173550954
+  },
+  "own_raw_metrics": {
+    "pds_cosine": 0.7918654775176515,
+    "expr_mse_unbiased_capped_norm": 0.9604148805409577,
+    "de_wilcoxon_lfc_nmae": 0.9506858257757945,
+    "de_wilcoxon_direction_fidelity_yield_raw": 0.5080495898467484,
+    "de_wilcoxon_direction_reach_raw": 0.1541418280441217,
+    "de_wilcoxon_sig_jaccard": 0.035753233154534866
+  },
+  "own_panel": "vcc2026-val-1",
+  "own_anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "comparison_scope": "User screenshot; competitor anchors not visible, not API verified. Arithmetic is descriptive, not causal attribution or uncertainty.",
+  "input_sha256": {
+    "snapshot": "22614eeaf28f6776572f70c0200d416b2c7471380a786023271c8754112add31",
+    "v24_receipt": "d361e6783f7d3888afbdc3ea9f7475c401473b423f2743c00b91fc921263afaa",
+    "sources_manifest": "011efc24037b120e9bf5743ad29c28b1b172891f4d7f01a239f4ebb7cef42c28"
+  },
+  "local_evidence_sha256": {
+    "train_v7_transition.py": "856c83d05a28d2e3bb8a098a07ca42f1c9b4eb1f2724cc60e5f3f42c2fd8a248",
+    "train_v26_decoder.py": "35edfdd702e1f4a0d27929d4e54e163aa7bbdff51644aea75fd9d8c307de2e8b",
+    "v20_methods.py": "0c225d8effd1859865002ec6de4ab36d74398b39fe302d4c37125090f5006454",
+    "V14_RESULTS.md": "93d89944127fd064332362d918a1459c58df1829be7336e719a2e1f1c0c64867",
+    "V18_RESULTS.md": "186f080fc1ce0e4a9f4b6ebbb3f288015a6414a9ec46c18b13b4875e40e466b1",
+    "V27_RESULTS.md": "fc6e7ea008fb248b36d0cfc5e9f8ad621db726864ae8a701b6d2dc508ec01fce",
+    "V29_RESULTS.md": "b2548a0aeb4785a098714fc205548d7e4823dae149065618ecb358da46f97b81",
+    "POST_V20_RETROSPECTIVE.md": "23d40b9ec16d887ae1564cb3824d073be2b4ba407ea4458f423fa88d00e5f3fd",
+    "PROJECT_RETROSPECTIVE.md": "0c004d95f3d7189d993e21841ef52a415379939f4f16475d5688f774d4041611"
+  },
+  "comparisons": [
+    {
+      "team": "Illumina AI",
+      "model": "iCell",
+      "reported_overall": 0.461,
+      "rounded_component_mean": 0.4608333333333334,
+      "reported_overall_gap": 0.3180021447825433,
+      "rounded_component_overall_gap": 0.3178354781158766,
+      "scaled_metric_gaps": {
+        "pds": 0.22975363328988896,
+        "mse": 0.7394315926392453,
+        "nmae": 0.3367294271508895,
+        "fid": 0.16879183745269363,
+        "reach": 0.35916015989805167,
+        "jac": 0.07314621826449046
+      },
+      "arithmetic_share_of_rounded_gap": {
+        "pds": 0.12047828153728289,
+        "mse": 0.3877433680587325,
+        "nmae": 0.17657428152609853,
+        "fid": 0.08851111611437508,
+        "reach": 0.1883365161262818,
+        "jac": 0.03835643663722923
+      },
+      "expression_plus_lfc_share": 0.564317649584831
+    },
+    {
+      "team": "X-team",
+      "model": "X-89",
+      "reported_overall": 0.3353,
+      "rounded_component_mean": 0.3353333333333333,
+      "reported_overall_gap": 0.19230214478254323,
+      "rounded_component_overall_gap": 0.1923354781158766,
+      "scaled_metric_gaps": {
+        "pds": 0.13175363328988898,
+        "mse": 0.4104315926392452,
+        "nmae": 0.20072942715088948,
+        "fid": 0.060791837452693634,
+        "reach": 0.27716015989805165,
+        "jac": 0.07314621826449046
+      },
+      "arithmetic_share_of_rounded_gap": {
+        "pds": 0.11416998619681874,
+        "mse": 0.35565599290351413,
+        "nmae": 0.17394037154701447,
+        "fid": 0.05267864778789304,
+        "reach": 0.24017077054904265,
+        "jac": 0.06338423101571686
+      },
+      "expression_plus_lfc_share": 0.5295963644505286
+    },
+    {
+      "team": "cqawesome",
+      "model": "m0983n",
+      "reported_overall": 0.3304,
+      "rounded_component_mean": 0.33049999999999996,
+      "reported_overall_gap": 0.18740214478254327,
+      "rounded_component_overall_gap": 0.18750214478254323,
+      "scaled_metric_gaps": {
+        "pds": 0.18575363328988892,
+        "mse": 0.4074315926392452,
+        "nmae": 0.2057294271508895,
+        "fid": 0.10479183745269363,
+        "reach": 0.21016015989805165,
+        "jac": 0.011146218264490458
+      },
+      "arithmetic_share_of_rounded_gap": {
+        "pds": 0.1651124520071649,
+        "mse": 0.36215727302014467,
+        "nmae": 0.18286851010823144,
+        "fid": 0.09314723446161696,
+        "reach": 0.18680689416627402,
+        "jac": 0.00990763623656799
+      },
+      "expression_plus_lfc_share": 0.5450257831283761
+    }
+  ]
+}

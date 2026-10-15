@@ -1,5 +1,16 @@
 # Virtual Cell Challenge 2026
 
+<!-- post-v29-research:begin -->
+
+## Public-method and leaderboard review after V29 (2026-10-15)
+
+Compared the supplied leaderboard screenshot with the verified V24 receipt and inspected current public 2026 repositories. The largest gaps include expression and fold-change accuracy; no disclosed recipe was verified for the screenshot's current leading entries. The next prioritized tests are a full-public-panel STRING-bilinear mean expert and guide/assay-aware source-effect estimation. Conditional population transport and full transition fine-tuning remain larger untrained alternatives. Existing neural mean heads and distribution/ensemble failures are explicitly distinguished from these proposals.
+
+[Research, evidence limits and proposed tests](POST_V29_RESEARCH.md), [reproducible metric comparison](analysis/post_v29_research/metric_gaps.md), [root audit script](review_post_v29_leaderboard.py). No new model fit, reserve access, package or upload; V24 remains best recorded at0.14299785521745675.
+
+<!-- post-v29-research:end -->
+
+
 <!-- v29-global-transport:begin -->
 
 ## V29 pair-aware global count transport (2026-10-15)
