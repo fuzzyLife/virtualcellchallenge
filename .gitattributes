@@ -187,3 +187,15 @@
 /*v26*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V26*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /experiments/v26_count_decoder/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v27*.py -text
+/V27*.md -text
+/experiments/v27_control_anchored/analysis/** -text
+
+/*v28*.py -text
+/V28*.md -text
+/experiments/v28_global_transport/analysis/** -text
+
+/*v29*.py -text
+/V29*.md -text
+/experiments/v29_pairwise_transport/analysis/** -text

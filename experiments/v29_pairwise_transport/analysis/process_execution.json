@@ -1,0 +1,8 @@
+{
+  "adapter_sha256": "c9b4ee37d887bc072122a4cc12f74ab615c775eb1a7c37e7ad00471e9d32fc39",
+  "plan_sha256": "7f8d9e478e3afc35820529efad5eee188fa73b716426567a1c3af199903d6882",
+  "frozen_runner_sha256": "7d267ae029748c784c0955f1bfe66b43eb329ea1dc81c605086ae6e187647c96",
+  "workers": 4,
+  "BLAS_threads_per_worker": 2,
+  "change": "Independent case execution uses joblib loky processes instead of two Python threads. Frozen algorithms, seeds, population identities, numerical runtime, scoring and release rules unchanged; cached cases preserved. Full-axis audit replays use original emitter."
+}

@@ -1,5 +1,38 @@
 # Virtual Cell Challenge 2026
 
+<!-- v29-global-transport:begin -->
+
+## V29 pair-aware global count transport (2026-10-15)
+
+Separately frozen pair-aware solver follow-up to the V28 numerical mean-margin failure. Pair-aware global integer transport and budgeted CPM swaps retain V24 means without an extra measurement draw or depth-stratum repair. The sole eligible candidate failed prospective checks; no package is released and the donor reserve remains unopened. V24 stays best recorded at0.14299785521745675.
+
+[Strategy and commands](V29_STRATEGY.md), [measured results/limits](V29_RESULTS.md), [artifact decision](V29_SUBMISSION.md). Earlier numeric models and packages are preserved.
+
+<!-- v29-global-transport:end -->
+
+
+<!-- v28-global-transport:begin -->
+
+## V28 global-only count transport (2026-10-15)
+
+Separately frozen follow-up to the localized V27 depth-stratum defect. Global integer transport and bounded CPM swaps retain V24 means without an extra measurement draw or depth-stratum repair. The sole eligible candidate failed prospective checks; no package is released and the donor reserve remains unopened. V24 stays best recorded at0.14299785521745675.
+
+[Strategy and commands](V28_STRATEGY.md), [measured results/limits](V28_RESULTS.md), [artifact decision](V28_SUBMISSION.md). Earlier numeric models and packages are preserved.
+
+<!-- v28-global-transport:end -->
+
+
+<!-- v27-control-anchored:begin -->
+
+## V27 control-anchored neural response tests (2026-10-15)
+
+Executed stage-by-stage sampling diagnostics and a matched panel-output neural fit, with nine paired population arms spanning fallback locking, query-control quantile calibration and relative neural response changes. The locked finalist failed prospective H1 checks; all proposed pilot arms received held-family treatment tests. No V27 package is released, the donor reserve remains unopened, and V24 stays best recorded at 0.14299785521745675.
+
+[Methods and reproduction](V27_STRATEGY.md), [measured results and limitations](V27_RESULTS.md), [artifact decision](V27_SUBMISSION.md). Root code and small evidence are versioned; regenerable large arrays stay outside Git.
+
+<!-- v27-control-anchored:end -->
+
+
 <!-- v26-count-decoder:begin -->
 
 ## V26 neural count-distribution test (2026-10-15)

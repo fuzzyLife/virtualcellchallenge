@@ -1,0 +1,38 @@
+{
+  "passed": 1,
+  "evaluations_checked": [
+    "null_H1",
+    "treatment_H1",
+    "null_HCT116",
+    "null_HEK293T",
+    "null_CD4"
+  ],
+  "paired_cases_checked": 23,
+  "full_axis_replays": [
+    {
+      "family": "H1",
+      "stage": "null",
+      "target": "Non-Targeting",
+      "count_sha256": "77661acfaeeb2dc67cfc085e31bd48f60e592a0a0d10ddfa7fc536633454d51a"
+    },
+    {
+      "family": "H1",
+      "stage": "treatment",
+      "target": "HDAC8",
+      "count_sha256": "863e073e551905bbec88645d2c73ec105208f3cd05b56a86d45f04cef8bb81e6"
+    },
+    {
+      "family": "HCT116",
+      "stage": "null",
+      "target": "Non-Targeting",
+      "count_sha256": "257053ff4d4d25741c803ad00a459d3d34babea7f277ce95a12d4fce9363ff4b"
+    }
+  ],
+  "null_checks_independently_recomputed": 1,
+  "H1_full_axis_compiled_Python_reference_parity": 1,
+  "immutable_H1_training_audit_sha256": "1ccc126660183635d256d6b4c4dc6770aef1b3c3613ddc43ee262d31d4a01719",
+  "pretrained_panel_sha256": "a3dda72276af0937b374a91f7ea24bd1bd21ba00fec96039a443d0722130c50c",
+  "plan_sha256": "7f8d9e478e3afc35820529efad5eee188fa73b716426567a1c3af199903d6882",
+  "auditor_sha256": "9a8be21b801eaa27c2b9c28a85f5be0d6707f9e319059c0b0485fc45f38e8687",
+  "scope": "Frozen inputs, disjoint actual/reference/template/fit NTCs, saved full-axis integer populations/margins, null criteria and replay counts. Source neural training reused unchanged from the128-row/662-fit-mean audited H1 exclusion. Executed scope only, not a claim of unseen-study or leaderboard improvement."
+}

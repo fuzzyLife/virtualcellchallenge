@@ -1,0 +1,7 @@
+{
+  "plan_sha256": "7f8d9e478e3afc35820529efad5eee188fa73b716426567a1c3af199903d6882",
+  "release_decision_sha256": "c3fb9f5e989acf5a32124802ddca66948c1ea61b308e509f3689e0d9f9365fa7",
+  "table_sha256": "3024cfce675114e624d5b0a14d9f0c2feebe248cb0703ce277c0c27c446868cd",
+  "diagnostician_sha256": "0d243019f98586c29d3d959c112f4925a4f7b9069cbd00c85a49a714405ee015",
+  "scope": "Retrospective descriptive/oracle analysis of already-scored H1 targets, not a trained model or prospective validation. Oracle slopes use actual treatment values, cannot be used in query inference and are not deployed. No guard changes, reserve opening or candidate reselection."
+}

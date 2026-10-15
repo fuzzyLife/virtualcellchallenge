@@ -1,0 +1,30 @@
+{
+  "passed": 1,
+  "evaluations_checked": [
+    "null_H1",
+    "null_HCT116",
+    "null_HEK293T",
+    "null_CD4"
+  ],
+  "paired_cases_checked": 15,
+  "full_axis_replays": [
+    {
+      "family": "H1",
+      "stage": "null",
+      "target": "Non-Targeting",
+      "count_sha256": "63b925be9b0adc2c3da0e0527a5f9cb824293282f2fb42760561d488aaf28775"
+    },
+    {
+      "family": "HCT116",
+      "stage": "null",
+      "target": "Non-Targeting",
+      "count_sha256": "d47b870642e4cfc057e5a05631a608881c622680378d681edf5043c5395efcde"
+    }
+  ],
+  "null_checks_independently_recomputed": 1,
+  "immutable_H1_training_audit_sha256": "1ccc126660183635d256d6b4c4dc6770aef1b3c3613ddc43ee262d31d4a01719",
+  "pretrained_panel_sha256": "a3dda72276af0937b374a91f7ea24bd1bd21ba00fec96039a443d0722130c50c",
+  "plan_sha256": "5cf61e0d9b0031316fa01178f0646a59247d84b398c562d066c5030f7559fa20",
+  "auditor_sha256": "b68af9208fc165afd73b88e3d1d7915b94ad848752de7997defd8ac3121c125d",
+  "scope": "Frozen inputs, disjoint actual/reference/template/fit NTCs, saved full-axis integer populations/margins, null criteria and replay counts. Source neural training reused unchanged from the128-row/662-fit-mean audited H1 exclusion. Executed scope only, not a claim of unseen-study or leaderboard improvement."
+}

@@ -1,0 +1,38 @@
+{
+  "recorded_utc": "2026-10-15T13:03:49.794961+00:00",
+  "executed_checks": {
+    "test_v27_controls.py": {
+      "tests": 4,
+      "passed": true,
+      "script_sha256": "eeadfe863f6da4afe0f2726765c34d96f2f09874288d1cef0f13d7126d99df2b"
+    },
+    "test_v27_processes.py": {
+      "tests": 1,
+      "passed": true,
+      "script_sha256": "2ff65c8472d96fb493e97aa7d636aa09470ee0d80c0a0ad436830bfb11372156"
+    },
+    "test_v28_transport.py": {
+      "tests": 2,
+      "passed": true,
+      "script_sha256": "78e278c7d674101dc833231dfba09916ad18b6ece609d0fd0826e7bc1b3da9c0"
+    },
+    "test_v29_repair.py": {
+      "tests": 3,
+      "passed": true,
+      "script_sha256": "e04edad581bf86be434e5bcbfecadbd1c903dd88b2044db44679deff545befdd"
+    },
+    "test_v29_backend.py": {
+      "tests": 1,
+      "fixtures": 32,
+      "passed": true,
+      "script_sha256": "94b5ea3e7d7c529a67c8556901171abb6ff52bef74e1490616e2952d20d321e2"
+    },
+    "test_v29_bridge.py": {
+      "tests": 1,
+      "passed": true,
+      "script_sha256": "289f074f8abbef5dcd8b3f691a16488d52ec5963920ae49480db1f8d71b3501b"
+    }
+  },
+  "full_axis_reference_parity_receipt": "compiled_probe.json",
+  "scope": "Recorded successful executed numerical checks; biological release checks are separate and failed. Source files and receipts are preserved."
+}

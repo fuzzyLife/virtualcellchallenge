@@ -1,0 +1,27 @@
+{
+  "released": 0,
+  "uploaded": 0,
+  "new_package_generated": 0,
+  "reserve_opened": 0,
+  "failed_stage": "treatment",
+  "failed_family": "H1",
+  "completed": {
+    "null": [
+      "H1",
+      "HCT116",
+      "HEK293T",
+      "CD4"
+    ],
+    "treatment": [
+      "H1"
+    ]
+  },
+  "failed_checks": [
+    "fidelity",
+    "jaccard",
+    "family_fidelity"
+  ],
+  "result_sha256": "93e4b0dd98b0333170912d47093732cad3a11b7522ac1221fc0b9e9d67c3de98",
+  "plan_sha256": "7f8d9e478e3afc35820529efad5eee188fa73b716426567a1c3af199903d6882",
+  "reason": "Sole global-transport finalist failed frozen checks; no diagnostic substitution or reserve opening. Preserve V24."
+}

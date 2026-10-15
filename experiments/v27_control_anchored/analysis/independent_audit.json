@@ -1,0 +1,29 @@
+{
+  "passed": 1,
+  "training_folds": [
+    "H1"
+  ],
+  "original_source_contexts_checked": 4,
+  "original_full_axis_rows_checked": 128,
+  "fit_only_group_means_recomputed": 662,
+  "paired_cases_checked": 11,
+  "full_axis_replays": [
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "count_sha256": "fa7a6a787e7f7c8c7ced0899582599429b988a86618c5ca3fa739cf3549f1861"
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "count_sha256": "f7d2b5ed18b111b08191f2c43e689ed669e1bf219671e4a57dbea442d4aff1e8"
+    }
+  ],
+  "V26_empirical_digest_reproduced": 1,
+  "H1_training_arrays_equal_immutable_V26": 1,
+  "plan_sha256": "a1e97800b9d6ca3778791c2612b457ac8ee3d29400d057ea17ad8d303c11212f",
+  "auditor_sha256": "f37abd7dabbae3e0d7783402aa21930aabcf59c8b6db9b0d91475248719b6ed2",
+  "scope": "Source exclusions/counts/fit-only means, paired cell identities, saved integer populations and two final-emitter replays. No independent new biological study or leaderboard improvement is asserted."
+}

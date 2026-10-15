@@ -1,0 +1,37 @@
+{
+  "passed": 0,
+  "checks": {
+    "pds": 1,
+    "fidelity": 0,
+    "reach": 1,
+    "jaccard": 0,
+    "nmae": 1,
+    "expression": 1,
+    "family_fidelity": 0,
+    "family_reach": 1,
+    "mean_contract": 1
+  },
+  "changes": {
+    "pds": 0.0,
+    "fidelity": -0.5447083641346332,
+    "reach": 0.11834517572097891,
+    "jaccard": -0.0326080125070668,
+    "nmae": 2.3932428258932603e-05,
+    "relative_expression_worsening": -0.07522843727498006,
+    "shape_wasserstein": -0.006153346341971733
+  },
+  "improvements": {
+    "pds": 0,
+    "fidelity": 0,
+    "reach": 1,
+    "jaccard": 0,
+    "nmae": 0,
+    "expression": 1
+  },
+  "complete_nmae_panels": 1,
+  "missing_nmae_panels": [],
+  "plan_sha256": "7f8d9e478e3afc35820529efad5eee188fa73b716426567a1c3af199903d6882",
+  "scores_sha256": "409775029d8297ed7c6edc28e7e6d9747d18c89fec9b87cf1fef79327567648c",
+  "panels_sha256": "8cb263dd46539778f909114c48ec5f45a2ef4d751279e2a08317ad96de940d25",
+  "assessor_sha256": "ae301f31f2b7b2dc643e4d2e5df4d65d2128fa6f1f3d4c9568c4a49018d5960a"
+}

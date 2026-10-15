@@ -467,3 +467,27 @@ __marimo__/
 /experiments/v26_count_decoder/*.h5ad*
 /experiments/v26_count_decoder/*.vcc
 /experiments/v26_count_decoder/*.log
+
+# V27 regenerable count models and paired population caches
+/experiments/v27_control_anchored/**/*.npz
+/experiments/v27_control_anchored/analysis/parallel/
+/experiments/v27_control_anchored/*.h5ad*
+/experiments/v27_control_anchored/*.vcc
+/experiments/v27_control_anchored/*.log
+/experiments/v27_control_anchored/analysis/worker_tmp/
+
+# V28 global-transport test arrays and caches
+/experiments/v28_global_transport/**/*.npz
+/experiments/v28_global_transport/analysis/parallel/
+/experiments/v28_global_transport/analysis/worker_tmp/
+/experiments/v28_global_transport/*.h5ad*
+/experiments/v28_global_transport/*.vcc
+/experiments/v28_global_transport/*.log
+
+# V29 pair-aware transport regenerable arrays
+/experiments/v29_pairwise_transport/**/*.npz
+/experiments/v29_pairwise_transport/analysis/parallel/
+/experiments/v29_pairwise_transport/analysis/worker_tmp/
+/experiments/v29_pairwise_transport/*.h5ad*
+/experiments/v29_pairwise_transport/*.vcc
+/experiments/v29_pairwise_transport/*.log

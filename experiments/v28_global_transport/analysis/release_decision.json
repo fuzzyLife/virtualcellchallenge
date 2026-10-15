@@ -1,0 +1,23 @@
+{
+  "released": 0,
+  "uploaded": 0,
+  "new_package_generated": 0,
+  "reserve_opened": 0,
+  "failed_stage": "null",
+  "failed_family": "CD4",
+  "completed": {
+    "null": [
+      "H1",
+      "HCT116",
+      "HEK293T",
+      "CD4"
+    ],
+    "treatment": []
+  },
+  "failed_checks": [
+    "mean_contract"
+  ],
+  "result_sha256": "839cbc9c118fe982d024c81d97166ce27532deebf5dc6b1a5da9af84efeed74a",
+  "plan_sha256": "5cf61e0d9b0031316fa01178f0646a59247d84b398c562d066c5030f7559fa20",
+  "reason": "Sole global-transport finalist failed frozen checks; no diagnostic substitution or reserve opening. Preserve V24."
+}

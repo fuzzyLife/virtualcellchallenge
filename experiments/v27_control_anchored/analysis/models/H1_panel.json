@@ -1,0 +1,97 @@
+{
+  "sha256": "a3dda72276af0937b374a91f7ea24bd1bd21ba00fec96039a443d0722130c50c",
+  "plan_sha256": "a1e97800b9d6ca3778791c2612b457ac8ee3d29400d057ea17ad8d303c11212f",
+  "training_record_sha256": "0a78f1015b12c08a8b3db92392b6eb6487559bf9d4d3a2af3add8775211d0a8d",
+  "training_arrays_sha256": "e70e6108fc720ae6331ff3846ead327ce11484ed979de3356d5468f0245302a0",
+  "excluded_family": "H1",
+  "training_contexts": [
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "kind": "panel",
+  "selection": "Minimum held-cell validation ELBO among12 fixed epochs; no treatment scorer outcomes used",
+  "history": [
+    {
+      "epoch": 1,
+      "training_elbo": 8.384552514459205,
+      "validation_elbo": 8.400388285798847,
+      "seconds": 20.480696439743042
+    },
+    {
+      "epoch": 2,
+      "training_elbo": 8.379694127661036,
+      "validation_elbo": 8.398770908139786,
+      "seconds": 19.78935432434082
+    },
+    {
+      "epoch": 3,
+      "training_elbo": 8.37842795604796,
+      "validation_elbo": 8.398132378200316,
+      "seconds": 19.81079936027527
+    },
+    {
+      "epoch": 4,
+      "training_elbo": 8.377673269256832,
+      "validation_elbo": 8.397693652027058,
+      "seconds": 19.767557621002197
+    },
+    {
+      "epoch": 5,
+      "training_elbo": 8.377012932394432,
+      "validation_elbo": 8.397411346435547,
+      "seconds": 19.870255947113037
+    },
+    {
+      "epoch": 6,
+      "training_elbo": 8.376526353866096,
+      "validation_elbo": 8.397266405933308,
+      "seconds": 19.577951669692993
+    },
+    {
+      "epoch": 7,
+      "training_elbo": 8.376134414372482,
+      "validation_elbo": 8.39707113661856,
+      "seconds": 19.98630714416504
+    },
+    {
+      "epoch": 8,
+      "training_elbo": 8.375612685060876,
+      "validation_elbo": 8.396975229371268,
+      "seconds": 20.082135438919067
+    },
+    {
+      "epoch": 9,
+      "training_elbo": 8.375386286908247,
+      "validation_elbo": 8.396824584816986,
+      "seconds": 19.93554377555847
+    },
+    {
+      "epoch": 10,
+      "training_elbo": 8.375195246043168,
+      "validation_elbo": 8.396794643042222,
+      "seconds": 19.77678394317627
+    },
+    {
+      "epoch": 11,
+      "training_elbo": 8.374941260795893,
+      "validation_elbo": 8.39681976246384,
+      "seconds": 20.180689334869385
+    },
+    {
+      "epoch": 12,
+      "training_elbo": 8.374765867323386,
+      "validation_elbo": 8.396646463646078,
+      "seconds": 19.978582859039307
+    }
+  ],
+  "runtime": {
+    "torch": "2.10.0+cu126",
+    "device": "cuda",
+    "cuda": "12.6",
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "deterministic_algorithms": 1
+  },
+  "network": "V26-matched architecture and selection; panel variant permits measured panel output residuals except the directly targeted coordinate per example. Stable/posterior/response features remain nonpanel."
+}
