@@ -491,3 +491,12 @@ __marimo__/
 /experiments/v29_pairwise_transport/*.h5ad*
 /experiments/v29_pairwise_transport/*.vcc
 /experiments/v29_pairwise_transport/*.log
+
+# V30 structured-response regenerable source matrices and models
+/reference/v30_structured_response/
+/experiments/v30_structured_response/**/*.npz
+/experiments/v30_structured_response/*.log
+
+/reference/v31_guide_response/
+/experiments/v31_guide_response/**/*.npz
+/experiments/v31_guide_response/*.log

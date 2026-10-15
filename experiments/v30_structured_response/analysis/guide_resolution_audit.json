@@ -1,0 +1,132 @@
+{
+  "records": [
+    {
+      "family": "H1",
+      "metadata_sha256": "02dadfcf89adac67e74d17582ab8cf7bd6c7576ef93d4a5ca321a224a7b6dc71",
+      "metadata_columns": [
+        "target_gene",
+        "guide_id",
+        "batch",
+        "source_row",
+        "source_cell_id",
+        "public_split"
+      ],
+      "target_column": "target_gene",
+      "guide_column": "guide_id",
+      "targets": 25,
+      "targets_multiple_guide_labels": 1,
+      "max_labels_per_target": 2,
+      "composite_label_fraction": 1.0,
+      "interpretation": "Composite construct label cannot identify separate effects of co-delivered guides."
+    },
+    {
+      "family": "HCT116",
+      "metadata_sha256": "a4ba8d2311833f9a48e08bbfd8156bb80c1288706e62751e0913e538c53f4f0c",
+      "metadata_columns": [
+        "sample",
+        "guide_target",
+        "gene_target",
+        "total_counts",
+        "n_genes_by_counts",
+        "pass_guide_filter",
+        "cell_id",
+        "cell_integer_id",
+        "cell_start_index",
+        "partition",
+        "source_cell_start_index"
+      ],
+      "target_column": "gene_target",
+      "guide_column": "guide_target",
+      "targets": 300,
+      "targets_multiple_guide_labels": 10,
+      "max_labels_per_target": 2,
+      "composite_label_fraction": 1.0,
+      "interpretation": "Composite construct label cannot identify separate effects of co-delivered guides."
+    },
+    {
+      "family": "HEK293T",
+      "metadata_sha256": "b6febac28e4a1044d3b6a75521be96a84e6c320f3ba0e595e0570da335a000e8",
+      "metadata_columns": [
+        "sample",
+        "guide_target",
+        "gene_target",
+        "total_counts",
+        "n_genes_by_counts",
+        "pass_guide_filter",
+        "cell_id",
+        "cell_integer_id",
+        "cell_start_index",
+        "partition",
+        "source_cell_start_index"
+      ],
+      "target_column": "gene_target",
+      "guide_column": "guide_target",
+      "targets": 300,
+      "targets_multiple_guide_labels": 10,
+      "max_labels_per_target": 2,
+      "composite_label_fraction": 1.0,
+      "interpretation": "Composite construct label cannot identify separate effects of co-delivered guides."
+    },
+    {
+      "family": "CD4_Rest_D2",
+      "metadata_sha256": "d87cc661acb1a8dfaeeb94fe383b0912af9b34e1229e35b50cb7b7edac6de09f",
+      "metadata_columns": [
+        "lane_id",
+        "n_genes_by_counts",
+        "total_counts",
+        "pct_counts_mt",
+        "top_guide_UMI_counts",
+        "guide_id",
+        "perturbed_gene_name",
+        "perturbed_gene_id",
+        "guide_type",
+        "PuroR",
+        "guide_group",
+        "low_quality",
+        "perturbation",
+        "gene_target",
+        "cell_id",
+        "sample",
+        "source_row"
+      ],
+      "target_column": "gene_target",
+      "guide_column": "guide_id",
+      "targets": 34,
+      "targets_multiple_guide_labels": 32,
+      "max_labels_per_target": 2,
+      "composite_label_fraction": 0.0,
+      "interpretation": "Separately resolved guide labels available; shared donors/lanes are not independent culture replicates."
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "metadata_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+      "metadata_columns": [
+        "lane_id",
+        "n_genes_by_counts",
+        "total_counts",
+        "pct_counts_mt",
+        "top_guide_UMI_counts",
+        "guide_id",
+        "perturbed_gene_name",
+        "perturbed_gene_id",
+        "guide_type",
+        "PuroR",
+        "guide_group",
+        "low_quality",
+        "perturbation",
+        "gene_target",
+        "cell_id",
+        "sample",
+        "source_row"
+      ],
+      "target_column": "gene_target",
+      "guide_column": "guide_id",
+      "targets": 34,
+      "targets_multiple_guide_labels": 32,
+      "max_labels_per_target": 2,
+      "composite_label_fraction": 0.0,
+      "interpretation": "Separately resolved guide labels available; shared donors/lanes are not independent culture replicates."
+    }
+  ],
+  "construct_model_scope": "The V30 hierarchical variant uses original Replogle pseudobulk promoter/transcript constructs with measured fold_expr, not invented individual guide identities."
+}

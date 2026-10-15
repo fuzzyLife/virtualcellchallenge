@@ -1,5 +1,18 @@
 # Virtual Cell Challenge 2026
 
+<!-- v30-v31-response-tests:begin -->
+
+## V30/V31 new response-model tests (2026-10-15)
+
+Implemented and tested full-target STRING-bilinear mean learning, construct-aware source extraction, a separate unseen-target stress test, and a guide-resolved CD4 teacher. Neither release candidate passes its frozen mean requirements. V24 remains best published at 0.142997855; no generated-count experiment, fresh donor reserve, new package or upload followed these rejections.
+
+V30 reduces cross-context squared fold-change error by 0.67%, while randomized embeddings reduce it by 0.71%. It does learn held-out targets within a measured source (1.66% K562 and 7.90% RPE1 error reductions against a source-mean baseline). V31 reduces held-donor fold-change error by 1.14%, but pooled and guide-shuffled controls do slightly better. These are different public mean-only tests, not leaderboard scores. Original-source, masked-loss, prediction/split, guide reconstruction and role audits pass. Larger transport/foundation runs remain conditional on useful mean evidence; they are not claimed as tested.
+
+[V30 strategy](V30_STRATEGY.md), [V30 results](V30_RESULTS.md), [V31 strategy](V31_STRATEGY.md), [V31 results](V31_RESULTS.md), [comparison figure](experiments/v30_structured_response/analysis/v30_v31_comparison.png). All experiment scripts are in the root; large data/models stay outside Git.
+
+<!-- v30-v31-response-tests:end -->
+
+
 <!-- post-v29-research:begin -->
 
 ## Public-method and leaderboard review after V29 (2026-10-15)

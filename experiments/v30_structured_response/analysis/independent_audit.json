@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "plan_sha256": "5c25fb3c10ded81c91f47900c29500957dbcd322cbcdaf62693ae38984c8c549",
+  "source_rows": [
+    {
+      "source": "K562_full",
+      "original_targets_reconstructed": 5,
+      "maximum_LFC_error": 0.0,
+      "normalization": "All shared competition-measured source genes before the baseline>5 output filter; not rounded pseudobulk and not whole-transcriptome single-cell counts."
+    },
+    {
+      "source": "RPE1_full",
+      "original_targets_reconstructed": 5,
+      "maximum_LFC_error": 0.0,
+      "normalization": "All shared competition-measured source genes before the baseline>5 output filter; not rounded pseudobulk and not whole-transcriptome single-cell counts."
+    }
+  ],
+  "fitted_loss_and_predictions": [
+    {
+      "source": "K562_full",
+      "variant": "string_full",
+      "training_rows": 8110,
+      "relative_masked_gradient": 6.8052696089877346e-09,
+      "maximum_prediction_replay_error": 0.0
+    },
+    {
+      "source": "K562_full",
+      "variant": "construct_full",
+      "training_rows": 8110,
+      "relative_masked_gradient": 6.793843385405525e-09,
+      "maximum_prediction_replay_error": 0.0
+    },
+    {
+      "source": "RPE1_full",
+      "variant": "string_full",
+      "training_rows": 1889,
+      "relative_masked_gradient": 5.652670757928759e-09,
+      "maximum_prediction_replay_error": 0.0
+    },
+    {
+      "source": "RPE1_full",
+      "variant": "string_panel",
+      "abstained": true
+    },
+    {
+      "source": "H1",
+      "variant": "random_full",
+      "training_rows": 25,
+      "relative_masked_gradient": 2.1618570555222277e-09,
+      "maximum_prediction_replay_error": 0.0
+    }
+  ],
+  "nested_selection_recomputed": true,
+  "actual_source_requests_respect_family_exclusion": true,
+  "auditor_sha256": "6aa9706b5a463253ddd811b0db95ab9b666a288d8f3934a2cd9d9ed62bb8a217",
+  "scope": "Audits numerical/input integrity, not a claim of leaderboard performance. Whole-source normalization and unmeasured masks explicitly checked."
+}

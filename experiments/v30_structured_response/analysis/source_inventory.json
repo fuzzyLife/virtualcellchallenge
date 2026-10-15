@@ -1,0 +1,90 @@
+[
+  {
+    "name": "K562_full",
+    "family": "Replogle",
+    "sha256": "7be4ba552f9bbefbcd247f91e824c9a677c644b40c92aece5cdd60628273a4e2",
+    "source_sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+    "targets": 8443,
+    "panel_targets": 260,
+    "output_genes": 7681,
+    "multiple_effective_construct_targets": 172,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "RPE1_full",
+    "family": "Replogle",
+    "sha256": "a1d85480b2a51db82e9ccc699f12fd3ea5b140343fa6f6c4b3a1091d17c585ec",
+    "source_sha256": "603c655f1cfa41d649baf3ae63fca224cc11f297e40d4ed59d390b1e8d2e2db2",
+    "targets": 1891,
+    "panel_targets": 0,
+    "output_genes": 8260,
+    "multiple_effective_construct_targets": 37,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "H1",
+    "family": "H1",
+    "sha256": "2740df2a0cc32a878fa4833149e72fee2090b50cbfd7d8cadf4f1ea0f03fe59c",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 25,
+    "panel_targets": 25,
+    "output_genes": 10762,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "HCT116",
+    "family": "Orion",
+    "sha256": "a9c16d56fa54ace1ac1d8a584513183eb1727a14f3c84207876dd35030c7e0c5",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 282,
+    "panel_targets": 282,
+    "output_genes": 9859,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "HEK293T",
+    "family": "Orion",
+    "sha256": "7ec15771eadc6c7f2d05a6c4d2c162ef8599d3d229cad984269ae963014911cb",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 291,
+    "panel_targets": 291,
+    "output_genes": 10658,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "CD4_Rest",
+    "family": "CD4",
+    "sha256": "9513e978a75b9c95fa61b69c50793618da9b28496945f6415ca9d2cd01a9b703",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 194,
+    "panel_targets": 194,
+    "output_genes": 8539,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "CD4_Stim8hr",
+    "family": "CD4",
+    "sha256": "6bd3f2911eda5c09f7f67ac17af36f769a9352ecb4457fbb1330b1a96b3e1829",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 206,
+    "panel_targets": 206,
+    "output_genes": 8485,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  },
+  {
+    "name": "CD4_Stim48hr",
+    "family": "CD4",
+    "sha256": "4ed94817be2d38bdc2075a30da5b49d632833fc23f5213723509146281a439d8",
+    "source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "targets": 204,
+    "panel_targets": 204,
+    "output_genes": 8710,
+    "multiple_effective_construct_targets": 0,
+    "scope": "Pseudobulk means are not integer single cells. Missing outputs absent. Whole-CD4 and whole-Orion exclusions enforced at inference. Own target excluded in fitted objective."
+  }
+]

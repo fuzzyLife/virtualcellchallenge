@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "plan_sha256": "a41f9d251adf1bbcbcb36a502ad0d01902ec33da63da82e6f0a2212572b43ed8",
+  "checks": [
+    {
+      "source": "K562_full",
+      "variant": "string",
+      "test_targets": 1648,
+      "test_coordinates": 12656978,
+      "replayed": true,
+      "disjoint_targets": true
+    },
+    {
+      "source": "K562_full",
+      "variant": "random",
+      "test_targets": 1648,
+      "test_coordinates": 12656978,
+      "replayed": true,
+      "disjoint_targets": true
+    },
+    {
+      "source": "RPE1_full",
+      "variant": "string",
+      "test_targets": 384,
+      "test_coordinates": 3171540,
+      "replayed": true,
+      "disjoint_targets": true
+    },
+    {
+      "source": "RPE1_full",
+      "variant": "random",
+      "test_targets": 384,
+      "test_coordinates": 3171540,
+      "replayed": true,
+      "disjoint_targets": true
+    }
+  ],
+  "auditor_sha256": "3c1f1c45755705c2b5715ab37444b7799cc7034ba8fa044b44901fc82242fd27"
+}

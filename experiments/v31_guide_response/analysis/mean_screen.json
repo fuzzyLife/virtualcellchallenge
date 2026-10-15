@@ -1,0 +1,1773 @@
+{
+  "plan_sha256": "cc2ea6ff449a8db040028f64e38b46fb2b2c7f7be5bfb7ac9226a095ef17b37c",
+  "teacher_sha256": "87358560b8c5662d9c11af22ecf37e8225457111b4e02412167a40e47acff4d4",
+  "alpha": 0.25,
+  "records": [
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101411,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "seed": 2026101427,
+      "actual_cells": 400,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "CYTH2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "CYTH2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "CYTH2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "CYTH2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "DNTTIP1",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 0.9613649424320613,
+      "mae_ratio": 0.9801954016867341,
+      "cpm_mse_ratio": 0.9509215734363078
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "DNTTIP1",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 0.9579965086613251,
+      "mae_ratio": 0.9775792948686555,
+      "cpm_mse_ratio": 0.9416777057186978
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "DNTTIP1",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 0.9586704065580431,
+      "mae_ratio": 0.9784097941130682,
+      "cpm_mse_ratio": 0.9482297706364102
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "DNTTIP1",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0104343381435479,
+      "mae_ratio": 1.0134803100185663,
+      "cpm_mse_ratio": 1.198623557665338
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FHL3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FHL3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FHL3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FHL3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FOXN2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FOXN2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FOXN2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "FOXN2",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GLI3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GLI3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GLI3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GLI3",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GPATCH8",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GPATCH8",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GPATCH8",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "GPATCH8",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MED15",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 0.9477061756647955,
+      "mae_ratio": 0.9664687566316144,
+      "cpm_mse_ratio": 0.7623178274107163
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MED15",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 0.9467614819141589,
+      "mae_ratio": 0.9663857167405414,
+      "cpm_mse_ratio": 0.7599911923578424
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MED15",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 0.94361102258204,
+      "mae_ratio": 0.9638230413106434,
+      "cpm_mse_ratio": 0.7373276610276011
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MED15",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 0.9883639748324567,
+      "mae_ratio": 0.9909621013031941,
+      "cpm_mse_ratio": 0.9805379026707605
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MTHFSD",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MTHFSD",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "pooled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MTHFSD",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "guide_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4_D1",
+      "target": "MTHFSD",
+      "seed": 24021,
+      "actual_cells": 200,
+      "arm": "target_shuffled",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    }
+  ],
+  "routing": {
+    "guide": {
+      "compatibility_gate": 1.0,
+      "CD4_rho": [
+        0.9850632101417635,
+        0.9502373517821775
+      ],
+      "other_rho": [
+        0.4044741152096602,
+        0.713216157700847,
+        0.7320117854057074,
+        0.6942090617953447
+      ],
+      "condition_weights": [
+        0.6674151314904159,
+        0.332584868509584
+      ],
+      "alpha": 0.25,
+      "changed_targets": 38
+    },
+    "pooled": {
+      "compatibility_gate": 1.0,
+      "CD4_rho": [
+        0.9850632101417635,
+        0.9502373517821775
+      ],
+      "other_rho": [
+        0.4044741152096602,
+        0.713216157700847,
+        0.7320117854057074,
+        0.6942090617953447
+      ],
+      "condition_weights": [
+        0.6674151314904159,
+        0.332584868509584
+      ],
+      "alpha": 0.25,
+      "changed_targets": 38
+    },
+    "guide_shuffled": {
+      "compatibility_gate": 1.0,
+      "CD4_rho": [
+        0.9850632101417635,
+        0.9502373517821775
+      ],
+      "other_rho": [
+        0.4044741152096602,
+        0.713216157700847,
+        0.7320117854057074,
+        0.6942090617953447
+      ],
+      "condition_weights": [
+        0.6674151314904159,
+        0.332584868509584
+      ],
+      "alpha": 0.25,
+      "changed_targets": 38
+    },
+    "target_shuffled": {
+      "compatibility_gate": 1.0,
+      "CD4_rho": [
+        0.9850632101417635,
+        0.9502373517821775
+      ],
+      "other_rho": [
+        0.4044741152096602,
+        0.713216157700847,
+        0.7320117854057074,
+        0.6942090617953447
+      ],
+      "condition_weights": [
+        0.6674151314904159,
+        0.332584868509584
+      ],
+      "alpha": 0.25,
+      "changed_targets": 38
+    }
+  },
+  "study_summary": {
+    "guide": {
+      "H1": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "Orion": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "CD4_D1": {
+        "mse_ratio": 0.9886338897621072,
+        "mae_ratio": 0.9933330197897936,
+        "cpm_mse_ratio": 0.9641549251058781
+      }
+    },
+    "pooled": {
+      "H1": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "Orion": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "CD4_D1": {
+        "mse_ratio": 0.9880947488219355,
+        "mae_ratio": 0.9929956264511496,
+        "cpm_mse_ratio": 0.9627086122595676
+      }
+    },
+    "guide_shuffled": {
+      "H1": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "Orion": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "CD4_D1": {
+        "mse_ratio": 0.9877851786425104,
+        "mae_ratio": 0.9927791044279639,
+        "cpm_mse_ratio": 0.9606946789580014
+      }
+    },
+    "target_shuffled": {
+      "H1": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "Orion": {
+        "mse_ratio": 1.0,
+        "mae_ratio": 1.0,
+        "cpm_mse_ratio": 1.0
+      },
+      "CD4_D1": {
+        "mse_ratio": 0.9998497891220006,
+        "mae_ratio": 1.0005553014152202,
+        "cpm_mse_ratio": 1.0223951825420121
+      }
+    }
+  },
+  "summary": {
+    "guide": {
+      "mse_ratio": 0.9962112965873691,
+      "mae_ratio": 0.9977776732632645,
+      "cpm_mse_ratio": 0.9880516417019592
+    },
+    "pooled": {
+      "mse_ratio": 0.9960315829406451,
+      "mae_ratio": 0.9976652088170499,
+      "cpm_mse_ratio": 0.9875695374198559
+    },
+    "guide_shuffled": {
+      "mse_ratio": 0.9959283928808368,
+      "mae_ratio": 0.9975930348093213,
+      "cpm_mse_ratio": 0.9868982263193339
+    },
+    "target_shuffled": {
+      "mse_ratio": 0.9999499297073337,
+      "mae_ratio": 1.0001851004717401,
+      "cpm_mse_ratio": 1.0074650608473374
+    }
+  },
+  "checks": {
+    "mse_gain": false,
+    "mae_gain": false,
+    "donor_mse_gain": false,
+    "worst_family": true,
+    "expression_noninferiority": true,
+    "beats_pooled": false,
+    "beats_guide_shuffled": false,
+    "beats_target_shuffled": true
+  },
+  "new_candidate_passes": false,
+  "scope": "Approximate mean-composition screen only; no generated cells, Wilcoxon metrics, fresh reserve or package."
+}

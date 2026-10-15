@@ -1,0 +1,83 @@
+{
+  "version": 30,
+  "dependencies": {
+    "v30_methods.py": "71f932edd214c3c1ab337878428e727d7a93383c91541a6eca87c88107aa393e",
+    "run_v30_experiment.py": "e201302f5bf985011538f92d4e8cb2133983eaf22d14241671af5d0879a40429",
+    "test_v30_bilinear.py": "c3b1aa0bced311eb028c96f9cfdcd40a1974263ae1a85db3f5dc2a9460038fce",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v24_methods.py": "098e4594ca06aa1604a2982cc568936b98c98ac9c738999b956db37183488bef",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce"
+  },
+  "inputs": {
+    "reference/K562_gwps_raw_bulk_01.h5ad": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+    "reference/v13_resources/rpe1_raw_bulk_01.h5ad": "603c655f1cfa41d649baf3ae63fca224cc11f297e40d4ed59d390b1e8d2e2db2",
+    "reference/v30_structured_response/gene_string_embeddings.v0.3.h5": "789416877b8701ef6f800106d26bf7bb97ea8e72744e6ab93e24933a717f247d",
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v24_cd4_response/analysis/models/teacher_all.npz": "f309009b3070ba0697d09f0106cfea4f77726905bead263c0f3ce3223c2d8430"
+  },
+  "ranks": [
+    16,
+    32
+  ],
+  "regularization": [
+    1,
+    10
+  ],
+  "ridge_penalty": "lambda * source fitting targets /64",
+  "blend": [
+    0.125,
+    0.25
+  ],
+  "correction_LFC_cap": 0.5,
+  "outer_families": [
+    "H1",
+    "Orion",
+    "CD4"
+  ],
+  "grouping": {
+    "K562_full": "Replogle",
+    "RPE1_full": "Replogle",
+    "H1": "H1",
+    "HCT116": "Orion",
+    "HEK293T": "Orion",
+    "CD4_Rest": "CD4",
+    "CD4_Stim8hr": "CD4",
+    "CD4_Stim48hr": "CD4"
+  },
+  "variants": [
+    "string_full",
+    "string_panel",
+    "random_full",
+    "construct_full"
+  ],
+  "primary_candidates": [
+    "string_full",
+    "construct_full"
+  ],
+  "selection": "For each outer family, minimize family-balanced LFC squared-error ratio over other available H1/Orion/CD4 inner families, with BOTH outer and inner excluded. Choose rank/lambda/alpha only using inner outcomes. Primary count comparators use matching selected full STRING hyperparameters for panel-only and randomized-embedding controls. Construct candidate independently inner-selected.",
+  "mean_gate": "Before any generated-count or reserve work, a primary candidate must improve family-balanced masked LFC MSE by>=1% and masked LFC MAE by>=0.5% versus held-family V24; worst-family MSE ratio<=1.02; beat matched random and panel-only variants on both MSE and MAE. Full true-DE effects are not used to pick magnification.",
+  "scope": "Exploratory on already-studied public families; no fresh blind claims. Whole-Orion (HCT116+HEK293T) excluded together. Whole-CD4 excluded across all conditions. Replogle K562/RPE1 are one family vote. Source-specific output and embedding preprocessing never use another family. Own targets excluded from exact bilinear loss; missing outputs abstain.",
+  "guide_scope": "Published pseudobulk construct labels and fold_expr available; distinct promoter/transcript constructs are heterogeneous interventions, not individual guide replicates. Construct random-effects mean only when>=2 effective constructs. Single-construct labels unchanged. Query efficiency remains unobserved.",
+  "conditional_work": "Count tests and subsequent learnable-mean population transport/full transition adaptation require a passing mean finalist. No donor reserve, packaging or upload before count and reserve gates.",
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "h5py": "3.16.0",
+      "anndata": "0.13.4",
+      "threadpoolctl": "3.7.0"
+    }
+  },
+  "pre_outcome_amendment": {
+    "reason": "Handle known zero-target-overlap panel-only RPE1 by explicit abstention; normalize family votes by available source masks per target/gene. No model trained or candidate outcomes opened.",
+    "initial_plan_sha256": "345deef89fe869a27e133ea4ee6a1a38ee57f4799a9c3cd06d1059c5cf714038"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "plan_sha256": "cc2ea6ff449a8db040028f64e38b46fb2b2c7f7be5bfb7ac9226a095ef17b37c",
+  "teacher_sha256": "87358560b8c5662d9c11af22ecf37e8225457111b4e02412167a40e47acff4d4",
+  "raw_guide_reconstruction": [
+    {
+      "condition": "CD4_Rest_D2",
+      "source_checks": [
+        {
+          "target": "AKAP1",
+          "guides": 2,
+          "treated_rows": 282,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        },
+        {
+          "target": "CCDC112",
+          "guides": 2,
+          "treated_rows": 327,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        },
+        {
+          "target": "ZNF641",
+          "guides": 1,
+          "treated_rows": 345,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        }
+      ]
+    },
+    {
+      "condition": "CD4_Stim48_D2",
+      "source_checks": [
+        {
+          "target": "AKAP1",
+          "guides": 2,
+          "treated_rows": 278,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        },
+        {
+          "target": "ALG12",
+          "guides": 2,
+          "treated_rows": 278,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        },
+        {
+          "target": "ZNF641",
+          "guides": 1,
+          "treated_rows": 351,
+          "max_response_error": 0.0,
+          "max_confidence_error": 0.0
+        }
+      ]
+    }
+  ],
+  "held_guide_calibration_roles_disjoint": true,
+  "alpha_recomputed": 0.25,
+  "development_summary_arithmetic_recomputed": true,
+  "development_routes": [
+    {
+      "family": "H1",
+      "compatibility_gate": 0.0,
+      "CD4_rho": [
+        0.7240153578527786,
+        0.738356149458695
+      ],
+      "other_rho": [
+        0.45124859967298103,
+        0.7765676252413042,
+        0.7961346527045735
+      ],
+      "condition_weights": [
+        0.42878358217484536,
+        0.5712164178251546
+      ],
+      "alpha": 0.25,
+      "changed_targets": 0
+    },
+    {
+      "family": "HCT116",
+      "compatibility_gate": 0.0,
+      "CD4_rho": [
+        0.7412408246496773,
+        0.7501225543183914
+      ],
+      "other_rho": [
+        0.6992840827740063,
+        0.7765835934272424
+      ],
+      "condition_weights": [
+        0.45570775708524347,
+        0.5442922429147565
+      ],
+      "alpha": 0.25,
+      "changed_targets": 0
+    },
+    {
+      "family": "HEK293T",
+      "compatibility_gate": 0.0,
+      "CD4_rho": [
+        0.706253503299469,
+        0.7138856584122196
+      ],
+      "other_rho": [
+        0.6787884096158163,
+        0.7968239467503451
+      ],
+      "condition_weights": [
+        0.46191314744191503,
+        0.5380868525580851
+      ],
+      "alpha": 0.25,
+      "changed_targets": 0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "compatibility_gate": 1.0,
+      "CD4_rho": [
+        0.9850632101417635,
+        0.9502373517821775
+      ],
+      "other_rho": [
+        0.4044741152096602,
+        0.713216157700847,
+        0.7320117854057074,
+        0.6942090617953447
+      ],
+      "condition_weights": [
+        0.6674151314904159,
+        0.332584868509584
+      ],
+      "alpha": 0.25,
+      "changed_targets": 38
+    }
+  ],
+  "auditor_sha256": "9f4cced1f56731e4d56dc5ad22162c5c7a31381e4db4cce7bc71348c6e00baf7",
+  "limits": "Reconstructs selected guide teachers and source roles. Mean-screen arithmetic verified; no claim of independent-study replication, generated-count/Wilcoxon or fresh-donor success."
+}

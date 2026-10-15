@@ -1,0 +1,620 @@
+[
+  {
+    "path": "reference/K562_gwps_raw_bulk_01.h5ad",
+    "shape": [
+      11258,
+      8248
+    ],
+    "obs_columns": [
+      "UMI_count_unfiltered",
+      "num_cells_unfiltered",
+      "num_cells_filtered",
+      "control_expr",
+      "fold_expr",
+      "pct_expr",
+      "core_control",
+      "mean_leverage_score",
+      "std_leverage_score",
+      "energy_test_p_value",
+      "anderson_darling_counts",
+      "mann_whitney_counts",
+      "z_gemgroup_UMI",
+      "mitopercent",
+      "TE_ratio",
+      "cnv_score_z"
+    ],
+    "var_columns": [
+      "gene_name",
+      "mean",
+      "std",
+      "cv",
+      "in_matrix",
+      "gini",
+      "clean_mean",
+      "clean_std",
+      "clean_cv"
+    ],
+    "uns_keys": [],
+    "layers": [
+      null
+    ],
+    "obs_preview": [
+      {
+        "UMI_count_unfiltered": "11648.2568359375",
+        "num_cells_unfiltered": "246",
+        "num_cells_filtered": "237.0",
+        "control_expr": "0.17128483749268966",
+        "fold_expr": "0.02327433262489463",
+        "pct_expr": "-0.9767256673751054",
+        "core_control": "False",
+        "mean_leverage_score": "0.2647683160884935",
+        "std_leverage_score": "1.1378243229056004",
+        "energy_test_p_value": "0.0177982201779822",
+        "anderson_darling_counts": "3",
+        "mann_whitney_counts": "4",
+        "z_gemgroup_UMI": "0.08838321",
+        "mitopercent": "0.1187425",
+        "TE_ratio": "0.013627258698639443",
+        "cnv_score_z": null
+      },
+      {
+        "UMI_count_unfiltered": "12291.7578125",
+        "num_cells_unfiltered": "95",
+        "num_cells_filtered": "89.0",
+        "control_expr": "0.02621165647140049",
+        "fold_expr": "0.0",
+        "pct_expr": "-1.0",
+        "core_control": "False",
+        "mean_leverage_score": "0.2609510190967325",
+        "std_leverage_score": "1.0957019957423455",
+        "energy_test_p_value": "0.1305869413058694",
+        "anderson_darling_counts": "1",
+        "mann_whitney_counts": "1",
+        "z_gemgroup_UMI": "0.33996826",
+        "mitopercent": "0.11635392",
+        "TE_ratio": "0.01456255781489051",
+        "cnv_score_z": "7.305249159785241"
+      },
+      {
+        "UMI_count_unfiltered": "11295.5810546875",
+        "num_cells_unfiltered": "318",
+        "num_cells_filtered": "308.0",
+        "control_expr": "0.04814955804410244",
+        "fold_expr": "0.5277158209663273",
+        "pct_expr": "-0.4722841790336728",
+        "core_control": "False",
+        "mean_leverage_score": "0.2770617836950155",
+        "std_leverage_score": "1.1155024542074017",
+        "energy_test_p_value": "0.4578542145785421",
+        "anderson_darling_counts": "0",
+        "mann_whitney_counts": "0",
+        "z_gemgroup_UMI": "0.044135183",
+        "mitopercent": "0.11860901",
+        "TE_ratio": "0.014195621607384268",
+        "cnv_score_z": "0.014276476478378394"
+      }
+    ],
+    "var_preview": [
+      {
+        "gene_name": "LINC01409",
+        "mean": "0.114359096",
+        "std": "0.033798456",
+        "cv": "0.2955467",
+        "in_matrix": "True",
+        "gini": "0.1536420528287477",
+        "clean_mean": "0.11720541",
+        "clean_std": "0.034833424",
+        "clean_cv": "0.2971998"
+      },
+      {
+        "gene_name": "LINC01128",
+        "mean": "0.17816554",
+        "std": "0.040590107",
+        "cv": "0.22782244",
+        "in_matrix": "True",
+        "gini": "0.12299853998276013",
+        "clean_mean": "0.18277755",
+        "clean_std": "0.04193268",
+        "clean_cv": "0.2294192"
+      },
+      {
+        "gene_name": "NOC2L",
+        "mean": "1.3751416",
+        "std": "0.16253632",
+        "cv": "0.11819606",
+        "in_matrix": "True",
+        "gini": "0.06314962779100644",
+        "clean_mean": "1.411069",
+        "clean_std": "0.1643442",
+        "clean_cv": "0.11646787"
+      }
+    ],
+    "UMI_count_unfiltered": {
+      "unique": 11226,
+      "examples": [
+        "11648.2568359375",
+        "12291.7578125",
+        "11295.5810546875",
+        "12323.345703125",
+        "11520.52734375",
+        "11775.359375",
+        "9434.2744140625",
+        "10636.318359375"
+      ]
+    },
+    "num_cells_unfiltered": {
+      "unique": 572,
+      "examples": [
+        "246",
+        "95",
+        "318",
+        "84",
+        "290",
+        "178",
+        "193",
+        "157"
+      ]
+    },
+    "num_cells_filtered": {
+      "unique": 553,
+      "examples": [
+        "237.0",
+        "89.0",
+        "308.0",
+        "83.0",
+        "276.0",
+        "171.0",
+        "192.0",
+        "151.0"
+      ]
+    },
+    "anderson_darling_counts": {
+      "unique": 966,
+      "examples": [
+        "3",
+        "1",
+        "0",
+        "557",
+        "56",
+        "5",
+        "19",
+        "155"
+      ]
+    },
+    "mann_whitney_counts": {
+      "unique": 844,
+      "examples": [
+        "4",
+        "1",
+        "0",
+        "3",
+        "366",
+        "45",
+        "19",
+        "114"
+      ]
+    },
+    "first5_stats": {
+      "min": 0.0,
+      "max": 350.2134704589844,
+      "sums": [
+        12027.4677734375,
+        13062.380859375,
+        11621.15234375,
+        12465.314453125,
+        11995.14453125
+      ],
+      "integer_fraction": 0.0027885548011639186
+    }
+  },
+  {
+    "path": "reference/v13_resources/rpe1_raw_bulk_01.h5ad",
+    "shape": [
+      2679,
+      8749
+    ],
+    "obs_columns": [
+      "UMI_count_unfiltered",
+      "num_cells_unfiltered",
+      "num_cells_filtered",
+      "control_expr",
+      "fold_expr",
+      "pct_expr",
+      "core_control",
+      "mean_leverage_score",
+      "std_leverage_score",
+      "energy_test_p_value",
+      "anderson_darling_counts",
+      "mann_whitney_counts",
+      "z_gemgroup_UMI",
+      "mitopercent",
+      "TE_ratio",
+      "cnv_score_z"
+    ],
+    "var_columns": [
+      "gene_name",
+      "mean",
+      "std",
+      "cv",
+      "in_matrix",
+      "gini",
+      "clean_mean",
+      "clean_std",
+      "clean_cv"
+    ],
+    "uns_keys": [],
+    "layers": [
+      null
+    ],
+    "obs_preview": [
+      {
+        "UMI_count_unfiltered": "10778.880859375",
+        "num_cells_unfiltered": "59",
+        "num_cells_filtered": "40.0",
+        "control_expr": "0.3080790178980413",
+        "fold_expr": "1.1038479927247111",
+        "pct_expr": "0.10384799272471107",
+        "core_control": "False",
+        "mean_leverage_score": "1.5013335496106832",
+        "std_leverage_score": "1.5439149853627885",
+        "energy_test_p_value": "9.999000099990004e-05",
+        "anderson_darling_counts": "267.0",
+        "mann_whitney_counts": "210",
+        "z_gemgroup_UMI": "0.03820122",
+        "mitopercent": "0.07855821",
+        "TE_ratio": "0.006892973727115371",
+        "cnv_score_z": "-0.2895614111494671"
+      },
+      {
+        "UMI_count_unfiltered": "9102.1142578125",
+        "num_cells_unfiltered": "122",
+        "num_cells_filtered": "112.0",
+        "control_expr": "1.2991975391999897",
+        "fold_expr": "0.1239507330335318",
+        "pct_expr": "-0.8760492669664682",
+        "core_control": "False",
+        "mean_leverage_score": "2.8139785621029514",
+        "std_leverage_score": "1.2682228725084923",
+        "energy_test_p_value": "9.999000099990004e-05",
+        "anderson_darling_counts": "3708.0",
+        "mann_whitney_counts": "2351",
+        "z_gemgroup_UMI": "-0.5545756",
+        "mitopercent": "0.07317017",
+        "TE_ratio": "0.008531729408089191",
+        "cnv_score_z": "2.2766395756539533"
+      },
+      {
+        "UMI_count_unfiltered": "11299.6396484375",
+        "num_cells_unfiltered": "75",
+        "num_cells_filtered": "66.0",
+        "control_expr": "0.6438006270752731",
+        "fold_expr": "0.15825288838859464",
+        "pct_expr": "-0.8417471116114054",
+        "core_control": "False",
+        "mean_leverage_score": "1.6883209794575804",
+        "std_leverage_score": "1.0277139946784009",
+        "energy_test_p_value": "9.999000099990004e-05",
+        "anderson_darling_counts": "1546.0",
+        "mann_whitney_counts": "1139",
+        "z_gemgroup_UMI": "-0.237008",
+        "mitopercent": "0.07074422",
+        "TE_ratio": "0.005621148041825515",
+        "cnv_score_z": "3.4703447163013874"
+      }
+    ],
+    "var_preview": [
+      {
+        "gene_name": "NOC2L",
+        "mean": "0.9253059",
+        "std": "0.21619707",
+        "cv": "0.2336493",
+        "in_matrix": "True",
+        "gini": "0.12434543498264042",
+        "clean_mean": "0.985649",
+        "clean_std": "0.22573377",
+        "clean_cv": "0.22902045"
+      },
+      {
+        "gene_name": "PLEKHN1",
+        "mean": "0.12628922",
+        "std": "0.059157085",
+        "cv": "0.46842545",
+        "in_matrix": "True",
+        "gini": "0.2500088031564429",
+        "clean_mean": "0.1328764",
+        "clean_std": "0.06382353",
+        "clean_cv": "0.48032254"
+      },
+      {
+        "gene_name": "HES4",
+        "mean": "0.6804379",
+        "std": "0.36587924",
+        "cv": "0.53771144",
+        "in_matrix": "True",
+        "gini": "0.22356807785972574",
+        "clean_mean": "0.7292169",
+        "clean_std": "0.3998785",
+        "clean_cv": "0.548367"
+      }
+    ],
+    "UMI_count_unfiltered": {
+      "unique": 2679,
+      "examples": [
+        "10778.880859375",
+        "9102.1142578125",
+        "11299.6396484375",
+        "12613.72265625",
+        "10286.013671875",
+        "8781.25",
+        "14084.857421875",
+        "15634.23828125"
+      ]
+    },
+    "num_cells_unfiltered": {
+      "unique": 326,
+      "examples": [
+        "59",
+        "122",
+        "75",
+        "108",
+        "4",
+        "28",
+        "84",
+        "204"
+      ]
+    },
+    "num_cells_filtered": {
+      "unique": 300,
+      "examples": [
+        "40.0",
+        "112.0",
+        "66.0",
+        "102.0",
+        "71.0",
+        "4.0",
+        "24.0",
+        "81.0"
+      ]
+    },
+    "anderson_darling_counts": {
+      "unique": 1319,
+      "examples": [
+        "267.0",
+        "3708.0",
+        "1546.0",
+        "247.0",
+        "607.0",
+        "10.0",
+        "1142.0",
+        "502.0"
+      ]
+    },
+    "mann_whitney_counts": {
+      "unique": 1243,
+      "examples": [
+        "210",
+        "2351",
+        "1139",
+        "223",
+        "506",
+        "0",
+        "972",
+        "489"
+      ]
+    },
+    "first5_stats": {
+      "min": 0.0,
+      "max": 177.97500610351562,
+      "sums": [
+        12021.2998046875,
+        9691.8388671875,
+        12190.62109375,
+        12977.931640625,
+        10773.267578125
+      ],
+      "integer_fraction": 0.006926505886387015
+    }
+  },
+  {
+    "string_meta_keys": [
+      "format_version",
+      "name",
+      "layout",
+      "index",
+      "keys",
+      "dim",
+      "dtype",
+      "provenance"
+    ],
+    "string_meta_preview": {
+      "format_version": 1,
+      "name": "string_space",
+      "layout": "dense",
+      "index": "pert",
+      "keys": [
+        "A1BG",
+        "A1CF",
+        "A2M",
+        "A2ML1"
+      ],
+      "dim": 512,
+      "dtype": "float16",
+      "provenance": {
+        "tool_version": "0.1.0",
+        "inputs": {
+          "space_h5": {
+            "url": "https://stringdb-downloads.org/download/protein.network.embeddings.v12.0/9606.protein.network.embeddings.v12.0.h5",
+            "sha256": "66391eb05973d852148df29ff5b340574a56ea45f09e7421abcd6b0917b02491",
+            "release": "v12.0"
+          },
+          "protein_info": {
+            "url": "https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz",
+            "sha256": "144de4b0d98c6a7dfde6ddc2591cf88657f27b989eadff4f501450c3ed1f0f1c",
+            "release": "v12.0"
+          }
+        },
+        "params": {
+          "taxon": 9606,
+          "key": "preferred_name",
+          "repeated_names": "first protein in h5 order",
+          "row_order": "sorted by key"
+        }
+      }
+    },
+    "embedding_shape": [
+      19699,
+      512
+    ]
+  },
+  {
+    "metadata": "reference/v7_sources/HCT116/selected_cells.csv",
+    "columns": [
+      "sample",
+      "guide_target",
+      "gene_target",
+      "total_counts",
+      "n_genes_by_counts",
+      "pass_guide_filter",
+      "cell_id",
+      "cell_integer_id",
+      "cell_start_index",
+      "partition",
+      "source_cell_start_index"
+    ],
+    "first": [
+      {
+        "sample": "HCT116_Batch1",
+        "guide_target": "DVL3_P1P2-1|DVL3_P1P2-2",
+        "gene_target": "DVL3",
+        "total_counts": "36190.0",
+        "n_genes_by_counts": "7094",
+        "pass_guide_filter": "True",
+        "cell_id": "AAAGCCGAGAACGCGA-HCT116_Batch1",
+        "cell_integer_id": "144",
+        "cell_start_index": "945929",
+        "partition": "0",
+        "source_cell_start_index": "945929"
+      },
+      {
+        "sample": "HCT116_Batch1",
+        "guide_target": "GRAMD1A_P1P2-1|GRAMD1A_P1P2-2",
+        "gene_target": "GRAMD1A",
+        "total_counts": "31489.0",
+        "n_genes_by_counts": "6246",
+        "pass_guide_filter": "True",
+        "cell_id": "AAAGCCGAGACGCGTT-HCT116_Batch1",
+        "cell_integer_id": "145",
+        "cell_start_index": "953023",
+        "partition": "0",
+        "source_cell_start_index": "953023"
+      },
+      {
+        "sample": "HCT116_Batch1",
+        "guide_target": "ZC3HAV1_P1P2-1|ZC3HAV1_P1P2-2",
+        "gene_target": "ZC3HAV1",
+        "total_counts": "84838.0",
+        "n_genes_by_counts": "9054",
+        "pass_guide_filter": "True",
+        "cell_id": "AAAGCTCGTCCTTGTA-HCT116_Batch1",
+        "cell_integer_id": "172",
+        "cell_start_index": "1108973",
+        "partition": "0",
+        "source_cell_start_index": "1108973"
+      }
+    ]
+  },
+  {
+    "metadata": "reference/v7_sources/HEK293T/selected_cells.csv",
+    "columns": [
+      "sample",
+      "guide_target",
+      "gene_target",
+      "total_counts",
+      "n_genes_by_counts",
+      "pass_guide_filter",
+      "cell_id",
+      "cell_integer_id",
+      "cell_start_index",
+      "partition",
+      "source_cell_start_index"
+    ],
+    "first": [
+      {
+        "sample": "HEK293T_Batch1",
+        "guide_target": "KHSRP_P1P2-1|KHSRP_P1P2-2",
+        "gene_target": "KHSRP",
+        "total_counts": "40318.0",
+        "n_genes_by_counts": "8589",
+        "pass_guide_filter": "True",
+        "cell_id": "AAACCGCTCGCGAGTT-HEK293T_Batch1",
+        "cell_integer_id": "39",
+        "cell_start_index": "227218",
+        "partition": "1",
+        "source_cell_start_index": "227218"
+      },
+      {
+        "sample": "HEK293T_Batch1",
+        "guide_target": "FCGRT_P1P2-1|FCGRT_P1P2-2",
+        "gene_target": "FCGRT",
+        "total_counts": "7739.0",
+        "n_genes_by_counts": "4213",
+        "pass_guide_filter": "True",
+        "cell_id": "AAACCGTGTCATAGGT-HEK293T_Batch1",
+        "cell_integer_id": "50",
+        "cell_start_index": "299143",
+        "partition": "1",
+        "source_cell_start_index": "299143"
+      },
+      {
+        "sample": "HEK293T_Batch1",
+        "guide_target": "CHD6_P1P2-1|CHD6_P1P2-2",
+        "gene_target": "CHD6",
+        "total_counts": "15976.0",
+        "n_genes_by_counts": "5285",
+        "pass_guide_filter": "True",
+        "cell_id": "AAACCTCCACCTTGAG-HEK293T_Batch1",
+        "cell_integer_id": "55",
+        "cell_start_index": "327742",
+        "partition": "1",
+        "source_cell_start_index": "327742"
+      }
+    ]
+  },
+  {
+    "metadata": "reference/v5_h1/selected_cells.csv",
+    "columns": [
+      "target_gene",
+      "guide_id",
+      "batch",
+      "source_row",
+      "source_cell_id",
+      "public_split"
+    ],
+    "first": [
+      {
+        "target_gene": "AKT2",
+        "guide_id": "AKT2_P1P2_A|AKT2_P1P2_B",
+        "batch": "Flex_1_01",
+        "source_row": "1",
+        "source_cell_id": "AAACAAGCATTGCCGCACTTTAGG-Flex_1_01",
+        "public_split": "train"
+      },
+      {
+        "target_gene": "SHPRH",
+        "guide_id": "SHPRH_P1P2_A|SHPRH_P1P2_B",
+        "batch": "Flex_1_01",
+        "source_row": "2",
+        "source_cell_id": "AAACCAATCAATGTTCACTTTAGG-Flex_1_01",
+        "public_split": "train"
+      },
+      {
+        "target_gene": "TARBP2",
+        "guide_id": "TARBP2_P1P2_A|TARBP2_P1P2_B",
+        "batch": "Flex_1_01",
+        "source_row": "5",
+        "source_cell_id": "AAACGGGCACCTAAGAACTTTAGG-Flex_1_01",
+        "public_split": "train"
+      }
+    ]
+  }
+]
