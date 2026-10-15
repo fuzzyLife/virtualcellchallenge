@@ -1,0 +1,33 @@
+{
+  "plan_sha256": "142ea7bfeea318ef0f14f94df294a20759b907999c61a7c4f305db9841f96b85",
+  "count_sha256": "ce41e7c97fb47dad9ef8bfb6a8dd88955b7ea69f360b038cef760630fe1e669e",
+  "categories": [
+    {
+      "category": "other_empirical_fallback",
+      "genes": 761,
+      "eligible": 191,
+      "called": 97
+    },
+    {
+      "category": "panel_empirical_fallback",
+      "genes": 300,
+      "eligible": 292,
+      "called": 109
+    },
+    {
+      "category": "trained_ge50_detections",
+      "genes": 15215,
+      "eligible": 10209,
+      "called": 142
+    },
+    {
+      "category": "trained_lt50_detections",
+      "genes": 2257,
+      "eligible": 89,
+      "called": 4
+    }
+  ],
+  "called_genes_csv_sha256": "e07f8a88af37d81f5d76f4f92c4d4fcfcd1fa0f47cfd499af22c7040392ec2f2",
+  "diagnostic_sha256": "0fe44ace28f283725fe452210f5751cbeaee6debab9a105b6c4cb4687c884396",
+  "scope": "Post-rejection descriptive analysis of the already inspected H1 null. Does not change masks, sampling, weights or release thresholds; does not identify hidden competition errors."
+}

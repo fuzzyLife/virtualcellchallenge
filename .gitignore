@@ -459,3 +459,11 @@ __marimo__/
 /experiments/v25_cross_domain/analysis/parallel/
 /experiments/v25_cross_domain/analysis/**/cells.csv
 /experiments/v25_cross_domain/analysis/prediction_control_rows.csv
+
+# V26 learned-count data, weights and caches
+/experiments/v26_count_decoder/**/*.npz
+/experiments/v26_count_decoder/analysis/parallel/
+/experiments/v26_count_decoder/analysis/**/cells.csv
+/experiments/v26_count_decoder/*.h5ad*
+/experiments/v26_count_decoder/*.vcc
+/experiments/v26_count_decoder/*.log

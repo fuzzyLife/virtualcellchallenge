@@ -1,5 +1,16 @@
 # Virtual Cell Challenge 2026
 
+<!-- v26-count-decoder:begin -->
+
+## V26 neural count-distribution test (2026-10-15)
+
+Implemented a conditional logistic-normal multinomial decoder with fixed V24 response means and exact cell libraries/gene totals. 3 networks were fitted with71,634 sampled training/validation source cells under completeH1 exclusion. The executed real-control null calibration fails its frozen gate; treatment outcomes and the remaining donor reserve stay unopened. Mean constraints and numerical/input/count replay audits are recorded separately from statistical usefulness. No new package is released; V24 remains best recorded at0.14299785521745675.
+
+Root implementation and reproducibility: [V26 strategy](V26_STRATEGY.md). Actual diagnostics and limitations: [V26 results](V26_RESULTS.md). [Artifact decision](V26_SUBMISSION.md). Prior numerical models/packages are preserved; large source arrays and weights stay outside Git.
+
+<!-- v26-count-decoder:end -->
+
+
 <!-- v25-cross-domain:begin -->
 
 ## V25 cross-domain geometry tests (2026-10-14)

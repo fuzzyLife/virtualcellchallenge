@@ -1,0 +1,14 @@
+{
+  "operation": "Coerce path arguments to Path for the unchanged sha256 helper while running frozen assessor",
+  "original_error": "AttributeError: str has no attribute open when hashing __file__ after checks completed; no decision file was written",
+  "frozen_assessor_sha256": "30a9aadc7edc3e24ce115d7742ef9f1d9dc64a355eedaddb1eca97c6592c8563",
+  "adapter_sha256": "e2fa096fec7923a772f85339d44b20a7a4dde77a765ca20a01a8ddf51d6d249d",
+  "stage": "null",
+  "family": "H1",
+  "result_sha256": "c70982439868ff6f7fe748b04fb2001a254bedd1d9029008f69227215786366d",
+  "numeric_model_counts_samples_thresholds_unchanged": 1,
+  "input_tables_sha256": {
+    "null_H1_panels.csv": "948a4618f9cbae38468aec961e5bcefd1ed49ac31107e4cd2d05650af7cb2188",
+    "null_H1_scores.csv": "8d24b1a762f528ee7f9d7577e9ffa5e08756debedc332d6dfaab516c906a5fe1"
+  }
+}

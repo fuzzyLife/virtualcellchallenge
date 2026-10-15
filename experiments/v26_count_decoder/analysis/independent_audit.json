@@ -1,0 +1,17 @@
+{
+  "passed": 1,
+  "training_folds": [
+    "H1"
+  ],
+  "source_count_contexts_checked": 4,
+  "original_full_axis_rows_checked": 128,
+  "training_only_group_means_checked": 662,
+  "decoder_models_checked": 3,
+  "null_cases_checked": 1,
+  "full_axis_count_replays": 2,
+  "frozen_family_exclusions_verified": 1,
+  "frozen_null_decisions_recomputed": 1,
+  "plan_sha256": "142ea7bfeea318ef0f14f94df294a20759b907999c61a7c4f305db9841f96b85",
+  "auditor_sha256": "a1c0c453abae91f4c8d3f4a0fd87dd2f495e021e526af2e8f73ebeca4a3298ff",
+  "scope": "This audits the training inputs, saved fits and executed null gates. It does not substitute for a treatment/generalization test. Conditional states remain observational proxies."
+}

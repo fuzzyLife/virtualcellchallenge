@@ -1,0 +1,24 @@
+{
+  "released": 0,
+  "uploaded": 0,
+  "new_package_generated": 0,
+  "reason": "Conditional count decoder failed prospectively frozen real-control null calibration",
+  "failed_family": "H1",
+  "failed_checks": [
+    "H1_DE_calls",
+    "H1_detection",
+    "H1_variance"
+  ],
+  "treatment_metrics_opened": 0,
+  "reserve_opened": 0,
+  "retained_version": 24,
+  "retained_entry_id": "81Y2yX7utdAau9rr3jCj",
+  "retained_overall": 0.14299785521745675,
+  "plan_sha256": "142ea7bfeea318ef0f14f94df294a20759b907999c61a7c4f305db9841f96b85",
+  "calibration_stop_sha256": "0601a50b21558f4d6791051d89e96152e38544393dc7b34f2c8b96d13312f3d5",
+  "independent_audit_sha256": "6b8e7442fbc40624781a681ec001c33ecdb55ac396b6ea1efba9d0210b8d4a6d",
+  "assessment_recovery_sha256": "b1117cff5cf65af150474bc6c7946bdc8b6343be5992e471bad24ecfd063268f",
+  "latent_diagnostic_sha256": "e8cc916383e3a49e5d87d443335e80670e475c037704454bcb0f18550cc65d33",
+  "null_gene_diagnostic_sha256": "99affd3c2d574b2ce2310e7c9ac9196201530f52ec4f5e18b857aec82023387c",
+  "documenter_sha256": "975e942c45787137c7b7d798588767e3342c26283d4433068c181c44771bea51"
+}

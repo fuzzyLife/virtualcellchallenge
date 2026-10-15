@@ -1,0 +1,97 @@
+{
+  "sha256": "4577d7e85cdf807ea49fc33d0878bcab79ce3d1ed752b1c71f92eac107ec99f7",
+  "plan_sha256": "142ea7bfeea318ef0f14f94df294a20759b907999c61a7c4f305db9841f96b85",
+  "training_record_sha256": "811de6231c5d59fb2e1441c4267545962cfc2d0e6e2662ea2b3e8a3563898d9d",
+  "training_arrays_sha256": "4ed6fcd11b5d8dd6a19e9aa5b4324046cc8689ed4be67fe68984ea498fbcfef5",
+  "excluded_family": "H1",
+  "training_contexts": [
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "kind": "state_shuffled",
+  "selection": "Minimum held-cell validation ELBO among12 fixed epochs; no treatment scorer outcomes used",
+  "history": [
+    {
+      "epoch": 1,
+      "training_elbo": 8.393231102800744,
+      "validation_elbo": 8.408200353946325,
+      "seconds": 16.243209838867188
+    },
+    {
+      "epoch": 2,
+      "training_elbo": 8.386993053391224,
+      "validation_elbo": 8.405950618240068,
+      "seconds": 16.64762020111084
+    },
+    {
+      "epoch": 3,
+      "training_elbo": 8.38500541026198,
+      "validation_elbo": 8.404511757616726,
+      "seconds": 16.830586671829224
+    },
+    {
+      "epoch": 4,
+      "training_elbo": 8.383735874506431,
+      "validation_elbo": 8.403481015619242,
+      "seconds": 16.096193075180054
+    },
+    {
+      "epoch": 5,
+      "training_elbo": 8.382734878795354,
+      "validation_elbo": 8.403103900405595,
+      "seconds": 15.98621916770935
+    },
+    {
+      "epoch": 6,
+      "training_elbo": 8.382167333693015,
+      "validation_elbo": 8.40282537352364,
+      "seconds": 16.23251247406006
+    },
+    {
+      "epoch": 7,
+      "training_elbo": 8.38178574569582,
+      "validation_elbo": 8.402651768810344,
+      "seconds": 16.572531938552856
+    },
+    {
+      "epoch": 8,
+      "training_elbo": 8.381283699996828,
+      "validation_elbo": 8.402489716151976,
+      "seconds": 16.12980818748474
+    },
+    {
+      "epoch": 9,
+      "training_elbo": 8.38098282513656,
+      "validation_elbo": 8.402353016835338,
+      "seconds": 16.08070683479309
+    },
+    {
+      "epoch": 10,
+      "training_elbo": 8.38070628023523,
+      "validation_elbo": 8.402178890300247,
+      "seconds": 16.053760766983032
+    },
+    {
+      "epoch": 11,
+      "training_elbo": 8.380395143989503,
+      "validation_elbo": 8.402130414854806,
+      "seconds": 16.061295747756958
+    },
+    {
+      "epoch": 12,
+      "training_elbo": 8.380186572788269,
+      "validation_elbo": 8.402098529743698,
+      "seconds": 15.960634708404541
+    }
+  ],
+  "runtime": {
+    "torch": "2.10.0+cu126",
+    "device": "cuda",
+    "cuda": "12.6",
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "deterministic_algorithms": 1
+  },
+  "network": "4096-feature posterior ->128 ->16 latent; decoder16 latent+8 state+16 effect ->64 ->128 ->18533 bounded logit residuals; masked unmeasured/panel output residuals."
+}
