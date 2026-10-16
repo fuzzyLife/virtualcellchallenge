@@ -1,0 +1,35 @@
+{
+  "records": [
+    {
+      "context": "CD4_Rest",
+      "common_shift_energy_fraction": 0.2148292668876189,
+      "correction_RMS": 0.016784609302424817
+    },
+    {
+      "context": "CD4_Stim48hr",
+      "common_shift_energy_fraction": 0.17340422217919854,
+      "correction_RMS": 0.016602798276551155
+    },
+    {
+      "context": "CD4_Stim8hr",
+      "common_shift_energy_fraction": 0.15409623924045124,
+      "correction_RMS": 0.0160950027681003
+    },
+    {
+      "context": "H1",
+      "common_shift_energy_fraction": 0.11879516970909786,
+      "correction_RMS": 0.015358984023980605
+    },
+    {
+      "context": "HCT116",
+      "common_shift_energy_fraction": 0.5703354818582962,
+      "correction_RMS": 0.026008167249613457
+    },
+    {
+      "context": "HEK293T",
+      "common_shift_energy_fraction": 0.5276415389739271,
+      "correction_RMS": 0.024727747657305264
+    }
+  ],
+  "scope": "Retrospective diagnosis after primary results; common component measured across all300 predictions, without treatment labels."
+}

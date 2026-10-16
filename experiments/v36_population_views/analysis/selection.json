@@ -1,0 +1,162 @@
+{
+  "selected_arm": "retrieval_contrast25",
+  "model_version": 35,
+  "strict_public_guards_passed": false,
+  "status": "exploratory candidate; strict improvement guards not all passed",
+  "confirmed_improvement": false,
+  "available_public_guards_passed": false,
+  "count_summaries": {
+    "v24": {
+      "fidelity": 0.5817027792979993,
+      "reach": 0.19438921817788044,
+      "jaccard": 0.07002678646965145,
+      "nmae": 0.9126006846426815,
+      "pds": 0.7916666666666666,
+      "common_expression_ratio": 37.47193635849526
+    },
+    "v35": {
+      "fidelity": 0.5709809177882575,
+      "reach": 0.1421182991320828,
+      "jaccard": 0.06808641542144422,
+      "nmae": 0.9271093399629375,
+      "pds": 0.6111111111111112,
+      "common_expression_ratio": 39.62253129630915
+    },
+    "v36": {
+      "fidelity": 0.5706511359521316,
+      "reach": 0.1508614159254065,
+      "jaccard": 0.06805554541386907,
+      "nmae": 0.9326378835741215,
+      "pds": 0.5833333333333334,
+      "common_expression_ratio": 44.379961704216534
+    },
+    "v36_dispersion": {
+      "fidelity": 0.571379462616693,
+      "reach": 0.13951516110267745,
+      "jaccard": 0.06798545494417452,
+      "nmae": 0.9317122089336977,
+      "pds": 0.5833333333333334,
+      "common_expression_ratio": 44.37993682844913
+    },
+    "v35_population_dispersion": {
+      "fidelity": 0.5710502667922142,
+      "reach": 0.15483397358542564,
+      "jaccard": 0.06770910291270636,
+      "nmae": 0.9315114043208244,
+      "pds": 0.6111111111111112,
+      "common_expression_ratio": 39.62250753294237
+    },
+    "target_centered25": {
+      "fidelity": 0.5793991714929575,
+      "reach": 0.19556979255544094,
+      "jaccard": 0.06825770978767719,
+      "nmae": 0.915495471379416,
+      "pds": 0.75,
+      "common_expression_ratio": 36.52111431749616
+    },
+    "retrieval_contrast25": {
+      "fidelity": 0.5780579765599844,
+      "reach": 0.20241260586677032,
+      "jaccard": 0.0693660473815111,
+      "nmae": 0.9140376854170383,
+      "pds": 0.7916666666666666,
+      "common_expression_ratio": 37.27911197514749
+    }
+  },
+  "count_guards": {
+    "v35": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    },
+    "v36": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    },
+    "v36_dispersion": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    }
+  },
+  "raw_mean_summaries": {
+    "v24": {
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    "v35": {
+      "mse_ratio": 0.9944910485360046,
+      "mae_ratio": 0.9905894674088932,
+      "cpm_mse_ratio": 0.9446907039353013
+    },
+    "v36": {
+      "mse_ratio": 1.0009650689843546,
+      "mae_ratio": 0.99456626811408,
+      "cpm_mse_ratio": 0.9533618063135213
+    },
+    "target_centered25": {
+      "mse_ratio": 0.9938586154946097,
+      "mae_ratio": 0.99444760612917,
+      "cpm_mse_ratio": 0.9773239228776468
+    },
+    "retrieval_contrast25": {
+      "mse_ratio": 0.9994197349704262,
+      "mae_ratio": 0.9994339991188154,
+      "cpm_mse_ratio": 0.9982432448031339
+    }
+  },
+  "selection_plan_sha256": "aaf4e11851ad2c86ef6aeca15c77948d1e8d3e7f41a56b7243da07f8893aa020",
+  "V24_champion_unchanged": true,
+  "reserve_opened": false,
+  "uploaded": false,
+  "scope": "Raw public metrics are not private scaled VCC scores. Package requested by user; absence of strict gains is reported, not converted into a promise.",
+  "hybrid_component": {
+    "plan_sha256": "07a3c6a5379e1574b51f26b7f74da141e2092f051037453baed09f5e9c1deca8",
+    "results_sha256": "bc9587af2086c3c9922beeae76e09319e399cb0e9ddc2f25b927bb7aa49ed8a6",
+    "primary_selection_sha256": "9f81f20c302d3f5901f5cd4d65266d931993b5b9671ee83c7a86384e77d0943d",
+    "count_guard_passes": false,
+    "DE_metrics_improved_vs_v35": 2,
+    "adopted": false,
+    "exploratory_after_partial_outcomes": true
+  },
+  "contrastive_correction": {
+    "plan_sha256": "20d4c3a9964f7800183acb404c75f664b28b5b05b09dd420a0cba717fc3bc0bb",
+    "results_sha256": "cdf912423100f8bd6bc565786564db12a3df02d65a494be3e867c9f9269afade",
+    "prior_selection_sha256": "7c95006afaa1bf7e9345770255fdd38b7b40949c25645319ad686a5b4b65dffa",
+    "checks": {
+      "target_centered25": {
+        "metrics_resolved": true,
+        "count_guard": false,
+        "mean_noninferiority": true,
+        "some_gain": true
+      },
+      "retrieval_contrast25": {
+        "metrics_resolved": true,
+        "count_guard": true,
+        "mean_noninferiority": true,
+        "some_gain": true
+      }
+    },
+    "eligible": [
+      "retrieval_contrast25"
+    ],
+    "selected": "retrieval_contrast25",
+    "exploratory_after_primary_outcomes": true,
+    "selector_correction_sha256": "2ee1a4ef00e14d6eb173b076a6637e9825bf67cbad3d624294eb6a01dfb04e72",
+    "undefined_context_rule": "Same primary aggregation: omit per-context unresolved NMAE, require every biological study resolved. HCT116 NMAE undefined in all arms, never replaced by zero."
+  }
+}

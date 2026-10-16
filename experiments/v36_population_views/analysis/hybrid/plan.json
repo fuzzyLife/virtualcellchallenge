@@ -1,0 +1,17 @@
+{
+  "code_sha256": "454c1e118fddf40b460006ca7fa29ebabc99427e95e40eaa368e348567d8a341",
+  "parent_plan_sha256": "0e00fe64506f0e9f66a7f8596773a819b85b134e340f2e3d19091052d1becaec",
+  "models": {
+    "experiments\\v35_response_retrieval\\analysis\\models\\CD4.npz": "6a0eb8a23d76546cb143ceab3c38972fcbdc1bdadb655d5800759242d5583fda",
+    "experiments\\v35_response_retrieval\\analysis\\models\\H1.npz": "6ce038cf65dcf51e7820bef49d2973cb13ca67ccb5ac8518dad85260e4cc3569",
+    "experiments\\v35_response_retrieval\\analysis\\models\\Orion.npz": "d7d3d3befa464ef8496ce6efb5ce9c843810be9d30143aea0a8e377a965bd656",
+    "experiments\\v36_population_views\\analysis\\models\\CD4.npz": "4ae18a9e236782f4066a4e40a442a42cd6e8c2ba022c2581c4cce09b97eab988",
+    "experiments\\v36_population_views\\analysis\\models\\H1.npz": "ae3a11f08fb34528c7c07729a8932735796ee69ce8d76da08fb30d325ac99bb1",
+    "experiments\\v36_population_views\\analysis\\models\\Orion.npz": "da146e3c7fb648573cc7ba7b24b2cd031303625b375ee6fc25ef2467424f06e0"
+  },
+  "arm": "v35_population_dispersion",
+  "added_after": "V35/V36 summary and44 raw mean results, plus partial primary treatment-count outcomes. Explicit exploratory extension, not new confirmation.",
+  "hypothesis": "Keep stronger V35 means; apply only the fixed V36 treatment-specific variance head. Head is conditioned on V24/source evidence, never on an observed treatment or predicted V36 mean.",
+  "cases": "Identical first4 cases/context, same templates, controls, source exclusions and seeds. No new blend or hyperparameter search.",
+  "adopt_if": "Only when the primary selector chooses V35: hybrid passes expression<=1.02*V24,FID>=V24-.02,PDS>=V24-.02; improves>=2 of FID/REACH/JAC/NMAE versus V35, and expression error does not increase versus V35. Null behavior is identical by construction, as dispersion/effect zero without a perturbation. All strict primary improvement/confirmation flags retained."
+}

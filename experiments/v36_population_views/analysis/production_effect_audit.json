@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "model_sha256": "44ac061017c9b2d25b93fb816a18327dc7fa60ea84bb1f56a17912b3481cff07",
+  "arrays_sha256": "860ea70de0a800badf9d4777701d0ea9b6e3a092ddc185fd03c30b13c1f22d63",
+  "records": [
+    {
+      "context": "A",
+      "changed_targets": 300,
+      "changed_coordinates": 1616508,
+      "RMS_log2FC_correction": 0.00100996266202521,
+      "maximum_log2FC_correction": 0.036797694861888885,
+      "unchanged_unmodeled_genes": 13063
+    },
+    {
+      "context": "B",
+      "changed_targets": 300,
+      "changed_coordinates": 1619508,
+      "RMS_log2FC_correction": 0.0007941041135021388,
+      "maximum_log2FC_correction": 0.03270796313881874,
+      "unchanged_unmodeled_genes": 13063
+    },
+    {
+      "context": "C",
+      "changed_targets": 300,
+      "changed_coordinates": 1636908,
+      "RMS_log2FC_correction": 0.0007959046338575051,
+      "maximum_log2FC_correction": 0.03262941911816597,
+      "unchanged_unmodeled_genes": 13063
+    }
+  ],
+  "checks": "Actual V24 parent; official gene/target ordering; finite bounds; own exclusion; exact fallback outside modeled genes; genuine changed predictions.",
+  "auditor_sha256": "bdeff08e670dcd142737ec4261976031f75d68b605ff8c01a184c6d4a81ed9f2"
+}

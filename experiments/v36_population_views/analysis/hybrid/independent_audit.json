@@ -1,0 +1,108 @@
+{
+  "passed": true,
+  "results_sha256": "bc9587af2086c3c9922beeae76e09319e399cb0e9ddc2f25b927bb7aa49ed8a6",
+  "records": [
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "passed": true
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "passed": true
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "passed": true
+    },
+    {
+      "family": "H1",
+      "target": "ACLY",
+      "passed": true
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "passed": true
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "passed": true
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "passed": true
+    },
+    {
+      "family": "HCT116",
+      "target": "RNF141",
+      "passed": true
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "passed": true
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "passed": true
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "passed": true
+    },
+    {
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "passed": true
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "passed": true
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "passed": true
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "passed": true
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "passed": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "passed": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "passed": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "passed": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "passed": true
+    }
+  ],
+  "checks": "All20 DE-set FID/JAC/NMAE summaries and5 PDS/expression panels independently replayed from saved arrays. Raw Wilcoxon/reach p-value tie order inherited, not independently regenerated. Exploratory reused cases, no blind confirmation.",
+  "auditor_sha256": "c726e2b50b9e5c4ec7a5437c9e6c7e48bf95556e4b9ee95fa84efdddfb696399"
+}

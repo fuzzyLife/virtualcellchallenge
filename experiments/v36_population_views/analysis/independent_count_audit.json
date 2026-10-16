@@ -1,0 +1,708 @@
+{
+  "passed": true,
+  "comparisons": 100,
+  "records": [
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Rest_D1",
+      "target": "Non-Targeting",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Rest_D1",
+      "target": "Non-Targeting",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Rest_D1",
+      "target": "Non-Targeting",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Rest_D1",
+      "target": "Non-Targeting",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Stim48_D2",
+      "target": "Non-Targeting",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Stim48_D2",
+      "target": "Non-Targeting",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Stim48_D2",
+      "target": "Non-Targeting",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Stim48_D2",
+      "target": "Non-Targeting",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "NFE2L1",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "NFE2L1",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "NFE2L1",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "NFE2L1",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "PLAGL2",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "PLAGL2",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "PLAGL2",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "PLAGL2",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "ACLY",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "ACLY",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "ACLY",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "ACLY",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "GLI3",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "GLI3",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "GLI3",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "GLI3",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "PATL1",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "PATL1",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "PATL1",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "PATL1",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "RNF141",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "RNF141",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "RNF141",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "RNF141",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "arm": "v24",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "arm": "v35",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "arm": "v36",
+      "DE_set_metrics_replayed": true
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "arm": "v36_dispersion",
+      "DE_set_metrics_replayed": true
+    }
+  ],
+  "scope": "Reimplemented all100 saved DE-set FID/JAC/NMAE/null-call summaries and20 treatment PDS/expression panels. Raw Wilcoxon p-values and reach tie order were not independently regenerated; integer/libraries asserted during generation. These are reused public diagnostics, not private VCC anchors.",
+  "auditor_sha256": "86a50662fa780d6ac47e723a3d7325e354b5dad75d7c6894f71864e20fdd1694"
+}

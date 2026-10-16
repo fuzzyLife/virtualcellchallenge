@@ -1,0 +1,93 @@
+{
+  "selected_arm": "v35",
+  "model_version": 35,
+  "strict_public_guards_passed": false,
+  "status": "exploratory candidate; strict improvement guards not all passed",
+  "confirmed_improvement": false,
+  "available_public_guards_passed": false,
+  "count_summaries": {
+    "v24": {
+      "fidelity": 0.5817027792979993,
+      "reach": 0.19438921817788044,
+      "jaccard": 0.07002678646965145,
+      "nmae": 0.9126006846426815,
+      "pds": 0.7916666666666666,
+      "common_expression_ratio": 37.47193635849526
+    },
+    "v35": {
+      "fidelity": 0.5709809177882575,
+      "reach": 0.1421182991320828,
+      "jaccard": 0.06808641542144422,
+      "nmae": 0.9271093399629375,
+      "pds": 0.6111111111111112,
+      "common_expression_ratio": 39.62253129630915
+    },
+    "v36": {
+      "fidelity": 0.5706511359521316,
+      "reach": 0.1508614159254065,
+      "jaccard": 0.06805554541386907,
+      "nmae": 0.9326378835741215,
+      "pds": 0.5833333333333334,
+      "common_expression_ratio": 44.379961704216534
+    },
+    "v36_dispersion": {
+      "fidelity": 0.571379462616693,
+      "reach": 0.13951516110267745,
+      "jaccard": 0.06798545494417452,
+      "nmae": 0.9317122089336977,
+      "pds": 0.5833333333333334,
+      "common_expression_ratio": 44.37993682844913
+    }
+  },
+  "count_guards": {
+    "v35": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    },
+    "v36": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    },
+    "v36_dispersion": {
+      "checks": {
+        "expression": false,
+        "FID": true,
+        "PDS": false,
+        "null": true
+      },
+      "passes": false
+    }
+  },
+  "raw_mean_summaries": {
+    "v24": {
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_mse_ratio": 1.0
+    },
+    "v35": {
+      "mse_ratio": 0.9944910485360046,
+      "mae_ratio": 0.9905894674088932,
+      "cpm_mse_ratio": 0.9446907039353013
+    },
+    "v36": {
+      "mse_ratio": 1.0009650689843546,
+      "mae_ratio": 0.99456626811408,
+      "cpm_mse_ratio": 0.9533618063135213
+    }
+  },
+  "selection_plan_sha256": "aaf4e11851ad2c86ef6aeca15c77948d1e8d3e7f41a56b7243da07f8893aa020",
+  "V24_champion_unchanged": true,
+  "reserve_opened": false,
+  "uploaded": false,
+  "scope": "Raw public metrics are not private scaled VCC scores. Package requested by user; absence of strict gains is reported, not converted into a promise."
+}

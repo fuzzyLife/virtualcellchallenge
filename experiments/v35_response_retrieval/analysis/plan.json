@@ -1,0 +1,72 @@
+{
+  "version": [
+    35,
+    36
+  ],
+  "dependencies": {
+    "v35_methods.py": "79350285b518f3cf1e6434e411c3d13925837f66d95fd2e2ef0b5a560ac1d171",
+    "v36_methods.py": "4905d67638b46fb4e76ba437dc9717adeaf393bf1210b53464e860cffcc6e56d",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de",
+    "test_v35_v36.py": "14e9d1cd8771e04b50217528ded8190ee6c36b6930ed54add16f83c401d6350a",
+    "v32_methods.py": "fe8930de1e58794f8dcaf3f38d592986fbf072610f9ebf24ccd321aef76e4376",
+    "v32_runtime.py": "0f95099878b9c92ae102827200c9ced181d29e7944d06765212c3fd8b99cca9b",
+    "v30_methods.py": "71f932edd214c3c1ab337878428e727d7a93383c91541a6eca87c88107aa393e",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v24_methods.py": "098e4594ca06aa1604a2982cc568936b98c98ac9c738999b956db37183488bef",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce"
+  },
+  "inputs": {
+    "experiments\\v30_structured_response\\analysis\\sources\\CD4_Rest.npz": "9513e978a75b9c95fa61b69c50793618da9b28496945f6415ca9d2cd01a9b703",
+    "experiments\\v30_structured_response\\analysis\\sources\\CD4_Stim48hr.npz": "4ed94817be2d38bdc2075a30da5b49d632833fc23f5213723509146281a439d8",
+    "experiments\\v30_structured_response\\analysis\\sources\\CD4_Stim8hr.npz": "6bd3f2911eda5c09f7f67ac17af36f769a9352ecb4457fbb1330b1a96b3e1829",
+    "experiments\\v30_structured_response\\analysis\\sources\\H1.npz": "2740df2a0cc32a878fa4833149e72fee2090b50cbfd7d8cadf4f1ea0f03fe59c",
+    "experiments\\v30_structured_response\\analysis\\sources\\HCT116.npz": "a9c16d56fa54ace1ac1d8a584513183eb1727a14f3c84207876dd35030c7e0c5",
+    "experiments\\v30_structured_response\\analysis\\sources\\HEK293T.npz": "7ec15771eadc6c7f2d05a6c4d2c162ef8599d3d229cad984269ae963014911cb",
+    "experiments\\v30_structured_response\\analysis\\sources\\K562_full.npz": "7be4ba552f9bbefbcd247f91e824c9a677c644b40c92aece5cdd60628273a4e2",
+    "experiments\\v30_structured_response\\analysis\\sources\\RPE1_full.npz": "a1d85480b2a51db82e9ccc699f12fd3ea5b140343fa6f6c4b3a1091d17c585ec",
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v24_cd4_response/analysis/models/teacher_all.npz": "f309009b3070ba0697d09f0106cfea4f77726905bead263c0f3ce3223c2d8430",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "reference/v30_structured_response/gene_string_embeddings.v0.3.h5": "789416877b8701ef6f800106d26bf7bb97ea8e72744e6ab93e24933a717f247d"
+  },
+  "outer_families": [
+    "H1",
+    "Orion",
+    "CD4"
+  ],
+  "seed": 35035,
+  "epochs": 8,
+  "steps_per_epoch": 160,
+  "retrieval": "Up to4 exact/STRING-neighbor targets per allowed source; max32 tokens. Entire recipient family and outer family excluded. Differentiable context-conditioned attention over measured gene-level effects. Remove each response donor own-gene coordinate. Family/source/candidate-normalized prior.",
+  "architecture": "Attention79->32->1; per-gene shared decoder51->64->32->2,16 STRING output-gene and16 target coordinates,4 control rank coordinates. All common measured genes, no selected low-rank response decoder. Zero-initial residual head, bounded +/-0.5 log2FC correction; outside modeled/support coordinates exact V24 fallback.",
+  "V35": "Family-balanced summary LFC MSE+0.2 MAE with small residual penalty. Fit target hash80%, source-validation target20%; select among8 epochs using source-validation MSE. Whole-family cross-fitted V24 as baseline for every fitting recipient.",
+  "V36": "Warm-start its matching V35 model. Eight pairs of disjoint treated populations and matched-lane control populations per training source target. Population LFC consistency supervision weighted by replicate agreement; log-CV2 response head and source NTC variance/dropout features. Summary and population objectives balanced; no observed treated mean/variance at inference.",
+  "negative_controls": [
+    "V24",
+    "retrieved response identities shuffled within source at inference",
+    "fixed retrieval attention at inference"
+  ],
+  "counts": "V35 mean, V36 mean with unchanged V24 residual10 emitter, V36 learned gene-wise empirical-residual weights0.05..0.25 (Poisson0.65 unchanged), exact libraries and dual mean moments. Same fixed first4 public cases/context plus5 nulls as V34;200-cell D1 descriptive.",
+  "mean_gate": {
+    "MSE_ratio_max": 0.99,
+    "MAE_ratio_max": 0.995,
+    "worst_family_MSE_ratio_max": 1.02,
+    "beats_shuffle_on_both": true
+  },
+  "count_guards": "Family-balanced raw metrics; expression error no more than2% worse; fidelity drop<=0.02; PDS drop<=0.02; null calls no worse than V24. Do not interpret null fidelity as treatment recovery.",
+  "release": "User explicitly requests a new package: select best experimental candidate by equal-study mean MSE, subject to count guards when feasible. If no strict improvement passes, label package exploratory/unconfirmed, preserve V24 as champion, do not call it better and do not open reserve. No upload or push.",
+  "validation_scope": "Previously spent public families and cases, exploratory; no official private anchors or promised leaderboard improvement. D3 untouched.",
+  "literature": [
+    {
+      "url": "https://arxiv.org/abs/2603.07233",
+      "idea": "Learn context-dependent retrieval, not fixed semantic averaging; independently adapted with STRING instead of GenePT."
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.34391",
+      "idea": "Independent population views distinguish repeatable effects from sampling variation; moment-summary adaptation, not full author set encoder or reproduction."
+    }
+  ]
+}

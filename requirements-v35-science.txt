@@ -1,0 +1,10 @@
+# Python3.12.10; torch CUDA wheel uses the official cu126 extra index.
+--extra-index-url https://download.pytorch.org/whl/cu126
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
+torch==2.10.0+cu126
+h5py==3.16.0
+anndata==0.13.4
+threadpoolctl==3.7.0

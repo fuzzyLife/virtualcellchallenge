@@ -512,3 +512,13 @@ __marimo__/
 
 # Outcome-known reproduction namespaces preserve original frozen runs
 /experiments/replays/
+
+# V35/V36 regenerable models, count caches and upload packages
+/experiments/v35_response_retrieval/**/*.npz
+/experiments/v36_population_views/**/*.npz
+/experiments/v3[56]*/*.log
+/experiments/v3[56]*/*.h5ad*
+/experiments/v3[56]*/*.vcc*
+
+# Regenerated from fixed sampler seeds, consistent with earlier submissions
+/experiments/v36_population_views/analysis/prediction_control_rows.csv

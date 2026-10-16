@@ -1,0 +1,11 @@
+{
+  "initial_metadata_sha256": "61df7d409ca80f23ff646a3806bf150cbb44c15a6b617c5c8c1d89cff208e139",
+  "initial_arrays_sha256": "91f6a06cf51661fa47c1486cd75f3ed923ad56901e7e6388e05fe513f94d9cce",
+  "corrected_arrays_sha256": "860ea70de0a800badf9d4777701d0ea9b6e3a092ddc185fd03c30b13c1f22d63",
+  "adapter_sha256": "7f69f117bd824e9357d92f1d62e075acb32d217d834d63c4a1d053f3e8b30be8",
+  "numeric_effect_and_dispersion_arrays_exactly_unchanged": true,
+  "gene_and_target_values_exactly_equal_to_canonical_spec_and_V24": true,
+  "object_arrays_unpickled": false,
+  "new_counts_written_before_correction": false,
+  "reason": "Pandas returned object-string axes; frozen strict loader rejected their pickle encoding. Encode canonical labels as NumPy Unicode, retain all numeric predictions and frozen original source. Original arrays/metadata preserved."
+}

@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "result_sha256": "e6ffff65e6c82ca5464176f3a0467e467fb94f6841682511e3d4152c8b53cac6",
+  "models": [
+    {
+      "outer": "H1",
+      "fit_targets": 230,
+      "validation_targets": 67,
+      "selected_epoch": 7,
+      "gene_outputs": 5595,
+      "numpy_forward_max_error": 7.804786994643209e-09
+    },
+    {
+      "outer": "Orion",
+      "fit_targets": 175,
+      "validation_targets": 52,
+      "selected_epoch": 7,
+      "gene_outputs": 5540,
+      "numpy_forward_max_error": 1.9325069933184835e-08
+    },
+    {
+      "outer": "CD4",
+      "fit_targets": 223,
+      "validation_targets": 67,
+      "selected_epoch": 5,
+      "gene_outputs": 6221,
+      "numpy_forward_max_error": 1.4605228165764927e-08
+    }
+  ],
+  "score_replays": [
+    {
+      "source": "CD4_Rest",
+      "arm": "learned",
+      "mse_ratio": 0.9952642684336478,
+      "mae_ratio": 0.993177372307622
+    },
+    {
+      "source": "CD4_Rest",
+      "arm": "response_shuffled",
+      "mse_ratio": 0.9954666911362283,
+      "mae_ratio": 0.9936891823206607
+    },
+    {
+      "source": "CD4_Rest",
+      "arm": "static_retrieval",
+      "mse_ratio": 0.995153440552607,
+      "mae_ratio": 0.9928978675489509
+    },
+    {
+      "source": "CD4_Stim48hr",
+      "arm": "learned",
+      "mse_ratio": 0.9937863028006747,
+      "mae_ratio": 0.9905557034238976
+    },
+    {
+      "source": "CD4_Stim48hr",
+      "arm": "response_shuffled",
+      "mse_ratio": 0.9940462449163411,
+      "mae_ratio": 0.9913201498758282
+    },
+    {
+      "source": "CD4_Stim48hr",
+      "arm": "static_retrieval",
+      "mse_ratio": 0.9936700510544789,
+      "mae_ratio": 0.9903439358963696
+    },
+    {
+      "source": "CD4_Stim8hr",
+      "arm": "learned",
+      "mse_ratio": 0.994954051906354,
+      "mae_ratio": 0.9917806336945841
+    },
+    {
+      "source": "CD4_Stim8hr",
+      "arm": "response_shuffled",
+      "mse_ratio": 0.9951865539266895,
+      "mae_ratio": 0.9924640245014048
+    },
+    {
+      "source": "CD4_Stim8hr",
+      "arm": "static_retrieval",
+      "mse_ratio": 0.9947710292832266,
+      "mae_ratio": 0.9914596384718283
+    },
+    {
+      "source": "H1",
+      "arm": "learned",
+      "mse_ratio": 1.0017749864250107,
+      "mae_ratio": 0.9985590023789692
+    },
+    {
+      "source": "H1",
+      "arm": "response_shuffled",
+      "mse_ratio": 1.0015090746927313,
+      "mae_ratio": 0.9983998896993349
+    },
+    {
+      "source": "H1",
+      "arm": "static_retrieval",
+      "mse_ratio": 1.0019926988355048,
+      "mae_ratio": 0.9988011599881842
+    },
+    {
+      "source": "HCT116",
+      "arm": "learned",
+      "mse_ratio": 0.9982237417185351,
+      "mae_ratio": 1.0003016568312875
+    },
+    {
+      "source": "HCT116",
+      "arm": "response_shuffled",
+      "mse_ratio": 0.9983583149612393,
+      "mae_ratio": 1.000497399341624
+    },
+    {
+      "source": "HCT116",
+      "arm": "static_retrieval",
+      "mse_ratio": 0.9981954584671564,
+      "mae_ratio": 1.0000210948350832
+    },
+    {
+      "source": "HEK293T",
+      "arm": "learned",
+      "mse_ratio": 0.9973848027893084,
+      "mae_ratio": 0.9995403568775897
+    },
+    {
+      "source": "HEK293T",
+      "arm": "response_shuffled",
+      "mse_ratio": 0.9975983116682701,
+      "mae_ratio": 0.9998626824826605
+    },
+    {
+      "source": "HEK293T",
+      "arm": "static_retrieval",
+      "mse_ratio": 0.9972646563617451,
+      "mae_ratio": 0.9990866183095939
+    }
+  ],
+  "checks": "All fitting/validation target and entire-family exclusions, retrieval labels, selected epochs, exact fallback, own exclusion, finite bounded outputs. NumPy forward independently reimplemented; all saved summary scores replayed in float64. First independent population pair per source/target checked from explicit row identities; other pairs asserted during creation.",
+  "auditor_sha256": "d981f5672e762e54eadea0cd11b16d7666447a2d1de3aaef1ebb409af7a861fd"
+}

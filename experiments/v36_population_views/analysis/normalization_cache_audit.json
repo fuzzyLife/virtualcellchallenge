@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "cache_amendment_sha256": "7597165607a7916327f64ea66aee2825591c854f07f981aaea6837e558c5489d",
+  "models_checked": [
+    "CD4",
+    "H1",
+    "Orion"
+  ],
+  "checks": "Bit-exact normalization checks; original frozen methods and cache hashes; all population fit/validation target boundaries and V35 parent checkpoint lineage.",
+  "auditor_sha256": "bf1264f45aa7d0279e10982bcb1d1ee64768987919e2f4a58f88f4944a2247cc"
+}

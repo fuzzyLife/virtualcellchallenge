@@ -1,5 +1,20 @@
 # Virtual Cell Challenge 2026
 
+<!-- v35-v36-model-tests:begin -->
+
+## V35/V36 retrieval and population-view tests (2026-10-16)
+
+Implemented experimental gene-response retrieval with a bounded V24 residual, then independent raw-population-view mean/dispersion training. Both completed whole-family validation, 44 actual-cell mean cases, 20 count cases and 5 control-null cases. Summary squared LFC error changes: V35 -0.192%, V36 +0.014%. Negative error changes are favorable; these are reused public development results, not private VCC scores.
+
+The requested upload package is [prediction.vcc](experiments/v36_population_views/prediction.vcc), selected arm `retrieval_contrast25`. **exploratory candidate; strict improvement guards not all passed**. Strict public guards passed: False; new blind confirmation: False. V24 remains the published champion at 0.14299785521745675. Its package is unchanged; D3 remained sealed; no upload was performed.
+
+Seven targeted tests and independent inference, score, split and count audits passed. Official packaging and a separate 360,000-row provenance/library audit also passed. [Results, limits and upload command](V35_V36_RESULTS.md), [strategy and commands](V35_V36_STRATEGY.md), [safe reproduction runner](reproduce_v35_v36.py). Scripts stay in the root; large arrays/packages remain outside Git.
+
+<!-- v35-v36-model-tests:end -->
+
+
+
+
 <!-- v32-v34-model-tests:begin -->
 
 ## V32–V34: three additional model tests (2026-10-16)

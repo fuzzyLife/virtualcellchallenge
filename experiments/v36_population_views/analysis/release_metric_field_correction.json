@@ -1,0 +1,7 @@
+{
+  "parent_comparison_plan_sha256": "aaf4e11851ad2c86ef6aeca15c77948d1e8d3e7f41a56b7243da07f8893aa020",
+  "original_selector_sha256": "8319b32d88cf4cd5c7c3606caac1118e890d43ea681f018f264bedc376e84e77",
+  "corrected_selector_sha256": "8b9d470c54e485fc5735e3c59fdfa8719114ff1fe501fe9e3e5778f1a1f97fc8",
+  "reason": "Before any new summary/mean/count outcome, inspect frozen V34 scorer schema: expression field is common_expression_ratio, not expression_error. Same comparison, thresholds and selection; use the actual numerator/denominator error-ratio field. Original selector preserved.",
+  "new_outcomes_available": false
+}

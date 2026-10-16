@@ -1,0 +1,26 @@
+{
+  "plan_sha256": "20d4c3a9964f7800183acb404c75f664b28b5b05b09dd420a0cba717fc3bc0bb",
+  "results_sha256": "cdf912423100f8bd6bc565786564db12a3df02d65a494be3e867c9f9269afade",
+  "prior_selection_sha256": "7c95006afaa1bf7e9345770255fdd38b7b40949c25645319ad686a5b4b65dffa",
+  "checks": {
+    "target_centered25": {
+      "metrics_resolved": true,
+      "count_guard": false,
+      "mean_noninferiority": true,
+      "some_gain": true
+    },
+    "retrieval_contrast25": {
+      "metrics_resolved": true,
+      "count_guard": true,
+      "mean_noninferiority": true,
+      "some_gain": true
+    }
+  },
+  "eligible": [
+    "retrieval_contrast25"
+  ],
+  "selected": "retrieval_contrast25",
+  "exploratory_after_primary_outcomes": true,
+  "selector_correction_sha256": "2ee1a4ef00e14d6eb173b076a6637e9825bf67cbad3d624294eb6a01dfb04e72",
+  "undefined_context_rule": "Same primary aggregation: omit per-context unresolved NMAE, require every biological study resolved. HCT116 NMAE undefined in all arms, never replaced by zero."
+}

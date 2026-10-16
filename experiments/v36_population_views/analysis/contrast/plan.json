@@ -1,0 +1,22 @@
+{
+  "parent_plan_sha256": "0e00fe64506f0e9f66a7f8596773a819b85b134e340f2e3d19091052d1becaec",
+  "dependencies": {
+    "run_v35_v36_contrasts.py": "9827935050c43a56068cd4bb4de4cd095284a1bc91e1b781e2350cd1f616908a",
+    "v35_contrast_methods.py": "46ee1bc990204189ba5899683f9856bf215c5c7ed6bbf9bc42a570c7c556078e"
+  },
+  "models": {
+    "H1": "6ce038cf65dcf51e7820bef49d2973cb13ca67ccb5ac8518dad85260e4cc3569",
+    "Orion": "d7d3d3befa464ef8496ce6efb5ce9c843810be9d30143aea0a8e377a965bd656",
+    "CD4": "6a0eb8a23d76546cb143ceab3c38972fcbdc1bdadb655d5800759242d5583fda"
+  },
+  "arms": [
+    "target_centered25",
+    "retrieval_contrast25"
+  ],
+  "strength": 0.25,
+  "added_after": "All primary summary/mean/count outcomes and the common-shift diagnostic were known. Explicit exploratory corrective test, not blind validation.",
+  "case_rule": "All44 original raw mean cases and identical first4 count cases/context; complete300 predicted targets used for centering, never center only scored cases. Same inputs, seeds and emitter.",
+  "hypothesis": "Protect target discrimination: target-centered residual removes target-shared drift; genuine-minus-shuffled residual retains response-retrieval dependence. Fixed quarter strength, no grid.",
+  "select_rule": "Prefer a contrast passing expression<=1.02*V24,FID>=V24-.02,PDS>=V24-.02,NMAE<=1.01*V24 and mean MSE/MAE<=1.002, with at least one of mean MSE/MAE/DE metrics improved. Select smallest raw mean MSE among passing contrasts and a currently selected candidate if it passes the same count/mean limits. If none passes, retain current exploratory selection. Strict primary improvement/confirmation flags unchanged.",
+  "boundary_checks_passed": true
+}

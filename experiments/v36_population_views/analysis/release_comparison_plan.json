@@ -1,0 +1,16 @@
+{
+  "parent_plan_sha256": "0e00fe64506f0e9f66a7f8596773a819b85b134e340f2e3d19091052d1becaec",
+  "code_sha256": "8319b32d88cf4cd5c7c3606caac1118e890d43ea681f018f264bedc376e84e77",
+  "rule": {
+    "mean_selection": "Choose v35 or v36 with lowest equal-study squared LFC error on the44 frozen raw cases, among candidates passing count noninferiority guards if any. If none pass, package the lowest-mean-error candidate as exploratory only. Never change the V24 champion record.",
+    "dispersion_selection": "For a selected v36 mean, adopt its dispersion arm only if it passes all count guards and improves at least2 of FID,REACH,JAC,NMAE with no expression-error regression versus the unchanged-emitter v36 arm. Otherwise unchanged V24 emitter.",
+    "guards": {
+      "maximum_relative_expression_error": 1.02,
+      "maximum_FID_drop": 0.02,
+      "maximum_PDS_drop": 0.02,
+      "null_DE_calls": "no more than matched V24 for every context"
+    },
+    "reserve": "Never open D3 for exploratory packaging; no blind improvement claim.",
+    "submission": "Prepare validated upload package; no automatic upload, existing packages unchanged."
+  }
+}
