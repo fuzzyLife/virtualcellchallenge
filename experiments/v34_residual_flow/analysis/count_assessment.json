@@ -1,0 +1,134 @@
+{
+  "plan_sha256": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+  "changes": {
+    "flow_mean25": {
+      "equal_study_changes": {
+        "pds": -0.013888888888888876,
+        "fidelity": -0.005114158628244418,
+        "reach": 0.058182540171578784,
+        "jaccard": -0.0002746556420726509,
+        "nmae": -0.0018559208240222873,
+        "common_expression_ratio": 0.018638735224155673
+      },
+      "per_study_changes": {
+        "pds": {
+          "H1": 0.0,
+          "Orion": -0.041666666666666685,
+          "CD4": 5.551115123125783e-17
+        },
+        "fidelity": {
+          "H1": -0.003572362029437559,
+          "Orion": -0.005926154247196724,
+          "CD4": -0.00584395960809897
+        },
+        "reach": {
+          "H1": 0.04163373471570041,
+          "Orion": 0.07795698924731181,
+          "CD4": 0.05495689655172414
+        },
+        "jaccard": {
+          "H1": -0.0012515508682987633,
+          "Orion": -0.0007279056722570571,
+          "CD4": 0.001155489614337868
+        },
+        "nmae": {
+          "H1": -0.0028698475942730006,
+          "Orion": 0.0024331582958513343,
+          "CD4": -0.005131073173645195
+        },
+        "common_expression_ratio": {
+          "H1": 0.005596704035704558,
+          "Orion": 0.04447993360095126,
+          "CD4": 0.0058395680358112045
+        }
+      }
+    },
+    "flow_shape25": {
+      "equal_study_changes": {
+        "pds": -0.013888888888888876,
+        "fidelity": -0.005894089821844954,
+        "reach": 0.058182540171578784,
+        "jaccard": 0.00029783430302233153,
+        "nmae": -0.0019315229187506129,
+        "common_expression_ratio": 0.01783394965667129
+      },
+      "per_study_changes": {
+        "pds": {
+          "H1": 0.0,
+          "Orion": -0.041666666666666685,
+          "CD4": 5.551115123125783e-17
+        },
+        "fidelity": {
+          "H1": -0.0022283109075251772,
+          "Orion": -0.003205611071372405,
+          "CD4": -0.012248347486637279
+        },
+        "reach": {
+          "H1": 0.04163373471570041,
+          "Orion": 0.07795698924731181,
+          "CD4": 0.05495689655172414
+        },
+        "jaccard": {
+          "H1": -0.001068833063977745,
+          "Orion": -0.00026231238573115405,
+          "CD4": 0.0022246483587758936
+        },
+        "nmae": {
+          "H1": -0.002844814595159062,
+          "Orion": 0.0022352947431873993,
+          "CD4": -0.005185048904280176
+        },
+        "common_expression_ratio": {
+          "H1": 0.0031823473332512897,
+          "Orion": 0.04447993360095137,
+          "CD4": 0.0058395680358112045
+        }
+      }
+    }
+  },
+  "decisions": {
+    "flow_mean25": {
+      "checks": {
+        "all_metrics_resolved": true,
+        "pds_guard": true,
+        "fidelity_guard": true,
+        "reach_guard": true,
+        "jaccard_guard": true,
+        "nmae_guard": true,
+        "common_expression_ratio_guard": true,
+        "family_fidelity_guard": true,
+        "family_reach_guard": true,
+        "two_DE_metrics_improve": false,
+        "null_H1": false,
+        "null_HCT116": false,
+        "null_HEK293T": false,
+        "null_CD4_Rest_D1": false,
+        "null_CD4_Stim48_D2": false,
+        "mean_stage_passed": false
+      },
+      "passes": false
+    },
+    "flow_shape25": {
+      "checks": {
+        "all_metrics_resolved": true,
+        "pds_guard": true,
+        "fidelity_guard": true,
+        "reach_guard": true,
+        "jaccard_guard": true,
+        "nmae_guard": true,
+        "common_expression_ratio_guard": true,
+        "family_fidelity_guard": true,
+        "family_reach_guard": true,
+        "two_DE_metrics_improve": true,
+        "null_H1": false,
+        "null_HCT116": false,
+        "null_HEK293T": false,
+        "null_CD4_Rest_D1": false,
+        "null_CD4_Stim48_D2": false,
+        "mean_stage_passed": false
+      },
+      "passes": false
+    }
+  },
+  "scope": "Fixed diagnostic subset, previously spent public biology. Raw score differences only; no host-anchor scaling. Shape arm descriptive and cannot override failed prespecified mean stage."
+}

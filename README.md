@@ -1,5 +1,26 @@
 # Virtual Cell Challenge 2026
 
+<!-- v32-v34-model-tests:begin -->
+
+## V32–V34: three additional model tests (2026-10-16)
+
+Implemented and tested, in order, a paired context-conditioned perturbation-response map, TabICLv2 with matched ridge/CatBoost controls, and a control-anchored conditional RNA flow that learns its own means and variation. All three were tested independently of earlier failures. The flow covers 1,024 measured outputs with V24 fallback; complete STATE/TxPert transition fine-tuning remains untested.
+
+| Primary pilot | Squared LFC error change vs matched V24 | Absolute LFC error change | Mean gate |
+|---|---:|---:|---|
+| V32 paired response map | +0.302% | +0.520% | Fail |
+| V33 TabICLv2 | +0.866% | +1.287% | Fail |
+| V34 flow mean25 | +0.421% | +0.280% | Fail |
+
+Higher error is worse. V32/V33 use summary-coordinate errors; V34 uses real-cell mean-composition errors, with different denominators. These are reused public whole-family development tests, not anchored leaderboard scores. V34 additionally completed20 treatment cases and five400-cell control-null cases with three count arms. Its shape comparison preserved exact reference gene totals/libraries and CPM-mean L1<=0.0005; the maximum observed L1 was0.00017931. Recall improved locally, but fidelity/expression worsened and synthetic null DE calls remained343–1,392 versus0–1 for actual control comparisons.
+
+Twelve targeted checks and independent model/score/inference/contract audits passed. Numerical and adapter corrections, original failed attempts, frozen plans, source row identities and hashes are preserved. The flow comparison also changes intervention-information access: it does not receive the measured source-response tokens used by V24. These bounded pilots do not rule out their model classes. The fresh D3 donor reserve stayed sealed; no new package or upload was created. V24 remains best published at0.14299785521745675.
+
+[Results and count diagnostics](V32_V34_RESULTS.md), [strategy and commands](V32_V34_STRATEGY.md), [fresh-output reproduction runner](reproduce_v32_v34.py), [comparison figure](experiments/v34_residual_flow/analysis/comparison.png). Scripts remain in the root; large model/data arrays remain outside Git.
+
+<!-- v32-v34-model-tests:end -->
+
+
 <!-- v30-v31-response-tests:begin -->
 
 ## V30/V31 new response-model tests (2026-10-15)

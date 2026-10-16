@@ -1,0 +1,250 @@
+{
+  "passed": true,
+  "corrected_results_sha256": "249bd061841e7db06952dae801357aa58d1b8c152f92de376862d0da827deeac",
+  "fits": [
+    {
+      "file": "CD4.npz",
+      "masked_gradient_relative_residual": 6.769838846274928e-09,
+      "train_rows": 1874,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "excluded": [
+        "CD4"
+      ]
+    },
+    {
+      "file": "CD4_H1.npz",
+      "masked_gradient_relative_residual": 7.833783186562915e-09,
+      "train_rows": 1756,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "HCT116",
+        "HEK293T"
+      ],
+      "excluded": [
+        "CD4",
+        "H1"
+      ]
+    },
+    {
+      "file": "CD4_Orion.npz",
+      "masked_gradient_relative_residual": 9.43357544485656e-09,
+      "train_rows": 550,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1"
+      ],
+      "excluded": [
+        "CD4",
+        "Orion"
+      ]
+    },
+    {
+      "file": "CD4_shuffle.npz",
+      "masked_gradient_relative_residual": 8.283760452063649e-09,
+      "train_rows": 1874,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "excluded": [
+        "CD4"
+      ]
+    },
+    {
+      "file": "H1.npz",
+      "masked_gradient_relative_residual": 7.202453071032635e-09,
+      "train_rows": 5420,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "HCT116",
+        "HEK293T",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "H1"
+      ]
+    },
+    {
+      "file": "H1_CD4.npz",
+      "masked_gradient_relative_residual": 7.833783186562915e-09,
+      "train_rows": 1756,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "HCT116",
+        "HEK293T"
+      ],
+      "excluded": [
+        "H1",
+        "CD4"
+      ]
+    },
+    {
+      "file": "H1_Orion.npz",
+      "masked_gradient_relative_residual": 8.173250290824357e-09,
+      "train_rows": 2308,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "H1",
+        "Orion"
+      ]
+    },
+    {
+      "file": "H1_shuffle.npz",
+      "masked_gradient_relative_residual": 8.181720151034068e-09,
+      "train_rows": 5420,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "HCT116",
+        "HEK293T",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "H1"
+      ]
+    },
+    {
+      "file": "Orion.npz",
+      "masked_gradient_relative_residual": 8.595011804464557e-09,
+      "train_rows": 2438,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "Orion"
+      ]
+    },
+    {
+      "file": "Orion_CD4.npz",
+      "masked_gradient_relative_residual": 9.43357544485656e-09,
+      "train_rows": 550,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1"
+      ],
+      "excluded": [
+        "Orion",
+        "CD4"
+      ]
+    },
+    {
+      "file": "Orion_H1.npz",
+      "masked_gradient_relative_residual": 8.173250290824357e-09,
+      "train_rows": 2308,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "Orion",
+        "H1"
+      ]
+    },
+    {
+      "file": "Orion_shuffle.npz",
+      "masked_gradient_relative_residual": 9.645283509894067e-09,
+      "train_rows": 2438,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "excluded": [
+        "Orion"
+      ]
+    }
+  ],
+  "outer_replays": [
+    {
+      "outer": "H1",
+      "arm": "paired",
+      "replayed_MSE_ratio": 1.0012444050130975,
+      "replayed_MAE_ratio": 1.0032390617231544
+    },
+    {
+      "outer": "H1",
+      "arm": "identity_shuffled",
+      "replayed_MSE_ratio": 1.0013564075778993,
+      "replayed_MAE_ratio": 1.0031880946149352
+    },
+    {
+      "outer": "H1",
+      "arm": "source_copy",
+      "replayed_MSE_ratio": 1.0013918954771197,
+      "replayed_MAE_ratio": 1.0036420125337342
+    },
+    {
+      "outer": "Orion",
+      "arm": "paired",
+      "replayed_MSE_ratio": 1.0028295468685438,
+      "replayed_MAE_ratio": 1.0043652120009423
+    },
+    {
+      "outer": "Orion",
+      "arm": "identity_shuffled",
+      "replayed_MSE_ratio": 1.0031905333199989,
+      "replayed_MAE_ratio": 1.0051019385379973
+    },
+    {
+      "outer": "Orion",
+      "arm": "source_copy",
+      "replayed_MSE_ratio": 1.0027738324606708,
+      "replayed_MAE_ratio": 1.0039918378309598
+    },
+    {
+      "outer": "CD4",
+      "arm": "paired",
+      "replayed_MSE_ratio": 1.0049830958179526,
+      "replayed_MAE_ratio": 1.007992861890551
+    },
+    {
+      "outer": "CD4",
+      "arm": "identity_shuffled",
+      "replayed_MSE_ratio": 1.0043826555082889,
+      "replayed_MAE_ratio": 1.007380208889162
+    },
+    {
+      "outer": "CD4",
+      "arm": "source_copy",
+      "replayed_MSE_ratio": 1.0042844102246706,
+      "replayed_MAE_ratio": 1.0067602629387222
+    }
+  ],
+  "auditor_sha256": "657e4d7897b9197f368d5b66cdbe6b44b69a72d4a8525b811c254d7231bf2763",
+  "scope": "All12 fitted ridge gradients and all9 corrected outer summaries replayed; whole-family and identity splits checked. Frozen V24 fallback outside support exact."
+}

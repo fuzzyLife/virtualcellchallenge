@@ -1,0 +1,56 @@
+{
+  "version": 33,
+  "dependencies": {
+    "run_v33_experiment.py": "aed8b9a63ff5324198edd4bf56435433e782640b330d2f87a611f1010f55eba8",
+    "test_v33_tabular.py": "6a9a86e0f06a915fccbd733ffd790b2f0cdb9303efedef01722af24c5ee6cb1e",
+    "collect_v33_checkpoint.py": "eaacd6db5a056f655e31d8a688281a0f1e324e8ed6df5192295d9479eb04362a",
+    "v32_runtime.py": "0f95099878b9c92ae102827200c9ced181d29e7944d06765212c3fd8b99cca9b",
+    "v32_methods.py": "fe8930de1e58794f8dcaf3f38d592986fbf072610f9ebf24ccd321aef76e4376"
+  },
+  "parent_plan_sha256": "b6d3f782aa8b7ac2d81d24e0ae8b0b98fced29ca6c2757edb770d6598c30634e",
+  "checkpoint": {
+    "url": "https://huggingface.co/jingang/TabICL/resolve/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+    "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+    "bytes": 114324594,
+    "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+    "license": "BSD-3-Clause",
+    "gated": false,
+    "packages": {
+      "tabicl": "2.2.0",
+      "einops": "0.8.2",
+      "catboost": "1.2.10"
+    },
+    "weights_loader": "Official TabICL uses torch.load(weights_only=True); no pickled foreign model class."
+  },
+  "arms": [
+    "tabicl",
+    "catboost",
+    "ridge",
+    "identity_shuffled_tabicl"
+  ],
+  "response_rank": 8,
+  "max_prompt_rows": 512,
+  "selection": "Fixed alpha0.5 primary; full alpha1 diagnostic only. No choosing a model or alpha on outer outcomes. Whole H1/Orion/CD4 exclusions; global target-hash20% withheld from all source fitting/basis labels. Same allowed source response tokens at query.",
+  "tabicl": {
+    "n_estimators": 2,
+    "batch_size": 1,
+    "norm_methods": [
+      "none"
+    ],
+    "device": "cuda",
+    "use_amp": false,
+    "use_fa3": false,
+    "kv_cache": true,
+    "checkpoint_version": "tabicl-regressor-v2-20260212.ckpt"
+  },
+  "catboost": {
+    "iterations": 200,
+    "depth": 5,
+    "learning_rate": 0.05,
+    "loss": "MultiRMSE"
+  },
+  "ridge_alpha": 10.0,
+  "labels": "Own-coordinate-excluded least-squares program coefficients; no own-target expression supplied. Source missing outputs restricted to shared measured axis, others fall back to V24.",
+  "gate": "Primary TabICL MSE<=0.99, MAE<=0.995 vs V24; worst-family MSE<=1.02; better than identity-shuffled TabICL on both. CatBoost and ridge are matched descriptive controls, cannot replace a failed primary after outer scoring.",
+  "scope": "Small-budget512-row8-program pilot of tabular foundation modeling, not exhaustive family tuning or published VCC score. Reused public biology. No reserve/package/upload."
+}

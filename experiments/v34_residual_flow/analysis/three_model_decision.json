@@ -1,0 +1,53 @@
+{
+  "V32_passes": false,
+  "V33_passes": false,
+  "V34_mean_passes": false,
+  "V34_count_decisions": {
+    "flow_mean25": {
+      "checks": {
+        "all_metrics_resolved": true,
+        "pds_guard": true,
+        "fidelity_guard": true,
+        "reach_guard": true,
+        "jaccard_guard": true,
+        "nmae_guard": true,
+        "common_expression_ratio_guard": true,
+        "family_fidelity_guard": true,
+        "family_reach_guard": true,
+        "two_DE_metrics_improve": false,
+        "null_H1": false,
+        "null_HCT116": false,
+        "null_HEK293T": false,
+        "null_CD4_Rest_D1": false,
+        "null_CD4_Stim48_D2": false,
+        "mean_stage_passed": false
+      },
+      "passes": false
+    },
+    "flow_shape25": {
+      "checks": {
+        "all_metrics_resolved": true,
+        "pds_guard": true,
+        "fidelity_guard": true,
+        "reach_guard": true,
+        "jaccard_guard": true,
+        "nmae_guard": true,
+        "common_expression_ratio_guard": true,
+        "family_fidelity_guard": true,
+        "family_reach_guard": true,
+        "two_DE_metrics_improve": true,
+        "null_H1": false,
+        "null_HCT116": false,
+        "null_HEK293T": false,
+        "null_CD4_Rest_D1": false,
+        "null_CD4_Stim48_D2": false,
+        "mean_stage_passed": false
+      },
+      "passes": false
+    }
+  },
+  "new_submission_generated": false,
+  "reserve_opened": false,
+  "published_champion": "V24",
+  "published_overall": 0.14299785521745675
+}

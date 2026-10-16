@@ -1,0 +1,7 @@
+{
+  "parent_plan_sha256": "5fc89364e83ee0b021edcc7357f763af3f8ee849289a0b83992955215b85f343",
+  "correction_sha256": "74bc94a1781c1e675be442ac7e755ace5e4727e888a17b60cdc3dd94f16f17fa",
+  "wrapper_sha256": "3694103d1690eb7c3d52fa147b5fbe51fddc7af7518db9970223d45194db1ed3",
+  "adapter_sha256": "c74b9358c8ca96395aaf77d200302f839424f0f27f69735b198ee3d0f14bc279",
+  "reason": "Before V33 model scoring, retain exact V24 outside supported predictions and attach the paired table fitting feature_mean/scale to the query adapter. Initial execution stopped at missing adapter key before any model scores, fits or hyperparameter outcomes. Original frozen code retained. Same models/grid/splits/gates."
+}

@@ -1,0 +1,6 @@
+{
+  "parent_plan_sha256": "5fc89364e83ee0b021edcc7357f763af3f8ee849289a0b83992955215b85f343",
+  "correction_sha256": "74bc94a1781c1e675be442ac7e755ace5e4727e888a17b60cdc3dd94f16f17fa",
+  "wrapper_sha256": "737abf0f575814925a95357d557aa52fb94a305f5931134a71c35e0a46792280",
+  "reason": "Before any V33 outcomes, adopt V32 fallback correction so unmodeled/missing-token coordinates retain exact V24. No model/grid/split/gate change."
+}

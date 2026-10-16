@@ -1,0 +1,129 @@
+{
+  "sha256": "c11edf403f9537eb792409c6aabbe5d92703a0c6cea84fd61d4d9a6a4c3a15dc",
+  "plan_sha256": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+  "training_sha256": "77f8ac650f6ab9858fb23f979db2af103a8d0fc911a8238b8b4288a1759ea5dc",
+  "outer": "Orion",
+  "fitting_sources": [
+    "H1",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "fitting_targets": [
+    "ADNP",
+    "AKAP1",
+    "AKT2",
+    "ALG12",
+    "ANKZF1",
+    "CHKB",
+    "DEAF1",
+    "DEK",
+    "DNTTIP1",
+    "DVL3",
+    "FXYD5",
+    "HDAC8",
+    "HSBP1",
+    "MED13",
+    "MED15",
+    "MED25",
+    "MSI2",
+    "MTA1",
+    "NABP2",
+    "NAIF1",
+    "NFE2L1",
+    "Non-Targeting",
+    "PIM2",
+    "PLAGL2",
+    "PPIP5K2",
+    "PSKH1",
+    "PTMS",
+    "RNF2",
+    "SHPRH",
+    "SIN3B",
+    "SLC39A1",
+    "SMARCA5",
+    "SRSF5",
+    "SSR4",
+    "STAT6",
+    "SUPT7L",
+    "TARBP2",
+    "THAP3",
+    "TMEM186",
+    "TMEM209",
+    "TRAPPC6A",
+    "VIM",
+    "ZBTB41",
+    "ZC3HAV1",
+    "ZFP62",
+    "ZNF16",
+    "ZNF282",
+    "ZNF32",
+    "ZNF444",
+    "ZNF496",
+    "ZNF627",
+    "ZNF641"
+  ],
+  "validation_targets": [
+    "ACLY",
+    "BRPF1",
+    "CCDC112",
+    "PCGF1",
+    "PRKACA",
+    "SLIRP",
+    "TWF2",
+    "ZNF714"
+  ],
+  "history": [
+    {
+      "epoch": 1,
+      "training_loss": 0.3187322490848601,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.1345865324139595,
+      "seconds": 3.569991111755371
+    },
+    {
+      "epoch": 2,
+      "training_loss": 0.2950410174205899,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.1918373994529248,
+      "seconds": 3.324188470840454
+    },
+    {
+      "epoch": 3,
+      "training_loss": 0.28428458692505953,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.1378193497657776,
+      "seconds": 3.246112823486328
+    },
+    {
+      "epoch": 4,
+      "training_loss": 0.2792335192859173,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.3664675332605838,
+      "seconds": 3.56068754196167
+    },
+    {
+      "epoch": 5,
+      "training_loss": 0.27627007372677326,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.1044535957276822,
+      "seconds": 3.1794002056121826
+    },
+    {
+      "epoch": 6,
+      "training_loss": 0.2716444006189704,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.198953028023243,
+      "seconds": 3.140129566192627
+    },
+    {
+      "epoch": 7,
+      "training_loss": 0.26989057861268523,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.092870792746544,
+      "seconds": 3.574064254760742
+    },
+    {
+      "epoch": 8,
+      "training_loss": 0.26494180453941224,
+      "held_target_inference_mean_error_ratio_vs_controls": 1.6646977461874486,
+      "seconds": 3.2288081645965576
+    }
+  ],
+  "selected_epoch": 7,
+  "selection": "Eight fixed epochs, minimum actual8-step generated held-target source mean-CP10k error. No outer-treatment outcomes or true means supplied to predictor.",
+  "GPU": "NVIDIA GeForce RTX 2070 SUPER",
+  "torch": "2.10.0+cu126"
+}

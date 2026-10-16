@@ -1,0 +1,5 @@
+{
+  "parent_plan_sha256": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+  "matched_count_code_sha256": "7319aa5bb60c4b87aab64917ace7da06af37eac763ec8f73739a1476212e3fa2",
+  "reason": "Before any count outcome, isolate flow variation from learned mean. Match the mean25 reference gene totals exactly, same cell libraries, and per-cell CPM mean L1<=0.0005 via two-moment tilting and integer allocation. Prevent interpreting a simultaneous mean shift as variation benefit. No models, splits, count cases or release thresholds changed."
+}

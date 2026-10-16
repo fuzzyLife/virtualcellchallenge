@@ -500,3 +500,15 @@ __marimo__/
 /reference/v31_guide_response/
 /experiments/v31_guide_response/**/*.npz
 /experiments/v31_guide_response/*.log
+
+# Sequential V32-V34 experimental models
+/.v32_dependencies/
+/reference/v33_tabular/
+/experiments/v32_paired_context/**/*.npz
+/experiments/v33_tabular_response/**/*.npz
+/experiments/v34_residual_flow/**/*.npz
+/experiments/v34_residual_flow/**/*.pt
+/experiments/v3[234]*/*.log
+
+# Outcome-known reproduction namespaces preserve original frozen runs
+/experiments/replays/

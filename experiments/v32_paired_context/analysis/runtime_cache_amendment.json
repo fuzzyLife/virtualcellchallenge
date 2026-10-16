@@ -1,0 +1,7 @@
+{
+  "parent_plan_sha256": "b6d3f782aa8b7ac2d81d24e0ae8b0b98fced29ca6c2757edb770d6598c30634e",
+  "wrapper_sha256": "6cd5d88bd353b097f63ef246fa26ab4547ed30a6f028fd3ca89e766554a00e51",
+  "cache_code_sha256": "0f95099878b9c92ae102827200c9ced181d29e7944d06765212c3fd8b99cca9b",
+  "reason": "Original V24 teacher loader rehashes multi-gigabyte original inputs on every baseline call. Cache exact verified existing teacher arrays and deterministic baseline outputs; no changes to model, split, scores or thresholds. Interrupted before any inner scores/outer results were written. Earlier partial source fit may be deterministically repeated.",
+  "scope": "Computational optimization only; frozen scientific code unchanged."
+}

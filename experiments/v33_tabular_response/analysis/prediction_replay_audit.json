@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "results_sha256": "0a14cb25ea72e936e32ff76a32d4f2bfee6b616416d54e24cd34af696aa62ad8",
+  "replays": [
+    {
+      "outer": "H1",
+      "arm": "ridge",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0050897988199703,
+      "MAE_ratio": 1.0101514325455123
+    },
+    {
+      "outer": "H1",
+      "arm": "ridge",
+      "alpha": 1.0,
+      "MSE_ratio": 1.020044392802404,
+      "MAE_ratio": 1.0297213696130856
+    },
+    {
+      "outer": "H1",
+      "arm": "catboost",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0050657744691471,
+      "MAE_ratio": 1.0100765222688461
+    },
+    {
+      "outer": "H1",
+      "arm": "catboost",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0199561287900947,
+      "MAE_ratio": 1.0293652706284608
+    },
+    {
+      "outer": "H1",
+      "arm": "tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0048106381652753,
+      "MAE_ratio": 1.0095807265649317
+    },
+    {
+      "outer": "H1",
+      "arm": "tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.018804698315547,
+      "MAE_ratio": 1.027919649717305
+    },
+    {
+      "outer": "H1",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0051625350366415,
+      "MAE_ratio": 1.0103150031187162
+    },
+    {
+      "outer": "H1",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0203858046008154,
+      "MAE_ratio": 1.0300438131247727
+    },
+    {
+      "outer": "Orion",
+      "arm": "ridge",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0119150213332977,
+      "MAE_ratio": 1.016576408489591
+    },
+    {
+      "outer": "Orion",
+      "arm": "ridge",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0449442498412225,
+      "MAE_ratio": 1.0496440525892932
+    },
+    {
+      "outer": "Orion",
+      "arm": "catboost",
+      "alpha": 0.5,
+      "MSE_ratio": 1.00860870240437,
+      "MAE_ratio": 1.0111013136789242
+    },
+    {
+      "outer": "Orion",
+      "arm": "catboost",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0297087884597205,
+      "MAE_ratio": 1.0314652982534098
+    },
+    {
+      "outer": "Orion",
+      "arm": "tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0085227802066643,
+      "MAE_ratio": 1.011021373403898
+    },
+    {
+      "outer": "Orion",
+      "arm": "tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.029612662219216,
+      "MAE_ratio": 1.0314968912781877
+    },
+    {
+      "outer": "Orion",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.008667952939612,
+      "MAE_ratio": 1.0112408848499723
+    },
+    {
+      "outer": "Orion",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0300190989877385,
+      "MAE_ratio": 1.0319206541892543
+    },
+    {
+      "outer": "CD4",
+      "arm": "ridge",
+      "alpha": 0.5,
+      "MSE_ratio": 1.016795058414547,
+      "MAE_ratio": 1.0238111525242706
+    },
+    {
+      "outer": "CD4",
+      "arm": "ridge",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0593968826450144,
+      "MAE_ratio": 1.0668143872336178
+    },
+    {
+      "outer": "CD4",
+      "arm": "catboost",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0125502699721871,
+      "MAE_ratio": 1.0178312394986608
+    },
+    {
+      "outer": "CD4",
+      "arm": "catboost",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0413136568225032,
+      "MAE_ratio": 1.048185640244791
+    },
+    {
+      "outer": "CD4",
+      "arm": "tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.012654882861861,
+      "MAE_ratio": 1.0180099884606568
+    },
+    {
+      "outer": "CD4",
+      "arm": "tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0420785723026622,
+      "MAE_ratio": 1.0491101403619059
+    },
+    {
+      "outer": "CD4",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 0.5,
+      "MSE_ratio": 1.0131532370428478,
+      "MAE_ratio": 1.0185909306575491
+    },
+    {
+      "outer": "CD4",
+      "arm": "identity_shuffled_tabicl",
+      "alpha": 1.0,
+      "MSE_ratio": 1.0433118262732324,
+      "MAE_ratio": 1.0502945463990618
+    }
+  ],
+  "auditor_sha256": "e1fc878fb173c69e13eef3292820695a7616b42ad1608ea5c0530365d53f9af7",
+  "scope": "All24 outer means replayed from saved query tokens/deltas, fitting features and own-masked least squares checked, exact V24 fallback outside modeled axis. Saved TabICL GPU deltas reused; not an independent implementation of foundation-model pretraining/inference."
+}

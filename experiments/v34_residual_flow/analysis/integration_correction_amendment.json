@@ -1,0 +1,7 @@
+{
+  "parent_plan_sha256": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+  "original_source_sha256": "99bb509cd77493dfff24356dc18ee167f000e78ed062af8a898108ac352d9b1b",
+  "corrected_source_sha256": "572a3b60e32578a29c36f202cbf8b8ca475222c3bef6a8eecc1032ba81ae868a",
+  "wrapper_sha256": "4682ad7c0ba4fd76b8007a3d5e86f277f626f9680ebce93a64cd1e0bd5ab4ed3",
+  "reason": "Pre-outcome code review: an own-gene label is absent during fitting, so its unconstrained flow head must not alter the autoregressive input during generative integration. Hold its state at the control value at every step in source validation and query inference. No third-model fits/outcomes existed at this amendment. Preserves the initial source and plan."
+}

@@ -1,0 +1,159 @@
+{
+  "passed": true,
+  "shape_populations": 25,
+  "maximum_CPM_L1": 0.00017931034534632344,
+  "records": [
+    {
+      "stage": "null",
+      "family": "H1",
+      "target": "Non-Targeting",
+      "CPM_L1": 3.3782601024187405e-05
+    },
+    {
+      "stage": "null",
+      "family": "HCT116",
+      "target": "Non-Targeting",
+      "CPM_L1": 8.03813960310574e-05
+    },
+    {
+      "stage": "null",
+      "family": "HEK293T",
+      "target": "Non-Targeting",
+      "CPM_L1": 0.00011076929599603894
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Rest_D1",
+      "target": "Non-Targeting",
+      "CPM_L1": 0.00011023679124821088
+    },
+    {
+      "stage": "null",
+      "family": "CD4_Stim48_D2",
+      "target": "Non-Targeting",
+      "CPM_L1": 9.27827948841129e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "HDAC8",
+      "CPM_L1": 3.215201354061571e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "NFE2L1",
+      "CPM_L1": 3.2341659422393684e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "PLAGL2",
+      "CPM_L1": 3.3950762910761785e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "H1",
+      "target": "ACLY",
+      "CPM_L1": 3.408513436026256e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "GLI3",
+      "CPM_L1": 8.520147524969073e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "PATL1",
+      "CPM_L1": 8.193875721947507e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "CPM_L1": 8.617842252735767e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HCT116",
+      "target": "RNF141",
+      "CPM_L1": 7.863712429086606e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "CPM_L1": 9.475797903738092e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "CPM_L1": 9.45393892495415e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "CPM_L1": 9.439474119019275e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "CPM_L1": 9.720112638442213e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "CPM_L1": 0.00014313991829175682
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "CPM_L1": 0.00013106187426440712
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "CPM_L1": 0.00017931034534632344
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "CPM_L1": 9.754828579874395e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "CPM_L1": 9.577552884422047e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "CPM_L1": 0.00010262043114821394
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "CPM_L1": 9.2780182925913e-05
+    },
+    {
+      "stage": "treatment",
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "CPM_L1": 0.00014878283302656057
+    }
+  ],
+  "checks": "Frozen source-cache and teacher hashes; corrected integration/count code hashes; all25 reported exact-total and strict CPM contracts checked. Actual integer libraries/totals were asserted during every generated population. Counts are reproducible from seeds/models but not independently regenerated in this supplement.",
+  "auditor_sha256": "b1929640e4fb58222175b0c2300fddd1197b1edeeba49d5faabfcd9bbdf107f7"
+}

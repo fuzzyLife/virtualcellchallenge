@@ -1,0 +1,14 @@
+{
+  "url": "https://huggingface.co/jingang/TabICL/resolve/4dcd344ece2c00be9e831fdd35bed57b5ad83e19/tabicl-regressor-v2-20260212.ckpt",
+  "revision": "4dcd344ece2c00be9e831fdd35bed57b5ad83e19",
+  "bytes": 114324594,
+  "sha256": "0db9cb538f114e79026bf08f45f41ad8dd7ad2de2aaca9a5ca8cd3bd9748ae7a",
+  "license": "BSD-3-Clause",
+  "gated": false,
+  "packages": {
+    "tabicl": "2.2.0",
+    "einops": "0.8.2",
+    "catboost": "1.2.10"
+  },
+  "weights_loader": "Official TabICL uses torch.load(weights_only=True); no pickled foreign model class."
+}

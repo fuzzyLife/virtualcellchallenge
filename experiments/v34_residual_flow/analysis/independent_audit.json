@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "outer": "H1",
+      "training_groups": 662,
+      "sources": [
+        "HCT116",
+        "HEK293T",
+        "CD4_Rest_D2",
+        "CD4_Stim48_D2"
+      ],
+      "selected_epoch": 3,
+      "model_sha256": "46e939637b5811bccd273b82e085aa0aa203f31965c83cf4f63e14a9a99eb1a2"
+    },
+    {
+      "outer": "Orion",
+      "training_groups": 96,
+      "sources": [
+        "H1",
+        "CD4_Rest_D2",
+        "CD4_Stim48_D2"
+      ],
+      "selected_epoch": 7,
+      "model_sha256": "c11edf403f9537eb792409c6aabbe5d92703a0c6cea84fd61d4d9a6a4c3a15dc"
+    },
+    {
+      "outer": "CD4",
+      "training_groups": 618,
+      "sources": [
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "selected_epoch": 4,
+      "model_sha256": "d4f868569937a8d2fb8d7509ea4c3e747ecd174648b360c4adb81f5d0e38ffda"
+    }
+  ],
+  "results_sha256": {
+    "mean": "2de91b23de381d83b5815e49251345197907954b84d3c490f3ec74bfb064fa0a",
+    "null": "19a393edae2ada131f72f89cf417af2df752acc106c83019f20e423bfeb6737e",
+    "treatment": "fd111544f063aa4e1b7483478d8fa2387411619ade4a85b6ac0eea6562e680fb"
+  },
+  "checks": "All3 whole-family/target boundaries; selected epochs from source-only generated validation; control/treatment row separation; null400-cell disjointness; strict result arithmetic. Unit fixtures check own-label coupling invariance and exact generated libraries. No independent retraining or raw host-anchor reproduction.",
+  "auditor_sha256": "657e4d7897b9197f368d5b66cdbe6b44b69a72d4a8525b811c254d7231bf2763"
+}

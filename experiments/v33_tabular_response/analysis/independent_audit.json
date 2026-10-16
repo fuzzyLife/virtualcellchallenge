@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "results_sha256": "0a14cb25ea72e936e32ff76a32d4f2bfee6b616416d54e24cd34af696aa62ad8",
+  "models": [
+    {
+      "outer": "CD4",
+      "fitting_rows": 512,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "HCT116",
+        "HEK293T"
+      ],
+      "sha256": "1ffc088f7b03e2af874c2af196a62d9f6e3d660ae99ab225ea0de441f30d9113"
+    },
+    {
+      "outer": "H1",
+      "fitting_rows": 512,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "HCT116",
+        "HEK293T",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "sha256": "c19254dcafa82f36924a452479b0776a20cd493ad52714e98b45f4e9e4c4619c"
+    },
+    {
+      "outer": "Orion",
+      "fitting_rows": 512,
+      "sources": [
+        "K562_full",
+        "RPE1_full",
+        "H1",
+        "CD4_Rest",
+        "CD4_Stim8hr",
+        "CD4_Stim48hr"
+      ],
+      "sha256": "f85c655dd4dc3130e92b4efc02dc51e9b7622f775e7d4e3a700afee15862750c"
+    }
+  ],
+  "checks": "Checkpoint LFS SHA; all3 fitting/identity/family boundaries; program/data sizes; finite outputs and primary score aggregation. Does not independently reproduce proprietary synthetic pretraining or every GPU forward.",
+  "auditor_sha256": "657e4d7897b9197f368d5b66cdbe6b44b69a72d4a8525b811c254d7231bf2763"
+}

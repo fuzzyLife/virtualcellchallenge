@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "outer": "H1",
+      "context": "H1",
+      "target": "HDAC8",
+      "cells": 400,
+      "modeled_genes": 1024,
+      "maximum_CPM_absolute_difference": 0.0006044942142580112,
+      "mean_CPM_absolute_difference": 5.43566069590671e-06
+    },
+    {
+      "outer": "Orion",
+      "context": "HCT116",
+      "target": "GLI3",
+      "cells": 400,
+      "modeled_genes": 1024,
+      "maximum_CPM_absolute_difference": 0.004953038698658929,
+      "mean_CPM_absolute_difference": 8.319852737654387e-06
+    },
+    {
+      "outer": "CD4",
+      "context": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "cells": 200,
+      "modeled_genes": 1024,
+      "maximum_CPM_absolute_difference": 0.0013681013397217612,
+      "mean_CPM_absolute_difference": 9.099279205696212e-06
+    }
+  ],
+  "auditor_sha256": "aa53e811f71631ef898e4ba999725184f3c298fe77c16cb1c880558ac2556a5c",
+  "scope": "Independent NumPy forward/SiLU/Euler integration, own-state lock and RNA inverse transform versus actual Torch query inference. Three representative held-family cases; no independent retraining or all-case count regeneration."
+}
