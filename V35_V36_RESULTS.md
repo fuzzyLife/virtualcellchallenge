@@ -2,6 +2,24 @@
 
 V24 remains the published reference at overall 0.14299785521745675. These are reused public development tests, not private anchored leaderboard scores. A new experimental package was explicitly requested and prepared; it is not a confirmed better model.
 
+## Published leaderboard result
+
+Entry `GftPza37V9QL6u7omFOD` is **published**, with rank **543** at the user's report. Source: user-provided CLI output; no independent API confirmation is claimed. Same validation panel and anchors as V24.
+
+| Scaled score (higher is better) | V24 | V36 | Change |
+|---|---:|---:|---:|
+| OVERALL | 0.142997855 | 0.141845482 | -0.001152374 |
+| PDS | 0.644246367 | 0.643344247 | -0.000902119 |
+| MSE | 0.047568407 | 0.050173576 | +0.002605169 |
+| NMAE | 0.082270573 | 0.080934254 | -0.001336319 |
+| FID | -0.015791837 | -0.016431778 | -0.000639940 |
+| REACH | 0.084839840 | 0.078160221 | -0.006679619 |
+| JAC | 0.014853782 | 0.014892370 | +0.000038588 |
+
+V24 remains preferred. The overall decline is **-0.001152374**. Expression accuracy and DE overlap improve, but PDS, NMAE, FID and especially REACH decline. Rank changes across dates also reflect other teams' submissions. This result tests the selected conservative retrieval contrast; the full population-view model was rejected locally and was excluded from this package. Small score differences from one submission do not establish statistical significance.
+
+The generation receipts below retain their original pre-upload status and selection evidence. The published result is stored separately in `experiments/v36_population_views/analysis/leaderboard_result.json`; no training, model, selection or audit receipt was rewritten.
+
 ## Gene-level summary response tests
 
 | Model | Squared LFC error change vs V24 | Absolute LFC error change | Strict summary gate |
@@ -81,7 +99,7 @@ Production preflight caught and repaired object-string label serialization befor
 
 Original plans and code are preserved. A separate pre-outcome selector amendment corrected the scorer field name from a nonexistent expression-error label to `common_expression_ratio`, without changing thresholds or the comparison. No numeric result was available when that initial field-name correction was made. A later separate contrast-selector repair handles undefined HCT116 NMAE using the unchanged primary aggregation; original predictions, failed selector and logs are preserved. One fixed training seed and one fixed emission seed per case were used; small gains are not statistical proof of generalization.
 
-Windows Command Prompt upload command:
+Original Windows Command Prompt upload command (entry already published; no repeat upload needed):
 
 ```bat
 cd /d L:\promec\Animesh\Download\Virtual

@@ -1,0 +1,46 @@
+{
+  "source": "User-provided published vcc CLI output; no independent API confirmation or remote file checksum claimed.",
+  "entry_id": "GftPza37V9QL6u7omFOD",
+  "model_name": "Retrieval-contrast response correction v36",
+  "final_status": "published",
+  "rank_at_user_report": 543,
+  "overall": 0.14184548169072003,
+  "metrics": {
+    "pds": 0.6433442472382521,
+    "mse": 0.0501735761598077,
+    "nmae": 0.08093425364417435,
+    "fid": -0.01643177767448657,
+    "reach": 0.07816022080205248,
+    "jac": 0.014892369974520037
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "package_sha256": "f9e71ec9f4608603139acf6ecfac03025ef3e0c76b0c0a6eec503f9011c04dd7",
+  "upload_bytes": 4073666560,
+  "upload_duration_seconds": 973,
+  "package_link_provenance": "User upload command links entry to local package; checksum copied from audited generation receipt.",
+  "generation_ready_sha256": "2b9efb7ac94cdcd995bcd491dcdd4860cecf17e4c9c1e96e3f90ff1d178dbe19",
+  "scaled_scores_higher_is_better": true,
+  "comparison_entry_id": "81Y2yX7utdAau9rr3jCj",
+  "changes_from_v24": {
+    "overall": -0.0011523735267367219,
+    "pds": -0.0009021194718589198,
+    "mse": 0.002605168799052926,
+    "nmae": -0.001336319204936126,
+    "fid": -0.0006399402217929298,
+    "reach": -0.00667961929989587,
+    "jac": 3.858823901049628e-05
+  },
+  "overall_contributions_vs_v24": {
+    "pds": -0.00015035324530981997,
+    "mse": 0.0004341947998421543,
+    "nmae": -0.00022271986748935435,
+    "fid": -0.00010665670363215497,
+    "reach": -0.0011132698833159784,
+    "jac": 6.4313731684160465e-06
+  },
+  "best_recorded_project_validation_score": false,
+  "preferred_submission": "experiments/v24_cd4_response/prediction.vcc",
+  "interpretation": "Small regression against V24 on the same panel and anchors. Expression accuracy and DE overlap improve; PDS, NMAE, FID and especially REACH decline. This tests the selected quarter-strength retrieval contrast, not the rejected full population-view model. One aggregate result does not establish statistical significance or final-test performance."
+}

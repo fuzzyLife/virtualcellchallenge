@@ -107,6 +107,27 @@ Windows Command Prompt upload command:
 {upload_command}
 ```
 '''
+ published_path=m.P36/'leaderboard_result.json'
+ published=None
+ if published_path.exists():
+  published=read(published_path);prior=read(m.ROOT/'experiments/v24_cd4_response/analysis/leaderboard_result.json')
+  before=dict(overall=prior['overall'],**prior['metrics']);after=dict(overall=published['overall'],**published['metrics'])
+  comparison='\n'.join(f"| {k.upper()} | {before[k]:.9f} | {after[k]:.9f} | {after[k]-before[k]:+.9f} |" for k in before)
+  publication=f"""## Published leaderboard result
+
+Entry `{published['entry_id']}` is **published**, with rank **{published['rank_at_user_report']}** at the user's report. Source: user-provided CLI output; no independent API confirmation is claimed. Same validation panel and anchors as V24.
+
+| Scaled score (higher is better) | V24 | V36 | Change |
+|---|---:|---:|---:|
+{comparison}
+
+V24 remains preferred. The overall decline is **{published['changes_from_v24']['overall']:+.9f}**. Expression accuracy and DE overlap improve, but PDS, NMAE, FID and especially REACH decline. Rank changes across dates also reflect other teams' submissions. This result tests the selected conservative retrieval contrast; the full population-view model was rejected locally and was excluded from this package. Small score differences from one submission do not establish statistical significance.
+
+The generation receipts below retain their original pre-upload status and selection evidence. The published result is stored separately in `experiments/v36_population_views/analysis/leaderboard_result.json`; no training, model, selection or audit receipt was rewritten.
+
+"""
+  text=text.replace('## Gene-level summary response tests',publication+'## Gene-level summary response tests',1)
+  text=text.replace('Windows Command Prompt upload command:', 'Original Windows Command Prompt upload command (entry already published; no repeat upload needed):')
  (m.ROOT/'V35_V36_RESULTS.md').write_text(text,encoding='utf-8')
  readme=m.ROOT/'README.md';s=readme.read_text(encoding='utf-8');start='<!-- v35-v36-model-tests:begin -->';end='<!-- v35-v36-model-tests:end -->';entry=f'''{start}
 
@@ -120,6 +141,8 @@ Seven targeted tests and independent inference, score, split and count audits pa
 
 {end}
 '''
+ if published is not None:
+  entry=entry.replace('Its package is unchanged; D3 remained sealed; no upload was performed.', 'Its package is unchanged; D3 remained sealed. The user subsequently uploaded V36; entry `'+published['entry_id']+'` is published at rank '+str(published['rank_at_user_report'])+' (reported at submission), overall **'+f"{published['overall']:.9f}"+'**, change versus V24 **'+f"{published['changes_from_v24']['overall']:+.9f}"+'**. Expression accuracy and DE overlap improve, but the other four scaled metrics decline, especially REACH. V24 remains the preferred submission. Original pre-upload receipts remain unchanged; the published result is recorded separately.')
  if start in s:
   i=s.index(start);j=s.index(end,i)+len(end);s=s[:i]+entry+s[j:]
  else:s=s.replace('# Virtual Cell Challenge 2026\n','# Virtual Cell Challenge 2026\n\n'+entry,1)
