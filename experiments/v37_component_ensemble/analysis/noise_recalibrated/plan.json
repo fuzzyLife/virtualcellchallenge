@@ -1,0 +1,17 @@
+{
+  "parent_plan_sha256": "70143b783078f7057e6f82410c4dbf3d0ecdd820f604b4257c4922eb2fd0f3d7",
+  "dependencies": {
+    "v37_recalibrated.py": "439588a1328ceb7ff93bd68206443f01884630b6f28d95f916bce4e9b1f07cd3",
+    "run_v37_recalibrated.py": "6267360ac40a2d9366f6726f83b3bf87dd1f37102e57e3acb025925774679ce2",
+    "v37_ensemble.py": "40e1d69a041fd22257b6e652ca94e8f496a09ad8ec0945ab8cbbcf69f7f57357",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4",
+    "v37_noise_recalibrated.py": "3ec29c0d0d2210261a9d9d1eaa66daaa27b7c9fc9f28c816ea62cd488c4dc464",
+    "run_v37_noise_recalibrated.py": "a3f7df7c9f742af8c3060804106b3757b43a41797ee939fcccf31732fd1b7412"
+  },
+  "arm": "recalibrated_noise_mix",
+  "known_outcomes": "All five primary and the post-mixture calibration development/null outcomes known. Noise mix passed all treatment guards but failed nulls; post-mixture calibration improved nulls but failed treatment guards. No outcome for this seventh fixed arm known.",
+  "formula": "Use the fixed mean50 response and initial0.30expected+0.65Poisson+0.05empirical population, then one further unchanged dual-moment calibration, same seed and200 iterations. No parent row mixing, weight grid or new fitted parameter.",
+  "selection": "Same frozen original mean/null/count thresholds and scoring, no relaxation. Additional count confirmation remains required if selected.",
+  "D3_opened": false,
+  "early_stop": "Require every corrected control-null DE-call count <=V24. If any fails, do not run treatment counts or additional confirmation."
+}

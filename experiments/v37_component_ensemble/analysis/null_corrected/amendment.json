@@ -1,0 +1,11 @@
+{
+  "parent_plan_sha256": "70143b783078f7057e6f82410c4dbf3d0ecdd820f604b4257c4922eb2fd0f3d7",
+  "initial_null_results_sha256": "e67ee1983d43ca2ecb52ab22ad3c2b44f8bb94de4b3b276769da73e408661e79",
+  "adapter_sha256": "a1975e9aef12d720bb8755e6be398fe9861e5941a6dd397f501c95bd5c0efec7",
+  "known_outcomes": "All44 raw mean errors and initial null outcomes known; development treatment run may be in progress. No treatment result was used to set this correction.",
+  "reason": "Original V37 null used first400 left controls and whole-left fitting moments. Reuse the already frozen V34 three-way fit/actual/reference split, rather than a potentially unrepresentative prefix.",
+  "changes": "Only null row identities, corresponding fitting moments, null seed and reference; candidates, coefficients, thresholds, treatment cases and selection rule unchanged.",
+  "deduplication": "Zero-response mean arms share exactly the same emitter and seed; zero-response population mixture chooses identical parent counts. Compute this common population once, save all arm receipts with identical numeric arrays. Noise mix is generated separately.",
+  "original_results_preserved": true,
+  "initial_assertion_correction": "Templates intentionally belong to fitting controls; actual/reference/fitting populations are disjoint. Initial assertion rejected this legitimate membership before generating any corrected count. Initial adapter, amendment and failure retained."
+}

@@ -1,0 +1,45 @@
+{
+  "selected": "pending",
+  "passed": true,
+  "eligible": [],
+  "gain_scores": {},
+  "checks": {
+    "recalibrated_noise_mix": {
+      "null_no_worse": true
+    }
+  },
+  "rows": [
+    {
+      "family": "H1",
+      "v24": 1415,
+      "candidate": 1355,
+      "passes": true
+    },
+    {
+      "family": "HCT116",
+      "v24": 780,
+      "candidate": 701,
+      "passes": true
+    },
+    {
+      "family": "HEK293T",
+      "v24": 355,
+      "candidate": 343,
+      "passes": true
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "v24": 516,
+      "candidate": 494,
+      "passes": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "v24": 753,
+      "candidate": 730,
+      "passes": true
+    }
+  ],
+  "null_results_sha256": "42f24d2cf9c9432aa84786328b0e5a2e3f43452e716f66c9a8a9d370cdafe44d",
+  "treatment_counts_opened": false
+}

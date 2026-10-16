@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "Non-Targeting",
+  "case_index": -1,
+  "seed_offset": 0,
+  "arm": "recalibrated_noise_mix",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "null_DE_calls": 494,
+  "mean_probability_L1": 0.003953587181051785,
+  "bulk_probability_L1": 0.0009282919515677733,
+  "precalibration_mean_L1": 0.010586656784436203,
+  "precalibration_bulk_L1": 0.0008898044816915584,
+  "fidelity": 0.7651821862348178,
+  "reach": 1.0,
+  "jaccard": 0.0,
+  "nmae": null,
+  "predicted_calls": 494,
+  "reference_calls": 1,
+  "nmae_eligible": false,
+  "arrays_sha256": "be96f5de364fca6ee8449e731eca67fede155c3a6586da50418f9096713e2c3f"
+}

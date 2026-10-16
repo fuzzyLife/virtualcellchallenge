@@ -1,0 +1,22 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "FOXN2",
+  "case_index": 3,
+  "seed_offset": 0,
+  "arm": "population50",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "null_DE_calls": 387,
+  "mean_probability_L1": 0.026719115763637457,
+  "bulk_probability_L1": 0.021548907433003812,
+  "mixture_rows": 100,
+  "fidelity": 0.5310880829015544,
+  "reach": 0.0,
+  "jaccard": 0.07494646680942184,
+  "nmae": 0.9140521639841442,
+  "predicted_calls": 386,
+  "reference_calls": 116,
+  "nmae_eligible": true,
+  "arrays_sha256": "c559fd9e0191c7fa7241461ba198984c160a21938eeebec238d90d7eaebbdafc"
+}

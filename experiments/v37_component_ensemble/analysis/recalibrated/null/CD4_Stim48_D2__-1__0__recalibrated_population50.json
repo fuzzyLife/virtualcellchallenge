@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "Non-Targeting",
+  "case_index": -1,
+  "seed_offset": 0,
+  "arm": "recalibrated_population50",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "null_DE_calls": 691,
+  "mean_probability_L1": 0.004913544719847762,
+  "bulk_probability_L1": 0.0009267201500761247,
+  "precalibration_mean_L1": 0.013066035986230887,
+  "precalibration_bulk_L1": 0.0008676192658336193,
+  "fidelity": 0.7959479015918958,
+  "reach": null,
+  "jaccard": 0.0,
+  "nmae": null,
+  "predicted_calls": 691,
+  "reference_calls": 0,
+  "nmae_eligible": false,
+  "arrays_sha256": "7884d669e70b6cae435fb9a1b874a0e162ea39f27746ed2ff56d579a603822c3"
+}

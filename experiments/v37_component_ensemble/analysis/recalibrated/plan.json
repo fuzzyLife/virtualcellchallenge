@@ -1,0 +1,14 @@
+{
+  "parent_plan_sha256": "70143b783078f7057e6f82410c4dbf3d0ecdd820f604b4257c4922eb2fd0f3d7",
+  "dependencies": {
+    "v37_recalibrated.py": "439588a1328ceb7ff93bd68206443f01884630b6f28d95f916bce4e9b1f07cd3",
+    "run_v37_recalibrated.py": "6267360ac40a2d9366f6726f83b3bf87dd1f37102e57e3acb025925774679ce2",
+    "v37_ensemble.py": "40e1d69a041fd22257b6e652ca94e8f496a09ad8ec0945ab8cbbcf69f7f57357",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4"
+  },
+  "arm": "recalibrated_population50",
+  "known_outcomes": "All44 mean results, all corrected nulls, and the initial H1/HCT116 treatment panels known. Other treatment panels may be available. Correction motivated by row mixture breaking fitted means. No result for this new corrected arm known.",
+  "formula": "Same fixed50:50 parent row mixture, then same dual-moment routine and200 iterations using the mean50 response. No extra noise, coefficient or grid.",
+  "selection": "Same frozen original mean/null/count thresholds and scoring, no relaxation. Additional count confirmation remains required if selected.",
+  "D3_opened": false
+}

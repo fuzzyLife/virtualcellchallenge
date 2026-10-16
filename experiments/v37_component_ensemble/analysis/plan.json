@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "v37_ensemble.py": "40e1d69a041fd22257b6e652ca94e8f496a09ad8ec0945ab8cbbcf69f7f57357",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4",
+    "test_v37_ensemble.py": "442fcd6e8fe1662ff1bf39a8e82019242d91de7990a4ddb99282bae855d60181",
+    "v35_methods.py": "79350285b518f3cf1e6434e411c3d13925837f66d95fd2e2ef0b5a560ac1d171",
+    "v36_methods.py": "4905d67638b46fb4e76ba437dc9717adeaf393bf1210b53464e860cffcc6e56d",
+    "v35_contrast_methods.py": "46ee1bc990204189ba5899683f9856bf215c5c7ed6bbf9bc42a570c7c556078e",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de"
+  },
+  "inputs": {
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v35_response_retrieval/analysis/plan.json": "0e00fe64506f0e9f66a7f8596773a819b85b134e340f2e3d19091052d1becaec",
+    "experiments/v24_cd4_response/analysis/leaderboard_result.json": "d361e6783f7d3888afbdc3ea9f7475c401473b423f2743c00b91fc921263afaa",
+    "experiments/v36_population_views/analysis/leaderboard_result.json": "5325e40e1313e009af3d552bbe99debdc49f29ab07be47e56e516373f043ea71",
+    "experiments\\v35_response_retrieval\\analysis\\models\\H1.npz": "6ce038cf65dcf51e7820bef49d2973cb13ca67ccb5ac8518dad85260e4cc3569",
+    "experiments\\v35_response_retrieval\\analysis\\models\\H1.json": "bb9ff9af8d5207e76519f74f43331fa8330a37b69dcbba2e7ffb4c72f07e9cae",
+    "experiments\\v36_population_views\\analysis\\models\\H1.npz": "ae3a11f08fb34528c7c07729a8932735796ee69ce8d76da08fb30d325ac99bb1",
+    "experiments\\v36_population_views\\analysis\\models\\H1.json": "3ccc1e7f607855109ce4653b96b758ffdd8ecabc437d525ea164dbb237cfee2c",
+    "experiments\\v35_response_retrieval\\analysis\\models\\Orion.npz": "d7d3d3befa464ef8496ce6efb5ce9c843810be9d30143aea0a8e377a965bd656",
+    "experiments\\v35_response_retrieval\\analysis\\models\\Orion.json": "14613b5728486646643c5051ad782e4c46775c657356eb8f2ca98389f1721bad",
+    "experiments\\v36_population_views\\analysis\\models\\Orion.npz": "da146e3c7fb648573cc7ba7b24b2cd031303625b375ee6fc25ef2467424f06e0",
+    "experiments\\v36_population_views\\analysis\\models\\Orion.json": "3c2ed770ec57c619e8c4c57fe4be7c0a9d04c1dd1251a8ea36ad78b4e9eabe86",
+    "experiments\\v35_response_retrieval\\analysis\\models\\CD4.npz": "6a0eb8a23d76546cb143ceab3c38972fcbdc1bdadb655d5800759242d5583fda",
+    "experiments\\v35_response_retrieval\\analysis\\models\\CD4.json": "60186cd6ec082613efd916cb16a30da913be290ceac8ef9cc9776591266050dd",
+    "experiments\\v36_population_views\\analysis\\models\\CD4.npz": "4ae18a9e236782f4066a4e40a442a42cd6e8c2ba022c2581c4cce09b97eab988",
+    "experiments\\v36_population_views\\analysis\\models\\CD4.json": "1f6e4738987c792ca08db4540b2722c39a32d3150b7724f10784e90256a571a9"
+  },
+  "arms": [
+    "mean50",
+    "consensus",
+    "center_contrast50",
+    "population50",
+    "mean50_noise_mix"
+  ],
+  "development": "First4 cases/context, original seed. Same public diagnostics previously spent.",
+  "confirmation": "Remaining24 raw treatment cases, two seeds (original and +370000). These count-level comparisons are not used to choose the blend; public source and mean labels were previously used. Not new lineage or blind data.",
+  "selection": "Require mean MSE/MAE<=1.002 V24; expression ratio<=V24; PDS>=V24-.005; FID>=V24-.002; REACH>=V24; JAC>=V24-.0005; NMAE<=1.002*V24; at least3 of6 metrics improve; every study resolved. Among eligible maximize average oriented relative gain; no retuning. Confirm selected arm with same guards, and per-study PDS/FID/REACH losses <=.02. Otherwise retain V24 and produce no renamed duplicate.",
+  "null": "One zero-response control-null comparison/context for each arm; null DE calls cannot exceed V24. Treatment-independent tests only.",
+  "context_count": 5,
+  "case_count": 44,
+  "D3_opened": false,
+  "python": "3.12.10",
+  "outcomes_known": "Published V24/V36 and all earlier experiments known. New fixed hypothesis test, no independent private test claimed."
+}

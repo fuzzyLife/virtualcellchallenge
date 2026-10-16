@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "effect_checks": [
+    {
+      "family": "CD4_Rest_D1",
+      "effects_finite_bounded_own_masked": true,
+      "mean50_RMS_correction": {
+        "mean50": 0.0005568850901909173,
+        "consensus": 0.0009096231078729033,
+        "center_contrast50": 0.002167264698073268
+      },
+      "changed_targets": {
+        "mean50": 300,
+        "consensus": 300,
+        "center_contrast50": 300
+      }
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "effects_finite_bounded_own_masked": true,
+      "mean50_RMS_correction": {
+        "mean50": 0.0005598281277343631,
+        "consensus": 0.0009191754506900907,
+        "center_contrast50": 0.0022013646084815264
+      },
+      "changed_targets": {
+        "mean50": 300,
+        "consensus": 300,
+        "center_contrast50": 300
+      }
+    },
+    {
+      "family": "H1",
+      "effects_finite_bounded_own_masked": true,
+      "mean50_RMS_correction": {
+        "mean50": 0.0002897267113439739,
+        "consensus": 0.0004961860831826925,
+        "center_contrast50": 0.0019493723521009088
+      },
+      "changed_targets": {
+        "mean50": 300,
+        "consensus": 300,
+        "center_contrast50": 300
+      }
+    },
+    {
+      "family": "HCT116",
+      "effects_finite_bounded_own_masked": true,
+      "mean50_RMS_correction": {
+        "mean50": 0.0006868279888294637,
+        "consensus": 0.0010547427227720618,
+        "center_contrast50": 0.002565705217421055
+      },
+      "changed_targets": {
+        "mean50": 299,
+        "consensus": 299,
+        "center_contrast50": 299
+      }
+    },
+    {
+      "family": "HEK293T",
+      "effects_finite_bounded_own_masked": true,
+      "mean50_RMS_correction": {
+        "mean50": 0.0006645990652032197,
+        "consensus": 0.0010281718568876386,
+        "center_contrast50": 0.002523364732041955
+      },
+      "changed_targets": {
+        "mean50": 299,
+        "consensus": 299,
+        "center_contrast50": 299
+      }
+    }
+  ],
+  "DE_set_comparisons": 50,
+  "profile_panels": 10,
+  "raw_Wilcoxon_and_reach_recomputed": false,
+  "scope": "All saved arrays/checksums replayed; effects and raw-control/treatment identity boundaries checked. Public reused biology, not independent private validation.",
+  "auditor_sha256": "21f6c2ac3582f63eebb95b0657ae5f03fa7f8f2727ae89a45345e3441f0e2e5e",
+  "baseline_comparisons_exactly_match_primary": 25,
+  "effect_alias_manifest_sha256": "7eecc748db5d1659842e3d9c2de0111d371554e68e25856a5dfebb2073138bc6",
+  "post_calibration_diagnostics": {
+    "precalibration_mean_L1": 0.009181090756005173,
+    "precalibration_bulk_L1": 0.0008185454259471701,
+    "mean_probability_L1": 0.003579445997671195,
+    "bulk_probability_L1": 0.0008574411646446005
+  },
+  "adapter_auditor_sha256": "9c1791eb480338141957273f1125201e5ac8c9a71bdc8bb91e1fb81af163f89b"
+}

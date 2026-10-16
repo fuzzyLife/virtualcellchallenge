@@ -1,0 +1,23 @@
+{
+  "family": "HCT116",
+  "study": "Orion",
+  "target": "Non-Targeting",
+  "case_index": -1,
+  "seed_offset": 0,
+  "arm": "recalibrated_noise_mix",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "null_DE_calls": 701,
+  "mean_probability_L1": 0.0031781704540229747,
+  "bulk_probability_L1": 0.0007182958653068831,
+  "precalibration_mean_L1": 0.008425934356646528,
+  "precalibration_bulk_L1": 0.0006864900578547197,
+  "fidelity": 0.8045649072753209,
+  "reach": 1.0,
+  "jaccard": 0.0014265335235378032,
+  "nmae": null,
+  "predicted_calls": 701,
+  "reference_calls": 1,
+  "nmae_eligible": false,
+  "arrays_sha256": "fe0dda0cfc9071089d790aedf77e8a11efc2a705b9a7f5455530005c5ca0f04a"
+}

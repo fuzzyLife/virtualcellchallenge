@@ -1,0 +1,22 @@
+{
+  "family": "HCT116",
+  "study": "Orion",
+  "target": "GLI3",
+  "case_index": -1,
+  "seed_offset": 0,
+  "arm": "mean50_noise_mix",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "null_DE_calls": 5428,
+  "mean_probability_L1": 0.00836724209464152,
+  "bulk_probability_L1": 0.0006068757412200766,
+  "empirical_weight": 0.05,
+  "fidelity": 0.6385408990420044,
+  "reach": 0.6955017301038062,
+  "jaccard": 0.0736503396496246,
+  "nmae": 0.7888967048838376,
+  "predicted_calls": 5428,
+  "reference_calls": 578,
+  "nmae_eligible": true,
+  "arrays_sha256": "8455d799b367a605fa3c8ff4b21f0722f544efcefd051c5a7da3ff160f80f562"
+}

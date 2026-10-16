@@ -1,5 +1,14 @@
 # Virtual Cell Challenge 2026
 
+<!-- v37-ensemble:begin -->
+
+## V37 component ensembles
+
+Tested five fixed primary combinations and two separately frozen corrective calibrations of V24, retrieval-contrast and population-trained responses, including sign consensus, centered corrections, population mixing and empirical-noise mixing. None of seven tested combinations passed the applicable fixed guards; V24 remains preferred and no duplicate submission was created. Five boundary tests passed, plus independent arithmetic and source-boundary replay. [Results](V37_ENSEMBLE_RESULTS.md), [strategy and reproducible commands](V37_ENSEMBLE_STRATEGY.md). Original model and experiment receipts remain unchanged; D3 remains sealed.
+
+<!-- v37-ensemble:end -->
+
+
 <!-- v35-v36-model-tests:begin -->
 
 ## V35/V36 retrieval and population-view tests (2026-10-16)

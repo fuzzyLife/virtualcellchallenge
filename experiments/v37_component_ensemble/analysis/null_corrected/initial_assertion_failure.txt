@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "\\it-promecfarm01.win.ntnu.no\promec\promec\Animesh\Download\Virtual\run_v37_null_corrected.py", line 43, in <module>
+    with threadpool_limits(limits=2):main()
+                                     ^^^^^^
+  File "\\it-promecfarm01.win.ntnu.no\promec\promec\Animesh\Download\Virtual\run_v37_null_corrected.py", line 22, in main
+    name=ctx['family'];null=ctx['null'];left=set(null['fit_controls']);right=set(null['reference']);templateids=set(null['template']);assert not left&right and not left&templateids and not right&templateids
+                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

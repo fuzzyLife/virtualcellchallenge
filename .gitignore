@@ -522,3 +522,10 @@ __marimo__/
 
 # Regenerated from fixed sampler seeds, consistent with earlier submissions
 /experiments/v36_population_views/analysis/prediction_control_rows.csv
+
+# V37 reproducible ensemble arrays and count caches
+/experiments/v37_component_ensemble/**/*.npz
+/experiments/v37_component_ensemble/*.log
+/experiments/v37_component_ensemble/*.h5ad*
+/experiments/v37_component_ensemble/*.vcc*
+/experiments/v37_component_ensemble/analysis/prediction_control_rows.csv

@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "family": "H1",
+      "source_sha256": "3622184f0436e047c4f504d7811b8808432c72bdc3cff580d9e31e74e4cf417c",
+      "alias_sha256": "ce19d212495bdcad12b2935da498b04a032c144d17c9f0ed6e076774d9081576"
+    },
+    {
+      "family": "HCT116",
+      "source_sha256": "f265889c487d8cf902635e81075f1c1e3d1700c7c51459b609d4912602996d5f",
+      "alias_sha256": "1e6b6da967a300db3daf6a6eb48a09ab80ae026027e61b49814575e37dbd5535"
+    },
+    {
+      "family": "HEK293T",
+      "source_sha256": "677f4b1ea90d359633ed30c6d262750db59d7bf8f3a56654a14416ac5bbea39a",
+      "alias_sha256": "2cf3dc8e1e195436d3065155969d0b855241440a99c706b22ac02065b5e3b4a1"
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "source_sha256": "eecec56de7e9fa4c0614260d88f6085d528d35425f65357ada60dae215af5ac8",
+      "alias_sha256": "877840da06e946f6896adc36edcd7231720b3cad70e8ce361745f2b62682cd96"
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "source_sha256": "874b7abaf04c694d0dcc2d7a98918ca0505a314d79ec1c1b178439b3d59c42ab",
+      "alias_sha256": "54ffdb2f2a8d2c334adf5b82cf0ce5b8a01bcd1009ea797141c4d6425309d45d"
+    }
+  ],
+  "effect_aliases_exact": true,
+  "scope": "Effect alias equality sealed before this corrected arm treatment scoring. Initial null outcomes and prior primary outcomes known."
+}

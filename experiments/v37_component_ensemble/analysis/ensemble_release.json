@@ -1,0 +1,16 @@
+{
+  "selected_arm": "v24",
+  "namespace": "primary",
+  "selection_gain": 0.0,
+  "eligible": [],
+  "selection_inputs_sha256": {
+    "primary": "d070954080db92e160425e632e57183a44625fd59996dd4d4fa4f62ebfaf566d",
+    "recalibrated": "ab692a44a107741421e97b122f4ed9cfa25a1186f3377e084e40818f6f745fd9",
+    "noise_recalibrated": "b18b3b82f01880f532dc0618b0ccfd4a3504794c8e8944ab601c901f4db8c83f"
+  },
+  "rule": "Same frozen acceptance rules for all candidates; among qualifying arms select greatest oriented relative mean gain. Lock before additional count confirmation. Corrective arm explicitly added after initial diagnostic outcomes, not blind discovery.",
+  "confirmation_required": false,
+  "D3_opened": false,
+  "confirmed_leaderboard_gain": false,
+  "selector_sha256": "061181306ac9b51ef15e4c85ca6cd5fcc2b47d4c96a10918e63791caa0282c82"
+}
