@@ -1,5 +1,14 @@
 # Virtual Cell Challenge 2026
 
+<!-- v54-method-performance:begin -->
+
+## V54: methods versus published performance
+
+Reconciled 15 published receipts on the same panel/anchors with the actual uploaded arms. Pooled-response/compact-emission versions correlate strongly with higher scores (descriptive Spearman 0.866); paired comparisons identify V4/V10 as the large advances, V11 as the next meaningful gain, and smaller V16/V24 gains. Learned residuals and generic amplification have not beaten their respective published baselines. Public REACH improves in four recent candidate comparisons but improves privately in only one. [Analysis, limitations, plots and reproduction](V54_METHOD_PERFORMANCE.md); [root script](analyze_v54_method_performance.py). No predictions or old receipts changed.
+
+<!-- v54-method-performance:end -->
+
+
 <!-- v53-joint:begin -->
 
 ## V53 corrected joint mean/rank predictor

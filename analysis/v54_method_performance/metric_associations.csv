@@ -1,0 +1,19 @@
+era,metric,n,pearson,spearman,leave_one_out_spearman_min,leave_one_out_spearman_max,interpretation
+All published,pds,15,0.95277017617447257,0.91071428571428548,0.89010989010989017,0.93406593406593408,Part-whole association: overall is the mean of these six metrics; not predictive validation
+All published,mse,15,0.77139810157618149,0.70557117842970862,0.64960224322031679,0.75299914006507307,Part-whole association: overall is the mean of these six metrics; not predictive validation
+All published,nmae,15,0.77050844367709737,0.8107142857142855,0.76703296703296697,0.83296703296703301,Part-whole association: overall is the mean of these six metrics; not predictive validation
+All published,fid,15,0.98779267780296331,0.8642857142857141,0.83296703296703301,0.91208791208791207,Part-whole association: overall is the mean of these six metrics; not predictive validation
+All published,reach,15,0.21209596687008961,0.03214285714285714,-0.1912087912087912,0.15164835164835166,Part-whole association: overall is the mean of these six metrics; not predictive validation
+All published,jac,15,0.98519762257252397,0.90714285714285703,0.88571428571428568,0.9296703296703297,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,pds,8,0.98703282475888632,0.85714285714285721,0.78571428571428592,1,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,mse,8,-0.10029489276425679,0.28571428571428575,0.035714285714285719,0.71428571428571441,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,nmae,8,0.97146132765677851,0.40476190476190482,0.10714285714285716,0.53571428571428581,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,fid,8,0.92085781191802263,0.11904761904761905,-0.32142857142857151,0.32142857142857151,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,reach,8,0.93561825901161266,0.69047619047619058,0.53571428571428581,0.92857142857142883,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V10 onward,jac,8,0.99168716096892906,0.80952380952380965,0.71428571428571441,0.92857142857142883,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,pds,7,0.92901954286004851,0.78571428571428592,0.65714285714285725,1,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,mse,7,0.82996274933710346,0.71428571428571441,0.54285714285714293,0.94285714285714295,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,nmae,7,0.29498247315529241,0.10714285714285716,-0.25714285714285717,0.25714285714285717,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,fid,7,-0.32783704728286522,-0.32142857142857151,-0.65714285714285725,-0.085714285714285729,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,reach,7,0.5040106331575358,0.53571428571428581,0.25714285714285717,0.88571428571428579,Part-whole association: overall is the mean of these six metrics; not predictive validation
+V11 onward,jac,7,0.89297256869175523,0.71428571428571441,0.54285714285714293,0.88571428571428579,Part-whole association: overall is the mean of these six metrics; not predictive validation
