@@ -1,0 +1,95 @@
+{
+  "version": 53,
+  "config": {
+    "hidden": [
+      128,
+      64
+    ],
+    "epochs": 8,
+    "steps_per_epoch": 192,
+    "batch_size": 2048,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.001,
+    "dropout": 0.05,
+    "pairs_per_group": 768,
+    "treated_per_lane_view": 64,
+    "controls_per_lane_view": 128,
+    "minimum_treated_per_view": 16,
+    "minimum_controls_per_lane_view": 16,
+    "mean_residual_bound": 2.0,
+    "rank_residual_bound": 0.25
+  },
+  "sources": [
+    "H1",
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "groups": {
+    "H1": "H1",
+    "HCT116": "Orion",
+    "HEK293T": "Orion",
+    "CD4_Rest_D2": "CD4",
+    "CD4_Stim48_D2": "CD4"
+  },
+  "arms": [
+    "joint",
+    "mean_only",
+    "rank_only",
+    "shuffled_joint"
+  ],
+  "seed": 52052,
+  "dependencies": {
+    "v52_joint_response.py": "9d1c641c105d8d20ea9357c3ca71dfca992ab865fbbb551d86ff77a7f85a58ce",
+    "run_v52_joint_response.py": "daf6ee4801d774eacf015616b2f35d23fee8114ddf1fb1d62bb597f18e0cb0d0",
+    "test_v52_joint_response.py": "9ca115c7e573da842ba7675c8064e01cd8e32be44117c52607506206c175adf4",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v24_methods.py": "098e4594ca06aa1604a2982cc568936b98c98ac9c738999b956db37183488bef",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "run_v53_joint_guard.py": "12790e4938c1de44fbc9516a6e65c3a25a30f844a1a1a0404d42968abb1c4fac",
+    "test_v53_joint_guard.py": "1e7860c1e324fd8b7c2a7773b16f82baf5960cad4a230f615c35628980eb4e72"
+  },
+  "inputs": {
+    "experiments/v7_multisource_adaptive/analysis/source_provenance.json": "1fdf3385b31ce074673e691d2b7cfc49b14513efbf195ad246f7a294459bc851",
+    "experiments/v24_cd4_response/analysis/models/teacher_all.json": "0684ba220f5e211baaa95e627ca7ac40d4ab448d945db6197d2610d715f37e4c",
+    "experiments/v52_joint_mean_rank/analysis/plan.json": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+    "experiments\\v52_joint_mean_rank\\analysis\\labels\\H1.json": "54dcf99661e5bba6f7529d5c5367195162cdf5df985323758b0701bd7ab31be5",
+    "experiments\\v52_joint_mean_rank\\analysis\\labels\\HCT116.json": "b0d7d7712d04b22372b0d08ead44c2d4d9c7956bacf318d37f5c8071ad8f550a",
+    "experiments\\v52_joint_mean_rank\\analysis\\labels\\HEK293T.json": "e0bae2586b3001bd4cd2fa7df7ab9aa16509dc2a7cc04d579539a83ef305abaa",
+    "experiments\\v52_joint_mean_rank\\analysis\\labels\\CD4_Rest_D2.json": "1db663a926a4135674c8fdef49c890ddd6e0c54eb1bdb5a76ac2bcbc2e7c9e65",
+    "experiments\\v52_joint_mean_rank\\analysis\\labels\\CD4_Stim48_D2.json": "17b6641526a356a5a58fa1e23571da0da63f16492fc9984b65f82f20e1ab7132"
+  },
+  "scope": "Numerical feature-contract correction to V52, selected from implementation review after partial predecessor outcomes. Not a blind new hypothesis or a private leaderboard claim.",
+  "labels": "Two disjoint treated/control views within each lane. CPM mean log2 ratio with .1 pseudocount, clipped +/-3; theta=U/(n_t*n_c)-.5 with half credit for ties. Lane weights follow treated counts. Output gene must have both control-view means>5 CPM and be measured. Own gene excluded.",
+  "features": "Recipient controls and old donor features; exclude whole outer and recipient studies from every donor. Raw donor rank effects are pooled with one vote per biological study. Missing values have explicit indicators. No recipient response labels in features.",
+  "validation": "All hash0 targets excluded from network/ridge fitting, retained for source inner validation. Allowed other-study responses to those targets remain retrieval features: cross-context, not unseen-intervention evaluation. Hold out HCT116+HEK293T together and every CD4 source together.",
+  "selection": "Fixed eight epochs; select epoch only by source hash0 joint normalized mean/rank MSE (single-head uses its head loss). Report each outer separately, equal-study summaries, linear baseline, trained shuffled-label control and view reliability. Never select a release from these metrics alone.",
+  "shuffle": "Within each source, cyclic target-label permutation restricted to fitting targets. Same output gene; inputs unchanged. Validation and outer test always genuine labels.",
+  "pilot_success": "Mean MSE no worse than V24; rank MSE at least 5% below pooled rank, below zero rank, and both MSEs below trained shuffle. Not sufficient for submission release.",
+  "D3_opened": false,
+  "automatic_upload": false,
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.10.0+cu126",
+    "scikit-learn": "1.9.1"
+  },
+  "correction": "Exact train-constant features (std<=1e-8) and their missingness indicators are fixed to zero at fitting and inference; unsupported donor slots cannot activate untrained weights. Same model, labels, folds, loss, seeds and selection; all 12 outer networks retrained.",
+  "known_predecessor_evidence": [
+    "V52 source-validation histories observed",
+    "V52 H1 held-study metrics observed",
+    "V52 other held-study population artifacts may already exist; no biological threshold or hyperparameter changed"
+  ],
+  "predecessor_prediction_receipts_existing_at_freeze": {
+    "CD4_Rest_D2.json": "a701fcf005cd0507e4731095e75d23b814f7baa6166b6ba3433e21b443eddcb1",
+    "CD4_Stim48_D2.json": "8c57241f1a02945281155b3d356ad619efbe91f2eec6a8327321b6929aced440",
+    "H1.json": "8ecb39702389d070d1ba535e4108c60c81319ab1cdf646b3b8e30bd9b84a688f",
+    "HCT116.json": "cd10178f70beef1ce309b252cec4c287250e319eb7b9bb0fa4b74fcb49d1c3ec",
+    "HEK293T.json": "a335426568adbf48939c6a3a123671a14cf15ec206ffe2f63f59c13ec7a4368f"
+  }
+}

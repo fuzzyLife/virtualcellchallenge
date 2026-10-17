@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "generic_inference_matches_saved_heldout_predictions": true,
+  "models": {
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\H1\\joint.pt": "80cb90c8cf930dd65174a3b30c93b3dfe7a50bb7b0f3d34e4f7346f7fc7b13b4",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\H1\\mean_only.pt": "1f089b0b36e499a6121e6cd60c1450e8bc54600bdc5460a84be47008c6bc62e7",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\H1\\rank_only.pt": "1793b5be93d2ababc936f0072bccc000af88c881c6cf91f08679e53632547b66",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\H1\\shuffled_joint.pt": "b724aeed727cde86b5d358029e026f1998ff3a2cd6aa200f9b56ba7255aa363f",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\Orion\\joint.pt": "e083a2327edd630e2b78a7f8bf76fdc490dfcc3800a295ec201481c2540af38e",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\Orion\\mean_only.pt": "14348d71ffcd69ae786397677d2ddc70e02a7b6617ce844bdc2cfe9e8e6e030b",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\Orion\\rank_only.pt": "400b474ef1ef3bae27ffd048e5059f3c4efb3ab125e0c32f93d33653136d16c6",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\Orion\\shuffled_joint.pt": "301398415860f6ff2e03af31b29a1f6aadf46d3c4cc5de812e0a2cd99fdb6e91",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\CD4\\joint.pt": "5f6fc2f1e41d60d713908a0abfa768dc8d0c2cef80217ffc50b0a1e40d6346d3",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\CD4\\mean_only.pt": "c892c5a7ec19fcfbfd308774374277c105ec2ed6d2c64af7df0ae86665c6cca2",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\CD4\\rank_only.pt": "60748f12879e093aa87e7a70bb5906fa162564f690e37c69b95edeb474e46211",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\CD4\\shuffled_joint.pt": "2e6aa62ff1834876432296e8a5dc140a3f8d727c601a72fdaddd6f743d5043c5",
+    "experiments\\v52_joint_mean_rank\\analysis\\models\\all\\joint.pt": "5da0a629dc0aea15ff42d4e6a39ff0c6d885078bc2362a7e07448ddda5500450",
+    "experiments\\v52_joint_mean_rank\\analysis\\predictions\\H1.npz": "ffe6abfe61f25845ee1b6e801dafeb7452c4e46e474e91679297abeeb1382e5f",
+    "experiments\\v52_joint_mean_rank\\analysis\\predictions\\HCT116.npz": "812035b8de4f6501d8c0694433e4c59611146ae8a3dc84e4832cbd5ee23fb6a7",
+    "experiments\\v52_joint_mean_rank\\analysis\\predictions\\HEK293T.npz": "5b58626b999b443335a374355ab0ae34cfe2c3b28a0e5d608806a77da6a7264b",
+    "experiments\\v52_joint_mean_rank\\analysis\\predictions\\CD4_Rest_D2.npz": "5b2abce22bac1d01b98bb969b561d79f98bd59823590555b2186436289602f47",
+    "experiments\\v52_joint_mean_rank\\analysis\\predictions\\CD4_Stim48_D2.npz": "372d5bd07d42e20c2bd71982fe04e4e7aec3fc37296342f5a4f0675621b521be"
+  },
+  "training": [
+    {
+      "outer": "H1",
+      "groups": 354,
+      "training_pairs": 221952,
+      "validation_pairs": 49920
+    },
+    {
+      "outer": "Orion",
+      "groups": 80,
+      "training_pairs": 46848,
+      "validation_pairs": 14592
+    },
+    {
+      "outer": "CD4",
+      "groups": 298,
+      "training_pairs": 190464,
+      "validation_pairs": 38400
+    },
+    {
+      "outer": "all",
+      "groups": 366,
+      "training_pairs": 229632,
+      "validation_pairs": 51456
+    }
+  ],
+  "plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "auditor_sha256": "d5897bfe6444e0f6d48eebf19f964b74f80b5fc5c525b155447e752707a2d348",
+  "D3_opened": false,
+  "scope": "Model/source-label/inference integrity; does not certify private generalization or a count decoder."
+}

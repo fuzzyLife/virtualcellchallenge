@@ -1,0 +1,127 @@
+{
+  "records": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "label": "mean",
+      "eligible_pairs": 128357,
+      "view_correlation": 0.6663046403955893,
+      "mean_squared_view_disagreement": 0.021909611374252232,
+      "average_view_noise_proxy": 0.005477402843563058,
+      "cross_view_product": 0.021868252986382317,
+      "target_centered_view_correlation": 0.6290651188164637,
+      "target_centered_pairs": 128313
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "label": "rank",
+      "eligible_pairs": 128357,
+      "view_correlation": 0.6909546977618212,
+      "mean_squared_view_disagreement": 0.0009560749948015699,
+      "average_view_noise_proxy": 0.00023901874870039248,
+      "cross_view_product": 0.0010674111092404135,
+      "target_centered_view_correlation": 0.6530748461427213,
+      "target_centered_pairs": 128313
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "label": "mean",
+      "eligible_pairs": 1404204,
+      "view_correlation": 0.05480424945991353,
+      "mean_squared_view_disagreement": 0.63209663349712,
+      "average_view_noise_proxy": 0.15802415837428,
+      "cross_view_product": 0.024953959425264044,
+      "target_centered_view_correlation": 0.022002336519746802,
+      "target_centered_pairs": 1403980
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "label": "rank",
+      "eligible_pairs": 1404204,
+      "view_correlation": 0.02196492938623651,
+      "mean_squared_view_disagreement": 0.003970198260041684,
+      "average_view_noise_proxy": 0.000992549565010421,
+      "cross_view_product": 4.520438458094087e-05,
+      "target_centered_view_correlation": 0.013072442348803373,
+      "target_centered_pairs": 1403980
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "label": "mean",
+      "eligible_pairs": 1594407,
+      "view_correlation": 0.11755178143773053,
+      "mean_squared_view_disagreement": 0.485855148816358,
+      "average_view_noise_proxy": 0.1214637872040895,
+      "cross_view_product": 0.033179878788030026,
+      "target_centered_view_correlation": 0.04973205910193626,
+      "target_centered_pairs": 1594164
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "label": "rank",
+      "eligible_pairs": 1594407,
+      "view_correlation": 0.24908309709441076,
+      "mean_squared_view_disagreement": 0.0048154344967785935,
+      "average_view_noise_proxy": 0.0012038586241946484,
+      "cross_view_product": 0.0008119566934242207,
+      "target_centered_view_correlation": 0.10938294469794291,
+      "target_centered_pairs": 1594164
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "label": "mean",
+      "eligible_pairs": 311770,
+      "view_correlation": 0.5383418381041397,
+      "mean_squared_view_disagreement": 0.1267860356635188,
+      "average_view_noise_proxy": 0.0316965089158797,
+      "cross_view_product": 0.07604664379023073,
+      "target_centered_view_correlation": 0.5059282559059054,
+      "target_centered_pairs": 311711
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "label": "rank",
+      "eligible_pairs": 311770,
+      "view_correlation": 0.6219356218456963,
+      "mean_squared_view_disagreement": 0.0006633866248623485,
+      "average_view_noise_proxy": 0.00016584665621558712,
+      "cross_view_product": 0.0005463552954207986,
+      "target_centered_view_correlation": 0.6134320093951802,
+      "target_centered_pairs": 311711
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "label": "mean",
+      "eligible_pairs": 319554,
+      "view_correlation": 0.5280024088742303,
+      "mean_squared_view_disagreement": 0.14473973486924108,
+      "average_view_noise_proxy": 0.03618493371731027,
+      "cross_view_product": 0.0827576432310406,
+      "target_centered_view_correlation": 0.49417502805952984,
+      "target_centered_pairs": 319514
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "label": "rank",
+      "eligible_pairs": 319554,
+      "view_correlation": 0.6156212563148374,
+      "mean_squared_view_disagreement": 0.0006649645647452787,
+      "average_view_noise_proxy": 0.00016624114118631968,
+      "cross_view_product": 0.0005365706577358916,
+      "target_centered_view_correlation": 0.6077253950648538,
+      "target_centered_pairs": 319514
+    }
+  ],
+  "plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "script_sha256": "6e081a60e602c9c42b7f4328854148a1d21d969d67cff3531c884cd36f7916c8",
+  "scope": "Descriptive replicate reliability; centering uses source outcomes only for this diagnostic, never as features. Reused control cells across targets and shared studies preclude interpreting these as independent confidence bounds."
+}

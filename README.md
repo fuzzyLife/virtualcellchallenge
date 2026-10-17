@@ -4,7 +4,7 @@
 
 ## V52 joint mean/rank predictor
 
-Extraction/training in progress. Shared 128/64 neural network, single-head ablations, independent linear heads and a trained shuffled-target control. Whole H1/Orion/CD4 study exclusions; two disjoint raw population views supply full-axis mean/rank labels. [Protocol](V52_JOINT_STRATEGY.md), [results and reproducibility](V52_JOINT_RESULTS.md). This is model training and response-array evaluation, not a validated count submission. D3 remains unopened.
+Training and whole-study raw prediction evaluation completed; see the measured results and pilot checks. Shared 128/64 neural network, single-head ablations, independent linear heads and a trained shuffled-target control. Whole H1/Orion/CD4 study exclusions; two disjoint raw population views supply full-axis mean/rank labels. [Protocol](V52_JOINT_STRATEGY.md), [results and reproducibility](V52_JOINT_RESULTS.md). This is model training and response-array evaluation, not a validated count submission. D3 remains unopened.
 
 <!-- v52-joint:end -->
 

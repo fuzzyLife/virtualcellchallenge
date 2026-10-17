@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "mutation": "Replace excluded H1 mean response with 2.9 and rank response with .49; Orion fitting features and priors unchanged",
+  "tested_source": "HCT116",
+  "outer": "H1",
+  "generic_inference_feature_parity": true,
+  "rank_donor_studies": [
+    "CD4"
+  ],
+  "features": 64,
+  "plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "auditor_sha256": "581cc9d124777cc7d2a57f40261fa1967a17e97d4df5da0c3698069ef7355b82",
+  "D3_opened": false
+}

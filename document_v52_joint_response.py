@@ -11,6 +11,14 @@ def main():
   if p.exists():
    r=m.read(p);lines.append(f"| {source} | {m.GROUP[source]} | {len(r['groups'])} | {sum(x['valid_genes'] for x in r['groups']):,} |")
   else:lines.append(f'| {source} | {m.GROUP[source]} | pending | pending |')
+ noise=m.A/'label_noise.json'
+ if noise.exists():
+  lines+=['','### Paired-view label reproducibility','','| Source | Mean correlation | Rank correlation | Target-centered rank correlation |','|---|---:|---:|---:|']
+  noise_rows=m.read(noise)['records']
+  for source in m.SOURCES:
+   mm=next(x for x in noise_rows if x['source']==source and x['label']=='mean');rr=next(x for x in noise_rows if x['source']==source and x['label']=='rank')
+   lines.append(f"| {source} | {mm['view_correlation']:.3f} | {rr['view_correlation']:.3f} | {rr['target_centered_view_correlation']:.3f} |")
+  lines+=['','Weak HCT116 paired-view reproducibility means lower prediction error can reflect shrinkage of sampling noise. Zero-rank and target-shuffled controls are required to distinguish this from response learning. Centering is a separate descriptive diagnostic, never a fitted feature; reused controls across targets mean these are not independent confidence bounds.']
  lines+=['','The two views are sampling replicates, not independent studies. Missing target/gene labels abstain. All measured genes were considered; each fitting target samples at most 768 eligible gene pairs, while outer evaluation uses every eligible measured gene.','',
   '## Fitted models','','| Excluded study | Model | Selected epoch | Training pairs | Source-validation pairs |','|---|---|---:|---:|---:|']
  for outer in [*m.OUTERS,'all']:

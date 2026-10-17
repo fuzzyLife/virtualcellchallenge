@@ -1,0 +1,3252 @@
+{
+  "outer": "all",
+  "pairs": 281088,
+  "training_pairs": 229632,
+  "validation_pairs": 51456,
+  "groups": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "target_index": 1,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ADNP",
+      "target_index": 2,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ANKZF1",
+      "target_index": 9,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "BRPF1",
+      "target_index": 19,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "target_index": 76,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "MED25",
+      "target_index": 108,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "target_index": 123,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "target_index": 151,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "SLIRP",
+      "target_index": 197,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ZFP62",
+      "target_index": 262,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ZNF32",
+      "target_index": 275,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ABCD1",
+      "target_index": 0,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ACLY",
+      "target_index": 1,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ADNP",
+      "target_index": 2,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "AGO1",
+      "target_index": 3,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "AP2A2",
+      "target_index": 11,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "API5",
+      "target_index": 12,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "BCL6",
+      "target_index": 16,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CARM1",
+      "target_index": 23,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CAT",
+      "target_index": 24,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CHD3",
+      "target_index": 27,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CHD6",
+      "target_index": 28,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CLCN6",
+      "target_index": 30,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "COIL",
+      "target_index": 31,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "COQ10B",
+      "target_index": 33,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CSNK2A1",
+      "target_index": 34,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "CYTH2",
+      "target_index": 35,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DBF4B",
+      "target_index": 36,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DBN1",
+      "target_index": 37,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DCAF16",
+      "target_index": 38,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DDHD1",
+      "target_index": 40,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DEAF1",
+      "target_index": 41,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DEK",
+      "target_index": 42,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DHRS1",
+      "target_index": 43,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DHX35",
+      "target_index": 44,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DLAT",
+      "target_index": 45,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DMTF1",
+      "target_index": 46,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "E2F1",
+      "target_index": 51,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "EAPP",
+      "target_index": 53,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "EEF1A2",
+      "target_index": 54,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "EPM2AIP1",
+      "target_index": 58,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FAM120A",
+      "target_index": 60,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FCGRT",
+      "target_index": 61,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FOXN2",
+      "target_index": 63,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FOXO4",
+      "target_index": 64,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FUBP3",
+      "target_index": 65,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "FZD2",
+      "target_index": 67,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "target_index": 69,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "GMEB2",
+      "target_index": 71,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "GPATCH8",
+      "target_index": 72,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "GRAMD1A",
+      "target_index": 73,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "GTF2IRD1",
+      "target_index": 74,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "HDAC8",
+      "target_index": 76,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "HMGN3",
+      "target_index": 78,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "HOMEZ",
+      "target_index": 81,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "IFI27L2",
+      "target_index": 84,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "IFNAR2",
+      "target_index": 85,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "KDM5A",
+      "target_index": 89,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "LMAN1",
+      "target_index": 97,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MBD4",
+      "target_index": 105,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MLKL",
+      "target_index": 109,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MSANTD4",
+      "target_index": 111,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MTF1",
+      "target_index": 114,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MTHFSD",
+      "target_index": 115,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MYD88",
+      "target_index": 117,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MYPOP",
+      "target_index": 118,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "MYRF",
+      "target_index": 119,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "NAIF1",
+      "target_index": 121,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "NCLN",
+      "target_index": 122,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PARP3",
+      "target_index": 132,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "target_index": 133,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PBLD",
+      "target_index": 134,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PDK3",
+      "target_index": 140,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PHF19",
+      "target_index": 143,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PINK1",
+      "target_index": 149,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PLAGL2",
+      "target_index": 151,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PNP",
+      "target_index": 153,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "POLD4",
+      "target_index": 154,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PPIF",
+      "target_index": 156,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PQBP1",
+      "target_index": 158,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PRDX3",
+      "target_index": 159,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "target_index": 160,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PRMT2",
+      "target_index": 162,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PRNP",
+      "target_index": 165,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PSMB9",
+      "target_index": 167,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "PTMS",
+      "target_index": 168,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RBM4B",
+      "target_index": 177,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RBM5",
+      "target_index": 178,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RNF10",
+      "target_index": 182,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "target_index": 183,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RNF2",
+      "target_index": 184,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "RSRC1",
+      "target_index": 185,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SEMA4F",
+      "target_index": 189,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SFXN4",
+      "target_index": 190,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SH2D3A",
+      "target_index": 191,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SLC25A13",
+      "target_index": 194,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SLC44A1",
+      "target_index": 196,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SMARCA5",
+      "target_index": 198,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SMARCC2",
+      "target_index": 199,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SNRK",
+      "target_index": 203,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SOCS5",
+      "target_index": 205,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "STAT6",
+      "target_index": 209,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "SYVN1",
+      "target_index": 213,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TARBP2",
+      "target_index": 216,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TBC1D19",
+      "target_index": 218,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TBCK",
+      "target_index": 219,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TDRD7",
+      "target_index": 220,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TEAD4",
+      "target_index": 221,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TEX2",
+      "target_index": 223,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "THAP7",
+      "target_index": 226,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TIMM17B",
+      "target_index": 227,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TIMM50",
+      "target_index": 228,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TMEM104",
+      "target_index": 231,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TMEM186",
+      "target_index": 233,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TMF1",
+      "target_index": 237,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TRAPPC6A",
+      "target_index": 238,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TRIP4",
+      "target_index": 241,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TRPC4AP",
+      "target_index": 243,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "TXNDC16",
+      "target_index": 246,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "YIPF6",
+      "target_index": 254,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZBTB34",
+      "target_index": 255,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZC2HC1A",
+      "target_index": 258,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZDHHC12",
+      "target_index": 260,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "target_index": 261,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZFP62",
+      "target_index": 262,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZKSCAN3",
+      "target_index": 266,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF25",
+      "target_index": 271,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF280C",
+      "target_index": 273,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF324",
+      "target_index": 276,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF410",
+      "target_index": 278,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF507",
+      "target_index": 282,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF514",
+      "target_index": 283,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF526",
+      "target_index": 284,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF530",
+      "target_index": 285,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "target_index": 287,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF768",
+      "target_index": 293,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF777",
+      "target_index": 294,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target": "ZNF783",
+      "target_index": 295,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "target_index": 2,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "AGO1",
+      "target_index": 3,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ALG12",
+      "target_index": 7,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ANKZF1",
+      "target_index": 9,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ANP32B",
+      "target_index": 10,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "AP2A2",
+      "target_index": 11,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ARL14EP",
+      "target_index": 13,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ASCC2",
+      "target_index": 14,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "BCL6",
+      "target_index": 16,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "CARM1",
+      "target_index": 23,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "CHD3",
+      "target_index": 27,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "CHD6",
+      "target_index": 28,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "CLCN6",
+      "target_index": 30,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "COIL",
+      "target_index": 31,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DBF4B",
+      "target_index": 36,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DBN1",
+      "target_index": 37,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DDHD1",
+      "target_index": 40,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DEAF1",
+      "target_index": 41,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DHRS1",
+      "target_index": 43,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DHX35",
+      "target_index": 44,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DLAT",
+      "target_index": 45,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DMTF1",
+      "target_index": 46,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "DTNBP1",
+      "target_index": 49,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "E2F1",
+      "target_index": 51,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "EAPP",
+      "target_index": 53,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "EEF1A2",
+      "target_index": 54,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "EPHB2",
+      "target_index": 57,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "EPM2AIP1",
+      "target_index": 58,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FAM120A",
+      "target_index": 60,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FCGRT",
+      "target_index": 61,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FOXN2",
+      "target_index": 63,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FOXO4",
+      "target_index": 64,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FUBP3",
+      "target_index": 65,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "FZD2",
+      "target_index": 67,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "GMEB2",
+      "target_index": 71,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "GPATCH8",
+      "target_index": 72,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "GRAMD1A",
+      "target_index": 73,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "GTF2IRD1",
+      "target_index": 74,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "HMGN3",
+      "target_index": 78,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "HMGXB3",
+      "target_index": 80,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "HOMEZ",
+      "target_index": 81,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "IFI27L2",
+      "target_index": 84,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "IFNAR2",
+      "target_index": 85,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "KDM5A",
+      "target_index": 89,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "KHSRP",
+      "target_index": 91,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MAP2K2",
+      "target_index": 101,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MBD4",
+      "target_index": 105,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MED25",
+      "target_index": 108,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MLKL",
+      "target_index": 109,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MSANTD4",
+      "target_index": 111,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MSI2",
+      "target_index": 112,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MTA1",
+      "target_index": 113,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MTF1",
+      "target_index": 114,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MTHFSD",
+      "target_index": 115,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MYD88",
+      "target_index": 117,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "MYPOP",
+      "target_index": 118,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "NAIF1",
+      "target_index": 121,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PARP3",
+      "target_index": 132,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PBLD",
+      "target_index": 134,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PCGF6",
+      "target_index": 136,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PDCD4",
+      "target_index": 137,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PDK1",
+      "target_index": 139,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PDK3",
+      "target_index": 140,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PHF19",
+      "target_index": 143,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PINK1",
+      "target_index": 149,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PLAGL2",
+      "target_index": 151,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PNP",
+      "target_index": 153,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "POLD4",
+      "target_index": 154,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PPIF",
+      "target_index": 156,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PQBP1",
+      "target_index": 158,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRDX3",
+      "target_index": 159,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "target_index": 160,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRKACA",
+      "target_index": 161,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRMT2",
+      "target_index": 162,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRMT6",
+      "target_index": 163,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PRNP",
+      "target_index": 165,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "target_index": 167,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RABEP2",
+      "target_index": 174,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RBM26",
+      "target_index": 176,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RBM4B",
+      "target_index": 177,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RBM5",
+      "target_index": 178,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RC3H2",
+      "target_index": 179,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RNF10",
+      "target_index": 182,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RNF2",
+      "target_index": 184,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "RSRC1",
+      "target_index": 185,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SAP30L",
+      "target_index": 187,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SEMA4F",
+      "target_index": 189,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SH2D3A",
+      "target_index": 191,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SLC25A13",
+      "target_index": 194,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SMARCA5",
+      "target_index": 198,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SMARCC2",
+      "target_index": 199,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SNX4",
+      "target_index": 204,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SOCS5",
+      "target_index": 205,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "STAT6",
+      "target_index": 209,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TAF4",
+      "target_index": 215,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TARBP2",
+      "target_index": 216,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TBC1D19",
+      "target_index": 218,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TBCK",
+      "target_index": 219,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TDRD7",
+      "target_index": 220,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TEAD4",
+      "target_index": 221,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TEX2",
+      "target_index": 223,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TFCP2",
+      "target_index": 224,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "THAP7",
+      "target_index": 226,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TIMM17B",
+      "target_index": 227,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TIMM50",
+      "target_index": 228,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TMEM104",
+      "target_index": 231,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TMEM186",
+      "target_index": 233,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TMEM79",
+      "target_index": 236,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TMF1",
+      "target_index": 237,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TRAPPC6A",
+      "target_index": 238,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TRIM35",
+      "target_index": 240,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TRIP4",
+      "target_index": 241,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TRPC4AP",
+      "target_index": 243,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "TXNDC16",
+      "target_index": 246,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "UPF3B",
+      "target_index": 248,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "YIPF6",
+      "target_index": 254,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZBTB34",
+      "target_index": 255,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZC2HC1A",
+      "target_index": 258,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "target_index": 261,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZFP62",
+      "target_index": 262,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZKSCAN1",
+      "target_index": 264,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZKSCAN3",
+      "target_index": 266,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF22",
+      "target_index": 270,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF25",
+      "target_index": 271,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF280C",
+      "target_index": 273,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF324",
+      "target_index": 276,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF410",
+      "target_index": 278,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF507",
+      "target_index": 282,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF514",
+      "target_index": 283,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF526",
+      "target_index": 284,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF530",
+      "target_index": 285,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF768",
+      "target_index": 293,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "target_index": 294,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF783",
+      "target_index": 295,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF821",
+      "target_index": 298,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "AKAP1",
+      "target_index": 4,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "CCDC112",
+      "target_index": 25,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DEAF1",
+      "target_index": 41,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DEK",
+      "target_index": 42,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DVL3",
+      "target_index": 50,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "target_index": 66,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "target_index": 112,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PIM2",
+      "target_index": 147,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PRKACA",
+      "target_index": 161,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PSKH1",
+      "target_index": 166,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PTMS",
+      "target_index": 168,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "target_index": 207,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SUPT7L",
+      "target_index": 212,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TMEM186",
+      "target_index": 233,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TRAPPC6A",
+      "target_index": 238,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TWF2",
+      "target_index": 245,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "VIM",
+      "target_index": 252,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZC3HAV1",
+      "target_index": 259,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF16",
+      "target_index": 267,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF496",
+      "target_index": 281,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF627",
+      "target_index": 287,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF641",
+      "target_index": 289,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "AKAP1",
+      "target_index": 4,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ALG12",
+      "target_index": 7,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "CCDC112",
+      "target_index": 25,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DEK",
+      "target_index": 42,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DVL3",
+      "target_index": 50,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "target_index": 66,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "target_index": 112,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "NAIF1",
+      "target_index": 121,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PIM2",
+      "target_index": 147,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PRKACA",
+      "target_index": 161,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PTMS",
+      "target_index": 168,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "target_index": 207,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SUPT7L",
+      "target_index": 212,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "TMEM209",
+      "target_index": 234,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "TWF2",
+      "target_index": 245,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "VIM",
+      "target_index": 252,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZC3HAV1",
+      "target_index": 259,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF16",
+      "target_index": 267,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF444",
+      "target_index": 279,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF496",
+      "target_index": 281,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF627",
+      "target_index": 287,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF641",
+      "target_index": 289,
+      "pairs": 768,
+      "validation": false
+    }
+  ],
+  "excluded_studies": [],
+  "plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "feature_dimension": 138,
+  "rank_donor_exclusions": "Whole outer plus recipient study; recipient controls allowed",
+  "shuffled_permutations": {
+    "CD4_Rest_D2": {
+      "4": 289,
+      "25": 4,
+      "29": 25,
+      "41": 29,
+      "47": 41,
+      "50": 47,
+      "66": 50,
+      "106": 66,
+      "107": 106,
+      "112": 107,
+      "120": 112,
+      "161": 120,
+      "166": 161,
+      "168": 166,
+      "208": 168,
+      "225": 208,
+      "233": 225,
+      "238": 233,
+      "245": 238,
+      "252": 245,
+      "256": 252,
+      "259": 256,
+      "274": 259,
+      "281": 274,
+      "287": 281,
+      "289": 287
+    },
+    "CD4_Stim48_D2": {
+      "4": 289,
+      "7": 4,
+      "25": 7,
+      "29": 25,
+      "47": 29,
+      "50": 47,
+      "66": 50,
+      "106": 66,
+      "107": 106,
+      "112": 107,
+      "120": 112,
+      "121": 120,
+      "161": 121,
+      "168": 161,
+      "208": 168,
+      "225": 208,
+      "245": 225,
+      "252": 245,
+      "256": 252,
+      "259": 256,
+      "274": 259,
+      "279": 274,
+      "281": 279,
+      "287": 281,
+      "289": 287
+    },
+    "H1": {
+      "2": 275,
+      "9": 2,
+      "76": 9,
+      "107": 76,
+      "108": 107,
+      "123": 108,
+      "151": 123,
+      "197": 151,
+      "262": 197,
+      "275": 262
+    },
+    "HCT116": {
+      "0": 295,
+      "2": 0,
+      "3": 2,
+      "11": 3,
+      "12": 11,
+      "16": 12,
+      "24": 16,
+      "27": 24,
+      "28": 27,
+      "29": 28,
+      "30": 29,
+      "31": 30,
+      "33": 31,
+      "34": 33,
+      "35": 34,
+      "36": 35,
+      "37": 36,
+      "38": 37,
+      "40": 38,
+      "41": 40,
+      "43": 41,
+      "44": 43,
+      "45": 44,
+      "46": 45,
+      "47": 46,
+      "53": 47,
+      "54": 53,
+      "60": 54,
+      "61": 60,
+      "64": 61,
+      "67": 64,
+      "69": 67,
+      "72": 69,
+      "74": 72,
+      "76": 74,
+      "78": 76,
+      "81": 78,
+      "84": 81,
+      "85": 84,
+      "89": 85,
+      "97": 89,
+      "105": 97,
+      "106": 105,
+      "107": 106,
+      "109": 107,
+      "111": 109,
+      "114": 111,
+      "115": 114,
+      "117": 115,
+      "118": 117,
+      "119": 118,
+      "120": 119,
+      "121": 120,
+      "132": 121,
+      "134": 132,
+      "140": 134,
+      "149": 140,
+      "151": 149,
+      "154": 151,
+      "156": 154,
+      "158": 156,
+      "160": 158,
+      "162": 160,
+      "167": 162,
+      "168": 167,
+      "177": 168,
+      "178": 177,
+      "184": 178,
+      "185": 184,
+      "189": 185,
+      "190": 189,
+      "191": 190,
+      "194": 191,
+      "196": 194,
+      "198": 196,
+      "199": 198,
+      "208": 199,
+      "209": 208,
+      "213": 209,
+      "216": 213,
+      "218": 216,
+      "220": 218,
+      "221": 220,
+      "223": 221,
+      "225": 223,
+      "226": 225,
+      "227": 226,
+      "228": 227,
+      "231": 228,
+      "233": 231,
+      "237": 233,
+      "238": 237,
+      "241": 238,
+      "246": 241,
+      "254": 246,
+      "255": 254,
+      "256": 255,
+      "258": 256,
+      "260": 258,
+      "261": 260,
+      "262": 261,
+      "266": 262,
+      "271": 266,
+      "273": 271,
+      "274": 273,
+      "276": 274,
+      "278": 276,
+      "282": 278,
+      "284": 282,
+      "285": 284,
+      "287": 285,
+      "293": 287,
+      "295": 293
+    },
+    "HEK293T": {
+      "2": 298,
+      "3": 2,
+      "7": 3,
+      "9": 7,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 13,
+      "16": 14,
+      "27": 16,
+      "28": 27,
+      "29": 28,
+      "30": 29,
+      "31": 30,
+      "36": 31,
+      "37": 36,
+      "40": 37,
+      "41": 40,
+      "43": 41,
+      "44": 43,
+      "45": 44,
+      "46": 45,
+      "47": 46,
+      "49": 47,
+      "53": 49,
+      "54": 53,
+      "57": 54,
+      "60": 57,
+      "61": 60,
+      "64": 61,
+      "67": 64,
+      "72": 67,
+      "74": 72,
+      "78": 74,
+      "80": 78,
+      "81": 80,
+      "84": 81,
+      "85": 84,
+      "89": 85,
+      "101": 89,
+      "105": 101,
+      "106": 105,
+      "107": 106,
+      "108": 107,
+      "109": 108,
+      "111": 109,
+      "112": 111,
+      "113": 112,
+      "114": 113,
+      "115": 114,
+      "117": 115,
+      "118": 117,
+      "120": 118,
+      "121": 120,
+      "132": 121,
+      "134": 132,
+      "136": 134,
+      "137": 136,
+      "139": 137,
+      "140": 139,
+      "149": 140,
+      "151": 149,
+      "154": 151,
+      "156": 154,
+      "158": 156,
+      "160": 158,
+      "161": 160,
+      "162": 161,
+      "163": 162,
+      "167": 163,
+      "174": 167,
+      "176": 174,
+      "177": 176,
+      "178": 177,
+      "179": 178,
+      "184": 179,
+      "185": 184,
+      "187": 185,
+      "189": 187,
+      "191": 189,
+      "194": 191,
+      "198": 194,
+      "199": 198,
+      "204": 199,
+      "208": 204,
+      "209": 208,
+      "215": 209,
+      "216": 215,
+      "218": 216,
+      "220": 218,
+      "221": 220,
+      "223": 221,
+      "224": 223,
+      "225": 224,
+      "226": 225,
+      "227": 226,
+      "228": 227,
+      "231": 228,
+      "233": 231,
+      "236": 233,
+      "237": 236,
+      "238": 237,
+      "240": 238,
+      "241": 240,
+      "246": 241,
+      "248": 246,
+      "254": 248,
+      "255": 254,
+      "256": 255,
+      "258": 256,
+      "261": 258,
+      "262": 261,
+      "264": 262,
+      "266": 264,
+      "271": 266,
+      "273": 271,
+      "274": 273,
+      "276": 274,
+      "278": 276,
+      "282": 278,
+      "284": 282,
+      "285": 284,
+      "293": 285,
+      "295": 293,
+      "298": 295
+    }
+  },
+  "device": "cuda"
+}

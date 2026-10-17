@@ -1,0 +1,724 @@
+{
+  "outer": "Orion",
+  "pairs": 61440,
+  "training_pairs": 46848,
+  "validation_pairs": 14592,
+  "groups": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "target_index": 1,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ADNP",
+      "target_index": 2,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ANKZF1",
+      "target_index": 9,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "BRPF1",
+      "target_index": 19,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "target_index": 76,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "MED25",
+      "target_index": 108,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "target_index": 123,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "target_index": 151,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "SLIRP",
+      "target_index": 197,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ZFP62",
+      "target_index": 262,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "target": "ZNF32",
+      "target_index": 275,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "AKAP1",
+      "target_index": 4,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "CCDC112",
+      "target_index": 25,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DEAF1",
+      "target_index": 41,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DEK",
+      "target_index": 42,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "DVL3",
+      "target_index": 50,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "target_index": 66,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "target_index": 112,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PIM2",
+      "target_index": 147,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PRKACA",
+      "target_index": 161,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PSKH1",
+      "target_index": 166,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "PTMS",
+      "target_index": 168,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "target_index": 207,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "SUPT7L",
+      "target_index": 212,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TMEM186",
+      "target_index": 233,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TRAPPC6A",
+      "target_index": 238,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "TWF2",
+      "target_index": 245,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "VIM",
+      "target_index": 252,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZC3HAV1",
+      "target_index": 259,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF16",
+      "target_index": 267,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF496",
+      "target_index": 281,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF627",
+      "target_index": 287,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "study": "CD4",
+      "target": "ZNF641",
+      "target_index": 289,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "AKAP1",
+      "target_index": 4,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ALG12",
+      "target_index": 7,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "CCDC112",
+      "target_index": 25,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "CHKB",
+      "target_index": 29,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DEK",
+      "target_index": 42,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DVL3",
+      "target_index": 50,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "target_index": 66,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "target_index": 106,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED15",
+      "target_index": 107,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "target_index": 112,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "NABP2",
+      "target_index": 120,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "NAIF1",
+      "target_index": 121,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "target_index": 135,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PIM2",
+      "target_index": 147,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PRKACA",
+      "target_index": 161,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PTMS",
+      "target_index": 168,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "target_index": 195,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "target_index": 207,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SSR4",
+      "target_index": 208,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SUPT7L",
+      "target_index": 212,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "THAP3",
+      "target_index": 225,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "TMEM209",
+      "target_index": 234,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "TWF2",
+      "target_index": 245,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "VIM",
+      "target_index": 252,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZBTB41",
+      "target_index": 256,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZC3HAV1",
+      "target_index": 259,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF16",
+      "target_index": 267,
+      "pairs": 768,
+      "validation": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF282",
+      "target_index": 274,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF444",
+      "target_index": 279,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF496",
+      "target_index": 281,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF627",
+      "target_index": 287,
+      "pairs": 768,
+      "validation": false
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "ZNF641",
+      "target_index": 289,
+      "pairs": 768,
+      "validation": false
+    }
+  ],
+  "excluded_studies": [
+    "Orion"
+  ],
+  "plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "feature_dimension": 138,
+  "rank_donor_exclusions": "Whole outer plus recipient study; recipient controls allowed",
+  "shuffled_permutations": {
+    "CD4_Rest_D2": {
+      "4": 289,
+      "25": 4,
+      "29": 25,
+      "41": 29,
+      "47": 41,
+      "50": 47,
+      "66": 50,
+      "106": 66,
+      "107": 106,
+      "112": 107,
+      "120": 112,
+      "161": 120,
+      "166": 161,
+      "168": 166,
+      "208": 168,
+      "225": 208,
+      "233": 225,
+      "238": 233,
+      "245": 238,
+      "252": 245,
+      "256": 252,
+      "259": 256,
+      "274": 259,
+      "281": 274,
+      "287": 281,
+      "289": 287
+    },
+    "CD4_Stim48_D2": {
+      "4": 289,
+      "7": 4,
+      "25": 7,
+      "29": 25,
+      "47": 29,
+      "50": 47,
+      "66": 50,
+      "106": 66,
+      "107": 106,
+      "112": 107,
+      "120": 112,
+      "121": 120,
+      "161": 121,
+      "168": 161,
+      "208": 168,
+      "225": 208,
+      "245": 225,
+      "252": 245,
+      "256": 252,
+      "259": 256,
+      "274": 259,
+      "279": 274,
+      "281": 279,
+      "287": 281,
+      "289": 287
+    },
+    "H1": {
+      "2": 275,
+      "9": 2,
+      "76": 9,
+      "107": 76,
+      "108": 107,
+      "123": 108,
+      "151": 123,
+      "197": 151,
+      "262": 197,
+      "275": 262
+    }
+  },
+  "device": "cuda"
+}

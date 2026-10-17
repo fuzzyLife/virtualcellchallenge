@@ -67,8 +67,16 @@ def artifacts():
    assert z['mean'].shape==z['rank'].shape==z['valid'].shape==(300,18533)
    assert np.isfinite(z['mean']).all() and np.isfinite(z['rank']).all();assert abs(z['mean']).max()<=3 and abs(z['rank']).max()<=.5
   proof[str(p.relative_to(m.ROOT))]=r['sha256']
+ from predict_v52_joint_response import predict
+ z=m.labels('H1');ti=int(np.flatnonzero(z['valid'].any(1))[0]);t=z['targets'][ti]
+ api=predict(z['query'],outer='H1',recipient_study='H1',targets=[t],device='cpu')
+ with np.load(m.A/'predictions/H1.npz',allow_pickle=False) as saved:
+  mask=z['valid'][ti]&api['valid'][0]
+  np.testing.assert_allclose(api['mean'][0,mask],saved['mean'][ti,mask],atol=3e-6,rtol=1e-5)
+  np.testing.assert_allclose(api['rank'][0,mask],saved['rank'][ti,mask],atol=3e-6,rtol=1e-5)
+ assert not api['valid'][0,z['genes']==t].any()
  for n in ['label_audit.json','boundary_audit.json']:assert m.read(m.A/n)['passed']
- m.write(m.A/'final_audit.json',dict(passed=True,models=proof,training=records,plan_sha256=m.b.sha256(m.A/'plan.json'),auditor_sha256=m.b.sha256(Path(__file__)),D3_opened=False,
+ m.write(m.A/'final_audit.json',dict(passed=True,generic_inference_matches_saved_heldout_predictions=True,models=proof,training=records,plan_sha256=m.b.sha256(m.A/'plan.json'),auditor_sha256=m.b.sha256(Path(__file__)),D3_opened=False,
   scope='Model/source-label/inference integrity; does not certify private generalization or a count decoder.'))
  print('V52 final artifacts passed',flush=True)
 if __name__=='__main__':
