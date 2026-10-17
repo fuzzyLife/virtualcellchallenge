@@ -1,0 +1,58 @@
+{
+  "provenance": "User-provided CLI output; not independently queried from API",
+  "entry": "u0bZUCY7giU6jkxbuiys",
+  "model": "Empirical response-prior calibration v50",
+  "status": "published",
+  "rank_at_reporting": 557,
+  "publication_timestamp": null,
+  "job": "projects/vcc-prod/locations/us-west1/jobs/vcc-metrics-prod-u0bzucy7giu6jkxbuiys",
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "upload": {
+    "reported_size": "3.8 GiB",
+    "duration": "16m14s",
+    "average_rate": "4.0 MiB/s"
+  },
+  "package_sha256": "4629cfca53b031527823e18792d51902fde9bd6e19e84513c4f2dcfc7945a4cb",
+  "package_bytes": 4073646080,
+  "scaled_scores": {
+    "overall": 0.14152262164295007,
+    "pds": 0.6445079188293643,
+    "mse": 0.04429553851868299,
+    "nmae": 0.08339644503073829,
+    "fid": -0.015672608176707365,
+    "reach": 0.07760600943183436,
+    "jac": 0.015002426223787849
+  },
+  "all_scaled_metrics_higher_is_better": true,
+  "comparison": {
+    "baseline": "V24",
+    "baseline_entry": "81Y2yX7utdAau9rr3jCj",
+    "baseline_scaled_scores": {
+      "overall": 0.14299785521745675,
+      "pds": 0.644246366710111,
+      "mse": 0.04756840736075477,
+      "nmae": 0.08227057284911048,
+      "fid": -0.01579183745269364,
+      "reach": 0.08483984010194835,
+      "jac": 0.01485378173550954
+    },
+    "delta_vs_v24": {
+      "overall": -0.0014752335745066847,
+      "pds": 0.00026155211925327215,
+      "mse": -0.0032728688420717855,
+      "nmae": 0.00112587218162781,
+      "fid": 0.00011922927598627397,
+      "reach": -0.007233830670113989,
+      "jac": 0.00014864448827830827
+    },
+    "champion": "V24",
+    "significant_improvement_established": false
+  },
+  "frozen_pre_upload_receipt_sha256": {
+    "submission_ready.json": "03be0c2215c1754a1e7a08fcecbf2820fbccd306320c0e9f959a3b522b1cef87",
+    "final_release_manifest.json": "e9932eb12452cf4e763eee31585c2e417fd506baeedd2615a6ffa04640e4db5b",
+    "release_decision.json": "9d1ad2d716b633858896940959d67f564b926121a4d6e3ff4b054d4f4f01de45"
+  }
+}

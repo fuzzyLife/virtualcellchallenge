@@ -7,6 +7,10 @@ import update_v50_readme as readme
 def main():
  A=b.ROOT/'experiments/v50_response_prior/analysis';ready=json.loads((A/'final_release_manifest.json').read_text());assert ready['passed'] and not ready['uploaded']
  report.main();readme.main();path=b.ROOT/'V45_V50_RESULTS.md';text=path.read_text(encoding='utf-8')
+ from record_v50_published_result import read_result
+ if read_result():
+  print('V50 publication amendment refreshed; pre-upload receipts preserved',flush=True)
+  return
  text+='\n## Submit manually from Windows CMD\n\n'
  text+='The package is ready; the private score remains unknown. The aggregate public checks pass, with seed-sensitive gains.\n\n~~~bat\n'
  text+=r'cd /d L:\promec\Animesh\Download\Virtual'+'\n'

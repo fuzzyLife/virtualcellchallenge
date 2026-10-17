@@ -1,6 +1,6 @@
 # V45–V50: populations, numerical repair and empirical priors
 
-V24 remains the best published submission: overall0.14299785521745675. All new results are raw public diagnostics, not private anchor-scaled leaderboard scores. Public biology has been repeatedly examined; the additional-count confirmation is not blind cell-line validation.
+V24 remains the best published submission: overall0.14299785521745675. Experiment tables below contain raw public diagnostics. The subsequent published-result table contains official scaled scores reported by the user. Public biology has been repeatedly examined; the additional-count confirmation is not blind cell-line validation.
 
 ## What was tested
 
@@ -42,10 +42,10 @@ Selection is frozen before opening additional count cases. Only candidates passi
 | v24 | 0.781250 | 0.586198 | 0.230317 | 0.053056 | 0.912759 | 37.640579 |
 | randomized_prior | 0.782738 | 0.586614 | 0.249261 | 0.053273 | 0.914064 | 37.700543 |
 
-Selected arm: **randomized_prior**. All public guards pass: **True**. Private leaderboard score: **unknown**.
+Selected arm: **randomized_prior**. All public guards pass: **True**. Private leaderboard score was unknown at the pre-upload decision; the published result is recorded below.
 
 Upload file: experiments/v50_response_prior/prediction.vcc (4,073,646,080 bytes). SHA256: 4629cfca53b031527823e18792d51902fde9bd6e19e84513c4f2dcfc7945a4cb.
-Official packaging passed; not uploaded. The complete compressed payload is decompressed and every CSR value/index/pointer compared with the staged source. Canonical CLI cell-index renumbering is checked explicitly; gene/context/target axes and row order must match.
+Official packaging passed before upload. The user subsequently uploaded the package; see the published result below. The complete compressed payload is decompressed and every CSR value/index/pointer compared with the staged source. Canonical CLI cell-index renumbering is checked explicitly; gene/context/target axes and row order must match.
 
 ## Generation-seed sensitivity
 
@@ -109,13 +109,22 @@ Root source scripts, tests and small receipts are committed. Large raw data, arr
 
 Primary background: [predictive ensembles](https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html), [heterogeneous perturbation responses / mixscape](https://www.nature.com/articles/s41588-021-00778-2), and [RNAi/CRISPR consensus limitations](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003213). These motivate controls and distribution tests; they do not validate our particular candidates.
 
-## Submit manually from Windows CMD
+## Published V50 result
 
-The package is ready; the private score remains unknown. The aggregate public checks pass, with seed-sensitive gains.
+Source: user-provided VCC CLI output; this record does not claim a fresh API query. Entry `u0bZUCY7giU6jkxbuiys` is **published**, rank **557 at reporting**, overall **0.14152262164295007**. Panel `vcc2026-val-1`, partition `val`; anchors `vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4`.
 
-~~~bat
-cd /d L:\promec\Animesh\Download\Virtual
-.\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v50_response_prior\prediction.vcc -m "Empirical response-prior calibration v50" --wait
-~~~
+| Scaled score (higher is better) | V24 | V50 | V50 minus V24 |
+|---|---:|---:|---:|
+| overall | 0.142997855 | 0.141522622 | -0.001475234 |
+| pds | 0.644246367 | 0.644507919 | +0.000261552 |
+| mse | 0.047568407 | 0.044295539 | -0.003272869 |
+| nmae | 0.082270573 | 0.083396445 | +0.001125872 |
+| fid | -0.015791837 | -0.015672608 | +0.000119229 |
+| reach | 0.084839840 | 0.077606009 | -0.007233831 |
+| jac | 0.014853782 | 0.015002426 | +0.000148644 |
 
-The final release manifest binds every proof receipt and the package SHA256. No upload or Git push was performed.
+**V24 remains the best published submission.** REACH and expression accuracy losses outweigh the four small gains. Historical ranks are not directly comparable because the leaderboard changes over time. All six entries above are scaled accuracy scores, including MSE and NMAE; higher is better.
+
+The public REACH gain failed to transfer in direction. The seed-sensitive public surrogate therefore did not reliably rank this small change. This is evidence against promoting the tested amplitude calibration over V24, not proof that every response prior or neural architecture is ineffective. Before another release, investigate this public/private ranking mismatch and require improvements across generation seeds and held-out biological datasets; D3 remains unopened.
+
+The frozen pre-upload receipts retain their original unknown-score and uploaded-false fields as historical snapshots. The separate [published result](experiments/v50_response_prior/analysis/published_result.json) binds this amendment to the validated package SHA256. Recreate the amendment with `SCIENCE_PYTHON record_v50_published_result.py`, then refresh documentation with `SCIENCE_PYTHON finalize_docs_v50.py`.
