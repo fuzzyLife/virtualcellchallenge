@@ -1,5 +1,13 @@
 # Virtual Cell Challenge 2026
 
+<!-- v52-joint:begin -->
+
+## V52 joint mean/rank predictor
+
+Extraction/training in progress. Shared 128/64 neural network, single-head ablations, independent linear heads and a trained shuffled-target control. Whole H1/Orion/CD4 study exclusions; two disjoint raw population views supply full-axis mean/rank labels. [Protocol](V52_JOINT_STRATEGY.md), [results and reproducibility](V52_JOINT_RESULTS.md). This is model training and response-array evaluation, not a validated count submission. D3 remains unopened.
+
+<!-- v52-joint:end -->
+
 <!-- v51-plateau:begin -->
 
 ## V51: measured plateau diagnosis

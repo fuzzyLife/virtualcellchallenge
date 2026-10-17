@@ -625,3 +625,9 @@ __marimo__/
 /experiments/v50_response_prior/*.h5ad*
 /experiments/v50_response_prior/*.vcc*
 /experiments/v50_response_prior/analysis/prediction_control_rows.csv
+
+# V52 joint mean/rank raw labels and fitted models
+/experiments/v52_joint_mean_rank/**/*.npz
+/experiments/v52_joint_mean_rank/**/*.pt
+/experiments/v52_joint_mean_rank/**/*.joblib
+/experiments/v52_joint_mean_rank/*.log
