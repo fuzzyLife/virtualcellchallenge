@@ -1,0 +1,99 @@
+# V51: why progress stalled, and the experiment that could change it
+
+This is a post-V50 investigation, not a new submission or a claim of improved private performance. V24 remains the champion at 0.14299785521745675; V50 scored 0.14152262164295007. The 44 public cell-population cases cover only 30 distinct context-target pairs and were already used in development. D3 remains unopened. Existing models, packages, plans and pre-upload proofs are unchanged.
+
+## The result in plain language
+
+We are repeatedly changing a predictor whose cross-context response directions are weak, then evaluating small changes through a noisy and mismatched local objective. The count generator adds a second problem: it changes the control distribution enough to create many DE calls without any intervention. More neural architectures or majority votes among these related predictions do not by themselves add missing intervention information.
+
+## 1. One three-gene case explains the apparent V50 REACH gain
+
+The original equal-study confirmation gain was +0.018944456 raw REACH. Removing only CD4_Rest_D1 / MTHFSD from both candidates, keeping both generation seeds and the same remaining aggregation, changes it to -0.001869746. That case has just three reference DE genes. Its REACH changes from 0 to 1 at seed offset 0; that jump is absent at offset 380000. This is a descriptive sensitivity check, not permission to remove an inconvenient case from the official metric.
+
+The public REACH improvement was therefore not broad evidence of better intervention biology. Both seeds reuse the same measured biology. The published REACH change is -0.007233831 on the official scaled metric; raw public and scaled private magnitudes cannot be equated.
+
+## 2. The local objective puts the wrong weight on the evidence
+
+HCT116 contributes 97.08% of V24's equal-study confirmation expression-ratio aggregate. Its ratio is about 219 because its corrected signal denominator is about 0.00000642. Other contexts are about 1-2.05. A positive denominator is numerically resolved but is not necessarily a stable biological ranking criterion. The local average of oriented relative raw gains is not the official mean of context-specific anchored scores.
+
+All eight HCT116 cases have fewer than ten reference DE genes. Eight of twelve HEK293T cases do too. REACH fractions on these small budgets are discrete and unstable. They must remain in official-style summaries, with influence and response-strength strata reported alongside them.
+
+The existing test has 4 development case populations and 4-8 confirmation populations per context. Several repeat the same intervention. H1 and HCT116 each have only four unique targets, HEK293T six, and the two CD4 contexts eight each: 30 distinct context-target pairs across 44 populations. Some confirmation PDS panels include repeated identities as competitors. Our corrected sensitivity diagnostic first averages profiles for repeat populations within each target, then ranks unique targets; the old repeated-population result is retained with an explicit non-unique label. The 100 unique-target label-shuffle permutations are diagnostic nulls, not independent biological replicates or a significance claim. These tiny panels cannot establish 300-target discrimination.
+
+The public and official tests also differ in population sizes:
+
+| Context | Generated public cells | Public reference controls | Idealized z multiplier at official 400/18,400 |
+|---|---:|---:|---:|
+| H1 | 400 | 768 | 1.220 |
+| HCT116 | 400 | 1742 | 1.097 |
+| HEK293T | 400 | 3558 | 1.043 |
+| CD4_Rest_D1 | 200 | 4993 | 1.427 |
+| CD4_Stim48_D2 | 400 | 4995 | 1.028 |
+
+The last column assumes an unchanged rank effect and tie fraction and is a first-order power calculation, not a measured private change. Do not duplicate controls to manufacture an 18,400-cell public reference. Use all available independent controls and explicit power curves.
+
+## 3. Both the biological prediction and cell generator need work
+
+| Context | Cases | Median reference DE | Median V24 DE | Mean DE-set precision | Intended direction accuracy on reference DE |
+|---|---:|---:|---:|---:|---:|
+| H1 | 8 | 166.5 | 1968.0 | 7.51% | 67.91% |
+| HCT116 | 8 | 2.5 | 1958.5 | 0.04% | 100.00% |
+| HEK293T | 12 | 8.0 | 1368.0 | 0.80% | 70.46% |
+| CD4_Rest_D1 | 8 | 98.5 | 360.0 | 9.66% | 53.05% |
+| CD4_Stim48_D2 | 8 | 1459.5 | 2175.5 | 25.41% | 57.25% |
+
+Precision is overlap with this public reference significance set, not a declaration that every non-overlapping call is biologically false. Direction accuracy is averaged over evaluable cases and uses the intended V24 mean probabilities before emission, compared with the independent reference. It is not an official FID score. HCT116 direction accuracy is based on extremely small reference sets.
+
+The intended CD4 directions are near chance even before generating counts. Emission changes LFCs only modestly (eligible-gene RMSE about 0.012-0.077 across contexts). Thus count simulation alone cannot correct the missing response directions. V50 changes the effect vector by only about 1.0-1.2% in relative L2 across these cases and preserves signs; it cannot solve this limitation.
+
+| Zero-intervention context | Synthetic V24 DE calls | Real null DE calls in the same saved test |
+|---|---:|---:|
+| H1 | 1415 | 0 |
+| HCT116 | 780 | 1 |
+| HEK293T | 355 | 0 |
+| CD4_Rest_D1 | 516 | 1 |
+| CD4_Stim48_D2 | 753 | 0 |
+
+A separate replay using each cached case-0 real NTC template gives 0, 0, 0, 26 and 0 calls respectively. These are different splits from the saved synthetic-null table and are not paired causal effect estimates. They show that real-control baselines can be far better calibrated, while donor/batch variation still matters.
+
+Importantly, this is not the first attempt at preserving variation. V29 already reduced null calls to about 0-1 while preserving V24 means. Its H1 treatment FID fell from 0.646629 to 0.101921, although REACH improved. Simply replacing compact cells with real-control variation was already tested and failed. A useful new method must learn which intervention/gene pairs should become statistically distinguishable, rather than restoring variance uniformly.
+
+## 4. What public work actually adds
+
+[Sidechain documents a directly relevant failure and recovery](https://saberhq.com/sidechain/models/): real-control-based cells improved its local tests but its SER-15 official score collapsed; selectively changing variation in predicted response genes subsequently recovered performance. Its public report supports testing selective significance calibration, not assuming realistic cells automatically score better. Its documented scores are self-reported and do not establish what Illumina/iCell or other leading private teams do.
+
+[A public VCC method/code notebook](https://github.com/danielchen26/vcc2026-dossier) separates mean response from rank-test response and constructs counts from control distributions. The useful idea is to predict significance-related rank effects separately from mean LFC. Its broader claim that only two numbers per gene determine the full score is incomplete. Our independent arithmetic test finds the same mean and Mann-Whitney U with different tie corrections and p-values; the official expression score also uses pooled profiles and delete-one jackknife terms. Row normalization and rounding require end-to-end validation. No notebook score forecast is treated as evidence of a leaderboard gain.
+
+[Systema](https://doi.org/10.1038/s41587-025-02777-8) motivates checking target-specific signal after removing the common perturbation response. [PRiMeFlow](https://arxiv.org/html/2604.13986v2) provides a learned distributional alternative, conditioned on perturbation and covariates. Neither establishes that a larger model will overcome our cross-context transfer problem.
+
+The [official metric specification](https://raw.githubusercontent.com/ArcInstitute/cell-eval2/main/docs/vcc2026_metrics/vcc2026-metrics.md) remains the authority for filtering, tie-corrected DE statistics, target exclusions and anchored scoring. Its general submission description and the competition upload schema have different scope; continue using the validated CLI schema.
+
+## 5. The next experiment should change the prediction target
+
+Build a two-part response model and test its parts separately. First predict biological mean changes; second predict the rank effect relative to context controls, theta = P(perturbed > control) + 0.5 P(tie) - 0.5. This is different from learning the old magnitude/standard-error activity labels, and different from rank correlation between basal expression profiles. Do not assume that mean direction and rank direction agree. Use measured source populations to obtain rank labels, pooled tie summaries and within-source reliability.
+
+1. **Repair the benchmark before selecting another candidate.** Report full available target panels, separate cohorts by response budget, control-size/power curves, all generation seeds and leave-case-out sensitivity. Build per-public-context baseline/replicate anchors with disjoint cells; label them public anchors and flag unresolved or unstable spans. Preserve the official macro summaries and report alternatives only as diagnostics. Gains must survive more than one influential low-budget case.
+
+2. **Run a four-arm oracle attribution test.** On spent raw public outcomes, compare V24 mean + V24 generator, measured mean + V24 generator, V24 mean + measured rank response, and measured mean + measured rank response. The oracle arms use outcome information and are diagnostics only; they can never be uploaded or enter fitted features. Use independent measured splits where possible. This establishes how much headroom is lost in means versus significance calibration before spending on training.
+
+3. **Fit a joint mean/rank response teacher.** Start from existing raw H1, Orion and CD4 data; add independent raw perturbation sources only after checking coverage and assay compatibility. Hold out whole biological studies and additionally target groups when testing target extrapolation. Compare V24, a simple linear/ridge teacher, the separate rank head, and matched shuffled-target controls. Pool genuine family evidence with explicit uncertainty; missing families abstain. Retain generic shifts separately from target-specific residuals so shared stress is not mistaken for target identity.
+
+4. **Decode with context-specific control distributions and selective response changes.** Leave unsupported genes near the NTC distribution; change supported rank effects and means together while respecting finite-count feasibility. Verify realized means, pooled profiles, U, ties, q-values, detection, libraries and nulls after row normalization and integerization. Include V29 and a uniform-variance change as controls, since those ideas were already tested. This cannot recover incorrect mean-response directions by itself.
+
+5. **Release only after a robust biological gain.** Freeze candidate selection before additional count/biological confirmation; require consistency across independent study folds, generation seeds and influential-case checks. Null calibration alone is insufficient, and a better total cannot be inferred from raw relative gains. D3 may be used once for a locked qualifying finalist under the existing reserve policy, not searched repeatedly. Preserve V24 as fallback.
+
+These are proposed experiments; no oracle, rank-head fit, new anchor bundle or new package is claimed to have run in this investigation. The completed work is the 44-population/30-context-target attribution, five real-control DE checks, case/seed sensitivity analysis and independent rank-statistic arithmetic.
+
+## Reproduce and audit
+
+Use the existing pinned Python 3.12 scientific environment (requirements-v35-science.txt), not the Python 3.14 packaging environment. SCIENCE_PYTHON is the path to that interpreter. Existing V37 caches and V50 frozen receipts are prerequisites.
+
+~~~bat
+SCIENCE_PYTHON diagnose_v51_plateau.py
+SCIENCE_PYTHON diagnose_v51_selection.py
+SCIENCE_PYTHON test_v51_rank_claims.py
+SCIENCE_PYTHON document_v51_plateau.py
+SCIENCE_PYTHON audit_v51_diagnosis.py
+~~~
+
+Outputs: [diagnosis.json](analysis/v51_plateau/diagnosis.json), [case_diagnostics.csv](analysis/v51_plateau/case_diagnostics.csv), [selection_sensitivity.json](analysis/v51_plateau/selection_sensitivity.json), [rank_arithmetic_checks.json](analysis/v51_plateau/rank_arithmetic_checks.json). Input and script hashes are recorded. Cached V50 population arrays are checked against their individual frozen receipts. No competition submission or Git push is performed.

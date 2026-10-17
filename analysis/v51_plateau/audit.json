@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "public_case_populations": 44,
+  "distinct_context_target_pairs": 30,
+  "arm_case_records": 88,
+  "real_NTC_checks": 5,
+  "rank_fixtures": 34,
+  "metadata_hashes_rechecked": 103,
+  "frozen_preupload_receipts_unchanged": true,
+  "scope": "Descriptive post-publication audit; no new model, blind test, oracle fit, release or leaderboard improvement claimed",
+  "script_sha256": "413e26e3cae382f0132b30f92468c3e592cabc5c1660260176f157216cd1bf43",
+  "artifacts_sha256": {
+    "analysis\\v51_plateau\\diagnosis.json": "7e97950b5fe23f899595b86e565caf346a75693b31f2a5ac46bfe10f1111a5dc",
+    "analysis\\v51_plateau\\selection_sensitivity.json": "589261ff42fed94f9f23c085f3acecb8477ea9ef9342ba18b1dc9141e0b1b855",
+    "analysis\\v51_plateau\\rank_arithmetic_checks.json": "9e9a07e2a66a6355fc7b5d56362a3c6822cbd804e3882c9b157a99922432d6f5",
+    "analysis\\v51_plateau\\case_diagnostics.csv": "2df3cc80c65d2c070a064fb7e24adac06051d6d341ef72a0d65bf696923d1e83",
+    "V51_PLATEAU_DIAGNOSIS.md": "5315b14eebbd41253ea464c0b7ebf9588d800d56cd48c8cd6de0bac3fc030074"
+  }
+}

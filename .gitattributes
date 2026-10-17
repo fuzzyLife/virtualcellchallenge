@@ -254,3 +254,8 @@
 /V50*.md -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 /experiments/v50*/analysis/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
 /requirements-v49-rounding.txt -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+
+# V51 post-publication diagnosis
+/*v51*.py -text whitespace=cr-at-eol
+/V51*.md -text whitespace=cr-at-eol
+/analysis/v51_plateau/** -text whitespace=cr-at-eol

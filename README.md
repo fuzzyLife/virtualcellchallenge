@@ -1,5 +1,13 @@
 # Virtual Cell Challenge 2026
 
+<!-- v51-plateau:begin -->
+
+## V51: measured plateau diagnosis
+
+Audited all 44 spent public cell-population cases (only 30 distinct context-target pairs) and five real-control comparisons. V50 public REACH gain reverses from +0.018944 to -0.001870 when one three-DE-gene case is left out. HCT116 contributes 97.08% of the unscaled public expression-ratio aggregate; compact synthetic nulls call 355-1,415 genes versus 0-1 in their real comparisons. Intended CD4 direction accuracy is only about 53-57%, so repairing variation alone is insufficient. [Diagnosis, checked research and next experiments](V51_PLATEAU_DIAGNOSIS.md). Rank arithmetic matches SciPy on 34 fixtures, including explicit tie-structure counterexamples. No new model or submission is claimed; V24 remains preferred and D3 unopened.
+
+<!-- v51-plateau:end -->
+
 <!-- v38-v50:begin -->
 
 ## V38–V50: independent evidence, population models and response priors (2026-10-17)

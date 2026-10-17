@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "fixtures_matched_scipy": 34,
+  "same_mean_and_U_different_tie_corrected_p": {
+    "control": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "population_A": [
+      0,
+      0,
+      0,
+      2
+    ],
+    "summary_A": {
+      "mean": 0.5,
+      "U": 4.0,
+      "rank_effect": -0.25,
+      "tie_sum": 66.0,
+      "p": 0.21547622668470667
+    },
+    "population_B": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "summary_B": {
+      "mean": 0.5,
+      "U": 4.0,
+      "rank_effect": -0.25,
+      "tie_sum": 48.0,
+      "p": 0.2247653067084111
+    }
+  },
+  "mean_up_rank_down_example": {
+    "mean": 5.0,
+    "U": 4.0,
+    "rank_effect": -0.25,
+    "tie_sum": 84.0,
+    "p": 0.2059032107320684
+  },
+  "conclusion": "Predicting mean and rank effect separately is useful; exact p also needs tie structure. Expression score additionally needs pooled profile and jackknife terms. No leaderboard gain established.",
+  "script_sha256": "e03bce11c80a46ec355d87bdbce0938d0a1fa368f81411ba87ef220594ae0c2b"
+}
