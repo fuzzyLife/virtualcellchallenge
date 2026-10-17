@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "SRSF5",
+  "case_index": 7,
+  "seed_offset": 380000,
+  "arm": "randomized_prior",
+  "row_libraries_exact": true,
+  "null_DE_calls": 2164,
+  "actual_DE_calls": 1540,
+  "mean_probability_L1": 0.012377501680119262,
+  "bulk_probability_L1": 0.000959600540693714,
+  "changed_transcript_fraction": 0.37374813474261864,
+  "global_moment_refit": true,
+  "fidelity": 0.49884419787332407,
+  "reach": 0.0,
+  "jaccard": 0.21456692913385828,
+  "nmae": 0.9762199199783004,
+  "predicted_calls": 2163,
+  "reference_calls": 1539,
+  "nmae_eligible": true,
+  "arrays_sha256": "2905d7771ff1f4538655de644d64e40884955ada311e6c39758e931b15c20bdc"
+}

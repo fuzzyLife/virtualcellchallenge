@@ -1,0 +1,86 @@
+{
+  "records": [
+    {
+      "context": "H1",
+      "cells": 400,
+      "library_quantiles": [
+        20618.0,
+        54557.5,
+        162013.0
+      ],
+      "native_to_Poisson_variance_quantiles": [
+        1.0277108970660598,
+        1.2082662416006706,
+        1.6020262073673017
+      ],
+      "eligible_outputs": 10741,
+      "cache_receipt_sha256": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1"
+    },
+    {
+      "context": "HCT116",
+      "cells": 400,
+      "library_quantiles": [
+        1579.0,
+        12581.0,
+        61314.0
+      ],
+      "native_to_Poisson_variance_quantiles": [
+        0.9465943988598168,
+        1.1284008273946067,
+        1.5148942347795102
+      ],
+      "eligible_outputs": 10297,
+      "cache_receipt_sha256": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752"
+    },
+    {
+      "context": "HEK293T",
+      "cells": 400,
+      "library_quantiles": [
+        3069.0,
+        14470.5,
+        109988.0
+      ],
+      "native_to_Poisson_variance_quantiles": [
+        0.9606417756825917,
+        1.1247631187994864,
+        1.437367554899642
+      ],
+      "eligible_outputs": 11057,
+      "cache_receipt_sha256": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7"
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "cells": 200,
+      "library_quantiles": [
+        1786.0,
+        8335.5,
+        36887.0
+      ],
+      "native_to_Poisson_variance_quantiles": [
+        0.9082019529234788,
+        1.1268746254620363,
+        1.5795047720846564
+      ],
+      "eligible_outputs": 9102,
+      "cache_receipt_sha256": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0"
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "cells": 400,
+      "library_quantiles": [
+        1689.0,
+        8116.0,
+        30107.0
+      ],
+      "native_to_Poisson_variance_quantiles": [
+        0.9240328230331744,
+        1.1369515450221703,
+        1.645034654957938
+      ],
+      "eligible_outputs": 9451,
+      "cache_receipt_sha256": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+    }
+  ],
+  "scope": "Controls only, normalized composition variance relative to Poisson sampling at observed depths. Similar medians across contexts; does not justify assigning arbitrary variance coefficients by guessed cell identity.",
+  "script_sha256": "8ac43cacddc29292a2d8c491f9ec1bf0772afc91cc495448a8c4695722e0bbf9"
+}

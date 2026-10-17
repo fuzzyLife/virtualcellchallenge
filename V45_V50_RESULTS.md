@@ -35,6 +35,31 @@ Selection is frozen before opening additional count cases. Only candidates passi
 | mobility_prior | 0.791667 | 0.583389 | 0.208418 | 0.070151 | 0.913063 | 37.551120 |
 | randomized_prior | 0.791667 | 0.580516 | 0.211868 | 0.070268 | 0.907941 | 37.543811 |
 
+## V50 confirmation raw metrics
+
+| Arm | PDS | FID | REACH | JAC | NMAE ↓ | Expression ratio ↓ |
+|---|---:|---:|---:|---:|---:|---:|
+| v24 | 0.781250 | 0.586198 | 0.230317 | 0.053056 | 0.912759 | 37.640579 |
+| randomized_prior | 0.782738 | 0.586614 | 0.249261 | 0.053273 | 0.914064 | 37.700543 |
+
+Selected arm: **randomized_prior**. All public guards pass: **True**. Private leaderboard score: **unknown**.
+
+Upload file: experiments/v50_response_prior/prediction.vcc (4,073,646,080 bytes). SHA256: 4629cfca53b031527823e18792d51902fde9bd6e19e84513c4f2dcfc7945a4cb.
+Official packaging passed; not uploaded. The complete compressed payload is decompressed and every CSR value/index/pointer compared with the staged source. Canonical CLI cell-index renumbering is checked explicitly; gene/context/target axes and row order must match.
+
+## Generation-seed sensitivity
+
+| Seed offset | Oriented relative raw-metric surrogate gain |
+|---|---:|
+| 0 | +3.340% |
+| 380000 | -0.673% |
+
+One confirmation seed improves the surrogate and the other declines. The fixed aggregate acceptance rules pass, but the evidence is seed-sensitive; this is not proof of stable superiority or a significant leaderboard improvement.
+
+## Packaging audit correction
+
+The first official archive matched every CSR value, index and pointer, but the custom metadata reader failed on the nullable-string obs index written by the CLI (values/mask group). The predictions remain unchanged. Original attempt receipts and reader are preserved. The retry uses backed AnnData decoding, tested with the actual nullable/categorical encodings and deliberately corrupted labels/counts.
+
 ## Remaining limitations
 
 The original compact generator still creates excessive control-null DE calls compared with real control/control comparisons. V50 leaves these nulls unchanged; FID on nulls is not used as evidence of biological success. No new model solves missing context-specific intervention biology. A small public gain or safe numerical solver does not establish a significant rank improvement. Only the private scorer can measure that.
@@ -52,6 +77,7 @@ SCIENCE_PYTHON run_v49_balanced_population.py means
 SCIENCE_PYTHON run_v49_balanced_population.py null
 SCIENCE_PYTHON run_v49_parallel_counts.py development
 REM V49 actual run fails its CPM contract; preserve partial evidence.
+SCIENCE_PYTHON record_v49_failure.py
 
 SCIENCE_PYTHON test_v50_response_prior.py
 SCIENCE_PYTHON run_v50_response_prior.py freeze
@@ -70,12 +96,26 @@ SCIENCE_PYTHON audit_v50_results.py
 SCIENCE_PYTHON audit_v50_raw_scores.py
 REM Generate only if confirmation passes:
 SCIENCE_PYTHON build_v50_submission.py fit
+SCIENCE_PYTHON audit_v50_inference.py
 SCIENCE_PYTHON build_v50_submission.py preflight
 SCIENCE_PYTHON build_v50_submission.py generate --workers 4
-.competition_env/Scripts/python.exe package_v50_submission.py
+SCIENCE_PYTHON audit_v50_source_rows.py
+.competition_env/Scripts/python.exe package_v50_submission_v2.py
 SCIENCE_PYTHON audit_v50_delivery.py
+SCIENCE_PYTHON finalize_v50_delivery.py
 ~~~
 
 Root source scripts, tests and small receipts are committed. Large raw data, arrays, models, provenance CSVs and upload packages remain regenerable and ignored by Git. No automatic upload or Git push.
 
 Primary background: [predictive ensembles](https://proceedings.neurips.cc/paper/2017/hash/9ef2ed4b7fd2c810847ffa5fa85bce38-Abstract.html), [heterogeneous perturbation responses / mixscape](https://www.nature.com/articles/s41588-021-00778-2), and [RNAi/CRISPR consensus limitations](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.2003213). These motivate controls and distribution tests; they do not validate our particular candidates.
+
+## Submit manually from Windows CMD
+
+The package is ready; the private score remains unknown. The aggregate public checks pass, with seed-sensitive gains.
+
+~~~bat
+cd /d L:\promec\Animesh\Download\Virtual
+.\.competition_env\Scripts\python.exe -m vcc submit .\experiments\v50_response_prior\prediction.vcc -m "Empirical response-prior calibration v50" --wait
+~~~
+
+The final release manifest binds every proof receipt and the package SHA256. No upload or Git push was performed.

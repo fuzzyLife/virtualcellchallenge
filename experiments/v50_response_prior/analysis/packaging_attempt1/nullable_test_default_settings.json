@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "actual_index_encoding": "nullable-string-array",
+  "index_children": [
+    "mask",
+    "values"
+  ],
+  "checks": [
+    "real AnnData nullable string and categorical decoding",
+    "canonical official cell renumbering",
+    "single changed target rejected",
+    "single changed count rejected"
+  ],
+  "script_sha256": "aed533dc7010a8e545ac10929a74126297bb957db0085086246027135dca9607"
+}

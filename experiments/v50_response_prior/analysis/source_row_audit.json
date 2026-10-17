@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "provenance_csv_sha256": "dc1bfb1a6ba0801bda2f3abe9702734221de65c7acb9dae1ca02e981ebdb8cab",
+  "rows": 360000,
+  "records": [
+    {
+      "context": "A",
+      "prediction_rows_verified": 120000,
+      "source_rows": 18400,
+      "source_sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "source_bytes": 224973316
+    },
+    {
+      "context": "B",
+      "prediction_rows_verified": 120000,
+      "source_rows": 18400,
+      "source_sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "source_bytes": 210966111
+    },
+    {
+      "context": "C",
+      "prediction_rows_verified": 120000,
+      "source_rows": 18400,
+      "source_sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "source_bytes": 226056691
+    }
+  ],
+  "checks": "Independent streamed original H5ad libraries, source barcodes and NTC identifiers match every selected prediction/provenance row. Gene order matches declared competition axis.",
+  "script_sha256": "8ac81ce48caf867c64908087fc3adefd30654a438578327bab6cb24c9fc67b10"
+}

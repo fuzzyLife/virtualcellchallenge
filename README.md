@@ -6,7 +6,7 @@
 
 Tested response activity/magnitude heads, KOLF/LINCS experimental evidence, contrastive identity objectives, population dispersion and ensembles, exact-margin projection, and bounded matrix rounding. V38–V49 do not establish a new release improvement; numerical tests alone did not translate to real-cell gains. V50 separates generic amplitude calibration from failed target-specific transfer. Both an averaged output-gene propensity prior and a fixed randomized checkpoint pass development guards; the frozen rule selects the randomized prior. Its discovery from a negative control is explicitly disclosed.
 
-The selected generic response-prior candidate passes development guards; additional-count confirmation is running.
+Additional-count confirmation passes the fixed public guards. The surrogate gain is seed-sensitive; private superiority is unproven. Official upload package is generated and independently verified. Upload file: [prediction.vcc](experiments/v50_response_prior/prediction.vcc).
 
 [V45–V50 results, limitations and reproduction](V45_V50_RESULTS.md), [V38–V44 research ledger](V38_V44_RESULTS.md), [earlier methods](V38_V40_RESEARCH.md). V24 remains best published at0.14299785521745675. New private scores are unknown; D3 stays unopened. Scripts/receipts are versioned, large regenerable files are excluded. No automatic upload or Git push.
 

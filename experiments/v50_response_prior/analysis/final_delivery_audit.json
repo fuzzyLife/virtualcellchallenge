@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "rows_independently_checked": 360000,
+  "groups": 900,
+  "maximum_library": 52420,
+  "provenance_csv_sha256": "dc1bfb1a6ba0801bda2f3abe9702734221de65c7acb9dae1ca02e981ebdb8cab",
+  "provenance_csv_bytes": 22013816,
+  "provenance_csv_tracked": false,
+  "submission_ready_sha256": "03be0c2215c1754a1e7a08fcecbf2820fbccd306320c0e9f959a3b522b1cef87",
+  "workspace_package_bytes": 4073646080,
+  "workspace_package_sha256_verified_by_packager": "4629cfca53b031527823e18792d51902fde9bd6e19e84513c4f2dcfc7945a4cb",
+  "official_archive_validation_passed": true,
+  "checks": "Every final H5ad row library equals its recorded source-control library; obs order aligns with provenance;400 unique sampled controls per group; nonempty bounded libraries; official wrapper metadata matches validated source. Packager already verified the full remote package copy hash; not redundantly rescored.",
+  "auditor_sha256": "ec9ab924d3ffac5c203a0d385e9a7fe8713a3e1f9a72f06ece08390c99d5fcd5"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "actual_index_encoding": "nullable-string-array",
+  "index_children": [
+    "mask",
+    "values"
+  ],
+  "authoring_pandas_infer_string": true,
+  "decoding_pandas_infer_string": false,
+  "checks": [
+    "real AnnData nullable string and categorical decoding",
+    "canonical official cell renumbering",
+    "single changed target rejected",
+    "single changed count rejected"
+  ],
+  "script_sha256": "01f200e68cfb6aa102d5d55c262248bd533044ffa9171527c36b5b3ea1d34506"
+}

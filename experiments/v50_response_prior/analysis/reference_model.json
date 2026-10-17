@@ -1,0 +1,40 @@
+{
+  "status": "Generic empirical response-amplitude prior; official leaderboard performance unknown",
+  "confirmed_improvement": false,
+  "available_public_guards_passed": true,
+  "selected_arm": "randomized_prior",
+  "arrays_sha256": "57bf9a9763517295d72a9b9b40f6a513bf9ca51054e4dffe307702321248e234",
+  "selection_sha256": "9d1ad2d716b633858896940959d67f564b926121a4d6e3ff4b054d4f4f01de45",
+  "plan_sha256": "33ee7b3397519ff938fbf9675d7c49a606c031e067ed3a6b1c46bac422eaac88",
+  "parent_V24_arrays_sha256": "4e797d18e149568657f87c310fd115e417ad93340f1781ef3f7dceaa278f6250",
+  "independent_prior_arrays_sha256": "22377d2dee5d8db0e7c1a7834ce196b7a4bd4fe05acc0cdb29da54758345c563",
+  "dependencies": {
+    "v50_response_prior.py": "ed34081befed87f00e69841ce8d952137a949280c74d3f543dc31e94bd2f980d",
+    "v47_kolf_consensus.py": "b7a06e572f2ab415202bcba1d22a8c3f05bcee26a33faa5bcfaddbef05097555",
+    "v39_kolf_hurdle.py": "ef3fe75dbd3912a39ea4f5927eaae5947bb4944125c6f1a523768626c9f09627",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "build_v50_submission.py": "26452c9dd4f06ec106d135a81dde13bf095c01fbbe4cae048959378d0c6af43f",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "verify_vcc_payload.py": "e9937988b8f2ff1a234d26b9c671268f1f8671530bae32f0770a29e392b7659b"
+  },
+  "context_diagnostics": [
+    {
+      "context": "A",
+      "changed_targets": 273,
+      "maximum_LFC_correction": 0.1455521583557129
+    },
+    {
+      "context": "B",
+      "changed_targets": 273,
+      "maximum_LFC_correction": 0.17943143844604492
+    },
+    {
+      "context": "C",
+      "changed_targets": 273,
+      "maximum_LFC_correction": 0.17943143844604492
+    }
+  ],
+  "scope": "Generic calibration after negative controls; no claim of useful target-specific KOLF transfer. Selection known public development; one fixed additional-count confirmation.",
+  "uploaded": false
+}

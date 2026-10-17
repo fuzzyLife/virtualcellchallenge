@@ -1,0 +1,58 @@
+{
+  "release": true,
+  "selected": "randomized_prior",
+  "all_public_guards_passed": true,
+  "confirmation_checks": {
+    "resolved": true,
+    "pds": true,
+    "expression": true,
+    "fid": true,
+    "reach": true,
+    "jac": true,
+    "nmae": true,
+    "positive_average_gain": true,
+    "two_metrics_improve": true,
+    "worst_study": true
+  },
+  "study_checks": {
+    "H1": {
+      "pds": true,
+      "fidelity": true,
+      "reach": true
+    },
+    "Orion": {
+      "pds": true,
+      "fidelity": true,
+      "reach": true
+    },
+    "CD4": {
+      "pds": true,
+      "fidelity": true,
+      "reach": true
+    }
+  },
+  "oriented_relative_gain": 0.014323085359659466,
+  "confirmation_summary": {
+    "v24": {
+      "pds": 0.78125,
+      "fidelity": 0.5861980897535481,
+      "reach": 0.23031676784366162,
+      "jaccard": 0.0530562260251787,
+      "nmae": 0.912759096944741,
+      "common_expression_ratio": 37.640578605970425
+    },
+    "randomized_prior": {
+      "pds": 0.7827380952380952,
+      "fidelity": 0.5866142597271043,
+      "reach": 0.24926122432561573,
+      "jaccard": 0.0532733426144175,
+      "nmae": 0.9140636540316276,
+      "common_expression_ratio": 37.70054259020449
+    }
+  },
+  "locked_finalist_sha256": "af165a2918cd35d4cab4cbb3ab33e6ae4c2b799d50745a29f227793fd237efcb",
+  "confirmation_results_sha256": "94d0fbd4f61201524938a94f6dbfc8144d453037740ab429a7be0bb0a129a016",
+  "private_score_known": false,
+  "D3_opened": false,
+  "assessor_sha256": "199bbd29b12550439085cbc5c9d277ba54fd395947f051ced73954b1d996a017"
+}

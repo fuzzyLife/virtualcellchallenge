@@ -1,0 +1,41 @@
+{
+  "status": "Ready for manual validation-leaderboard upload; statistical and leaderboard superiority unproven",
+  "passed": true,
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v50_response_prior\\prediction.vcc",
+  "bytes": 4073646080,
+  "sha256": "4629cfca53b031527823e18792d51902fde9bd6e19e84513c4f2dcfc7945a4cb",
+  "selected_arm": "randomized_prior",
+  "prediction_shape": [
+    360000,
+    18533
+  ],
+  "groups": 900,
+  "cells_per_group": 400,
+  "nnz": 2368782147,
+  "aggregate_public_guards_passed": true,
+  "seed_sensitive": true,
+  "uploaded": false,
+  "leaderboard_score": null,
+  "best_published_reference": {
+    "version": 24,
+    "overall": 0.14299785521745675
+  },
+  "proof_receipts_sha256": {
+    "preflight.json": "22ba7a1ccd88853dd838e98ec4e1280e29652b9b5ca35f4306603b530dfbe411",
+    "independent_audit.json": "443f0d6bf209af1414332909f1d8b42ff9a5fa2545e2ea1c6c7ea52bae257c88",
+    "raw_score_audit.json": "320ad5a0123017e0fd683e2ec4acc73a2e459250f033d742ed80a2c8cf0127ef",
+    "production_inference_audit.json": "99a731874e22f82d5fd0357640e53cb573ad8ba10b2011ac1e28ff8382855fdd",
+    "source_row_audit.json": "55a4e08939459ddf140968e2d330b85e8bce5bcd4c076a693cc11605ebb78f9f",
+    "payload_roundtrip_audit.json": "7c0ac455d903b2ce8c6a6702681ab99a3d6acf543b3660f1e1a78ac7a30dbf92",
+    "nullable_payload_contract_test.json": "ed51c8c11391f75454b45c98c82c120f516e03019b70ef1ddff4872684057962",
+    "final_delivery_audit.json": "d010184004c572b369787f5adc56633a98646ab08b6a5ec1f5f7e299588477c5",
+    "submission_ready.json": "03be0c2215c1754a1e7a08fcecbf2820fbccd306320c0e9f959a3b522b1cef87",
+    "reference_model.json": "e4f50f495a43945220f9857cc4e137f9b8ff2ff91f0207585db13ea9dc31a64d",
+    "release_decision.json": "9d1ad2d716b633858896940959d67f564b926121a4d6e3ff4b054d4f4f01de45",
+    "confirmation_stability.json": "070ef7a0314f0ebe5b5892677813f6ab2ea5369358105eb478c398c3e67cf094",
+    "prediction_validation.json": "0836780e470111f770413f2f3561182ef32ac2aa4909a753033c10618fcf8995",
+    "runtime_receipt.json": "cd3eb71b58596fbf2ffca09ed4691bc2b32bc3a5a8698d9b28591a8f775583b4",
+    "official_runtime_receipt.json": "d4acd943218c86e64b659c8075e446c8bdb9e34b13fbd3197faebba337abb90f"
+  },
+  "finalizer_sha256": "b0b53594b9642eeed5a4bfcba672ffdd16d93149f3246f82b2af3a5f3acd8a67"
+}

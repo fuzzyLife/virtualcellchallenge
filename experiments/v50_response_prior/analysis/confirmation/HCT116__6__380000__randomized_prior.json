@@ -1,0 +1,23 @@
+{
+  "family": "HCT116",
+  "study": "Orion",
+  "target": "ZNF627",
+  "case_index": 6,
+  "seed_offset": 380000,
+  "arm": "randomized_prior",
+  "row_libraries_exact": true,
+  "null_DE_calls": 1806,
+  "actual_DE_calls": 3,
+  "mean_probability_L1": 0.007613180471479662,
+  "bulk_probability_L1": 0.000699522867202087,
+  "changed_transcript_fraction": 0.3195346426790825,
+  "global_moment_refit": true,
+  "fidelity": 0.6282548476454294,
+  "reach": 1.0,
+  "jaccard": 0.0005534034311012728,
+  "nmae": null,
+  "predicted_calls": 1805,
+  "reference_calls": 3,
+  "nmae_eligible": false,
+  "arrays_sha256": "2cbd1065ecc35a8d35fdd6b23875c769a2b52e30a8597ae817454502c397c29e"
+}

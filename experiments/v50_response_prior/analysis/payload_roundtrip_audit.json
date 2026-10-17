@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "member": "pred.h5ad.zst",
+  "full_CSR_comparison": {
+    "data": 2368782147,
+    "indices": 2368782147,
+    "indptr": 360001,
+    "axis_fields": 4
+  },
+  "metadata_decoder": "anndata.read_h5ad(backed=r), supporting datasets, categorical and nullable strings",
+  "auditor_sha256": "6a5e4431a63a0af613c137399f58b7a49ff30f4c759bd7106b1bddf6ecc978e3",
+  "scope": "All CSR values/indices/pointers and gene/context/target labels exactly match the staged source. Official sequential cell renumbering checked explicitly. Wrapper-only validation is supplemented by this full payload comparison."
+}

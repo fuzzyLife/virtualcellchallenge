@@ -1,0 +1,23 @@
+{
+  "family": "HEK293T",
+  "study": "Orion",
+  "target": "PRKAB2",
+  "case_index": 7,
+  "seed_offset": 380000,
+  "arm": "v24",
+  "row_libraries_exact": true,
+  "null_DE_calls": 1481,
+  "actual_DE_calls": 8,
+  "mean_probability_L1": 0.007042319387974342,
+  "bulk_probability_L1": 0.0005884289704126027,
+  "changed_transcript_fraction": 0.31931870326882067,
+  "global_moment_refit": true,
+  "fidelity": 0.5222972972972973,
+  "reach": 0.0,
+  "jaccard": 0.0,
+  "nmae": null,
+  "predicted_calls": 1480,
+  "reference_calls": 7,
+  "nmae_eligible": false,
+  "arrays_sha256": "219ae226a2664c6aac7bd2a0288e6267c292247dfd698979b4f5b3d4cae1e22e"
+}

@@ -1,0 +1,104 @@
+{
+  "studies": {
+    "H1": {
+      "v24": {
+        "pds": 1.0,
+        "fidelity": 0.6489393434017696,
+        "reach": 0.04300982497769433,
+        "jaccard": 0.057492619277627985,
+        "nmae": 0.8788699198929574,
+        "common_expression_ratio": 1.238868396924518
+      },
+      "randomized_prior": {
+        "pds": 1.0,
+        "fidelity": 0.6481652865425012,
+        "reach": 0.040784217780847926,
+        "jaccard": 0.05794318801416794,
+        "nmae": 0.8792367786536872,
+        "common_expression_ratio": 1.2411982528860628
+      }
+    },
+    "Orion": {
+      "v24": {
+        "pds": 0.6354166666666667,
+        "fidelity": 0.5828109010488218,
+        "reach": 0.6403697415581966,
+        "jaccard": 0.002690025678764086,
+        "nmae": 0.8881649583736126,
+        "common_expression_ratio": 110.6554357023525
+      },
+      "randomized_prior": {
+        "pds": 0.6398809523809523,
+        "fidelity": 0.5826422076449599,
+        "reach": 0.6371951383835934,
+        "jaccard": 0.0027585337634096602,
+        "nmae": 0.8891900951165441,
+        "common_expression_ratio": 110.83284490253274
+      }
+    },
+    "CD4": {
+      "v24": {
+        "pds": 0.7083333333333334,
+        "fidelity": 0.526844024810053,
+        "reach": 0.007570736995093904,
+        "jaccard": 0.098986033119144,
+        "nmae": 0.9712424125676531,
+        "common_expression_ratio": 1.0274317186342459
+      },
+      "randomized_prior": {
+        "pds": 0.7083333333333334,
+        "fidelity": 0.5290352849938518,
+        "reach": 0.06980431681240579,
+        "jaccard": 0.09911830606567489,
+        "nmae": 0.9737640883246517,
+        "common_expression_ratio": 1.027584615194665
+      }
+    }
+  },
+  "seeds": {
+    "0": {
+      "summary": {
+        "v24": {
+          "pds": 0.7797619047619048,
+          "fidelity": 0.5864797073414253,
+          "reach": 0.24245121446297158,
+          "jaccard": 0.05304259752774281,
+          "nmae": 0.909010888801775,
+          "common_expression_ratio": 37.64839253491733
+        },
+        "randomized_prior": {
+          "pds": 0.7827380952380952,
+          "fidelity": 0.5883628679770864,
+          "reach": 0.28828848422271613,
+          "jaccard": 0.053577818121739666,
+          "nmae": 0.9128685691921304,
+          "common_expression_ratio": 37.706671535858895
+        }
+      },
+      "oriented_relative_gain": 0.033397340346398054
+    },
+    "380000": {
+      "summary": {
+        "v24": {
+          "pds": 0.7827380952380952,
+          "fidelity": 0.585916472165671,
+          "reach": 0.21818232122435158,
+          "jaccard": 0.05306985452261457,
+          "nmae": 0.9165073050877072,
+          "common_expression_ratio": 37.632764677023516
+        },
+        "randomized_prior": {
+          "pds": 0.7827380952380952,
+          "fidelity": 0.5848656514771222,
+          "reach": 0.21023396442851525,
+          "jaccard": 0.05296886710709533,
+          "nmae": 0.9152587388711249,
+          "common_expression_ratio": 37.69441364455009
+        }
+      },
+      "oriented_relative_gain": -0.0067336880259147545
+    }
+  },
+  "scope": "Descriptive raw public diagnostics. Three reused study families and two generation seeds do not establish statistical significance or private leaderboard improvement. Same initial RNG seed does not guarantee identical Poisson draws when rates differ.",
+  "script_sha256": "9596a64d94ad311703c62d33cd205d6a545dd18d1c5290dcd650846e1c1fc1fc"
+}
