@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "family": "H1",
+      "outer": "H1",
+      "use_calibrator": true,
+      "identity_source_validation_CE": 3.374281366666158,
+      "shuffled_source_validation_CE": 3.378144383430481,
+      "baseline_source_validation_CE": 3.377767470147875,
+      "identity_weights_sha256": "36dd1c2a07a5d8996699b76279da33eba2af3dfdfcb722f9ae0955c06dff1e91",
+      "shuffled_weights_sha256": "9859063492874be117a9b9214ac91dbe97661fc878f313016e0fa1d9b7732cac",
+      "contrast_is_exact_gradient_decomposition": false
+    },
+    {
+      "family": "HCT116",
+      "outer": "Orion",
+      "use_calibrator": true,
+      "identity_source_validation_CE": 2.639029436641269,
+      "shuffled_source_validation_CE": 2.643400549888611,
+      "baseline_source_validation_CE": 2.6427189244164357,
+      "identity_weights_sha256": "50eb88b22f618eacdd81dd4eb187e165061a66e0f69b9de24f863897bc31419f",
+      "shuffled_weights_sha256": "c530d0eb9283c896f546335c0a0880dd4bd345dcee539945d78407b14e0376f8",
+      "contrast_is_exact_gradient_decomposition": false
+    },
+    {
+      "family": "HEK293T",
+      "outer": "Orion",
+      "use_calibrator": true,
+      "identity_source_validation_CE": 2.639029436641269,
+      "shuffled_source_validation_CE": 2.643400549888611,
+      "baseline_source_validation_CE": 2.6427189244164357,
+      "identity_weights_sha256": "50eb88b22f618eacdd81dd4eb187e165061a66e0f69b9de24f863897bc31419f",
+      "shuffled_weights_sha256": "c530d0eb9283c896f546335c0a0880dd4bd345dcee539945d78407b14e0376f8",
+      "contrast_is_exact_gradient_decomposition": false
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "outer": "CD4",
+      "use_calibrator": false,
+      "identity_source_validation_CE": 2.677953282992045,
+      "shuffled_source_validation_CE": 2.677177309989929,
+      "baseline_source_validation_CE": 2.6792766650517783,
+      "identity_weights_sha256": "6b04d811c5afc395fa52d3af1a713e57053cc2c47abcc1da41bb09e06435abf0",
+      "shuffled_weights_sha256": "93021be86f916e2be3f16eb40d1d75615a3d65c5552be018f4e56e5570489e18",
+      "contrast_is_exact_gradient_decomposition": false
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "outer": "CD4",
+      "use_calibrator": false,
+      "identity_source_validation_CE": 2.677953282992045,
+      "shuffled_source_validation_CE": 2.677177309989929,
+      "baseline_source_validation_CE": 2.6792766650517783,
+      "identity_weights_sha256": "6b04d811c5afc395fa52d3af1a713e57053cc2c47abcc1da41bb09e06435abf0",
+      "shuffled_weights_sha256": "93021be86f916e2be3f16eb40d1d75615a3d65c5552be018f4e56e5570489e18",
+      "contrast_is_exact_gradient_decomposition": false
+    }
+  ],
+  "query_outcomes_used_for_abstention": false
+}

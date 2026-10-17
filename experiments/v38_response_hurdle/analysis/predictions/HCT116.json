@@ -1,0 +1,65 @@
+{
+  "sha256": "d57ede2fa6f413766c34d71d9153b07a60c03c1bf195dd65786d8a02992031d3",
+  "source_cache_receipt_sha256": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+  "outer": "Orion",
+  "case_targets": [
+    "GLI3",
+    "PATL1",
+    "ZNF627",
+    "RNF141",
+    "GLI3",
+    "PATL1",
+    "ZNF627",
+    "RNF141"
+  ],
+  "trace": [
+    {
+      "target": "GLI3",
+      "source_supported_outputs": 7326,
+      "selective_outputs": 0,
+      "maximum_activity": 0.14139699695729646
+    },
+    {
+      "target": "PATL1",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 0,
+      "maximum_activity": 0.21022547034350347
+    },
+    {
+      "target": "ZNF627",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 1,
+      "maximum_activity": 0.247977475451862
+    },
+    {
+      "target": "RNF141",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 0,
+      "maximum_activity": 0.16390869581262357
+    },
+    {
+      "target": "GLI3",
+      "source_supported_outputs": 7326,
+      "selective_outputs": 0,
+      "maximum_activity": 0.14139699695729646
+    },
+    {
+      "target": "PATL1",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 0,
+      "maximum_activity": 0.21022547034350347
+    },
+    {
+      "target": "ZNF627",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 1,
+      "maximum_activity": 0.247977475451862
+    },
+    {
+      "target": "RNF141",
+      "source_supported_outputs": 9955,
+      "selective_outputs": 0,
+      "maximum_activity": 0.16390869581262357
+    }
+  ]
+}

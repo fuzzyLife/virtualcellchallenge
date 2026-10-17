@@ -1,0 +1,19 @@
+{
+  "selected": "v24",
+  "release": false,
+  "matched_control_checks": {
+    "fingerprint125": {
+      "mse_ratio": false,
+      "mae_ratio": false
+    },
+    "fingerprint250": {
+      "mse_ratio": false,
+      "mae_ratio": false
+    }
+  },
+  "mean_results_sha256": "1e252b12fbcbb88fcb9636f41c3b714a0135300cca9ed6b926adc39fef511e7f",
+  "count_tests_opened": false,
+  "additional24_count_cases_opened": false,
+  "scope": "Generic mean-stage selected shuffled250 as smallest error, but that is a negative control, never a release candidate. Genuine transfer fails the frozen matched mean-control condition; count/release stages are not justified. Keep all models for future research.",
+  "script_sha256": "13b1152b69da8e9ff6256dd23479966a049dfa8574afd5815189be4ed37c9227"
+}

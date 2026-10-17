@@ -1,0 +1,21 @@
+{
+  "sha256": "3cf1775a4e0060ce4b20fa6ec578c80e84a2b07471aca9499f96fa2d7fadc9c3",
+  "case_targets": [
+    "DNTTIP1",
+    "FXYD5",
+    "MED13",
+    "MSI2",
+    "PCGF1",
+    "PPIP5K2",
+    "SLC39A1",
+    "SRSF5"
+  ],
+  "outer": "CD4",
+  "use_calibrator": false,
+  "identity_source_validation_CE": 2.677953282992045,
+  "shuffled_source_validation_CE": 2.677177309989929,
+  "baseline_source_validation_CE": 2.6792766650517783,
+  "identity_weights_sha256": "6b04d811c5afc395fa52d3af1a713e57053cc2c47abcc1da41bb09e06435abf0",
+  "shuffled_weights_sha256": "93021be86f916e2be3f16eb40d1d75615a3d65c5552be018f4e56e5570489e18",
+  "contrast_is_exact_gradient_decomposition": false
+}

@@ -1,0 +1,7 @@
+{
+  "parent_plan_sha256": "53aa7f693e4e6fa54c6dbfc0da367d110b974518089a6cca93908b19b74a985d",
+  "adapter_sha256": "6ef46717f5a3a6bd90f3621c9414921b891b065d022b24b25f01b35b927a939f",
+  "initial_failure": "sklearn binning _find_binning_thresholds -> NumPy sliding_window_view: window shape cannot be larger than input array shape. Initial H1 training table built; no model fitted/saved or validation outcome inspected.",
+  "change": "Fit each head on columns with >1 distinct finite TRAINING value. All-missing or constant features discarded using training rows only. Missing variable features remain NaN. No scientific threshold, seed, data split, outcome or candidate changed.",
+  "known_outcomes": "Only contract tests and table sizes; no V38 fitted predictions or scores."
+}

@@ -1,0 +1,911 @@
+{
+  "records": [
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "arm": "contrast05",
+      "mse_ratio": 0.999987820394829,
+      "mae_ratio": 1.0000052775038892,
+      "cpm_ratio": 0.9998889535427437
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "arm": "contrast10",
+      "mse_ratio": 1.000022108642081,
+      "mae_ratio": 1.000047948552087,
+      "cpm_ratio": 0.9999083803139995
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9993746663813243,
+      "mae_ratio": 1.0000298838505595,
+      "cpm_ratio": 0.997101806219365
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9988320543904357,
+      "mae_ratio": 1.0001061071810762,
+      "cpm_ratio": 0.9944631178444931
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "arm": "contrast05",
+      "mse_ratio": 0.9992718481031188,
+      "mae_ratio": 0.9997413846515634,
+      "cpm_ratio": 1.0021579231655324
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "arm": "contrast10",
+      "mse_ratio": 0.9986311334120895,
+      "mae_ratio": 0.9995266071944539,
+      "cpm_ratio": 1.004869269936916
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "arm": "contrast05",
+      "mse_ratio": 0.99938592648151,
+      "mae_ratio": 0.9998915243212088,
+      "cpm_ratio": 0.9971539917974647
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "arm": "contrast10",
+      "mse_ratio": 0.9989218985841685,
+      "mae_ratio": 0.9998732075330847,
+      "cpm_ratio": 0.9945044153050365
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "arm": "contrast05",
+      "mse_ratio": 1.000006074719935,
+      "mae_ratio": 1.0000086231499994,
+      "cpm_ratio": 0.9997888722721602
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "HDAC8",
+      "arm": "contrast10",
+      "mse_ratio": 1.0000610107438823,
+      "mae_ratio": 1.0000311848080858,
+      "cpm_ratio": 0.9997182793866255
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9992461787939921,
+      "mae_ratio": 0.9999692037683068,
+      "cpm_ratio": 0.9965342423238396
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "NFE2L1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9985782677128502,
+      "mae_ratio": 0.999975765127633,
+      "cpm_ratio": 0.9933536730642594
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "arm": "contrast05",
+      "mse_ratio": 0.9993250594230605,
+      "mae_ratio": 0.999672276563495,
+      "cpm_ratio": 1.0018364184252737
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "PLAGL2",
+      "arm": "contrast10",
+      "mse_ratio": 0.9987341611226395,
+      "mae_ratio": 0.999377179056073,
+      "cpm_ratio": 1.004225339757253
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "arm": "contrast05",
+      "mse_ratio": 0.9993180444172607,
+      "mae_ratio": 0.9998672167721007,
+      "cpm_ratio": 0.9970855227960265
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "target": "ACLY",
+      "arm": "contrast10",
+      "mse_ratio": 0.998785446312371,
+      "mae_ratio": 0.9997764012374931,
+      "cpm_ratio": 0.9943634088384541
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "arm": "contrast05",
+      "mse_ratio": 0.9999932096900898,
+      "mae_ratio": 0.9999998419165799,
+      "cpm_ratio": 1.0000328098646
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "arm": "contrast10",
+      "mse_ratio": 0.9999864269753551,
+      "mae_ratio": 0.9999996914446988,
+      "cpm_ratio": 1.0000666213822396
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9986528062145513,
+      "mae_ratio": 0.9990998416813752,
+      "cpm_ratio": 1.014481225521274
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9976106255118192,
+      "mae_ratio": 0.9983018887161441,
+      "cpm_ratio": 1.0298705221946975
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "arm": "contrast05",
+      "mse_ratio": 1.0002246193704392,
+      "mae_ratio": 0.9999231349894889,
+      "cpm_ratio": 0.9966467124978021
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "arm": "contrast10",
+      "mse_ratio": 1.0004992289598065,
+      "mae_ratio": 0.9998708615211312,
+      "cpm_ratio": 0.9934810402988821
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "arm": "contrast05",
+      "mse_ratio": 1.0000002924135307,
+      "mae_ratio": 0.9999726894670894,
+      "cpm_ratio": 1.0002739663336675
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "arm": "contrast10",
+      "mse_ratio": 1.0000342149026642,
+      "mae_ratio": 0.9999662069734251,
+      "cpm_ratio": 1.0006519295086815
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "arm": "contrast05",
+      "mse_ratio": 0.9999932096900895,
+      "mae_ratio": 0.9999998419165801,
+      "cpm_ratio": 1.0000328098646
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "GLI3",
+      "arm": "contrast10",
+      "mse_ratio": 0.9999864269753551,
+      "mae_ratio": 0.9999996914446989,
+      "cpm_ratio": 1.0000666213822398
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9986528062145513,
+      "mae_ratio": 0.9990998416813752,
+      "cpm_ratio": 1.0144812255212738
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "PATL1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9976106255118193,
+      "mae_ratio": 0.9983018887161439,
+      "cpm_ratio": 1.0298705221946975
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "arm": "contrast05",
+      "mse_ratio": 1.000224619370439,
+      "mae_ratio": 0.9999231349894889,
+      "cpm_ratio": 0.996646712497802
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "ZNF627",
+      "arm": "contrast10",
+      "mse_ratio": 1.0004992289598063,
+      "mae_ratio": 0.9998708615211312,
+      "cpm_ratio": 0.9934810402988822
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "arm": "contrast05",
+      "mse_ratio": 1.0000002924135305,
+      "mae_ratio": 0.9999726894670892,
+      "cpm_ratio": 1.0002739663336677
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "target": "RNF141",
+      "arm": "contrast10",
+      "mse_ratio": 1.000034214902664,
+      "mae_ratio": 0.9999662069734251,
+      "cpm_ratio": 1.0006519295086815
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "arm": "contrast05",
+      "mse_ratio": 1.000394798541271,
+      "mae_ratio": 0.9997212562928174,
+      "cpm_ratio": 1.0007723934557715
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "arm": "contrast10",
+      "mse_ratio": 1.00095833764931,
+      "mae_ratio": 0.9994906935232514,
+      "cpm_ratio": 1.0017476529713127
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "arm": "contrast05",
+      "mse_ratio": 0.9996588619500993,
+      "mae_ratio": 0.9997701725814481,
+      "cpm_ratio": 0.999219655488943
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "arm": "contrast10",
+      "mse_ratio": 0.999388135761896,
+      "mae_ratio": 0.999576819317375,
+      "cpm_ratio": 0.9986562304801435
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9989271137813174,
+      "mae_ratio": 1.0001178658214935,
+      "cpm_ratio": 0.7586675549835479
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9980781777759311,
+      "mae_ratio": 1.00025717832134,
+      "cpm_ratio": 0.577194784002568
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "arm": "contrast05",
+      "mse_ratio": 0.9996067376377078,
+      "mae_ratio": 0.9996950269682432,
+      "cpm_ratio": 0.997376554776417
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "arm": "contrast10",
+      "mse_ratio": 0.9992945646995072,
+      "mae_ratio": 0.999437879474742,
+      "cpm_ratio": 0.995119680553886
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "arm": "contrast05",
+      "mse_ratio": 0.999186934580995,
+      "mae_ratio": 0.9993171470788544,
+      "cpm_ratio": 0.9967060750382969
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "arm": "contrast10",
+      "mse_ratio": 0.9985140242536256,
+      "mae_ratio": 0.9987123696407736,
+      "cpm_ratio": 0.9938821230605366
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "arm": "contrast05",
+      "mse_ratio": 1.0018055491460105,
+      "mae_ratio": 1.0002590912976173,
+      "cpm_ratio": 1.0065073640397855
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "arm": "contrast10",
+      "mse_ratio": 1.004182359111979,
+      "mae_ratio": 1.000622429584761,
+      "cpm_ratio": 1.0143491233142805
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "arm": "contrast05",
+      "mse_ratio": 1.0003947985412711,
+      "mae_ratio": 0.9997212562928177,
+      "cpm_ratio": 1.0007723934557713
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZDHHC4",
+      "arm": "contrast10",
+      "mse_ratio": 1.00095833764931,
+      "mae_ratio": 0.9994906935232516,
+      "cpm_ratio": 1.0017476529713123
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "arm": "contrast05",
+      "mse_ratio": 0.9996588619500993,
+      "mae_ratio": 0.9997701725814481,
+      "cpm_ratio": 0.9992196554889425
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PRKAB2",
+      "arm": "contrast10",
+      "mse_ratio": 0.9993881357618957,
+      "mae_ratio": 0.999576819317375,
+      "cpm_ratio": 0.9986562304801433
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "arm": "contrast05",
+      "mse_ratio": 0.9989271137813173,
+      "mae_ratio": 1.0001178658214933,
+      "cpm_ratio": 0.7586675549835479
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "SYVN1",
+      "arm": "contrast10",
+      "mse_ratio": 0.9980781777759312,
+      "mae_ratio": 1.00025717832134,
+      "cpm_ratio": 0.577194784002568
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "arm": "contrast05",
+      "mse_ratio": 0.9996067376377078,
+      "mae_ratio": 0.999695026968243,
+      "cpm_ratio": 0.997376554776417
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "PSMB9",
+      "arm": "contrast10",
+      "mse_ratio": 0.9992945646995071,
+      "mae_ratio": 0.999437879474742,
+      "cpm_ratio": 0.9951196805538858
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "arm": "contrast05",
+      "mse_ratio": 0.9991869345809947,
+      "mae_ratio": 0.9993171470788542,
+      "cpm_ratio": 0.9967060750382968
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ZNF777",
+      "arm": "contrast10",
+      "mse_ratio": 0.9985140242536253,
+      "mae_ratio": 0.9987123696407736,
+      "cpm_ratio": 0.993882123060537
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "arm": "contrast05",
+      "mse_ratio": 1.00180554914601,
+      "mae_ratio": 1.0002590912976175,
+      "cpm_ratio": 1.0065073640397852
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "target": "ADNP",
+      "arm": "contrast10",
+      "mse_ratio": 1.0041823591119787,
+      "mae_ratio": 1.000622429584761,
+      "cpm_ratio": 1.01434912331428
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "CYTH2",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "CYTH2",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "FHL3",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "FHL3",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "FOXN2",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "FOXN2",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "GLI3",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "GLI3",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "GPATCH8",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "GPATCH8",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "MED15",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "MED15",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "MTHFSD",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "target": "MTHFSD",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "DNTTIP1",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "FXYD5",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MED13",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "MSI2",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PCGF1",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "PPIP5K2",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SLC39A1",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "arm": "contrast05",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target": "SRSF5",
+      "arm": "contrast10",
+      "mse_ratio": 1.0,
+      "mae_ratio": 1.0,
+      "cpm_ratio": 1.0
+    }
+  ],
+  "summary": {
+    "contrast05": {
+      "mse_ratio": 0.9997711059789683,
+      "mae_ratio": 0.9998931085553876,
+      "cpm_ratio": 0.9934367573589551
+    },
+    "contrast10": {
+      "mse_ratio": 0.9996239018099304,
+      "mae_ratio": 0.9998160262188979,
+      "cpm_ratio": 0.9887545441980565
+    }
+  },
+  "eligible": [
+    "contrast05",
+    "contrast10"
+  ],
+  "selected": "contrast10",
+  "exploratory_if_no_eligible": false,
+  "pooled_identity_records": [
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "v24",
+      "pds": 0.9107142857142858
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "contrast05",
+      "pds": 0.9285714285714286
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "contrast10",
+      "pds": 0.9285714285714286
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.5
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "contrast05",
+      "pds": 0.5
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "contrast10",
+      "pds": 0.5
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.7121212121212123
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "contrast05",
+      "pds": 0.7121212121212123
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "contrast10",
+      "pds": 0.7424242424242425
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.7678571428571429
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "contrast05",
+      "pds": 0.7678571428571429
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "contrast10",
+      "pds": 0.7678571428571429
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.5892857142857142
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "contrast05",
+      "pds": 0.5892857142857142
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "contrast10",
+      "pds": 0.5892857142857142
+    }
+  ],
+  "pooled_identity_summary": {
+    "v24": 0.731782106782107,
+    "contrast05": 0.7377344877344877,
+    "contrast10": 0.7427849927849929
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "sha256": "37bbe3f84e98129401526a3c9d293802bee5e78ee9779cdf14e183dbf0e0a485",
+  "source_cache_receipt_sha256": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5",
+  "outer": "CD4",
+  "case_targets": [
+    "DNTTIP1",
+    "FXYD5",
+    "MED13",
+    "MSI2",
+    "PCGF1",
+    "PPIP5K2",
+    "SLC39A1",
+    "SRSF5"
+  ],
+  "trace": [
+    {
+      "target": "DNTTIP1",
+      "source_supported_outputs": 10191,
+      "selective_outputs": 0,
+      "maximum_activity": 0.16605337732134595
+    },
+    {
+      "target": "FXYD5",
+      "source_supported_outputs": 10181,
+      "selective_outputs": 0,
+      "maximum_activity": 0.24077309748567033
+    },
+    {
+      "target": "MED13",
+      "source_supported_outputs": 10398,
+      "selective_outputs": 3,
+      "maximum_activity": 0.4198955396142511
+    },
+    {
+      "target": "MSI2",
+      "source_supported_outputs": 10195,
+      "selective_outputs": 0,
+      "maximum_activity": 0.16339245811946468
+    },
+    {
+      "target": "PCGF1",
+      "source_supported_outputs": 10188,
+      "selective_outputs": 0,
+      "maximum_activity": 0.1439081452893658
+    },
+    {
+      "target": "PPIP5K2",
+      "source_supported_outputs": 10191,
+      "selective_outputs": 0,
+      "maximum_activity": 0.10552127424807822
+    },
+    {
+      "target": "SLC39A1",
+      "source_supported_outputs": 10192,
+      "selective_outputs": 0,
+      "maximum_activity": 0.11678942567031203
+    },
+    {
+      "target": "SRSF5",
+      "source_supported_outputs": 10191,
+      "selective_outputs": 0,
+      "maximum_activity": 0.15100013992886108
+    }
+  ]
+}

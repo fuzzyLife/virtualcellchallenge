@@ -1,0 +1,100 @@
+{
+  "records": [
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "v24",
+      "pds": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "rank10",
+      "pds": 1.0
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "rank25",
+      "pds": 1.0
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.5
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "rank10",
+      "pds": 0.5
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "rank25",
+      "pds": 0.5
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.8333333333333334
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "rank10",
+      "pds": 0.8333333333333334
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "rank25",
+      "pds": 0.8333333333333334
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.75
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "rank10",
+      "pds": 0.6666666666666667
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "rank25",
+      "pds": 0.6666666666666667
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.6666666666666667
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "rank10",
+      "pds": 0.5833333333333334
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "rank25",
+      "pds": 0.5833333333333334
+    }
+  ],
+  "summary": {
+    "v24": 0.7916666666666666,
+    "rank10": 0.763888888888889,
+    "rank25": 0.763888888888889
+  },
+  "scope": "Post-failure same20case ideal pooled-profile diagnostic; not a new selection or confirmation."
+}

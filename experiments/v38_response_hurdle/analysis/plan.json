@@ -1,0 +1,60 @@
+{
+  "dependencies": {
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "run_v38_response_hurdle.py": "e185db49870f66f9175262c6107e06d0f09c057a0f43a975d97dd18afa8e1173",
+    "test_v38_response_hurdle.py": "a4337859323ab6425409266edb660ce3ca2db4f15daf98f88fa9388d3338cbca",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v29_methods.py": "ba9d2bfc97d58cad7a5b9dac507366e4a634e90514428029702eab8f38cd0ad9",
+    "v29_pairwise_repair.py": "123ba9befdd1763e7ad63dfa1921f0de6807670fab25e4964a5f702e192dbdc8",
+    "v29_swap_kernel.py": "24a61b6506b21dde74410e48866f355625605a1512876b943b9cbafc6f1befb6",
+    "v27_methods.py": "2bb239e31052460cfe71cc42ecd82686949d0e898904938dd713ff78e683eef9",
+    "v26_methods.py": "b8732abc946c1a36178e849137db35a1a9cd3a2887731e9638a8c15dd42b8b57",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v12_methods.py": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v7_multisource_adaptive/analysis/source_provenance.json": "1fdf3385b31ce074673e691d2b7cfc49b14513efbf195ad246f7a294459bc851",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v37_component_ensemble/analysis/ensemble_release.json": "3d8f93b3557ff581fea1285cd98a0538b6301fb6ddc97bfc976714fda9939dbf",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "arms": [
+    "hurdle25",
+    "weighted25",
+    "selective50"
+  ],
+  "fixed_parameters": {
+    "pairs_per_recipient_target": 256,
+    "hgb_iterations": 120,
+    "leaves": 15,
+    "class_active_abs_LFC": 0.25,
+    "class_active_SE_multiplier": 2,
+    "weighted_regression_active_weight": 8,
+    "hurdle_coefficient": 0.25,
+    "weighted_coefficient": 0.25,
+    "selective_coefficient": 0.5,
+    "selective_probability": 0.2,
+    "selective_direction_confidence": 0.8
+  },
+  "selection": "All three mean candidates tested on same spent44 public means. Choose lowest equal-study MSE ratio among candidates with MSE and MAE<=1.01, and test that one plus its empirical-transport emitter on first4 cases/context. Compare all six raw metrics and corrected control-null tests. Confirmation uses remaining24 count cases, original seed and +380000. No claim of blind lineage validation or official anchor replication. No automatic upload.",
+  "training": "Whole outer study excluded; additionally exclude whole recipient study from its donor response features. Hash0 targets validation only. Random genes sampled without enrichment, study-balanced weights. K562 additionally used as recipient. Normal/SE labels are diagnostic, not claimed to match competition Wilcoxon.",
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "prior_results_known": true,
+  "D3_opened": false
+}

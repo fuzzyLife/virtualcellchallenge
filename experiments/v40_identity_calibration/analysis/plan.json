@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "v40_identity_calibration.py": "3bc4c72e76dbd5a75d34a0c05ef2880bfeb11a96a0971699118c8395537fb674",
+    "run_v40_identity_calibration.py": "71d17230d4aec3a26d1d48932675b90d32b02f14bf9ce2363772120aca8f539e",
+    "run_v38_standard_counts.py": "8daeac13c414cc6daee5ff944080f25a390fc80067f8f33c5c0abfe9b309f9eb",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v12_methods.py": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v7_multisource_adaptive/analysis/source_provenance.json": "1fdf3385b31ce074673e691d2b7cfc49b14513efbf195ad246f7a294459bc851",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v38_response_hurdle/analysis/selection.json": "07473af944d80242d9c516ce7d8776e91b49c15d23990b46fea13e5c0f7442d7",
+    "experiments/v39_kolf_support/analysis/selection.json": "5726264e673a9415184b9c38a48153feb9c098b800f6a3955317c3b6237e4c0d"
+  },
+  "hypothesis": "Response identity contrastive loss rather than mean-only shrinkage. Two gene-specific parameters, one per response sign. Strictly positive gains bounded0.75..1.25; zero remains zero; own coordinate remains zero. No target-specific new signature invented.",
+  "fit": {
+    "epochs": 8,
+    "steps_per_epoch": 100,
+    "batch_size": 32,
+    "learning_rate": 0.03,
+    "temperature": 0.15,
+    "MSE_weight": 0.15,
+    "log_gain_parameter_L2": 0.05,
+    "seed": 40040,
+    "held_target_hash": "V38 hash0"
+  },
+  "masks": "All300 panel genes excluded from cosine identity loss. Output-own additionally excluded from MSE. Whole outer study excluded from outcomes; recipient study excluded from donor baseline. Biological families sampled uniformly; contexts within families uniformly. Batch-wide valid gene intersection.",
+  "controls": "Separately trained within-recipient target-shuffled positive-label model, same recipe. Diagnostic only.",
+  "selection": "Compare rank10/rank25 first on all44 public means and pooled-profile discrimination; select larger improvement in equal-study pooled PDS among meanMSE/MAE<=1.01. Then standard V24 count emitter on first4 cases/context, corrected null identical by construction, original fixed V38 six-metric guards. At least two raw metrics improve and beat shuffled diagnostic in summary identity objective. Additional24 raw count cases and secondseed reserved for locked finalist. No private score guarantee; no automatic upload.",
+  "known_outcomes": "V38/V39 mean and full standard development outcomes known: better mean error, worse PDS. Transport rejected on severe treatment fidelity loss. Original experiments unchanged.",
+  "KOLF_features_used": false,
+  "literature": [
+    "https://arxiv.org/html/2606.27752v1",
+    "https://arxiv.org/html/2605.19343v1"
+  ],
+  "official_score_unknown": true
+}

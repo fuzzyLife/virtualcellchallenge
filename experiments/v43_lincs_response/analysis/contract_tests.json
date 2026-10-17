@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "unique finite 64D experimental embeddings",
+    "unit L2 norms",
+    "all300 target outputs absent from fingerprints",
+    ">=3 source contexts",
+    "own labels cannot change fitted bilinear weights"
+  ],
+  "script_sha256": "88a4310aaf21dba5fb9c6937a5677776980e2c2bd4016cd5edc404d5a4b32601"
+}

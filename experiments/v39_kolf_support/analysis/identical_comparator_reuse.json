@@ -1,0 +1,9 @@
+{
+  "adapter_sha256": "f09bd31fb2501c29004cbecb5165d5623cb3923f0cc7723ee906bb32aca16a61",
+  "parent_V38_plan_sha256": "53aa7f693e4e6fa54c6dbfc0da367d110b974518089a6cca93908b19b74a985d",
+  "new_V39_plan_sha256": "ae488f82a2b2c3c525172b1472b546de5d104835680a21d6efdd0d051d955e94",
+  "null_cases_copied": 15,
+  "V24_treatment_cases_copied": 12,
+  "response_model_dependent_treatments_copied": 0,
+  "proof": "V38/V39 plans pin identical v38_response_hurdle.py, v16_methods.py, run_v38_response_hurdle.py and original V34 cases. V24 comparator effects come from the same SHA-checked V37 cache; null effects are exactly zero. Reused arrays checked against original receipts."
+}

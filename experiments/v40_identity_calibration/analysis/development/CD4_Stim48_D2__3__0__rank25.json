@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "MSI2",
+  "case_index": 3,
+  "seed_offset": 0,
+  "arm": "rank25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 2591,
+  "actual_DE_calls": 1381,
+  "mean_probability_L1": 0.013151761249301312,
+  "bulk_probability_L1": 0.0008985334005194609,
+  "changed_transcript_fraction": 0.37020053804410863,
+  "global_moment_refit": true,
+  "fidelity": 0.5571428571428572,
+  "reach": 0.002173913043478261,
+  "jaccard": 0.17664493183165383,
+  "nmae": 0.9919922829081017,
+  "predicted_calls": 2590,
+  "reference_calls": 1380,
+  "nmae_eligible": true,
+  "arrays_sha256": "0f4435c57cc2f69d82501e869bcfefb7c10e82f35aec20225ad39fa5adbb3d10"
+}

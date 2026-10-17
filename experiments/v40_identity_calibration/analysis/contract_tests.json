@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "zero_gain_bitwise_baseline_identity": true,
+  "positive_bounded_sign_preserving_gain": true,
+  "masked_labels_do_not_affect_loss_or_gradient": true,
+  "correct_target_contrast_beats_wrong_target": true,
+  "finite_autograd": true,
+  "script_sha256": "7c79a66431ca74320632c6291311bfcfeadc868cab65bd70b4f3240bbfa22832"
+}

@@ -1,0 +1,39 @@
+{
+  "selected": "v24",
+  "eligible": [],
+  "checks": {
+    "hurdle25": {
+      "resolved": true,
+      "pds": false,
+      "expression": true,
+      "fid": true,
+      "reach": false,
+      "jac": true,
+      "nmae": true,
+      "null_no_worse": true,
+      "positive_average_gain": false
+    }
+  },
+  "relative_gain": {
+    "hurdle25": -0.03403916885138385
+  },
+  "confirmed_improvement": false,
+  "summary": {
+    "v24": {
+      "pds": 0.7916666666666666,
+      "fidelity": 0.5817027792979993,
+      "reach": 0.19438921817788044,
+      "jaccard": 0.07002678646965145,
+      "nmae": 0.9126006846426815,
+      "common_expression_ratio": 37.47193635849526
+    },
+    "hurdle25": {
+      "pds": 0.7083333333333334,
+      "fidelity": 0.5809670170900367,
+      "reach": 0.16915896136371802,
+      "jaccard": 0.06933673587369642,
+      "nmae": 0.914119102751533,
+      "common_expression_ratio": 35.83803296696347
+    }
+  }
+}

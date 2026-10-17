@@ -1,0 +1,5 @@
+{
+  "script_sha256": "46d2e8e8451baf3de0205cc208eda6a69f20a8fdc39a1bba4f32748e66c9328e",
+  "known_outcomes": "V38 mean/source and zero-head ablation known; V38 development not completed. V39 source model validation known; V39 public means/counts not yet inspected.",
+  "rule": "Each version must pass its frozen development/null guards and mean eligibility. ChooseV38 unlessV39 average six-metric relative gain exceedsV38 by0.001; if only one passes choose it. Lock before opening remaining24 count cases. Confirm original frozen count guards across both seeds plus every study PDS/FID/REACH within0.03 ofV24. No reselection after confirmation."
+}

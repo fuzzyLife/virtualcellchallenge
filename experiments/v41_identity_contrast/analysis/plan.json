@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "v41_identity_contrast.py": "c566139e2ee55bb2c789045d28aa4d3cc43d8675510b61bedc78498c892ceb70",
+    "run_v41_identity_contrast.py": "fdf7e72577eb18a9c68cbe0aa3fb0af7438d4328ac5f3a757bfebd56ac9b0bd7",
+    "v40_identity_calibration.py": "3bc4c72e76dbd5a75d34a0c05ef2880bfeb11a96a0971699118c8395537fb674",
+    "run_v38_standard_counts.py": "8daeac13c414cc6daee5ff944080f25a390fc80067f8f33c5c0abfe9b309f9eb",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v12_methods.py": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v40_identity_calibration/analysis/plan.json": "f129ec6708d85f82aaa70f62ed69ee930cba94b00a6973c64c568c3cfaa8959e",
+    "experiments/v40_identity_calibration/analysis/selection.json": "4bf7b4053c2affaea9f16315551ad7cafb96c89e2ea0231955e0f501a25808e6",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments\\v40_identity_calibration\\analysis\\models\\H1.npz": "36dd1c2a07a5d8996699b76279da33eba2af3dfdfcb722f9ae0955c06dff1e91",
+    "experiments\\v40_identity_calibration\\analysis\\models\\H1.json": "fd4fb1f860722dfe54cf56dcf2873610b5e66944118e63490525b677d76fdbcc",
+    "experiments\\v40_identity_calibration\\analysis\\models\\H1_shuffled.npz": "9859063492874be117a9b9214ac91dbe97661fc878f313016e0fa1d9b7732cac",
+    "experiments\\v40_identity_calibration\\analysis\\models\\H1_shuffled.json": "800b04586f35bd29b58bafff4658171a5806a53570f554be25d63b1e1f6727bd",
+    "experiments\\v40_identity_calibration\\analysis\\models\\Orion.npz": "50eb88b22f618eacdd81dd4eb187e165061a66e0f69b9de24f863897bc31419f",
+    "experiments\\v40_identity_calibration\\analysis\\models\\Orion.json": "e85aa35c34fed74d984f0d51a3a15af065c72028caf4a71016d7531fa0abd779",
+    "experiments\\v40_identity_calibration\\analysis\\models\\Orion_shuffled.npz": "c530d0eb9283c896f546335c0a0880dd4bd345dcee539945d78407b14e0376f8",
+    "experiments\\v40_identity_calibration\\analysis\\models\\Orion_shuffled.json": "93aabcd5e4946c3e1b8b619cd015862433a27294ce9f4b8c721c3c452b357f2d",
+    "experiments\\v40_identity_calibration\\analysis\\models\\CD4.npz": "6b04d811c5afc395fa52d3af1a713e57053cc2c47abcc1da41bb09e06435abf0",
+    "experiments\\v40_identity_calibration\\analysis\\models\\CD4.json": "3227866efc1c008c1bacc411ed99eee760b73fe0d3977cbea6df8b1606242f7a",
+    "experiments\\v40_identity_calibration\\analysis\\models\\CD4_shuffled.npz": "93021be86f916e2be3f16eb40d1d75615a3d65c5552be018f4e56e5570489e18",
+    "experiments\\v40_identity_calibration\\analysis\\models\\CD4_shuffled.json": "da9fbeb03ca64d35fb42471c8cdb43bde8d45ce18ae822078535c417f0ef2614"
+  },
+  "hypothesis": "Retain only calibration specific to correctly labeled contrastive intervention matching; matched control retains same correctly paired MSE auxiliary. Source-validation CE must beat both baseline and matched control; otherwise exact V24 abstention. Difference between independently selected source-CV checkpoints is not an exact gradient decomposition.",
+  "coefficient": 0.25,
+  "gain_bounds": [
+    0.75,
+    1.25
+  ],
+  "outer_exclusions": "Reuse exact V40 whole-study-excluded models. Source target-hash validation only determines abstention; no held-query outcomes used at inference.",
+  "primary": "All44 spent public means plus ideal pooled PDS, then original20 standard-generator cases with all six raw metrics. Frozen V38 count guards plus MSE/MAE<=1.01; at least two raw metrics improve; source objective beats shuffled when used. Null unchanged by zero identity. If passing, lock before additional24 count cases and secondseed380000; same count guards and per-study PDS/FID/REACH within0.03. No reselection after confirmation.",
+  "known_outcomes": "V38/V39/V40 complete development outcomes and source validation controls known. Additional24 count cases and D3 reserve still unopened. Explicit outcome-informed next hypothesis on reused public data.",
+  "private_score_known": false
+}

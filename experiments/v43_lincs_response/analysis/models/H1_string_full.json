@@ -1,0 +1,29 @@
+{
+  "sha256": "c45a5a02ea4b68b5f1e2414d55ba3cbf630c227767a2dba6984342f1b122dffb",
+  "source_sha256": "2740df2a0cc32a878fa4833149e72fee2090b50cbfd7d8cadf4f1ea0f03fe59c",
+  "plan_sha256": "dc363c879d084329d64d39b9c7df9b52ef3827ce153b7439c3bc0e17d0b750fb",
+  "family": "H1",
+  "source": "H1",
+  "variant": "string_full",
+  "training_targets": [
+    "ACLY",
+    "AKT2",
+    "ANKZF1",
+    "BRPF1",
+    "HDAC8",
+    "HSBP1",
+    "MED15",
+    "MTA1",
+    "NFE2L1",
+    "SMARCA5",
+    "STAT6",
+    "TARBP2",
+    "TRAPPC6A",
+    "TWF2",
+    "ZNF32"
+  ],
+  "training_target_count": 15,
+  "auxiliary_targets": 0,
+  "abstained": true,
+  "reason": "Fewer than20 eligible source targets with embeddings"
+}

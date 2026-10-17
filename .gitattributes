@@ -225,3 +225,16 @@
 /*v37*.py -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /V37*.md -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 /experiments/v37*/analysis/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+/*v3[89]*.py -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/*v4[0-4]*.py -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/verify_vcc_payload.py -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/V3[89]*.md -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/V4[0-4]*.md -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/experiments/v3[89]*/analysis/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/experiments/v4[0-4]*/analysis/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+
+/*v45*.py -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/V45*.md -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/experiments/v45*/analysis/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol
+/test_vcc_payload.py -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab,cr-at-eol

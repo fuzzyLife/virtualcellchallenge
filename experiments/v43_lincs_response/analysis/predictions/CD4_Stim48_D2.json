@@ -1,0 +1,151 @@
+{
+  "sha256": "ef7cb0d8f4de6b3db419faf8f205ea610c7a290cbd53bad63a0030f45f75fcbb",
+  "case_targets": [
+    "DNTTIP1",
+    "FXYD5",
+    "MED13",
+    "MSI2",
+    "PCGF1",
+    "PPIP5K2",
+    "SLC39A1",
+    "SRSF5"
+  ],
+  "outer": "CD4",
+  "trace": {
+    "fingerprint125": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.5566891528858139,
+          "rho": 0.4563598172603563,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.5020438218396168,
+          "rho": 0.4047000172856073,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 0.9776227414282977,
+          "rho": 0.7379182374217254,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HCT116",
+          "family": "Orion",
+          "raw_weight": 1.0,
+          "rho": 0.7492339515851685,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HEK293T",
+          "family": "Orion",
+          "raw_weight": 0.9283033784824335,
+          "rho": 0.7120356100084975,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 107,
+      "config": [
+        32,
+        10.0,
+        0.125
+      ]
+    },
+    "fingerprint250": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.5566891528858139,
+          "rho": 0.4563598172603563,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.5020438218396168,
+          "rho": 0.4047000172856073,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 0.9776227414282977,
+          "rho": 0.7379182374217254,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HCT116",
+          "family": "Orion",
+          "raw_weight": 1.0,
+          "rho": 0.7492339515851685,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HEK293T",
+          "family": "Orion",
+          "raw_weight": 0.9283033784824335,
+          "rho": 0.7120356100084975,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 107,
+      "config": [
+        32,
+        10.0,
+        0.25
+      ]
+    },
+    "shuffled250": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.5566891528858139,
+          "rho": 0.4563598172603563,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.5020438218396168,
+          "rho": 0.4047000172856073,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 0.9776227414282977,
+          "rho": 0.7379182374217254,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HCT116",
+          "family": "Orion",
+          "raw_weight": 1.0,
+          "rho": 0.7492339515851685,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "HEK293T",
+          "family": "Orion",
+          "raw_weight": 0.9283033784824335,
+          "rho": 0.7120356100084975,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 107,
+      "config": [
+        32,
+        10.0,
+        0.25
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "parent_plan_sha256": "ae488f82a2b2c3c525172b1472b546de5d104835680a21d6efdd0d051d955e94",
+  "adapter_sha256": "8daeac13c414cc6daee5ff944080f25a390fc80067f8f33c5c0abfe9b309f9eb",
+  "changes": "Withdraw empirical-transport arm; resume unfinished standard-emitter cases. No response model, coefficient, seed, case, control split, count algorithm or surviving-candidate selection threshold changes. Completed original count/transport receipts and arrays preserved in place.",
+  "reason": "Available held-H1 transport fidelity collapses relative to V24, repeating V29. Transport cannot be released or substituted after this amendment. Avoid further expensive evaluation of this rejected emitter.",
+  "known_outcomes": "Both versions source/mean screens, V38 zero-head ablation and null tests known; partial V38/V39 count results listed. Additional24 count confirmation cases remain unopened.",
+  "rejected_arm_partial_results": [
+    {
+      "file": "H1__0__0__hurdle25_transport.json",
+      "sha256": "eef28176e95541b9439e21430e233da8ab92312a08cc9ebfe7b2919d8c998cae",
+      "family": "H1",
+      "target": "HDAC8",
+      "fidelity": 0.01910828025477707,
+      "reach": 0.46496815286624205,
+      "jaccard": 0.00625
+    },
+    {
+      "file": "H1__1__0__hurdle25_transport.json",
+      "sha256": "dd9131a46dcb1832d3d82b99b296c7237a8c9a46ffbf9d80d9a91473a03a8e7a",
+      "family": "H1",
+      "target": "NFE2L1",
+      "fidelity": 0.08759124087591241,
+      "reach": 0.15328467153284672,
+      "jaccard": 0.006493506493506494
+    },
+    {
+      "file": "H1__2__0__hurdle25_transport.json",
+      "sha256": "5a4315052885affdf8abc2980fbd425a90b724240d12a98904ad643cef5bc604",
+      "family": "H1",
+      "target": "PLAGL2",
+      "fidelity": 0.028409090909090908,
+      "reach": 0.09090909090909091,
+      "jaccard": 0.016853932584269662
+    }
+  ],
+  "transport_eligible_for_release": false,
+  "surviving_arms": [
+    "v24",
+    "hurdle25"
+  ]
+}

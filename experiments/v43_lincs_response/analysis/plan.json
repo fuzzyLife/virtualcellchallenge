@@ -1,0 +1,63 @@
+{
+  "dependencies": {
+    "v43_lincs_fingerprints.py": "3448a39310e3b5b6ef0ed1df484860585459627d712e1c2307c4f6303be65f64",
+    "prepare_v43_fingerprints.py": "afdc5f965df704e1c7a3e6831b8ceff8a196c09f47439ff198b95eddcc5d0faa",
+    "unpack_v43_lincs.py": "489d42463976d61c9369da816067089d9485f38b7676c5a8acc96fdd5533781a",
+    "run_v43_fingerprints.py": "1606a2e1312e7ab87bf99a8a82ad15c86ae701fce32e8dae3a13998c576d243b",
+    "test_v43_fingerprints.py": "88a4310aaf21dba5fb9c6937a5677776980e2c2bd4016cd5edc404d5a4b32601",
+    "v30_methods.py": "71f932edd214c3c1ab337878428e727d7a93383c91541a6eca87c88107aa393e",
+    "run_v42_count_grid.py": "2891281b49ab8c6ecb5de026ea9386de9c4f1095bc288dc452c1ba7f30cc100d",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v24_methods.py": "098e4594ca06aa1604a2982cc568936b98c98ac9c738999b956db37183488bef",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v43_lincs_response/analysis/collection.json": "f7d6d48a8d97ce171313b331e4cdea3e3cfd50a78d7ed9920bd49ac67d3045a3",
+    "experiments/v43_lincs_response/analysis/unpacked.json": "04391b26ce6e835d639ae8d639048dbe6262d992e451d91662eca388375ccb0f",
+    "experiments/v43_lincs_response/analysis/fingerprints.json": "042cd55690e5ec14d24c796d691f95f6c08761517cb32a4d3816d292a18016b4",
+    "experiments/v43_lincs_response/analysis/experimental_fingerprints.npz": "72c0412a156d3fb455b6fc0448e4a0b4683a7df5730f6ab2200702b650397081",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v30_structured_response/analysis/sources/K562_full.npz": "7be4ba552f9bbefbcd247f91e824c9a677c644b40c92aece5cdd60628273a4e2",
+    "experiments/v30_structured_response/analysis/sources/K562_full.json": "ce6f8e59e6b89b0eaeba15f3e4ef6000c86f6b0e061c7aa9f60832e26b1a99ae",
+    "experiments/v30_structured_response/analysis/sources/RPE1_full.npz": "a1d85480b2a51db82e9ccc699f12fd3ea5b140343fa6f6c4b3a1091d17c585ec",
+    "experiments/v30_structured_response/analysis/sources/RPE1_full.json": "d98e72423384c6582100d906bb0a11bb9fd8e8bec174d93aa12dc0619db3c4d9",
+    "experiments/v30_structured_response/analysis/sources/H1.npz": "2740df2a0cc32a878fa4833149e72fee2090b50cbfd7d8cadf4f1ea0f03fe59c",
+    "experiments/v30_structured_response/analysis/sources/H1.json": "0810fe3b2b9cac09ce082e5d9f15fa020143cc2ada2764568986de5ff8239231",
+    "experiments/v30_structured_response/analysis/sources/HCT116.npz": "a9c16d56fa54ace1ac1d8a584513183eb1727a14f3c84207876dd35030c7e0c5",
+    "experiments/v30_structured_response/analysis/sources/HCT116.json": "e69791f33eaff4201f4b7490f414726ba0440ad782a9c0a1b429060b16902ae9",
+    "experiments/v30_structured_response/analysis/sources/HEK293T.npz": "7ec15771eadc6c7f2d05a6c4d2c162ef8599d3d229cad984269ae963014911cb",
+    "experiments/v30_structured_response/analysis/sources/HEK293T.json": "bbe77ae0c458aa41dfb1e4d56a7a4be4369db9e668b50c321bf39741a761624f",
+    "experiments/v30_structured_response/analysis/sources/CD4_Rest.npz": "9513e978a75b9c95fa61b69c50793618da9b28496945f6415ca9d2cd01a9b703",
+    "experiments/v30_structured_response/analysis/sources/CD4_Rest.json": "332c04fc39eb6aca3de777c0a4d772ee7b7d847fed57dddff742d96a50f04244",
+    "experiments/v30_structured_response/analysis/sources/CD4_Stim8hr.npz": "6bd3f2911eda5c09f7f67ac17af36f769a9352ecb4457fbb1330b1a96b3e1829",
+    "experiments/v30_structured_response/analysis/sources/CD4_Stim8hr.json": "6297b60384e272e2a5a76bfbb45af197994c4c0bafb8077b06d3af8b7898911e",
+    "experiments/v30_structured_response/analysis/sources/CD4_Stim48hr.npz": "4ed94817be2d38bdc2075a30da5b49d632833fc23f5213723509146281a439d8",
+    "experiments/v30_structured_response/analysis/sources/CD4_Stim48hr.json": "90843a694dfa7a60c7bb084f9c6ce1d4fcaf28d4b8c3553e7a73727a0c0cc4f6",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "hypothesis": "Measured experimental RNAi fingerprints can transfer functional perturbation identity across assays better than static STRING annotations. Fit source-only CRISPR response bases and map phenotype fingerprints into them, excluding whole held study from pooling.",
+  "rank": 32,
+  "ridge_lambda": 10,
+  "blends": [
+    0.125,
+    0.25
+  ],
+  "correction_cap_LFC": 0.5,
+  "arms": [
+    "fingerprint125",
+    "fingerprint250",
+    "shuffled250"
+  ],
+  "negative_control": "Same model and source targets, fingerprints permuted among gene keys with fixed seed43043. Not a permutation of outputs.",
+  "selection": "Mean MSE/MAE each <=1.01, genuine beats matched shuffled250. Test both genuine arms and shuffled250 on20 count development cases. Require all original six raw count/null guards, positive average gain, at least2 metrics improved. Lock highest passing genuine candidate before24 remaining count cases, seeds0/+380000. Same aggregate guards and study PDS/FID/REACH within.03. If no genuine passes, record failure and continue with a separate hypothesis; do not fabricate a better score.",
+  "scope": "Public development repeatedly used, not blind cell lineage validation or exact anchored leaderboard replication. 24 additional count cases and D3 unopened at freeze. Missing fingerprints and measured outputs abstain to V24. RNAi off-target effects remain a limitation.",
+  "published_champion": "V24 overall0.14299785521745675",
+  "private_score_known": false
+}

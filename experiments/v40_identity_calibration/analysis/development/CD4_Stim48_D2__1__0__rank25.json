@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "FXYD5",
+  "case_index": 1,
+  "seed_offset": 0,
+  "arm": "rank25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 2472,
+  "actual_DE_calls": 1571,
+  "mean_probability_L1": 0.012185121117994928,
+  "bulk_probability_L1": 0.0008836540827939538,
+  "changed_transcript_fraction": 0.37872585134845776,
+  "global_moment_refit": true,
+  "fidelity": 0.5293403480372318,
+  "reach": 0.0006369426751592356,
+  "jaccard": 0.2226928895612708,
+  "nmae": 0.9858656123211538,
+  "predicted_calls": 2471,
+  "reference_calls": 1570,
+  "nmae_eligible": true,
+  "arrays_sha256": "f787e24adbb45021526c535ce6de41aec08bfb5b2bc17e56ba37a542779f2aed"
+}

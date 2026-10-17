@@ -529,3 +529,64 @@ __marimo__/
 /experiments/v37_component_ensemble/*.h5ad*
 /experiments/v37_component_ensemble/*.vcc*
 /experiments/v37_component_ensemble/analysis/prediction_control_rows.csv
+
+# V38 regenerable fitted models, count caches and submission artifacts
+/experiments/v38_response_hurdle/**/*.npz
+/experiments/v38_response_hurdle/**/*.joblib
+/experiments/v38_response_hurdle/*.log
+/experiments/v38_response_hurdle/*.h5ad*
+/experiments/v38_response_hurdle/*.vcc*
+/experiments/v38_response_hurdle/analysis/prediction_control_rows.csv
+
+# V39 optional KOLF source features and regenerable author binaries
+/experiments/v39_kolf_support/reference/
+/experiments/v39_kolf_support/**/*.npz
+/experiments/v39_kolf_support/**/*.joblib
+/experiments/v39_kolf_support/*.log
+/experiments/v39_kolf_support/*.h5ad*
+/experiments/v39_kolf_support/*.vcc*
+/experiments/v39_kolf_support/analysis/prediction_control_rows.csv
+
+# V40 response-identity model and regenerable count arrays/packages
+/experiments/v40_identity_calibration/**/*.npz
+/experiments/v40_identity_calibration/*.log
+/experiments/v40_identity_calibration/*.h5ad*
+/experiments/v40_identity_calibration/*.vcc*
+/experiments/v40_identity_calibration/analysis/prediction_control_rows.csv
+
+# V41 matched-identity calibration contrast
+/experiments/v41_identity_contrast/**/*.npz
+/experiments/v41_identity_contrast/*.log
+/experiments/v41_identity_contrast/*.h5ad*
+/experiments/v41_identity_contrast/*.vcc*
+/experiments/v41_identity_contrast/analysis/prediction_control_rows.csv
+
+# V43 public LINCS source files and regenerable data
+/experiments/v43_lincs_response/reference/
+/experiments/v43_lincs_response/**/*.npz
+/experiments/v43_lincs_response/**/*.joblib
+/experiments/v43_lincs_response/*.log
+/experiments/v43_lincs_response/*.h5ad*
+/experiments/v43_lincs_response/*.vcc*
+/experiments/v43_lincs_response/analysis/prediction_control_rows.csv
+
+# V42 fixed small-gain count grid
+/experiments/v42_identity_trust/**/*.npz
+/experiments/v42_identity_trust/*.log
+/experiments/v42_identity_trust/*.h5ad*
+/experiments/v42_identity_trust/*.vcc*
+/experiments/v42_identity_trust/analysis/prediction_control_rows.csv
+
+# V44 regenerable population arrays and packages
+/experiments/v44_response_dispersion/**/*.npz
+/experiments/v44_response_dispersion/*.log
+/experiments/v44_response_dispersion/*.h5ad*
+/experiments/v44_response_dispersion/*.vcc*
+/experiments/v44_response_dispersion/analysis/prediction_control_rows.csv
+
+# V45 bounded population refinement
+/experiments/v45_bounded_dispersion/**/*.npz
+/experiments/v45_bounded_dispersion/*.log
+/experiments/v45_bounded_dispersion/*.h5ad*
+/experiments/v45_bounded_dispersion/*.vcc*
+/experiments/v45_bounded_dispersion/analysis/prediction_control_rows.csv

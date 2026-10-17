@@ -1,0 +1,172 @@
+{
+  "sha256": "1f51eb7ac967713ba4544c8d8226d56dd076be9d5e0790e66b2d46b703038446",
+  "case_targets": [
+    "GLI3",
+    "PATL1",
+    "ZNF627",
+    "RNF141",
+    "GLI3",
+    "PATL1",
+    "ZNF627",
+    "RNF141"
+  ],
+  "outer": "Orion",
+  "trace": {
+    "fingerprint125": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.8567586505806932,
+          "rho": 0.6992840827740063,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.8230809065214545,
+          "rho": 0.6792332052740303,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 1.0,
+          "rho": 0.7765835934272424,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Rest",
+          "family": "CD4",
+          "raw_weight": 0.9389639135797396,
+          "rho": 0.7450944778248147,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim8hr",
+          "family": "CD4",
+          "raw_weight": 0.976511576591763,
+          "rho": 0.7646992566537533,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim48hr",
+          "family": "CD4",
+          "raw_weight": 0.9699918137259942,
+          "rho": 0.7613497699382129,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 108,
+      "config": [
+        32,
+        10.0,
+        0.125
+      ]
+    },
+    "fingerprint250": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.8567586505806932,
+          "rho": 0.6992840827740063,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.8230809065214545,
+          "rho": 0.6792332052740303,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 1.0,
+          "rho": 0.7765835934272424,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Rest",
+          "family": "CD4",
+          "raw_weight": 0.9389639135797396,
+          "rho": 0.7450944778248147,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim8hr",
+          "family": "CD4",
+          "raw_weight": 0.976511576591763,
+          "rho": 0.7646992566537533,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim48hr",
+          "family": "CD4",
+          "raw_weight": 0.9699918137259942,
+          "rho": 0.7613497699382129,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 108,
+      "config": [
+        32,
+        10.0,
+        0.25
+      ]
+    },
+    "shuffled250": {
+      "sources": [
+        {
+          "source": "K562_full",
+          "family": "Replogle",
+          "raw_weight": 0.8567586505806932,
+          "rho": 0.6992840827740063,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "RPE1_full",
+          "family": "Replogle",
+          "raw_weight": 0.8230809065214545,
+          "rho": 0.6792332052740303,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "H1",
+          "family": "H1",
+          "raw_weight": 1.0,
+          "rho": 0.7765835934272424,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Rest",
+          "family": "CD4",
+          "raw_weight": 0.9389639135797396,
+          "rho": 0.7450944778248147,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim8hr",
+          "family": "CD4",
+          "raw_weight": 0.976511576591763,
+          "rho": 0.7646992566537533,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        },
+        {
+          "source": "CD4_Stim48hr",
+          "family": "CD4",
+          "raw_weight": 0.9699918137259942,
+          "rho": 0.7613497699382129,
+          "normalization": "Divide by available source count within family separately per target/gene"
+        }
+      ],
+      "changed_targets": 108,
+      "config": [
+        32,
+        10.0,
+        0.25
+      ]
+    }
+  }
+}

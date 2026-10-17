@@ -1,0 +1,21 @@
+{
+  "sha256": "8f44214dcb2f41793490c9e1fa7759a7426bb418185fcaebc4d0576989776b3d",
+  "case_targets": [
+    "HDAC8",
+    "NFE2L1",
+    "PLAGL2",
+    "ACLY",
+    "HDAC8",
+    "NFE2L1",
+    "PLAGL2",
+    "ACLY"
+  ],
+  "outer": "H1",
+  "use_calibrator": true,
+  "identity_source_validation_CE": 3.374281366666158,
+  "shuffled_source_validation_CE": 3.378144383430481,
+  "baseline_source_validation_CE": 3.377767470147875,
+  "identity_weights_sha256": "36dd1c2a07a5d8996699b76279da33eba2af3dfdfcb722f9ae0955c06dff1e91",
+  "shuffled_weights_sha256": "9859063492874be117a9b9214ac91dbe97661fc878f313016e0fa1d9b7732cac",
+  "contrast_is_exact_gradient_decomposition": false
+}

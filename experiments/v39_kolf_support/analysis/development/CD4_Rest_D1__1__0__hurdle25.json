@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "DNTTIP1",
+  "case_index": 1,
+  "seed_offset": 0,
+  "arm": "hurdle25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 365,
+  "actual_DE_calls": 491,
+  "mean_probability_L1": 0.012816287116851949,
+  "bulk_probability_L1": 0.0016885544213059813,
+  "changed_transcript_fraction": 0.3671943656620211,
+  "global_moment_refit": true,
+  "fidelity": 0.3795918367346939,
+  "reach": 0.004081632653061225,
+  "jaccard": 0.11342894393741851,
+  "nmae": 0.9812968013592173,
+  "predicted_calls": 364,
+  "reference_calls": 490,
+  "nmae_eligible": true,
+  "arrays_sha256": "d559f0ee363625589da821ac8f4a072d1fef5457c23fa324bb020256da2e81e4"
+}

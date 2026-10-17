@@ -1,0 +1,59 @@
+{
+  "revision": "8f84531a784f24b14d7e2c9b80c375d7e78fd46c",
+  "author_sources": [
+    {
+      "name": "docs/data/panel/all/meta.json",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/meta.json",
+      "bytes": 603279,
+      "git_blob_sha1": "9714d8c8a4f6322a43002c84c8ad8766c5c721f7",
+      "sha256": "ed4c569933cb62675db09e418290b5866632efcd5627ad8a629c6ca69da13cfe"
+    },
+    {
+      "name": "docs/data/panel/all/chunk_0.bin",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/chunk_0.bin",
+      "bytes": 96515000,
+      "git_blob_sha1": "a605c0117ae665e68d146419771acf397d476819",
+      "sha256": "a157c5c20fe46b55bc1ff1f2d7e9961ae723f94e792165b66d048c109e00ea92"
+    },
+    {
+      "name": "docs/data/panel/all/chunk_1.bin",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/chunk_1.bin",
+      "bytes": 96515000,
+      "git_blob_sha1": "833fa5009cb2944f1174eea86f7a0d663de2e0e8",
+      "sha256": "894ef21d88c7ca2798aca8b48babc647132971cb5e9d99b20689f33c04253722"
+    },
+    {
+      "name": "docs/data/panel/all/chunk_2.bin",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/chunk_2.bin",
+      "bytes": 96515000,
+      "git_blob_sha1": "cf366973b6eb2083ddd11c269f99baaf774e718f",
+      "sha256": "b8999eb6acdfc778d4bf052bdcf551c44ceb7fd8fb537fa0c764f613b11bcd8d"
+    },
+    {
+      "name": "docs/data/panel/all/chunk_3.bin",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/chunk_3.bin",
+      "bytes": 96515000,
+      "git_blob_sha1": "daa88999463b1c4b13fbc52460ca18749e5d7252",
+      "sha256": "7494ccdee7ee93ec0a2a904cb5d8f9608104562b0718bcde4947f1ac78bc1d17"
+    },
+    {
+      "name": "docs/data/panel/all/chunk_4.bin",
+      "url": "https://raw.githubusercontent.com/y-doctor/KOLF2.1J_Perturbation_Cell_Atlas/8f84531a784f24b14d7e2c9b80c375d7e78fd46c/docs/data/panel/all/chunk_4.bin",
+      "bytes": 6447202,
+      "git_blob_sha1": "2c0e26d899719179b883496a47a0b89d1a0fe313",
+      "sha256": "31e67651bdf75f7fc0a55ee95364b3cfb9419b7f0d19e449940db23ad28db04d"
+    }
+  ],
+  "arrays_sha256": "22377d2dee5d8db0e7c1a7834ce196b7a4bd4fe05acc0cdb29da54758345c563",
+  "script_sha256": "6862aae8c641e37e7e12287671d5e829a9ee0419d42a3fdb861631504e8a1f75",
+  "target_overlap": 273,
+  "unambiguous_output_overlap": 18106,
+  "finite_feature_pairs": 4942938,
+  "saturated_feature_pairs": 1,
+  "source_units": "int8 quantized mean NTC z-scores in author log-expression space, scale0.04; NOT counts or LFC.",
+  "use": "Optional experimental-response feature only. No training or submission use implied. All-perturbation browser export, not strong-only filtered file.",
+  "missingness": "Missing targets or ambiguous/missing gene symbols are NaN; no invented zero response.",
+  "full_raw_189GB_file_downloaded": false,
+  "license": "Data CC BY4.0 per pinned Figshare metadata; author code MIT.",
+  "paper": "https://www.nature.com/articles/s41587-026-03199-w"
+}

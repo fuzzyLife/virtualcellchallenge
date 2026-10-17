@@ -1,5 +1,16 @@
 # Virtual Cell Challenge 2026
 
+<!-- v38-v45:begin -->
+
+## V38–V45: new evidence and response dispersion (2026-10-17)
+
+Tested response activity/magnitude heads, independent KOLF signatures, intervention-identity contrastive calibration, matched-control subtraction, smaller trust bounds, and new experimental LINCS RNAi fingerprints. V38–V43 do not establish a new release improvement. V44 increases population variation while preserving V24 means: its20% empirical arm improves raw REACH16.8% with unchanged PDS, but narrowly fails the fixed DE-overlap guard. V45 tests a smaller increment and a response-strength gate; validation is in progress.
+
+Root scripts, immutable plans, source checksums, failed candidates and independent score/split audits are retained. [Research/results](V38_V44_RESULTS.md), [earlier V38–V40 methods](V38_V40_RESEARCH.md). V24 remains the published best at0.14299785521745675. New private scores are unknown; D3 remains unopened. No automatic upload or Git push.
+
+<!-- v38-v45:end -->
+
+
 <!-- v37-ensemble:begin -->
 
 ## V37 component ensembles

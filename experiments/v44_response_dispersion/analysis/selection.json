@@ -1,0 +1,82 @@
+{
+  "selected": "v24",
+  "eligible": [],
+  "checks": {
+    "residual20": {
+      "resolved": true,
+      "pds": true,
+      "expression": true,
+      "fid": true,
+      "reach": true,
+      "jac": false,
+      "nmae": true,
+      "null_no_worse": true,
+      "positive_average_gain": true,
+      "two_metrics_improve": true
+    },
+    "residual35": {
+      "resolved": true,
+      "pds": true,
+      "expression": true,
+      "fid": false,
+      "reach": true,
+      "jac": false,
+      "nmae": true,
+      "null_no_worse": true,
+      "positive_average_gain": true,
+      "two_metrics_improve": true
+    },
+    "adaptive": {
+      "resolved": true,
+      "pds": true,
+      "expression": true,
+      "fid": false,
+      "reach": true,
+      "jac": false,
+      "nmae": true,
+      "null_no_worse": true,
+      "positive_average_gain": true,
+      "two_metrics_improve": true
+    }
+  },
+  "relative_gain": {
+    "residual20": 0.021766871746294103,
+    "residual35": 0.009175042249195837,
+    "adaptive": 0.007087467030931261
+  },
+  "confirmed_improvement": false,
+  "summary": {
+    "v24": {
+      "pds": 0.7916666666666666,
+      "fidelity": 0.5817027792979993,
+      "reach": 0.19438921817788044,
+      "jaccard": 0.07002678646965145,
+      "nmae": 0.9126006846426815,
+      "common_expression_ratio": 37.47193635849526
+    },
+    "residual20": {
+      "pds": 0.7916666666666666,
+      "fidelity": 0.5739547993143767,
+      "reach": 0.227109197095315,
+      "jaccard": 0.06859525146666749,
+      "nmae": 0.9167821284918819,
+      "common_expression_ratio": 37.44857992227782
+    },
+    "residual35": {
+      "pds": 0.8055555555555557,
+      "fidelity": 0.5481255039217273,
+      "reach": 0.2327523462520984,
+      "jaccard": 0.06273342480952777,
+      "nmae": 0.912532621276681,
+      "common_expression_ratio": 37.39875029661401
+    },
+    "adaptive": {
+      "pds": 0.8055555555555557,
+      "fidelity": 0.5455969648787792,
+      "reach": 0.23015100702190674,
+      "jaccard": 0.06323086817669626,
+      "nmae": 0.9142505970280181,
+      "common_expression_ratio": 37.399411897145846
+    }
+  }
+}

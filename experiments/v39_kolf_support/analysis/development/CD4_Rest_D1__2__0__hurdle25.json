@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "FHL3",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "hurdle25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 360,
+  "actual_DE_calls": 78,
+  "mean_probability_L1": 0.012805100687265192,
+  "bulk_probability_L1": 0.0017538467023152514,
+  "changed_transcript_fraction": 0.37367117490849705,
+  "global_moment_refit": true,
+  "fidelity": 0.5793871866295265,
+  "reach": 0.0,
+  "jaccard": 0.06341463414634146,
+  "nmae": 0.9728687168842084,
+  "predicted_calls": 359,
+  "reference_calls": 77,
+  "nmae_eligible": true,
+  "arrays_sha256": "406e546d799f12e4cbb985d13ee43a89f02a5fbdb5f0bb7e72278b8b4561cb47"
+}

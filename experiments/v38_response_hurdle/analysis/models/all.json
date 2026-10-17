@@ -1,0 +1,37 @@
+{
+  "outer": "all",
+  "training_pairs": 285343,
+  "validation_pairs": 50615,
+  "training_classes": [
+    5796,
+    273527,
+    6020
+  ],
+  "validation_classes": [
+    1130,
+    48221,
+    1264
+  ],
+  "activity_average_precision": 0.1023256420385184,
+  "class_log_loss": 0.2700588593712101,
+  "validation_mse": {
+    "pooled": 0.05578211821328574,
+    "hurdle": 0.05366109212059058,
+    "weighted": 0.055854360611927154
+  },
+  "validation_active_mae": {
+    "pooled": 0.49594517321747594,
+    "hurdle": 0.5052770651575447,
+    "weighted": 0.5008428893222613
+  },
+  "recipient_studies": [
+    "CD4",
+    "H1",
+    "Orion",
+    "Replogle"
+  ],
+  "feature_exclusions": "outer entire study plus each training recipient entire study",
+  "validation_split": "All occurrences of hash0 targets excluded from fitting; allowed experimental donor outcomes for those targets remain retrieval features.",
+  "sha256": "49d37ffb215a184b1141e2b0b4beca9aa97a82de5a1188a7365e39d8af33dd5b",
+  "plan_sha256": "53aa7f693e4e6fa54c6dbfc0da367d110b974518089a6cca93908b19b74a985d"
+}

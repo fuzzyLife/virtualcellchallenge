@@ -1,0 +1,21 @@
+{
+  "sha256": "edca13008279db5abfa0656ef9c277c0aa7e5c09cdd64c611dc2ec96b0fa8674",
+  "case_targets": [
+    "CYTH2",
+    "DNTTIP1",
+    "FHL3",
+    "FOXN2",
+    "GLI3",
+    "GPATCH8",
+    "MED15",
+    "MTHFSD"
+  ],
+  "outer": "CD4",
+  "use_calibrator": false,
+  "identity_source_validation_CE": 2.677953282992045,
+  "shuffled_source_validation_CE": 2.677177309989929,
+  "baseline_source_validation_CE": 2.6792766650517783,
+  "identity_weights_sha256": "6b04d811c5afc395fa52d3af1a713e57053cc2c47abcc1da41bb09e06435abf0",
+  "shuffled_weights_sha256": "93021be86f916e2be3f16eb40d1d75615a3d65c5552be018f4e56e5570489e18",
+  "contrast_is_exact_gradient_decomposition": false
+}

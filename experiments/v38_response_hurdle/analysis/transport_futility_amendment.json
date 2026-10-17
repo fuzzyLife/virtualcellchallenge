@@ -1,0 +1,131 @@
+{
+  "parent_plan_sha256": "53aa7f693e4e6fa54c6dbfc0da367d110b974518089a6cca93908b19b74a985d",
+  "adapter_sha256": "8daeac13c414cc6daee5ff944080f25a390fc80067f8f33c5c0abfe9b309f9eb",
+  "changes": "Withdraw empirical-transport arm; resume unfinished standard-emitter cases. No response model, coefficient, seed, case, control split, count algorithm or surviving-candidate selection threshold changes. Completed original count/transport receipts and arrays preserved in place.",
+  "reason": "Available held-H1 transport fidelity collapses relative to V24, repeating V29. Transport cannot be released or substituted after this amendment. Avoid further expensive evaluation of this rejected emitter.",
+  "known_outcomes": "Both versions source/mean screens, V38 zero-head ablation and null tests known; partial V38/V39 count results listed. Additional24 count confirmation cases remain unopened.",
+  "rejected_arm_partial_results": [
+    {
+      "file": "CD4_Rest_D1__0__0__hurdle25_transport.json",
+      "sha256": "f4482c345662159f60995a3112721cfcc1a19b9eb4f17c9b667030bbea19bcd1",
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "fidelity": 0.0028328611898017,
+      "reach": 0.0169971671388102,
+      "jaccard": 0.0
+    },
+    {
+      "file": "H1__0__0__hurdle25_transport.json",
+      "sha256": "02e89a062de7d1ba75bc72d113c3605f7dc7dc0bc82146076c3d5a4b97cc7616",
+      "family": "H1",
+      "target": "HDAC8",
+      "fidelity": 0.01910828025477707,
+      "reach": 0.4585987261146497,
+      "jaccard": 0.00625
+    },
+    {
+      "file": "H1__1__0__hurdle25_transport.json",
+      "sha256": "3a05965df435f53c45602b4df23729738ce373ed9d97cb3aa050b11d611e1f03",
+      "family": "H1",
+      "target": "NFE2L1",
+      "fidelity": 0.08759124087591241,
+      "reach": 0.11678832116788321,
+      "jaccard": 0.006493506493506494
+    },
+    {
+      "file": "H1__2__0__hurdle25_transport.json",
+      "sha256": "dbe6e173464c592a252e42b7015d8fdbae0085b0b333a863de23f541bdbfdf0d",
+      "family": "H1",
+      "target": "PLAGL2",
+      "fidelity": 0.028409090909090908,
+      "reach": 0.09090909090909091,
+      "jaccard": 0.01675977653631285
+    },
+    {
+      "file": "H1__3__0__hurdle25_transport.json",
+      "sha256": "abd5f5a44eba3d97f7bdeebf1b8ee8131493be3eee926288a5589c238ae723cb",
+      "family": "H1",
+      "target": "ACLY",
+      "fidelity": 0.0621152770005596,
+      "reach": 0.0016787912702853946,
+      "jaccard": 0.03645007923930269
+    },
+    {
+      "file": "HCT116__0__0__hurdle25_transport.json",
+      "sha256": "74bf7d4cda9db5a992eb0e0305c6b9437cb2fe9e7719643811e437d370408757",
+      "family": "HCT116",
+      "target": "GLI3",
+      "fidelity": 0.0,
+      "reach": 0.0,
+      "jaccard": 0.0
+    },
+    {
+      "file": "HCT116__1__0__hurdle25_transport.json",
+      "sha256": "cb68f9898d8fae2ce178e11108adbdcb4bf43f14ba83e543420435c8574bf2d8",
+      "family": "HCT116",
+      "target": "PATL1",
+      "fidelity": 0.4166666666666667,
+      "reach": 1.0,
+      "jaccard": 0.0
+    },
+    {
+      "file": "HCT116__2__0__hurdle25_transport.json",
+      "sha256": "a3c46b532b9db9696f5ced0b5df07f6b93b285b3d3b56fe597a065e06ef0966c",
+      "family": "HCT116",
+      "target": "ZNF627",
+      "fidelity": 0.0,
+      "reach": 1.0,
+      "jaccard": 0.0
+    },
+    {
+      "file": "HCT116__3__0__hurdle25_transport.json",
+      "sha256": "4cf72bb83a5535ba4010f6b6d84d31bdc7696c355e019e09f00e36240ad6c4ca",
+      "family": "HCT116",
+      "target": "RNF141",
+      "fidelity": null,
+      "reach": null,
+      "jaccard": 1.0
+    },
+    {
+      "file": "HEK293T__0__0__hurdle25_transport.json",
+      "sha256": "b2464f535e83c9225dbb9e4c4fe6acfde0f7a219e3a87c8d1adb33d291a44c9e",
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "fidelity": 0.2631578947368421,
+      "reach": 0.10526315789473684,
+      "jaccard": 0.043478260869565216
+    },
+    {
+      "file": "HEK293T__1__0__hurdle25_transport.json",
+      "sha256": "733cd8e615ea05128b403dbac1b273d1516347b6327ec55c03e59a598ef5b49d",
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "fidelity": 0.2857142857142857,
+      "reach": 0.2857142857142857,
+      "jaccard": 0.0
+    },
+    {
+      "file": "HEK293T__2__0__hurdle25_transport.json",
+      "sha256": "2a686d34bf14be005083e7a0fd2cb9f67e6f2559cb6dc7a72c66b6bd651ef13d",
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "fidelity": 0.16129032258064516,
+      "reach": 0.4032258064516129,
+      "jaccard": 0.140625
+    },
+    {
+      "file": "HEK293T__3__0__hurdle25_transport.json",
+      "sha256": "546b00cb3c4a363345da1ee9f7fcdabcafa4afa590a6d543217853402d8653d8",
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "fidelity": 0.0,
+      "reach": null,
+      "jaccard": 0.0
+    }
+  ],
+  "transport_eligible_for_release": false,
+  "surviving_arms": [
+    "v24",
+    "hurdle25"
+  ]
+}

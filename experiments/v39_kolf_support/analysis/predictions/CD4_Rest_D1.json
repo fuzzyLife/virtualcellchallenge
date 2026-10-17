@@ -1,0 +1,65 @@
+{
+  "sha256": "3826e59d20629d505d689239007d8f538ed350591070065304a9a30ceeb5d0dd",
+  "source_cache_receipt_sha256": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+  "outer": "CD4",
+  "case_targets": [
+    "CYTH2",
+    "DNTTIP1",
+    "FHL3",
+    "FOXN2",
+    "GLI3",
+    "GPATCH8",
+    "MED15",
+    "MTHFSD"
+  ],
+  "trace": [
+    {
+      "target": "CYTH2",
+      "source_supported_outputs": 9788,
+      "selective_outputs": 0,
+      "maximum_activity": 0.15107032551758515
+    },
+    {
+      "target": "DNTTIP1",
+      "source_supported_outputs": 9788,
+      "selective_outputs": 0,
+      "maximum_activity": 0.2495077315624873
+    },
+    {
+      "target": "FHL3",
+      "source_supported_outputs": 9792,
+      "selective_outputs": 0,
+      "maximum_activity": 0.14574478365057175
+    },
+    {
+      "target": "FOXN2",
+      "source_supported_outputs": 9798,
+      "selective_outputs": 0,
+      "maximum_activity": 0.25265125542795486
+    },
+    {
+      "target": "GLI3",
+      "source_supported_outputs": 9792,
+      "selective_outputs": 0,
+      "maximum_activity": 0.14776386286383447
+    },
+    {
+      "target": "GPATCH8",
+      "source_supported_outputs": 9786,
+      "selective_outputs": 0,
+      "maximum_activity": 0.25700113178782236
+    },
+    {
+      "target": "MED15",
+      "source_supported_outputs": 9960,
+      "selective_outputs": 2,
+      "maximum_activity": 0.5286587085145753
+    },
+    {
+      "target": "MTHFSD",
+      "source_supported_outputs": 9789,
+      "selective_outputs": 0,
+      "maximum_activity": 0.14396558661787784
+    }
+  ]
+}
