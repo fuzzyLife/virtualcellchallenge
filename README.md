@@ -1,14 +1,16 @@
 # Virtual Cell Challenge 2026
 
-<!-- v38-v45:begin -->
+<!-- v38-v50:begin -->
 
-## V38–V45: new evidence and response dispersion (2026-10-17)
+## V38–V50: independent evidence, population models and response priors (2026-10-17)
 
-Tested response activity/magnitude heads, independent KOLF signatures, intervention-identity contrastive calibration, matched-control subtraction, smaller trust bounds, and new experimental LINCS RNAi fingerprints. V38–V43 do not establish a new release improvement. V44 increases population variation while preserving V24 means: its20% empirical arm improves raw REACH16.8% with unchanged PDS, but narrowly fails the fixed DE-overlap guard. V45 tests a smaller increment and a response-strength gate; validation is in progress.
+Tested response activity/magnitude heads, KOLF/LINCS experimental evidence, contrastive identity objectives, population dispersion and ensembles, exact-margin projection, and bounded matrix rounding. V38–V49 do not establish a new release improvement; numerical tests alone did not translate to real-cell gains. V50 separates generic amplitude calibration from failed target-specific transfer. Both an averaged output-gene propensity prior and a fixed randomized checkpoint pass development guards; the frozen rule selects the randomized prior. Its discovery from a negative control is explicitly disclosed.
 
-Root scripts, immutable plans, source checksums, failed candidates and independent score/split audits are retained. [Research/results](V38_V44_RESULTS.md), [earlier V38–V40 methods](V38_V40_RESEARCH.md). V24 remains the published best at0.14299785521745675. New private scores are unknown; D3 remains unopened. No automatic upload or Git push.
+The selected generic response-prior candidate passes development guards; additional-count confirmation is running.
 
-<!-- v38-v45:end -->
+[V45–V50 results, limitations and reproduction](V45_V50_RESULTS.md), [V38–V44 research ledger](V38_V44_RESULTS.md), [earlier methods](V38_V40_RESEARCH.md). V24 remains best published at0.14299785521745675. New private scores are unknown; D3 stays unopened. Scripts/receipts are versioned, large regenerable files are excluded. No automatic upload or Git push.
+
+<!-- v38-v50:end -->
 
 
 <!-- v37-ensemble:begin -->

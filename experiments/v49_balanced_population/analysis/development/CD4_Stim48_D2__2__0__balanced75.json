@@ -1,0 +1,46 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "MED13",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 727,
+  "actual_DE_calls": 1758,
+  "mean_probability_L1": 0.012547608640090278,
+  "bulk_probability_L1": 0.000921560422993388,
+  "changed_transcript_fraction": 0.3534485048609165,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 300,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.0002710075868122086,
+  "bulk_exact": true,
+  "depth_bins": 128,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0011860014876897123
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.0006073261459790932
+    },
+    {
+      "bins": 128,
+      "mean_reference_L1": 0.0002710075868122086
+    }
+  ],
+  "binary_rounding_transfers": 71821,
+  "maximum_entry_rounding_error": 0.9999999999555012,
+  "maximum_IPF_iterations": 19,
+  "zero_response_identity": false,
+  "fidelity": 0.21229368241320432,
+  "reach": 0.0,
+  "jaccard": 0.14056040422599908,
+  "nmae": 0.9851887204343037,
+  "predicted_calls": 726,
+  "reference_calls": 1757,
+  "nmae_eligible": true,
+  "arrays_sha256": "fe2f797a931929c53d5102edd683bcff6d47a3b6b243872934166a85540c72e8"
+}

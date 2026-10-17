@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "threads": 4,
+  "checks": "Each thread retains its own population cache through synchronized concurrent writes/reads/clear. Numerical emitter unchanged.",
+  "script_sha256": "0ba3ca4543602089106ea30c76ba9da7427a1a0288bf96fa2d0d1dc666b7ee3f",
+  "adapter_sha256": "062bb3f521893feb8b75ec8a8c991241f6c5f53399f8f4bb4ecd663bb8885f65"
+}

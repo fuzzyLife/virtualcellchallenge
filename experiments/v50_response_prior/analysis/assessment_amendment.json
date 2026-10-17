@@ -1,0 +1,5 @@
+{
+  "old_assessor_sha256": "eb72d6b778c242d9894e1fbca49947decad286b119c9f0b8468907001c0cd695",
+  "new_assessor_sha256": "199bbd29b12550439085cbc5c9d277ba54fd395947f051ced73954b1d996a017",
+  "reason": "Handle undefined raw metrics without imputing zero: omit undefined contexts within study, as original global aggregation does; unresolved study metrics fail the guard. Fixed after lock before confirmation assessment; no changed thresholds or selected arm."
+}

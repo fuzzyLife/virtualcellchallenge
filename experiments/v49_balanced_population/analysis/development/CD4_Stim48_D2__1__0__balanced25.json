@@ -1,0 +1,42 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "FXYD5",
+  "case_index": 1,
+  "seed_offset": 0,
+  "arm": "balanced25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 1434,
+  "actual_DE_calls": 1571,
+  "mean_probability_L1": 0.012184014153857357,
+  "bulk_probability_L1": 0.0008887567526198074,
+  "changed_transcript_fraction": 0.37045637391353153,
+  "empirical20_component_fraction": 0.25,
+  "component20_cells": 100,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.0004349029621162495,
+  "bulk_exact": true,
+  "depth_bins": 64,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0007897680437079428
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.0004349029621162495
+    }
+  ],
+  "binary_rounding_transfers": 62647,
+  "maximum_entry_rounding_error": 0.999999999969072,
+  "maximum_IPF_iterations": 15,
+  "zero_response_identity": false,
+  "fidelity": 0.46878980891719746,
+  "reach": 0.0006369426751592356,
+  "jaccard": 0.2036072144288577,
+  "nmae": 0.98601186089159,
+  "predicted_calls": 1433,
+  "reference_calls": 1570,
+  "nmae_eligible": true,
+  "arrays_sha256": "d4103fe3f66f36c22013e43b954cf09c251c9645b8bf74f417b2fd425c6eafd5"
+}

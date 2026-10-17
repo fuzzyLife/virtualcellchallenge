@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "exact per-cell libraries",
+    "exact per-gene totals",
+    "integer nonnegative counts",
+    "CPM reference drift<=.0005"
+  ],
+  "script_sha256": "4ada525ac270bbcc966aaa148607a306eb35b797b2f1dcbd058d60d2cd83bfd2"
+}

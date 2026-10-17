@@ -1,0 +1,46 @@
+{
+  "family": "HEK293T",
+  "study": "Orion",
+  "target": "SYVN1",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 205,
+  "actual_DE_calls": 63,
+  "mean_probability_L1": 0.007882291593320554,
+  "bulk_probability_L1": 0.0006146778497895192,
+  "changed_transcript_fraction": 0.3012245175556541,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 300,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.000297958057323436,
+  "bulk_exact": true,
+  "depth_bins": 128,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0008838548452644127
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.0005187516681013713
+    },
+    {
+      "bins": 128,
+      "mean_reference_L1": 0.000297958057323436
+    }
+  ],
+  "binary_rounding_transfers": 113138,
+  "maximum_entry_rounding_error": 0.9999999999535328,
+  "maximum_IPF_iterations": 13,
+  "zero_response_identity": false,
+  "fidelity": 0.5784313725490197,
+  "reach": 0.6935483870967742,
+  "jaccard": 0.07258064516129033,
+  "nmae": 0.7616380942293945,
+  "predicted_calls": 204,
+  "reference_calls": 62,
+  "nmae_eligible": true,
+  "arrays_sha256": "0d46c31de7ba356d159f7de041c78e976dd9c93eb45d0f666239ea11748103e7"
+}

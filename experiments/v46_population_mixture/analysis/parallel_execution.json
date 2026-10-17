@@ -1,0 +1,5 @@
+{
+  "adapter_sha256": "a33d499bd6a42323d4ea6ce0ba5991a41ba2415bc41f86c40996ebb2d7cfa20c",
+  "frozen_plan_sha256": "d26939f3664e6ed249930db30f8855cd2dbe5d11e958deae471a6de30670ca14",
+  "scope": "Four independent context workers, identical existing numerical functions, seeds and splits. Aggregate output paths isolated by context; main process merges only after every worker succeeds. Completed sequential cases reused by hashes. Execution-only optimization after first count outcomes, no changed method or release thresholds."
+}

@@ -1,0 +1,32 @@
+{
+  "selected": "v24",
+  "eligible": [],
+  "relative_gain": {},
+  "checks": {
+    "full_development_completed": false,
+    "numerical_CPM_contract": false
+  },
+  "failure": {
+    "error": "Bounded projection misses CPM contract <=0.0005",
+    "attempts": [
+      {
+        "bins": 32,
+        "mean_reference_L1": 0.0011898812981397961
+      },
+      {
+        "bins": 64,
+        "mean_reference_L1": 0.000886847098715499
+      },
+      {
+        "bins": 128,
+        "mean_reference_L1": 0.0006114200180131397
+      }
+    ],
+    "context_has_no_completed_result": "HCT116",
+    "partial_records": 52,
+    "completed_panels": 12,
+    "scope": "Exact integer row/gene totals and bounded rounding tests passed, but full raw-cell validation did not complete. Partial CD4 fidelity still declines; corrected rounding is not sufficient for a better model. No confirmation/reserve/generation."
+  },
+  "script_sha256": "7282ec4672dfdb20c2bb548998691590426106b569a3d4eaa98aba81c94c0d5b",
+  "confirmed_improvement": false
+}

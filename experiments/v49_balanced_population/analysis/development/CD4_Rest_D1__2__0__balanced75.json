@@ -1,0 +1,46 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "FHL3",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 312,
+  "actual_DE_calls": 78,
+  "mean_probability_L1": 0.012822220636837137,
+  "bulk_probability_L1": 0.0017517262177338157,
+  "changed_transcript_fraction": 0.349399078014541,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 150,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.0003504656923115732,
+  "bulk_exact": true,
+  "depth_bins": 128,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0018529881322755348
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.0011155850402595913
+    },
+    {
+      "bins": 128,
+      "mean_reference_L1": 0.0003504656923115732
+    }
+  ],
+  "binary_rounding_transfers": 1197,
+  "maximum_entry_rounding_error": 0.536632154353312,
+  "maximum_IPF_iterations": 25,
+  "zero_response_identity": false,
+  "fidelity": 0.6237942122186495,
+  "reach": 0.0,
+  "jaccard": 0.06593406593406594,
+  "nmae": 0.9973507388292794,
+  "predicted_calls": 311,
+  "reference_calls": 77,
+  "nmae_eligible": true,
+  "arrays_sha256": "d3594e9e759cca61a215ab639775a8ba15bb25a9cf20041c43ae6439f3ba8e43"
+}

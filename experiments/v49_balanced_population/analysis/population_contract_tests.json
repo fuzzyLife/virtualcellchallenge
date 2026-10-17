@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "nonreference_shape_retained": true,
+  "exact_gene_and_cell_totals": true,
+  "diagnostics": {
+    "mean_reference_L1": 0.00025060673670249806,
+    "bulk_exact": true,
+    "depth_bins": 32,
+    "projection_attempts": [
+      {
+        "bins": 32,
+        "mean_reference_L1": 0.00025060673670249806
+      }
+    ],
+    "binary_rounding_transfers": 0,
+    "maximum_entry_rounding_error": 0.573285148910955,
+    "maximum_IPF_iterations": 11
+  },
+  "script_sha256": "eff94090b24e5f065bcb1046f5b8e91c5c1c4911460726919080a3865cb166e4"
+}

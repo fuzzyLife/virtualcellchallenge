@@ -1,0 +1,38 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "ACLY",
+  "case_index": 3,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 1972,
+  "actual_DE_calls": 1788,
+  "mean_probability_L1": 0.0014860633517832442,
+  "bulk_probability_L1": 0.00017563738920527302,
+  "changed_transcript_fraction": 0.17181835169708337,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 300,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.0002030970949628752,
+  "bulk_exact": true,
+  "depth_bins": 32,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0002030970949628752
+    }
+  ],
+  "binary_rounding_transfers": 222992,
+  "maximum_entry_rounding_error": 0.999999999980037,
+  "maximum_IPF_iterations": 5,
+  "zero_response_identity": false,
+  "fidelity": 0.6215119228817859,
+  "reach": 0.002238388360380526,
+  "jaccard": 0.14329175540006084,
+  "nmae": 0.8924581126389226,
+  "predicted_calls": 1971,
+  "reference_calls": 1787,
+  "nmae_eligible": true,
+  "arrays_sha256": "0848245e34745bc33164fd713a0f4edd49c8e295f26bc24a14eb3eefbedc0d4c"
+}

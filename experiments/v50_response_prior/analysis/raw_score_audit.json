@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "context": "H1",
+      "target": "HDAC8",
+      "all_eligible_genes_manual_rank_sum_BH": true,
+      "reach_independently_replayed": 0.025477707006369428,
+      "libraries_exact": true
+    },
+    {
+      "context": "HEK293T",
+      "target": "ZDHHC4",
+      "all_eligible_genes_manual_rank_sum_BH": true,
+      "reach_independently_replayed": 0.05263157894736842,
+      "libraries_exact": true
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "all_eligible_genes_manual_rank_sum_BH": true,
+      "reach_independently_replayed": 0.0,
+      "libraries_exact": true
+    }
+  ],
+  "script_sha256": "7f36d483af9e466a70c2e66349eace8c28b0f1b5b7779251738a7206bf2c9854",
+  "scope": "Independent raw rank-sum tie correction, BH and reach on three regenerated populations, not private anchors."
+}

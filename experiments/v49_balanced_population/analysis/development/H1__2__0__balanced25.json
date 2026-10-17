@@ -1,0 +1,38 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "PLAGL2",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "balanced25",
+  "row_libraries_exact": true,
+  "null_DE_calls": 1318,
+  "actual_DE_calls": 177,
+  "mean_probability_L1": 0.0014797813426898712,
+  "bulk_probability_L1": 0.00017666357286226785,
+  "changed_transcript_fraction": 0.17855137021506995,
+  "empirical20_component_fraction": 0.25,
+  "component20_cells": 100,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.00014160838843964822,
+  "bulk_exact": true,
+  "depth_bins": 32,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.00014160838843964822
+    }
+  ],
+  "binary_rounding_transfers": 129464,
+  "maximum_entry_rounding_error": 0.9999999999668397,
+  "maximum_IPF_iterations": 5,
+  "zero_response_identity": false,
+  "fidelity": 0.6780561883067577,
+  "reach": 0.06818181818181818,
+  "jaccard": 0.03608605135322693,
+  "nmae": 0.8822422325738704,
+  "predicted_calls": 1317,
+  "reference_calls": 176,
+  "nmae_eligible": true,
+  "arrays_sha256": "6e66051af459017466599fdb643b247f85b75f0aaa8efc20f8f2af1bbfe6f7f2"
+}

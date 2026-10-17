@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "v46_population_mixture.py": "9ebdfb4cbcd831ac16291018623a2f048c07035a89f1d9bc133b887de708d893",
+    "run_v46_population_mixture.py": "3ba48876d54661c459dbe0603f42a003d4ff850e929e4a1ed96ed6b6f3f0e131",
+    "run_v46_count_grid.py": "b2bf0b9561360341acf422e86630633f8e4348358ee7f483067ff349bab4cde8",
+    "run_v46_parallel_counts.py": "a33d499bd6a42323d4ea6ce0ba5991a41ba2415bc41f86c40996ebb2d7cfa20c",
+    "test_v46_population_mixture.py": "b1eab31fec2a93c4d9bf7a238238646d97e950f1ab1b260ecd6f977a63f57475",
+    "v44_response_dispersion.py": "70c0f8acaa25291508d3418363d5e078549a60510f5a5e382b5135cb1c6f3e74",
+    "v38_response_hurdle.py": "78c14e1dfc03ae2314332602ad71ab9fe2394b97b19d98fbc62ede30b0c300ca",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v44_response_dispersion/analysis/selection.json": "22cce707b0b3aab9aae369345582b31b4a8c37a60858b6ae902b627ee26af516",
+    "experiments/v45_bounded_dispersion/analysis/selection.json": "9fe5fee808d661fe519824cb9e7455a381f5f26bf93b8fc806cde16f71730c14",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "hypothesis": "V44 residual20 improves REACH16.8% but misses JAC guard. V45 smaller uniform increments pass loss guards but average gain is negative. Instead of averaging parameters or count values, mix whole cell vectors from V24 and residual20. This models coexistence of compact and more variable populations with heavier tails; preserves exact integer libraries and each component cell vector.",
+  "arms": [
+    "mixture25",
+    "mixture50",
+    "mixture75"
+  ],
+  "fractions": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "assignment": "Seed+460046 balanced nested permutation of rows, independent of expression/labels. Means/effects/controls shared; no extra final projection or measurement resampling.",
+  "selection": "All5 nulls and20 treatment cases, original six metric/null guards, >=2 metrics improve, positive mean oriented relative gain. Lock largest qualifying gain before24 additional count cases at2 seeds; same aggregate guards and study PDS/FID/REACH within.03. If no candidate, retain failure and continue separately.",
+  "known_outcomes": "Explicit outcome-informed next hypothesis after V38\u2013V45. Additional24 count cases and D3 still unopened at freeze.",
+  "scope": "Reused public development, not private anchor scores or blind lineage validation. No automatic upload."
+}

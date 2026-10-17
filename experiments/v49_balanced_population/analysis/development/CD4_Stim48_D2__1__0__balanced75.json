@@ -1,0 +1,46 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "FXYD5",
+  "case_index": 1,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 929,
+  "actual_DE_calls": 1571,
+  "mean_probability_L1": 0.012156386780644466,
+  "bulk_probability_L1": 0.0008887567526198074,
+  "changed_transcript_fraction": 0.3530141508551424,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 300,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.00045540089336805625,
+  "bulk_exact": true,
+  "depth_bins": 128,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.0012112134432268446
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.0007519612060933535
+    },
+    {
+      "bins": 128,
+      "mean_reference_L1": 0.00045540089336805625
+    }
+  ],
+  "binary_rounding_transfers": 73444,
+  "maximum_entry_rounding_error": 0.9999999999542655,
+  "maximum_IPF_iterations": 19,
+  "zero_response_identity": false,
+  "fidelity": 0.30318471337579617,
+  "reach": 0.0012738853503184713,
+  "jaccard": 0.1722196152041295,
+  "nmae": 0.9861231162335377,
+  "predicted_calls": 928,
+  "reference_calls": 1570,
+  "nmae_eligible": true,
+  "arrays_sha256": "b5043c6c1deaea3028894420defb347f519beb3cbbaa98ff7a6fd59cfe1b0bba"
+}

@@ -1,0 +1,46 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "CYTH2",
+  "case_index": 0,
+  "seed_offset": 0,
+  "arm": "balanced75",
+  "row_libraries_exact": true,
+  "null_DE_calls": 335,
+  "actual_DE_calls": 354,
+  "mean_probability_L1": 0.013344132868239489,
+  "bulk_probability_L1": 0.0016070540370022668,
+  "changed_transcript_fraction": 0.334588089592856,
+  "empirical20_component_fraction": 0.75,
+  "component20_cells": 150,
+  "whole_cell_vectors_preserved": true,
+  "mean_reference_L1": 0.0003097250171294572,
+  "bulk_exact": true,
+  "depth_bins": 128,
+  "projection_attempts": [
+    {
+      "bins": 32,
+      "mean_reference_L1": 0.00230565151432594
+    },
+    {
+      "bins": 64,
+      "mean_reference_L1": 0.001136042127273672
+    },
+    {
+      "bins": 128,
+      "mean_reference_L1": 0.0003097250171294572
+    }
+  ],
+  "binary_rounding_transfers": 1054,
+  "maximum_entry_rounding_error": 0.5217463680145594,
+  "maximum_IPF_iterations": 22,
+  "zero_response_identity": false,
+  "fidelity": 0.5269121813031161,
+  "reach": 0.0,
+  "jaccard": 0.1045016077170418,
+  "nmae": 0.9916218680558074,
+  "predicted_calls": 334,
+  "reference_calls": 353,
+  "nmae_eligible": true,
+  "arrays_sha256": "8158b61a3d4eab0f939ff9e1729ec6b05184c35c6f774688a65d39249f58c803"
+}

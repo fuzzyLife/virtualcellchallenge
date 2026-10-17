@@ -1,0 +1,25 @@
+{
+  "selected": {
+    "version": 50,
+    "arm": "randomized_prior",
+    "gain": 0.015751636971103586,
+    "selection_sha256": "f12a27cbf293249f3012638acf31034ff530c734a98b860d057e5aac05699bf4"
+  },
+  "candidates": [
+    {
+      "version": 50,
+      "arm": "mobility_prior",
+      "gain": 0.012370985720897017,
+      "selection_sha256": "f12a27cbf293249f3012638acf31034ff530c734a98b860d057e5aac05699bf4"
+    },
+    {
+      "version": 50,
+      "arm": "randomized_prior",
+      "gain": 0.015751636971103586,
+      "selection_sha256": "f12a27cbf293249f3012638acf31034ff530c734a98b860d057e5aac05699bf4"
+    }
+  ],
+  "rule_sha256": "7593b4e6fc985f961349d3ec39f9d9dbc2dd73938d858746230f8d098a6986d9",
+  "additional_count_confirmation_opened": false,
+  "D3_opened": false
+}

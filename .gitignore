@@ -590,3 +590,38 @@ __marimo__/
 /experiments/v45_bounded_dispersion/*.h5ad*
 /experiments/v45_bounded_dispersion/*.vcc*
 /experiments/v45_bounded_dispersion/analysis/prediction_control_rows.csv
+
+# V46 whole-cell distribution ensemble
+/experiments/v46_population_mixture/**/*.npz
+/experiments/v46_population_mixture/*.log
+/experiments/v46_population_mixture/*.h5ad*
+/experiments/v46_population_mixture/*.vcc*
+/experiments/v46_population_mixture/analysis/prediction_control_rows.csv
+
+# V47 independent KOLF corroboration
+/experiments/v47_kolf_consensus/**/*.npz
+/experiments/v47_kolf_consensus/*.log
+/experiments/v47_kolf_consensus/*.h5ad*
+/experiments/v47_kolf_consensus/*.vcc*
+/experiments/v47_kolf_consensus/analysis/prediction_control_rows.csv
+
+# V48 exact-margin population ensemble
+/experiments/v48_margin_preserving/**/*.npz
+/experiments/v48_margin_preserving/*.log
+/experiments/v48_margin_preserving/*.h5ad*
+/experiments/v48_margin_preserving/*.vcc*
+/experiments/v48_margin_preserving/analysis/prediction_control_rows.csv
+
+# V49 balanced-rounding populations
+/experiments/v49_balanced_population/**/*.npz
+/experiments/v49_balanced_population/*.log
+/experiments/v49_balanced_population/*.h5ad*
+/experiments/v49_balanced_population/*.vcc*
+/experiments/v49_balanced_population/analysis/prediction_control_rows.csv
+
+# V50 generic response-amplitude prior
+/experiments/v50_response_prior/**/*.npz
+/experiments/v50_response_prior/*.log
+/experiments/v50_response_prior/*.h5ad*
+/experiments/v50_response_prior/*.vcc*
+/experiments/v50_response_prior/analysis/prediction_control_rows.csv

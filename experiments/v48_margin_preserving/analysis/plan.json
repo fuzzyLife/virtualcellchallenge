@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "v48_margin_preserving.py": "a092de6a744c0fdbaeb468e7fe47ee162b8e64674ad34482a1e8d0c6814ff6e8",
+    "run_v48_margin_preserving.py": "d15447ec69e01ffca4ffcf8983fbe4984f9dd948d24f5be6e1713377ffc2ecaf",
+    "run_v48_count_grid.py": "8393b4e560247fa897e6d3e35deabf3f882e6d72daf32e1718b92b5aee9c9134",
+    "run_v48_parallel_counts.py": "ba71d69406dd32ecd6224949e90a3cb7a4934e44f3c17731870a84c23bd4d0ef",
+    "test_v48_margin_preserving.py": "4ada525ac270bbcc966aaa148607a306eb35b797b2f1dcbd058d60d2cd83bfd2",
+    "v46_population_mixture.py": "9ebdfb4cbcd831ac16291018623a2f048c07035a89f1d9bc133b887de708d893",
+    "v44_response_dispersion.py": "70c0f8acaa25291508d3418363d5e078549a60510f5a5e382b5135cb1c6f3e74",
+    "v26_methods.py": "b8732abc946c1a36178e849137db35a1a9cd3a2887731e9638a8c15dd42b8b57",
+    "v29_pairwise_repair.py": "123ba9befdd1763e7ad63dfa1921f0de6807670fab25e4964a5f702e192dbdc8",
+    "v29_swap_kernel.py": "24a61b6506b21dde74410e48866f355625605a1512876b943b9cbafc6f1befb6",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "inputs": {
+    "experiments/v46_population_mixture/analysis/selection.json": "b72341d21063751dc3a27ce48622e79b062b22428e566a57e4ff19edcfb85751",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "hypothesis": "V46 improves coverage but random population assignment drifts pooled margins, reducing PDS/expression. Project moderate compact/residual20 mixtures to exact V24 gene totals and exact cell libraries, with16 depth-stratum margins and CPM error<=.0005. This isolates population variation; pooled PDS must equal V24.",
+  "arms": [
+    "projected50",
+    "projected75"
+  ],
+  "fractions": [
+    0.5,
+    0.75
+  ],
+  "zero_response_boundary": "If downstream effect vector is exactly zero, return exact V24 counts. Applies to all zero-response treatments as well as control-null cases; do not add population uncertainty absent a response. Boundary added explicitly after V46 null drift.",
+  "selection": "All5 exact identity nulls and20 treatment cases with original six raw guards, >=2 metrics improve and positive relative oriented gain. Require observed pooled profiles/PDS exactly V24 and mean-reference L1<=.0005. Lock one genuine candidate before24 additional count cases at2 seeds; same aggregate guards and study PDS/FID/REACH within.03.",
+  "scope": "Outcome-informed method after V46 failure; V47 count results incomplete at freeze. Reused public biology, not private anchored scoring. Additional24 count cases and D3 still unopened. No automatic upload."
+}
