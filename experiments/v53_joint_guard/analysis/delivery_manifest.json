@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "model_kind": "Experimental all-source joint mean/rank response predictor",
+  "checkpoint": "experiments\\v53_joint_guard\\analysis\\models\\all\\joint.pt",
+  "checkpoint_sha256": "8099a33f6accd5b0a3d82802e5ea26193b16d1fef1dd57953fd85833b8bf36f9",
+  "best_source_validation_epoch": 6,
+  "api_file": "predict_v52_joint_response.py",
+  "api_sha256": "bb924e7ca1a5cd1e81d39e21e4bea5f0c279b6493cf66f434e9e1022da227282",
+  "install_file": "run_v53_joint_guard.py",
+  "install_sha256": "12790e4938c1de44fbc9516a6e65c3a25a30f844a1a1a0404d42968abb1c4fac",
+  "guarded_plan_sha256": "f68c0042fde5e76d4e5d4efecde304db7fc2bb91a5e3d3852190a09a47fbea13",
+  "parent_label_plan_sha256": "d3b776f0c36942366d7adee19bf0978f550461f783c71d20f52d0db475ade8a4",
+  "audit_receipts_sha256": {
+    "label_audit.json": "0ed7a2ecc3e8670b4d18a7439a09d29c8d028f136a9f4663aec8303fe02f1dfe",
+    "boundary_audit.json": "b7c5a538146d10a608b7c6b0b8d090e010a4b27193eefe55ca5eb7ee2da5e1ec",
+    "feature_contract_audit.json": "4a0e3ad55e30f49203906eaa9321c8d625d8391e9cd5653c4e9f1b3e692944dc",
+    "final_audit.json": "09ba7da0d454e4a1bdee129cfdd168ec86bb5548659f8e5597ceb2ae6690edd9"
+  },
+  "evaluation_sha256": "d690eebffae4d26e7d9b36a05e5937da2f8c6b66a67fdda13b0b63074548f1f3",
+  "pilot_checks": {
+    "mean_not_worse": false,
+    "rank_gain_5pct": false,
+    "beats_zero_rank": false,
+    "beats_shuffled_both": true
+  },
+  "response_pilot_passed": false,
+  "upload_ready": false,
+  "D3_opened": false,
+  "smoke_test": {
+    "all_source_checkpoint_reloaded": true,
+    "device": "cpu",
+    "query_source": "H1 source controls (numerical smoke only, not a held-study test)",
+    "targets": 1,
+    "genes": 18533,
+    "finite_outputs": true,
+    "bounds_passed": true,
+    "own_gene_excluded": true
+  },
+  "finalizer_sha256": "0bce0842d2ca9d9962ff4d6998373c4766d98e1fece077bf91f00a31002d4486",
+  "scope": "Audited trained response model; no count decoder, upload package, new blind test or private-score gain is asserted."
+}

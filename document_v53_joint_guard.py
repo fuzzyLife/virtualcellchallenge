@@ -35,12 +35,12 @@ def main():
   '- Corrected full-axis held-study mean/rank arrays: experiments/v53_joint_guard/analysis/predictions/{source}.npz, with source, masks and hashes in the JSON sidecars.',
   '- Original V52 models and arrays remain under experiments/v52_joint_mean_rank/analysis.',
   '- Root training, inference, tests and auditing scripts are versioned. Binary labels/models/arrays remain local and regenerable.','',
-  '~~~python','from run_v53_joint_guard import install','install()','from predict_v52_joint_response import predict','result = predict(query_cpm, outer="all")','mean_effects = result["mean"]','rank_effects = result["rank"]','supported = result["valid"]','~~~','',
-  'query_cpm must contain 18,533 per-cell-mean CPM values in the competition gene order. The function returns all 300 targets by default; genes below the query control expression gate keep the V24 mean effect, with rank support marked absent. Own-target coordinates are excluded. The output is not an upload-ready count matrix.','',
+  '~~~python','from run_v53_joint_guard import install','install()','from predict_v52_joint_response import predict','result = predict(query_cpm, outer="all")','mean_effects = result["mean"]','rank_effects = result["rank"]','eligible = result["valid"]','~~~','',
+  'query_cpm must contain 18,533 per-cell-mean CPM values in the competition gene order. The function returns all 300 targets by default; genes below the query control expression gate keep the V24 mean effect, with rank eligibility marked absent; the mask is not a guarantee of direct donor evidence. Own-target coordinates are excluded. The output is not an upload-ready count matrix.','',
   '## Audit status','']
- for name in ['label_audit.json','boundary_audit.json','feature_contract_audit.json','final_audit.json']:
+ for name in ['label_audit.json','boundary_audit.json','feature_contract_audit.json','final_audit.json','delivery_manifest.json']:
   p=A/name;lines.append('- '+name+': '+('**passed**' if p.exists() and m.read(p)['passed'] else 'pending'))
- lines+=['','No new .vcc file was created or uploaded. No Git push was performed.','']
+ lines+=['','The [delivery manifest](experiments/v53_joint_guard/analysis/delivery_manifest.json) binds the all-source checkpoint and API code to completed audits and a CPU reload/forward smoke test. No new .vcc file was created or uploaded. No Git push was performed.','']
  (m.ROOT/'V53_JOINT_GUARD_RESULTS.md').write_text('\n'.join(lines),encoding='utf-8')
  status='Corrected retraining is in progress.'
  if 'V53 guarded' in summaries:

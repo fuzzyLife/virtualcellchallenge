@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "outer": "H1",
+      "source": "H1",
+      "disabled_numeric_channels": 22,
+      "raw_numeric_channels": 69,
+      "disabled_channels_observed_in_query": 9,
+      "disabled_channels_stay_zero": true
+    },
+    {
+      "outer": "Orion",
+      "source": "HCT116",
+      "disabled_numeric_channels": 22,
+      "raw_numeric_channels": 69,
+      "disabled_channels_observed_in_query": 4,
+      "disabled_channels_stay_zero": true
+    },
+    {
+      "outer": "CD4",
+      "source": "CD4_Rest_D2",
+      "disabled_numeric_channels": 22,
+      "raw_numeric_channels": 69,
+      "disabled_channels_observed_in_query": 9,
+      "disabled_channels_stay_zero": true
+    }
+  ],
+  "plan_sha256": "f68c0042fde5e76d4e5d4efecde304db7fc2bb91a5e3d3852190a09a47fbea13",
+  "auditor_sha256": "ba6432fbc6098956be2891fe48cc306249b937dfd81312e8f0066f068331cb2f"
+}

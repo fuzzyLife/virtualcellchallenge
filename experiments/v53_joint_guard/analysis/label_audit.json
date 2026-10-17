@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "parent_raw_cell_audit_sha256": "22ffbf3721618ebe5b556141c98661f18406eec8696bc37cc175e98ba74a32d7",
+  "linked_label_sha256": {
+    "H1": "7fd97d49da5c43b2eb833a9be72478173b0815adcb93ca75243136f2c4629f9d",
+    "HCT116": "eedf870749f90c1efd61faa38c1de2383549e050b1af4708298cdcb99dd6288d",
+    "HEK293T": "be2ae6ae5d878c665b17ec581e4b0333523ad5f4d27a15ee9fb9334a0ef9b458",
+    "CD4_Rest_D2": "4446de551c66de5b6d479791195792fed1b68885a1defdb90d654bca05dd5d23",
+    "CD4_Stim48_D2": "8f81b107aa40ef0a5ef3bbcb87d17136ff12694891d32a2c110a99df9dea0205"
+  },
+  "scope": "Reuses independent V52 raw-cell pairwise replay after verifying identical label bytes and cell/view metadata. No labels recomputed or modified.",
+  "plan_sha256": "f68c0042fde5e76d4e5d4efecde304db7fc2bb91a5e3d3852190a09a47fbea13",
+  "auditor_sha256": "ba6432fbc6098956be2891fe48cc306249b937dfd81312e8f0066f068331cb2f",
+  "D3_opened": false
+}

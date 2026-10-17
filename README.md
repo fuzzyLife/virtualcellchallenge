@@ -1,5 +1,13 @@
 # Virtual Cell Challenge 2026
 
+<!-- v53-joint:begin -->
+
+## V53 corrected joint mean/rank predictor
+
+Training and whole-study evaluation completed. Fixed response-level pilot checks **fail**. Preserves V52 and reuses exact paired-view labels, disabling train-constant donor channels at fitting and inference. Architecture, settings, folds and controls are unchanged. [Results and model API](V53_JOINT_GUARD_RESULTS.md), [correction protocol](V53_JOINT_GUARD_STRATEGY.md). No count submission or private-score improvement is claimed; D3 remains unopened.
+
+<!-- v53-joint:end -->
+
 <!-- v52-joint:begin -->
 
 ## V52 joint mean/rank predictor

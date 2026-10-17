@@ -19,6 +19,8 @@ SCIENCE_PYTHON run_v53_joint_guard.py train
 SCIENCE_PYTHON run_v53_joint_guard.py evaluate
 SCIENCE_PYTHON run_v53_joint_guard.py audit --kind boundaries
 SCIENCE_PYTHON run_v53_joint_guard.py audit --kind artifacts
+SCIENCE_PYTHON finalize_v53_joint.py
+SCIENCE_PYTHON document_v53_joint_guard.py
 ~~~
 
 Freeze only once. `run_v53_finish.py` verifies linked-label audits and completes evaluation/auditing after the training receipts are available. The API remains `predict_v52_joint_response.predict`; first call `run_v53_joint_guard.install()` to select the corrected checkpoint, preprocessing and verified label bank. The original V52 API remains available without that installation.

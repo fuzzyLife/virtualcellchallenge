@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "generic_inference_matches_saved_heldout_predictions": true,
+  "models": {
+    "experiments\\v53_joint_guard\\analysis\\models\\H1\\joint.pt": "680209b46b04ab61817bbb8cc87d5f99b8929da5233fbafb1a60334c6e5e57f5",
+    "experiments\\v53_joint_guard\\analysis\\models\\H1\\mean_only.pt": "e169e603ec86d61f3268fe193108c4aa4b1ef90a57c8b26be833baccbbae0888",
+    "experiments\\v53_joint_guard\\analysis\\models\\H1\\rank_only.pt": "01e398b7d92f661c53d6023f38018aded984a4824a28a1f34ce6db2192b81492",
+    "experiments\\v53_joint_guard\\analysis\\models\\H1\\shuffled_joint.pt": "987662a65871bbd3b37709e92810fa3e8953116fea3afad5c047f1f76e3998b3",
+    "experiments\\v53_joint_guard\\analysis\\models\\Orion\\joint.pt": "d718f759d0d51f0d2ea8763b4effb90b5493a0ee9aaa0daf8308fea2058c3d19",
+    "experiments\\v53_joint_guard\\analysis\\models\\Orion\\mean_only.pt": "3dfcee75fb2c34e3f76c296ae9688de1d6adb597f236ddefc11572692f44937c",
+    "experiments\\v53_joint_guard\\analysis\\models\\Orion\\rank_only.pt": "fb488ca7a72f6071985b2eb6a1984a4ce588156082f3540a1bc7c46d4c673596",
+    "experiments\\v53_joint_guard\\analysis\\models\\Orion\\shuffled_joint.pt": "305a8166788d4fe06027d8e8431307cd232ac8571826147e2f46fff9616eac87",
+    "experiments\\v53_joint_guard\\analysis\\models\\CD4\\joint.pt": "d7807406bb37b0e1a6a0cc971b04266489bf6160923134bb7f78cb5f076cfae6",
+    "experiments\\v53_joint_guard\\analysis\\models\\CD4\\mean_only.pt": "0cdfa4fd75c2070ae0722e053e5239e13c41a14ba187c1660c320aad8eae46d7",
+    "experiments\\v53_joint_guard\\analysis\\models\\CD4\\rank_only.pt": "6b16eaeeda26921ec8b025b0360e40a599a3be2c83d43101df491ebf7c860f20",
+    "experiments\\v53_joint_guard\\analysis\\models\\CD4\\shuffled_joint.pt": "6baf4eb8aa686ff2289edb225d300e85eeb5927ed095eb823f2fe13563524f92",
+    "experiments\\v53_joint_guard\\analysis\\models\\all\\joint.pt": "8099a33f6accd5b0a3d82802e5ea26193b16d1fef1dd57953fd85833b8bf36f9",
+    "experiments\\v53_joint_guard\\analysis\\predictions\\H1.npz": "9784930c1195e1ea326a5dbba47e629004efb77c1ad466968b0eeb4bb0a3a2fc",
+    "experiments\\v53_joint_guard\\analysis\\predictions\\HCT116.npz": "62ecff2d16537de3c2e8baa0b12724eb83b3a7f2789c0bd599dda23e0ff4f923",
+    "experiments\\v53_joint_guard\\analysis\\predictions\\HEK293T.npz": "50212cfb049ab78e99631ec42f889d706653c9593b0901cc7f956676c2981c61",
+    "experiments\\v53_joint_guard\\analysis\\predictions\\CD4_Rest_D2.npz": "c151c550217e05e14cc3d37f3648af8f1944c62e8427bc757b4657e4a6fb2f0c",
+    "experiments\\v53_joint_guard\\analysis\\predictions\\CD4_Stim48_D2.npz": "8b3cde6139532aa68db4c0ee16eccfee42e2767bd5ad5ecf3ea06eb4c5cabc63"
+  },
+  "training": [
+    {
+      "outer": "H1",
+      "groups": 354,
+      "training_pairs": 221952,
+      "validation_pairs": 49920
+    },
+    {
+      "outer": "Orion",
+      "groups": 80,
+      "training_pairs": 46848,
+      "validation_pairs": 14592
+    },
+    {
+      "outer": "CD4",
+      "groups": 298,
+      "training_pairs": 190464,
+      "validation_pairs": 38400
+    },
+    {
+      "outer": "all",
+      "groups": 366,
+      "training_pairs": 229632,
+      "validation_pairs": 51456
+    }
+  ],
+  "plan_sha256": "f68c0042fde5e76d4e5d4efecde304db7fc2bb91a5e3d3852190a09a47fbea13",
+  "auditor_sha256": "d5897bfe6444e0f6d48eebf19f964b74f80b5fc5c525b155447e752707a2d348",
+  "D3_opened": false,
+  "scope": "Model/source-label/inference integrity; does not certify private generalization or a count decoder."
+}
