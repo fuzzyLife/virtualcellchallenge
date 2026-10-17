@@ -1,0 +1,344 @@
+{
+  "summaries": {
+    "v24": {
+      "pds": 0.7759920634920636,
+      "fidelity": 0.5838038659280259,
+      "reach": 0.21807236038212127,
+      "jaccard": 0.06152575784332646,
+      "nmae": 0.9106776565195784,
+      "common_expression_ratio": 37.450184307272266
+    },
+    "mean50": {
+      "pds": 0.7759920634920636,
+      "fidelity": 0.5851236359995763,
+      "reach": 0.21663767576242646,
+      "jaccard": 0.061428995416378286,
+      "nmae": 0.9136497642351461,
+      "common_expression_ratio": 37.33599788585587
+    }
+  },
+  "by_seed": {
+    "0": {
+      "v24": {
+        "pds": 0.7759920634920636,
+        "fidelity": 0.584083357061658,
+        "reach": 0.22151154679715546,
+        "jaccard": 0.06134889548809259,
+        "nmae": 0.9108263757024863,
+        "common_expression_ratio": 37.45592506997736
+      },
+      "mean50": {
+        "pds": 0.7759920634920636,
+        "fidelity": 0.5850476672479902,
+        "reach": 0.21483769869160074,
+        "jaccard": 0.06129020284846106,
+        "nmae": 0.9117682497551138,
+        "common_expression_ratio": 37.34119273727269
+      }
+    },
+    "550000": {
+      "v24": {
+        "pds": 0.7759920634920636,
+        "fidelity": 0.5835243747943938,
+        "reach": 0.21463317396708706,
+        "jaccard": 0.06170262019856035,
+        "nmae": 0.9105289373366704,
+        "common_expression_ratio": 37.44444354456717
+      },
+      "mean50": {
+        "pds": 0.7759920634920636,
+        "fidelity": 0.5851996047511624,
+        "reach": 0.21843765283325223,
+        "jaccard": 0.06156778798429554,
+        "nmae": 0.9155312787151783,
+        "common_expression_ratio": 37.33080303443905
+      }
+    }
+  },
+  "means": {
+    "mse_ratio": 0.9996874445255705,
+    "mae_ratio": 0.9997030794324445,
+    "cpm_ratio": 0.9990929115163847
+  },
+  "diagnostic_gates": {
+    "all_comparisons": true,
+    "all_libraries_exact": true,
+    "mean_mse": true,
+    "mean_mae": true,
+    "pds": true,
+    "fid": true,
+    "expression": true,
+    "nmae": true,
+    "null_emitter_identity": true
+  },
+  "diagnostic_release_allowed": true,
+  "improvement_support": {
+    "fidelity_improves_each_seed": true,
+    "expression_improves_each_seed": true,
+    "fidelity_leave_target_out_positive": true,
+    "expression_leave_target_out": "Not assessed yet; compute independent paired expression influence in audit."
+  },
+  "original_V37_guards": {
+    "resolved": true,
+    "mean_mse": true,
+    "mean_mae": true,
+    "expression": true,
+    "pds": true,
+    "fid": true,
+    "reach": false,
+    "jac": true,
+    "nmae": true,
+    "null_no_worse": true,
+    "three_metrics_improve": true
+  },
+  "original_V37_passed": false,
+  "strict_improvement_established": false,
+  "leaderboard_improvement_established": false,
+  "influence": [
+    {
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "fidelity": 0.0015234370860117696,
+      "reach": -0.0014448579137270878,
+      "jaccard": -0.00011849641299876285,
+      "nmae": 0.0032416847899094936
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "fidelity": 0.0015706568400699616,
+      "reach": -0.0013962670488097406,
+      "jaccard": -0.00010812597328220541,
+      "nmae": 0.003068460603692813
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "fidelity": 0.0016715082924139146,
+      "reach": -0.0014448579137270878,
+      "jaccard": -8.39514524290999e-05,
+      "nmae": 0.003054162214376488
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "fidelity": 0.0009974561752406075,
+      "reach": -0.0014448579137270878,
+      "jaccard": -2.5247614170553767e-05,
+      "nmae": 0.0027981837836856815
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "GLI3",
+      "fidelity": 0.0004076000129774604,
+      "reach": -0.0014448579137271156,
+      "jaccard": -0.00019208753039480497,
+      "nmae": 0.0024924131702278585
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "GPATCH8",
+      "fidelity": 0.0013712310135730599,
+      "reach": -0.0014448579137270878,
+      "jaccard": -2.497109942441178e-05,
+      "nmae": 0.0029593820043921637
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "MED15",
+      "fidelity": 0.0016019743121110652,
+      "reach": -0.0014120624263861403,
+      "jaccard": -0.00012035898481112944,
+      "nmae": 0.0031904674426889157
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "MTHFSD",
+      "fidelity": 0.001414296840004825,
+      "reach": -0.0014448579137270878,
+      "jaccard": -0.00010086034807443855,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "fidelity": 0.0012089349377185643,
+      "reach": -0.0014372953130949717,
+      "jaccard": 1.9217432293688885e-06,
+      "nmae": 0.0030122973531402364
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "fidelity": 0.0013501161151768803,
+      "reach": -0.001437295313094944,
+      "jaccard": -6.524298681628155e-05,
+      "nmae": 0.002893954803942722
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "fidelity": 0.0008939925222257727,
+      "reach": -0.0014372953130949717,
+      "jaccard": -0.00020256205541606398,
+      "nmae": 0.0031584722415561872
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "fidelity": 0.0016394053676769271,
+      "reach": -0.0014372953130949995,
+      "jaccard": -0.00014401000288864763,
+      "nmae": 0.0030359111267724836
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "PCGF1",
+      "fidelity": 0.00167721404027521,
+      "reach": -0.0014372953130949717,
+      "jaccard": -8.648910597022774e-05,
+      "nmae": 0.002892070334346575
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "PPIP5K2",
+      "fidelity": 0.001007444774673738,
+      "reach": -0.001437295313094944,
+      "jaccard": -8.840556695315083e-05,
+      "nmae": 0.003036734669042196
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "SLC39A1",
+      "fidelity": 0.0012484616005381532,
+      "reach": -0.0014164097658936337,
+      "jaccard": -0.00012167302709985284,
+      "nmae": 0.0029171070700547697
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "SRSF5",
+      "fidelity": 0.001532591214116974,
+      "reach": -0.0014372953130949717,
+      "jaccard": -6.763841367055101e-05,
+      "nmae": 0.0028303141256850184
+    },
+    {
+      "family": "H1",
+      "target": "ACLY",
+      "fidelity": 0.001043381233096441,
+      "reach": -0.0002552460073163565,
+      "jaccard": -0.00021042695128378058,
+      "nmae": 0.0030544797070873875
+    },
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "fidelity": 0.0015569209808384832,
+      "reach": -0.004946820409915398,
+      "jaccard": -3.784561114912599e-05,
+      "nmae": 0.0030661657938471087
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "fidelity": 0.0009675743338671827,
+      "reach": -0.0002552460073163565,
+      "jaccard": -7.022213743551609e-05,
+      "nmae": 0.002816001252344935
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "fidelity": 0.0017112037383993917,
+      "reach": -0.0002814260542309821,
+      "jaccard": -6.855500792424252e-05,
+      "nmae": 0.002951784108991218
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "fidelity": 0.0014346913179814624,
+      "reach": -0.013008758693768885,
+      "jaccard": -9.674223721438391e-05,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "fidelity": 0.001143691961763782,
+      "reach": -0.0025920920271022274,
+      "jaccard": -9.682038274906601e-05,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HCT116",
+      "target": "RNF141",
+      "fidelity": 0.001154053013312062,
+      "reach": -0.0014346846196948149,
+      "jaccard": -9.678166763874702e-05,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "fidelity": 0.0015466439931440812,
+      "reach": 0.011296796861786695,
+      "jaccard": -9.670542019052375e-05,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HEK293T",
+      "target": "ADNP",
+      "fidelity": 0.001301871352483941,
+      "reach": -0.0020768590521918207,
+      "jaccard": -0.00012027395176683608,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "fidelity": 0.0012013323970987422,
+      "reach": -0.0020768590521918484,
+      "jaccard": -0.00012277386792106104,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "fidelity": 0.0012915458334061825,
+      "reach": -0.0014346846196948149,
+      "jaccard": -0.0001173590964244145,
+      "nmae": 0.0029721077155676623
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "fidelity": 0.0015221917272083552,
+      "reach": 0.0022914205177006486,
+      "jaccard": 3.612856088137939e-06,
+      "nmae": 0.003936270155583621
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "fidelity": 0.0016447317047738608,
+      "reach": -0.0020768590521918207,
+      "jaccard": -0.00011066747878051009,
+      "nmae": 0.0020079452755514815
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZNF777",
+      "fidelity": 0.0009569474143305001,
+      "reach": -0.003234266459599233,
+      "jaccard": -0.00011311302288436603,
+      "nmae": 0.0029721077155676623
+    }
+  ],
+  "prior_outcomes_known": true,
+  "D3_opened": false,
+  "status": "Exploratory diagnostic; not an established improvement",
+  "evaluation_sha256": "390e6bfb06c645ecf6bd96b7ff25607cb5d4a13419dff54eb2c9ec625fff22cc",
+  "plan_sha256": "d66c835070937f81dd4dd1afce4fd69f28f4d8e8be22b8e1bea7fb54eadb4aa2"
+}

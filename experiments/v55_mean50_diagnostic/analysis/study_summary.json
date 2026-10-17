@@ -1,0 +1,200 @@
+{
+  "contexts": [
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.7678571428571429,
+      "fidelity": 0.5223815154912479,
+      "reach": 0.00533149210097262,
+      "jaccard": 0.06593564163413668,
+      "nmae": 0.9603558750448701,
+      "common_expression_ratio": 1.0228776786247282
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "mean50",
+      "pds": 0.7678571428571429,
+      "fidelity": 0.5298575352792756,
+      "reach": 0.004904213751616348,
+      "jaccard": 0.06576352894683368,
+      "nmae": 0.9670843585649037,
+      "common_expression_ratio": 1.02270313889549
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "v24",
+      "pds": 0.5714285714285714,
+      "fidelity": 0.5208273515302102,
+      "reach": 0.0030983092916413157,
+      "jaccard": 0.18035049628313404,
+      "nmae": 0.9813222397836114,
+      "common_expression_ratio": 1.0173350116424715
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "mean50",
+      "pds": 0.5714285714285714,
+      "fidelity": 0.5234341651472557,
+      "reach": 0.002988660168834298,
+      "jaccard": 0.17971479882470634,
+      "nmae": 0.9813473935596198,
+      "common_expression_ratio": 1.017519547295984
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "v24",
+      "pds": 1.0,
+      "fidelity": 0.6476334679614671,
+      "reach": 0.043672714311592434,
+      "jaccard": 0.05757874395842113,
+      "nmae": 0.8802108607139255,
+      "common_expression_ratio": 1.2496697624337212
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "arm": "mean50",
+      "pds": 1.0,
+      "fidelity": 0.6477162727978292,
+      "reach": 0.054287661822998295,
+      "jaccard": 0.058001484958800656,
+      "nmae": 0.8806387050667264,
+      "common_expression_ratio": 1.2491835396764006
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.5833333333333335,
+      "fidelity": 0.6028203123316636,
+      "reach": 0.9027777777777778,
+      "jaccard": 0.0003669035790889744,
+      "nmae": null,
+      "common_expression_ratio": 218.9462566166609
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "arm": "mean50",
+      "pds": 0.5833333333333335,
+      "fidelity": 0.6019175951020046,
+      "reach": 0.8888888888888888,
+      "jaccard": 0.00036655724665872024,
+      "nmae": null,
+      "common_expression_ratio": 218.27002415770772
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "v24",
+      "pds": 0.7333333333333334,
+      "fidelity": 0.5615270802920996,
+      "reach": 0.3098811544991511,
+      "jaccard": 0.007344017646756834,
+      "nmae": 0.8809830514305691,
+      "common_expression_ratio": 1.2152970118380502
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "arm": "mean50",
+      "pds": 0.7333333333333334,
+      "fidelity": 0.5600999748732635,
+      "reach": 0.2944689681192228,
+      "jaccard": 0.0067261175624696926,
+      "nmae": 0.88609471157645,
+      "common_expression_ratio": 1.2073733918832432
+    }
+  ],
+  "studies": [
+    {
+      "study": "CD4",
+      "v24": {
+        "pds": 0.6696428571428572,
+        "fidelity": 0.521604433510729,
+        "reach": 0.0042149006963069675,
+        "jaccard": 0.12314306895863536,
+        "nmae": 0.9708390574142407,
+        "common_expression_ratio": 1.0201063451335999
+      },
+      "mean50": {
+        "pds": 0.6696428571428572,
+        "fidelity": 0.5266458502132656,
+        "reach": 0.003946436960225323,
+        "jaccard": 0.12273916388577001,
+        "nmae": 0.9742158760622617,
+        "common_expression_ratio": 1.020111343095737
+      },
+      "delta": {
+        "pds": 0.0,
+        "fidelity": 0.00504141670253655,
+        "reach": -0.00026846373608164446,
+        "jaccard": -0.0004039050728653487,
+        "nmae": 0.003376818648020974,
+        "common_expression_ratio": 4.997962137043288e-06
+      }
+    },
+    {
+      "study": "H1",
+      "v24": {
+        "pds": 1.0,
+        "fidelity": 0.6476334679614671,
+        "reach": 0.043672714311592434,
+        "jaccard": 0.05757874395842113,
+        "nmae": 0.8802108607139255,
+        "common_expression_ratio": 1.2496697624337212
+      },
+      "mean50": {
+        "pds": 1.0,
+        "fidelity": 0.6477162727978292,
+        "reach": 0.054287661822998295,
+        "jaccard": 0.058001484958800656,
+        "nmae": 0.8806387050667264,
+        "common_expression_ratio": 1.2491835396764006
+      },
+      "delta": {
+        "pds": 0.0,
+        "fidelity": 8.280483636202707e-05,
+        "reach": 0.010614947511405862,
+        "jaccard": 0.00042274100037952705,
+        "nmae": 0.00042784435280085464,
+        "common_expression_ratio": -0.00048622275732057574
+      }
+    },
+    {
+      "study": "Orion",
+      "v24": {
+        "pds": 0.6583333333333334,
+        "fidelity": 0.5821736963118815,
+        "reach": 0.6063294661384644,
+        "jaccard": 0.0038554606129229045,
+        "nmae": 0.8809830514305691,
+        "common_expression_ratio": 110.08077681424948
+      },
+      "mean50": {
+        "pds": 0.6583333333333334,
+        "fidelity": 0.581008784987634,
+        "reach": 0.5916789285040558,
+        "jaccard": 0.0035463374045642065,
+        "nmae": 0.88609471157645,
+        "common_expression_ratio": 109.73869877479548
+      },
+      "delta": {
+        "pds": 0.0,
+        "fidelity": -0.001164911324247564,
+        "reach": -0.0146505376344086,
+        "jaccard": -0.00030912320835869804,
+        "nmae": 0.005111660145880936,
+        "common_expression_ratio": -0.3420780394539946
+      }
+    }
+  ],
+  "scope": "Post-outcome descriptive summary; same evaluated populations and frozen predictions, no selection or rule changes.",
+  "evaluation_sha256": "390e6bfb06c645ecf6bd96b7ff25607cb5d4a13419dff54eb2c9ec625fff22cc",
+  "script_sha256": "9dffb514232a5e88b074d8a9680ca330a6c40d141914fbe9ffe72cf27b5e9a24"
+}

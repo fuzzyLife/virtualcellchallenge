@@ -1,0 +1,16 @@
+{
+  "all_values_indices_and_pointers_compared": true,
+  "checked_elements": {
+    "data": 2368806060,
+    "indices": 2368806060,
+    "indptr": 360001
+  },
+  "source_sha256": "0e47a5b0f64fc7a0b22d3433216f9e80bb43b0bb9118c76f5da072c56b26c709",
+  "source_bytes": 2613954337,
+  "staged_bytes": 28450218880,
+  "data_dtype": "float32 with exactly unchanged raw integer values",
+  "indices_dtype": "int64",
+  "indptr_dtype": "int64",
+  "reason": "Uniform lossless staging avoids CSR conversion copies; valid below and above 2**31 nonzeros.",
+  "adapter_sha256": "45e6bdf35ffd1220f76f900b4c925c68aa07412012f8b62a688084ad2161573a"
+}

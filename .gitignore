@@ -637,3 +637,10 @@ __marimo__/
 /experiments/v53_joint_guard/**/*.pt
 /experiments/v53_joint_guard/**/*.joblib
 /experiments/v53_joint_guard/*.log
+
+# V55 fixed mean50 diagnostic regenerable arrays/packages
+/experiments/v55_mean50_diagnostic/**/*.npz
+/experiments/v55_mean50_diagnostic/*.log
+/experiments/v55_mean50_diagnostic/*.h5ad*
+/experiments/v55_mean50_diagnostic/*.vcc*
+/experiments/v55_mean50_diagnostic/analysis/prediction_control_rows.csv

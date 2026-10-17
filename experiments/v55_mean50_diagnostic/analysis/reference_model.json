@@ -1,0 +1,33 @@
+{
+  "selected_arm": "mean50",
+  "status": "Exploratory diagnostic; not an established improvement",
+  "confirmed_improvement": false,
+  "available_public_guards_passed": false,
+  "diagnostic_gates_passed": true,
+  "arrays_sha256": "2cda4e900fcf9bcbfe4cf407445c4313dea6b25942e28ecb7adbcf125c4a3d05",
+  "selection_sha256": "238504da5ee47b73c2f3ced937518e893a7f19251fa0b52b4cdec2e0c8b3c2f6",
+  "dependencies": {
+    "run_v55_mean50.py": "ae4ee964544f12b19cbf47a44b0986fa66793c00a01c95fdf4473415352f5913",
+    "package_v55_mean50.py": "1e55d657d67ddfb66d3d8907804a88700cc49c99281e36cee1a942a1a2268a22",
+    "audit_v55_mean50.py": "b5dc43bd819bc09b6b3afcc920aed54618bbf873ca284f78faa99f16021519b1",
+    "v37_ensemble.py": "40e1d69a041fd22257b6e652ca94e8f496a09ad8ec0945ab8cbbcf69f7f57357",
+    "v36_methods.py": "4905d67638b46fb4e76ba437dc9717adeaf393bf1210b53464e860cffcc6e56d",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v12_methods.py": "871014fcde78ef666a80d9dc41ecc8c12ac1e1559ce90609d70522c454eafd3b",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "build_v35_v36_submission.py": "854aabb8ed26bdc8854578b777f9a3c20d233af74880b32a31ac5157b6a9a598",
+    "build_submission.py": "f6177038b89cc1e70ba47bb24ac507e310c27889e9d45f57495c0801ca049dce",
+    "package_v50_submission_v2.py": "45e6bdf35ffd1220f76f900b4c925c68aa07412012f8b62a688084ad2161573a",
+    "verify_v50_payload.py": "6a5e4431a63a0af613c137399f58b7a49ff30f4c759bd7106b1bddf6ecc978e3"
+  },
+  "parent_V24_arrays_sha256": "4e797d18e149568657f87c310fd115e417ad93340f1781ef3f7dceaa278f6250",
+  "parent_V36_arrays_sha256": "860ea70de0a800badf9d4777701d0ea9b6e3a092ddc185fd03c30b13c1f22d63",
+  "production_seed": 20261011,
+  "response_blend": 0.5,
+  "emitter": "Unchanged V24 residual10",
+  "uploaded": false,
+  "D3_opened": false
+}

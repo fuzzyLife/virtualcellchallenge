@@ -1,0 +1,189 @@
+{
+  "passed": true,
+  "case_metrics_independently_replayed": 528,
+  "expression_panels_independently_replayed": 20,
+  "maximum_expression_absolute_error": 2.842170943040401e-14,
+  "null_array_identity": [
+    {
+      "family": "CD4_Rest_D1",
+      "calls": 516,
+      "arrays_exact": true
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "calls": 753,
+      "arrays_exact": true
+    },
+    {
+      "family": "H1",
+      "calls": 1415,
+      "arrays_exact": true
+    },
+    {
+      "family": "HCT116",
+      "calls": 780,
+      "arrays_exact": true
+    },
+    {
+      "family": "HEK293T",
+      "calls": 355,
+      "arrays_exact": true
+    }
+  ],
+  "expression_leave_context_target_out": [
+    {
+      "family": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "expression_ratio_relative_change": -0.0030487452711428498
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "expression_ratio_relative_change": -0.0030495019385897715
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FHL3",
+      "expression_ratio_relative_change": -0.0030492131543821133
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "expression_ratio_relative_change": -0.0030492388026232
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "GLI3",
+      "expression_ratio_relative_change": -0.003048616763407175
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "GPATCH8",
+      "expression_ratio_relative_change": -0.00304938774639274
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "MED15",
+      "expression_ratio_relative_change": -0.003048675543864565
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "target": "MTHFSD",
+      "expression_ratio_relative_change": -0.003048959308027621
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "expression_ratio_relative_change": -0.0030489818207108943
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "expression_ratio_relative_change": -0.0030489806157407706
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MED13",
+      "expression_ratio_relative_change": -0.0030490835746646017
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "expression_ratio_relative_change": -0.0030491619658399305
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "PCGF1",
+      "expression_ratio_relative_change": -0.0030490869456203384
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "PPIP5K2",
+      "expression_ratio_relative_change": -0.0030488939338607635
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "SLC39A1",
+      "expression_ratio_relative_change": -0.003048949198940387
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "target": "SRSF5",
+      "expression_ratio_relative_change": -0.00304908390186176
+    },
+    {
+      "family": "H1",
+      "target": "ACLY",
+      "expression_ratio_relative_change": -0.0030421211619252597
+    },
+    {
+      "family": "H1",
+      "target": "HDAC8",
+      "expression_ratio_relative_change": -0.003048269685508198
+    },
+    {
+      "family": "H1",
+      "target": "NFE2L1",
+      "expression_ratio_relative_change": -0.003050075812457753
+    },
+    {
+      "family": "H1",
+      "target": "PLAGL2",
+      "expression_ratio_relative_change": -0.0030477739016351313
+    },
+    {
+      "family": "HCT116",
+      "target": "GLI3",
+      "expression_ratio_relative_change": -0.004038414039799654
+    },
+    {
+      "family": "HCT116",
+      "target": "PATL1",
+      "expression_ratio_relative_change": -0.0024116695581480885
+    },
+    {
+      "family": "HCT116",
+      "target": "RNF141",
+      "expression_ratio_relative_change": -0.003932966651342129
+    },
+    {
+      "family": "HCT116",
+      "target": "ZNF627",
+      "expression_ratio_relative_change": -0.0036582617625012803
+    },
+    {
+      "family": "HEK293T",
+      "target": "ADNP",
+      "expression_ratio_relative_change": -0.0030110991893875783
+    },
+    {
+      "family": "HEK293T",
+      "target": "PRKAB2",
+      "expression_ratio_relative_change": -0.0030526327787659957
+    },
+    {
+      "family": "HEK293T",
+      "target": "PSMB9",
+      "expression_ratio_relative_change": -0.0030364009972160266
+    },
+    {
+      "family": "HEK293T",
+      "target": "SYVN1",
+      "expression_ratio_relative_change": -0.0030620881420275747
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZDHHC4",
+      "expression_ratio_relative_change": -0.0030415479583212335
+    },
+    {
+      "family": "HEK293T",
+      "target": "ZNF777",
+      "expression_ratio_relative_change": -0.0030414387175548008
+    }
+  ],
+  "expression_improves_every_leave_target_out": true,
+  "expression_ratio_warning": "HCT116 tiny denominator dominates raw ratios; no private anchor scaling or reliable future forecast claimed.",
+  "evaluation_sha256": "390e6bfb06c645ecf6bd96b7ff25607cb5d4a13419dff54eb2c9ec625fff22cc",
+  "auditor_sha256": "0dd39c0b51809e5afef52339f3c065090ca20c22dd1a1f3ae4c7d445ed7db674"
+}

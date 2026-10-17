@@ -1,5 +1,13 @@
 # Virtual Cell Challenge 2026
 
+<!-- v55-mean50:begin -->
+
+## V55 fixed half-blend diagnostic
+
+Retested the previously unsubmitted V37 mean50 on all44 existing populations and two seeds (176 comparisons,30 distinct context-target pairs). Original V37 rejection is preserved; V24 remains best published. Completed independent source/score/production/full-payload checks. This is an exploratory diagnostic, with no claimed leaderboard improvement. [Results, uncertainty and submit command](V55_MEAN50_RESULTS.md), [protocol](V55_MEAN50_STRATEGY.md).
+
+<!-- v55-mean50:end -->
+
 <!-- v54-method-performance:begin -->
 
 ## V54: methods versus published performance
