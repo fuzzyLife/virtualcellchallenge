@@ -1,0 +1,23 @@
+{
+  "family": "HEK293T",
+  "study": "Orion",
+  "target": "ZDHHC4",
+  "case_index": 6,
+  "seed_offset": 620000,
+  "arm": "guarded_assay",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.5906593406593407,
+  "reach": 0.05263157894736842,
+  "jaccard": 0.0027262813522355507,
+  "nmae": 0.9101425288449018,
+  "predicted_calls": 1820,
+  "reference_calls": 19,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.007129824593186717,
+  "bulk_probability_L1": 0.0005902199282149627,
+  "changed_transcript_fraction": 0.3194914567981213,
+  "global_moment_refit": true,
+  "arrays_sha256": "0d27d1f1337308977e02dd5e5b41648005aa21dc2b931ef5dc0a484334cacb0a",
+  "seconds": 12.469918489456177
+}

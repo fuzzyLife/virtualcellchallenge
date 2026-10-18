@@ -1,0 +1,23 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "ACLY",
+  "case_index": 3,
+  "seed_offset": 0,
+  "arm": "magnitude",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.6003412969283276,
+  "reach": 0.0016787912702853946,
+  "jaccard": 0.15783014236622483,
+  "nmae": 0.8927958005580894,
+  "predicted_calls": 2930,
+  "reference_calls": 1787,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.001478342514585668,
+  "bulk_probability_L1": 0.00017759216621684052,
+  "changed_transcript_fraction": 0.18324263539627408,
+  "global_moment_refit": true,
+  "arrays_sha256": "5edfb148f1dd855fdfbcf32f3d86aeb8f99272c619cb4396a6cce80dc77ac793",
+  "seconds": 6.7382118701934814
+}

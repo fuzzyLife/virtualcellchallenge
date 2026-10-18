@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "comparisons": 60,
+  "development_pass": false,
+  "count_pass": false,
+  "release_supported": false,
+  "confirmation_opened": false,
+  "additional_public_diagnostics_scheduled": true,
+  "additional_count_plan_sha256": "38ba74a49867f8774a7756fd494991179fe1e6678310e966e1d553dd94ae7acc",
+  "development_assessment_sha256": "d1a194c48060c3bdb8cf5e0418d7a3d9ecd364347475700c43296ee3e3d80b58",
+  "reason": "Predeclared PDS/Jaccard and shuffled-PDS guards failed. Additional reused public count tests cannot retroactively convert this into a confirmed release. User requested a new artifact for testing; only the fixed guarded primary may be packaged with explicit experimental status.",
+  "D3_opened": false
+}

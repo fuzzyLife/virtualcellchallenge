@@ -1,0 +1,17 @@
+{
+  "stage": "additional",
+  "development_passed": false,
+  "development_assessment_sha256": "d1a194c48060c3bdb8cf5e0418d7a3d9ecd364347475700c43296ee3e3d80b58",
+  "candidate": "guarded_assay",
+  "driver_sha256": "e510d47030f43c0b5eb6dea48ab7b622df60fd3522e41a1ad718b3907148db81",
+  "sources": [
+    "CD4_Stim48_D2",
+    "HEK293T",
+    "CD4_Rest_D1",
+    "HCT116",
+    "H1"
+  ],
+  "maximum_workers": 3,
+  "cases": "Remaining24 fixed V34 target populations, original seed and +620000, V24/guarded/shuffled arms.",
+  "interpretation": "If development failed, these are explicitly post-failure diagnostic comparisons on already reused public biology, not confirmation and not retroactive release support. No candidate/parameter reselection; no D3 opening."
+}

@@ -1,0 +1,23 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "NFE2L1",
+  "case_index": 5,
+  "seed_offset": 620000,
+  "arm": "guarded_assay",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.6587993842996408,
+  "reach": 0.0,
+  "jaccard": 0.016105417276720352,
+  "nmae": 0.8985524435248791,
+  "predicted_calls": 1949,
+  "reference_calls": 133,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.0014642824996586633,
+  "bulk_probability_L1": 0.00017505342084300852,
+  "changed_transcript_fraction": 0.1824890759341818,
+  "global_moment_refit": true,
+  "arrays_sha256": "dd44dcaed62f8bd19a2a34de32881e795c8a6d24aa410a843c07523decdd6ce0",
+  "seconds": 6.264819860458374
+}

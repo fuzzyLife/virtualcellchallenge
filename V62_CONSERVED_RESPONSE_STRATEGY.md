@@ -8,6 +8,10 @@ The [Molina and Zhang response-decomposition preprint](https://www.biorxiv.org/c
 
 The [official metric specification](https://raw.githubusercontent.com/ArcInstitute/cell-eval2/main/docs/vcc2026_metrics/vcc2026-metrics.md) forms pooled-count profiles as log1p(50000 * gene proportion). Moving a proportional log fold change between very different expression baselines changes its importance in that space. We therefore compare transferring effects directly in those expression units. Source profiles here are mean per-cell CPM proxies, while final evaluation uses actual pooled counts; this mismatch is explicit.
 
+Research access: the primary abstract and author implementation were available; the full bioRxiv page returned HTTP 403. No full-paper reproduction is claimed.
+
+The transformed uncertainty uses the response derivative, while the prior scale grid and variance floor are inherited from the LFC empirical-Bayes pool. This is an estimator change with altered regularization, not a units-invariant coordinate transform. A gain cannot be attributed to representation alone.
+
 Three fixed candidates: centered50 removes source-common LFC programs before pooling; assay50 pools source log1p-profile differences and inverts them against query controls; assay_center50 combines both ideas. All use half-strength corrections bounded to 0.5 log2 units from the fold-specific V24 mechanism. Missing source coordinates abstain. Measured zeros remain zeros. The separate established emitter applies own-target knockdown once.
 
 ## Validation
@@ -34,3 +38,5 @@ SCIENCE_PYTHON run_v62_counts.py assess-confirmation
 ```
 
 Freeze only in a new experiment folder; preserve the original plan. The numerical-tolerance amendment above is already included in this run. No automatic upload or Git push.
+
+Post-fit scope audit: mapped source profiles sum to roughly 68%-100% of one million CPM because gene coverage and original library definitions differ. The frozen implementation does not reclose those source profiles. The initial plan word "closed" is therefore inaccurate for source profiles; actual code and results are preserved. Query profiles are aligned-axis normalized. This method transfers incomplete-axis per-cell proxies, not exact source bulk profiles on a shared complete gene universe. See audit_v63_source_normalization.py and analysis/source_normalization_audit.json. A separately tested reclosure estimator would change that assumption; it cannot recover unmeasured biology.

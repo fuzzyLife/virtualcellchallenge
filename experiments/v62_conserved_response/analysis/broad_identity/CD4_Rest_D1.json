@@ -1,0 +1,82 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "targets": 23,
+  "feature_genes": 17472,
+  "target_names": [
+    "CYTH2",
+    "DNTTIP1",
+    "FHL3",
+    "FOXN2",
+    "GLI3",
+    "GPATCH8",
+    "MED15",
+    "MTHFSD",
+    "PPIP5K2",
+    "PSKH1",
+    "RNF141",
+    "SFXN4",
+    "SH2D3A",
+    "SHPRH",
+    "SUPT7L",
+    "TMF1",
+    "TRMT1",
+    "TWF2",
+    "ZNF251",
+    "ZNF282",
+    "ZNF410",
+    "ZNF462",
+    "ZNF496"
+  ],
+  "actual_cell_counts": [
+    297,
+    280,
+    339,
+    321,
+    624,
+    333,
+    315,
+    273,
+    237,
+    315,
+    394,
+    424,
+    240,
+    339,
+    281,
+    380,
+    274,
+    328,
+    299,
+    297,
+    323,
+    266,
+    226
+  ],
+  "metrics": {
+    "v24": {
+      "pds": 0.5988142292490118,
+      "profile_MSE": 0.005341711924388169
+    },
+    "assay_center50": {
+      "pds": 0.5810276679841898,
+      "profile_MSE": 0.005210291530466367
+    }
+  },
+  "source_record": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v22_cd4\\Marson2025_D1_Rest_filtered.h5ad",
+    "source_md5": "md5:70a49f15fddf62ab767188df0df112de",
+    "counts_sha256": "074045e04a9a6eb43817dbb830aadc396ee0463b494c1cdc1ef8c214483d5484",
+    "cells_sha256": "1365fcf39f4d74a74516b2e196c90de53257515e7a9913ca3a9bac65f6b5777b",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 17405,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D1 Rest; existing CD4 study family, new raw-cell evaluation source",
+    "script_sha256": "3b321727ee5adf43e0c8def1c4db3ccfd29c7b643971af07fb759deae1239070"
+  },
+  "plan_sha256": "2af4a5a9ebeec5a9cf6dbdbcb60f59d93612443c32a3748abdba67d2348af6af"
+}

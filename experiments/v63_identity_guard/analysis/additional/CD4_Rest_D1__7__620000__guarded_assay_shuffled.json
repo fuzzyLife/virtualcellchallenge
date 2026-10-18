@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "MTHFSD",
+  "case_index": 7,
+  "seed_offset": 620000,
+  "arm": "guarded_assay_shuffled",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.36363636363636365,
+  "reach": 0.3333333333333333,
+  "jaccard": 0.0,
+  "nmae": null,
+  "predicted_calls": 275,
+  "reference_calls": 3,
+  "nmae_eligible": false,
+  "mean_probability_L1": 0.013663997929708028,
+  "bulk_probability_L1": 0.0017408892897141511,
+  "changed_transcript_fraction": 0.3679634866805539,
+  "global_moment_refit": true,
+  "arrays_sha256": "358d25d064d851dee303c0238e854ce437e1dda03f7ce469025aee768e3acd65",
+  "seconds": 9.318882703781128
+}

@@ -1,0 +1,101 @@
+{
+  "equal_study_profile_error_ratio": 0.9689796990758764,
+  "by_context": {
+    "CD4_Rest_D1": {
+      "targets": 8,
+      "populations": 12,
+      "ratio_of_summed_profile_errors": 0.9827265028117143,
+      "improved_populations": 11,
+      "median_case_ratio": 0.9955923626685579
+    },
+    "CD4_Stim48_D2": {
+      "targets": 8,
+      "populations": 12,
+      "ratio_of_summed_profile_errors": 0.9900584452113443,
+      "improved_populations": 12,
+      "median_case_ratio": 0.9935944800023117
+    },
+    "H1": {
+      "targets": 4,
+      "populations": 12,
+      "ratio_of_summed_profile_errors": 0.9630098300939466,
+      "improved_populations": 12,
+      "median_case_ratio": 0.9697801136023064
+    },
+    "HCT116": {
+      "targets": 4,
+      "populations": 12,
+      "ratio_of_summed_profile_errors": 0.9819200894361962,
+      "improved_populations": 9,
+      "median_case_ratio": 0.9917755767613473
+    },
+    "HEK293T": {
+      "targets": 6,
+      "populations": 20,
+      "ratio_of_summed_profile_errors": 0.9331534968081098,
+      "improved_populations": 17,
+      "median_case_ratio": 0.9841672549938271
+    }
+  },
+  "source_case_inventory": {
+    "contexts": [
+      {
+        "context": "H1",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 4,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "HCT116",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 4,
+        "distinct_measured_row_sets": 4,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "HEK293T",
+        "case_configurations": 12,
+        "unique_target_context_pairs": 6,
+        "distinct_measured_row_sets": 6,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "CD4_Rest_D1",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 8,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          200
+        ]
+      },
+      {
+        "context": "CD4_Stim48_D2",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 8,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          400
+        ]
+      }
+    ],
+    "case_configurations": 44,
+    "unique_target_context_pairs": 30,
+    "distinct_measured_row_sets": 34,
+    "independent_new_studies": 0,
+    "interpretation": "Distinct row sets can overlap and are not biological replicates. HCT116 and HEK293T repeat exactly the same measured treated rows in their two original case configurations. HEK additional panels contain duplicate target labels unless explicitly deduplicated."
+  },
+  "leave_one_context_target_out_min": 0.9670577669284081,
+  "leave_one_context_target_out_max": 0.9783734551721537,
+  "predefined_case_configurations": 44,
+  "unique_target_context_pairs": 30,
+  "distinct_measured_row_sets": 34,
+  "count_seed_populations": 68,
+  "scope": "Plug-in pooled-profile MSE, own-target excluded, with paired controls and same realizations. Targets receive equal weight within each context after averaging repeated case/seed errors. Ratio to V24 prediction error avoids division by near-zero measured perturbation-to-control distance. Not official jackknife/anchor-scaled expression accuracy; seeds are not new biology."
+}

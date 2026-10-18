@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "DNTTIP1",
+  "case_index": 0,
+  "seed_offset": 0,
+  "arm": "guarded_assay_shuffled",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.497294046903187,
+  "reach": 0.0,
+  "jaccard": 0.21277385815076122,
+  "nmae": 0.977879721867545,
+  "predicted_calls": 1663,
+  "reference_calls": 1603,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012968973351125934,
+  "bulk_probability_L1": 0.0009110654966209339,
+  "changed_transcript_fraction": 0.3771828328603314,
+  "global_moment_refit": true,
+  "arrays_sha256": "577556e83acdd9a03bdc9901136bc1f52bec1d6b2bbdd3b10383274e09675cdf",
+  "seconds": 11.46633791923523
+}

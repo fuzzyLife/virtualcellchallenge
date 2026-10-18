@@ -1,0 +1,23 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "PLAGL2",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "magnitude",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.6700280112044817,
+  "reach": 0.0625,
+  "jaccard": 0.03156233561283535,
+  "nmae": 0.8838764908111494,
+  "predicted_calls": 1785,
+  "reference_calls": 176,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.0015042002590391098,
+  "bulk_probability_L1": 0.00017700762340941995,
+  "changed_transcript_fraction": 0.1823508083571446,
+  "global_moment_refit": true,
+  "arrays_sha256": "bce3cf03a85b41f89194008595146a39adaed50d066180a83ed63d59bd0f5ee7",
+  "seconds": 7.110708475112915
+}

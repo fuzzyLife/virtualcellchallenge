@@ -693,3 +693,19 @@ __marimo__/
 /experiments/v62*/*.h5ad*
 /experiments/v62*/*.vcc*
 /experiments/v62*/analysis/prediction_control_rows.csv
+
+# V63 identity-guard arrays and artifacts
+/experiments/v63*/**/*.npz
+/experiments/v63*/**/*.npy
+/experiments/v63*/*.log
+/experiments/v63*/*.h5ad*
+/experiments/v63*/*.vcc*
+/experiments/v63*/analysis/prediction_control_rows.csv
+
+# V64 downstream magnitude arrays and artifacts
+/experiments/v64*/**/*.npz
+/experiments/v64*/**/*.npy
+/experiments/v64*/*.log
+/experiments/v64*/*.h5ad*
+/experiments/v64*/*.vcc*
+/experiments/v64*/analysis/prediction_control_rows.csv

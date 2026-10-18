@@ -1,3 +1,9 @@
+<!-- v63-identity-guard:begin -->
+## V63: new experimental assay-response submission
+
+Tested three source/assay response estimators (V62), then a fixed guard preserving V24's predicted target margins (V63). Completed 204 V63 count comparisons and broader desired-mean identity tests across 655 target/context pairs. Paired pooled-profile error ratio versus V24: **0.968980**. **Development gates failed; V63 is a diagnostic test file, not a validated replacement. V24 remains best published.** Official packaging and complete payload/provenance/replay checks pass. [Results and limitations](V63_RESULTS.md) · [Submission command](V63_SUBMISSION.md) · [Reproduce](V63_IDENTITY_GUARD_STRATEGY.md) · [V62 negative result](V62_RESULTS.md) · [V64 scalar rejection](V64_RESULTS.md) · [Validation audit](V62_V64_VALIDATION_AUDIT.md).
+<!-- v63-identity-guard:end -->
+
 <!-- v61-state-release:begin -->
 ## V61 published: state-response transfer regressed
 

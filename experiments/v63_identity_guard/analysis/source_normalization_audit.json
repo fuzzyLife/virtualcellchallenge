@@ -1,0 +1,49 @@
+{
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "script_sha256": "e8952ece20a06dafa286be9a3b59b88cbcba6155f6a1187894753e942e232bf3",
+  "profiles": [
+    {
+      "source": "K562",
+      "finite_mapped_genes": 7681,
+      "sum_available_mean_CPM": 681527.1222652318,
+      "available_fraction_of_one_million": 0.6815271222652318
+    },
+    {
+      "source": "CD4_Rest",
+      "finite_mapped_genes": 17771,
+      "sum_available_mean_CPM": 978225.7070250593,
+      "available_fraction_of_one_million": 0.9782257070250593
+    },
+    {
+      "source": "CD4_Stim8hr",
+      "finite_mapped_genes": 17771,
+      "sum_available_mean_CPM": 982496.5654143558,
+      "available_fraction_of_one_million": 0.9824965654143558
+    },
+    {
+      "source": "CD4_Stim48hr",
+      "finite_mapped_genes": 17771,
+      "sum_available_mean_CPM": 976871.7239666113,
+      "available_fraction_of_one_million": 0.9768717239666114
+    },
+    {
+      "source": "H1",
+      "finite_mapped_genes": 18077,
+      "sum_available_mean_CPM": 1000000.0000000001,
+      "available_fraction_of_one_million": 1.0000000000000002
+    },
+    {
+      "source": "HCT116",
+      "finite_mapped_genes": 18106,
+      "sum_available_mean_CPM": 710281.7393042579,
+      "available_fraction_of_one_million": 0.7102817393042579
+    },
+    {
+      "source": "HEK293T",
+      "finite_mapped_genes": 18106,
+      "sum_available_mean_CPM": 735259.6489334195,
+      "available_fraction_of_one_million": 0.7352596489334194
+    }
+  ],
+  "interpretation": "Mapped source profiles contain roughly68-100% of a complete per-cell CPM library. The frozen V62/V63 code uses these available CPM values directly in its log1p response transform; it does not reclose each source profile. The initial plan word closed is inaccurate for source profiles. Query controls are aligned-axis normalized; source profiles are incomplete-axis per-cell proxies, not exact pooled profiles on the private scoring gene universe. No predictor, score or source data was changed after this audit. Reclosing an incompletely measured source axis would be a separate estimator assumption, not an established correction to missing biology."
+}

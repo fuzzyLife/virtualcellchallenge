@@ -1,0 +1,190 @@
+{
+  "records": [
+    {
+      "family": "H1",
+      "study": "H1",
+      "targets": [
+        "HDAC8",
+        "NFE2L1",
+        "PLAGL2",
+        "ACLY"
+      ],
+      "metrics": {
+        "v24": {
+          "profile_MSE": 0.0014999176145993629,
+          "pds": 1.0
+        },
+        "guarded_assay": {
+          "profile_MSE": 0.0014445705015809051,
+          "pds": 1.0
+        },
+        "amplitude_only": {
+          "profile_MSE": 0.001493521713144959,
+          "pds": 1.0
+        }
+      },
+      "amplitude_scales": [
+        0.911171555519104,
+        0.876926064491272,
+        0.9038258790969849,
+        1.059511423110962
+      ]
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "targets": [
+        "GLI3",
+        "PATL1",
+        "ZNF627",
+        "RNF141"
+      ],
+      "metrics": {
+        "v24": {
+          "profile_MSE": 0.0018218710031447174,
+          "pds": 0.5
+        },
+        "guarded_assay": {
+          "profile_MSE": 0.0017887616862470306,
+          "pds": 0.5
+        },
+        "amplitude_only": {
+          "profile_MSE": 0.0018292950314284298,
+          "pds": 0.5833333333333334
+        }
+      },
+      "amplitude_scales": [
+        1.1472797393798828,
+        1.0281498432159424,
+        1.0060313940048218,
+        0.9455143809318542
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "targets": [
+        "ZDHHC4",
+        "PRKAB2",
+        "SYVN1",
+        "PSMB9",
+        "ZNF777",
+        "ADNP"
+      ],
+      "metrics": {
+        "v24": {
+          "profile_MSE": 0.002306710930898694,
+          "pds": 0.7333333333333334
+        },
+        "guarded_assay": {
+          "profile_MSE": 0.0021524828642514237,
+          "pds": 0.7333333333333334
+        },
+        "amplitude_only": {
+          "profile_MSE": 0.0022391733784972744,
+          "pds": 0.7666666666666666
+        }
+      },
+      "amplitude_scales": [
+        1.0338324308395386,
+        1.0440635681152344,
+        1.134406328201294,
+        0.9355764389038086,
+        1.0394505262374878,
+        0.9358029365539551
+      ]
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "targets": [
+        "CYTH2",
+        "DNTTIP1",
+        "FHL3",
+        "FOXN2",
+        "GLI3",
+        "GPATCH8",
+        "MED15",
+        "MTHFSD"
+      ],
+      "metrics": {
+        "v24": {
+          "profile_MSE": 0.006061505361994404,
+          "pds": 0.7678571428571429
+        },
+        "guarded_assay": {
+          "profile_MSE": 0.005958394931908497,
+          "pds": 0.75
+        },
+        "amplitude_only": {
+          "profile_MSE": 0.005978409356660917,
+          "pds": 0.75
+        }
+      },
+      "amplitude_scales": [
+        0.9233016967773438,
+        0.912990152835846,
+        0.8170292973518372,
+        0.9731718301773071,
+        0.8778665661811829,
+        0.932225227355957,
+        0.8641577363014221,
+        0.9235599637031555
+      ]
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "targets": [
+        "DNTTIP1",
+        "FXYD5",
+        "MED13",
+        "MSI2",
+        "PCGF1",
+        "PPIP5K2",
+        "SLC39A1",
+        "SRSF5"
+      ],
+      "metrics": {
+        "v24": {
+          "profile_MSE": 0.008222224133686786,
+          "pds": 0.5892857142857142
+        },
+        "guarded_assay": {
+          "profile_MSE": 0.008140879545413104,
+          "pds": 0.5535714285714286
+        },
+        "amplitude_only": {
+          "profile_MSE": 0.008160083967282517,
+          "pds": 0.5535714285714286
+        }
+      },
+      "amplitude_scales": [
+        0.9355859160423279,
+        0.831889271736145,
+        0.8541024327278137,
+        0.9090325236320496,
+        0.9303838610649109,
+        0.9188637137413025,
+        0.923807680606842,
+        0.8854244947433472
+      ]
+    }
+  ],
+  "summary": {
+    "v24": {
+      "profile_MSE": 0.0035686911098205543,
+      "pds": 0.765079365079365
+    },
+    "guarded_assay": {
+      "profile_MSE": 0.003488276671830311,
+      "pds": 0.7561507936507937
+    },
+    "amplitude_only": {
+      "profile_MSE": 0.0035323341933598423,
+      "pds": 0.7755952380952381
+    }
+  },
+  "script_sha256": "bcad7df9e5bebca19b30c1dd4cbf28cd57e178cc02ead4efb5adc133191fbe06",
+  "scope": "Desired-mean control on 30 unique target/context combinations from previously reused measured cases; nonlinear assay norms not exactly matched. No candidate promotion or fitted-model change."
+}

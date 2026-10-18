@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "GLI3",
+  "case_index": 4,
+  "seed_offset": 620000,
+  "arm": "guarded_assay",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.6729857819905213,
+  "reach": 0.02857142857142857,
+  "jaccard": 0.0379746835443038,
+  "nmae": 0.9922947435236139,
+  "predicted_calls": 211,
+  "reference_calls": 35,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.01326703087486868,
+  "bulk_probability_L1": 0.0018301433219292621,
+  "changed_transcript_fraction": 0.3737360875444279,
+  "global_moment_refit": true,
+  "arrays_sha256": "59d0d1cf739c582da1ab2c98ac9b8b95a927276cbd1ad346f94d54ce97ac87a7",
+  "seconds": 9.819637537002563
+}

@@ -1,0 +1,5 @@
+{
+  "script_sha256": "bcad7df9e5bebca19b30c1dd4cbf28cd57e178cc02ead4efb5adc133191fbe06",
+  "timing": "Post-development diagnostic, artifact estimator already fixed and fitted; not eligible for deployment or reselection.",
+  "definition": "Multiply V24 LFC by the ratio of guarded/V24 nonpanel LFC vector norms per target, clipped0..2; preserve signs and zero coordinates. This matches LFC magnitude, not exactly the nonlinear pooled-profile norm. Same own-target factor. Only desired means, no new generated cells."
+}

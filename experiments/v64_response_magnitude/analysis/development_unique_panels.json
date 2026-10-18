@@ -1,0 +1,598 @@
+{
+  "panels": [
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "v24",
+      "unique_targets": 4,
+      "pds": 0.75,
+      "common_expression_numerator": 0.012326306330076402,
+      "common_expression_denominator": 0.01168430847133562,
+      "common_expression_ratio": 1.0549453020960338,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.20034656553471095,
+      "fidelity": 0.5199036764267035,
+      "reach": 0.0005102040816326531,
+      "jaccard": 0.08928719144567845,
+      "nmae": 0.9638094083581208
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "unique_targets": 4,
+      "pds": 0.6666666666666667,
+      "common_expression_numerator": 0.012211873105156108,
+      "common_expression_denominator": 0.01168430847133562,
+      "common_expression_ratio": 1.0451515496286945,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.15884607078865506,
+      "fidelity": 0.5035616671034027,
+      "reach": 0.0010204081632653062,
+      "jaccard": 0.09026824879769749,
+      "nmae": 0.9637269113711482
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "unique_targets": 4,
+      "pds": 0.75,
+      "common_expression_numerator": 0.012312948468114877,
+      "common_expression_denominator": 0.01168430847133562,
+      "common_expression_ratio": 1.0538020712412257,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.17063104521160694,
+      "fidelity": 0.5113976194314437,
+      "reach": 0.0,
+      "jaccard": 0.09100582793112136,
+      "nmae": 0.9572566105758207
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "v24",
+      "unique_targets": 4,
+      "pds": 0.5833333333333334,
+      "common_expression_numerator": 0.028029789906105974,
+      "common_expression_denominator": 0.02733892431876312,
+      "common_expression_ratio": 1.025270401252353,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.3059654786723512,
+      "fidelity": 0.5110520632077616,
+      "reach": 0.0007027139296593741,
+      "jaccard": 0.20247042840852422,
+      "nmae": 0.9845307558903631
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "unique_targets": 4,
+      "pds": 0.5,
+      "common_expression_numerator": 0.02796631430132534,
+      "common_expression_denominator": 0.02733892431876312,
+      "common_expression_ratio": 1.0229485979494677,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.23993999541679403,
+      "fidelity": 0.5139159207450559,
+      "reach": 0.0007027139296593741,
+      "jaccard": 0.20060598283410624,
+      "nmae": 0.9800837101392665
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "study": "CD4",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "unique_targets": 4,
+      "pds": 0.5833333333333334,
+      "common_expression_numerator": 0.02800270598674459,
+      "common_expression_denominator": 0.02733892431876312,
+      "common_expression_ratio": 1.0242797287940808,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.2792160289670237,
+      "fidelity": 0.5172248840488858,
+      "reach": 0.0007027139296593741,
+      "jaccard": 0.20318419512060645,
+      "nmae": 0.9835955149548115
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "seed_offset": 0,
+      "arm": "v24",
+      "unique_targets": 4,
+      "pds": 1.0,
+      "common_expression_numerator": 0.004127561036962411,
+      "common_expression_denominator": 0.0032741686994669185,
+      "common_expression_ratio": 1.2606439728149734,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 1.0,
+      "fidelity": 0.6452430366186996,
+      "reach": 0.04421937323031551,
+      "jaccard": 0.05805304440846609,
+      "nmae": 0.8823662696204343
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "unique_targets": 4,
+      "pds": 1.0,
+      "common_expression_numerator": 0.004102153131470023,
+      "common_expression_denominator": 0.0032741686994669185,
+      "common_expression_ratio": 1.2528838639676423,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 1.0,
+      "fidelity": 0.6494454073305636,
+      "reach": 0.044311934788141806,
+      "jaccard": 0.0589501570767868,
+      "nmae": 0.8818748811202544
+    },
+    {
+      "family": "H1",
+      "study": "H1",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "unique_targets": 4,
+      "pds": 1.0,
+      "common_expression_numerator": 0.003932536053825589,
+      "common_expression_denominator": 0.0032741686994669185,
+      "common_expression_ratio": 1.2010792401948813,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 1.0,
+      "fidelity": 0.6495590138388186,
+      "reach": 0.04303137951521105,
+      "jaccard": 0.05793375730338837,
+      "nmae": 0.886287244631627
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "v24",
+      "unique_targets": 4,
+      "pds": 0.5833333333333334,
+      "common_expression_numerator": 0.0014074808002195072,
+      "common_expression_denominator": 6.419665546427995e-06,
+      "common_expression_ratio": 219.24519120823237,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.20086310811841476,
+      "fidelity": 0.6037888834791443,
+      "reach": 0.8333333333333334,
+      "jaccard": 0.00034562837659148435,
+      "nmae": null
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "unique_targets": 4,
+      "pds": 0.5833333333333334,
+      "common_expression_numerator": 0.0014128596513796282,
+      "common_expression_denominator": 6.419665546427995e-06,
+      "common_expression_ratio": 220.08306214110578,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.20904353380254098,
+      "fidelity": 0.6035282706457665,
+      "reach": 1.0,
+      "jaccard": 0.0004372423114153721,
+      "nmae": null
+    },
+    {
+      "family": "HCT116",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "unique_targets": 4,
+      "pds": 0.5833333333333334,
+      "common_expression_numerator": 0.0014036960713504187,
+      "common_expression_denominator": 6.419665546427995e-06,
+      "common_expression_ratio": 218.65563886446668,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.19638336330709805,
+      "fidelity": 0.6016759528652563,
+      "reach": 0.611111111111111,
+      "jaccard": 0.0003455927967190303,
+      "nmae": null
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "v24",
+      "unique_targets": 4,
+      "pds": 0.8333333333333334,
+      "common_expression_numerator": 0.0019204625376843937,
+      "common_expression_denominator": 0.001949860004174798,
+      "common_expression_ratio": 0.9849232937608535,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.2838972444428877,
+      "fidelity": 0.5649859794369867,
+      "reach": 0.24335031126202603,
+      "jaccard": 0.01195138177018241,
+      "nmae": 0.8812657021833682
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "unique_targets": 4,
+      "pds": 0.8333333333333334,
+      "common_expression_numerator": 0.0018678104019441606,
+      "common_expression_denominator": 0.001949860004174798,
+      "common_expression_ratio": 0.9579202598879084,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.31066959257520116,
+      "fidelity": 0.5624944987399575,
+      "reach": 0.28636106395019806,
+      "jaccard": 0.01153089828877453,
+      "nmae": 0.8867942176914809
+    },
+    {
+      "family": "HEK293T",
+      "study": "Orion",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "unique_targets": 4,
+      "pds": 0.8333333333333334,
+      "common_expression_numerator": 0.0019073917876659928,
+      "common_expression_denominator": 0.001949860004174798,
+      "common_expression_ratio": 0.9782198637759236,
+      "common_expression_denominator_resolved": true,
+      "common_expression_rho": 0.307539938441534,
+      "fidelity": 0.5597996433233361,
+      "reach": 0.25410299943406905,
+      "jaccard": 0.012230990590187667,
+      "nmae": 0.8826648580444194
+    }
+  ],
+  "summary": {
+    "v24": {
+      "pds": 0.7916666666666666,
+      "fidelity": 0.5817027792979993,
+      "reach": 0.19438921817788044,
+      "jaccard": 0.07002678646965145,
+      "nmae": 0.9126006846426815,
+      "common_expression_ratio": 37.47193635849526
+    },
+    "magnitude": {
+      "pds": 0.763888888888889,
+      "fidelity": 0.5803985286492183,
+      "reach": 0.22945134260323438,
+      "jaccard": 0.0701237810642612,
+      "nmae": 0.9135248031889809,
+      "common_expression_ratio": 37.60247504608452
+    },
+    "magnitude_shuffled": {
+      "pds": 0.7916666666666666,
+      "fidelity": 0.5815360212244266,
+      "reach": 0.1586632639175436,
+      "jaccard": 0.07043902017423521,
+      "nmae": 0.9131260551471208,
+      "common_expression_ratio": 37.35234983477795
+    }
+  },
+  "choices": [
+    {
+      "family": "CD4_Rest_D1",
+      "seed_offset": 0,
+      "arm": "v24",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "CYTH2",
+        "DNTTIP1",
+        "FHL3",
+        "FOXN2"
+      ]
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "CYTH2",
+        "DNTTIP1",
+        "FHL3",
+        "FOXN2"
+      ]
+    },
+    {
+      "family": "CD4_Rest_D1",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "CYTH2",
+        "DNTTIP1",
+        "FHL3",
+        "FOXN2"
+      ]
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "seed_offset": 0,
+      "arm": "v24",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "DNTTIP1",
+        "FXYD5",
+        "MED13",
+        "MSI2"
+      ]
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "DNTTIP1",
+        "FXYD5",
+        "MED13",
+        "MSI2"
+      ]
+    },
+    {
+      "family": "CD4_Stim48_D2",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "DNTTIP1",
+        "FXYD5",
+        "MED13",
+        "MSI2"
+      ]
+    },
+    {
+      "family": "H1",
+      "seed_offset": 0,
+      "arm": "v24",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "HDAC8",
+        "NFE2L1",
+        "PLAGL2",
+        "ACLY"
+      ]
+    },
+    {
+      "family": "H1",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "HDAC8",
+        "NFE2L1",
+        "PLAGL2",
+        "ACLY"
+      ]
+    },
+    {
+      "family": "H1",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "HDAC8",
+        "NFE2L1",
+        "PLAGL2",
+        "ACLY"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "seed_offset": 0,
+      "arm": "v24",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "GLI3",
+        "PATL1",
+        "ZNF627",
+        "RNF141"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "GLI3",
+        "PATL1",
+        "ZNF627",
+        "RNF141"
+      ]
+    },
+    {
+      "family": "HCT116",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "GLI3",
+        "PATL1",
+        "ZNF627",
+        "RNF141"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "seed_offset": 0,
+      "arm": "v24",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "ZDHHC4",
+        "PRKAB2",
+        "SYVN1",
+        "PSMB9"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "seed_offset": 0,
+      "arm": "magnitude",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "ZDHHC4",
+        "PRKAB2",
+        "SYVN1",
+        "PSMB9"
+      ]
+    },
+    {
+      "family": "HEK293T",
+      "seed_offset": 0,
+      "arm": "magnitude_shuffled",
+      "case_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "target_names": [
+        "ZDHHC4",
+        "PRKAB2",
+        "SYVN1",
+        "PSMB9"
+      ]
+    }
+  ],
+  "source_inventory": {
+    "contexts": [
+      {
+        "context": "H1",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 4,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "HCT116",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 4,
+        "distinct_measured_row_sets": 4,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "HEK293T",
+        "case_configurations": 12,
+        "unique_target_context_pairs": 6,
+        "distinct_measured_row_sets": 6,
+        "actual_cell_counts": [
+          400
+        ]
+      },
+      {
+        "context": "CD4_Rest_D1",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 8,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          200
+        ]
+      },
+      {
+        "context": "CD4_Stim48_D2",
+        "case_configurations": 8,
+        "unique_target_context_pairs": 8,
+        "distinct_measured_row_sets": 8,
+        "actual_cell_counts": [
+          400
+        ]
+      }
+    ],
+    "case_configurations": 44,
+    "unique_target_context_pairs": 30,
+    "distinct_measured_row_sets": 34,
+    "independent_new_studies": 0,
+    "interpretation": "Distinct row sets can overlap and are not biological replicates. HCT116 and HEK293T repeat exactly the same measured treated rows in their two original case configurations. HEK additional panels contain duplicate target labels unless explicitly deduplicated."
+  },
+  "auditor_sha256": "35aef97c295368b981606a18e290058e45dc711cc8bac9ded912ca50216f0d5b",
+  "scope": "Canonical first case_index per literal target within each context/seed panel; no metric-based filtering. Preserves all original count records and original failed gates. Corrected PDS has unique candidate identities, matching competition semantics."
+}

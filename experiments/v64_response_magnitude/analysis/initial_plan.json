@@ -1,0 +1,20 @@
+{
+  "candidate": "magnitude",
+  "dependencies": {
+    "v64_response_magnitude.py": "2fdd0f19af421532ea97ffde440075664e0728bcca4bcadfafe475d77888de19",
+    "run_v64_counts.py": "362170ea731a868fd323f088d6b92d718142ee09c374475b5ad39dcd9ffe28cf",
+    "test_v64_magnitude.py": "6b8350ca2bf758cf206845cbab096994fe1cdc3037863ba1dd19104607485d89",
+    "run_v62_counts.py": "af762c651c01153cd24d047421ede2c2452c05fd0effe6e44a3c109e8db763f1",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "parent_plan_sha256": "a3672cd3d5b32eb74ac7de38a6d0434b9522e3523ede7f070972e365af7813a1",
+  "teacher_plan_sha256": "14cc12ad0a92dadb7b1ce653fd543bfa6ae26846f2fca3795550890fe8cd12fb",
+  "known_outcomes": "V62/V63 means improve but count discrimination fails. A post-development 44-case desired-mean diagnostic finds V24 LFC norm calibration improves both mean error and PDS. V64 separately tests final integer cells; this is outcome-informed, repeatedly reused public development. No previous plan is amended.",
+  "estimator": "Scale the V24 downstream LFC vector by guarded-teacher/V24 nonpanel LFC norm ratio per target/context, clipped0..2. Preserve all signs/zeros, clip LFC+/-3, keep own LFC zero and existing emitter own factor0.1. No transfer of teacher gene locations/signs. Norm is not observed knockdown efficacy and is not exactly the nonlinear assay-space norm.",
+  "negative_control": "Cyclically derange the 300 inferred scalar magnitudes within the same context; retain V24 gene-response identity in both arms. Tests usefulness of target-specific magnitude allocation, not the entire V24 predictor.",
+  "selection": "Only fixed magnitude primary. Same20 development count cases; retain prior six-metric/PDS/FID/REACH/JAC/NMAE/expression guards and beats-shuffle expression/PDS requirements. Remaining24 predefined cases at two seeds only after development support; otherwise label any extra reused-public evaluation diagnostic. No candidate/parameter reselection. No private anchors or new-study claim.",
+  "D3_opened": false,
+  "automatic_upload": false
+}

@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "context": "A",
+      "source_estimator_and_all_responses_replayed": true,
+      "all_90000_template_margin_constraints_checked": true
+    },
+    {
+      "context": "B",
+      "source_estimator_and_all_responses_replayed": true,
+      "all_90000_template_margin_constraints_checked": true
+    },
+    {
+      "context": "C",
+      "source_estimator_and_all_responses_replayed": true,
+      "all_90000_template_margin_constraints_checked": true
+    }
+  ],
+  "all_production_responses_replayed": true,
+  "independent_per_target_guard_inequalities": true,
+  "method_sha256": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+  "verifier_sha256": "3a1fbc0eb193f203a6b3b982567e5dec9749e451b16a8dc5f7437616008165c7",
+  "scope": "All source effects deterministically replayed; per-target independent geometry check verifies every original-template margin. This preserves prior geometry, not hidden truth or hidden accuracy."
+}

@@ -1,0 +1,6 @@
+{
+  "candidate": "guarded_assay",
+  "auditor_sha256": "1822446c4cf99aeea788bd35116f76add620078580be645549290829f9d5832e",
+  "cohort": "Every target with at least 30 actual cells in the existing aligned source extraction, no score-based filtering; same V37 inference/control pools; all 300 panel genes removed from cosine features.",
+  "purpose": "Broader mean-profile identity diagnostic, not another candidate-selection set. Measured population depths vary and these public studies are already reused. Predictions are desired pooled means before cell rounding, not final packaged counts."
+}

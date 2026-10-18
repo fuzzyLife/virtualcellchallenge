@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "GPATCH8",
+  "case_index": 5,
+  "seed_offset": 620000,
+  "arm": "guarded_assay",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.6148409893992933,
+  "reach": 0.0,
+  "jaccard": 0.04297994269340974,
+  "nmae": 0.9628929742573562,
+  "predicted_calls": 283,
+  "reference_calls": 81,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.013250862908729233,
+  "bulk_probability_L1": 0.0017296291581937902,
+  "changed_transcript_fraction": 0.36888900752644044,
+  "global_moment_refit": true,
+  "arrays_sha256": "9cfbb354c024d4c3a7e4a88b31c35d86ccdd70c63e4169695a652fcc2faaeae7",
+  "seconds": 9.732075691223145
+}
