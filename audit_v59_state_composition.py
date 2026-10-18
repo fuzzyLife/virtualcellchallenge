@@ -2,7 +2,7 @@
 import argparse,platform,importlib.metadata
 import numpy as np
 import v59_state_composition as m
-from run_v59_closed_stage import activate
+from run_v59_transfer_stage import activate
 
 def boundary():
  activate();pp=m.plan();assert not any('D3' in s for s in m.SOURCES);results=[]

@@ -21,7 +21,7 @@ def response():
    jobs=[pool.submit(call,'run_v59_closed_stage.py','mechanisms','--outer',outer,'--source',s) for s in SOURCES]
    for j in jobs:j.result()
   for s in SOURCES:
-   if GROUP[s]==outer:call('run_v59_closed_stage.py','transfer','--source',s)
+   if GROUP[s]==outer:call('run_v59_transfer_stage.py','--source',s)
  call('run_v59_closed_stage.py','evaluate')
  write(A/'response_complete.json',dict(complete=True,plan_sha256=sha(A/'plan.json'),correction_sha256=sha(A/'pre_score_correction.json'),D3_opened=False))
 
