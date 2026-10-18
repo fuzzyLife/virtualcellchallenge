@@ -29,3 +29,9 @@ set "SCIENCE_PY=C:\Users\animeshs\AppData\Local\Temp\vcc_v20_stack\env\Scripts\p
 ```
 
 Plans refuse overwrite; completed immutable stage artifacts are verified and resumed. Root scripts and compact receipts are versioned. Large matrices are regenerable local caches under the system temporary directory. The final result report records what actually completed and whether a submission was justified.
+
+## Pre-score CPM closure correction
+
+Before any state model or treatment score existed, review found that multiplying conditional state means can change their total CPM. `pre_score_correction.json` freezes an additive wrapper that closes each reconstructed profile to one million before LFC evaluation. Original source files and plan are preserved. The wrapper also memoizes immutable source matrices within a process; it does not change raw data or normalization. Candidate/negative-control definitions and release gates are unchanged.
+
+Use `run_v59_release.py response` and `run_v59_release.py counts` for the corrected experiment. `run_v59_experiment.py response` is preserved as the original controller and is superseded. The correction file verifies wrapper and original-plan checksums. The independent boundary audit removes every recipient treatment field and requires bitwise-identical inference arrays.
