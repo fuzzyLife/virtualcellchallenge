@@ -662,3 +662,10 @@ __marimo__/
 /experiments/v58*/*.log
 /experiments/v58*/*.h5ad*
 /experiments/v58*/*.vcc*
+
+# V59 regenerable arrays and prediction packages
+/experiments/v59*/**/*.npz
+/experiments/v59*/**/*.npy
+/experiments/v59*/*.log
+/experiments/v59*/*.h5ad*
+/experiments/v59*/*.vcc*
