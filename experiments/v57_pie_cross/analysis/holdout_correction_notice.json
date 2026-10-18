@@ -1,0 +1,10 @@
+{
+  "parent_plan_sha256": "ca96c7c568b0e0d3bbb9a0d25ec303c5dd8cb5566c8ffe910790c87a7894f668",
+  "issue": "H1/Orion baseline features were built excluding only their own recipient study; they could incorporate held-CD4 response-bank rows. Direct source-only decoder fitting therefore did not establish complete CD4 study exclusion.",
+  "discovered_by": "Implementation dependency review before count generation, not performance-based tuning",
+  "response_outcomes_inspected": false,
+  "response_artifacts_already_exist": true,
+  "count_generation_started": false,
+  "repair": "V58 will exclude CD4 as well as the recipient source study from every calibration baseline and verify invariance when held-study response rows are poisoned. Frozen PIE controls, gene axes and three-head outputs are reused unchanged.",
+  "old_plan_and_arrays_preserved": true
+}

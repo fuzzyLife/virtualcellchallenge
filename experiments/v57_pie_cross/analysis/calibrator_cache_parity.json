@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "arrays": [
+    "mean",
+    "sd",
+    "scale",
+    "coef",
+    "intercept"
+  ],
+  "reference_sha256": "a4954d3b47187f779df39c87c67b2517ea3d14800f96c206ecf65600638e3e62",
+  "current_sha256": "a4954d3b47187f779df39c87c67b2517ea3d14800f96c206ecf65600638e3e62",
+  "statement": "Completed source-only calibrator arrays are bitwise identical before and after immutable-read caching."
+}

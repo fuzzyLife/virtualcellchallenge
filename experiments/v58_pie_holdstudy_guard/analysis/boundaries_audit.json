@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "methods_byte_equivalent_after_import_rebinding": [
+    "fit_v58_pie_decoder.py",
+    "evaluate_v58_pie_counts.py"
+  ],
+  "neural_inputs_outputs_and_labels_bitwise_unchanged": true,
+  "held_CD4_comparator_unchanged": true,
+  "all_calibration_baselines_CD4_poison_invariant": true,
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "parent_evidence_audit_sha256": "ed912bf983e896a07d59d61de56a38c331ace1f54c601f5580a55ce29bc5760a"
+}

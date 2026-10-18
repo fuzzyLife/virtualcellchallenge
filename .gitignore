@@ -653,3 +653,12 @@ __marimo__/
 /experiments/v57*/*.log
 /experiments/v57*/*.h5ad*
 /experiments/v57*/*.vcc*
+
+# V58 regenerable scientific arrays and packages
+/experiments/v58*/**/*.npz
+/experiments/v58*/**/*.npy
+/experiments/v58*/**/*.pt
+/experiments/v58*/**/*.ckpt
+/experiments/v58*/*.log
+/experiments/v58*/*.h5ad*
+/experiments/v58*/*.vcc*

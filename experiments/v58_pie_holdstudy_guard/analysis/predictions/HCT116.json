@@ -1,0 +1,3337 @@
+{
+  "sha256": "6ce3745b88f527f841a0e720c56ea76bce6e562bbdf05b02c0ff556199ee0008",
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "input_sha256": "2192e7f024d1dcea5b65153d554e0deffddc3858b82f9e36423a1047b4ae7fb4",
+  "evidence_receipt_sha256": "d0206810e02425d671a13a922df47acb86bcdfd0e46904388bb80e8cb808884a",
+  "records": {
+    "0": {
+      "target": "ABCD1",
+      "query_records_excluded": 1,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1486,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.4026150703430176
+    },
+    "1": {
+      "target": "ACLY",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 667,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.382903814315796
+    },
+    "2": {
+      "target": "ADNP",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 970,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.6378705501556396
+    },
+    "3": {
+      "target": "AGO1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 968,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.3832387924194336
+    },
+    "5": {
+      "target": "AKIRIN1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 468,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.327317714691162
+    },
+    "6": {
+      "target": "AKT2",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1241,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.7253170013427734
+    },
+    "7": {
+      "target": "ALG12",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 480,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.4143736362457275
+    },
+    "8": {
+      "target": "ANKRD52",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 145,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.335239887237549
+    },
+    "9": {
+      "target": "ANKZF1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 475,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.3203649520874023
+    },
+    "11": {
+      "target": "AP2A2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 860,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.320521116256714
+    },
+    "12": {
+      "target": "API5",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 365,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.5518083572387695
+    },
+    "13": {
+      "target": "ARL14EP",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 217,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.7156693935394287
+    },
+    "14": {
+      "target": "ASCC2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 519,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.5605199337005615
+    },
+    "16": {
+      "target": "BCL6",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1161,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.8569378852844238
+    },
+    "17": {
+      "target": "BCL7C",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 492,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.7266125679016113
+    },
+    "20": {
+      "target": "C5orf22",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 145,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.8663060665130615
+    },
+    "21": {
+      "target": "CAND1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 571,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.5221898555755615
+    },
+    "23": {
+      "target": "CARM1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 888,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.036515235900879
+    },
+    "24": {
+      "target": "CAT",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1514,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.370903730392456
+    },
+    "26": {
+      "target": "CDK8",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 599,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.9193313121795654
+    },
+    "27": {
+      "target": "CHD3",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 872,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.931173801422119
+    },
+    "28": {
+      "target": "CHD6",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 532,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.9830381870269775
+    },
+    "29": {
+      "target": "CHKB",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 454,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.600649356842041
+    },
+    "30": {
+      "target": "CLCN6",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 599,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.2682173252105713
+    },
+    "31": {
+      "target": "COIL",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 410,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.1856045722961426
+    },
+    "33": {
+      "target": "COQ10B",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 245,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.5597937107086182
+    },
+    "34": {
+      "target": "CSNK2A1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1200,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.2421839237213135
+    },
+    "35": {
+      "target": "CYTH2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 512,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.470834493637085
+    },
+    "36": {
+      "target": "DBF4B",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 501,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.4962565898895264
+    },
+    "37": {
+      "target": "DBN1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 892,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.7094600200653076
+    },
+    "38": {
+      "target": "DCAF16",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 261,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.498466730117798
+    },
+    "40": {
+      "target": "DDHD1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 389,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.390899658203125
+    },
+    "41": {
+      "target": "DEAF1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 826,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.935847282409668
+    },
+    "42": {
+      "target": "DEK",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 539,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.8758220672607422
+    },
+    "43": {
+      "target": "DHRS1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 332,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.4708757400512695
+    },
+    "44": {
+      "target": "DHX35",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 414,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.267998695373535
+    },
+    "45": {
+      "target": "DLAT",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 469,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.9326999187469482
+    },
+    "46": {
+      "target": "DMTF1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 320,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.652078866958618
+    },
+    "47": {
+      "target": "DNTTIP1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 365,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.470463275909424
+    },
+    "51": {
+      "target": "E2F1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1281,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 3.0521068572998047
+    },
+    "52": {
+      "target": "E2F4",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 753,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.613837242126465
+    },
+    "53": {
+      "target": "EAPP",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 309,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.5509073734283447
+    },
+    "54": {
+      "target": "EEF1A2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 799,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 2.054288625717163
+    },
+    "56": {
+      "target": "EPC2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 444,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 627820544,
+      "seconds": 1.8008673191070557
+    },
+    "57": {
+      "target": "EPHB2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2159,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.4210567474365234
+    },
+    "58": {
+      "target": "EPM2AIP1",
+      "query_records_excluded": 0,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 291,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.343827962875366
+    },
+    "60": {
+      "target": "FAM120A",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 269,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.2985591888427734
+    },
+    "61": {
+      "target": "FCGRT",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 362,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.96706223487854
+    },
+    "63": {
+      "target": "FOXN2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 406,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.50494384765625
+    },
+    "64": {
+      "target": "FOXO4",
+      "query_records_excluded": 0,
+      "donor_genes": 14638,
+      "maximum_donors": 3,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 962,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.3129138946533203
+    },
+    "65": {
+      "target": "FUBP3",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 530,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.7621614933013916
+    },
+    "67": {
+      "target": "FZD2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 624,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.838923692703247
+    },
+    "69": {
+      "target": "GLI3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1462,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.5044124126434326
+    },
+    "70": {
+      "target": "GLYR1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 478,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.8805689811706543
+    },
+    "71": {
+      "target": "GMEB2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 506,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.2612767219543457
+    },
+    "72": {
+      "target": "GPATCH8",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 270,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.2742550373077393
+    },
+    "73": {
+      "target": "GRAMD1A",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 444,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.1968064308166504
+    },
+    "74": {
+      "target": "GTF2IRD1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 467,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.5238029956817627
+    },
+    "75": {
+      "target": "HDAC1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2121,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.3819990158081055
+    },
+    "76": {
+      "target": "HDAC8",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 723,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.364809513092041
+    },
+    "77": {
+      "target": "HEATR6",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 143,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.816304922103882
+    },
+    "78": {
+      "target": "HMGN3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 334,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.1985223293304443
+    },
+    "80": {
+      "target": "HMGXB3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 202,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.4700443744659424
+    },
+    "81": {
+      "target": "HOMEZ",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 311,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.4167087078094482
+    },
+    "82": {
+      "target": "HSBP1",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 430,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.8265013694763184
+    },
+    "83": {
+      "target": "HSP90AB1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2030,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.5769331455230713
+    },
+    "84": {
+      "target": "IFI27L2",
+      "query_records_excluded": 1,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 252,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.3462364673614502
+    },
+    "85": {
+      "target": "IFNAR2",
+      "query_records_excluded": 1,
+      "donor_genes": 14638,
+      "maximum_donors": 2,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 692,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 0.8229377269744873
+    },
+    "86": {
+      "target": "IFNGR2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 547,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 0.9032337665557861
+    },
+    "87": {
+      "target": "IL10RB",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 751,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.6017892360687256
+    },
+    "89": {
+      "target": "KDM5A",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 839,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.5530102252960205
+    },
+    "91": {
+      "target": "KHSRP",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 780,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.628796100616455
+    },
+    "95": {
+      "target": "LDLR",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1935,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.4111645221710205
+    },
+    "96": {
+      "target": "LENG1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 162,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.560117483139038
+    },
+    "97": {
+      "target": "LMAN1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 779,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.4956676959991455
+    },
+    "98": {
+      "target": "LMBRD2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 215,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.342822551727295
+    },
+    "99": {
+      "target": "LPCAT3",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 901,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.702542543411255
+    },
+    "104": {
+      "target": "MARCKSL1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 378,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.0523362159729004
+    },
+    "105": {
+      "target": "MBD4",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 523,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.455176830291748
+    },
+    "106": {
+      "target": "MED13",
+      "query_records_excluded": 0,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 570,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.767716646194458
+    },
+    "107": {
+      "target": "MED15",
+      "query_records_excluded": 0,
+      "donor_genes": 14638,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 474,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.313718557357788
+    },
+    "109": {
+      "target": "MLKL",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 571,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.471590757369995
+    },
+    "111": {
+      "target": "MSANTD4",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 162,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.4920058250427246
+    },
+    "112": {
+      "target": "MSI2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 384,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.5541772842407227
+    },
+    "114": {
+      "target": "MTF1",
+      "query_records_excluded": 0,
+      "donor_genes": 14638,
+      "maximum_donors": 3,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 582,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.5012054443359375
+    },
+    "115": {
+      "target": "MTHFSD",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 187,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.5616674423217773
+    },
+    "117": {
+      "target": "MYD88",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1980,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.988874912261963
+    },
+    "118": {
+      "target": "MYPOP",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 372,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.3879618644714355
+    },
+    "119": {
+      "target": "MYRF",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 789,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.266329050064087
+    },
+    "120": {
+      "target": "NABP2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 582,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.753403663635254
+    },
+    "121": {
+      "target": "NAIF1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 279,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.297187089920044
+    },
+    "122": {
+      "target": "NCLN",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 433,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.1710102558135986
+    },
+    "125": {
+      "target": "NICN1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 224,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.998023271560669
+    },
+    "128": {
+      "target": "NT5DC1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 248,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.9245600700378418
+    },
+    "130": {
+      "target": "PAN2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 601,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.777676582336426
+    },
+    "131": {
+      "target": "PAPOLA",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 514,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.7024283409118652
+    },
+    "132": {
+      "target": "PARP3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 979,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.111711263656616
+    },
+    "133": {
+      "target": "PATL1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 489,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.3794467449188232
+    },
+    "134": {
+      "target": "PBLD",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 529,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.2872166633605957
+    },
+    "135": {
+      "target": "PCGF1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 443,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.613919258117676
+    },
+    "137": {
+      "target": "PDCD4",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 609,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.6703126430511475
+    },
+    "138": {
+      "target": "PDE6D",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 373,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.1111841201782227
+    },
+    "140": {
+      "target": "PDK3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 630,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.125887155532837
+    },
+    "143": {
+      "target": "PHF19",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 525,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 1.995063066482544
+    },
+    "146": {
+      "target": "PI4KB",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 772,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 2.07330584526062
+    },
+    "148": {
+      "target": "PIN1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1289,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 642542080,
+      "seconds": 3.210505962371826
+    },
+    "149": {
+      "target": "PINK1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2630,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.5553345680236816
+    },
+    "151": {
+      "target": "PLAGL2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 412,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.626796007156372
+    },
+    "152": {
+      "target": "PLCG1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1211,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3064327239990234
+    },
+    "153": {
+      "target": "PNP",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1108,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.2334191799163818
+    },
+    "154": {
+      "target": "POLD4",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 352,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.3251168727874756
+    },
+    "156": {
+      "target": "PPIF",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 710,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.7694690227508545
+    },
+    "157": {
+      "target": "PPIP5K2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 605,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.93110728263855
+    },
+    "158": {
+      "target": "PQBP1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 780,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6987791061401367
+    },
+    "159": {
+      "target": "PRDX3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1022,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.5653502941131592
+    },
+    "160": {
+      "target": "PRKAB2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 468,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.2657630443572998
+    },
+    "161": {
+      "target": "PRKACA",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2276,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3552405834197998
+    },
+    "162": {
+      "target": "PRMT2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 882,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.8305375576019287
+    },
+    "163": {
+      "target": "PRMT6",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 834,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.0356662273406982
+    },
+    "164": {
+      "target": "PRMT7",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 717,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.053241491317749
+    },
+    "165": {
+      "target": "PRNP",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 2106,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 4.088077783584595
+    },
+    "167": {
+      "target": "PSMB9",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 825,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.552971124649048
+    },
+    "168": {
+      "target": "PTMS",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 255,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3691909313201904
+    },
+    "169": {
+      "target": "PTOV1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 305,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.18434739112854
+    },
+    "170": {
+      "target": "PYCR1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 478,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.230823516845703
+    },
+    "171": {
+      "target": "R3HCC1L",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 168,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.2793052196502686
+    },
+    "173": {
+      "target": "RAB5A",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1506,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.9668121337890625
+    },
+    "174": {
+      "target": "RABEP2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 436,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.7562525272369385
+    },
+    "175": {
+      "target": "RBM18",
+      "query_records_excluded": 1,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 209,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.549633502960205
+    },
+    "176": {
+      "target": "RBM26",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 294,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.483398199081421
+    },
+    "177": {
+      "target": "RBM4B",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 529,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 4.009342908859253
+    },
+    "178": {
+      "target": "RBM5",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 547,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.9357502460479736
+    },
+    "179": {
+      "target": "RC3H2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 594,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.133249044418335
+    },
+    "181": {
+      "target": "RFK",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 544,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3051466941833496
+    },
+    "182": {
+      "target": "RNF10",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 702,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.6746928691864014
+    },
+    "183": {
+      "target": "RNF141",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 256,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.665888786315918
+    },
+    "184": {
+      "target": "RNF2",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 891,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.110236167907715
+    },
+    "185": {
+      "target": "RSRC1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 372,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.6854138374328613
+    },
+    "186": {
+      "target": "S100A11",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 786,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.048671007156372
+    },
+    "189": {
+      "target": "SEMA4F",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 623,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3839223384857178
+    },
+    "190": {
+      "target": "SFXN4",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 407,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.178610324859619
+    },
+    "191": {
+      "target": "SH2D3A",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 244,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.088068962097168
+    },
+    "194": {
+      "target": "SLC25A13",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 794,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.6635537147521973
+    },
+    "195": {
+      "target": "SLC39A1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 497,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.4882590770721436
+    },
+    "196": {
+      "target": "SLC44A1",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 560,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.8716180324554443
+    },
+    "197": {
+      "target": "SLIRP",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 468,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.2144086360931396
+    },
+    "198": {
+      "target": "SMARCA5",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1256,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.4890449047088623
+    },
+    "199": {
+      "target": "SMARCC2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 868,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.063196897506714
+    },
+    "200": {
+      "target": "SMYD2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 820,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.449953079223633
+    },
+    "202": {
+      "target": "SNN",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 226,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.376603364944458
+    },
+    "203": {
+      "target": "SNRK",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 386,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.4102866649627686
+    },
+    "205": {
+      "target": "SOCS5",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 714,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6854398250579834
+    },
+    "206": {
+      "target": "SPATA20",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 252,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.131294012069702
+    },
+    "207": {
+      "target": "SRSF5",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 529,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.8999731540679932
+    },
+    "208": {
+      "target": "SSR4",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 338,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3805792331695557
+    },
+    "209": {
+      "target": "STAT6",
+      "query_records_excluded": 0,
+      "donor_genes": 15259,
+      "maximum_donors": 5,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 890,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.5127050876617432
+    },
+    "211": {
+      "target": "STT3A",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 605,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6371970176696777
+    },
+    "213": {
+      "target": "SYVN1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 893,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3618364334106445
+    },
+    "216": {
+      "target": "TARBP2",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 967,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6623404026031494
+    },
+    "218": {
+      "target": "TBC1D19",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 193,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3178775310516357
+    },
+    "219": {
+      "target": "TBCK",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 465,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.903599739074707
+    },
+    "220": {
+      "target": "TDRD7",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 490,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.2677035331726074
+    },
+    "221": {
+      "target": "TEAD4",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 650,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.9900383949279785
+    },
+    "222": {
+      "target": "TESK2",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 532,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6223845481872559
+    },
+    "223": {
+      "target": "TEX2",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 299,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3377089500427246
+    },
+    "225": {
+      "target": "THAP3",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 254,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6582748889923096
+    },
+    "226": {
+      "target": "THAP7",
+      "query_records_excluded": 1,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 582,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.0589332580566406
+    },
+    "227": {
+      "target": "TIMM17B",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 330,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.6656737327575684
+    },
+    "228": {
+      "target": "TIMM50",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 663,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.975682020187378
+    },
+    "230": {
+      "target": "TMED3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 527,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.477890729904175
+    },
+    "231": {
+      "target": "TMEM104",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.968471050262451
+    },
+    "233": {
+      "target": "TMEM186",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 235,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.5226268768310547
+    },
+    "234": {
+      "target": "TMEM209",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 209,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.3761656284332275
+    },
+    "235": {
+      "target": "TMEM41B",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 437,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.1015255451202393
+    },
+    "237": {
+      "target": "TMF1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 442,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.684983968734741
+    },
+    "238": {
+      "target": "TRAPPC6A",
+      "query_records_excluded": 1,
+      "donor_genes": 15208,
+      "maximum_donors": 2,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 429,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.0648107528686523
+    },
+    "240": {
+      "target": "TRIM35",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 416,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.942934274673462
+    },
+    "241": {
+      "target": "TRIP4",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 824,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.0875465869903564
+    },
+    "243": {
+      "target": "TRPC4AP",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 454,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.0232131481170654
+    },
+    "246": {
+      "target": "TXNDC16",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 215,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.4039525985717773
+    },
+    "251": {
+      "target": "VAPB",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 1153,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.8457281589508057
+    },
+    "252": {
+      "target": "VIM",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 941,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.935072660446167
+    },
+    "254": {
+      "target": "YIPF6",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 414,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.58724045753479
+    },
+    "255": {
+      "target": "ZBTB34",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 437,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.65563702583313
+    },
+    "256": {
+      "target": "ZBTB41",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 293,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.3170149326324463
+    },
+    "258": {
+      "target": "ZC2HC1A",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 190,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.210958480834961
+    },
+    "259": {
+      "target": "ZC3HAV1",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 724,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.20774507522583
+    },
+    "260": {
+      "target": "ZDHHC12",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 507,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.9938836097717285
+    },
+    "261": {
+      "target": "ZDHHC4",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 454,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.979661464691162
+    },
+    "262": {
+      "target": "ZFP62",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 235,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.1186463832855225
+    },
+    "265": {
+      "target": "ZKSCAN2",
+      "query_records_excluded": 1,
+      "donor_genes": 14690,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 365,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.2306480407714844
+    },
+    "266": {
+      "target": "ZKSCAN3",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 686,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.4295687675476074
+    },
+    "270": {
+      "target": "ZNF22",
+      "query_records_excluded": 1,
+      "donor_genes": 14638,
+      "maximum_donors": 3,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 341,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.4228942394256592
+    },
+    "271": {
+      "target": "ZNF25",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 338,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.4534828662872314
+    },
+    "272": {
+      "target": "ZNF251",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 396,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.773125410079956
+    },
+    "273": {
+      "target": "ZNF280C",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 341,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.186662435531616
+    },
+    "274": {
+      "target": "ZNF282",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 360,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.6704628467559814
+    },
+    "276": {
+      "target": "ZNF324",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 369,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.7800161838531494
+    },
+    "277": {
+      "target": "ZNF397",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 509,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.3741819858551025
+    },
+    "278": {
+      "target": "ZNF410",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 510,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.4450180530548096
+    },
+    "279": {
+      "target": "ZNF444",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 408,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.486264705657959
+    },
+    "281": {
+      "target": "ZNF496",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 367,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.4640729427337646
+    },
+    "282": {
+      "target": "ZNF507",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 280,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.08878231048584
+    },
+    "283": {
+      "target": "ZNF514",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 319,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.0338854789733887
+    },
+    "284": {
+      "target": "ZNF526",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 253,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.652331829071045
+    },
+    "285": {
+      "target": "ZNF530",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 423,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 4.297938585281372
+    },
+    "287": {
+      "target": "ZNF627",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 361,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 3.885591506958008
+    },
+    "290": {
+      "target": "ZNF670",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 515,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.7003445625305176
+    },
+    "291": {
+      "target": "ZNF714",
+      "query_records_excluded": 1,
+      "donor_genes": 12286,
+      "maximum_donors": 1,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 319,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.664607286453247
+    },
+    "293": {
+      "target": "ZNF768",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 405,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.70587158203125
+    },
+    "294": {
+      "target": "ZNF777",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 441,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.7408430576324463
+    },
+    "295": {
+      "target": "ZNF783",
+      "query_records_excluded": 1,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 329,
+        "perturbation_text": 1,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 2.1373865604400635
+    },
+    "298": {
+      "target": "ZNF821",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 356,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 0.90415358543396
+    },
+    "299": {
+      "target": "ZRANB3",
+      "query_records_excluded": 0,
+      "donor_genes": 0,
+      "maximum_donors": 0,
+      "source_tokens": {
+        "depmap_gene_effect": 1,
+        "esm2": 1,
+        "ncbi_text": 710,
+        "string_space": 1
+      },
+      "peak_GPU_bytes": 655097856,
+      "seconds": 1.7486824989318848
+    }
+  },
+  "required_targets": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    20,
+    21,
+    23,
+    24,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    51,
+    52,
+    53,
+    54,
+    56,
+    57,
+    58,
+    60,
+    61,
+    63,
+    64,
+    65,
+    67,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    95,
+    96,
+    97,
+    98,
+    99,
+    104,
+    105,
+    106,
+    107,
+    109,
+    111,
+    112,
+    114,
+    115,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    125,
+    128,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    137,
+    138,
+    140,
+    143,
+    146,
+    148,
+    149,
+    151,
+    152,
+    153,
+    154,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    167,
+    168,
+    169,
+    170,
+    171,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    189,
+    190,
+    191,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    202,
+    203,
+    205,
+    206,
+    207,
+    208,
+    209,
+    211,
+    213,
+    216,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    225,
+    226,
+    227,
+    228,
+    230,
+    231,
+    233,
+    234,
+    235,
+    237,
+    238,
+    240,
+    241,
+    243,
+    246,
+    251,
+    252,
+    254,
+    255,
+    256,
+    258,
+    259,
+    260,
+    261,
+    262,
+    265,
+    266,
+    270,
+    271,
+    272,
+    273,
+    274,
+    276,
+    277,
+    278,
+    279,
+    281,
+    282,
+    283,
+    284,
+    285,
+    287,
+    290,
+    291,
+    293,
+    294,
+    295,
+    298,
+    299
+  ],
+  "strict_state_dict": true,
+  "all_three_heads_retained": true,
+  "parent_prediction_sha256": "6ce3745b88f527f841a0e720c56ea76bce6e562bbdf05b02c0ff556199ee0008",
+  "PIE_forwards_reused_unchanged": true,
+  "reuse_reason": "Only the baseline field changed; it is not read by PIE inference. All control-only neural inputs and labels were checked bitwise equal."
+}

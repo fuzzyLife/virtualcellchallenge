@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "recipient_group": "H1",
+      "excluded_families": [
+        "CD4",
+        "H1"
+      ],
+      "poisoned_CD4_response_rows": 604,
+      "all_bank_fields_bitwise_invariant": true
+    },
+    {
+      "recipient_group": "Orion",
+      "excluded_families": [
+        "CD4",
+        "HCT116",
+        "HEK293T"
+      ],
+      "poisoned_CD4_response_rows": 604,
+      "all_bank_fields_bitwise_invariant": true
+    },
+    {
+      "recipient_group": "CD4",
+      "excluded_families": [
+        "CD4"
+      ],
+      "poisoned_CD4_response_rows": 604,
+      "all_bank_fields_bitwise_invariant": true
+    }
+  ],
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "all_CD4_comparator_baselines_unchanged": true,
+  "all_PIE_inputs_and_outputs_reused_bitwise": true,
+  "labels_or_control_rows_changed": false,
+  "D3_opened": false
+}
