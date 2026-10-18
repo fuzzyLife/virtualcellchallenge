@@ -669,3 +669,10 @@ __marimo__/
 /experiments/v59*/*.log
 /experiments/v59*/*.h5ad*
 /experiments/v59*/*.vcc*
+
+# V60 nuisance-adjusted state models
+/experiments/v60*/**/*.npz
+/experiments/v60*/**/*.npy
+/experiments/v60*/*.log
+/experiments/v60*/*.h5ad*
+/experiments/v60*/*.vcc*
