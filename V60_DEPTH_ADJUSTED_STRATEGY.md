@@ -20,3 +20,7 @@ set "SCIENCE_PY=C:\Users\animeshs\AppData\Local\Temp\vcc_v20_stack\env\Scripts\p
 ```
 
 First generate V59 raw caches using its corrected controller. Plans refuse overwrite. Numerical contracts demonstrate that changing treatment data cannot alter the fitted NTC regression and that a synthetic independent signal survives depth adjustment. Those unit checks are not evidence of biological predictive improvement.
+
+## Observed stopping scope
+
+All 366 response cases completed, but the matched shuffled/pooled control criterion failed in every study. No V60 count experiment or improved submission is claimed. Population-level reconstruction diagnostics are separately recorded as a post-hoc correction of the original tiny-lane error aggregation; no V60 predictor or threshold was changed. V61 isolates pooled state estimation using the exact V60 state basis.

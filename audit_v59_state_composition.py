@@ -6,6 +6,8 @@ from run_v59_transfer_stage import activate
 
 def boundary():
  activate();pp=m.plan();assert not any('D3' in s for s in m.SOURCES);results=[]
+ for source in m.SOURCES:
+  f=m.ROOT/'experiments/v52_joint_mean_rank/analysis/labels'/(source+'.npz');assert m.sha(f)==m.source_meta(source)['sha256']
  for outer in m.OUTERS:
   r=m.read(m.A/'states'/(outer+'.json'));assert all(m.GROUP[s]!=outer for s in r['training_sources'])
   assert not set(r['stable_genes'])&set(m.axes()[1]);assert len(set(r['stable_genes']))==512
@@ -13,6 +15,11 @@ def boundary():
   rec=m.read(m.A/'predictions'/(recipient+'.json'));assert all(m.GROUP[s]!=m.GROUP[recipient] for s in rec['training_sources']);assert rec['outer']==m.GROUP[recipient]
   file=m.CACHE/'predictions'/(recipient+'.npz');assert m.sha(file)==rec['sha256'];prior=m.load(file)
   original_mechanism=m.mechanism;original_save=m.save;original_write=m.write
+  q=original_mechanism(rec['outer'],recipient);axis=~np.isin(m.axes()[0],m.axes()[1])
+  for source,rho in rec['source_rank_correlations'].items():
+   d=original_mechanism(rec['outer'],source);good=axis & q['measured'] & d['measured'];a=q['profile'][good];b=d['profile'][good]
+   expected=np.corrcoef(m.rankdata(a,method='average'),m.rankdata(b,method='average'))[0,1];np.testing.assert_allclose(expected,rho,atol=1e-14,rtol=1e-14)
+  # This calculation deliberately keeps measured zeros and excludes absent genes.
   control_keys={'control_state_counts','control_state_means','profile','measured'};blocked=[];saved=[]
   class Controls(dict):
    def __getitem__(self,key):

@@ -24,3 +24,11 @@ set "SCIENCE_PY=C:\Users\animeshs\AppData\Local\Temp\vcc_v20_stack\env\Scripts\p
 ```
 
 The release runner verifies public boundaries, compares an independently implemented production kernel with all saved public predictions, fits on permitted public sources, reconstructs all 900 production effect vectors through the original transfer implementation, checks preflight counts, generates integer cells, runs official VCC prep and compares every packaged sparse value/index/pointer and all cell/gene axes. It verifies all original control identities/libraries and replays 12 complete groups. Unchanged groups reuse the independently validated V24 counts exactly. Large arrays/packages remain outside Git; root code, receipts and reports are committed locally.
+
+## Cache durability and prerequisites
+
+The scientific commands use the project's verified V52 labels, V58 baseline exports, original public raw source matrices and provided competition controls. They are prerequisites, not files downloaded by the V61 runner. Earlier collectors/protocols document their acquisition. Git contains code, compact evidence and reports; large original datasets, model arrays and upload packages are ignored.
+
+`export_v61_arrays.py` copies V61 bases/mechanisms/predictions/count statistics and the reused V59 raw CPM caches into `analysis/arrays/`, with a checksum manifest. `restore_v61_arrays.py` verifies and restores those exports after temporary-directory cleanup without overwriting a different file. Production model arrays and query inputs already live in the project. Reproduction on another machine needs the source-data prerequisites or exported arrays, plus Python3.12.10 and the pinned requirements-v23-science runtime (with its existing plotting dependencies); official prep uses the separate competition environment.
+
+Public population-count tests use moments from the sampled template, whereas the unchanged production generator uses all provided NTCs for its context moments, following V24. This is a material validation/production difference. The limited 4/8-target common-control panel diagnostic is not a substitute for official 300-target PDS or private replicate anchors. All public scores remain descriptive.

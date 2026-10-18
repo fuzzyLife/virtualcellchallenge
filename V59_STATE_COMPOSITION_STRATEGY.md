@@ -39,3 +39,7 @@ Use `run_v59_release.py response` and `run_v59_release.py counts` for the correc
 ## Pairwise-valid source routing
 
 A second review correction was frozen before any deployable transfer prediction existed: aligned source arrays store zero in unmeasured coordinates. `run_v59_transfer_stage.py` applies the explicit measured mask to the basal profiles before finite-pair rank correlation. Measured zero counts remain genuine rank values. Stable-state fits and oracle reconstructions do not use these basal routing correlations and are unchanged. The original controller is preserved as `run_v59_release_initial.py`; the canonical corrected controller remains `run_v59_release.py`. Both correction receipts are in the analysis folder.
+
+## Observed stopping scope
+
+The completed response gate failed. Count diagnostics were run only for H1 and HCT116 (four target populations per context, six arms: 48 comparisons); other V59 count cohorts were not run. V60 also failed its response gate and did not proceed to counts. The original tiny-lane reconstruction-error table is superseded for interpretation by the explicitly post-hoc population-level diagnostic and V61's corrected oracle. No V59/V60 improved submission is claimed. The fixed experimental release follows the separately frozen V61 protocol.
