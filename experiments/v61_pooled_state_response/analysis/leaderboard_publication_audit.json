@@ -1,0 +1,20 @@
+{
+  "source": "User-reported published V61 CLI receipt",
+  "inputs_sha256": {
+    "experiments\\v24_cd4_response\\analysis\\leaderboard_result.json": "d361e6783f7d3888afbdc3ea9f7475c401473b423f2743c00b91fc921263afaa",
+    "experiments\\v61_pooled_state_response\\analysis\\release_manifest.json": "cdb1ebc6c70536f7d9aea1ae30c97d75479fae539b4c02097573294a59b77036",
+    "experiments\\v61_pooled_state_response\\analysis\\submission_ready.json": "8a17a0330fc76972138291b95383201585ae0ff50c53b2d5ab88a51aeb8b301e",
+    "experiments\\v61_pooled_state_response\\analysis\\independent_validation.json": "a64da59754c5cb34131aedbb69275e2163f6f11c2bfbd8ac70d73e6b2ebd4361",
+    "V61_RESULTS.md": "4d86521d64796487036149714e4395f976d305e76c8068556e7cc560320d5b2a",
+    "V61_SUBMISSION.md": "37c216bdd3ea848f3b0d844233952f22a436aa3b3f2fc95d8f3ddffdbf0f28fe",
+    "record_v61_result.py": "38565de67f99515480a1597dc5ca482179afac2e5bc05b90f0e070345c4d2688"
+  },
+  "outputs_sha256": {
+    "experiments\\v61_pooled_state_response\\analysis\\leaderboard_result.json": "415dedf0d05dad9a639a63cbfd186753088a47a33afc12399164bf6a32b0bee4",
+    "experiments\\v61_pooled_state_response\\analysis\\leaderboard_comparison.csv": "f5053ccec207eeb426014e2fcd58fb3a5288aa85ac49fb8615ed699d43b1e960",
+    "V61_LEADERBOARD_RESULTS.md": "09bbfbbb8200cfe345ce56f59c3a35428161d014867aacdff27a5cef7a81eebb"
+  },
+  "overall_reconciled": true,
+  "same_panel_and_anchors": true,
+  "pre_submission_manifest_unchanged": true
+}

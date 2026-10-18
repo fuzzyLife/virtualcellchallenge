@@ -1,0 +1,32 @@
+{
+  "source": "Exact published CLI scores supplied by the user; no independent API query performed.",
+  "entry_id": "JNIsuxo0KEVQveGuZoLX",
+  "model_name": "Pooled state-response transfer v61 experimental",
+  "final_status": "published",
+  "rank_at_user_report": 674,
+  "overall": 0.11676347398892765,
+  "metrics": {
+    "pds": 0.5562245219230239,
+    "mse": 0.0,
+    "nmae": 0.08266919718674648,
+    "fid": -0.01890699218246981,
+    "reach": 0.06994726866634961,
+    "jac": 0.010646848339915903
+  },
+  "raw_metrics": null,
+  "submitted_utc": null,
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "scoring_job": "projects/vcc-prod/locations/us-west1/jobs/vcc-metrics-prod-jnisuxo0kevqveguzolx",
+  "package_sha256": "cf4807ba59156619ae1bc2a315a87450bab5a1021c5c8cc569703b059118ad53",
+  "upload_bytes": 4068689920,
+  "upload_duration_seconds": 987,
+  "artifact_link_evidence": "The user supplied the submission command naming the audited local prediction.vcc. The CLI receipt supplies no uploaded-file checksum.",
+  "comparison_entry_id": "81Y2yX7utdAau9rr3jCj",
+  "overall_change_from_v24": -0.0262343812285291,
+  "relative_overall_change_from_v24": -0.18345996300877723,
+  "pds_and_expression_share_of_net_decline": 0.8614030253322159,
+  "recommended_over_v24": false,
+  "interpretation": "Five scaled metrics regress; only NMAE improves. The result agrees directionally with failed public transfer gates; aggregate scores cannot identify affected contexts or prove a causal mechanism."
+}
