@@ -22,7 +22,7 @@ def table(frame):
  return '\n'.join(lines)
 
 def main():
- A=FOLDERS[61];counts=read(A/'count_assessment.json');response=read(A/'response_assessment.json');audit=read(A/'final_audit.json');assert counts['complete'] and audit['passed']
+ A=FOLDERS[61];counts=read(A/'count_assessment.json');response=read(A/'response_assessment.json');run=read(A/'run_parameters.json');audit=read(A/'final_audit.json');assert counts['complete'] and audit['passed']
  rows=[]
  for version,folder in FOLDERS.items():
   r=read(folder/'response_assessment.json')
@@ -111,6 +111,10 @@ These panels contain only four or eight unique targets per source/seed. All 300 
 The state-cell zero-intervention contract returns real unedited NTC rows. Null calibration does not establish treatment prediction. Own-target knockdown is applied once by the existing count emitter and excluded from direction scoring.
 
 ![Measured release diagnostics](experiments/v61_pooled_state_response/analysis/release_diagnostics.png)
+
+## Production scope
+
+The release keeps the unchanged residual10 count emitter. Of 900 target/context groups, {run['unchanged_v24_groups_reused']} reuse validated V24 counts exactly; the remaining {900-run['unchanged_v24_groups_reused']} were regenerated from the fixed V61 effects. The unsuccessful state_cells50 generator is excluded. All 360,000 cells use original guide-stratified control templates with exact integer libraries.
 
 ## Integrity and release scope
 

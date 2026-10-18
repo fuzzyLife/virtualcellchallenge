@@ -149,6 +149,10 @@ The state-cell zero-intervention contract returns real unedited NTC rows. Null c
 
 ![Measured release diagnostics](experiments/v61_pooled_state_response/analysis/release_diagnostics.png)
 
+## Production scope
+
+The release keeps the unchanged residual10 count emitter. Of 900 target/context groups, 330 reuse validated V24 counts exactly; the remaining 570 were regenerated from the fixed V61 effects. The unsuccessful state_cells50 generator is excluded. All 360,000 cells use original guide-stratified control templates with exact integer libraries.
+
 ## Integrity and release scope
 
 The production kernel is independently implemented and compared bitwise against all public primary predictions. Every production effect is additionally reconstructed through the original transfer implementation. Counts retain exact original library sizes and unique guide-stratified templates. Full package verification compares every stored value/index/pointer and all axes, verifies provenance and replays 12 complete groups.
