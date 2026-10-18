@@ -1,0 +1,23 @@
+{
+  "sha256": "1d1f63311243d61cce38dcc28cf5876b4a705674507eaa55b46dc4bf96870481",
+  "meta_sha256": "89554f5e2fa45ee7b4adb27bdd9f988056dfecb0184347375142f794b3651ca9",
+  "rows": 24868,
+  "source_record": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v22_cd4\\Marson2025_D2_Rest_filtered.h5ad",
+    "source_md5": "md5:474833a3f246a748b8076cdcbdcf63e1",
+    "counts_sha256": "3f6acba5f4c65951c060b7413311ef7cceacf513695537620a0418f9d48da23e",
+    "cells_sha256": "d87cc661acb1a8dfaeeb94fe383b0912af9b34e1229e35b50cb7b7edac6de09f",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 25281,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D2 Rest; existing CD4 study family, new raw-cell evaluation source",
+    "script_sha256": "ef5e6e3972ba3d914d6ed407b542569bde27bab69442e2275325a83b2c5c83fa"
+  },
+  "plan_sha256": "d5469c640dd2263d197d01baadf3814b2958397aefa95f633f0ce5faf07c39b5",
+  "normalization": "Per-cell CPM over aligned gene axis as official DE; no rank pseudocount",
+  "D3_opened": false
+}

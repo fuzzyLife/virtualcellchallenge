@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "context": "A",
+      "coordinates": 5559900,
+      "bitwise_equal": true
+    },
+    {
+      "context": "B",
+      "coordinates": 5559900,
+      "bitwise_equal": true
+    },
+    {
+      "context": "C",
+      "coordinates": 5559900,
+      "bitwise_equal": true
+    }
+  ],
+  "independent_from_production_kernel": true,
+  "original_transfer_code_sha256": "219f0a3c1c11f782e4e9a408430d2a519df2c27c44ccf089640e0fc303d9c48b",
+  "verifier_sha256": "14f947e6d8b17089787756726ef8ac1aa19858f3884d954d82ebca38e52c4986",
+  "model_sha256": "b266bc98f17ce6aebb20cadb254e63af63d1027406c95c39311e44e6f6d11f5c",
+  "D3_opened": false
+}

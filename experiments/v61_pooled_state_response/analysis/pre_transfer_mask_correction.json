@@ -1,0 +1,9 @@
+{
+  "original_plan_sha256": "d5469c640dd2263d197d01baadf3814b2958397aefa95f633f0ce5faf07c39b5",
+  "wrapper_sha256": "73f6830d39602817aaddf07f13225425a937742fd8a34339052a023366faca4a",
+  "controller_sha256": "dc29f17d972d91979f394112c72f6b297341e7aa433bff2a5f9cf7071c2861ea",
+  "initial_controller_sha256": "6cb46e3b35a2109ccc18f3dc5b1a48fd55f4c76b801c7b2d2b13c94e40328479",
+  "reason": "Saved aligned profiles use zero for unmeasured genes alongside an explicit measured mask. Before pairwise-valid basal Spearman routing, set only unmeasured coordinates to NaN. Genuine measured zeros remain valid rank values. This also prevents absent query coordinates acting as finite denominators; existing response support masks retain fallback.",
+  "timing": "Frozen before any deployable transfer predictions or aggregate response/count outcomes existed. State fits and treatment-split diagnostics do not use basal routing and remain unchanged.",
+  "D3_opened": false
+}

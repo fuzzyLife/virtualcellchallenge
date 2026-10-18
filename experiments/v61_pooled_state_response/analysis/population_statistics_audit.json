@@ -1,0 +1,161 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "H1",
+      "target": "ACLY",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1844857272791387e-07
+    },
+    {
+      "source": "H1",
+      "target": "ACLY",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.139858212262368e-07
+    },
+    {
+      "source": "H1",
+      "target": "ADNP",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1909882635663394e-07
+    },
+    {
+      "source": "H1",
+      "target": "ADNP",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1911963904154277e-07
+    },
+    {
+      "source": "HCT116",
+      "target": "ABCD1",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1909890096362119e-07
+    },
+    {
+      "source": "HCT116",
+      "target": "ABCD1",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1907816155343198e-07
+    },
+    {
+      "source": "HCT116",
+      "target": "ACLY",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.191884488882522e-07
+    },
+    {
+      "source": "HCT116",
+      "target": "ACLY",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1749367301305824e-07
+    },
+    {
+      "source": "HEK293T",
+      "target": "ADNP",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1893200468904297e-07
+    },
+    {
+      "source": "HEK293T",
+      "target": "ADNP",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1893897911008366e-07
+    },
+    {
+      "source": "HEK293T",
+      "target": "AGO1",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1913442188316026e-07
+    },
+    {
+      "source": "HEK293T",
+      "target": "AGO1",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1906036245790119e-07
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "target": "AKAP1",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1904605079493535e-07
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "target": "AKAP1",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1863686033564136e-07
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "target": "CCDC112",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.19119000441259e-07
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "target": "CCDC112",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1915656195071733e-07
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "AKAP1",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1905598551464891e-07
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "AKAP1",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1913644248906508e-07
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "ALG12",
+      "view": 0,
+      "max_absolute_LFC_label_error": 1.1887319351089332e-07
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "ALG12",
+      "view": 1,
+      "max_absolute_LFC_label_error": 1.1882981088007227e-07
+    }
+  ],
+  "empty_lane_state_accounting": [
+    {
+      "source": "H1",
+      "treated_state_cells_without_same_lane_state_controls": 173,
+      "total_treated_view_cells": 7450,
+      "fraction": 0.023221476510067115
+    },
+    {
+      "source": "HCT116",
+      "treated_state_cells_without_same_lane_state_controls": 303,
+      "total_treated_view_cells": 15054,
+      "fraction": 0.020127540852929456
+    },
+    {
+      "source": "HEK293T",
+      "treated_state_cells_without_same_lane_state_controls": 240,
+      "total_treated_view_cells": 11536,
+      "fraction": 0.020804438280166437
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "treated_state_cells_without_same_lane_state_controls": 11,
+      "total_treated_view_cells": 14868,
+      "fraction": 0.0007398439601829433
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "treated_state_cells_without_same_lane_state_controls": 3,
+      "total_treated_view_cells": 14650,
+      "fraction": 0.00020477815699658703
+    }
+  ],
+  "auditor_sha256": "d488e57b91b83d1adc58aa6a718cb442efddabaf0fe35356a706253df3bd1fe5",
+  "plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "scope": "Replays two full matched target populations in both disjoint views per source; counts empty lane-state imputation exposure across all eligible targets. Does not establish causal state identity.",
+  "D3_opened": false
+}

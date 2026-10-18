@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scientific_interpretation": "Audit success verifies execution/boundaries, not predictive improvement",
+  "release_supported": false,
+  "comparisons": 264,
+  "response_cases": 366,
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "anndata": "0.13.4",
+    "torch": "2.10.0+cu126"
+  },
+  "response_sha256": "d13032d20e1de623c36ac3273c56ec8808122f5cc80711aad700dce980347cde",
+  "count_sha256": "33777a8584e5bc23b64f06952d63aa95a3efb4da1f8778b1ab7d3b37c0ac65e9",
+  "array_manifest_sha256": "e758ba7e0d4b21bdec42a514955b66923dbc872733481e440f6e96c77f1d5b66",
+  "plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "correction_sha256": "5743d1015642cc948abfdfbd25b7e003d686a54bac6a418202d7b1b16c1fa375",
+  "auditor_sha256": "bfdfb4aec0cb022b4bf5c494537f236db8ff3f07dac54f84ebc74c3232ee954e",
+  "D3_opened": false,
+  "submission_uploaded": false
+}

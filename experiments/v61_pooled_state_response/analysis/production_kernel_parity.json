@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "H1",
+      "bitwise_equal": true,
+      "coordinates": 5559900
+    },
+    {
+      "source": "HCT116",
+      "bitwise_equal": true,
+      "coordinates": 5559900
+    },
+    {
+      "source": "HEK293T",
+      "bitwise_equal": true,
+      "coordinates": 5559900
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "bitwise_equal": true,
+      "coordinates": 5559900
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "bitwise_equal": true,
+      "coordinates": 5559900
+    }
+  ],
+  "kernel_sha256": "33539942952d812fb68a25530aebe728cfbe67b2ac629fe3661c89bb10ffdab3",
+  "plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "D3_opened": false
+}

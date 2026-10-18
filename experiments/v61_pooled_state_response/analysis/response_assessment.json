@@ -1,0 +1,22 @@
+{
+  "passed": false,
+  "joint50_MSE_ratio_by_study": {
+    "CD4": 1.007561495952582,
+    "H1": 1.065895654597267,
+    "Orion": 1.0025600681198246
+  },
+  "equal_study_mean_ratio": 1.0253390728898912,
+  "beats_shuffled_and_pooled_each_study": {
+    "CD4": false,
+    "H1": false,
+    "Orion": false
+  },
+  "cases": 366,
+  "comparisons": 1830,
+  "plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "response_sha256": "d13032d20e1de623c36ac3273c56ec8808122f5cc80711aad700dce980347cde",
+  "oracle_sha256": "52b4d65ef2b7a64a3d916f3fd1a0dbf629f18f93a1b3f035b17ff1ad73a78d5b",
+  "count_tests_are_separate": true,
+  "D3_opened": false,
+  "private_score": null
+}

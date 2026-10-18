@@ -1,3 +1,11 @@
+<!-- v61-state-release:begin -->
+## V61: pooled state-response experimental release
+
+Three state-composition variants tested; V61 completed 366 public response cases and 264 paired count comparisons. Public release support: **False**. The fixed primary failed the recorded public support gates. This release is experimental and is not recommended as a validated replacement for V24. D3 remains unopened.
+
+[Upload file and command](V61_SUBMISSION.md) · [Measured V61 results](V61_RESULTS.md) · [V59–V61 review](V59_V61_STATE_REVIEW.md) · [Reproduce](V61_POOLED_STATE_STRATEGY.md). Root scripts retain the original methods, pre-score corrections, negative results and explicit experimental candidate lock. No automatic upload.
+<!-- v61-state-release:end -->
+
 # Virtual Cell Challenge 2026
 
 <!-- v58-pie-cross:begin -->

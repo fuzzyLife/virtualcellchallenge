@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "comparisons": 264,
+  "expected": 264,
+  "checks": {
+    "H1": {
+      "expression_better": false,
+      "DE_gains": 1,
+      "FID_guard": false,
+      "JAC_guard": true,
+      "beats_shuffle_FID": false,
+      "beats_shuffle_expression": false
+    },
+    "Orion": {
+      "expression_better": false,
+      "DE_gains": 0,
+      "FID_guard": true,
+      "JAC_guard": true,
+      "beats_shuffle_FID": false,
+      "beats_shuffle_expression": true
+    },
+    "CD4": {
+      "expression_better": false,
+      "DE_gains": 1,
+      "FID_guard": true,
+      "JAC_guard": true,
+      "beats_shuffle_FID": true,
+      "beats_shuffle_expression": false
+    }
+  },
+  "count_pass": false,
+  "response_pass": false,
+  "release_supported": false,
+  "count_sha256": "33777a8584e5bc23b64f06952d63aa95a3efb4da1f8778b1ab7d3b37c0ac65e9",
+  "plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "D3_opened": false,
+  "private_score": null
+}

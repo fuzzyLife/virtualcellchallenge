@@ -1,0 +1,3319 @@
+{
+  "sha256": "66d78ac074685749cc176854ab387ebccd8a88518a7374aa26bf1ee8f40d6483",
+  "outer": "Orion",
+  "training_sources": [
+    "H1",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "source_rank_correlations": {
+    "H1": 0.7774691101024306,
+    "CD4_Rest_D2": 0.741897874103172,
+    "CD4_Stim48_D2": 0.7510180523283957
+  },
+  "records": [
+    {
+      "target": "ABCD1",
+      "target_index": 0,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ACLY",
+      "target_index": 1,
+      "supported_genes": 14484,
+      "tilt": [
+        0.061046970639163894,
+        -0.08286223422323193,
+        -0.01404246123192864,
+        0.03548567197523501
+      ]
+    },
+    {
+      "target": "ADNP",
+      "target_index": 2,
+      "supported_genes": 13954,
+      "tilt": [
+        0.0644162659513213,
+        -0.07239428877610836,
+        -0.03819869186801355,
+        0.05094266192041498
+      ]
+    },
+    {
+      "target": "AGO1",
+      "target_index": 3,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "AKAP1",
+      "target_index": 4,
+      "supported_genes": 13004,
+      "tilt": [
+        0.018406939882878143,
+        -0.0060653322943000215,
+        0.015029103714943003,
+        -0.02391895676870571
+      ]
+    },
+    {
+      "target": "AKIRIN1",
+      "target_index": 5,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "AKT2",
+      "target_index": 6,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ALG12",
+      "target_index": 7,
+      "supported_genes": 12663,
+      "tilt": [
+        0.013446375619863673,
+        -0.0054513620320666,
+        0.006785222510447157,
+        -0.01319565601500028
+      ]
+    },
+    {
+      "target": "ANKRD52",
+      "target_index": 8,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ANKZF1",
+      "target_index": 9,
+      "supported_genes": 14442,
+      "tilt": [
+        0.06040139678126332,
+        -0.07300487747163505,
+        -0.023376347701869346,
+        0.03697959194308472
+      ]
+    },
+    {
+      "target": "ANP32B",
+      "target_index": 10,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "AP2A2",
+      "target_index": 11,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "API5",
+      "target_index": 12,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ARL14EP",
+      "target_index": 13,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ASCC2",
+      "target_index": 14,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "BCKDK",
+      "target_index": 15,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "BCL6",
+      "target_index": 16,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "BCL7C",
+      "target_index": 17,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "BRD1",
+      "target_index": 18,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "BRPF1",
+      "target_index": 19,
+      "supported_genes": 13880,
+      "tilt": [
+        0.0604136027282226,
+        -0.06437879028189802,
+        -0.048263118146845564,
+        0.05856013426103137
+      ]
+    },
+    {
+      "target": "C5orf22",
+      "target_index": 20,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CAND1",
+      "target_index": 21,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CAPRIN2",
+      "target_index": 22,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CARM1",
+      "target_index": 23,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CAT",
+      "target_index": 24,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CCDC112",
+      "target_index": 25,
+      "supported_genes": 13042,
+      "tilt": [
+        0.022844956068193454,
+        0.004061085118444775,
+        -0.013389459914231525,
+        -0.005488964435086593
+      ]
+    },
+    {
+      "target": "CDK8",
+      "target_index": 26,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CHD3",
+      "target_index": 27,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CHD6",
+      "target_index": 28,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CHKB",
+      "target_index": 29,
+      "supported_genes": 12895,
+      "tilt": [
+        0.019639716416228924,
+        -0.008608719430557282,
+        -0.05216303225187521,
+        0.04948367206648964
+      ]
+    },
+    {
+      "target": "CLCN6",
+      "target_index": 30,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "COIL",
+      "target_index": 31,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "COMMD8",
+      "target_index": 32,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "COQ10B",
+      "target_index": 33,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CSNK2A1",
+      "target_index": 34,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "CYTH2",
+      "target_index": 35,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DBF4B",
+      "target_index": 36,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DBN1",
+      "target_index": 37,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DCAF16",
+      "target_index": 38,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DCP2",
+      "target_index": 39,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DDHD1",
+      "target_index": 40,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DEAF1",
+      "target_index": 41,
+      "supported_genes": 11823,
+      "tilt": [
+        0.10029709126242958,
+        -0.026698298215652026,
+        0.03665294763060635,
+        -0.09931024504303886
+      ]
+    },
+    {
+      "target": "DEK",
+      "target_index": 42,
+      "supported_genes": 13109,
+      "tilt": [
+        0.12146546612941868,
+        -0.05346943766964944,
+        0.022503006661545154,
+        -0.08756921122360663
+      ]
+    },
+    {
+      "target": "DHRS1",
+      "target_index": 43,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DHX35",
+      "target_index": 44,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DLAT",
+      "target_index": 45,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DMTF1",
+      "target_index": 46,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DNTTIP1",
+      "target_index": 47,
+      "supported_genes": 13184,
+      "tilt": [
+        -0.023002171822589162,
+        0.03128614475369906,
+        -0.07798628877929285,
+        0.08517217786134333
+      ]
+    },
+    {
+      "target": "DRG2",
+      "target_index": 48,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DTNBP1",
+      "target_index": 49,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "DVL3",
+      "target_index": 50,
+      "supported_genes": 13071,
+      "tilt": [
+        0.06276853950901191,
+        -0.011570900976769372,
+        0.00039240864887450313,
+        -0.045059428829802774
+      ]
+    },
+    {
+      "target": "E2F1",
+      "target_index": 51,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "E2F4",
+      "target_index": 52,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EAPP",
+      "target_index": 53,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EEF1A2",
+      "target_index": 54,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ELK1",
+      "target_index": 55,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EPC2",
+      "target_index": 56,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EPHB2",
+      "target_index": 57,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EPM2AIP1",
+      "target_index": 58,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "EZH2",
+      "target_index": 59,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FAM120A",
+      "target_index": 60,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FCGRT",
+      "target_index": 61,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FHL3",
+      "target_index": 62,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FOXN2",
+      "target_index": 63,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FOXO4",
+      "target_index": 64,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FUBP3",
+      "target_index": 65,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "FXYD5",
+      "target_index": 66,
+      "supported_genes": 13203,
+      "tilt": [
+        0.01754763191590766,
+        0.011774488673993614,
+        0.00983192410399759,
+        -0.029107083656044915
+      ]
+    },
+    {
+      "target": "FZD2",
+      "target_index": 67,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GIGYF2",
+      "target_index": 68,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GLI3",
+      "target_index": 69,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GLYR1",
+      "target_index": 70,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GMEB2",
+      "target_index": 71,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GPATCH8",
+      "target_index": 72,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GRAMD1A",
+      "target_index": 73,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "GTF2IRD1",
+      "target_index": 74,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HDAC1",
+      "target_index": 75,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HDAC8",
+      "target_index": 76,
+      "supported_genes": 14297,
+      "tilt": [
+        0.06869200799254782,
+        -0.05261638269760436,
+        -0.06524305716939043,
+        0.05703528124565831
+      ]
+    },
+    {
+      "target": "HEATR6",
+      "target_index": 77,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HMGN3",
+      "target_index": 78,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HMGN4",
+      "target_index": 79,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HMGXB3",
+      "target_index": 80,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HOMEZ",
+      "target_index": 81,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HSBP1",
+      "target_index": 82,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "HSP90AB1",
+      "target_index": 83,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "IFI27L2",
+      "target_index": 84,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "IFNAR2",
+      "target_index": 85,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "IFNGR2",
+      "target_index": 86,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "IL10RB",
+      "target_index": 87,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "IREB2",
+      "target_index": 88,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KDM5A",
+      "target_index": 89,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KHDRBS1",
+      "target_index": 90,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KHSRP",
+      "target_index": 91,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KIF21B",
+      "target_index": 92,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KIF2A",
+      "target_index": 93,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "KMT2A",
+      "target_index": 94,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "LDLR",
+      "target_index": 95,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "LENG1",
+      "target_index": 96,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "LMAN1",
+      "target_index": 97,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "LMBRD2",
+      "target_index": 98,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "LPCAT3",
+      "target_index": 99,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MAN2A1",
+      "target_index": 100,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MAP2K2",
+      "target_index": 101,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MAPK12",
+      "target_index": 102,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MAPK7",
+      "target_index": 103,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MARCKSL1",
+      "target_index": 104,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MBD4",
+      "target_index": 105,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MED13",
+      "target_index": 106,
+      "supported_genes": 13111,
+      "tilt": [
+        -0.08177211607531618,
+        0.0832035565129117,
+        -0.0796530971343237,
+        0.09299204372278926
+      ]
+    },
+    {
+      "target": "MED15",
+      "target_index": 107,
+      "supported_genes": 15284,
+      "tilt": [
+        0.06462041486863405,
+        -0.04704425731939933,
+        -0.011705347168429123,
+        0.001616716670554674
+      ]
+    },
+    {
+      "target": "MED25",
+      "target_index": 108,
+      "supported_genes": 14275,
+      "tilt": [
+        0.06512476175762909,
+        -0.06596701926928485,
+        -0.0725299917555491,
+        0.07505589829658847
+      ]
+    },
+    {
+      "target": "MLKL",
+      "target_index": 109,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MLLT10",
+      "target_index": 110,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MSANTD4",
+      "target_index": 111,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MSI2",
+      "target_index": 112,
+      "supported_genes": 13043,
+      "tilt": [
+        -0.030520905003632234,
+        0.016725399370104217,
+        -0.011903641625078096,
+        0.03197569089039818
+      ]
+    },
+    {
+      "target": "MTA1",
+      "target_index": 113,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MTF1",
+      "target_index": 114,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MTHFSD",
+      "target_index": 115,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MTM1",
+      "target_index": 116,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MYD88",
+      "target_index": 117,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MYPOP",
+      "target_index": 118,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "MYRF",
+      "target_index": 119,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NABP2",
+      "target_index": 120,
+      "supported_genes": 13018,
+      "tilt": [
+        -0.004222256941265088,
+        0.009958645311120923,
+        -0.032408952623644564,
+        0.03067962295319157
+      ]
+    },
+    {
+      "target": "NAIF1",
+      "target_index": 121,
+      "supported_genes": 12751,
+      "tilt": [
+        0.02917349975911749,
+        0.009215961605712995,
+        -0.009762693690351303,
+        -0.030245511319479536
+      ]
+    },
+    {
+      "target": "NCLN",
+      "target_index": 122,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NFE2L1",
+      "target_index": 123,
+      "supported_genes": 14383,
+      "tilt": [
+        0.07456432676966479,
+        -0.07597096418724263,
+        -0.041255540172868095,
+        0.04371148880025878
+      ]
+    },
+    {
+      "target": "NGLY1",
+      "target_index": 124,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NICN1",
+      "target_index": 125,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NIPAL3",
+      "target_index": 126,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NIPSNAP3A",
+      "target_index": 127,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NT5DC1",
+      "target_index": 128,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "NUP37",
+      "target_index": 129,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PAN2",
+      "target_index": 130,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PAPOLA",
+      "target_index": 131,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PARP3",
+      "target_index": 132,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PATL1",
+      "target_index": 133,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PBLD",
+      "target_index": 134,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PCGF1",
+      "target_index": 135,
+      "supported_genes": 13195,
+      "tilt": [
+        -0.06039971071568076,
+        0.04003654437017897,
+        -0.05018530245104898,
+        0.0840904930072667
+      ]
+    },
+    {
+      "target": "PCGF6",
+      "target_index": 136,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PDCD4",
+      "target_index": 137,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PDE6D",
+      "target_index": 138,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PDK1",
+      "target_index": 139,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PDK3",
+      "target_index": 140,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PGLS",
+      "target_index": 141,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PHF11",
+      "target_index": 142,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PHF19",
+      "target_index": 143,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PHF23",
+      "target_index": 144,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PHF8",
+      "target_index": 145,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PI4KB",
+      "target_index": 146,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PIM2",
+      "target_index": 147,
+      "supported_genes": 13014,
+      "tilt": [
+        0.052678599770754925,
+        -0.007837667387018302,
+        -0.010493932536481657,
+        -0.030284023256481992
+      ]
+    },
+    {
+      "target": "PIN1",
+      "target_index": 148,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PINK1",
+      "target_index": 149,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PKN3",
+      "target_index": 150,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PLAGL2",
+      "target_index": 151,
+      "supported_genes": 14531,
+      "tilt": [
+        0.06025470511766196,
+        -0.0680938594431083,
+        -0.03885399041740393,
+        0.048881555721177465
+      ]
+    },
+    {
+      "target": "PLCG1",
+      "target_index": 152,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PNP",
+      "target_index": 153,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "POLD4",
+      "target_index": 154,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "POR",
+      "target_index": 155,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PPIF",
+      "target_index": 156,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PPIP5K2",
+      "target_index": 157,
+      "supported_genes": 13158,
+      "tilt": [
+        -0.068268129813633,
+        0.04803839325340129,
+        -0.022253515552563285,
+        0.04786743061652455
+      ]
+    },
+    {
+      "target": "PQBP1",
+      "target_index": 158,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRDX3",
+      "target_index": 159,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRKAB2",
+      "target_index": 160,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRKACA",
+      "target_index": 161,
+      "supported_genes": 13008,
+      "tilt": [
+        0.013535260144611046,
+        -0.0027021096100043507,
+        -0.013879089351947272,
+        0.0076762815042726844
+      ]
+    },
+    {
+      "target": "PRMT2",
+      "target_index": 162,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRMT6",
+      "target_index": 163,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRMT7",
+      "target_index": 164,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PRNP",
+      "target_index": 165,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PSKH1",
+      "target_index": 166,
+      "supported_genes": 11774,
+      "tilt": [
+        -0.06992230194955719,
+        0.08841479804433924,
+        -0.07304984706272351,
+        0.07831688102406394
+      ]
+    },
+    {
+      "target": "PSMB9",
+      "target_index": 167,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PTMS",
+      "target_index": 168,
+      "supported_genes": 13090,
+      "tilt": [
+        0.052656505747046896,
+        -0.008366433314425813,
+        0.014553502862411097,
+        -0.04975657413864877
+      ]
+    },
+    {
+      "target": "PTOV1",
+      "target_index": 169,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "PYCR1",
+      "target_index": 170,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "R3HCC1L",
+      "target_index": 171,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RAB11FIP5",
+      "target_index": 172,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RAB5A",
+      "target_index": 173,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RABEP2",
+      "target_index": 174,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RBM18",
+      "target_index": 175,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RBM26",
+      "target_index": 176,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RBM4B",
+      "target_index": 177,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RBM5",
+      "target_index": 178,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RC3H2",
+      "target_index": 179,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "REV1",
+      "target_index": 180,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RFK",
+      "target_index": 181,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RNF10",
+      "target_index": 182,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RNF141",
+      "target_index": 183,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RNF2",
+      "target_index": 184,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "RSRC1",
+      "target_index": 185,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "S100A11",
+      "target_index": 186,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SAP30L",
+      "target_index": 187,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SCAF8",
+      "target_index": 188,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SEMA4F",
+      "target_index": 189,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SFXN4",
+      "target_index": 190,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SH2D3A",
+      "target_index": 191,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SHPRH",
+      "target_index": 192,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SIN3B",
+      "target_index": 193,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SLC25A13",
+      "target_index": 194,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SLC39A1",
+      "target_index": 195,
+      "supported_genes": 13155,
+      "tilt": [
+        -0.018211484186480296,
+        0.005231994312133232,
+        -0.014787597972878666,
+        0.04032782920057714
+      ]
+    },
+    {
+      "target": "SLC44A1",
+      "target_index": 196,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SLIRP",
+      "target_index": 197,
+      "supported_genes": 14521,
+      "tilt": [
+        0.07066150416393253,
+        -0.06847254426819435,
+        -0.04299703492662426,
+        0.04349014687064014
+      ]
+    },
+    {
+      "target": "SMARCA5",
+      "target_index": 198,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SMARCC2",
+      "target_index": 199,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SMYD2",
+      "target_index": 200,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SND1",
+      "target_index": 201,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SNN",
+      "target_index": 202,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SNRK",
+      "target_index": 203,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SNX4",
+      "target_index": 204,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SOCS5",
+      "target_index": 205,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SPATA20",
+      "target_index": 206,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SRSF5",
+      "target_index": 207,
+      "supported_genes": 13253,
+      "tilt": [
+        0.043308761776167215,
+        0.027435497968790204,
+        0.011316699491791793,
+        -0.07103872429605476
+      ]
+    },
+    {
+      "target": "SSR4",
+      "target_index": 208,
+      "supported_genes": 13152,
+      "tilt": [
+        -0.039346180552056666,
+        0.010581942538593491,
+        -0.011301145030728826,
+        0.0485039440846879
+      ]
+    },
+    {
+      "target": "STAT6",
+      "target_index": 209,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "STK3",
+      "target_index": 210,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "STT3A",
+      "target_index": 211,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "SUPT7L",
+      "target_index": 212,
+      "supported_genes": 13017,
+      "tilt": [
+        -0.10822516843740072,
+        0.056005330543100654,
+        -0.07958243849855419,
+        0.14245618314876568
+      ]
+    },
+    {
+      "target": "SYVN1",
+      "target_index": 213,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TAF15",
+      "target_index": 214,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TAF4",
+      "target_index": 215,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TARBP2",
+      "target_index": 216,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TBC1D13",
+      "target_index": 217,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TBC1D19",
+      "target_index": 218,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TBCK",
+      "target_index": 219,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TDRD7",
+      "target_index": 220,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TEAD4",
+      "target_index": 221,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TESK2",
+      "target_index": 222,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TEX2",
+      "target_index": 223,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TFCP2",
+      "target_index": 224,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "THAP3",
+      "target_index": 225,
+      "supported_genes": 13083,
+      "tilt": [
+        0.05582569744240298,
+        -0.012553123422565591,
+        0.002438458321688595,
+        -0.04369303175253632
+      ]
+    },
+    {
+      "target": "THAP7",
+      "target_index": 226,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TIMM17B",
+      "target_index": 227,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TIMM50",
+      "target_index": 228,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMCO6",
+      "target_index": 229,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMED3",
+      "target_index": 230,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMEM104",
+      "target_index": 231,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMEM147",
+      "target_index": 232,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMEM186",
+      "target_index": 233,
+      "supported_genes": 11824,
+      "tilt": [
+        0.037303720727558505,
+        -0.0011981995017864462,
+        -0.010640666612399671,
+        -0.015088232534168841
+      ]
+    },
+    {
+      "target": "TMEM209",
+      "target_index": 234,
+      "supported_genes": 12754,
+      "tilt": [
+        0.009476000263989169,
+        0.006894249680249917,
+        0.012332531430209763,
+        -0.02609212154589453
+      ]
+    },
+    {
+      "target": "TMEM41B",
+      "target_index": 235,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMEM79",
+      "target_index": 236,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TMF1",
+      "target_index": 237,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TRAPPC6A",
+      "target_index": 238,
+      "supported_genes": 11787,
+      "tilt": [
+        0.03658416816619795,
+        -0.010802598985297887,
+        0.012461980471785527,
+        -0.028652182601973306
+      ]
+    },
+    {
+      "target": "TRIB3",
+      "target_index": 239,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TRIM35",
+      "target_index": 240,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TRIP4",
+      "target_index": 241,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TRMT1",
+      "target_index": 242,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TRPC4AP",
+      "target_index": 243,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TTBK2",
+      "target_index": 244,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "TWF2",
+      "target_index": 245,
+      "supported_genes": 13152,
+      "tilt": [
+        0.06832201069967794,
+        -0.017767552428672662,
+        -0.008805046442972543,
+        -0.04223630833621095
+      ]
+    },
+    {
+      "target": "TXNDC16",
+      "target_index": 246,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "UNK",
+      "target_index": 247,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "UPF3B",
+      "target_index": 248,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "UROS",
+      "target_index": 249,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "USP28",
+      "target_index": 250,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "VAPB",
+      "target_index": 251,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "VIM",
+      "target_index": 252,
+      "supported_genes": 13208,
+      "tilt": [
+        -0.15214784742394463,
+        0.044794905858291705,
+        -0.023859498629035185,
+        0.14636592671185378
+      ]
+    },
+    {
+      "target": "WBP4",
+      "target_index": 253,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "YIPF6",
+      "target_index": 254,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZBTB34",
+      "target_index": 255,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZBTB41",
+      "target_index": 256,
+      "supported_genes": 13044,
+      "tilt": [
+        0.04216459877106774,
+        -0.007393058949908366,
+        -0.009413026416341813,
+        -0.020870027204305037
+      ]
+    },
+    {
+      "target": "ZBTB48",
+      "target_index": 257,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZC2HC1A",
+      "target_index": 258,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZC3HAV1",
+      "target_index": 259,
+      "supported_genes": 13066,
+      "tilt": [
+        0.005315911867050726,
+        0.014379260863962243,
+        0.0040226520657668605,
+        -0.01580929998441668
+      ]
+    },
+    {
+      "target": "ZDHHC12",
+      "target_index": 260,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZDHHC4",
+      "target_index": 261,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZFP62",
+      "target_index": 262,
+      "supported_genes": 14067,
+      "tilt": [
+        0.051088645425544546,
+        -0.07088722552360531,
+        -0.00993832826689582,
+        0.04131171277744341
+      ]
+    },
+    {
+      "target": "ZHX3",
+      "target_index": 263,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZKSCAN1",
+      "target_index": 264,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZKSCAN2",
+      "target_index": 265,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZKSCAN3",
+      "target_index": 266,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF16",
+      "target_index": 267,
+      "supported_genes": 12987,
+      "tilt": [
+        0.02789803473336581,
+        0.0005234981741792867,
+        -0.014644193527077335,
+        -0.005583772674348628
+      ]
+    },
+    {
+      "target": "ZNF174",
+      "target_index": 268,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF219",
+      "target_index": 269,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF22",
+      "target_index": 270,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF25",
+      "target_index": 271,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF251",
+      "target_index": 272,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF280C",
+      "target_index": 273,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF282",
+      "target_index": 274,
+      "supported_genes": 12991,
+      "tilt": [
+        0.022005101480338657,
+        0.0022704887591035814,
+        -0.009208239396612819,
+        -0.003290034615700674
+      ]
+    },
+    {
+      "target": "ZNF32",
+      "target_index": 275,
+      "supported_genes": 14256,
+      "tilt": [
+        0.05701711861949147,
+        -0.0667938363844806,
+        -0.04390271535070788,
+        0.05890388544257182
+      ]
+    },
+    {
+      "target": "ZNF324",
+      "target_index": 276,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF397",
+      "target_index": 277,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF410",
+      "target_index": 278,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF444",
+      "target_index": 279,
+      "supported_genes": 12562,
+      "tilt": [
+        0.0039065564277777935,
+        -0.006796059790328472,
+        -0.017858166220679855,
+        0.024344243255812244
+      ]
+    },
+    {
+      "target": "ZNF462",
+      "target_index": 280,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF496",
+      "target_index": 281,
+      "supported_genes": 12889,
+      "tilt": [
+        -0.009623456669048177,
+        0.020428333883794097,
+        -0.032693711570463434,
+        0.03227349005391032
+      ]
+    },
+    {
+      "target": "ZNF507",
+      "target_index": 282,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF514",
+      "target_index": 283,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF526",
+      "target_index": 284,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF530",
+      "target_index": 285,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF543",
+      "target_index": 286,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF627",
+      "target_index": 287,
+      "supported_genes": 13094,
+      "tilt": [
+        0.009191077412350654,
+        0.0038223086524166315,
+        0.0100695875439648,
+        -0.012305622289913375
+      ]
+    },
+    {
+      "target": "ZNF628",
+      "target_index": 288,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF641",
+      "target_index": 289,
+      "supported_genes": 12868,
+      "tilt": [
+        -0.01757742565130854,
+        0.006147232536913856,
+        -0.07465070986074045,
+        0.08884484353482867
+      ]
+    },
+    {
+      "target": "ZNF670",
+      "target_index": 290,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF714",
+      "target_index": 291,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF740",
+      "target_index": 292,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF768",
+      "target_index": 293,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF777",
+      "target_index": 294,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF783",
+      "target_index": 295,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF784",
+      "target_index": 296,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF786",
+      "target_index": 297,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZNF821",
+      "target_index": 298,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "target": "ZRANB3",
+      "target_index": 299,
+      "supported_genes": 0,
+      "tilt": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "plan_sha256": "d5469c640dd2263d197d01baadf3814b2958397aefa95f633f0ce5faf07c39b5",
+  "recipient_response_fields_used": false,
+  "D3_opened": false
+}

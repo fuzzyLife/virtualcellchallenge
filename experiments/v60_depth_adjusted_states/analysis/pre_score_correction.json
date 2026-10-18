@@ -1,0 +1,10 @@
+{
+  "original_plan_sha256": "d5469c640dd2263d197d01baadf3814b2958397aefa95f633f0ce5faf07c39b5",
+  "wrapper_sha256": "7e2136f6e619193534bcb4af254bdbf9b283d66dffba86a333b91eefb950f847",
+  "controller_sha256": "6cb46e3b35a2109ccc18f3dc5b1a48fd55f4c76b801c7b2d2b13c94e40328479",
+  "reason": "Within-state multiplicative changes can alter total CPM. Close every reconstructed profile to 1e6 before LFC comparison; all arms/controls receive same definition. Original code and protocol preserved.",
+  "timing": "No state fits, treatment reconstruction outcomes, transfer predictions or count scores existed at correction freeze.",
+  "unchanged": "Raw populations, genes, state architecture, source exclusions, pseudocounts, shrinkage, shuffle, blend weights, cohorts, seeds, count generator and release criteria.",
+  "operational": "Read-only in-process memoization of verified raw matrices avoids repeated decompression; no transformation changed.",
+  "D3_opened": false
+}
