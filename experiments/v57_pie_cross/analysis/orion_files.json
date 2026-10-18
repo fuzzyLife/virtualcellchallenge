@@ -1,0 +1,107 @@
+{
+  "url": "https://huggingface.co/api/datasets/arcinstitute/PIE_x_atlas_orion/tree/0950c8aa5ce5b33dc9d6f0c5eade3ae445ca0ffb/preprocessed?recursive=false",
+  "files": [
+    {
+      "type": "file",
+      "oid": "a93de17daadb21f76e3124b232ab92ea8f9fc890",
+      "size": 177584,
+      "lfs": {
+        "oid": "08aa13a9cbbd2012936123914c948b662c263d5a7844fe4c41d0c8d3f37c77b3",
+        "size": 177584,
+        "pointerSize": 131
+      },
+      "xetHash": "debf8911ef4e0eb29e684e389ec996c52002852d12cee7b24ad43e873c0a82d6",
+      "path": "preprocessed/ctrl_means.npy"
+    },
+    {
+      "type": "file",
+      "oid": "9c3d8d41d64632f09cb5234bad9283e2c1b6466c",
+      "size": 53264,
+      "lfs": {
+        "oid": "90ad5397492619cac657be7a916de3c95c0b51628c3e5d91cbbd281280a2f88a",
+        "size": 53264,
+        "pointerSize": 130
+      },
+      "xetHash": "98f34fec85a4c18ace65383aea65c821882f6f88afa37c5048a98235cb6ea97f",
+      "path": "preprocessed/ctx_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "893d5c4fd4f314072bacf91490f154d924a5c538",
+      "size": 1178662880,
+      "lfs": {
+        "oid": "9cee676286d51c08e345de3b8e9680786a6095853bbea37c97ae3c6fa174a5fa",
+        "size": 1178662880,
+        "pointerSize": 135
+      },
+      "xetHash": "c786be4d3536daabb79aafa54839d6f94e0938021b6ad65a2305c60b683c0391",
+      "path": "preprocessed/delta_p.npy"
+    },
+    {
+      "type": "file",
+      "oid": "86358a4ae23b457105b6fb4218631ff877dfc46d",
+      "size": 1178662880,
+      "lfs": {
+        "oid": "2219a0575405d8238eab02d9a7acc78b0d7573041e0cd7f858253fc60376d9de",
+        "size": 1178662880,
+        "pointerSize": 135
+      },
+      "xetHash": "537c600228e8da1794955bc9b487cbbbc40d12102f9a28f1ab6f1d2fc059abf4",
+      "path": "preprocessed/fdr.npy"
+    },
+    {
+      "type": "file",
+      "oid": "2296077e325184f83c0782b34dfc15372f85c98d",
+      "size": 1178662880,
+      "lfs": {
+        "oid": "95d4b729fe2d6080375f78902d4b54e79ac15eb90f341cd9b14d0fb1a6caf878",
+        "size": 1178662880,
+        "pointerSize": 135
+      },
+      "xetHash": "690b14e4308380abdf2d342b7100b57d5294f4a45d84a047fd2402f5862a2eda",
+      "path": "preprocessed/fold_changes.npy"
+    },
+    {
+      "type": "file",
+      "oid": "430d7569353dc5965db8fcbaf07a0a3388bf0c56",
+      "size": 2357325632,
+      "lfs": {
+        "oid": "078cb346a4e3a025edc3d4ca1e9ba6c8717ee7b54d73941591838b4d21b64ec8",
+        "size": 2357325632,
+        "pointerSize": 135
+      },
+      "xetHash": "e085c34ec0dcaea95522ecad28bbdaae9ac0c2de80141d8f6ea69ef0e98ae65b",
+      "path": "preprocessed/lfc_true.npy"
+    },
+    {
+      "type": "file",
+      "oid": "274c6f5aefe10437f1ddff1c4279b244ebdb0f04",
+      "size": 473417,
+      "path": "preprocessed/meta.json"
+    },
+    {
+      "type": "file",
+      "oid": "86bf1f6915e245bcb2d0fc48316e2d359e6a3681",
+      "size": 53264,
+      "lfs": {
+        "oid": "c6b28cf5551da18d25f83225c55037c08d586a2856aacf37b5a68c50a8246ee6",
+        "size": 53264,
+        "pointerSize": 130
+      },
+      "xetHash": "2323293ecd58d2456f2e0484dd6e6c07a199c821d4578b40cf932a64e06a382b",
+      "path": "preprocessed/pert_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "45ebf98a07894f895153a1b25595e0d69492bebf",
+      "size": 294665816,
+      "lfs": {
+        "oid": "fcb837692e06e1e712c6b3d6cc3602497e2fdc1211598ce73fcafa0eedd79e57",
+        "size": 294665816,
+        "pointerSize": 134
+      },
+      "xetHash": "dcf31ed9bad4a87c678623701e0655c16360c60698edb5569a991fd0127b9c9e",
+      "path": "preprocessed/tested.npy"
+    }
+  ]
+}

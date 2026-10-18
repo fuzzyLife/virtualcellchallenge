@@ -1,0 +1,1647 @@
+{
+  "train_split_sha256": "8d050f28aebf482135d42f758f6b440e0333b3dec8efc0dddab9dcc3099d4be4",
+  "records": [
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "AKT2",
+      "source_row": 2,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "HSBP1",
+      "source_row": 40,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "MED13",
+      "source_row": 64,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "MTA1",
+      "source_row": 71,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "RNF2",
+      "source_row": 95,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "SHPRH",
+      "source_row": 102,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "SIN3B",
+      "source_row": 103,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "SMARCA5",
+      "source_row": 109,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "STAT6",
+      "source_row": 116,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "TARBP2",
+      "source_row": 122,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "TRAPPC6A",
+      "source_row": 131,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "TWF2",
+      "source_row": 133,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "arc_vcc_25",
+      "context": "ARC_H1",
+      "target": "ZNF714",
+      "source_row": 145,
+      "excluded_for": [
+        "H1"
+      ]
+    },
+    {
+      "dataset": "jiang",
+      "context": "a549_ifnb",
+      "target": "STAT6",
+      "source_row": 10,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "a549_ins",
+      "target": "FOXO4",
+      "source_row": 29,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "a549_tgfb",
+      "target": "MED15",
+      "source_row": 34,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "a549_tnfa",
+      "target": "MTF1",
+      "source_row": 51,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "a549_tnfa",
+      "target": "ZNF22",
+      "source_row": 57,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "bxpc3_ifnb",
+      "target": "STAT6",
+      "source_row": 77,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "bxpc3_ins",
+      "target": "FOXO4",
+      "source_row": 106,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "bxpc3_tnfa",
+      "target": "ZNF22",
+      "source_row": 152,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "hap1_ifnb",
+      "target": "IFNAR2",
+      "source_row": 167,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "hap1_ifnb",
+      "target": "STAT6",
+      "source_row": 185,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "hap1_tnfa",
+      "target": "MTF1",
+      "source_row": 259,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "hap1_tnfa",
+      "target": "ZNF22",
+      "source_row": 271,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "ht29_ifnb",
+      "target": "IFNAR2",
+      "source_row": 279,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "ht29_ifnb",
+      "target": "STAT6",
+      "source_row": 290,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "mcf7_ins",
+      "target": "FOXO4",
+      "source_row": 446,
+      "excluded_for": []
+    },
+    {
+      "dataset": "jiang",
+      "context": "mcf7_tnfa",
+      "target": "MTF1",
+      "source_row": 459,
+      "excluded_for": []
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ABCD1",
+      "source_row": 27,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ACLY",
+      "source_row": 66,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "AKAP1",
+      "source_row": 239,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "AKT2",
+      "source_row": 253,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ALG12",
+      "source_row": 272,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ANKZF1",
+      "source_row": 359,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ANP32B",
+      "source_row": 365,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "AP2A2",
+      "source_row": 385,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ARL14EP",
+      "source_row": 483,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ASCC2",
+      "source_row": 530,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "BCL7C",
+      "source_row": 703,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "BRPF1",
+      "source_row": 778,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CAND1",
+      "source_row": 1028,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CAPRIN2",
+      "source_row": 1042,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CARM1",
+      "source_row": 1052,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CCDC112",
+      "source_row": 1091,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CHKB",
+      "source_row": 1441,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "COIL",
+      "source_row": 1629,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "COMMD8",
+      "source_row": 1658,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "COQ10B",
+      "source_row": 1666,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CSNK2A1",
+      "source_row": 1781,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "CYTH2",
+      "source_row": 1912,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DBN1",
+      "source_row": 1938,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DCP2",
+      "source_row": 1955,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DHRS1",
+      "source_row": 2039,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DHX35",
+      "source_row": 2049,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DLAT",
+      "source_row": 2070,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "DNTTIP1",
+      "source_row": 2142,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "EEF1A2",
+      "source_row": 2276,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "EZH2",
+      "source_row": 2487,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "FCGRT",
+      "source_row": 2649,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "FHL3",
+      "source_row": 2707,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "FXYD5",
+      "source_row": 2833,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "FZD2",
+      "source_row": 2836,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "GIGYF2",
+      "source_row": 2985,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "GLI3",
+      "source_row": 3019,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "GMEB2",
+      "source_row": 3047,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "GRAMD1A",
+      "source_row": 3178,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HDAC8",
+      "source_row": 3351,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HMGN3",
+      "source_row": 3422,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HMGXB3",
+      "source_row": 3423,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HOMEZ",
+      "source_row": 3435,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HSBP1",
+      "source_row": 3484,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "HSP90AB1",
+      "source_row": 3500,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "IFI27L2",
+      "source_row": 3568,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "IFNAR2",
+      "source_row": 3588,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "KHDRBS1",
+      "source_row": 3904,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "KHSRP",
+      "source_row": 3907,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "LENG1",
+      "source_row": 4166,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "LMAN1",
+      "source_row": 4269,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MAP2K2",
+      "source_row": 4458,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MARCKSL1",
+      "source_row": 4482,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MED25",
+      "source_row": 4540,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MLKL",
+      "source_row": 4627,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MTA1",
+      "source_row": 4803,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "MTHFSD",
+      "source_row": 4813,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "NAIF1",
+      "source_row": 4914,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "NGLY1",
+      "source_row": 5029,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "NICN1",
+      "source_row": 5040,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "NIPAL3",
+      "source_row": 5049,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "NIPSNAP3A",
+      "source_row": 5051,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PAN2",
+      "source_row": 5572,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PARP3",
+      "source_row": 5590,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PCGF6",
+      "source_row": 5659,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PDE6D",
+      "source_row": 5694,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PDK1",
+      "source_row": 5712,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PDK3",
+      "source_row": 5713,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PHF11",
+      "source_row": 5792,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PHF19",
+      "source_row": 5794,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PIN1",
+      "source_row": 5838,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PKN3",
+      "source_row": 5861,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PLAGL2",
+      "source_row": 5887,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PNP",
+      "source_row": 5962,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "POLD4",
+      "source_row": 5978,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "POR",
+      "source_row": 6004,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PPIF",
+      "source_row": 6034,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PPIP5K2",
+      "source_row": 6039,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PQBP1",
+      "source_row": 6070,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PRDX3",
+      "source_row": 6090,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PRMT2",
+      "source_row": 6122,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PRMT6",
+      "source_row": 6124,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PRMT7",
+      "source_row": 6125,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PSKH1",
+      "source_row": 6203,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PTMS",
+      "source_row": 6244,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "PYCR1",
+      "source_row": 6281,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "R3HCC1L",
+      "source_row": 6297,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "RBM18",
+      "source_row": 6405,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "RC3H2",
+      "source_row": 6421,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "RNF141",
+      "source_row": 6567,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "RNF2",
+      "source_row": 6580,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "RSRC1",
+      "source_row": 6676,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "S100A11",
+      "source_row": 6706,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SAP30L",
+      "source_row": 6738,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SEMA4F",
+      "source_row": 6846,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SFXN4",
+      "source_row": 6914,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SIN3B",
+      "source_row": 6981,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SLC25A13",
+      "source_row": 7068,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SLC44A1",
+      "source_row": 7148,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SLIRP",
+      "source_row": 7209,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SMARCA5",
+      "source_row": 7224,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SMYD2",
+      "source_row": 7263,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SND1",
+      "source_row": 7274,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SNN",
+      "source_row": 7277,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SOCS5",
+      "source_row": 7298,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SSR4",
+      "source_row": 7440,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "SUPT7L",
+      "source_row": 7539,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TARBP2",
+      "source_row": 7615,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TBC1D19",
+      "source_row": 7646,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TEAD4",
+      "source_row": 7706,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TESK2",
+      "source_row": 7728,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TFCP2",
+      "source_row": 7748,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "THAP7",
+      "source_row": 7770,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TIMM17B",
+      "source_row": 7805,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TMCO6",
+      "source_row": 7861,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TMED3",
+      "source_row": 7865,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TMEM104",
+      "source_row": 7871,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TMEM41B",
+      "source_row": 7970,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TMEM79",
+      "source_row": 7989,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TRAPPC6A",
+      "source_row": 8129,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TRPC4AP",
+      "source_row": 8200,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TWF2",
+      "source_row": 8295,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "TXNDC16",
+      "source_row": 8303,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "VIM",
+      "source_row": 8468,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "WBP4",
+      "source_row": 8521,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "YIPF6",
+      "source_row": 8610,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZBTB48",
+      "source_row": 8635,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZC2HC1A",
+      "source_row": 8642,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZDHHC12",
+      "source_row": 8660,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZDHHC4",
+      "source_row": 8668,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZHX3",
+      "source_row": 8691,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZKSCAN2",
+      "source_row": 8696,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZKSCAN3",
+      "source_row": 8697,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF22",
+      "source_row": 8736,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF25",
+      "source_row": 8745,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF282",
+      "source_row": 8755,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF32",
+      "source_row": 8766,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF444",
+      "source_row": 8802,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF526",
+      "source_row": 8823,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF530",
+      "source_row": 8826,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF628",
+      "source_row": 8868,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF641",
+      "source_row": 8870,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF670",
+      "source_row": 8879,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF714",
+      "source_row": 8905,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF777",
+      "source_row": 8927,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF783",
+      "source_row": 8929,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hct116",
+      "target": "ZNF784",
+      "source_row": 8930,
+      "excluded_for": [
+        "HCT116"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "ABCD1",
+      "source_row": 9004,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "EPM2AIP1",
+      "source_row": 10141,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "IFI27L2",
+      "source_row": 10691,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "NIPSNAP3A",
+      "source_row": 11460,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "RBM18",
+      "source_row": 12176,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "THAP7",
+      "source_row": 12804,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "TRAPPC6A",
+      "source_row": 12972,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "TRIB3",
+      "source_row": 12982,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "TWF2",
+      "source_row": 13048,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "ZKSCAN2",
+      "source_row": 13197,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    },
+    {
+      "dataset": "orion",
+      "context": "hek293t",
+      "target": "ZNF628",
+      "source_row": 13233,
+      "excluded_for": [
+        "HEK293T"
+      ]
+    }
+  ]
+}

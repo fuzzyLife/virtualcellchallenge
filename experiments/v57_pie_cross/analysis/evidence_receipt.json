@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "quantity": "Query-target projection of genuine saved training evidence; not a full author cache",
+  "original_evidence_key": "87a01957365041383ac2cbae3a9cf44be6f48e5dbc69ca045f14fa270441d151",
+  "train_json_sha256": "8d050f28aebf482135d42f758f6b440e0333b3dec8efc0dddab9dcc3099d4be4",
+  "datasets": [
+    "arc_vcc_25",
+    "jiang",
+    "orion",
+    "tahoe"
+  ],
+  "clip": 1.4526293703936182,
+  "scales": {
+    "dp": 0.05677240808220526,
+    "lfc": 0.5216779182337941
+  },
+  "full_training_totals": {
+    "dp_sum": -1293673.471722958,
+    "dp_sumsq": 3926801.9979271847,
+    "dp_cnt": 1217902064.0,
+    "lfc_sum": -25219549.488461398,
+    "lfc_sumsq": 197734898.49211228,
+    "lfc_cnt": 723340673.0
+  },
+  "training_rows": {
+    "arc_vcc_25": 146,
+    "jiang": 342,
+    "orion": 12628,
+    "tahoe": 51144
+  },
+  "global_scaling": "All training rows, all contributing genes. Float64 streaming sums; equivalent sufficient statistics up to summation roundoff.",
+  "query_exclusion": "H1 removes matching target records from all VCC25 contexts; Orion removes matching target records in its own line. CD4 has no matching training source. Context response blocks missing for novel anonymous query contexts."
+}

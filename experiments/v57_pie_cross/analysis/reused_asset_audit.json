@@ -1,0 +1,488 @@
+{
+  "passed": true,
+  "prior_manifest_sha256": "c6385ed1b24fb62ff95a74ec185fecf6b0959de36fe72f1581fe1d0ed1f4dac3",
+  "checked": [
+    {
+      "path": "reference/v18_pie/sources/context_text/embeddings.npy",
+      "bytes": 1081472,
+      "sha256": "2cbe3ccf7cbc583374e34c4f589af7185d75f17ff97e0ded4a0281af4b1a90b6"
+    },
+    {
+      "path": "reference/v18_pie/sources/context_text/meta.json",
+      "bytes": 1905,
+      "sha256": "73fc6afd728697e38d854dea3158deed75785598425351295afaee4c888cce31"
+    },
+    {
+      "path": "reference/v18_pie/sources/depmap_gene_effect/embeddings.npy",
+      "bytes": 87455768,
+      "sha256": "d2bd753f7228343853165bae9ba32909292b049ec0e28e7ff408bc339c16d1dd"
+    },
+    {
+      "path": "reference/v18_pie/sources/depmap_gene_effect/meta.json",
+      "bytes": 231632,
+      "sha256": "3e807a78454641bbdfe43ad2c1053d6a4f11643ea397cae60a42e3e739d6612e"
+    },
+    {
+      "path": "reference/v18_pie/sources/esm2/embeddings.npy",
+      "bytes": 98319488,
+      "sha256": "427b867ccfddf2050686815b97063e2ceeb4044bc48c67b6baa8d3778f0bebcd"
+    },
+    {
+      "path": "reference/v18_pie/sources/esm2/meta.json",
+      "bytes": 220332,
+      "sha256": "6f8d9b56215c628a60d0f05ae635a65a6d6567a138f49c2c94863aa136f3d25c"
+    },
+    {
+      "path": "reference/v18_pie/sources/gene_text/embeddings.npy",
+      "bytes": 389333120,
+      "sha256": "7ae69de3086f65a145ea571d4c34ad9fc52d9c60cd72b6fc02d3b213428c6cf7"
+    },
+    {
+      "path": "reference/v18_pie/sources/gene_text/meta.json",
+      "bytes": 433168,
+      "sha256": "edb1fa415cbc02c9d27101991407ac8a63b74f38f377a76c19a28b7ebddafcc1"
+    },
+    {
+      "path": "reference/v18_pie/sources/ncbi_subset/embeddings.npy",
+      "bytes": 744243328,
+      "sha256": "f8b3969ba069349318f06098f1d7bc74e3c1957c71f2f088302baa0428db9437"
+    },
+    {
+      "path": "reference/v18_pie/sources/ncbi_subset/meta.json",
+      "bytes": 6473,
+      "sha256": "4d650284af36e87cdc53855678b3d6e43839826ce18d85defb16bb3442165cb9"
+    },
+    {
+      "path": "reference/v18_pie/sources/ncbi_subset/offsets.npy",
+      "bytes": 2528,
+      "sha256": "e7793b0fddf27d1bde478eae25a5f793c4a884246769889a03d84c5c35c9f3a1"
+    },
+    {
+      "path": "reference/v18_pie/sources/ncbi_text/meta.json",
+      "bytes": 244942,
+      "sha256": "48c77a819abc4a3fecabecc95cb565647ee163b028cb70e6be3ef52d720a7daa"
+    },
+    {
+      "path": "reference/v18_pie/sources/ncbi_text/offsets.npy",
+      "bytes": 164928,
+      "sha256": "c511cf53123525f1575534c4f585ae9bd120051bced71dc2f73c05b07ab9b291"
+    },
+    {
+      "path": "reference/v18_pie/sources/perturbation_text/embeddings.npy",
+      "bytes": 152875136,
+      "sha256": "b0e41a8c4c6e3da50bd8767ddfd12005e9076cc3682d2d853589f09d56886889"
+    },
+    {
+      "path": "reference/v18_pie/sources/perturbation_text/meta.json",
+      "bytes": 160288,
+      "sha256": "7ad8611e90a13d523a93bdf777a4975362d738da10e8d5989822ed6bdb71dee7"
+    },
+    {
+      "path": "reference/v18_pie/sources/string_space/embeddings.npy",
+      "bytes": 20171904,
+      "sha256": "7821a545053825eb4e62e9597d542c0cbbdf24c8e8648e2ba8ccb38da825e83a"
+    },
+    {
+      "path": "reference/v18_pie/sources/string_space/meta.json",
+      "bytes": 229020,
+      "sha256": "57a3627433d4414af4503113dc29290d467b588fc47fe385657ba812ed736642"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/__init__.py",
+      "bytes": 313,
+      "sha256": "2fa2cb8f0063d1005ad978ad654cd47eb146bde1630ea4e298da8f13be824f96"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/assets.py",
+      "bytes": 11471,
+      "sha256": "358bfd42e353d9bf9d6e1d5093ab9f4ad83fd256ff76e62aea835fe2160c9333"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/cli.py",
+      "bytes": 8783,
+      "sha256": "6ed9bdcac7f5d1607dec88d72c6981303b1f0e431879eb041ccfd9602bcbaa5e"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/config.py",
+      "bytes": 10190,
+      "sha256": "d0dd67c0f34328c09ef62cc417c1409e03b2a7cc690df7b33ce7b5cd4f819508"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/eval.yaml",
+      "bytes": 284,
+      "sha256": "a9d8644c245eb35d33f29a95a25ccf95b43c324865ba8955ebfc9149029d0745"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/experiment/replogle_wdataset.yaml",
+      "bytes": 1750,
+      "sha256": "2f216e73dffafdc1d5bc062c8a35c43c8bdd5e8913870242ddb086a5e330f479"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/experiment/replogle_xdataset.yaml",
+      "bytes": 2567,
+      "sha256": "905ea135b6f7d1da1018e4b7ee0bae1fdc75397e6bc751b187472a6fe24326d4"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/infer.yaml",
+      "bytes": 332,
+      "sha256": "5f504c3c6a128ae7d322107a102edf8e9041033e1a47d49a13ecfdadbe79b956"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/dataset/arc_vcc_25.yaml",
+      "bytes": 394,
+      "sha256": "9e0838051a04bc076c951fdec3ef695c85ce5b67839327be2571e829d979c064"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/dataset/jiang.yaml",
+      "bytes": 143,
+      "sha256": "79842e55cab13647aba301a2dbed77d8a05ae1c26be111353632c5c43f2680fa"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/dataset/orion.yaml",
+      "bytes": 142,
+      "sha256": "b00cc1ef9a592b5c92ab8267c22f7a6d5a5b3be520fedaf5b044871627d37646"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/dataset/replogle.yaml",
+      "bytes": 387,
+      "sha256": "29c73a8f73c5d63884de5ba3fbc78707bd874e666d4a09d36e7e515f27d188b9"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/dataset/tahoe.yaml",
+      "bytes": 256,
+      "sha256": "815cfb79df50d6bd56206abbcc61323d81b0ed3bbd9822f37f4f772a8493ebfe"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/label_format/pie_process.yaml",
+      "bytes": 267,
+      "sha256": "c198cad14f10a9ebe815acf13bb542c6b357f8c061ea501f350612e29e175710"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep/label_format/table.yaml",
+      "bytes": 253,
+      "sha256": "bce263ace73e9f80361cc97a40548af58c44b620f9ed9de425e1c31d011d39e3"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/prep.yaml",
+      "bytes": 969,
+      "sha256": "45e17c6754d57a2fa92b211852fe73c5084c33cd3af52c6233288273513d8a47"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process/dataset/arc_vcc_25.yaml",
+      "bytes": 308,
+      "sha256": "a2cc7e39eaa6dfac51c02ac90491efdb713b5a7f00422c87106664b72198bad9"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process/dataset/jiang.yaml",
+      "bytes": 262,
+      "sha256": "7f39de8e1ec75b2593c98bd7267a84a26ab18e09bf1a3653fa56b1e9dd08eebd"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process/dataset/orion.yaml",
+      "bytes": 253,
+      "sha256": "21d5f05b4c6086cf82cde5eaf94c07b635dd34e327e5e51be9682f2cc5e24152"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process/dataset/replogle.yaml",
+      "bytes": 236,
+      "sha256": "7568d4924520814b2cb5e1182b12f86787a1c84c5cf7623870ef2e049aa475ab"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process/dataset/tahoe.yaml",
+      "bytes": 212,
+      "sha256": "6d51276401d2caac7d63d7148168597c6dd35d62be5914666414700ab1b2deae"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/process.yaml",
+      "bytes": 920,
+      "sha256": "de9b376a7bb7a4d79cd5aa50061b1529f2d0cb929c0394e5ff8a02122b8e0c43"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/sources.yaml",
+      "bytes": 691,
+      "sha256": "a1115a090cd9684c3f1ae605c414a90fbe6c619210dda46a607a4598315c0823"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/configs/train.yaml",
+      "bytes": 1602,
+      "sha256": "6a892195d72a8b09172720cc234c55bcb7efe8c7af2a91bd5d018e2ff4fa965d"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/datamodule.py",
+      "bytes": 19373,
+      "sha256": "ef9d9a68f1ccdc57248e549334ed497dd2464901360190ee70b8714cf11be15a"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/dataset.py",
+      "bytes": 11410,
+      "sha256": "77906fd2afe537d89b619bcd9556b64c5c0fe32761c3f71583deb131761e6c02"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/delta_p.py",
+      "bytes": 4491,
+      "sha256": "539c095c6127596b0bd97fa50fdf95ed0a8984efb6ab419edd5bbf23db604896"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/evidence.py",
+      "bytes": 41107,
+      "sha256": "6e919486d63841ba34064ab586afaf925044532f0bb038fe25111d2a590366cd"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/preprocessed.py",
+      "bytes": 11207,
+      "sha256": "7d53ec0edf105774f5f2d8730f22b42a16d543b53abe2d17163b7dd45cf8ceba"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/samplers.py",
+      "bytes": 6574,
+      "sha256": "13b4341543214cda3bbb0fe16127db95059b4f0e8edeaaea49887e0d6de8c2d3"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/data/splits.py",
+      "bytes": 4990,
+      "sha256": "de2f2f28b273e10e52d6b4ba87eee39692f939201d296de8279cb6127bce7833"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/evaluate.py",
+      "bytes": 5195,
+      "sha256": "29bf9cc0f68950fcd260d4017ce90610fc0e87392a2f8fde5b9f4390699aae61"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/infer.py",
+      "bytes": 1447,
+      "sha256": "941d00a00e7614697538f62688a553114bd8b3f605f46a82e0736bd2d3ea7eb2"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/metrics.py",
+      "bytes": 17353,
+      "sha256": "1ded5d4e1f9bbcd4a629ee8682108c4abf0844488d0a1bfcc83171d46c359890"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/__init__.py",
+      "bytes": 435,
+      "sha256": "bb806cde3652d4ea0a9723402f409b1b5067ff3bbbb4e53f7f683c609325607b"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/evidence.py",
+      "bytes": 3103,
+      "sha256": "8a078e6672a2d36ac5ccecf94adc8842038aff30a2edb85cd4cedc168bbc9459"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/heads.py",
+      "bytes": 1224,
+      "sha256": "898a1da96c989f8906414c9a7b7c219a815a7b5dcd2178ddcdf53250adcc989e"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/layers.py",
+      "bytes": 1981,
+      "sha256": "4ab889c77a11aee98c32f475df121656346b214e44eed8841ebdeec89980f882"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/losses.py",
+      "bytes": 6343,
+      "sha256": "24b9e341486627aaf17a6a1a83f418cc44c7c5c92864dfeb8d2f9e1395905759"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/pie.py",
+      "bytes": 11879,
+      "sha256": "5a8c4d8aacbd30f2525c3b56ededbab8465d6c3c13f41cf446479c085490f9c0"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/model/trunk.py",
+      "bytes": 4038,
+      "sha256": "f4d05894266cccd5f382e96e1aeda9938dff3660302ef99a70a037845f4b1cbc"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/predict.py",
+      "bytes": 12397,
+      "sha256": "fe842a627545997dfc3fee5fde6698b1de58fe092ff668fe734180188bb40bde"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/prep/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/prep/config.py",
+      "bytes": 2630,
+      "sha256": "23da71c8f8e9495860ccbb575036f6dcc63ee70c33b5902bf3bcae4567c53842"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/prep/labels.py",
+      "bytes": 29023,
+      "sha256": "10d72af53952c5fab60000a5668cddd441737fadd69898bdf49d38e7e853aaf4"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/config.py",
+      "bytes": 2919,
+      "sha256": "20cb008177fd163503172a0d809afe67ee44c3659b7cbd7a65e6c62f476f9429"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/de.py",
+      "bytes": 5521,
+      "sha256": "52bfc910a97b24fd10a245242c89843f69a413972b5fc871bf1e0be314133ed7"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/io.py",
+      "bytes": 4037,
+      "sha256": "917488562429ac33309508d00f02db2467351a8421a0448b013cc257146a4052"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/knockdown.py",
+      "bytes": 12140,
+      "sha256": "754547cbf955405e02e927ddea4697c61d8c3a9eb2f8dd1146ed6499f7fefd90"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/normalize.py",
+      "bytes": 6970,
+      "sha256": "98e31091bfb8a071a96527a8524688e2798c98d3f64648888bdd7889a5e72033"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/process/run.py",
+      "bytes": 2757,
+      "sha256": "a297d083e55abca6632c90cd28a865354b5a201bfaaa2f354b6e0a5e249c37ee"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/chem_profiles.py",
+      "bytes": 20419,
+      "sha256": "5e1450aef1aff18d43d83938009968c4cdcbbab0abb26e20a6395101f24b7f5a"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/common.py",
+      "bytes": 4910,
+      "sha256": "30e404ea8d384ef77d345a53d4c4ea3c5139cd73d15d08490248f24881305f88"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/config.py",
+      "bytes": 2376,
+      "sha256": "ddec727e9a052840428382e86d8fe31f71465a366b9e4f341e848f3930550e30"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/contract.py",
+      "bytes": 12575,
+      "sha256": "efc45a07696331d4896a7f2166952ed815d0a5c07fa75fdbc28a5eca7ed9ebd2"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/curated_aliases.yaml",
+      "bytes": 770,
+      "sha256": "17505cb3c77ab265345ad8982a84e3d0313acc6f7d18ee38329296894015b8e5"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/depmap.py",
+      "bytes": 3084,
+      "sha256": "180593e0b7bef1592c2fd67d159149772023bc89036afbad5b11b00771ff1d48"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/embed/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/embed/chemberta.py",
+      "bytes": 6088,
+      "sha256": "6912bee71018eda43692fe907286afe82788861089a840b5f9d58baae1b09c38"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/embed/esm2.py",
+      "bytes": 5195,
+      "sha256": "4c43747a4e74507657b57897c70a42bb03f619558d663d9bdad19fa8c6963199"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/embed/openai.py",
+      "bytes": 4330,
+      "sha256": "44b6802fdb401c214ae17c59f41b81fb8f14f192477f3219dafd3a1b48498e1f"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/embed/qwen.py",
+      "bytes": 5277,
+      "sha256": "b0d7d96ef86912a1280fe4ca32f0030815a65f5dd63274be5cc486035f35f0c6"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/registry.py",
+      "bytes": 7964,
+      "sha256": "d07f2fb8408e5b377d6f9826b74de7008f9751c2b0264ce1e2d6cc18e494269e"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/string.py",
+      "bytes": 3572,
+      "sha256": "0a7eea83c5c1ca68833f5f1efa3627eca94e2af3b0385b2d74a77f9727afb5f5"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/_http.py",
+      "bytes": 2325,
+      "sha256": "dc609840e8c2e68715d8a403aaec5188a13211a0eafb5be661efee458fdf9ec0"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/context_file.py",
+      "bytes": 1569,
+      "sha256": "27b20967a2d2d701df734a66fef528c243493c706213f0a3b6d2cd6c8a7e4b73"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/contexts.py",
+      "bytes": 23384,
+      "sha256": "3d307de320c9866433ec0e94e0b4b09b285e9d076ac7076c4678d1895cb78657"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/drugs.py",
+      "bytes": 21083,
+      "sha256": "fe07d4dc7848775bec11b39b549947b7343db21af7dc2af467ffc65815864c52"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/genes.py",
+      "bytes": 21868,
+      "sha256": "9a044549eebf11450b06e4c7a02c81951f68c6ee76332fb3bd7a82cc9295a110"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/ncbi.py",
+      "bytes": 19032,
+      "sha256": "1ddb74ec562e1b02049af5fc89561d2ace82cc0e78860376fe67426d67e85301"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/text/tools.py",
+      "bytes": 10109,
+      "sha256": "da9d4051efd6a76bfe64c7fe0580d91788455b6647acdc4401196eed873109ef"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/uniprot.py",
+      "bytes": 5227,
+      "sha256": "93dc761402d433cf3b341c3940265c2e789fafc8ab2f04e6e66b944952ca9bac"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/sources/verify.py",
+      "bytes": 6094,
+      "sha256": "b9844c87db556042d571e6f9f34144302355830f455809b358b5991892ba3909"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/train.py",
+      "bytes": 19180,
+      "sha256": "48bca265739da28176baca32554d6f87ea792afbd9d905a19b2af8a16573e632"
+    },
+    {
+      "path": "reference/v18_pie/code/src/pie/utils.py",
+      "bytes": 12823,
+      "sha256": "1b99147194079fba672d0b6cfd3450fe5fc10137e5f919e7f8c754d51aa306a1"
+    }
+  ],
+  "bytes_verified": 1495668215,
+  "auditor_sha256": "46bc31d9ccfa04acb6833ef34c7a695e5ffc95661cfe1334fdc3940918359cd8"
+}

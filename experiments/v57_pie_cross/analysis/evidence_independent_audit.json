@@ -1,0 +1,225 @@
+{
+  "passed": true,
+  "comparisons": 36,
+  "checks": [
+    {
+      "target": "ABCD1",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ABCD1",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ABCD1",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "ABCD1",
+      "source": "HEK293T",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "ACLY",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ACLY",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ACLY",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "ACLY",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKAP1",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKAP1",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKAP1",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "AKAP1",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKT2",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKT2",
+      "source": "H1",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "AKT2",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "AKT2",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ALG12",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ALG12",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ALG12",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "ALG12",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ANKZF1",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ANKZF1",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ANKZF1",
+      "source": "HCT116",
+      "query_records_excluded": 1,
+      "genes": 127
+    },
+    {
+      "target": "ANKZF1",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ADNP",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ADNP",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ADNP",
+      "source": "HCT116",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "ADNP",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AGO1",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AGO1",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AGO1",
+      "source": "HCT116",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AGO1",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKIRIN1",
+      "source": "CD4_Rest_D2",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKIRIN1",
+      "source": "H1",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKIRIN1",
+      "source": "HCT116",
+      "query_records_excluded": 0,
+      "genes": 127
+    },
+    {
+      "target": "AKIRIN1",
+      "source": "HEK293T",
+      "query_records_excluded": 0,
+      "genes": 127
+    }
+  ],
+  "method": "Independent scalar donor-label arithmetic versus the projected author evidence blocks; exact saved split; covered and missing genes; recipient exclusions and novel-context zero blocks",
+  "full_training_count_verified": true,
+  "projection_receipt_sha256": "d0206810e02425d671a13a922df47acb86bcdfd0e46904388bb80e8cb808884a"
+}

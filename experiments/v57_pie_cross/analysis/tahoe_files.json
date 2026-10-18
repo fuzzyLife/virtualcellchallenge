@@ -1,0 +1,107 @@
+{
+  "url": "https://huggingface.co/api/datasets/arcinstitute/PIE_tahoe100m/tree/597d6ded9f9a148331388484ffb193489121c702/preprocessed?recursive=false",
+  "files": [
+    {
+      "type": "file",
+      "oid": "fb6f8c3b836a697bbaf37610e9d9e29f4a6dd673",
+      "size": 3630328,
+      "lfs": {
+        "oid": "881c6f04e7c342d207d3bda3fed1d074968674b103306da92985b19f83a60a2f",
+        "size": 3630328,
+        "pointerSize": 132
+      },
+      "xetHash": "4940046260fecced255c51fc6368e887282d387f6cb199ecca2f9bc6a5648c71",
+      "path": "preprocessed/ctrl_means.npy"
+    },
+    {
+      "type": "file",
+      "oid": "1bfc82f866aa7d538a23503875da865ad797c261",
+      "size": 227436,
+      "lfs": {
+        "oid": "d6fe20bba1fc976436d364688f226e2ff6624f87bf1082a09d92f7011ca6687a",
+        "size": 227436,
+        "pointerSize": 131
+      },
+      "xetHash": "2e6610d4bd26c313a0483ef679df64cceeab39ede1c0be5297722a1d76ec3f6b",
+      "path": "preprocessed/ctx_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "e08ec6a6c981b3db86b8314ea05cd87f3dee23cc",
+      "size": 4125867636,
+      "lfs": {
+        "oid": "85bff24f7366b3bfb411032eb93a3766dd28b34f36dce9742fdb31813cd40368",
+        "size": 4125867636,
+        "pointerSize": 135
+      },
+      "xetHash": "540a36bb3eb853659876c0e235f01a3ab4f5101142632c44487eb6a628c40b8a",
+      "path": "preprocessed/delta_p.npy"
+    },
+    {
+      "type": "file",
+      "oid": "9b38682540cd248b67dc8f20c71f2cdab2a76c52",
+      "size": 4125867636,
+      "lfs": {
+        "oid": "8fa9a4f4665f561f80821f03c2a5bbbf5b7398aa8e0a198301eb518caee75678",
+        "size": 4125867636,
+        "pointerSize": 135
+      },
+      "xetHash": "d8dfaee1c2e942630736b49b568807009a660be987d1adc4d6b25a5933af23ce",
+      "path": "preprocessed/fdr.npy"
+    },
+    {
+      "type": "file",
+      "oid": "c53517eb19238484158374ee10da3536a5652916",
+      "size": 4125867636,
+      "lfs": {
+        "oid": "b842ecc308cb7428ee8527b39bf25fbb907f88514432761b07b9698912c770fe",
+        "size": 4125867636,
+        "pointerSize": 135
+      },
+      "xetHash": "872aa8eeb0bff62abb40ee46848def217fa7ef2fad19b3b06c6f8b8df72a21e1",
+      "path": "preprocessed/fold_changes.npy"
+    },
+    {
+      "type": "file",
+      "oid": "9c240a2bfcbb6fdf1b8181428047f216d2d48dca",
+      "size": 8251735144,
+      "lfs": {
+        "oid": "2deab02282e67c812daef3e3836ccd2b11c5eb2deb522f062de1d3ff63cf87ad",
+        "size": 8251735144,
+        "pointerSize": 135
+      },
+      "xetHash": "29a2677fcc4cc9c4dc3b4410ceb347f20fa00786bc626dc2a855461de8fe5bed",
+      "path": "preprocessed/lfc_true.npy"
+    },
+    {
+      "type": "file",
+      "oid": "d59a4a462a493ee4076483755cfa05b270db59e4",
+      "size": 244992,
+      "path": "preprocessed/meta.json"
+    },
+    {
+      "type": "file",
+      "oid": "236e4abca2af2baf817e973438374c08bc708df4",
+      "size": 227436,
+      "lfs": {
+        "oid": "39b3dcb056ac36254e251323407e6472b7fe179f864c09beeb99ae1a9b0701c6",
+        "size": 227436,
+        "pointerSize": 131
+      },
+      "xetHash": "04d8b6d87cb8e1c807d8396e49c574ac46d4ba286cfb1dce5971ecfb6fcb6109",
+      "path": "preprocessed/pert_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "eee7c4be12e594e7dfa33d942b18acb4ebb457bd",
+      "size": 1031467005,
+      "lfs": {
+        "oid": "b52a8e7934eacab61d7a651e0f09875612df8c6e6f9d6e95c3eeb0021aaf6a81",
+        "size": 1031467005,
+        "pointerSize": 135
+      },
+      "xetHash": "f8f42ae13b567909816f9e1cccbb2b9a72ff64fbeee739e0580ef071fc884722",
+      "path": "preprocessed/tested.npy"
+    }
+  ]
+}

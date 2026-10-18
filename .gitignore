@@ -644,3 +644,12 @@ __marimo__/
 /experiments/v55_mean50_diagnostic/*.h5ad*
 /experiments/v55_mean50_diagnostic/*.vcc*
 /experiments/v55_mean50_diagnostic/analysis/prediction_control_rows.csv
+
+# V57 regenerable arrays, models and logs
+/experiments/v57*/**/*.npz
+/experiments/v57*/**/*.npy
+/experiments/v57*/**/*.pt
+/experiments/v57*/**/*.ckpt
+/experiments/v57*/*.log
+/experiments/v57*/*.h5ad*
+/experiments/v57*/*.vcc*
