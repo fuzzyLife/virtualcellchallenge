@@ -2,9 +2,9 @@
 
 <!-- v55-mean50:begin -->
 
-## V55 fixed half-blend diagnostic
+## V55 published diagnostic result
 
-Retested the previously unsubmitted V37 mean50 on all44 existing populations and two seeds (176 comparisons,30 distinct context-target pairs). Original V37 rejection is preserved; V24 remains best published. Completed independent source/score/production/full-payload checks. This is an exploratory diagnostic, with no claimed leaderboard improvement. [Results, uncertainty and submit command](V55_MEAN50_RESULTS.md), [protocol](V55_MEAN50_STRATEGY.md).
+V55 is published as `CTdmP6ishgalaMMz4XRe`, overall **0.138767074**, change **-0.004230781** versus V24. User page rank568/1568; API snapshot rank575 at the 18 October 2026 check. Both snapshots are retained. Only expression accuracy improves; REACH accounts for 91.2% of the net overall decline. The public fidelity gain fails to transfer. **V24 remains the best published project submission.** [Published scores and interpretation](V55_LEADERBOARD_RESULTS.md), [preserved pre-upload report](V55_MEAN50_RESULTS.md), [protocol](V55_MEAN50_STRATEGY.md). All generation-time receipts and the package remain unchanged.
 
 <!-- v55-mean50:end -->
 
