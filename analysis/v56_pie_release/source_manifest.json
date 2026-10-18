@@ -1,0 +1,65 @@
+{
+  "retrieved_utc": "2026-10-18T08:40:08.175658+00:00",
+  "sources": [
+    {
+      "file": "github_head.json",
+      "url": "https://api.github.com/repos/ArcInstitute/pie/commits?per_page=1",
+      "bytes": 4755,
+      "sha256": "f72f79b4d488981e3d169949a3e2b18b5445be58e4d2de310ebea9878aa0ec4a"
+    },
+    {
+      "file": "wd_current.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_wdataset?blobs=true",
+      "bytes": 6193,
+      "sha256": "2b0fd23fd90ad8d409a83c20a49f63d4ce88019c19be281498da22506b1407a5"
+    },
+    {
+      "file": "xd_current.json",
+      "url": "https://huggingface.co/api/models/arcinstitute/PIE_replogle_xdataset?blobs=true",
+      "bytes": 2520,
+      "sha256": "a3fdeb76b9ee9a4a36576f40060b781ee5fd64db59330785d9c114e54c8e4218"
+    },
+    {
+      "file": "wd_train.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_splits/resolve/396ab9563175ee887750c9eed7ccaea6f5fdbf50/replogle_wdataset/unseen_ctx/k562/train.json",
+      "bytes": 34228,
+      "sha256": "6143b4d1bdc30f09a323a5af944fe9049c77c724909fb20fdde0039b7faeddfb"
+    },
+    {
+      "file": "xd_train.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_splits/resolve/396ab9563175ee887750c9eed7ccaea6f5fdbf50/replogle_xdataset/train.json",
+      "bytes": 1642212,
+      "sha256": "8d050f28aebf482135d42f758f6b440e0333b3dec8efc0dddab9dcc3099d4be4"
+    },
+    {
+      "file": "replogle_nadig_essential_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_replogle_nadig_essential/resolve/20c9faef76fc96fdc809871340bd93499413dfe7/preprocessed/meta.json",
+      "bytes": 162999,
+      "sha256": "188bddb7df9682fa73a6621e2c8e58b7595a5409cf1ad82ed36185425633cb97"
+    },
+    {
+      "file": "tahoe100m_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_tahoe100m/resolve/597d6ded9f9a148331388484ffb193489121c702/preprocessed/meta.json",
+      "bytes": 244992,
+      "sha256": "acead8883b47379def87165dc246442e4432f6075bb27a62d7eb8f29dd4c8dd3"
+    },
+    {
+      "file": "jiang_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_jiang/resolve/99242356dfcf58e049d867703c5743df8d1790bf/preprocessed/meta.json",
+      "bytes": 287091,
+      "sha256": "2883ba405d4d75663b8d0b5f55d6e8b8bc731822e4528acd22da7aeffa6e8327"
+    },
+    {
+      "file": "arc_vcc_25_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_arc_vcc_25/resolve/e7dda6065316959958b87583ddf0a15f6e69c37d/preprocessed/meta.json",
+      "bytes": 143492,
+      "sha256": "56a8f21bd13d781adc45064aa4a698b4c3e66918b5bcdb05efd5df9112fe6cf3"
+    },
+    {
+      "file": "x_atlas_orion_meta.json",
+      "url": "https://huggingface.co/datasets/arcinstitute/PIE_x_atlas_orion/resolve/0950c8aa5ce5b33dc9d6f0c5eade3ae445ca0ffb/preprocessed/meta.json",
+      "bytes": 473417,
+      "sha256": "16b83a176823c2e87b5ccdfb6fd2cc8283e60f860e1797acdc9d01e6aa77398c"
+    }
+  ]
+}

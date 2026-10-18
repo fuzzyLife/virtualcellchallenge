@@ -1,5 +1,14 @@
 # Virtual Cell Challenge 2026
 
+<!-- v56-pie-release:begin -->
+
+## V56: PIE release and missing configuration audit
+
+The cloned PIE code and both published model revisions are unchanged from V18. That failed pilot tested a within-dataset checkpoint covering 6,290 output genes and zero panel targets in its training split. The untested cross-dataset checkpoint has 154 panel targets in its actual training split and 18,260 competition genes on contributing axes. Our old adapter discarded its mean-shift output. [Review, limitations and next experiment](V56_PIE_RELEASE_REVIEW.md); [root reproducible audit](audit_v56_pie_release.py). Metadata/code audit only; no new model performance or submission is claimed. V24 remains our best published result.
+
+<!-- v56-pie-release:end -->
+
+
 <!-- v55-mean50:begin -->
 
 ## V55 published diagnostic result
