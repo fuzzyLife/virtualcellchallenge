@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "wrapper_sha256": "564c4eef77a13b66f3a929b6c676d57929474b29260a0101bf659a0b24ba02ab",
+  "frozen_methods_unchanged": true,
+  "parity_targets": [
+    "ABCD1",
+    "ADNP"
+  ],
+  "parity_genes": 32,
+  "change": "Reuse read-only mmap handles and immutable JSON; no array values or calculations changed"
+}

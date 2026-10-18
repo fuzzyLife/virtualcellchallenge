@@ -1,0 +1,27 @@
+{
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "source": "HCT116",
+  "records": [
+    {
+      "arm": "v24",
+      "DE_calls": 2511,
+      "count_equals_real_template": false,
+      "mean_probability_L1": 0.007574745296895553,
+      "bulk_probability_L1": 3.550592536510948e-05,
+      "changed_transcript_fraction": 0.3218117203266402,
+      "global_moment_refit": true
+    },
+    {
+      "arm": "pie_joint",
+      "DE_calls": 0,
+      "count_equals_real_template": false,
+      "active_rank_coordinates": 0,
+      "empirical_weight_mean": 1.0,
+      "empirical_weight_active_mean": null,
+      "mean_probability_L1": 5.698831679882686e-05,
+      "bulk_probability_L1": 0.0
+    }
+  ],
+  "reference_cells": 2000,
+  "identity_anchor_scope": "Zero mean change and zero rank effect only; no inference about intervention accuracy"
+}

@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "target": "PHF19",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.19067132472991943,
+        "p_de": 0.023017263039946556,
+        "delta_p": 0.007372093852609396
+      },
+      "donor_genes_with_evidence": 14690
+    },
+    {
+      "target": "FCGRT",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.15988515317440033,
+        "p_de": 0.014902603812515736,
+        "delta_p": 0.010733694769442081
+      },
+      "donor_genes_with_evidence": 14690
+    },
+    {
+      "target": "RBM4B",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "AGO1",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    }
+  ],
+  "scope": "Fixed pilot only; numerical conditioning ablation, not an independent biological performance result"
+}

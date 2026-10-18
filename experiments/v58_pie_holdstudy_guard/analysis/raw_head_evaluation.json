@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "initial_run_before_count_generation": true,
+  "cases": 44,
+  "cases_sha256": "9fe4b98e9761862e9c7c3cc3c0f94031be2d6acf58f3b907637eb647b4cb2534",
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "DE_probability_evaluation": "Average precision on FDR-test-eligible genes only, own coordinate excluded; untested genes are not negative labels",
+  "LFC_evaluation": "Conditional error/direction on actual DE genes only. Model probability is not a p-value."
+}

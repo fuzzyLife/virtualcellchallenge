@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "target": "MED15",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.040957190096378326,
+        "p_de": 0.008808388374745846,
+        "delta_p": 0.01793062314391136
+      },
+      "donor_genes_with_evidence": 14699
+    },
+    {
+      "target": "MED25",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.13632479310035706,
+        "p_de": 0.012819032184779644,
+        "delta_p": 0.017200428992509842
+      },
+      "donor_genes_with_evidence": 14478
+    },
+    {
+      "target": "ZFP62",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "NFE2L1",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    }
+  ],
+  "scope": "Fixed pilot only; numerical conditioning ablation, not an independent biological performance result"
+}

@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "frozen_evaluator_sha256": "a7d0bca704a4fc1e6890ebdb4e6f2e454b2ad2f843fa5651726608093c39bf7d",
+  "wrapper_sha256": "b3af7af93457159b68db5df7d876aea7e2590d75844a2ff4d299b19f794b0b61",
+  "scope": "Module-local len on sparse matrices returns row count; ordinary len unchanged. Only frozen len(ref) call writes null-summary reference_cells. No array, count formula, seed, model or comparison changed."
+}

@@ -1,5 +1,14 @@
 # Virtual Cell Challenge 2026
 
+<!-- v58-pie-cross:begin -->
+
+## V58: cross-dataset PIE experiment completed
+
+Ran the broader pretrained PIE model with genuine saved response evidence and all three heads, then trained source-only calibrators and completed 366 response cases plus 176 integer-count comparisons. The corrected study excludes held-CD4 responses from both fitting labels and baseline features; poisoning all 604 CD4 response-bank rows leaves its features unchanged. Mean error falls 5-6%, but shuffled/evidence-only controls explain the gain. The joint decoder eliminates null false-DE calls while reducing CD4 direction fidelity from 0.523 to 0.417 (rest) and 0.503 to 0.270 (stimulated). **No new submission is justified; V24 remains preferred.** [Measured results](V58_PIE_CROSS_RESULTS.md), [protocol and commands](V58_PIE_CROSS_STRATEGY.md), [source/data audit](V56_PIE_RELEASE_REVIEW.md). Original V57 records and its correction notice are preserved; D3 remains unopened.
+
+<!-- v58-pie-cross:end -->
+
+
 <!-- v56-pie-release:begin -->
 
 ## V56: PIE release and missing configuration audit

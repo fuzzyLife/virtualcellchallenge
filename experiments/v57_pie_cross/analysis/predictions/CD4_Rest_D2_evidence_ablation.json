@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "target": "CCDC112",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.18653900921344757,
+        "p_de": 0.022496245801448822,
+        "delta_p": 0.0110230827704072
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "DNTTIP1",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.10318321734666824,
+        "p_de": 0.008793515153229237,
+        "delta_p": 0.008115659467875957
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "CHKB",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.17363665997982025,
+        "p_de": 0.02160666324198246,
+        "delta_p": 0.008520616218447685
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "SSR4",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.1827652007341385,
+        "p_de": 0.0195189006626606,
+        "delta_p": 0.008437421172857285
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "ZBTB41",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "THAP3",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "PRKACA",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "DVL3",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    }
+  ],
+  "scope": "Fixed pilot only; numerical conditioning ablation, not an independent biological performance result"
+}

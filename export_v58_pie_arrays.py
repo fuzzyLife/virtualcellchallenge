@@ -5,7 +5,7 @@ from v58_pie import *
 def main():
  assert read(A/'final_audit.json')['passed']
  destination=A/'arrays';destination.mkdir(exist_ok=True);records=[]
- for folder in ['inputs','predictions','calibrators','count_statistics']:
+ for folder in ['inputs','predictions','calibrators','count_statistics','head_truth']:
   for p in sorted((CACHE/folder).glob('*.npz')):
    target=destination/folder/p.name;target.parent.mkdir(parents=True,exist_ok=True);digest=sha(p)
    if target.exists():assert sha(target)==digest

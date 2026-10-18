@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "target": "PLAGL2",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "MED13",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.12322014570236206,
+        "p_de": 0.017601942643523216,
+        "delta_p": 0.014649931341409683
+      },
+      "donor_genes_with_evidence": 12286
+    },
+    {
+      "target": "CHD6",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "TRIP4",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    }
+  ],
+  "scope": "Fixed pilot only; numerical conditioning ablation, not an independent biological performance result"
+}

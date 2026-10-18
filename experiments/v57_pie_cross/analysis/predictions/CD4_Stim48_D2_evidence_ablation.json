@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "target": "DNTTIP1",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.10784603655338287,
+        "p_de": 0.008855410851538181,
+        "delta_p": 0.008575712330639362
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "PTMS",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.10905639082193375,
+        "p_de": 0.011968201957643032,
+        "delta_p": 0.012652275152504444
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "FXYD5",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.13423819839954376,
+        "p_de": 0.014059938490390778,
+        "delta_p": 0.00845725554972887
+      },
+      "donor_genes_with_evidence": 14515
+    },
+    {
+      "target": "MED13",
+      "seen": true,
+      "mean_abs_head_change": {
+        "lfc": 0.12229043990373611,
+        "p_de": 0.017370853573083878,
+        "delta_p": 0.015565204434096813
+      },
+      "donor_genes_with_evidence": 12271
+    },
+    {
+      "target": "MSI2",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "SLC39A1",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "SRSF5",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    },
+    {
+      "target": "THAP3",
+      "seen": false,
+      "mean_abs_head_change": {
+        "lfc": 0.0,
+        "p_de": 0.0,
+        "delta_p": 0.0
+      },
+      "donor_genes_with_evidence": 0
+    }
+  ],
+  "scope": "Fixed pilot only; numerical conditioning ablation, not an independent biological performance result"
+}

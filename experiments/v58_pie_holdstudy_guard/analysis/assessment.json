@@ -1,0 +1,31 @@
+{
+  "release_supported_by_conservative_check": false,
+  "checks": {
+    "CD4_Rest_D2": {
+      "mean_MSE_beats_V24": true,
+      "rank_MSE_beats_zero": false,
+      "count_profile_MSE_beats_V24": true,
+      "FID_not_worse": false,
+      "Jaccard_not_worse": false,
+      "FID_beats_shuffled": true,
+      "profile_MSE_beats_shuffled": true
+    },
+    "CD4_Stim48_D2": {
+      "mean_MSE_beats_V24": true,
+      "rank_MSE_beats_zero": false,
+      "count_profile_MSE_beats_V24": true,
+      "FID_not_worse": false,
+      "Jaccard_not_worse": false,
+      "FID_beats_shuffled": false,
+      "profile_MSE_beats_shuffled": false
+    }
+  },
+  "check_scope": "Conservative interpretation of this public development experiment, not the originally frozen selection formula or an official/private scoring guarantee. No raw local overall score is constructed.",
+  "V24_remains_published_champion": true,
+  "plan_sha256": "417725d7de448eca9ea27f307e81463956a3b5b39eca0ecdf469b58f457ca762",
+  "D3_opened": false,
+  "novel_independent_biological_study_claimed": false,
+  "count_case_comparisons": 176,
+  "held_CD4_count_context_target_pairs": 16,
+  "response_cases": 366
+}

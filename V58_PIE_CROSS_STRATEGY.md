@@ -17,8 +17,12 @@ set PY=C:\Users\animeshs\AppData\Local\Temp\vcc_v20_stack\env\Scripts\python.exe
 %PY% -X utf8 prepare_v58_pie.py freeze
 %PY% -X utf8 run_v58_response.py
 rem Inspect response_summary.csv before generating counts.
-%PY% -X utf8 run_v58_count_pipeline.py
+%PY% -X utf8 analyze_v58_head_accuracy.py
+%PY% -X utf8 finalize_v58_counts.py
+%PY% -X utf8 audit_v58_truth_replay.py
 %PY% -X utf8 export_v58_pie_arrays.py
 ```
 
 The freeze refuses to overwrite an existing plan. Root scientific scripts and compact receipts are versioned; regenerable arrays are excluded from Git. Read-only evidence caching is a performance optimization checked for exact numerical parity. No scoring API upload occurs. Model and code details, the evidence projection and dataset overlap limitations are documented in the preserved [V57 protocol](V57_PIE_CROSS_STRATEGY.md) and [V56 audit](V56_PIE_RELEASE_REVIEW.md).
+
+The frozen count evaluator has a null-summary logging compatibility issue (`len()` on a SciPy sparse matrix). `run_v58_count_compat.py` supplies its row count locally and leaves the frozen numerical code unchanged. `finalize_v58_counts.py` is the canonical count runner, reuses completed comparisons and records the corrected metadata. `audit_v58_truth_replay.py` checks all 44 pre-generation/reference populations and truth arrays bitwise against count evaluation.

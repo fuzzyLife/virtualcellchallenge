@@ -1,0 +1,512 @@
+{
+  "passed": true,
+  "files": [
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/inputs/CD4_Rest_D2.npz",
+      "bytes": 25765510,
+      "sha256": "db0db6fa6523485385d41730fbd2822c789aed08c62566bcf53d078eab3a221d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/inputs/CD4_Stim48_D2.npz",
+      "bytes": 26516274,
+      "sha256": "ee9699f7666e8ca4b7e997fff3687961ce4cde47ccce873c9e6f498eb5cb81ac"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/inputs/H1.npz",
+      "bytes": 20563049,
+      "sha256": "938febcac73c977818b7b43e9c0c97ca3c09917ca637238b768067ccd5af112c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/inputs/HCT116.npz",
+      "bytes": 48071639,
+      "sha256": "2192e7f024d1dcea5b65153d554e0deffddc3858b82f9e36423a1047b4ae7fb4"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/inputs/HEK293T.npz",
+      "bytes": 52186216,
+      "sha256": "c6f87d1c49724b135b4372964f2d014c965c6ddd46f6684e7d85fa2cec00e1e0"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/predictions/CD4_Rest_D2.npz",
+      "bytes": 8773618,
+      "sha256": "4fadf80ba8aea60e9a66a42fb5716355baa30e221db9ab2180a3b54fda581012"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/predictions/CD4_Stim48_D2.npz",
+      "bytes": 8809074,
+      "sha256": "cf332c1ad8ca5decf2fd591fe388a5f0c9c7483429385c02a381bcda1f22d43c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/predictions/H1.npz",
+      "bytes": 3702591,
+      "sha256": "34cac917c70de8ac6642cc171ac050e73d28c3fede3507d1f4315a06e2a20e7f"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/predictions/HCT116.npz",
+      "bytes": 30488422,
+      "sha256": "6ce3745b88f527f841a0e720c56ea76bce6e562bbdf05b02c0ff556199ee0008"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/predictions/HEK293T.npz",
+      "bytes": 31980260,
+      "sha256": "b0f0cfdee57e357222898bf996a5e2553fd826384f2270daa76cc079a31c21a7"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/calibrators/evidence.npz",
+      "bytes": 1620,
+      "sha256": "79404a9eac1b846a440c48f7272df8a57873fe773659817238b1b1e1923c3bd9"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/calibrators/joint.npz",
+      "bytes": 2116,
+      "sha256": "7c67aeded8c3c4e981fd3feaef2b8409376854d92a7529220160dd94b09c268f"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/calibrators/shuffled.npz",
+      "bytes": 2119,
+      "sha256": "b913b6f8e6e396e49cd7ce5950f9b8bd84c892840e68a05682b744968f25b89f"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_CCDC112_157057.npz",
+      "bytes": 1619844,
+      "sha256": "5bbd80b6fc3a0054161f3177d723396baab7c147ebe2bd93779f3492d11cc8e3"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_CCDC112_57057.npz",
+      "bytes": 1617844,
+      "sha256": "5b305b0eb32143e00a8dd34ad73cd3d3751a2baaac19b1e49888a57ebe709110"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_CHKB_157057.npz",
+      "bytes": 1642085,
+      "sha256": "c5f9fed9287785aeeb889a4166d37bcd914ad73b9387db1e86b344e8a8d53744"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_CHKB_57057.npz",
+      "bytes": 1639630,
+      "sha256": "557856b192a8d80906eae14ed3a6c77fde272655e01f109b95f42c75ef58c5ed"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_DNTTIP1_157057.npz",
+      "bytes": 1625358,
+      "sha256": "d2a294962a6fec53882cb1c6f39c52609b8951c329f9c0e4e7fdf773dc9c5f9b"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_DNTTIP1_57057.npz",
+      "bytes": 1641307,
+      "sha256": "24c7f9a374717cf778eaf22d9944d5423217508ec755780296e9fd4e61641da8"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_DVL3_157057.npz",
+      "bytes": 1625048,
+      "sha256": "56ff6cfde8ab9b9b69f54b91ee3ee1074235c3e2099d3056f59d6e4f2a0ae1a2"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_DVL3_57057.npz",
+      "bytes": 1621981,
+      "sha256": "cbdff95d308f2b7d1a18ca6fe71018d2ac8fe8825d4e629f23baead649516b7b"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_PRKACA_157057.npz",
+      "bytes": 1619292,
+      "sha256": "64255ebc62d8e35d4fb5ef4036e6ef013427a9adf41abdbfae3185e8aeac0de9"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_PRKACA_57057.npz",
+      "bytes": 1619963,
+      "sha256": "c77143dd0d1b75590f2a60030555ddb48afaaed7eda3f349a6b29588cd8e71e5"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_SSR4_157057.npz",
+      "bytes": 1632373,
+      "sha256": "4f9c32bdd374939a4a5a8f5ef7523b88d6f3bce363d599ef7710ba3ea41a576c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_SSR4_57057.npz",
+      "bytes": 1620288,
+      "sha256": "90446931eddf4c9b376ce5304f0c4209e15688cbeb4943f15a35f55367755389"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_THAP3_157057.npz",
+      "bytes": 1601931,
+      "sha256": "d70aa61e31f9b169314ed7b64a93ff6113813b73cc8caaa07578b29b16ad21a8"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_THAP3_57057.npz",
+      "bytes": 1590958,
+      "sha256": "c3a942b87b5e26514bd052fc2c0576b84af4ef19431acb545b61422b175c784a"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_ZBTB41_157057.npz",
+      "bytes": 1611158,
+      "sha256": "ab5d7e529126286a64aeeb01bfcb5c7540c6ee9fc8dc252b6150ac4b7755dc77"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Rest_D2_ZBTB41_57057.npz",
+      "bytes": 1617248,
+      "sha256": "e6ff9dacd476083acbf5d8d6edb1158298bb1aa81a900bfc5a0c08709ecb5c8e"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_DNTTIP1_157057.npz",
+      "bytes": 1696891,
+      "sha256": "0f5f21fff556eb5ac4cbffe674ede91951d46fbdd47ad9bc5b0a12544f3fea97"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_DNTTIP1_57057.npz",
+      "bytes": 1700786,
+      "sha256": "477d028634f601334c91590d88b471bd4c6edf59c5dfe587e4ad8a7708a2864a"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_FXYD5_157057.npz",
+      "bytes": 1721175,
+      "sha256": "d5b77cd4cb0b4e1df308799b505f75854f1d008820aa8ea9865caccc7acc3257"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_FXYD5_57057.npz",
+      "bytes": 1715945,
+      "sha256": "fd14ddf35841fcab52c32dfd0097e084a7495322d63a5f78d1b01f18f5d09092"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_MED13_157057.npz",
+      "bytes": 1705349,
+      "sha256": "8f683a011f4fe16e49f63a93916245e56ab88b22706688996f973d83942b1040"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_MED13_57057.npz",
+      "bytes": 1714854,
+      "sha256": "3802e4e772854ed7eb282421f00861e4342a852c1f2e34bc2025ef56692c29c7"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_MSI2_157057.npz",
+      "bytes": 1705851,
+      "sha256": "8c96dd077c0193e305bcf4ba49f114e28924a610da2e29c9a2d477b18fa75153"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_MSI2_57057.npz",
+      "bytes": 1708143,
+      "sha256": "f98c6129e490b215bde4c4bc835436959499e883ba0f2508c09234d05ef4bc53"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_PTMS_157057.npz",
+      "bytes": 1704326,
+      "sha256": "13f3781e6b1a2734bc2b0493ab12bf709cd21cc177c51c8baebf2cd02cc11a7b"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_PTMS_57057.npz",
+      "bytes": 1710573,
+      "sha256": "c1de319f23549cfe119396c8a8a8f2ac8c148eccef36eaaea3980d2cea70f12a"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_SLC39A1_157057.npz",
+      "bytes": 1691921,
+      "sha256": "fef53aa61c97724bf20f3c6352e32714dc9e7176ee6ffcceeedaac0aaa42428f"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_SLC39A1_57057.npz",
+      "bytes": 1684610,
+      "sha256": "70a79691cf18746adf3a4cd30ba2a3ba7dcd3a6a8e9137dcb77c5cb0eff353cc"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_SRSF5_157057.npz",
+      "bytes": 1697572,
+      "sha256": "4a30b7d781bd76a1b263db732cc8534f5c4108d8caf3b8dad57547ce41646a35"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_SRSF5_57057.npz",
+      "bytes": 1684337,
+      "sha256": "6e8a4c866f9be44dfc311d85d42f5083d5ffd634d1ad42360886604816717890"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_THAP3_157057.npz",
+      "bytes": 1666325,
+      "sha256": "8cca211f1c1b1308e98d85526c60681b4984a27787e4d15a841dce0e266a4903"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/CD4_Stim48_D2_THAP3_57057.npz",
+      "bytes": 1663478,
+      "sha256": "62b4808956dda1ac8d99f77aa5b04b6ea5c000bbfc0c7d502016258e996aadaf"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/H1_MED15_57057.npz",
+      "bytes": 2164439,
+      "sha256": "eaef70b8c3be004222734489a8d1095425805c8979c7ea8851293f09572d5a26"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/H1_MED25_57057.npz",
+      "bytes": 2158783,
+      "sha256": "71c2709bb6c58f8a25953624dad4b07737b210787eb7179ff7d04fadd5f4a2c7"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/H1_NFE2L1_57057.npz",
+      "bytes": 2124591,
+      "sha256": "c98caea810a960257e3f4c254a4a207d8d58d8e4ba990ea17f7c9f2806bbb390"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/H1_ZFP62_57057.npz",
+      "bytes": 2137308,
+      "sha256": "f32088cf52194144550cf292f073ffe79b7185255ea8d2b8d574a962b70ad5d1"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HCT116_CHD6_57057.npz",
+      "bytes": 1850319,
+      "sha256": "53e8aa070bb7a617cfca639be68c5e2d4496c48df7633f440a093182a273d254"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HCT116_MED13_57057.npz",
+      "bytes": 1810140,
+      "sha256": "4708114f680924b1661ae6936216c66f1f5531e2dd7e1948fd597d1cc87e3445"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HCT116_PLAGL2_57057.npz",
+      "bytes": 1804716,
+      "sha256": "b32c3214df261f01f03c0ed51d77c03b0d062a72fe4b171dff1c7a8ae722676c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HCT116_TRIP4_57057.npz",
+      "bytes": 1811379,
+      "sha256": "560a4c974db4ab6dbb59ecef80498a77b39bcf32b8fb0d4145b2a0596ddf594d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HEK293T_AGO1_57057.npz",
+      "bytes": 1952943,
+      "sha256": "5f23d78ebe3ac1ebe31acdd7ef242d553994c8e1ea7df19c72b43e7053726010"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HEK293T_FCGRT_57057.npz",
+      "bytes": 1973185,
+      "sha256": "811c1e87bcc5271e95380bdb8207e4a4885094319146275f5ddf62c20f154b74"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HEK293T_PHF19_57057.npz",
+      "bytes": 1988899,
+      "sha256": "7b52207302818a5b115b93daf663169caec27978c7e3e8c1ee9c653bc144f871"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/count_statistics/HEK293T_RBM4B_57057.npz",
+      "bytes": 1982648,
+      "sha256": "b37b42a947b683847a5606f07d81ccc113588730da26d04c01e31db762d066cc"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_CCDC112_157057.npz",
+      "bytes": 148860,
+      "sha256": "113edff75e3899d65e2128ec975dfddd92ba273330754642e0583184cdff7ed5"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_CCDC112_57057.npz",
+      "bytes": 149560,
+      "sha256": "b1f8b8edeb6fb5156135d5916f655c216f7603dd56db123f49e5314dc1acaf63"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_CHKB_157057.npz",
+      "bytes": 167947,
+      "sha256": "3cd2cb1d7283b3c4e9c171f4483d351d0b327bcd48ab667f485e64682dee64f4"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_CHKB_57057.npz",
+      "bytes": 169122,
+      "sha256": "d7c0d1615263ba8ec19485d92f91d2dbde9be092b6b9e2712d2f46c9803596c7"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_DNTTIP1_157057.npz",
+      "bytes": 168269,
+      "sha256": "db2b1b404aca6f3300c7d40c6fc323b2ecc62fdeded8561d4a0450b959f87b5c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_DNTTIP1_57057.npz",
+      "bytes": 164359,
+      "sha256": "a2c1f15a8409b580936e0d28b784f2f0830c205611e5e820af36f2fbeec86283"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_DVL3_157057.npz",
+      "bytes": 170104,
+      "sha256": "804b25631553f59841b93e8bfead255d682a3d6742e73ca30c496c9dcc87774e"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_DVL3_57057.npz",
+      "bytes": 168219,
+      "sha256": "a7a89686642447cd53e4d7b5e3c22a494be1ca3fcee16c47e6bd95ca9e3b8dad"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_PRKACA_157057.npz",
+      "bytes": 156674,
+      "sha256": "42425b170dc6ead0044ff2ebac2e8379bb7bce52784a3998b71d55e6e58c50c9"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_PRKACA_57057.npz",
+      "bytes": 155752,
+      "sha256": "3346654b31cf5edd14463854ea9f2747f3188dcd41abad8f39d23db1dba00871"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_SSR4_157057.npz",
+      "bytes": 157163,
+      "sha256": "bc44a797356acfb9730a25e64d275ebc634f71db178e45796a7c599dc4107188"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_SSR4_57057.npz",
+      "bytes": 155112,
+      "sha256": "f6870cee28096d791acfb10d5247179768427f3b6df36179d94efd0b6f8cc922"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_THAP3_157057.npz",
+      "bytes": 151892,
+      "sha256": "b5002cb72523a722c8021d7cc2d831a1f4e731823429abe383e29233439cecf7"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_THAP3_57057.npz",
+      "bytes": 152409,
+      "sha256": "518c5c656474b1f2d563a3bd1ae4b0ee0134f862f7656fae2d2cd5f3856c559d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_ZBTB41_157057.npz",
+      "bytes": 149243,
+      "sha256": "b925c18478887b98119b01a483c41170a7e249fb2281ade4296ce4b221b2791d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Rest_D2_ZBTB41_57057.npz",
+      "bytes": 149989,
+      "sha256": "c78d2c99382e8f5e6a12dbe4eea31b4a539bccd415d398fbbe54ad99d222b0d6"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_DNTTIP1_157057.npz",
+      "bytes": 177714,
+      "sha256": "8e365520d6a6f7cfd690061bd8e6ace2873c89732f5b7eeb6222fe7c21bbb095"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_DNTTIP1_57057.npz",
+      "bytes": 178238,
+      "sha256": "ee74d4736b3372335d41bd7dc1b5e368c2d58fab2c81982e555b0425da1b989c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_FXYD5_157057.npz",
+      "bytes": 176573,
+      "sha256": "4eb0a7c9614127784f0e870d6508d118a2c6d5d4b11f1fecbb888ba973bd4235"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_FXYD5_57057.npz",
+      "bytes": 176514,
+      "sha256": "d831a9013769c4ea1cb64be3d3a961d0dbf59271f68a7407afc52cf448b2cca3"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_MED13_157057.npz",
+      "bytes": 179060,
+      "sha256": "6ddc924e1fc72a97b6ad3c4f75b93d5190246bfff4c51616d5ed550d5b52dbb8"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_MED13_57057.npz",
+      "bytes": 177184,
+      "sha256": "fceaf5446694584da0c03cc2e3bc71e357f0cf5d92ae4812202e1ef2908f1fdb"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_MSI2_157057.npz",
+      "bytes": 178276,
+      "sha256": "9769b8e705389a08f647b2330b19b35a9576f41181a5fb26325d7de5810d146b"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_MSI2_57057.npz",
+      "bytes": 179523,
+      "sha256": "3d9a45ec50945f693384bc0c626605be04b9ebf05c597eb071cc64b90bd78153"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_PTMS_157057.npz",
+      "bytes": 179028,
+      "sha256": "d38232f3ca530d743c55642fc45ba122ea2a95f60c2fbd60108a422690b2b589"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_PTMS_57057.npz",
+      "bytes": 177366,
+      "sha256": "cb29041e254dcad6002901d18c0dc90b865077862c047cb7debc3a28c5fb159c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_SLC39A1_157057.npz",
+      "bytes": 165765,
+      "sha256": "e899b98518a5dd2772b212294d895620e97b7675156c2b2fdc1401af939d9aa4"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_SLC39A1_57057.npz",
+      "bytes": 167905,
+      "sha256": "046d2929f719a325afcb297697cdfca3471a492747a3942f66ecf227ad3e6e91"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_SRSF5_157057.npz",
+      "bytes": 178367,
+      "sha256": "2153a59f1a299f04dca35934affa6f609fc0a737eb9924a83e6bb7de45869b6a"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_SRSF5_57057.npz",
+      "bytes": 176754,
+      "sha256": "a1a8e626d25d46a2ab08d8a473a5ad2a14269899d4c426b5154ab3b2b174b43f"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_THAP3_157057.npz",
+      "bytes": 163183,
+      "sha256": "e2112d75e3277a3a57965c1698c448c830fe2bc8ba4517c1974e83c9028b778d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/CD4_Stim48_D2_THAP3_57057.npz",
+      "bytes": 167959,
+      "sha256": "e22f0894c3e4509a0e52f69fc22c7b8eb2498cc0ed748c957a40f26de9d7eb0b"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/H1_MED15_57057.npz",
+      "bytes": 203294,
+      "sha256": "3ea4f13aa62d7590919c52a7f276dace2b79b740e8411727cf83755c4aebc844"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/H1_MED25_57057.npz",
+      "bytes": 210262,
+      "sha256": "13d67ff2dd5bd68ce4889580aeb599df4f5fa087a906fd8198089f72d286427d"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/H1_NFE2L1_57057.npz",
+      "bytes": 183588,
+      "sha256": "b1080d15c83e2a1fcb6dd7091c08df2decf20901ebccecd4ed6084475b820b28"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/H1_ZFP62_57057.npz",
+      "bytes": 210103,
+      "sha256": "9d2af848ae7c38a68c83ebecccc25a7d5da1b83a0171aa1c3620f851c6cfb8cc"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HCT116_CHD6_57057.npz",
+      "bytes": 157772,
+      "sha256": "a9f464b3c732b89d3aeca16dc46ea3715974adeacd6b71a37bcc6d69b26604ab"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HCT116_MED13_57057.npz",
+      "bytes": 138865,
+      "sha256": "31c1239a17e1a60ee316b92a4503a7997af1948d170676e4797f3d4e0593aec4"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HCT116_PLAGL2_57057.npz",
+      "bytes": 135856,
+      "sha256": "2b6fe324296245cefa205c0990806cc81f018e967f43db067985da578128f17c"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HCT116_TRIP4_57057.npz",
+      "bytes": 143448,
+      "sha256": "cdb43502ccbbe4d9bc1c5d91f0276f0018dd6a40efd0f1313fb62929db9221ed"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HEK293T_AGO1_57057.npz",
+      "bytes": 164807,
+      "sha256": "f46eb3ac938896fd651f6078620d665a5322d6dd3fb3b3046368fd28d6ebb8f8"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HEK293T_FCGRT_57057.npz",
+      "bytes": 156764,
+      "sha256": "0dd80021122cd6cb51df0ac4096ed95f373bdd8be29f6b8ac91e59d4dbf90688"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HEK293T_PHF19_57057.npz",
+      "bytes": 165813,
+      "sha256": "81e3af1f27ab10adc30e562c0bfbd13273e115a9d69a81f3aeffef4884348724"
+    },
+    {
+      "file": "experiments/v58_pie_holdstudy_guard/analysis/arrays/head_truth/HEK293T_RBM4B_57057.npz",
+      "bytes": 186569,
+      "sha256": "276e738b6e3924120ce6350f7de5b9d59729870e84d34d2b3f394730192fed1d"
+    }
+  ],
+  "bytes": 341131526,
+  "exporter_sha256": "124e85a531cc925edb8a31105c856937e3d010269a9b671ea5465605ac31203b"
+}

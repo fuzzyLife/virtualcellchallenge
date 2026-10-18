@@ -1,0 +1,1834 @@
+{
+  "sha256": "a4954d3b47187f779df39c87c67b2517ea3d14800f96c206ecf65600638e3e62",
+  "plan_sha256": "ca96c7c568b0e0d3bbb9a0d25ec303c5dd8cb5566c8ffe910790c87a7894f668",
+  "kind": "joint",
+  "alpha": 10.0,
+  "source_target_validation": [
+    {
+      "alpha": 10.0,
+      "normalized_MSE": [
+        0.9571438609506825,
+        0.973230897045641,
+        0.9352235861858768
+      ],
+      "objective": 0.9551994480607334
+    },
+    {
+      "alpha": 100.0,
+      "normalized_MSE": [
+        0.957152087679935,
+        0.973234423662595,
+        0.9352247332354476
+      ],
+      "objective": 0.9552037481926593
+    },
+    {
+      "alpha": 1000.0,
+      "normalized_MSE": [
+        0.9573242271863056,
+        0.9733504123897414,
+        0.9353377692938681
+      ],
+      "objective": 0.9553374696233051
+    }
+  ],
+  "groups": [
+    {
+      "source": "H1",
+      "target": "ACLY",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "ADNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "ANKZF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "BRPF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "HDAC8",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "MED15",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "MED25",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "NFE2L1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "PLAGL2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "SLIRP",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "H1",
+      "target": "ZFP62",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "H1",
+      "target": "ZNF32",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ABCD1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ACLY",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ADNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "AGO1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "AP2A2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "API5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "BCL6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CARM1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CAT",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "CHD3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CHD6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CHKB",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CLCN6",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "COIL",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "COQ10B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CSNK2A1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "CYTH2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DBF4B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DBN1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DCAF16",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DDHD1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DEAF1",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "DEK",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "DHRS1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DHX35",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DLAT",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DMTF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "DNTTIP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "E2F1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "EAPP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "EEF1A2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "EPM2AIP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "FAM120A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "FCGRT",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "FOXN2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "FOXO4",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "FUBP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "FZD2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "GLI3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "GMEB2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "GPATCH8",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "GRAMD1A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "GTF2IRD1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "HDAC8",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "HMGN3",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "HOMEZ",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "IFI27L2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "IFNAR2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "KDM5A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "LMAN1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MBD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MED13",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "MED15",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MLKL",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "MSANTD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MTF1",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "MTHFSD",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MYD88",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MYPOP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "MYRF",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "NABP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "NAIF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "NCLN",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PARP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PATL1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PBLD",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "PCGF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PDK3",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "PHF19",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "PINK1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PLAGL2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "POLD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PPIF",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PPIP5K2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PQBP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PRDX3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PRKAB2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PRMT2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PRNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PSMB9",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "PTMS",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "RBM4B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "RBM5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "RNF10",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "RNF141",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "RNF2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "RSRC1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SEMA4F",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SFXN4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SH2D3A",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "SLC25A13",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SLC39A1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SLC44A1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SMARCA5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SMARCC2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "SNRK",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SOCS5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SSR4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "STAT6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "SYVN1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TARBP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TBC1D19",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TBCK",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TDRD7",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TEAD4",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "TEX2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "THAP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "THAP7",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TIMM17B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TIMM50",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TMEM104",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TMEM186",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "TMF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TRAPPC6A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TRIP4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TRPC4AP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "TXNDC16",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "YIPF6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZBTB34",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZBTB41",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZC2HC1A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZDHHC12",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZDHHC4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZFP62",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZKSCAN3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF25",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF280C",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF282",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF324",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF410",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF507",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF514",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF526",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF530",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF627",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF768",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF777",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF783",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ADNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "AGO1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ALG12",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ANKZF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ANP32B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "AP2A2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ARL14EP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ASCC2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "BCL6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "CARM1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "CHD3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "CHD6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "CHKB",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "CLCN6",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "COIL",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DBF4B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DBN1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DDHD1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DEAF1",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "DHRS1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DHX35",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DLAT",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DMTF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DNTTIP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "DTNBP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "E2F1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "EAPP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "EEF1A2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "EPHB2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "EPM2AIP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "FAM120A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "FCGRT",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "FOXN2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "FOXO4",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "FUBP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "FZD2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "GMEB2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "GPATCH8",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "GRAMD1A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "GTF2IRD1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "HMGN3",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "HMGXB3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "HOMEZ",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "IFI27L2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "IFNAR2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "KDM5A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "KHSRP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MAP2K2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MBD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MED13",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "MED15",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MED25",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MLKL",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "MSANTD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MSI2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MTA1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MTF1",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "MTHFSD",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MYD88",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "MYPOP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "NABP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "NAIF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PARP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PBLD",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "PCGF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PCGF6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PDCD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PDK1",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "PDK3",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "PHF19",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "PINK1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PLAGL2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "POLD4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PPIF",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PPIP5K2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PQBP1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRDX3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRKAB2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRKACA",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRMT2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRMT6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRNP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "PSMB9",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RABEP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RBM26",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "RBM4B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RBM5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RC3H2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RNF10",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "RNF2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "RSRC1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SAP30L",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "SEMA4F",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SH2D3A",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "SLC25A13",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SLC39A1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SMARCA5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SMARCC2",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "SNX4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SOCS5",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "SSR4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "STAT6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TAF4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TARBP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TBC1D19",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TBCK",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TDRD7",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TEAD4",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "TEX2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TFCP2",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "THAP3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "THAP7",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TIMM17B",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TIMM50",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TMEM104",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TMEM186",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "TMEM79",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TMF1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TRAPPC6A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TRIM35",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TRIP4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TRPC4AP",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "TXNDC16",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "UPF3B",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "YIPF6",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZBTB34",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZBTB41",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZC2HC1A",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZDHHC4",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZFP62",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZKSCAN1",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZKSCAN3",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF22",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF25",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF280C",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF282",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF324",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF410",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF507",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF514",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF526",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF530",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF768",
+      "observations": 768,
+      "validation": false
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF777",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF783",
+      "observations": 768,
+      "validation": true
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF821",
+      "observations": 768,
+      "validation": false
+    }
+  ],
+  "source_only": true,
+  "CD4_labels_used_in_fit": false,
+  "target_scales": [
+    0.40251187963392787,
+    0.039157022167992314,
+    0.05015803601143933
+  ],
+  "inactive_features": [],
+  "rows": 228864
+}
