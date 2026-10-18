@@ -685,3 +685,11 @@ __marimo__/
 /experiments/v61*/*.vcc*
 
 /experiments/v61_pooled_state_response/analysis/prediction_control_rows.csv
+
+# V62 regenerable response arrays and upload artifacts
+/experiments/v62*/**/*.npz
+/experiments/v62*/**/*.npy
+/experiments/v62*/*.log
+/experiments/v62*/*.h5ad*
+/experiments/v62*/*.vcc*
+/experiments/v62*/analysis/prediction_control_rows.csv

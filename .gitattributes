@@ -313,3 +313,8 @@
 # Cross-version state-release scientific helpers
 /document_state_release_review.py -text whitespace=cr-at-eol,-blank-at-eof
 /evaluate_state_population_diagnostic.py -text whitespace=cr-at-eol,-blank-at-eof
+
+# V62 scientific protocol bytes
+/*v62*.py -text whitespace=cr-at-eol,-blank-at-eof
+/V62*.md -text whitespace=cr-at-eol
+/experiments/v62*/analysis/** -text whitespace=cr-at-eol

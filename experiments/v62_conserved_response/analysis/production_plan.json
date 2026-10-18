@@ -1,0 +1,21 @@
+{
+  "candidate": "assay_center50",
+  "scientific_plan_sha256": "a3672cd3d5b32eb74ac7de38a6d0434b9522e3523ede7f070972e365af7813a1",
+  "dependencies": {
+    "fit_v62_submission.py": "dee59f8773ab5ae1ed9b612323e026b50e72f361dddde5e77c5f7b86a490ca8f",
+    "build_v62_submission.py": "3d40f6ae1a15f2627659efc61e936c057a8c1f3f18584439a53f42ecc7976eaa",
+    "package_v62_submission.py": "50f814d9e0991bcc5d153f755da7e7d89dc432fdaa3c7c806f354093905849e6",
+    "validate_v62_submission.py": "942476bac8604ac91a034071fc49385105ec1a5e0c3e13587976ffa350882fe4",
+    "verify_v62_effects.py": "06b467d9677cb6bdab225af148eea2565a8bda97602c1d5c48aa11dca4de7cb2",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v62_pool_cache.py": "fd260ba64334da150bcc8ad15e7669af5de2aa1b3e34a7b22f539e1acb962a86",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0"
+  },
+  "selection": "Mean-screen locked candidate, subject to unchanged development/confirmation tests. Explicit experimental flag may build only this locked candidate if public gates fail; never label it improved.",
+  "emitter": "residual10",
+  "template_seed": 20261011,
+  "automatic_upload": false,
+  "D3_opened": false
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "outer": "H1",
+      "excluded_response_rows": 25,
+      "recipient_outcome_poisoning_changes_allowed_predictor_inputs": false
+    },
+    {
+      "outer": "Orion",
+      "excluded_response_rows": 573,
+      "recipient_outcome_poisoning_changes_allowed_predictor_inputs": false
+    },
+    {
+      "outer": "CD4",
+      "excluded_response_rows": 604,
+      "recipient_outcome_poisoning_changes_allowed_predictor_inputs": false
+    }
+  ],
+  "plan_sha256": "a3672cd3d5b32eb74ac7de38a6d0434b9522e3523ede7f070972e365af7813a1",
+  "auditor_sha256": "f6047b22074063b16cdbeab00b1e4a0fd431a91f543d48b5bf2af90c7cf13ac3",
+  "scope": "Adversarial recipient outcome/control-profile poisoning leaves all source response ingredients and allowed source profiles bitwise identical. Actual query controls are separately supplied and are legitimate inputs."
+}

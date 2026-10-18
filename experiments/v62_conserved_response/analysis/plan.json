@@ -1,0 +1,38 @@
+{
+  "version": 62,
+  "dependencies": {
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "run_v62_counts.py": "af762c651c01153cd24d047421ede2c2452c05fd0effe6e44a3c109e8db763f1",
+    "test_v62_response.py": "468aa0cade7392703c75dd714ed2673e8376db66553090b5dd063f8288e93d89",
+    "fit_v7_response.py": "7fd6d26b141d85a1b5a51405cb65a1008a679e9a547eaf19e4a2eede6ccf0e74",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee"
+  },
+  "inputs": {
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v7_multisource_adaptive/analysis/source_provenance.json": "1fdf3385b31ce074673e691d2b7cfc49b14513efbf195ad246f7a294459bc851",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a"
+  },
+  "arms": [
+    "centered50",
+    "assay50",
+    "assay_center50"
+  ],
+  "hypothesis": "Remove donor-common response contamination, or transfer conserved effects in log1p(50000*proportion) assay space rather than proportional LFC space. Independent adaptation motivated by response decomposition; no claim of causal stress identification.",
+  "estimator": "For each excluded outer study, collapse only allowed source responses with existing 90%-dose convention. Source templates use targets supported in at least two allowed source families; missing genes remain absent. Exclude current target from its own template, require at least 20 other valid targets/output. Weighted pooling retains frozen EB and source precision. Assay-space effects use closed source CPM profiles, then log1p(0.05*CPM*2**LFC)-log1p(0.05*CPM); closure occurs on inversion, own factor handled exactly once by unchanged emitter. Half-strength bounded +/-1 LFC correction to fold-specific V24. Three fixed arms, no strength tuning.",
+  "controls": "Selected arm plus cyclic source-target derangement (all eligible source targets shifted by one) in held-study count tests. Centering-only effects use genuine labels; shuffled null is inference ablation, not separately trained model.",
+  "selection": "Choose minimum equal-study raw pooled-profile squared-error ratio among fixed arms with equal-study LFC MSE/MAE <=1.01 and no study pooled-profile error >1.03. If none, report all failures and continue research without claiming improvement. Count development first four cases/context; confirmation remaining cases and second seed +620000 for locked finalist. Require expression improvement, PDS not down >.005, fidelity not down >.002, reach not down >.005, Jaccard not down >.0005, NMAE not worse >1%; at least three of six improve and favorable average. Per-study expression no worse >3%.",
+  "context_data": "Reuse hashed V37 raw populations and V34 fixed case definitions; no newly blind dataset claim. Fold-specific comparator is existing V24 mechanism, not the exact submitted production array. Raw populations 200 or 400 measured cells; never duplicate cells to manufacture power.",
+  "literature": [
+    "https://www.biorxiv.org/content/10.64898/2026.07.24.740459v1",
+    "https://github.com/xinyizhanglab/perturbation-decomposition/blob/main/decomposition/anova.py",
+    "https://raw.githubusercontent.com/ArcInstitute/cell-eval2/main/docs/vcc2026_metrics/vcc2026-metrics.md"
+  ],
+  "D3_opened": false,
+  "automatic_upload": false,
+  "pre_score_test_correction": "Initial identity fixture demanded bitwise zero after expm1/log1p round trip and failed at 3.3e-16. Before any biological scores, changed only its assertion tolerance to 1e-12; numerical methods unchanged. Original plan and fixture retained."
+}

@@ -1,0 +1,9 @@
+"""Numerical invariants of the new assay-space response representation."""
+import numpy as np
+from v62_conserved_response import invert_assay
+q=np.array([0.,.1,1.,10.,100.,1000.]);eff=np.array([[0.,-.5,.2,-1.,.7,2.]])
+z=np.log1p(.05*q*np.exp2(eff))-np.log1p(.05*q)
+r=invert_assay(z,q);np.testing.assert_allclose(r[:,1:],eff[:,1:],atol=1e-12);assert r[0,0]==0
+np.testing.assert_allclose(invert_assay(np.zeros((3,len(q))),q),np.zeros((3,len(q))),atol=1e-12,rtol=0)
+assert np.isfinite(invert_assay(np.full((1,len(q)),-10.),q)).all()
+print('V62 assay inversion, zero response, missing support and bounded negative profile invariants passed.')
