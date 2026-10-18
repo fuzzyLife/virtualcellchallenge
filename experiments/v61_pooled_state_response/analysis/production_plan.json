@@ -1,0 +1,29 @@
+{
+  "candidate": "joint50",
+  "version": 61,
+  "scientific_plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "candidate_selection": "Fixed primary V61 joint50, no post-hoc diagnostic promotion or blending grid. V59/V60 are reported comparisons.",
+  "experimental_policy": "The user requested a new release. If public gates fail, --experimental may prepare this fixed candidate for a clearly labeled diagnostic upload, preserving V24 and reporting every failed gate. It must not be described as a validated improvement.",
+  "dependencies": {
+    "fit_v61_submission.py": "33539942952d812fb68a25530aebe728cfbe67b2ac629fe3661c89bb10ffdab3",
+    "build_v61_submission.py": "5dcd2cb011d7e2f18accb5b69b2a563533fd0bf7c3980fc61e327db903fe25c1",
+    "package_v61_submission.py": "c4f2ea79f6bedab1b11d60d5408d5c7886b6078f3c8cfc1935c1e50934e39297",
+    "validate_v61_submission.py": "995fa45af70baae50e98c99e0dc1d9a1057a76b0523ee105ed92aaae4cff6e11",
+    "run_v61_release.py": "b097465aa3d8f47113a148b4cbb525fb709ede93d2f03a7f4ec69ac5cae0d63b",
+    "verify_v61_effects.py": "14f947e6d8b17089787756726ef8ac1aa19858f3884d954d82ebca38e52c4986"
+  },
+  "contexts": [
+    "A",
+    "B",
+    "C"
+  ],
+  "targets": 300,
+  "cells_per_target_context": 400,
+  "genes": 18533,
+  "template_seed": 20261011,
+  "emitter": "residual10",
+  "D3_opened": false,
+  "automatically_upload": false,
+  "initial_production_plan_sha256": "189467329d00004611057e11905ac9c650ff3103b85a6bb2601ca013b40ff20d",
+  "metadata_review": "Before production fitting: query_mean is stored using the unchanged emitter moments arithmetic for exact provenance replay; separate profile field used by the scientific predictor is unchanged. Package methods hash now names V61, with the inherited transfer hash retained separately. No candidate, biological feature, fit, effect, template, seed or selection criterion changed."
+}

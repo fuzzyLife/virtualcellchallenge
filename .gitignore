@@ -676,3 +676,10 @@ __marimo__/
 /experiments/v60*/*.log
 /experiments/v60*/*.h5ad*
 /experiments/v60*/*.vcc*
+
+# V61 pooled-state response arrays
+/experiments/v61*/**/*.npz
+/experiments/v61*/**/*.npy
+/experiments/v61*/*.log
+/experiments/v61*/*.h5ad*
+/experiments/v61*/*.vcc*

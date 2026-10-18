@@ -1,0 +1,27 @@
+{
+  "candidate": "joint50",
+  "version": 61,
+  "scientific_plan_sha256": "fb3f3d24b37f82622f0dc13e97aa24a3d40c37e2582f47598ce82f71f48a173e",
+  "candidate_selection": "Fixed primary V61 joint50, no post-hoc diagnostic promotion or blending grid. V59/V60 are reported comparisons.",
+  "experimental_policy": "The user requested a new release. If public gates fail, --experimental may prepare this fixed candidate for a clearly labeled diagnostic upload, preserving V24 and reporting every failed gate. It must not be described as a validated improvement.",
+  "dependencies": {
+    "fit_v61_submission.py": "b89394df71e75457527210794aea74fbf5a8d7fbdd549e2749e11a3f0f4f6367",
+    "build_v61_submission.py": "5dcd2cb011d7e2f18accb5b69b2a563533fd0bf7c3980fc61e327db903fe25c1",
+    "package_v61_submission.py": "a014e6fb356bb486203b9743873f18bc93674d845b6c06d87df476cd8fdd0c95",
+    "validate_v61_submission.py": "995fa45af70baae50e98c99e0dc1d9a1057a76b0523ee105ed92aaae4cff6e11",
+    "run_v61_release.py": "b097465aa3d8f47113a148b4cbb525fb709ede93d2f03a7f4ec69ac5cae0d63b",
+    "verify_v61_effects.py": "14f947e6d8b17089787756726ef8ac1aa19858f3884d954d82ebca38e52c4986"
+  },
+  "contexts": [
+    "A",
+    "B",
+    "C"
+  ],
+  "targets": 300,
+  "cells_per_target_context": 400,
+  "genes": 18533,
+  "template_seed": 20261011,
+  "emitter": "residual10",
+  "D3_opened": false,
+  "automatically_upload": false
+}

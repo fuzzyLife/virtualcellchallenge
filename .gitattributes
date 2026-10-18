@@ -304,3 +304,8 @@
 /*v60*.py -text whitespace=cr-at-eol,-blank-at-eof
 /V60*.md -text whitespace=cr-at-eol
 /experiments/v60*/analysis/** -text whitespace=cr-at-eol
+
+# V61 scientific protocol bytes
+/*v61*.py -text whitespace=cr-at-eol,-blank-at-eof
+/V61*.md -text whitespace=cr-at-eol
+/experiments/v61*/analysis/** -text whitespace=cr-at-eol
