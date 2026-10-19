@@ -1,0 +1,25 @@
+{
+  "source": "User-reported published V66 CLI receipt",
+  "inputs_sha256": {
+    "experiments\\v63_identity_guard\\analysis\\leaderboard_result.json": "239fa89a45c360685a7cf3682a12845c79ad9b2d828b1a3b6cffd79e1bcabce3",
+    "experiments\\v24_cd4_response\\analysis\\leaderboard_result.json": "d361e6783f7d3888afbdc3ea9f7475c401473b423f2743c00b91fc921263afaa",
+    "experiments\\v66_assay_strength\\analysis\\release_manifest.json": "1a4256e0630cb21d0dac2149275ec9d84b7f4942e96a4f32ac9ea4386442099c",
+    "experiments\\v66_assay_strength\\analysis\\submission_ready.json": "a25d3a4c7a2277f30d50c617053cbd542fdc4d7f53b4fd7348430a32b7d79a6c",
+    "experiments\\v66_assay_strength\\analysis\\independent_validation.json": "93e9ef5b9bad97f41e52c71b3af355277ce735d571564fec9840b6c6532f62c6",
+    "experiments\\v66_assay_strength\\analysis\\count_assessment.json": "1923661cbee7fd7e3fb60abbd3b4a261acf58f5bdb16719c4df57892ffe52dff",
+    "experiments\\v66_assay_strength\\analysis\\paired_profile_sensitivity.json": "6fb9e3b86217efdef1e03ca059c7389a52fdaa4cde3e5bbeec1d01f8a8c74f2c",
+    "experiments\\v65_closed_response\\analysis\\broader_finalist_diagnostic.json": "ec223bd79891ed321b668322d479e4c5d8e01f7fd94e50d657c960f292742d51",
+    "V66_RESULTS.md": "643606c52123329da851bf5ce5aa4858d207d81e1628a2e08498510c4fb5e257",
+    "V65_V66_SUBMISSION.md": "4e66908be249c00f913517aedb59ff83617e9df1d00439497fe30d001599ce64",
+    "record_v66_result.py": "34d61866ed2a9aa0b6b896cdf135cf8d59387db36d2385c393c8e0ace6a34e1c"
+  },
+  "outputs_sha256": {
+    "experiments\\v66_assay_strength\\analysis\\leaderboard_result.json": "df13e8e563708bf860e359f0058f9fd220311e397c727ac2c7a4cde7ee36736d",
+    "experiments\\v66_assay_strength\\analysis\\leaderboard_comparison.csv": "ba2fa1e5bc1f963a972feb441d1c9209a987050bee2e1252a0649e5c62b8642d",
+    "V66_LEADERBOARD_RESULTS.md": "c0e17d1c9b6abcc937c4efb98ddc21a5fe3576a1c0620eeec2d63089eb969488"
+  },
+  "overall_reconciled": true,
+  "same_panel_and_anchors": true,
+  "local_hosted_direction_disagreements": 5,
+  "original_scientific_seals_unchanged": true
+}

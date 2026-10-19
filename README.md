@@ -1,9 +1,11 @@
 <!-- v65-v66-release:begin -->
-## V65/V66: submission history reviewed and new experimental test file
+## V66 published: small new best score, driven by reach
 
-Reviewed **all 18 published submissions**; tested source normalization and a strength-matched assay correction with **480 paired count-comparison records** (shared baselines and repeated biology explicitly audited). Selected **V66 `assay75`**, paired generated-profile error / V63 **0.996334814**. Public strict guards pass: **False**; failures: reach. The broader 655-pair desired-mean check is mixed. **V63 remains best published (0.150422795); this is an experimental upload test with unknown private accuracy.** Official packaging, full payload/provenance checks and deterministic replays pass. Nothing uploaded automatically.
+V66 is published as `x8V3fUSgFIoAzHbNx4eX`, overall **0.150882188**, versus V63 **0.150422795**: **+0.000459393 (+0.31%)**. Reach alone improves; the other five scaled metrics decline. **V66 has the highest published project score; V63 remains a near-tied reference.** Rank 518 is a time-specific snapshot. Statistical significance and final-test improvement are unknown.
 
-[18-submission history and plot](V65_SUBMISSION_HISTORY.md) · [V65 results](V65_RESULTS.md) · [V66 results](V66_RESULTS.md) · [Selected file and CMD command](V65_V66_SUBMISSION.md). Older blocks below describe earlier decisions.
+The small public count test predicted the wrong direction for five of six metrics; the broader 655-pair desired-mean check had warned of expression and discrimination regressions. The strict public REACH guard remains failed. Improve validation transfer before more tuning. The 480 V65/V66 count-comparison records include audited shared baselines and repeated biology.
+
+[Published scores, comparison and validation mismatch](V66_LEADERBOARD_RESULTS.md) · [Frozen 18-submission history](V65_SUBMISSION_HISTORY.md) · [Pre-upload V66 results](V66_RESULTS.md) · [Submission provenance](V65_V66_SUBMISSION.md). The original model, package and scientific seals are preserved. Older blocks below describe earlier decisions.
 <!-- v65-v66-release:end -->
 
 <!-- v63-identity-guard:begin -->
