@@ -732,3 +732,10 @@ __marimo__/
 /experiments/v67*/*.log
 /experiments/v67*/*.h5ad*
 /experiments/v67*/*.vcc*
+
+# V68 regenerable real-cell population arrays
+/experiments/v68*/**/*.npz
+/experiments/v68*/**/*.npy
+/experiments/v68*/*.log
+/experiments/v68*/*.h5ad*
+/experiments/v68*/*.vcc*

@@ -1,0 +1,86 @@
+{
+  "sha256": "5505472e1f73e1d848e34ca12bedd88a07f6238fdd45fc1f5c0a8fc3ecfa4a61",
+  "excluded_study": "Orion",
+  "v66_predictions_sha256": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+  "source_receipt_sha256": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+  "trace": {
+    "sources": [
+      {
+        "family": "K562",
+        "genes": 7450,
+        "active_interventions": 260,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.19838828939471756,
+        "raw_operator_norm": 0.8511741867572501,
+        "bounded_operator_norm": 0.45,
+        "response_matrix_min_singular": 0.35503948991641676,
+        "nonzero_edges": 89027
+      },
+      {
+        "family": "CD4",
+        "genes": 9828,
+        "active_interventions": 223,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.15427943185322598,
+        "raw_operator_norm": 0.5746465809760349,
+        "bounded_operator_norm": 0.4500000000000002,
+        "response_matrix_min_singular": 0.7537346234885366,
+        "nonzero_edges": 88212
+      },
+      {
+        "family": "H1",
+        "genes": 12347,
+        "active_interventions": 25,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.15316486393164216,
+        "raw_operator_norm": 1.0151561517058572,
+        "bounded_operator_norm": 0.44999999999999996,
+        "response_matrix_min_singular": 0.6126083160183343,
+        "nonzero_edges": 88681
+      }
+    ],
+    "shuffled_sources": [
+      {
+        "family": "K562",
+        "genes": 7450,
+        "active_interventions": 260,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.1564416737374077,
+        "raw_operator_norm": 0.8511741867572501,
+        "bounded_operator_norm": 0.45,
+        "response_matrix_min_singular": 0.35503948991641676,
+        "nonzero_edges": 89027
+      },
+      {
+        "family": "CD4",
+        "genes": 9828,
+        "active_interventions": 223,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.17883753357392862,
+        "raw_operator_norm": 0.5746465809760349,
+        "bounded_operator_norm": 0.4500000000000002,
+        "response_matrix_min_singular": 0.7537346234885366,
+        "nonzero_edges": 88212
+      },
+      {
+        "family": "H1",
+        "genes": 12347,
+        "active_interventions": 25,
+        "gain_min": 0.5,
+        "gain_max": 1.5,
+        "mapping_distance": 0.21876708146222296,
+        "raw_operator_norm": 1.0151561517058572,
+        "bounded_operator_norm": 0.44999999999999996,
+        "response_matrix_min_singular": 0.6126083160183343,
+        "nonzero_edges": 88681
+      }
+    ],
+    "maximum_raw_correction": 0.317613518857859,
+    "mean_absolute_accepted_correction": 0.00027262751245871186
+  }
+}

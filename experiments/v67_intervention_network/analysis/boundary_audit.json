@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "outer": "H1",
+      "recipient_rows_poisoned": 25,
+      "passed": true
+    },
+    {
+      "outer": "Orion",
+      "recipient_rows_poisoned": 573,
+      "passed": true
+    },
+    {
+      "outer": "CD4",
+      "recipient_rows_poisoned": 604,
+      "passed": true
+    }
+  ],
+  "plan_sha256": "01f6c5f30fe61921b63681425cede3f98cad3111c61f27d4635ae15b0a99db7b",
+  "auditor_sha256": "e70b7c56b9e7601e49f87b60420c9c769ddd8b5654b4e6f882349c9d74dd40e4"
+}

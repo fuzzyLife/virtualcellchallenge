@@ -1,3 +1,11 @@
+<!-- v67-network:begin -->
+## V67: new intervention-network hypothesis tested; no release
+
+Tested feedback rewiring from measured cross-target CRISPR responses on **655 target/context pairs** with whole-study exclusion, fixed target partitions, V63/V66 comparators and two matched controls. Intended profile error changes **-0.0018% vs V63**, discrimination **+0.0011366**. **Release criteria failed; no V67 submission generated.** Seven numerical tests, all three study-poisoning audits and the independent saved-result audit pass. This is reused public biology, not blind validation. V66 remains best published at 0.150882188.
+
+[Results and failures](V67_RESULTS.md) · [Frozen strategy and commands](V67_STRATEGY.md). Prior status blocks below are historical; original release artifacts remain unchanged.
+<!-- v67-network:end -->
+
 <!-- v65-v66-release:begin -->
 ## V66 published: small new best score, driven by reach
 

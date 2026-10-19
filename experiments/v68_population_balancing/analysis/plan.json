@@ -1,0 +1,48 @@
+{
+  "version": 68,
+  "dependencies": {
+    "v68_population_balancing.py": "cc530036db630d729080d000a08b552f10f2eba297f48955a35eef4b34b3611a",
+    "run_v68_experiment.py": "285e0834c974872aa4cb619b107fcf8e48a2f6fc4ce6afc6efe5bd0775c84ffe",
+    "test_v68_balancing.py": "f76ce03923c7cc5de5b302f61621ae850916d39a6cb92df89fb7fbeed997a549",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de"
+  },
+  "inputs": {
+    "experiments/v66_assay_strength/analysis/release_manifest.json": "1a4256e0630cb21d0dac2149275ec9d84b7f4942e96a4f32ac9ea4386442099c",
+    "experiments/v66_assay_strength/analysis/leaderboard_result.json": "df13e8e563708bf860e359f0058f9fd220311e397c727ac2c7a4cde7ee36736d",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v66_assay_strength/analysis/predictions/H1.json": "612f62e71803d8ea390bfc5d258606b55589790996c4b31e6da2b2997595cee4",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.json": "a23fa21d874cab988381e682671a65f1309e93ff7a48ed0be71fa4e432c4049c",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.json": "77bbcaaa83b00c73e60c7c8d6cc8605d478942d76021e5cbde7996710ba1c722",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.json": "9007f0509729764b63c8b8c8bb6f6bf125f6fcb30be428e6268b8a6efdee09c8",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.json": "87695aee91a5c231a3e93ce313c98a5881cd372bf74a4d7358412b93e4ee3ed3",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "primary": "balanced_real",
+  "controls": [
+    "v63",
+    "uniform_real",
+    "shuffled_weights"
+  ],
+  "hypothesis": "Replace synthetic transcript generation with optimized sampling of distinct real control cells. Preserve every non-own count exactly; only own target is independently thinned by binomial probability .1 before fitting/sampling. Predict responses as changes in population occupancy constrained to measured control states. No post-sampling moment refit or additional noise.",
+  "objective": "Convex quadratic discrepancy in a linearized TS50k bulk profile: A_jg=(X_jg-library_j*target_probability_g)*[50000/(1+50000*target_probability_g)]/mean_library. Minimize ||sum_j p_j A_j||^2/(2*n_nonpanel_measured_genes) + .5*1e-4*N*||p-u||^2. Target probability is the frozen V63 desired bulk profile, including own factor once. Fit uses query controls only, never recipient treatment or reference outcomes.",
+  "constraints": "Eight rank-depth strata defined on original query controls. Largest-remainder sample quotas proportional to original counts. Nonnegative weights, each <=1/draw, each stratum mass=quota/draw. Accelerated projected gradient with backtracking, max250iterations, exact convex dual-gap stopping1e-8. Sampling via randomized pivotal splitting within strata, no replacement, exact quotas. A capped weight implies ESS>=draw. Near-optimality is reported; no invalid or duplicate sample may be emitted.",
+  "frame": "All fixed query-fit NTC cells in original left control partition, disjoint from real reference and all treatments. Existing five contexts and studies; source effects are the study-excluded frozen V63 predictions. No new independent study or blind-data claim. D3 unopened.",
+  "development": "First two unique target cases per context, original generated-cell count (200 or400) matched to previous comparator, original seed; same treated populations and real reference across arms. V63 saved count outcomes may be reused only with matching hashes/truth. Ten target/context pairs; four arms. One400-cell zero-response null per context for unchanged V63 and uniform real-cell sampling. Counts are run even if convex-hull projection cannot match intended means, because the proposed gain concerns distributions.",
+  "guards": "Null significant calls<=max(5,V63 null calls) in every context; paired equal-study profile error <=.99 V63; PDS loss<=.02, fidelity loss<=.005, reach loss<=.01, Jaccard loss<=.001, NMAE error no worse>1%; >=2 DE metrics improve; beats shuffled and uniform controls on profile and >=2 available DE metrics. Each study resolved; report undefined values rather than zero. No promotion or parameter tuning after outcome. Only passing development proceeds to remaining canonical target cases/two seeds and then independent reserve before packaging.",
+  "references": [
+    "https://doi.org/10.1080/01621459.2015.1023805",
+    "https://doi.org/10.1093/biomet/85.1.89"
+  ],
+  "scope": "Independent balancing/sampling adaptation inspired by stable weighting and pivotal sampling, not a reproduction of their causal-inference claims. It cannot create expression states absent from the control convex hull.",
+  "D3_opened": false,
+  "automatic_upload": false
+}

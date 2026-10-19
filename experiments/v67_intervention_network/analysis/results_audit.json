@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "source_sha256": {
+    "experiments\\v67_intervention_network\\analysis\\predictions\\H1.npz": "b546e000cc9f49a03871f958d21710a234f53741667b8deb55a6279a6d6fc78e",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\H1.json": "1456732653d0b8477302be3217404fbaf56a1753af18f673e9502425ca29310d",
+    "experiments\\v67_intervention_network\\analysis\\broad\\H1.json": "b1556339c536e3d4329b9df6bffd436d2a5a30101a5ad47b8809aa40b1e06f80",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\HCT116.npz": "5505472e1f73e1d848e34ca12bedd88a07f6238fdd45fc1f5c0a8fc3ecfa4a61",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\HCT116.json": "1d92f2bf29f36f0ecc90f173f5f9a6aa8b8f92c4a97b3edb946cfc9a542bb4c6",
+    "experiments\\v67_intervention_network\\analysis\\broad\\HCT116.json": "74ecf926e84791a3814aa3b1513a17d13ae182ae027319f9996cb26d64ee4ae6",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\HEK293T.npz": "928eb237c5a48ac3c7e2eee5c183a1905cf79a05f15533f07fce91786273ca73",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\HEK293T.json": "f8ed736b3a554e17409a84ba939ac416d72ed3a3a684d4194bdc56c833d4ece4",
+    "experiments\\v67_intervention_network\\analysis\\broad\\HEK293T.json": "6c724f81e527d27892495946c0b3467876bb4ca9be102b4a38e8d9b8b2428132",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\CD4_Rest_D1.npz": "49fb9c8e662900aae9134aced65a83786e9d782965e49e1c6e2432a3e44adffd",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\CD4_Rest_D1.json": "e57ffda2a715bb8886f62031e36fb65a76f85dc12ec6a9f9efaabf55f9902da2",
+    "experiments\\v67_intervention_network\\analysis\\broad\\CD4_Rest_D1.json": "6cde67ec4ee42f477c5c57b391ef848a5bdd2a553b3605544d6dcf503faadff9",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\CD4_Stim48_D2.npz": "7582212f19d43fb96e07704040e106d8bd4116e8408dbe575a8c4e03596254da",
+    "experiments\\v67_intervention_network\\analysis\\predictions\\CD4_Stim48_D2.json": "bd0cd5a5a4d7f1b0086cc3af60cc5f2df82ed00781c703423d2a047902a86032",
+    "experiments\\v67_intervention_network\\analysis\\broad\\CD4_Stim48_D2.json": "9f19d49e0f87c37e27eff39a7e6bd4988451c397b56ffc5b7937ead588c340a5",
+    "experiments\\v67_intervention_network\\analysis\\plan.json": "01f6c5f30fe61921b63681425cede3f98cad3111c61f27d4635ae15b0a99db7b",
+    "experiments\\v67_intervention_network\\analysis\\mean_results.json": "29a2522bb7888d7f0c151c799449527743cf611c26dc6d13090f670101f7911f",
+    "experiments\\v67_intervention_network\\analysis\\boundary_audit.json": "19c740e5d0caaef5ec2ec38c66577f03a01edcb9ec8a96d50eee3078539e3401",
+    "audit_v67_results.py": "2fe401d56bbb5f9a1714e885c914f8e53c71ddd3d2d895bfd741652cc35e1d46"
+  },
+  "independent_profile_probability_checks": 15,
+  "paired_population_records": 3275,
+  "broad_unique_target_context_pairs": 655,
+  "all_300_panel_outputs_unchanged": true,
+  "V63_and_V66_baselines_bitwise_unchanged": true,
+  "macro_error_summaries_recomputed": true,
+  "scope": "Audits saved arithmetic, input alignment, same outcome populations across arms and response constraints. Does not independently re-run all graph predictions, raw treatment extraction or official anchored metrics."
+}

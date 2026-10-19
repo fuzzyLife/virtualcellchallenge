@@ -22,7 +22,7 @@ Unsupported measurements abstain. Downstream network outputs require valid measu
 
 ## Evaluation frozen before outcomes
 
-Predict all 300 responses in every context before loading recipient treatment matrices for scoring. Use all existing 655 target/context pairs with at least 30 genuine cells across H1, HCT116, HEK293T, resting CD4 donor 2 and stimulated CD4 donor 2. These represent three studies. Compute intended bulk-profile error, CPM fold-change error and target discrimination, excluding own genes and excluding all panel genes from discrimination.
+Predict all 300 responses in every context before loading recipient treatment matrices for scoring. Use all existing 655 target/context pairs with at least 30 genuine cells across H1, HCT116, HEK293T, resting CD4 donor 1 and stimulated CD4 donor 2. These represent three studies. Compute intended bulk-profile error, CPM fold-change error and target discrimination, excluding own genes and excluding all panel genes from discrimination.
 
 Whole-target SHA256 partitions are shared across contexts, and development/confirmation summaries are reported separately. The public biological datasets have been used before; these partitions are diagnostic, not newly blind data. A canonical-small target subset is also scored on the same full treatment populations, isolating target-set composition within this evaluation rather than reproducing the older sampled-cell test.
 
@@ -43,3 +43,4 @@ set "SCIENCE_PY=C:\Users\animeshs\AppData\Local\Temp\vcc_v20_stack\env\Scripts\p
 ```
 
 Freeze refuses overwrite. Completed per-context predictions and results resume only with matching hashes. Scripts remain in the root; compact receipts and reports are versioned; large arrays and runtime logs are ignored. No upload or Git push occurs automatically. Results and any stopping decision are recorded separately.
+
