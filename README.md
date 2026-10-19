@@ -1,7 +1,9 @@
 <!-- v63-identity-guard:begin -->
-## V63: new experimental assay-response submission
+## V63 published: new best project score
 
-Tested three source/assay response estimators (V62), then a fixed guard preserving V24's predicted target margins (V63). Completed 204 V63 count comparisons and broader desired-mean identity tests across 655 target/context pairs. Paired pooled-profile error ratio versus V24: **0.968980**. **Development gates failed; V63 is a diagnostic test file, not a validated replacement. V24 remains best published.** Official packaging and complete payload/provenance/replay checks pass. [Results and limitations](V63_RESULTS.md) · [Submission command](V63_SUBMISSION.md) · [Reproduce](V63_IDENTITY_GUARD_STRATEGY.md) · [V62 negative result](V62_RESULTS.md) · [V64 scalar rejection](V64_RESULTS.md) · [Validation audit](V62_V64_VALIDATION_AUDIT.md).
+V63 is published as `mhKv7sajwD0DKQ8oHPYP`, overall **0.150422795**, versus V24 **0.142997855**: **+0.007424940 (+5.19%)**. Expression accuracy is the main gain; PDS, log-fold-change accuracy and overlap also improve. Fidelity and reach decline. **V63 is now the published reference.** Rank 516 is the user's snapshot. Public development gates remain failed; this single validation result does not establish final-test performance.
+
+[Published scores and interpretation](V63_LEADERBOARD_RESULTS.md) · [Frozen pre-upload results](V63_RESULTS.md) · [Reproduce](V63_IDENTITY_GUARD_STRATEGY.md) · [Validation audit](V62_V64_VALIDATION_AUDIT.md). Original model, package and 522-file scientific seal are preserved. Older status blocks below describe earlier decisions.
 <!-- v63-identity-guard:end -->
 
 <!-- v61-state-release:begin -->

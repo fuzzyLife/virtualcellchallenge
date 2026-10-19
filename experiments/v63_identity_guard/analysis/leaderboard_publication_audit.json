@@ -1,0 +1,21 @@
+{
+  "source": "User-reported published V63 CLI receipt",
+  "inputs_sha256": {
+    "experiments\\v24_cd4_response\\analysis\\leaderboard_result.json": "d361e6783f7d3888afbdc3ea9f7475c401473b423f2743c00b91fc921263afaa",
+    "experiments\\v61_pooled_state_response\\analysis\\leaderboard_result.json": "415dedf0d05dad9a639a63cbfd186753088a47a33afc12399164bf6a32b0bee4",
+    "experiments\\v63_identity_guard\\analysis\\release_manifest.json": "0b6fa94be619a041b014172aa09f5496a45f664cdf890d0c261495307c37c519",
+    "experiments\\v63_identity_guard\\analysis\\submission_ready.json": "df914fd32a6fe352427cbc1b37587a92d88b3aa3e6e40957b7767e48461fef0a",
+    "experiments\\v63_identity_guard\\analysis\\independent_validation.json": "1392e511a5aa92e9abbf0b057fff9250a32d41e4b103d5d230c438082e346a27",
+    "V63_RESULTS.md": "47aaa3f96e61595a368723151c7f921aa38e10fd48aced1c24d24d0945567ab9",
+    "V63_SUBMISSION.md": "c6b23ba8b20ba037c9bf1c464e5a6ec25eb5e0ed3a789450475ec323678599b9",
+    "record_v63_result.py": "cb5f3cbe2dcacc1f719ab247880507ff016001da6d66112350ce48f946f24d14"
+  },
+  "outputs_sha256": {
+    "experiments\\v63_identity_guard\\analysis\\leaderboard_result.json": "239fa89a45c360685a7cf3682a12845c79ad9b2d828b1a3b6cffd79e1bcabce3",
+    "experiments\\v63_identity_guard\\analysis\\leaderboard_comparison.csv": "7b0a033f6551613cdee90b6a8a6b74d9144f9de189276c3facae144289ed3f92",
+    "V63_LEADERBOARD_RESULTS.md": "a4e77774d338f441600c05330b0c6c141ab960424b7c47b592be32113fd0a183"
+  },
+  "overall_reconciled": true,
+  "same_panel_and_anchors": true,
+  "pre_submission_manifest_unchanged": true
+}

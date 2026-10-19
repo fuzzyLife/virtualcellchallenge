@@ -1,0 +1,33 @@
+{
+  "source": "Exact published CLI scores supplied by the user; no independent API query performed.",
+  "entry_id": "mhKv7sajwD0DKQ8oHPYP",
+  "model_name": "Identity-guarded assay response v63 experimental",
+  "final_status": "published",
+  "rank_at_user_report": 516,
+  "overall": 0.15042279495297764,
+  "metrics": {
+    "pds": 0.6517575033476736,
+    "mse": 0.09847018046403415,
+    "nmae": 0.08629026340781953,
+    "fid": -0.01899826535007117,
+    "reach": 0.06988104358292134,
+    "jac": 0.015136044265488424
+  },
+  "raw_metrics": null,
+  "submitted_utc": null,
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "scoring_job": "projects/vcc-prod/locations/us-west1/jobs/vcc-metrics-prod-mhkv7sajwd0dkq8ohpyp",
+  "package_sha256": "a075397d8c23fa2e63e1e99220a04bf6fcd500eaa1e94f8a0fc8eb445271048b",
+  "upload_bytes": 4073656320,
+  "upload_duration_seconds": 984,
+  "artifact_link_evidence": "The user supplied the submission command naming the audited local prediction.vcc. The CLI receipt supplies no uploaded-file checksum.",
+  "comparison_entry_id": "81Y2yX7utdAau9rr3jCj",
+  "overall_change_from_v24": 0.007424939735520886,
+  "relative_overall_change_from_v24": 0.05192343426570828,
+  "overall_change_from_v61": 0.033659320964049985,
+  "recommended_over_v24": true,
+  "public_development_gates_passed": false,
+  "interpretation": "New best published project reference on the same validation panel. Four scaled metrics improve over V24; fidelity and reach worsen. Expression is the main gain. Aggregate scores do not identify contexts or establish final-test generalization."
+}
