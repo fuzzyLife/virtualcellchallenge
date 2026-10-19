@@ -1,0 +1,228 @@
+{
+  "sha256": "c1e66477dd6b916f05801434a9c649910c551c44ea43658f4624b4cb1a828f77",
+  "source": "CD4_Stim48_D2",
+  "study": "CD4",
+  "source_record": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+    "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+    "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+    "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 25054,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+    "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+  },
+  "targets": [
+    {
+      "target": "AKAP1",
+      "treated_cells": 278,
+      "matched_controls": 10000,
+      "supported_coordinates": 3167
+    },
+    {
+      "target": "ALG12",
+      "treated_cells": 278,
+      "matched_controls": 9586,
+      "supported_coordinates": 3218
+    },
+    {
+      "target": "CCDC112",
+      "treated_cells": 328,
+      "matched_controls": 10000,
+      "supported_coordinates": 3577
+    },
+    {
+      "target": "CHKB",
+      "treated_cells": 315,
+      "matched_controls": 10000,
+      "supported_coordinates": 3729
+    },
+    {
+      "target": "DEK",
+      "treated_cells": 341,
+      "matched_controls": 10000,
+      "supported_coordinates": 3631
+    },
+    {
+      "target": "DNTTIP1",
+      "treated_cells": 699,
+      "matched_controls": 10000,
+      "supported_coordinates": 4610
+    },
+    {
+      "target": "DVL3",
+      "treated_cells": 287,
+      "matched_controls": 10000,
+      "supported_coordinates": 3134
+    },
+    {
+      "target": "FXYD5",
+      "treated_cells": 687,
+      "matched_controls": 10000,
+      "supported_coordinates": 4704
+    },
+    {
+      "target": "MED13",
+      "treated_cells": 609,
+      "matched_controls": 10000,
+      "supported_coordinates": 4763
+    },
+    {
+      "target": "MED15",
+      "treated_cells": 322,
+      "matched_controls": 10000,
+      "supported_coordinates": 3632
+    },
+    {
+      "target": "MSI2",
+      "treated_cells": 489,
+      "matched_controls": 10000,
+      "supported_coordinates": 4396
+    },
+    {
+      "target": "NABP2",
+      "treated_cells": 319,
+      "matched_controls": 10000,
+      "supported_coordinates": 3830
+    },
+    {
+      "target": "NAIF1",
+      "treated_cells": 262,
+      "matched_controls": 10000,
+      "supported_coordinates": 3155
+    },
+    {
+      "target": "PCGF1",
+      "treated_cells": 682,
+      "matched_controls": 10000,
+      "supported_coordinates": 4352
+    },
+    {
+      "target": "PIM2",
+      "treated_cells": 313,
+      "matched_controls": 10000,
+      "supported_coordinates": 3205
+    },
+    {
+      "target": "PPIP5K2",
+      "treated_cells": 717,
+      "matched_controls": 10000,
+      "supported_coordinates": 4539
+    },
+    {
+      "target": "PRKACA",
+      "treated_cells": 267,
+      "matched_controls": 10000,
+      "supported_coordinates": 3470
+    },
+    {
+      "target": "PTMS",
+      "treated_cells": 320,
+      "matched_controls": 10000,
+      "supported_coordinates": 3186
+    },
+    {
+      "target": "SLC39A1",
+      "treated_cells": 582,
+      "matched_controls": 10000,
+      "supported_coordinates": 4241
+    },
+    {
+      "target": "SRSF5",
+      "treated_cells": 862,
+      "matched_controls": 10000,
+      "supported_coordinates": 4669
+    },
+    {
+      "target": "SSR4",
+      "treated_cells": 604,
+      "matched_controls": 10000,
+      "supported_coordinates": 4308
+    },
+    {
+      "target": "SUPT7L",
+      "treated_cells": 825,
+      "matched_controls": 10000,
+      "supported_coordinates": 4974
+    },
+    {
+      "target": "THAP3",
+      "treated_cells": 309,
+      "matched_controls": 10000,
+      "supported_coordinates": 3279
+    },
+    {
+      "target": "TMEM209",
+      "treated_cells": 313,
+      "matched_controls": 10000,
+      "supported_coordinates": 3468
+    },
+    {
+      "target": "TWF2",
+      "treated_cells": 332,
+      "matched_controls": 10000,
+      "supported_coordinates": 3493
+    },
+    {
+      "target": "VIM",
+      "treated_cells": 1000,
+      "matched_controls": 10000,
+      "supported_coordinates": 5408
+    },
+    {
+      "target": "ZBTB41",
+      "treated_cells": 263,
+      "matched_controls": 10000,
+      "supported_coordinates": 3181
+    },
+    {
+      "target": "ZC3HAV1",
+      "treated_cells": 444,
+      "matched_controls": 10000,
+      "supported_coordinates": 3949
+    },
+    {
+      "target": "ZNF16",
+      "treated_cells": 261,
+      "matched_controls": 10000,
+      "supported_coordinates": 3073
+    },
+    {
+      "target": "ZNF282",
+      "treated_cells": 316,
+      "matched_controls": 10000,
+      "supported_coordinates": 3550
+    },
+    {
+      "target": "ZNF444",
+      "treated_cells": 286,
+      "matched_controls": 10000,
+      "supported_coordinates": 3617
+    },
+    {
+      "target": "ZNF496",
+      "treated_cells": 280,
+      "matched_controls": 10000,
+      "supported_coordinates": 3716
+    },
+    {
+      "target": "ZNF627",
+      "treated_cells": 513,
+      "matched_controls": 10000,
+      "supported_coordinates": 3984
+    },
+    {
+      "target": "ZNF641",
+      "treated_cells": 351,
+      "matched_controls": 10000,
+      "supported_coordinates": 4522
+    }
+  ],
+  "plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
+  "split": "Alternating source rows; shared-guide sampling views"
+}
