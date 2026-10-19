@@ -709,3 +709,11 @@ __marimo__/
 /experiments/v64*/*.h5ad*
 /experiments/v64*/*.vcc*
 /experiments/v64*/analysis/prediction_control_rows.csv
+
+# V65 regenerable arrays and upload artifacts
+/experiments/v65*/**/*.npz
+/experiments/v65*/**/*.npy
+/experiments/v65*/*.log
+/experiments/v65*/*.h5ad*
+/experiments/v65*/*.vcc*
+/experiments/v65*/analysis/prediction_control_rows.csv

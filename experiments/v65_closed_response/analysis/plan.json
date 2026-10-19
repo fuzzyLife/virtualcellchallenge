@@ -1,0 +1,36 @@
+{
+  "version": 65,
+  "arms": [
+    "reclosed50",
+    "closed50",
+    "closed75"
+  ],
+  "dependencies": {
+    "v65_closed_response.py": "ba8419b750fc7b369b2ab21480ee0a3c741005854fddc7dff6494c9479b2e0ab",
+    "run_v65_experiment.py": "1d7ac816fec0397431328005cbc638d996e1401abf3e9b5a0ad5b5857df8a3df",
+    "test_v65_response.py": "cfde38c86d8b3d44703c8969fa2cabc1a00a235aa9995635b5b04ddf93cd4ab0",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "history_sha256": "843693abf9f5fb0f84aadb9d39e0ecff3820937f25095f1026633615b18a7817",
+  "hypothesis": "V63 improves expression but loses fidelity/reach. Test source available-gene-axis normalization and within-source perturbation closure before log1p assay conversion. Compare reclosure alone, closed composition at half correction, and closed composition at three-quarter correction; all retain V24 margin guard and the unchanged residual10 emitter.",
+  "estimator": "Close each finite source CPM control profile over available genes to 1e6. For closed arms form source perturbed profile with source LFC and own-target factor 0.1, then close it on that same available axis. Transform log1p(0.05*perturbed_CPM)-log1p(0.05*control_CPM), subtract leave-one-target-out source-common templates (>=20 other supported targets), use inherited uncertainty weighting/shrinkage and query inversion. Missing source effects assume unchanged solely for normalization, never become response evidence. Derivative uncertainty is an approximate diagonal delta method ignoring compositional covariance. This does not recover missing genes or claim full-transcriptome normalization.",
+  "selection": "Before counts, select lowest equal-study target-weighted desired-profile MSE ratio versus V63 among arms with ratio<1, each study<=1.03, LFC MSE/MAE <=1.02 and equal-study mean PDS no loss>.01. Ties by ARMS order. Then lock; compare generated cells with V63, V24 and selected source-target cyclic derangement. No post-count candidate promotion. Complete all fixed unique-target cases at two seeds as diagnostics, not unseen biology. A package may be explicitly experimental on public count guard failure but must state it. No guaranteed private improvement.",
+  "count_guards": {
+    "profile_MSE_ratio": 1.0,
+    "pds_loss": 0.005,
+    "fidelity_loss": 0.002,
+    "reach_loss": 0.005,
+    "jaccard_loss": 0.0005,
+    "nmae_ratio": 1.01
+  },
+  "validation": "Canonical first case per target/context from existing V34/V37 pools: 30 unique target/context pairs, five contexts, three studies. Generation seeds 0 and620000 are technical repeats. Public biology reused; D3 unopened. Complete held-study source exclusion (HCT116 and HEK293T jointly). No query treatment in fitting.",
+  "D3_opened": false,
+  "automatic_upload": false
+}

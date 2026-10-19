@@ -328,3 +328,8 @@
 /*v64*.py -text whitespace=cr-at-eol,-blank-at-eof
 /V64*.md -text whitespace=cr-at-eol
 /experiments/v64*/analysis/** -text whitespace=cr-at-eol
+
+# V65 scientific protocol bytes
+/*v65*.py -text whitespace=cr-at-eol,-blank-at-eof
+/V65*.md -text whitespace=cr-at-eol
+/experiments/v65*/analysis/** -text whitespace=cr-at-eol

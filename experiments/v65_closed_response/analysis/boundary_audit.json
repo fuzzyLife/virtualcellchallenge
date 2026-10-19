@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "held_study": "H1",
+      "poisoned_rows": 25,
+      "allowed_response_and_variance_bitwise_unchanged": true,
+      "recipient_support_completely_absent": true
+    },
+    {
+      "held_study": "Orion",
+      "poisoned_rows": 573,
+      "allowed_response_and_variance_bitwise_unchanged": true,
+      "recipient_support_completely_absent": true
+    },
+    {
+      "held_study": "CD4",
+      "poisoned_rows": 604,
+      "allowed_response_and_variance_bitwise_unchanged": true,
+      "recipient_support_completely_absent": true
+    }
+  ],
+  "auditor_sha256": "c77fb0816fb24c337dfff2c18248245e2dbb202304afc8e8245fca34724c827d",
+  "plan_sha256": "ef1a345233c4471dfc5ffa8738ad71c244469af9b7859d7e3e982d027272907b",
+  "scope": "Recipient treatment, uncertainty, support, knockdown and recipient profile fields poisoned simultaneously; allowed transformed source evidence stays bitwise identical. Separately supplied query controls remain legitimate inference inputs."
+}
