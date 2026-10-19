@@ -1,13 +1,13 @@
 {
   "candidate": "hybrid25",
-  "status": "experimental_pending_confirmation",
-  "confirmation_pending": true,
+  "status": "experimental_failed_public_guards",
+  "confirmation_pending": false,
   "available_public_guards_passed": false,
   "confirmed_improvement": false,
   "arrays_sha256": "a403bb2b7984e439b0d6ab507c9f79fcf7757b85c529e82b448bc721a6082d3f",
   "plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
   "selection_sha256": "d0eae151b8282ccd1af64d555d3bc01df99c53da80f964e5b1d1fc8ccbeb7036",
-  "assessment_sha256": null,
+  "assessment_sha256": "566e61ba254744422f970197dd40a79804051867c7d1fc5c4e449aa7fd0d989e",
   "source_trace": {
     "excluded_studies": [],
     "training_contexts": [
@@ -49,5 +49,8 @@
   "hybrid_null_identity": false,
   "uploaded": false,
   "D3_opened": false,
-  "generation_sampling": "Hybrid25 samples only selected100 of400 rows. Core bridge is independent across rows conditional on fixed original library, p, alpha and delta; same probability law with a documented new random realization."
+  "generation_sampling": "Hybrid25 samples only selected100 of400 rows. Core bridge is independent across rows conditional on fixed original library, p, alpha and delta; same probability law with a documented new random realization.",
+  "matched_control_assessment_sha256": "73c47c56df6dea68b473cbf7e0651dd1d73836f18b4bb56a599f22ddd926363c",
+  "pre_confirmation_metadata_sha256": "4826d4c51f9b0f1fa1ef550925dea559894547215bee4697693d891a2fa5ce98",
+  "scientific_arrays_unchanged_at_finalization": true
 }

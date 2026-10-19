@@ -2,6 +2,35 @@
 
 User request: create a new submission after the POST_V68 literature review. Work is active; do not stop after research or a plan. No automatic upload or GitHub push. Commit locally as usual.
 
+## Completed release checkpoint
+
+**V69 is complete and ready for an experimental upload. All execution sessions have ended.** No upload or GitHub push occurred.
+
+- Artifact: `experiments/v69_count_bridge/prediction.vcc`, **3,992,545,280 bytes** (3.718 GiB).
+- SHA-256: `faf909db096d55d21e2fc1d0f194ea18dc94e3a8c42acd1c57673be9366e06b4`.
+- Official prep passed. Full payload/source comparison passed, all360,000 rows/900 groups/18,533 genes checked, all270,000 unchanged parent rows verified,12 groups regenerated exactly. Max library52,469;2,297,638,080 stored nonzero counts.
+- Independent public audit passed190 populations/1520 manual rank coordinates; six core numerical tests and cache/quarter-population checks passed.
+- **775-file release integrity seal passed**. README/V69_RESULTS.md document the experiment, limitations and Windows CMD upload command. Scientific source files and final compact evidence are committed locally; see Git for the final commit.
+- Candidate hybrid25 is experimental: strict public guards fail. Confirmation raw PDS0.755556 ->0.822222; paired equal-study profile error/V66=1.107517 (+10.75%). Other DE diagnostics decline; NMAE is unavailable. V66 remains highest published0.150882188. No private score or improved rank is claimed.
+- Final assessment metadata was updated after confirmation without changing model arrays or generated counts. Production used the documented100-row subset sampler. Unused earlier partial output/code/metadata remain preserved. Old experiments and unrelated untracked files remain untouched.
+
+Earlier live-session notes below are historical and superseded. Do not rerun completed stages or overwrite the sealed release. The requested submission file has been created; the human can run the documented CLI command to upload it.
+
+## Historical checkpoint during generation
+
+- All source fits, oracle diagnostics, development and confirmation are complete. Selected **hybrid25**, eligible arms none, predeclared experimental fallback. Confirmation equal-study raw profile error/V66 **1.1075169551192656**; raw PDS **0.7555556 ->0.8222222**; FID **0.5840202 ->0.5789271**; REACH **0.1513282 ->0.1373656**; JAC **0.0680020 ->0.0619662**; NMAE unavailable and fails guard. Matched shuffle profile comparison passes. No hosted improvement claim.
+- Independent scientific result audit **passed190 count populations and1520 manual rank coordinates**, plus independent predicted/truth LFC, BH and four DE metrics. `analysis/results_audit.json` exists.
+- Production `reference_model_arrays.npz` SHA **a403bb2b7984e439b0d6ab507c9f79fcf7757b85c529e82b448bc721a6082d3f**, means exactly parent V66, all query/source parameters recomputed in `model_audit.json` (passed).
+- **Active session3118** is the current production run: revised preflight passed24 groups, then full generation. At last read A/B complete, C110/300. Poll it. Original full400-row production session51232 was intentionally stopped afterA100 and its partial preserved under ignored `runtime_history/before_subset_generation.h5ad.partial`.
+- Runtime optimization: production samples **only selected100 bridge rows** instead of400 then discarding300. Core bridge is conditionally independent across rows; same probability law with documented new random realization. All scientific parameter arrays/selection unchanged. Root builder and payload replay updated consistently. Old code/model metadata/preflight preserved in `analysis/execution_history`; `subset_sampling_addendum.json` binds it. Current new model metadata dependency hash updated. Do NOT revert to old400-row payload replay.
+- **Active session93450** waits for `analysis/prediction_validation.json`, then automatically runs `finalize_v69_confirmation.py`, official `.competition_env` `package_v69_submission.py`, scientific `audit_v69_release.py payload`, `document_v69_release.py`, `seal_v69_release.py`, and `seal_v69_release.py --check`. It stops on any error. No upload or push. Do not duplicate these stages while that job runs. If generation fails, the waiting pipeline must be handled explicitly; otherwise keep monitoring both sessions.
+- Finalizer preserves pending metadata/run receipt and updates assessment metadata only after count generation, arrays unchanged. Package adapter refuses pending status. Payload auditor uses100-row sampler, checks every stored value/axis/library/identity, all270k unchanged parent rows and12 regenerated groups.
+- Count audit later added CSC views and exact normalization division order x/(library/1e6) for tied-rank efficiency/correctness; original auditor snapshots and addenda preserved. Full audit already passes; do not repeat unnecessarily.
+- Root strategy and documentation helper were updated with executed addenda, matched control, missing metrics, noisy/clipped oracle limitations and lazy production sampling. `document_v69_release.py` has not yet run; it will write final results/README only after package audit.
+- Local commits already include frozen source code, all completed public JSON/CSV receipts and histories. Latest commit made with message `Record V69 confirmation tradeoff and audited count-bridge results` (get hash from git). All new source files are root-level; huge arrays/counts/artifacts/history partial ignored. No GitHub push authorized.
+
+**After session93450 succeeds:** inspect results/ready/audit/seal, fix any material reporting issue without silently invalidating seal (preserve/reseal transparently if necessary). Update this mutable work log to completed, then locally commit final receipts/reports/README and manifest. Confirm old unrelated untracked files remain untouched. Final answer: file ready, Windows CMD command, explicit experimental caveat (public PDS up but profile error10.8% worse; V66 remains proven best), local commit. Do not claim a better leaderboard score.
+
 ## Frozen science
 
 - Root `v69_count_bridge.py`: independently implemented Gamma-Poisson posterior count coupling, beta/gamma dispersion-shape bridge, binomial thinning and Poisson additions. Exact zero-response count identity, varying final libraries, no global count-margin projection. Six numerical tests pass.

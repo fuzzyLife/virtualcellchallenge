@@ -1,3 +1,11 @@
+<!-- v69-release:begin -->
+## V69 ready: probabilistic count bridge, experimental
+
+Created and independently validated a new 360,000-cell upload artifact using **hybrid25**, frozen V66 response means and source-learned count dispersion. Confirmation profile error / V66 **1.107517**; strict public support **False**. The pure bridge preserves zero response, while the population mixture retains baseline null artifacts. Both original prefix-template and corrected representative-control nulls are retained. **No improved hosted score is claimed; V66 remains highest published at 0.150882188.**
+
+[Results, limitations and upload command](V69_RESULTS.md) · [Frozen protocol](V69_STRATEGY.md) · [Independent audit](audit_v69_release.py). Older blocks below are historical.
+<!-- v69-release:end -->
+
 <!-- post-v68-research:begin -->
 ## After V68: literature review and next diagnostic
 
