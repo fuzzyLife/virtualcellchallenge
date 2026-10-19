@@ -1,0 +1,27 @@
+{
+  "controls_sha256": "3823b14bb4eefad52f8ce2dee8cf787460007098d09ca3aeec1345149f9ce68a",
+  "cells_sha256": "4e81c8f69de41c5d1a730e7f6d6eb69a2807f0dfba0d5dd4a38393cf5509cc3e",
+  "source": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+    "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+    "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+    "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 25054,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+    "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+  },
+  "ntc_cells": 5005,
+  "reference_disjoint": true,
+  "treatments_disjoint": true,
+  "chosen_cases": [
+    0,
+    1
+  ],
+  "plan_sha256": "3c239a0ef1ba1a8ecfba3a9b7ca7ed59fec09de5186a09e1326c8cb6670fbeee"
+}

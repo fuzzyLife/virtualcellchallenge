@@ -1,3 +1,11 @@
+<!-- v68-real-population:begin -->
+## V67/V68: two different mechanisms tested; neither released
+
+V67 tested an intervention-feedback network on 655 public target/context pairs: only **0.0018%** lower profile error, with failed target confirmation. V68 replaced synthetic counts with constrained selection of intact real control cells (own-gene thinning only). On 10 paired target/context cases, generated profile error / V63 is **1.213016**; treatment release guards fail. Complete fitted null guard passes: **True**. Both experiments are documented with fixed controls and independent audits; reused public biology is not blind validation. **No V67/V68 submission generated. V66 remains highest published: 0.150882188.**
+
+[Network results](V67_RESULTS.md) · [Real-population results](V68_RESULTS.md) · [V68 protocol](V68_STRATEGY.md) · [Complete null addendum](V68_NULL_AUDIT.md). Earlier status blocks below are historical. Previous source models and artifacts are preserved.
+<!-- v68-real-population:end -->
+
 <!-- v67-network:begin -->
 ## V67: new intervention-network hypothesis tested; no release
 

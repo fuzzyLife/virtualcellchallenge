@@ -1,0 +1,24 @@
+{
+  "release_supported": false,
+  "development_complete": true,
+  "treatment_comparison_records": 40,
+  "new_treatment_populations": 30,
+  "reused_V63_comparisons": 10,
+  "original_null_records": 10,
+  "additional_complete_pipeline_null_records": 5,
+  "failure_checks": [
+    "profile",
+    "pds",
+    "fidelity",
+    "reach",
+    "jaccard",
+    "nmae",
+    "two_DE_gains",
+    "beats_shuffled_weights_profile"
+  ],
+  "complete_fitted_null_passed": true,
+  "submission_generated": false,
+  "D3_opened": false,
+  "private_score": null,
+  "interpretation": "No validated improvement. Keep V66 highest published and V63 near-tied reference; do not create a renamed duplicate or claim the natural-control variation models induced treatment variation."
+}

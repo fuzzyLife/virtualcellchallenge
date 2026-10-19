@@ -348,3 +348,6 @@
 /*v68*.py -text whitespace=cr-at-eol,-blank-at-eof
 /V68*.md -text whitespace=cr-at-eol
 /experiments/v68*/analysis/** -text whitespace=cr-at-eol
+
+# Historical code snapshots retain exact source bytes, including whitespace
+/experiments/v68*/analysis/documentation_history/*.py -text -whitespace

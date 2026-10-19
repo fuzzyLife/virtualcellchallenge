@@ -1,0 +1,149 @@
+{
+  "initial_objective": 0.00027564297951435893,
+  "final_objective": 0.00010877618071841115,
+  "duality_gap": 3.8793391888710785e-07,
+  "converged": false,
+  "iterations": 250,
+  "effective_sample_size": 3403.5854755466703,
+  "maximum_inclusion_probability": 0.12363436367532915,
+  "history": [
+    {
+      "iteration": 1,
+      "objective": 0.0002180589318468575,
+      "duality_gap": 0.0008468269010880478
+    },
+    {
+      "iteration": 11,
+      "objective": 0.0001204866085539733,
+      "duality_gap": 0.00014465966912500014
+    },
+    {
+      "iteration": 21,
+      "objective": 0.00011120997743363159,
+      "duality_gap": 6.232745065924671e-05
+    },
+    {
+      "iteration": 31,
+      "objective": 0.0001091600765974698,
+      "duality_gap": 2.6704212834171298e-05
+    },
+    {
+      "iteration": 41,
+      "objective": 0.00010886176483658081,
+      "duality_gap": 1.6331241210771473e-05
+    },
+    {
+      "iteration": 51,
+      "objective": 0.00010885212479555561,
+      "duality_gap": 1.4014767474659815e-05
+    },
+    {
+      "iteration": 61,
+      "objective": 0.00010882648328234745,
+      "duality_gap": 1.0244831738877354e-05
+    },
+    {
+      "iteration": 71,
+      "objective": 0.0001087973980945251,
+      "duality_gap": 6.530677419432874e-06
+    },
+    {
+      "iteration": 81,
+      "objective": 0.00010878637192661441,
+      "duality_gap": 4.368736260732655e-06
+    },
+    {
+      "iteration": 91,
+      "objective": 0.0001087851067300469,
+      "duality_gap": 3.837334465592635e-06
+    },
+    {
+      "iteration": 101,
+      "objective": 0.00010878319522752094,
+      "duality_gap": 3.431805859507155e-06
+    },
+    {
+      "iteration": 111,
+      "objective": 0.00010878011871050082,
+      "duality_gap": 2.749432855191885e-06
+    },
+    {
+      "iteration": 121,
+      "objective": 0.00010877842032588057,
+      "duality_gap": 2.2212162407829715e-06
+    },
+    {
+      "iteration": 131,
+      "objective": 0.00010877814701149341,
+      "duality_gap": 2.0601274744557807e-06
+    },
+    {
+      "iteration": 141,
+      "objective": 0.00010877783950582202,
+      "duality_gap": 1.7477110918028675e-06
+    },
+    {
+      "iteration": 151,
+      "objective": 0.0001087772248342549,
+      "duality_gap": 1.3897204020041673e-06
+    },
+    {
+      "iteration": 161,
+      "objective": 0.00010877683166426562,
+      "duality_gap": 1.1435748193893457e-06
+    },
+    {
+      "iteration": 171,
+      "objective": 0.00010877671733242441,
+      "duality_gap": 1.0037257497660442e-06
+    },
+    {
+      "iteration": 181,
+      "objective": 0.00010877664693936296,
+      "duality_gap": 9.359714258299788e-07
+    },
+    {
+      "iteration": 191,
+      "objective": 0.00010877650064558181,
+      "duality_gap": 8.138029495388653e-07
+    },
+    {
+      "iteration": 201,
+      "objective": 0.00010877636103333042,
+      "duality_gap": 7.057009717323176e-07
+    },
+    {
+      "iteration": 211,
+      "objective": 0.00010877631579994655,
+      "duality_gap": 6.380706735455815e-07
+    },
+    {
+      "iteration": 221,
+      "objective": 0.00010877630150275017,
+      "duality_gap": 6.071042533856405e-07
+    },
+    {
+      "iteration": 231,
+      "objective": 0.00010877625245083894,
+      "duality_gap": 5.112365255554788e-07
+    },
+    {
+      "iteration": 241,
+      "objective": 0.00010877620042290153,
+      "duality_gap": 4.4281973119565976e-07
+    },
+    {
+      "iteration": 250,
+      "objective": 0.00010877618071841115,
+      "duality_gap": 3.8793391888710785e-07
+    }
+  ],
+  "weighted_bulk_profile_error": 0.00016116007065187577,
+  "source": "CD4_Rest_D1",
+  "target": "DNTTIP1",
+  "case_index": 1,
+  "draw": 200,
+  "arrays_sha256": "037384e8ef40c034af17cdebddb5946949fbb2ae841554473348df38592c99cf",
+  "frame_receipt_sha256": "761d036661c728096bd9ede53db7ee895387a0a8ed90f9a681382bc782fbe4ec",
+  "seconds": 88.1327555179596
+}

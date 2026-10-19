@@ -1,0 +1,10 @@
+{
+  "previous_manifest_sha256": "90a9627c4e4f00c4d6cd9622a660acb43f4f465b37e7be833fa5ae719545a1d5",
+  "allowed_documentation_files": [
+    "V68_RESULTS.md",
+    "document_v68_results.py",
+    "seal_v68_experiment.py"
+  ],
+  "scientific_inputs_and_outcomes_unchanged": true,
+  "reason": "Clarify that the displayed profile errors are squared-error values; fix spacing. Preserve the initial report, renderer, sealer and manifest."
+}

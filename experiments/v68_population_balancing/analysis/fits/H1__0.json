@@ -1,0 +1,44 @@
+{
+  "initial_objective": 3.811008421286323e-05,
+  "final_objective": 3.606336221030754e-05,
+  "duality_gap": 2.597042336869715e-09,
+  "converged": true,
+  "iterations": 41,
+  "effective_sample_size": 757.8654024054914,
+  "maximum_inclusion_probability": 0.683525897394721,
+  "history": [
+    {
+      "iteration": 1,
+      "objective": 3.715809868519501e-05,
+      "duality_gap": 1.853987416827409e-05
+    },
+    {
+      "iteration": 11,
+      "objective": 3.6066533800586215e-05,
+      "duality_gap": 1.0116431673525184e-06
+    },
+    {
+      "iteration": 21,
+      "objective": 3.606341048553627e-05,
+      "duality_gap": 7.016037486766108e-08
+    },
+    {
+      "iteration": 31,
+      "objective": 3.606336508526955e-05,
+      "duality_gap": 2.6576961321995185e-08
+    },
+    {
+      "iteration": 41,
+      "objective": 3.606336221030754e-05,
+      "duality_gap": 2.597042336869715e-09
+    }
+  ],
+  "weighted_bulk_profile_error": 6.751482591950606e-05,
+  "source": "H1",
+  "target": "HDAC8",
+  "case_index": 0,
+  "draw": 400,
+  "arrays_sha256": "0dd991c0543e50052c25a0e90bca30c4df07ba62c4139c1e1f7c100457c1435b",
+  "frame_receipt_sha256": "4c3951f0d9abf14c1ee160b06f91855380f156c1c19cf8c384a649eb4a66da08",
+  "seconds": 4.935285329818726
+}

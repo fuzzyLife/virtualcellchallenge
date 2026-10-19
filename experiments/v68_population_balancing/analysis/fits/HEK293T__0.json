@@ -1,0 +1,144 @@
+{
+  "initial_objective": 0.00020825454126755617,
+  "final_objective": 0.00016434184105318614,
+  "duality_gap": 2.4391181821460458e-08,
+  "converged": false,
+  "iterations": 250,
+  "effective_sample_size": 2739.5922592870356,
+  "maximum_inclusion_probability": 0.38721283165892195,
+  "history": [
+    {
+      "iteration": 1,
+      "objective": 0.0001989198163726955,
+      "duality_gap": 0.00047846208832263244
+    },
+    {
+      "iteration": 11,
+      "objective": 0.00018821336411910936,
+      "duality_gap": 0.0001603846268024494
+    },
+    {
+      "iteration": 21,
+      "objective": 0.00017794822296306978,
+      "duality_gap": 0.00011293152737632621
+    },
+    {
+      "iteration": 31,
+      "objective": 0.00017037518620805663,
+      "duality_gap": 6.817518386078267e-05
+    },
+    {
+      "iteration": 41,
+      "objective": 0.00016644541123622962,
+      "duality_gap": 3.7737784049321684e-05
+    },
+    {
+      "iteration": 51,
+      "objective": 0.0001649290052233808,
+      "duality_gap": 2.1829554808825716e-05
+    },
+    {
+      "iteration": 61,
+      "objective": 0.0001645223267034482,
+      "duality_gap": 1.6330133440520685e-05
+    },
+    {
+      "iteration": 81,
+      "objective": 0.00016445182358451694,
+      "duality_gap": 1.4280494370865162e-05
+    },
+    {
+      "iteration": 91,
+      "objective": 0.00016441053016707594,
+      "duality_gap": 1.1073866432327813e-05
+    },
+    {
+      "iteration": 101,
+      "objective": 0.00016437345116228564,
+      "duality_gap": 7.286236469226202e-06
+    },
+    {
+      "iteration": 111,
+      "objective": 0.00016435163139896734,
+      "duality_gap": 3.838503438793567e-06
+    },
+    {
+      "iteration": 121,
+      "objective": 0.0001643437324652822,
+      "duality_gap": 1.5059925778183653e-06
+    },
+    {
+      "iteration": 131,
+      "objective": 0.0001643427146507865,
+      "duality_gap": 9.321367875207316e-07
+    },
+    {
+      "iteration": 141,
+      "objective": 0.00016434254946577975,
+      "duality_gap": 8.322401035122731e-07
+    },
+    {
+      "iteration": 151,
+      "objective": 0.0001643422907733969,
+      "duality_gap": 6.471839134112468e-07
+    },
+    {
+      "iteration": 161,
+      "objective": 0.00016434206671753172,
+      "duality_gap": 4.334848912261981e-07
+    },
+    {
+      "iteration": 171,
+      "objective": 0.00016434193395302872,
+      "duality_gap": 2.4649610876471056e-07
+    },
+    {
+      "iteration": 181,
+      "objective": 0.0001643418763033798,
+      "duality_gap": 1.5429777785037273e-07
+    },
+    {
+      "iteration": 191,
+      "objective": 0.0001643418550680615,
+      "duality_gap": 1.3064333484128205e-07
+    },
+    {
+      "iteration": 201,
+      "objective": 0.0001643418464147351,
+      "duality_gap": 9.756674022275807e-08
+    },
+    {
+      "iteration": 211,
+      "objective": 0.00016434184373167443,
+      "duality_gap": 6.617700969792124e-08
+    },
+    {
+      "iteration": 221,
+      "objective": 0.00016434184336643908,
+      "duality_gap": 6.042115108802345e-08
+    },
+    {
+      "iteration": 231,
+      "objective": 0.00016434184254819005,
+      "duality_gap": 5.0312189030935924e-08
+    },
+    {
+      "iteration": 241,
+      "objective": 0.00016434184166080516,
+      "duality_gap": 3.6806262037482124e-08
+    },
+    {
+      "iteration": 250,
+      "objective": 0.00016434184105318614,
+      "duality_gap": 2.4391181821460458e-08
+    }
+  ],
+  "weighted_bulk_profile_error": 0.00022121893196145844,
+  "source": "HEK293T",
+  "target": "ZDHHC4",
+  "case_index": 0,
+  "draw": 400,
+  "arrays_sha256": "28c6bd2a45ff110167e0c34329e99e4de55a6d0227eb77b5ca8e810a836d2b12",
+  "frame_receipt_sha256": "60658848c666c536bbbe34dfe9cc9755affbad14d898b6290bfd1aaa65ac94f0",
+  "seconds": 96.85823154449463
+}

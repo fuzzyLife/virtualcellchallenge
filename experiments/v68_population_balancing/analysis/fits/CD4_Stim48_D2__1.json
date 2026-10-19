@@ -1,0 +1,149 @@
+{
+  "initial_objective": 0.001013779808316945,
+  "final_objective": 0.00045480068766124706,
+  "duality_gap": 1.858045038447332e-06,
+  "converged": false,
+  "iterations": 250,
+  "effective_sample_size": 2022.4661576953777,
+  "maximum_inclusion_probability": 0.48827594705473376,
+  "history": [
+    {
+      "iteration": 1,
+      "objective": 0.0008103179021359303,
+      "duality_gap": 0.0020150061682612246
+    },
+    {
+      "iteration": 11,
+      "objective": 0.0005285374127940211,
+      "duality_gap": 0.00034254946607783067
+    },
+    {
+      "iteration": 21,
+      "objective": 0.0004808325477219504,
+      "duality_gap": 0.00017619465033607144
+    },
+    {
+      "iteration": 31,
+      "objective": 0.0004625698031927772,
+      "duality_gap": 8.642308716638818e-05
+    },
+    {
+      "iteration": 41,
+      "objective": 0.00045673560349462704,
+      "duality_gap": 4.539554103265209e-05
+    },
+    {
+      "iteration": 51,
+      "objective": 0.00045529043230486363,
+      "duality_gap": 3.3120189024850034e-05
+    },
+    {
+      "iteration": 61,
+      "objective": 0.00045506147633192316,
+      "duality_gap": 2.8998336591691506e-05
+    },
+    {
+      "iteration": 71,
+      "objective": 0.00045505188088227233,
+      "duality_gap": 2.577133817231321e-05
+    },
+    {
+      "iteration": 81,
+      "objective": 0.0004550084755251514,
+      "duality_gap": 2.0776718698029514e-05
+    },
+    {
+      "iteration": 91,
+      "objective": 0.00045493208147051904,
+      "duality_gap": 1.5224064193646855e-05
+    },
+    {
+      "iteration": 101,
+      "objective": 0.0004548703739167677,
+      "duality_gap": 1.0838858499260781e-05
+    },
+    {
+      "iteration": 111,
+      "objective": 0.00045484041311115783,
+      "duality_gap": 8.127816053669426e-06
+    },
+    {
+      "iteration": 121,
+      "objective": 0.0004548324759218006,
+      "duality_gap": 7.101923001748507e-06
+    },
+    {
+      "iteration": 131,
+      "objective": 0.0004548308148832681,
+      "duality_gap": 6.646315760387302e-06
+    },
+    {
+      "iteration": 141,
+      "objective": 0.0004548260656097623,
+      "duality_gap": 6.122026667024006e-06
+    },
+    {
+      "iteration": 151,
+      "objective": 0.00045481810037467847,
+      "duality_gap": 5.37052333889684e-06
+    },
+    {
+      "iteration": 161,
+      "objective": 0.00045481106436209856,
+      "duality_gap": 4.689420924681928e-06
+    },
+    {
+      "iteration": 171,
+      "objective": 0.0004548074645361675,
+      "duality_gap": 4.274336014560169e-06
+    },
+    {
+      "iteration": 181,
+      "objective": 0.00045480655325821234,
+      "duality_gap": 4.0886938371603526e-06
+    },
+    {
+      "iteration": 191,
+      "objective": 0.00045480614313655267,
+      "duality_gap": 3.8600632847896015e-06
+    },
+    {
+      "iteration": 201,
+      "objective": 0.0004548049759293683,
+      "duality_gap": 3.438547206548807e-06
+    },
+    {
+      "iteration": 211,
+      "objective": 0.00045480322156954314,
+      "duality_gap": 2.887175308364431e-06
+    },
+    {
+      "iteration": 221,
+      "objective": 0.00045480175337463667,
+      "duality_gap": 2.3813729556666463e-06
+    },
+    {
+      "iteration": 231,
+      "objective": 0.0004548010699391647,
+      "duality_gap": 2.1045363373553823e-06
+    },
+    {
+      "iteration": 241,
+      "objective": 0.0004548008667139362,
+      "duality_gap": 1.9597881150117704e-06
+    },
+    {
+      "iteration": 250,
+      "objective": 0.00045480068766124706,
+      "duality_gap": 1.858045038447332e-06
+    }
+  ],
+  "weighted_bulk_profile_error": 0.00045383177815739055,
+  "source": "CD4_Stim48_D2",
+  "target": "FXYD5",
+  "case_index": 1,
+  "draw": 400,
+  "arrays_sha256": "9190505e7314e4a0685b49e1c835d34dd44deaba1bea03f4d419ee7a58127c3d",
+  "frame_receipt_sha256": "c6297f62ae9227c8e89ee5f6032ab4f5f0edb5f7482a46d9cfb6bd430747fcf9",
+  "seconds": 89.70531702041626
+}
