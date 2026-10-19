@@ -1,3 +1,11 @@
+<!-- post-v68-research:begin -->
+## After V68: literature review and next diagnostic
+
+Reviewed population-distribution learning, count likelihoods and decoder sampling against our previous quantile, heterogeneity, joint-rank and flow tests. The recommendation is a crossed mean/decoder diagnostic, followed by a control-anchored integer-count distribution model only if reconstruction and treatment tests support it. PopPert/PS were previously cited; their full methods were not established by our simplified pilots. Paper task mismatches, inaccessible full text and data limitations are explicit. **Research only: no model trained or new submission generated. V66 remains best published at 0.150882188.**
+
+[Research, references and proposed tests](POST_V68_RESEARCH.md) · [Reproducible source/code audit](review_post_v68_literature.py). Earlier status blocks below are historical.
+<!-- post-v68-research:end -->
+
 <!-- v68-real-population:begin -->
 ## V67/V68: two different mechanisms tested; neither released
 

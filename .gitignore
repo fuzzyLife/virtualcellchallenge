@@ -739,3 +739,6 @@ __marimo__/
 /experiments/v68*/*.log
 /experiments/v68*/*.h5ad*
 /experiments/v68*/*.vcc*
+
+# Cached author code for literature inspection; retain hashes, not third-party source
+/analysis/post_v68_research/cache/

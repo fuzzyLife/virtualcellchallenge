@@ -1,0 +1,678 @@
+{
+  "review_date": "2026-10-19",
+  "scope": "Literature/code review, no model trained or submission generated",
+  "papers": [
+    {
+      "title": "PopPert",
+      "url": "https://arxiv.org/html/2609.01357v1",
+      "access": "Full HTML and author code read; previously cited in V17."
+    },
+    {
+      "title": "ExpressionVAE design space",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.06.15.732063v1.full",
+      "access": "Full page fetch failed; indexed primary passages, author page and decoder source inspected."
+    },
+    {
+      "title": "GPerturb",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12215016/",
+      "access": "Full HTML methods and author code inspected."
+    },
+    {
+      "title": "Perturbation-response score",
+      "url": "https://www.nature.com/articles/s41556-025-01626-9",
+      "access": "Full HTML methods/data availability inspected; previously cited/tested in simplified form in V17."
+    },
+    {
+      "title": "VCBench",
+      "url": "https://arxiv.org/html/2604.27646v1",
+      "access": "Full HTML framework and generalization discussion inspected."
+    }
+  ],
+  "remote_code": [
+    {
+      "repository": "whd1125/PopPert",
+      "revision": "248fc3e1428de96335bef1d0271d30ca1e4d5565",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/whd1125/PopPert/248fc3e1428de96335bef1d0271d30ca1e4d5565/README.md",
+      "cache": "analysis/post_v68_research/cache/whd1125__PopPert/README.md",
+      "bytes": 6586,
+      "sha256": "da314b8ae23e890d6d2515e35c926e9eecb6aa1caa614d2ebe612598ccb54494"
+    },
+    {
+      "repository": "whd1125/PopPert",
+      "revision": "248fc3e1428de96335bef1d0271d30ca1e4d5565",
+      "path": "model.py",
+      "url": "https://raw.githubusercontent.com/whd1125/PopPert/248fc3e1428de96335bef1d0271d30ca1e4d5565/model.py",
+      "cache": "analysis/post_v68_research/cache/whd1125__PopPert/model.py",
+      "bytes": 9798,
+      "sha256": "10a58b51dcd537a7b6d72cae0fb88d8e8f2407b3849cd4cbbcde637f678782a3",
+      "symbols": [
+        {
+          "name": "safe_logit",
+          "line": 6,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "safe_log",
+          "line": 10,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "DrugEncoder",
+          "line": 15,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "DoseEncoder",
+          "line": 37,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "DistributionTransformer",
+          "line": 59,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 17,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 32,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 39,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 54,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 60,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "encode_perturbation",
+          "line": 181,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 193,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    {
+      "repository": "whd1125/PopPert",
+      "revision": "248fc3e1428de96335bef1d0271d30ca1e4d5565",
+      "path": "sampling.py",
+      "url": "https://raw.githubusercontent.com/whd1125/PopPert/248fc3e1428de96335bef1d0271d30ca1e4d5565/sampling.py",
+      "cache": "analysis/post_v68_research/cache/whd1125__PopPert/sampling.py",
+      "bytes": 7157,
+      "sha256": "339279ea0a5689ec6ef96a7cef86fb905209aacdcb344120f9b852754eb5a4dc",
+      "symbols": [
+        {
+          "name": "sample_from_params",
+          "line": 8,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "unpack_params",
+          "line": 40,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "zigmm_nll_loss",
+          "line": 51,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "wasserstein_loss",
+          "line": 111,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "dependence_loss",
+          "line": 137,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "sample_from_copula",
+          "line": 144,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "compute_loss",
+          "line": 188,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "validate",
+          "line": 204,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    {
+      "repository": "whd1125/PopPert",
+      "revision": "248fc3e1428de96335bef1d0271d30ca1e4d5565",
+      "path": "zinb/sampling.py",
+      "url": "https://raw.githubusercontent.com/whd1125/PopPert/248fc3e1428de96335bef1d0271d30ca1e4d5565/zinb/sampling.py",
+      "cache": "analysis/post_v68_research/cache/whd1125__PopPert/zinb/sampling.py",
+      "bytes": 6355,
+      "sha256": "357c7644c565dc95cdffe06cdaea15e386f60d4207ef3772d4838df97550e67c",
+      "symbols": [
+        {
+          "name": "_nb_log_prob",
+          "line": 11,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "sample_from_params",
+          "line": 27,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "unpack_params",
+          "line": 58,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "zinb_nll_loss",
+          "line": 64,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "dependence_loss",
+          "line": 92,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "sample_from_copula",
+          "line": 98,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "compute_loss",
+          "line": 162,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "validate",
+          "line": 175,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    {
+      "repository": "sanjukta7/sc-evae",
+      "revision": "2b367c2acd085478705e2934edfdcf5c6121833b",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/sanjukta7/sc-evae/2b367c2acd085478705e2934edfdcf5c6121833b/README.md",
+      "cache": "analysis/post_v68_research/cache/sanjukta7__sc-evae/README.md",
+      "bytes": 7319,
+      "sha256": "e6b2e34e6495ff3959bb97f396886439545bc3521344588a257b3f703f8129fb"
+    },
+    {
+      "repository": "sanjukta7/sc-evae",
+      "revision": "2b367c2acd085478705e2934edfdcf5c6121833b",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/sanjukta7/sc-evae/2b367c2acd085478705e2934edfdcf5c6121833b/LICENSE",
+      "cache": "analysis/post_v68_research/cache/sanjukta7__sc-evae/LICENSE",
+      "bytes": 1078,
+      "sha256": "f04cf7d27fb6d3fa10de5b58920d5dfb90bc8f528ac005474736c13c66461fc4"
+    },
+    {
+      "repository": "sanjukta7/sc-evae",
+      "revision": "2b367c2acd085478705e2934edfdcf5c6121833b",
+      "path": "src/sc-evae/models/output_heads.py",
+      "url": "https://raw.githubusercontent.com/sanjukta7/sc-evae/2b367c2acd085478705e2934edfdcf5c6121833b/src/sc-evae/models/output_heads.py",
+      "cache": "analysis/post_v68_research/cache/sanjukta7__sc-evae/src/sc-evae/models/output_heads.py",
+      "bytes": 8438,
+      "sha256": "cd0b2921c503c60a63edc7732ecf3a49a3cdf8705978fc78605e622315bf17a8",
+      "symbols": [
+        {
+          "name": "MSEHead",
+          "line": 36,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "HurdleHead",
+          "line": 52,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "NBHead",
+          "line": 89,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "CrossEntropyHead",
+          "line": 167,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "make_output_head",
+          "line": 194,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 39,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 43,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "predict",
+          "line": 48,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 55,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 60,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "predict",
+          "line": 70,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 108,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_theta",
+          "line": 123,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_rho",
+          "line": 127,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 131,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "predict",
+          "line": 140,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 170,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 175,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "predict",
+          "line": 180,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    {
+      "repository": "sanjukta7/sc-evae",
+      "revision": "2b367c2acd085478705e2934edfdcf5c6121833b",
+      "path": "src/sc-evae/models/vae.py",
+      "url": "https://raw.githubusercontent.com/sanjukta7/sc-evae/2b367c2acd085478705e2934edfdcf5c6121833b/src/sc-evae/models/vae.py",
+      "cache": "analysis/post_v68_research/cache/sanjukta7__sc-evae/src/sc-evae/models/vae.py",
+      "bytes": 22049,
+      "sha256": "75c39acbbddf37fd89e1c67bdd89390a99115e8c0a090dfabfdab24dc0d79713",
+      "symbols": [
+        {
+          "name": "QuantizerOutput",
+          "line": 28,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "Quantizer",
+          "line": 35,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "sc_evae",
+          "line": 163,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 36,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "codebook_dim",
+          "line": 68,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_compute_codebook_metrics",
+          "line": 71,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "decode_indices",
+          "line": 88,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "all_codes",
+          "line": 98,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 103,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 164,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_run_encoder",
+          "line": 291,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "encode",
+          "line": 314,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_build_decoder_cond",
+          "line": 318,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_run_decoder",
+          "line": 358,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_sample_library_size",
+          "line": 383,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "_predict_head",
+          "line": 390,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "decode",
+          "line": 402,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "decode_observed",
+          "line": 416,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 433,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "pseudo_sample",
+          "line": 494,
+          "kind": "FunctionDef"
+        }
+      ]
+    },
+    {
+      "repository": "hwxing3259/GPerturb",
+      "revision": "05d5a431413ff9dc443c82b994b571ecc563426d",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/README.md",
+      "cache": "analysis/post_v68_research/cache/hwxing3259__GPerturb/README.md",
+      "bytes": 5334,
+      "sha256": "9e971dab08926771da6feea7d1a832090f7248378efe7046d7cf4d1ac5f97114"
+    },
+    {
+      "repository": "hwxing3259/GPerturb",
+      "revision": "05d5a431413ff9dc443c82b994b571ecc563426d",
+      "path": "GPerturb/GPerturb_model.py",
+      "url": "https://raw.githubusercontent.com/hwxing3259/GPerturb/05d5a431413ff9dc443c82b994b571ecc563426d/GPerturb/GPerturb_model.py",
+      "cache": "analysis/post_v68_research/cache/hwxing3259__GPerturb/GPerturb/GPerturb_model.py",
+      "bytes": 49001,
+      "sha256": "29ab3ef8f27e883d46e0a8e54b4783c6ea7fe677d73e04b873d74de90bcd100d",
+      "symbols": [
+        {
+          "name": "logexpp1",
+          "line": 11,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "loglogexpp1",
+          "line": 17,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "MyDataSet",
+          "line": 24,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "GPerturb_Gaussian",
+          "line": 46,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "GPerturb_ZIP",
+          "line": 195,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "my_plot_ZIP",
+          "line": 347,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "my_plot_Gaussian",
+          "line": 426,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "Gaussian_estimates",
+          "line": 510,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "GPerturb_gaussian",
+          "line": 527,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "GPerturb_ZINB",
+          "line": 687,
+          "kind": "ClassDef"
+        },
+        {
+          "name": "__init__",
+          "line": 29,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__getitem__",
+          "line": 35,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__len__",
+          "line": 38,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 47,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 78,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "normal_loss",
+          "line": 91,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "GPerturb_train",
+          "line": 151,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 196,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 228,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "zip_loss",
+          "line": 241,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "GPerturb_train",
+          "line": 299,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 528,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 560,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "normal_loss",
+          "line": 574,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "GPerturb_train",
+          "line": 638,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "__init__",
+          "line": 688,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "forward",
+          "line": 721,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "zinb_loss",
+          "line": 734,
+          "kind": "FunctionDef"
+        },
+        {
+          "name": "GPerturb_train",
+          "line": 798,
+          "kind": "FunctionDef"
+        }
+      ]
+    }
+  ],
+  "local_evidence": [
+    {
+      "path": "v15_population_methods.py",
+      "bytes": 7420,
+      "sha256": "62126894085a4d4719c7a4eff0b5231e50c6b82f8b6d611bdac412805490bbfe"
+    },
+    {
+      "path": "v16_methods.py",
+      "bytes": 8161,
+      "sha256": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+    },
+    {
+      "path": "v68_population_balancing.py",
+      "bytes": 10339,
+      "sha256": "cc530036db630d729080d000a08b552f10f2eba297f48955a35eef4b34b3611a"
+    },
+    {
+      "path": "V17_STRATEGY.md",
+      "bytes": 9369,
+      "sha256": "0677fec395b570b9e257fe31036005c360f09209ee7d9519686ce52ecdd89c85"
+    },
+    {
+      "path": "V17_RESULTS.md",
+      "bytes": 5257,
+      "sha256": "acb983e6ca3defb5c4e34eb59d11ee7c5fdd3be26151c1f4e8b0142fccf44d7f"
+    },
+    {
+      "path": "V27_RESULTS.md",
+      "bytes": 8626,
+      "sha256": "fc6e7ea008fb248b36d0cfc5e9f8ad621db726864ae8a701b6d2dc508ec01fce"
+    },
+    {
+      "path": "V32_V34_RESULTS.md",
+      "bytes": 5672,
+      "sha256": "9a049e87bc39ddeaeef85a56f1402c7ea5786d25aa10be8593997aefade794a4"
+    },
+    {
+      "path": "V52_JOINT_RESULTS.md",
+      "bytes": 5389,
+      "sha256": "72ed9719cd8e7d7c65cbb0d85a0ea3372551265d178bcf9c9b74ba8aa77a786a"
+    },
+    {
+      "path": "V66_LEADERBOARD_RESULTS.md",
+      "bytes": 5950,
+      "sha256": "c0e17d1c9b6abcc937c4efb98ddc21a5fe3576a1c0620eeec2d63089eb969488"
+    },
+    {
+      "path": "V67_RESULTS.md",
+      "bytes": 4866,
+      "sha256": "d0d4b3fd12a6793d76510d95b9797b88efde0af9f0a3224259000ada5f32aae7"
+    },
+    {
+      "path": "V68_RESULTS.md",
+      "bytes": 7482,
+      "sha256": "b2a530702349af25e8447f851f23c6a35aded617e26eee1dab9984dffd05ed8d"
+    },
+    {
+      "path": "experiments/v68_population_balancing/analysis/assessment.json",
+      "bytes": 5231,
+      "sha256": "65eb64c3122fcead56f8a098a0c5af1ed91b8bcf21b135e89e67908d0eef8156"
+    }
+  ],
+  "v68_equal_study_profile_ratio": 1.2130157216606012
+}
