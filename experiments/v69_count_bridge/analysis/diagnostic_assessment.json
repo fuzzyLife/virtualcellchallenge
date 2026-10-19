@@ -1,0 +1,183 @@
+{
+  "summary": {
+    "bridge_oracle": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.7624627220239848,
+      "reach": 0.9911067193675889,
+      "jaccard": 0.10874769736353652,
+      "nmae": null,
+      "profile_square_error": 138.3137274774082
+    },
+    "bridge_pred_oracle_shape": {
+      "pds": 0.6666666666666666,
+      "fidelity": 0.26470784447930157,
+      "reach": 0.39944676354657127,
+      "jaccard": 0.009474503075659167,
+      "nmae": null,
+      "profile_square_error": 140.79743503308399
+    },
+    "old_oracle": {
+      "pds": 1.0,
+      "fidelity": 0.7040567387584922,
+      "reach": 0.9441150636802811,
+      "jaccard": 0.05625765419365516,
+      "nmae": null,
+      "profile_square_error": 92.77261578591832
+    },
+    "old_pred": {
+      "pds": 0.5833333333333334,
+      "fidelity": 0.5201737223934265,
+      "reach": 0.3094712322385278,
+      "jaccard": 0.040292265219156694,
+      "nmae": null,
+      "profile_square_error": 95.81345457480768
+    },
+    "real_fit": {
+      "pds": 1.0,
+      "fidelity": 0.8624409703824609,
+      "reach": 0.9702459376372419,
+      "jaccard": 0.39163279382806,
+      "nmae": null,
+      "profile_square_error": 92.58141768657508
+    }
+  },
+  "studies": {
+    "bridge_oracle": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.8863372093023256,
+        "reach": 1.0,
+        "jaccard": 0.12598626534190532,
+        "nmae": 0.2867949845320381,
+        "profile_square_error": 31.721312828903717
+      },
+      "Orion": {
+        "pds": 0.5,
+        "fidelity": 0.5803558068387379,
+        "reach": 1.0,
+        "jaccard": 0.010369703678823231,
+        "nmae": null,
+        "profile_square_error": 135.47811007090866
+      },
+      "CD4": {
+        "pds": 1.0,
+        "fidelity": 0.8206951499308908,
+        "reach": 0.9733201581027668,
+        "jaccard": 0.18988712306988104,
+        "nmae": 0.4810223159268221,
+        "profile_square_error": 247.7417595324123
+      }
+    },
+    "bridge_pred_oracle_shape": {
+      "H1": {
+        "pds": 0.5,
+        "fidelity": 0.19348871624121344,
+        "reach": 0.2365889752127266,
+        "jaccard": 0.00847457627118644,
+        "nmae": 0.9021581477594642,
+        "profile_square_error": 32.77570468207812
+      },
+      "Orion": {
+        "pds": 0.5,
+        "fidelity": 0.5815565199616334,
+        "reach": 0.9166666666666666,
+        "jaccard": 0.00909090909090909,
+        "nmae": null,
+        "profile_square_error": 102.17053786435596
+      },
+      "CD4": {
+        "pds": 1.0,
+        "fidelity": 0.019078297235057835,
+        "reach": 0.04508464876032058,
+        "jaccard": 0.010858023864881966,
+        "nmae": 1.099896798794935,
+        "profile_square_error": 287.4460625528179
+      }
+    },
+    "old_oracle": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.7633198710021933,
+        "reach": 1.0,
+        "jaccard": 0.02791157224272073,
+        "nmae": 0.2473094106567871,
+        "profile_square_error": 23.188999096523027
+      },
+      "Orion": {
+        "pds": 1.0,
+        "fidelity": 0.5996283993564504,
+        "reach": 0.8333333333333333,
+        "jaccard": 0.0016831350872530508,
+        "nmae": null,
+        "profile_square_error": 90.46324832298964
+      },
+      "CD4": {
+        "pds": 1.0,
+        "fidelity": 0.7492219459168328,
+        "reach": 0.9990118577075099,
+        "jaccard": 0.1391782552509917,
+        "nmae": 0.44998168235539937,
+        "profile_square_error": 164.66559993824228
+      }
+    },
+    "old_pred": {
+      "H1": {
+        "pds": 0.5,
+        "fidelity": 0.654753086419753,
+        "reach": 0.09433962264150944,
+        "jaccard": 0.016837401918047078,
+        "nmae": 0.9006963503194498,
+        "profile_square_error": 24.478877956946977
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5327335742860009,
+        "reach": 0.8333333333333333,
+        "jaccard": 0.00625,
+        "nmae": null,
+        "profile_square_error": 60.23524762837097
+      },
+      "CD4": {
+        "pds": 0.5,
+        "fidelity": 0.3730345064745257,
+        "reach": 0.0007407407407407407,
+        "jaccard": 0.097789393739423,
+        "nmae": 0.9863841837184546,
+        "profile_square_error": 202.72623813910508
+      }
+    },
+    "real_fit": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.9901960784313726,
+        "reach": 1.0,
+        "jaccard": 0.2802197802197802,
+        "nmae": 0.24714287943225605,
+        "profile_square_error": 23.174957096373717
+      },
+      "Orion": {
+        "pds": 1.0,
+        "fidelity": 0.71875,
+        "reach": 0.9166666666666666,
+        "jaccard": 0.6,
+        "nmae": null,
+        "profile_square_error": 90.3547967696037
+      },
+      "CD4": {
+        "pds": 1.0,
+        "fidelity": 0.8783768327160102,
+        "reach": 0.9940711462450593,
+        "jaccard": 0.2946786012643998,
+        "nmae": 0.44668116203654584,
+        "profile_square_error": 164.2144991937478
+      }
+    }
+  },
+  "scope": "Raw reused-public metrics; not hosted anchor-scaled accuracy",
+  "checks": {
+    "profile": false,
+    "fidelity": true
+  },
+  "representation_supported": false,
+  "not_a_deployable_predictor": true
+}

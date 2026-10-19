@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "run_v69_representative_null.py": "fba3a9101a4401d02faa783032ac3b98fd2b8ed283c5bac38d38da1adfc0e0f3",
+    "v69_count_bridge.py": "61486f6c2205e9d985a5e8edab8f7db909fb2c8824751a2ee1fb008f2ba42db0",
+    "v68_population_balancing.py": "cc530036db630d729080d000a08b552f10f2eba297f48955a35eef4b34b3611a"
+  },
+  "original_plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
+  "reason": "Original null_template is x[left[:400]], which can overrepresent source batches. Original HCT116 identity had578 DE calls; HEK293T identity had1041. These observations motivate this extra sample-frame test, not parameter/seed selection. Preserve all original null outcomes.",
+  "sampler": "Depth-stratified uniform pivotal sample from all query-fit controls, 400 distinct rows, eight bins, seed690800+context index. The original V68 sampler is reused; no outcomes from this additional test observed at freeze.",
+  "arms": [
+    "template",
+    "v66",
+    "bridge",
+    "hybrid25",
+    "near_zero_bridge"
+  ],
+  "selection_changed": false,
+  "D3_opened": false
+}

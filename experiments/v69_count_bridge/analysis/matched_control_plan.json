@@ -1,0 +1,8 @@
+{
+  "helper_sha256": "57dc7f404d67f646638325e7d4288aa9eb813fd1e63b1a65e34d7d0868701b78",
+  "original_plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
+  "reason": "Pre-development code review: original shuffled_shape is a full bridge population. A hybrid25 candidate additionally needs the identical quarter mixture using shuffled shape evidence; otherwise the count mechanism and mixture weight are confounded.",
+  "formula": "Reuse saved fold-specific V66 and full shuffled_shape count populations. Apply exactly the same hybrid() seed and100/400 row allocation as hybrid25.",
+  "stage": "Recorded after some labelled oracle diagnostic outcomes, before any V69 development/confirmation outcome. No candidate rule, fitted parameter or response is changed. Additional matched comparison can only make support stricter.",
+  "D3_opened": false
+}
