@@ -717,3 +717,11 @@ __marimo__/
 /experiments/v65*/*.h5ad*
 /experiments/v65*/*.vcc*
 /experiments/v65*/analysis/prediction_control_rows.csv
+
+# V66 matched-strength arrays and artifacts
+/experiments/v66*/**/*.npz
+/experiments/v66*/**/*.npy
+/experiments/v66*/*.log
+/experiments/v66*/*.h5ad*
+/experiments/v66*/*.vcc*
+/experiments/v66*/analysis/prediction_control_rows.csv

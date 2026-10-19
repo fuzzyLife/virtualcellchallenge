@@ -1,0 +1,31 @@
+{
+  "version": 66,
+  "dependencies": {
+    "v66_assay_strength.py": "58641e4fbff478d76d7bb8582a680b5de20d4e08771cb98ebf9a654ac263fbcf",
+    "run_v66_experiment.py": "5e637d4aff05f7abccbc311c5ea2abb5d4aa828202ca842e3d93f4a7f39abfb7",
+    "run_v65_experiment.py": "1d7ac816fec0397431328005cbc638d996e1401abf3e9b5a0ad5b5857df8a3df",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v62_pool_cache.py": "fd260ba64334da150bcc8ad15e7669af5de2aa1b3e34a7b22f539e1acb962a86",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+  },
+  "arms": [
+    "assay75"
+  ],
+  "hypothesis": "Strength-matched control motivated by V65 response screen: reclosure50 and closed50 lose to V63, while closed75 slightly improves profile error. Test the same three-quarter correction on the original V63 source representation, to separate correction strength from normalization. V65 counts started; only progress/runtime logs inspected, no new count summary or accuracy used to specify this candidate.",
+  "formula": "Take the exact original unguarded V62 assay_center50 array, expand its correction from V24 by 1.5 (bounded +/-0.75 and final +/-3); preserve own zero; apply exactly the original V24 80% identity-margin guard. Original source profiles and uncertainties unchanged. It is strength matched to V65 up to original float32 rounding.",
+  "selection": "Before counts, select lowest equal-study target-weighted desired-profile MSE ratio versus V63 among arms with ratio<1, each study<=1.03, LFC MSE/MAE <=1.02 and equal-study mean PDS no loss>.01. Ties by ARMS order. Then lock; compare generated cells with V63, V24 and selected source-target cyclic derangement. No post-count candidate promotion. Complete all fixed unique-target cases at two seeds as diagnostics, not unseen biology. A package may be explicitly experimental on public count guard failure but must state it. No guaranteed private improvement.",
+  "count_guards": {
+    "profile_MSE_ratio": 1.0,
+    "pds_loss": 0.005,
+    "fidelity_loss": 0.002,
+    "reach_loss": 0.005,
+    "jaccard_loss": 0.0005,
+    "nmae_ratio": 1.01
+  },
+  "validation": "Canonical first case per target/context from existing V34/V37 pools: 30 unique target/context pairs, five contexts, three studies. Generation seeds 0 and620000 are technical repeats. Public biology reused; D3 unopened. Complete held-study source exclusion (HCT116 and HEK293T jointly). No query treatment in fitting.",
+  "V65_mean_result_sha256": "ea0577d17df69c06af66d32625b7379d59693cb366c46a5182e660224bb77db7",
+  "cross_version_rule": "Only V65 closed75 and this fixed V66 assay75 can be finalists. Evaluate the same canonical 30 target/context pairs and two seeds, V24/V63/shuffled controls. Prefer a candidate passing every frozen public count guard; if both pass choose lower paired equal-study generated-profile error ratio. If neither passes, any diagnostic upload must remain explicitly experimental and report all failures; prefer lower generated-profile error among mean-eligible candidates with no >3% study profile degradation and at least two raw metric gains versus V63. Do not promote additional strengths after count outcomes. No hidden-score forecast.",
+  "D3_opened": false,
+  "automatic_upload": false
+}
