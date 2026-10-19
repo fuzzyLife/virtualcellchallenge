@@ -1,0 +1,60 @@
+{
+  "version": 67,
+  "dependencies": {
+    "v67_intervention_network.py": "9c1f656eb48feaa4a5f31242e5faf94710c0dc54810d4e7b3f76168c49e958df",
+    "run_v67_experiment.py": "6523d4c07034e23b8fc916a2f99dc363219ddbde5f99d61eb94a5498a4b406da",
+    "test_v67_network.py": "47508be41fd15bb985bbb43023b7cc906d5f27e060103ba487a2ecce1374b13c",
+    "audit_v67_boundaries.py": "e70b7c56b9e7601e49f87b60420c9c769ddd8b5654b4e6f882349c9d74dd40e4",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v7_response_methods.py": "6f65bd17120f9ff05e9660af95c29c3b3d22e022bb60b2f09b502a8922fadbc0",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+  },
+  "inputs": {
+    "experiments/v7_multisource_adaptive/analysis/source_provenance.json": "1fdf3385b31ce074673e691d2b7cfc49b14513efbf195ad246f7a294459bc851",
+    "experiments/v7_multisource_adaptive/analysis/source_cache.npz": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+    "experiments/v66_assay_strength/analysis/leaderboard_result.json": "df13e8e563708bf860e359f0058f9fd220311e397c727ac2c7a4cde7ee36736d",
+    "experiments/v66_assay_strength/analysis/release_manifest.json": "1a4256e0630cb21d0dac2149275ec9d84b7f4942e96a4f32ac9ea4386442099c",
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v66_assay_strength/analysis/predictions/H1.json": "612f62e71803d8ea390bfc5d258606b55589790996c4b31e6da2b2997595cee4",
+    "experiments/v37_component_ensemble/analysis/cache/H1/receipt.json": "bcdcf264d127b5b07c3ca2083abda30c68a7f1b4b90efbddeba58aab617b13b1",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.json": "a23fa21d874cab988381e682671a65f1309e93ff7a48ed0be71fa4e432c4049c",
+    "experiments/v37_component_ensemble/analysis/cache/HCT116/receipt.json": "f3b730da9763b2180e639e2a46f3e4eaac05b2a2f55dea0154c8e1f95da0f752",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.json": "77bbcaaa83b00c73e60c7c8d6cc8605d478942d76021e5cbde7996710ba1c722",
+    "experiments/v37_component_ensemble/analysis/cache/HEK293T/receipt.json": "59f4c37d4cfe2176b77064607f3539ac5d88a67a07fb3e7c14a27f442f6005d7",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.json": "9007f0509729764b63c8b8c8bb6f6bf125f6fcb30be428e6268b8a6efdee09c8",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Rest_D1/receipt.json": "aa8fdae0888c2e315d2e828640e23184239ed7e5e1240d422065ae55a599feb0",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.json": "87695aee91a5c231a3e93ce313c98a5881cd372bf74a4d7358412b93e4ee3ed3",
+    "experiments/v37_component_ensemble/analysis/cache/CD4_Stim48_D2/receipt.json": "3b8ebfc067cfc3ff006f82583c5757d5351552de082c83f04ea92c9f4ae7d1b5"
+  },
+  "arms": [
+    "network",
+    "network_shuffled",
+    "gain_only"
+  ],
+  "primary": "network",
+  "hypothesis": "Use intervention-to-intervention response structure to model feedback changes with baseline target availability; transfer the resulting source response difference onto V63. No fitted neural residual, STRING graph or observational covariance inverse.",
+  "model": "Threshold cross-target log2 responses by 2 source SE, form normalized susceptibility S=I+thresholded_response.T/log2(.1), invert with singular floor .25, row-normalize inverse(S) by its diagonal, form W=I-normalized_inverse and set diagonal to zero and contract its spectral norm to <=.45. Query outgoing mediator activity is sqrt(saturation(query)/saturation(source)), saturation(p)=p/(p+20), clipped .5..1.5, unavailable source/query pairs unchanged. Clamp-normalize source and query resolvents (I-W*diag(activity))^-1. Mixing map is solve(source_resolvent,query_resolvent). Transport source-common-centered experimental responses, subtract original; precision-pool only outputs present for every active source intervention; apply half of bounded +/-1 correction to V63. All panel output responses remain V63. Assumptions are predictive approximations; 90% knockdown is not an infinitesimal intervention and causal network identification is not claimed.",
+  "controls": "Unchanged V63 and V66, mediator-availability permutation (fixed seed67067), and row-wise projection of the network correction onto baseline responses (gain_only). Primary fixed before outcomes; no promotion of controls or parameter grid.",
+  "broad_test": "All 655 existing target/context pairs with >=30 measured treatment cells, five contexts, three studies; same study exclusion as V63 including HCT/HEK together. Target SHA256(v67-target:+symbol) modulo2 partitions development/confirmation, shared across contexts. Both subsets are reused public biology, not independently blind. Predict all 300 responses before reading any treatment matrix.",
+  "mean_gate": {
+    "profile_ratio_vs_v63": 0.99,
+    "profile_ratio_vs_v66": 0.99,
+    "worst_study_profile_ratio": 1.02,
+    "pds_change_min": -0.005,
+    "beat_both_controls_profile": true,
+    "development_and_confirmation_profile_ratio_max": 1.0
+  },
+  "count_gate": "Only a primary passing broad means proceeds to all canonical30 count pairs with seeds0/620000, unchanged residual10 emitter, V63/V66/permuted controls. Require lower expression error than both, no PDS loss>.005, FID loss>.002, REACH loss>.005, JAC loss>.0005 or NMAE error increase>1%; beat shuffle on profile and PDS. If failed, report the negative result, retain prior best and do not generate a renamed duplicate.",
+  "boundary": "All recipient-study responses, errors, valid masks, knockdowns and source profiles excluded from graph and response-bank inference; query NTC profiles remain valid. Poisoning audit required. New independent biological data are not claimed; D3 reserve stays unopened unless all earlier gates pass.",
+  "references": [
+    "https://www.nature.com/articles/s41586-022-05688-9",
+    "https://doi.org/10.1006/jtbi.2002.3096"
+  ],
+  "D3_opened": false,
+  "automatic_upload": false
+}
