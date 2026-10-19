@@ -351,3 +351,8 @@
 
 # Historical code snapshots retain exact source bytes, including whitespace
 /experiments/v68*/analysis/documentation_history/*.py -text -whitespace
+
+# V69 scientific protocol bytes
+/*v69*.py -text whitespace=cr-at-eol,-blank-at-eof
+/V69*.md -text whitespace=cr-at-eol
+/experiments/v69*/analysis/** -text whitespace=cr-at-eol

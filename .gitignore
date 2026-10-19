@@ -742,3 +742,11 @@ __marimo__/
 
 # Cached author code for literature inspection; retain hashes, not third-party source
 /analysis/post_v68_research/cache/
+
+# V69 regenerable count bridge arrays and upload payloads
+/experiments/v69*/**/*.npz
+/experiments/v69*/**/*.npy
+/experiments/v69*/*.log
+/experiments/v69*/*.h5ad*
+/experiments/v69*/*.vcc*
+/experiments/v69*/analysis/prediction_control_rows.csv

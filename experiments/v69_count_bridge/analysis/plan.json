@@ -1,0 +1,105 @@
+{
+  "version": 69,
+  "dependencies": {
+    "v69_count_bridge.py": "61486f6c2205e9d985a5e8edab8f7db909fb2c8824751a2ee1fb008f2ba42db0",
+    "run_v69_experiment.py": "2cf705b4f7c70dbb6e09c06ebae608f56d4a832213151b402eb65e7600fdcfa0",
+    "test_v69_count_bridge.py": "12de46691b8a4487d6024daf2f36dd4443813fe4f916f58dfbcb6d43aaebb40f",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v6_methods.py": "b08fd9b5089ef9c638d60b06804c50902049ab3ca23f1c05bb57179ef1935bee",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "audit_transfer_validation.py": "f915c8415b6daa22dd3b62f6c71bdf7af87d58bc452f0461ee0107367f96edd9",
+    "run_v37_ensemble.py": "066c5792cf76114a91b38ea70a3a5ea4ca69a3a4944d538fb11f5d375d7fcce4",
+    "run_v35_v36.py": "d4c44d75291d324f226c502f7a200332e4eb9c037bd2c2020fb4ad95219f43de"
+  },
+  "inputs": {
+    "experiments/v34_residual_flow/analysis/plan.json": "1498caea10bcde5aa5bdb9bc71ec92e5008a47d145163de576f852259d3f9c9a",
+    "experiments/v66_assay_strength/analysis/reference_model.json": "0b29922737032007443a60a0ceb4b3c91f2f89e9ae8d65f4cb936565f3b2fec2",
+    "experiments/v66_assay_strength/analysis/reference_model_arrays.npz": "76be16202d83997828670bb954d7fe33e16fb94471ba1e02b2aaa13ce3684c08",
+    "experiments/v66_assay_strength/analysis/predictions/H1.npz": "dddda3eeadc2477e0e4654f635781aded840e5c9459ed7a84f0683863cb88b16",
+    "experiments/v66_assay_strength/analysis/predictions/H1.json": "612f62e71803d8ea390bfc5d258606b55589790996c4b31e6da2b2997595cee4",
+    "experiments/v68_population_balancing/analysis/frames/H1/receipt.json": "4c3951f0d9abf14c1ee160b06f91855380f156c1c19cf8c384a649eb4a66da08",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.npz": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.json": "a23fa21d874cab988381e682671a65f1309e93ff7a48ed0be71fa4e432c4049c",
+    "experiments/v68_population_balancing/analysis/frames/HCT116/receipt.json": "400ddfb05e3cfe62a7d43d1503a12fe184b3bd69f380746524145b666712da01",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.npz": "756d763ab8f44ceaaa35a26a48c69d7556612a21043f840c76fcc7b77db80c1b",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.json": "77bbcaaa83b00c73e60c7c8d6cc8605d478942d76021e5cbde7996710ba1c722",
+    "experiments/v68_population_balancing/analysis/frames/HEK293T/receipt.json": "60658848c666c536bbbe34dfe9cc9755affbad14d898b6290bfd1aaa65ac94f0",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.npz": "401b1e46e4d82c4f8cba826a183d4bbbc275c6876714a703c6ca994ec363c5ca",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.json": "9007f0509729764b63c8b8c8bb6f6bf125f6fcb30be428e6268b8a6efdee09c8",
+    "experiments/v68_population_balancing/analysis/frames/CD4_Rest_D1/receipt.json": "761d036661c728096bd9ede53db7ee895387a0a8ed90f9a681382bc782fbe4ec",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.npz": "58f54e9d041894dc690cf1f09a5a6d3c72bc3a8606b57ead83a03ee5ba979b42",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.json": "87695aee91a5c231a3e93ce313c98a5881cd372bf74a4d7358412b93e4ee3ed3",
+    "experiments/v68_population_balancing/analysis/frames/CD4_Stim48_D2/receipt.json": "c6297f62ae9227c8e89ee5f6032ab4f5f0edb5f7482a46d9cfb6bd430747fcf9"
+  },
+  "arms": [
+    "mean_bridge",
+    "shape_bridge",
+    "hybrid25"
+  ],
+  "mechanism": "Independent posterior Gamma-Poisson coupling with beta/gamma shape bridge, binomial removals and Poisson additions. Zero response exactly preserves counts. New cell totals may fluctuate; no row/gene integer-margin projection.",
+  "mean": "Frozen whole-study-excluded V66 assay75 means; production exact frozen V66 effects. Own factor 0.1 applied once; target proportion closure includes own.",
+  "dispersion": "Five raw source contexts, target minimum80 treated/80 matched NTC; per-gene depth-conditioned MOM alpha clipped .005..20. Split treated alternating source rows, same-sign dispersion shifts supported by molecule counts, shrink n/(n+200). Equal-study pooling plus one zero-change prior; transfer half clipped log alpha shift. All panel genes abstain for dispersion.",
+  "oracle": "First2 unique targets/context; split cached actual cells alternating into fit and scoring halves. Five arms: old_pred, old_oracle, bridge_pred_oracle_shape, bridge_oracle, real_fit. All synthetic arms scored with same number of cells as scoring half. These are labelled-data diagnostics, not deployable predictors. Oracle old uses both measured fit CPM and bulk; bridge uses fit bulk/shape, so differences in realized means must be reported.",
+  "development": {
+    "H1": [
+      0,
+      1
+    ],
+    "HCT116": [
+      0,
+      1
+    ],
+    "HEK293T": [
+      0,
+      1
+    ],
+    "CD4_Rest_D1": [
+      0,
+      1
+    ],
+    "CD4_Stim48_D2": [
+      0,
+      1
+    ]
+  },
+  "confirmation": {
+    "H1": [
+      2,
+      3
+    ],
+    "HCT116": [
+      2,
+      3
+    ],
+    "HEK293T": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "CD4_Rest_D1": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "CD4_Stim48_D2": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "selection": "Select on development only among mean_bridge/shape_bridge/hybrid25: equal-study paired profile error ratio <=1.05, every study <=1.15, raw fidelity >=85% baseline, PDS no worse .03. Choose lowest paired profile error among eligible, tie by declared arm order. If none eligible, lock hybrid25 as explicitly experimental fallback, not a validated gain. Confirmation cannot change selected arm.",
+  "release_guards": "Confirmation profile ratio <=.99, each study <=1.03, PDS no worse .005, fidelity no worse .002, reach no worse .005, Jaccard no worse .0005, NMAE <=1.01 baseline and >=3 raw metric gains. Beat matched shuffled shape control on profile for shape-based candidate. Complete zero-response and tiny-response null diagnostics reported separately. Failed guards require experimental label; user requested a new upload artifact, not automatic upload.",
+  "hybrid": "Exactly one quarter of template row positions, selected by fixed seed permutation, replaced by full shape-bridge counts; remaining rows use unchanged old residual10 output. This mixture is not null-identity; no zero-response bypass is applied.",
+  "diagnostic_rule": "Report whether bridge_oracle profile <=1.10 old_oracle and fidelity >=80% old_oracle; failure flags representation limitation. Still evaluate fixed deployable controls to meet the requested experimental release; do not claim oracle success or tune after seeing outcomes.",
+  "reserve": "D3 remains unopened. All public biology reused; source study exclusion is not independent unseen-study confirmation.",
+  "automatic_upload": false
+}
