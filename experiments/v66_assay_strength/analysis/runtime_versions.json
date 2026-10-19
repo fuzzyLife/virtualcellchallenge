@@ -1,0 +1,48 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\animeshs\\AppData\\Local\\Temp\\vcc_v20_stack\\env\\Scripts\\python.exe",
+  "prefix": "C:\\Users\\animeshs\\AppData\\Local\\Temp\\vcc_v20_stack\\env",
+  "platform": "Windows-11-10.0.22635-SP0",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.0.6",
+    "anndata": "0.13.4",
+    "h5py": "3.16.0",
+    "threadpoolctl": "3.7.0",
+    "torch": "2.10.0+cu126",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "zstandard": null
+  },
+  "native_libraries_under_scientific_thread_limit": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\animeshs\\AppData\\Local\\Temp\\vcc_v18_local\\env\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 2,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\animeshs\\AppData\\Local\\Temp\\vcc_v18_local\\env\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    }
+  ],
+  "private_generation_workers": 4,
+  "public_generation_seed_offsets": [
+    0,
+    620000
+  ],
+  "production_seed": 20261011,
+  "official_cli_version_scope": "Read exact CLI version/schema from submission_ready.json package_meta after official local prep.",
+  "recorder_sha256": "73b190611134b4cd18fd45bead2773ef4cdb3675d56625224e2a72cff246ecad"
+}

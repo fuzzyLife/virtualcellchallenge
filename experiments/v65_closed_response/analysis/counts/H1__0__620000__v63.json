@@ -1,0 +1,23 @@
+{
+  "family": "H1",
+  "study": "H1",
+  "target": "HDAC8",
+  "case_index": 0,
+  "seed_offset": 620000,
+  "arm": "v63",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.6748152359295054,
+  "reach": 0.06369426751592357,
+  "jaccard": 0.030107526881720432,
+  "nmae": 0.8358703363096149,
+  "predicted_calls": 1759,
+  "reference_calls": 157,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.001484234466321767,
+  "bulk_probability_L1": 0.00017667949258465932,
+  "changed_transcript_fraction": 0.18241764801161287,
+  "global_moment_refit": true,
+  "arrays_sha256": "8f65c1267259b8d3d608b7f722276e37ec4a0b51c582ee4e52f8868925e4eb72",
+  "seconds": 6.144174098968506
+}

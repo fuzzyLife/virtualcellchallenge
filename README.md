@@ -1,3 +1,11 @@
+<!-- v65-v66-release:begin -->
+## V65/V66: submission history reviewed and new experimental test file
+
+Reviewed **all 18 published submissions**; tested source normalization and a strength-matched assay correction with **480 paired count-comparison records** (shared baselines and repeated biology explicitly audited). Selected **V66 `assay75`**, paired generated-profile error / V63 **0.996334814**. Public strict guards pass: **False**; failures: reach. The broader 655-pair desired-mean check is mixed. **V63 remains best published (0.150422795); this is an experimental upload test with unknown private accuracy.** Official packaging, full payload/provenance checks and deterministic replays pass. Nothing uploaded automatically.
+
+[18-submission history and plot](V65_SUBMISSION_HISTORY.md) · [V65 results](V65_RESULTS.md) · [V66 results](V66_RESULTS.md) · [Selected file and CMD command](V65_V66_SUBMISSION.md). Older blocks below describe earlier decisions.
+<!-- v65-v66-release:end -->
+
 <!-- v63-identity-guard:begin -->
 ## V63 published: new best project score
 

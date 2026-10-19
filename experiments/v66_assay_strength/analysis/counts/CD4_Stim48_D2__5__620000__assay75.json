@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "PPIP5K2",
+  "case_index": 5,
+  "seed_offset": 620000,
+  "arm": "assay75",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.5237887385421214,
+  "reach": 0.0018001800180018,
+  "jaccard": 0.16546762589928057,
+  "nmae": 0.9956821505623216,
+  "predicted_calls": 2291,
+  "reference_calls": 1111,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.011728071164485633,
+  "bulk_probability_L1": 0.0009429553726767329,
+  "changed_transcript_fraction": 0.37481446589548184,
+  "global_moment_refit": true,
+  "arrays_sha256": "6e2b23f73b658d66423a58851be5df03ce258daa36c3f00d9433991793707e30",
+  "seconds": 11.662112474441528
+}

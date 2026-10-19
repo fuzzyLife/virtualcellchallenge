@@ -1,0 +1,23 @@
+{
+  "family": "HEK293T",
+  "study": "Orion",
+  "target": "ADNP",
+  "case_index": 5,
+  "seed_offset": 0,
+  "arm": "assay75",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.571501014198783,
+  "reach": 0.4,
+  "jaccard": 0.0010126582278481013,
+  "nmae": null,
+  "predicted_calls": 1972,
+  "reference_calls": 5,
+  "nmae_eligible": false,
+  "mean_probability_L1": 0.007820006749755097,
+  "bulk_probability_L1": 0.0006183408934568491,
+  "changed_transcript_fraction": 0.322121005619438,
+  "global_moment_refit": true,
+  "arrays_sha256": "d2c6609e732a0d29717046170c654f3ba4e7acf8ee8ac6c419200e644dd55d92",
+  "seconds": 11.68662977218628
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "serialized_cases": 240,
+  "unique_target_panels": 40,
+  "verified_baseline_reuse_receipts": 80,
+  "independently_replayed_metrics": [
+    "fidelity",
+    "jaccard",
+    "nmae",
+    "predicted_calls",
+    "reference_calls",
+    "PDS",
+    "pooled_profile_square_error"
+  ],
+  "reach_replayed_from_serialized_arrays": false,
+  "reach_limitation": "Legacy arrays do not store raw p values used for tie ordering; no full reach replay claimed here. Production integrity uses fresh count regeneration.",
+  "auditor_sha256": "5b0ef167387a8735026a32592126779b5893b7835c3ee4a1201522bcb4a8c007",
+  "count_assessment_sha256": "75ec2b254bb68023aff40af3d7b4bb1a25acb4948cb151eca0d164c0332b1a63"
+}

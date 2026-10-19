@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "context": "A",
+      "source_and_all_responses_replayed": true,
+      "all_90000_margin_constraints_verified": true
+    },
+    {
+      "context": "B",
+      "source_and_all_responses_replayed": true,
+      "all_90000_margin_constraints_verified": true
+    },
+    {
+      "context": "C",
+      "source_and_all_responses_replayed": true,
+      "all_90000_margin_constraints_verified": true
+    }
+  ],
+  "all_production_responses_replayed": true,
+  "verifier_sha256": "bc7764354905d5c5658cffb4d6d827749b2efe0f28422236735456b4ba584af2",
+  "scope": "Deterministic response replay and independent margin inequalities preserve V24 model geometry; no hidden accuracy guarantee."
+}

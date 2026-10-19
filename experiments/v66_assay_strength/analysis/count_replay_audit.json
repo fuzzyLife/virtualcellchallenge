@@ -1,0 +1,78 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "source": "H1",
+      "seed_offset": 0,
+      "target": "HDAC8",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "H1",
+      "seed_offset": 620000,
+      "target": "HDAC8",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "HCT116",
+      "seed_offset": 0,
+      "target": "GLI3",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "HCT116",
+      "seed_offset": 620000,
+      "target": "GLI3",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "HEK293T",
+      "seed_offset": 0,
+      "target": "ZDHHC4",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "HEK293T",
+      "seed_offset": 620000,
+      "target": "ZDHHC4",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "seed_offset": 0,
+      "target": "CYTH2",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "seed_offset": 620000,
+      "target": "CYTH2",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "seed_offset": 0,
+      "target": "DNTTIP1",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "seed_offset": 620000,
+      "target": "DNTTIP1",
+      "profile_and_DE_arrays_exactly_replayed": true,
+      "reach_verified_with_fresh_raw_p_values": true
+    }
+  ],
+  "replayed_populations": 10,
+  "auditor_sha256": "c0ed440d73736a266c896627146e4aa83f34d9758b1e8cd15cc0c718621b7f4a",
+  "scope": "Ten prespecified first-target populations: all five contexts at both technical seeds. All stored primary profile/DE arrays replay exactly; independent Python-sorted raw-p tie ordering verifies reach. Other cases get serialized fidelity/Jaccard/NMAE/PDS audits."
+}

@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "MED15",
+  "case_index": 6,
+  "seed_offset": 0,
+  "arm": "closed75_shuffled",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.5034722222222222,
+  "reach": 0.005509641873278237,
+  "jaccard": 0.08680555555555555,
+  "nmae": 0.9756495150063874,
+  "predicted_calls": 576,
+  "reference_calls": 363,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012900766022559847,
+  "bulk_probability_L1": 0.0017819686862116542,
+  "changed_transcript_fraction": 0.3739124290702123,
+  "global_moment_refit": true,
+  "arrays_sha256": "590981d8a3a31c8d167deb8a9e344a64f7bcb2126fe8a83553120e9e354ecbc8",
+  "seconds": 9.439929008483887
+}

@@ -1,0 +1,23 @@
+{
+  "family": "HCT116",
+  "study": "Orion",
+  "target": "PATL1",
+  "case_index": 1,
+  "seed_offset": 620000,
+  "arm": "v63",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.5641780066200809,
+  "reach": 1.0,
+  "jaccard": 0.0007352941176470588,
+  "nmae": null,
+  "predicted_calls": 2719,
+  "reference_calls": 3,
+  "nmae_eligible": false,
+  "mean_probability_L1": 0.008391787581180987,
+  "bulk_probability_L1": 0.0006786230709706402,
+  "changed_transcript_fraction": 0.31639051545947583,
+  "global_moment_refit": true,
+  "arrays_sha256": "60f0013f8dca29789eda4ee705047c39db3de7ecc9f5a83449b7cfc6ccd1bf7c",
+  "seconds": 6.803015470504761
+}

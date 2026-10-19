@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "FOXN2",
+  "case_index": 3,
+  "seed_offset": 0,
+  "arm": "assay75_shuffled",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.4946236559139785,
+  "reach": 0.0,
+  "jaccard": 0.0821917808219178,
+  "nmae": 0.903438988497317,
+  "predicted_calls": 279,
+  "reference_calls": 116,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012548015277013495,
+  "bulk_probability_L1": 0.001822217898726399,
+  "changed_transcript_fraction": 0.3723851236675711,
+  "global_moment_refit": true,
+  "arrays_sha256": "02b180539976fa0546f340c87ac887415791f9c67da53525ab0160c0a85d222f",
+  "seconds": 9.58960747718811
+}

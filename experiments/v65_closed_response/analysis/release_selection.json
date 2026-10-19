@@ -1,0 +1,82 @@
+{
+  "selected_version": 66,
+  "selected": {
+    "version": 66,
+    "candidate": "assay75",
+    "eligible": true,
+    "all_public_guards_passed": false,
+    "failed_guards": [
+      "reach"
+    ],
+    "improved_raw_metrics": [
+      "pds",
+      "fidelity",
+      "nmae",
+      "profile_square_error"
+    ],
+    "study_profile_error_ratios": {
+      "H1": 1.0048005449534363,
+      "Orion": 0.983002550924052,
+      "CD4": 1.0012013469409733
+    },
+    "profile_error_ratio": 0.9963348142728204,
+    "count_assessment_sha256": "1923661cbee7fd7e3fb60abbd3b4a261acf58f5bdb16719c4df57892ffe52dff",
+    "mean_result_sha256": "6e3a83ac71cceca7c147d905489d621a9c5e08128a218013f1ed7638bf57c9d4"
+  },
+  "records": [
+    {
+      "version": 65,
+      "candidate": "closed75",
+      "eligible": true,
+      "all_public_guards_passed": false,
+      "failed_guards": [
+        "reach",
+        "jaccard",
+        "beats_shuffle_pds"
+      ],
+      "improved_raw_metrics": [
+        "pds",
+        "fidelity",
+        "nmae",
+        "profile_square_error"
+      ],
+      "study_profile_error_ratios": {
+        "H1": 0.9974693716328383,
+        "Orion": 0.9909152382411083,
+        "CD4": 1.0019671521481655
+      },
+      "profile_error_ratio": 0.9967839206740373,
+      "count_assessment_sha256": "75ec2b254bb68023aff40af3d7b4bb1a25acb4948cb151eca0d164c0332b1a63",
+      "mean_result_sha256": "ea0577d17df69c06af66d32625b7379d59693cb366c46a5182e660224bb77db7"
+    },
+    {
+      "version": 66,
+      "candidate": "assay75",
+      "eligible": true,
+      "all_public_guards_passed": false,
+      "failed_guards": [
+        "reach"
+      ],
+      "improved_raw_metrics": [
+        "pds",
+        "fidelity",
+        "nmae",
+        "profile_square_error"
+      ],
+      "study_profile_error_ratios": {
+        "H1": 1.0048005449534363,
+        "Orion": 0.983002550924052,
+        "CD4": 1.0012013469409733
+      },
+      "profile_error_ratio": 0.9963348142728204,
+      "count_assessment_sha256": "1923661cbee7fd7e3fb60abbd3b4a261acf58f5bdb16719c4df57892ffe52dff",
+      "mean_result_sha256": "6e3a83ac71cceca7c147d905489d621a9c5e08128a218013f1ed7638bf57c9d4"
+    }
+  ],
+  "selection_code_sha256": "28883d9f066144bb04f30d3baffe95169cc4c31a45e3d8463ef96063572c909b",
+  "rule_plan_sha256": "df7b79b9812b0ad3a4b2af99fe9abdb0b0033beb383d6eaed537dc4fbae746e7",
+  "experimental": true,
+  "rule": "Prefer a finalist passing all predeclared guards, then smaller equal-study generated-profile MSE ratio. If none passes, apply predeclared diagnostic bounds and >=2 raw improvements; never substitute another strength.",
+  "private_score": null,
+  "automatic_upload": false
+}

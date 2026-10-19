@@ -1,0 +1,166 @@
+{
+  "candidate": "closed75",
+  "ratio": 0.9967839206740372,
+  "seed_ratios": {
+    "0": 0.9967687369955461,
+    "620000": 0.9967991054171678
+  },
+  "leave_one_context_target_out": [
+    {
+      "source": "CD4_Rest_D1",
+      "target": "CYTH2",
+      "ratio": 0.9968491571228641
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "DNTTIP1",
+      "ratio": 0.9968834454684495
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "FHL3",
+      "ratio": 0.9965437685910091
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "FOXN2",
+      "ratio": 0.9968441400116927
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "GLI3",
+      "ratio": 0.9968314887832138
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "GPATCH8",
+      "ratio": 0.9968417533896718
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "MED15",
+      "ratio": 0.9966471934274023
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "target": "MTHFSD",
+      "ratio": 0.9968279827423384
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "DNTTIP1",
+      "ratio": 0.9968591799087724
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "FXYD5",
+      "ratio": 0.9966481754421735
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "MED13",
+      "ratio": 0.9967602753395038
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "MSI2",
+      "ratio": 0.9968828523016317
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "PCGF1",
+      "ratio": 0.9968240586768525
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "PPIP5K2",
+      "ratio": 0.9968068071341846
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "SLC39A1",
+      "ratio": 0.9968105891922517
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "target": "SRSF5",
+      "ratio": 0.9966735505286678
+    },
+    {
+      "source": "H1",
+      "target": "ACLY",
+      "ratio": 0.9986411882666145
+    },
+    {
+      "source": "H1",
+      "target": "HDAC8",
+      "ratio": 0.9966123781941679
+    },
+    {
+      "source": "H1",
+      "target": "NFE2L1",
+      "ratio": 0.9960314300811645
+    },
+    {
+      "source": "H1",
+      "target": "PLAGL2",
+      "ratio": 0.9965965329838049
+    },
+    {
+      "source": "HCT116",
+      "target": "GLI3",
+      "ratio": 0.9971919421849927
+    },
+    {
+      "source": "HCT116",
+      "target": "PATL1",
+      "ratio": 0.9959007342999282
+    },
+    {
+      "source": "HCT116",
+      "target": "RNF141",
+      "ratio": 0.9970793384105896
+    },
+    {
+      "source": "HCT116",
+      "target": "ZNF627",
+      "ratio": 0.9969134787473376
+    },
+    {
+      "source": "HEK293T",
+      "target": "ADNP",
+      "ratio": 1.0014134798853955
+    },
+    {
+      "source": "HEK293T",
+      "target": "PRKAB2",
+      "ratio": 0.9958868579598121
+    },
+    {
+      "source": "HEK293T",
+      "target": "PSMB9",
+      "ratio": 0.9963546624710972
+    },
+    {
+      "source": "HEK293T",
+      "target": "SYVN1",
+      "ratio": 0.9954660843956749
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZDHHC4",
+      "ratio": 0.9960437477750425
+    },
+    {
+      "source": "HEK293T",
+      "target": "ZNF777",
+      "ratio": 0.9960630777217186
+    }
+  ],
+  "loo_range": [
+    0.9954660843956749,
+    1.0014134798853955
+  ],
+  "auditor_sha256": "ddb8ffbae4513413569bcf597599c406b827c8d62b1166502ab798720e1a624b",
+  "scope": "Exactly the frozen equal-context/equal-study plug-in expression ratio. Technical-seed and leave-one-context-target-out influence checks; no confidence interval, independent biological replication or private anchored score."
+}

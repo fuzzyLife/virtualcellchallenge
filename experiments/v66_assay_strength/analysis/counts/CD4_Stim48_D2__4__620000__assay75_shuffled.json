@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "PCGF1",
+  "case_index": 4,
+  "seed_offset": 620000,
+  "arm": "assay75_shuffled",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.5412521942656524,
+  "reach": 0.0,
+  "jaccard": 0.14102898929224342,
+  "nmae": 0.9720268439349677,
+  "predicted_calls": 3418,
+  "reference_calls": 951,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012170478908186417,
+  "bulk_probability_L1": 0.0008480291140506923,
+  "changed_transcript_fraction": 0.3672992747896072,
+  "global_moment_refit": true,
+  "arrays_sha256": "ce6c9654854e91fb642ea37d454930b0385ead0590434b795923d60e4c60488e",
+  "seconds": 11.463752031326294
+}

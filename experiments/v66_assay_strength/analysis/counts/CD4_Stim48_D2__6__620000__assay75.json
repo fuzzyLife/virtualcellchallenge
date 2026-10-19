@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "SLC39A1",
+  "case_index": 6,
+  "seed_offset": 620000,
+  "arm": "assay75",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.5461031833150384,
+  "reach": 0.02280701754385965,
+  "jaccard": 0.1110078959591268,
+  "nmae": 0.9607987658049864,
+  "predicted_calls": 1822,
+  "reference_calls": 570,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012818600014249233,
+  "bulk_probability_L1": 0.000901161690286272,
+  "changed_transcript_fraction": 0.37449235745355464,
+  "global_moment_refit": true,
+  "arrays_sha256": "02dd3cb482075deac518a866c12338b9e36a48634208df464a72fddd5d02421b",
+  "seconds": 11.498004674911499
+}

@@ -1,4 +1,4 @@
-"""Rebuild the complete saved publication trajectory; ranks are historical snapshots."""
+"""Rebuild the frozen 18-submission publication snapshot; ranks are historical snapshots."""
 from pathlib import Path
 import json,csv,hashlib,re,math
 ROOT=Path(__file__).resolve().parent
@@ -8,7 +8,13 @@ METRICS=('pds','mse','nmae','fid','reach','jac')
 
 def main():
  A.mkdir(parents=True,exist_ok=True);rows=[];inputs={}
- paths=list((ROOT/'experiments').glob('*/analysis/leaderboard_result.json'))+list((ROOT/'experiments/v50_response_prior/analysis').glob('published_result.json'))
+ snapshot=A/'published_history.json'
+ if snapshot.exists():
+  frozen=json.loads(snapshot.read_text(encoding='utf-8'))['inputs_sha256']
+  for n,h in frozen.items():assert hashlib.sha256((ROOT/n).read_bytes()).hexdigest()==h,n
+  paths=[ROOT/n for n in frozen if Path(n)!=Path('analysis/leaderboard_result.json')]
+ else:
+  paths=list((ROOT/'experiments').glob('*/analysis/leaderboard_result.json'))+list((ROOT/'experiments/v50_response_prior/analysis').glob('published_result.json'))
  for p in paths:
   r=json.loads(p.read_text(encoding='utf-8-sig'))
   if 'scaled_scores' in r:r=dict(r,overall=r['scaled_scores']['overall'],metrics={k:r['scaled_scores'][k] for k in METRICS},entry_id=r['entry'],rank_at_user_report=r['rank_at_reporting'])

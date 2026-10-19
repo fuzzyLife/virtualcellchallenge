@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "target": "MED13",
+  "case_index": 2,
+  "seed_offset": 0,
+  "arm": "assay75_shuffled",
+  "cells": 400,
+  "row_libraries_exact": true,
+  "fidelity": 0.47581104154809334,
+  "reach": 0.0,
+  "jaccard": 0.20357533746807735,
+  "nmae": 0.9778268343429998,
+  "predicted_calls": 1542,
+  "reference_calls": 1757,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.012671709446568022,
+  "bulk_probability_L1": 0.0009266325189168908,
+  "changed_transcript_fraction": 0.379941624548482,
+  "global_moment_refit": true,
+  "arrays_sha256": "d4a8d2d0351ba74ee55e07fb5ca7c7409ce272350ff1a4979d451c4ccb382200",
+  "seconds": 11.563447713851929
+}

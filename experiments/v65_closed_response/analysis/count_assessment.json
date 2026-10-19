@@ -1,0 +1,165 @@
+{
+  "complete": true,
+  "release_supported": false,
+  "checks": {
+    "profile": true,
+    "pds": true,
+    "fidelity": true,
+    "reach": false,
+    "jaccard": false,
+    "nmae": true,
+    "beats_shuffle_profile": true,
+    "beats_shuffle_pds": false
+  },
+  "summary": {
+    "v24": {
+      "pds": 0.7759920634920636,
+      "fidelity": 0.5828994697625131,
+      "reach": 0.2187681905970779,
+      "jaccard": 0.061749508448156486,
+      "nmae": 0.9100230850873062,
+      "profile_square_error": 66.22326133996732
+    },
+    "v63": {
+      "pds": 0.7561507936507937,
+      "fidelity": 0.5844630109263558,
+      "reach": 0.24197761171390952,
+      "jaccard": 0.06105756095211948,
+      "nmae": 0.9035598622725248,
+      "profile_square_error": 64.72689377914217
+    },
+    "closed75": {
+      "pds": 0.7591269841269841,
+      "fidelity": 0.5856280474080638,
+      "reach": 0.22523204616223236,
+      "jaccard": 0.06010011288386593,
+      "nmae": 0.901884957645855,
+      "profile_square_error": 64.67938968396942
+    },
+    "closed75_shuffled": {
+      "pds": 0.7730158730158729,
+      "fidelity": 0.5821825008148243,
+      "reach": 0.23693390892278018,
+      "jaccard": 0.06139348978620177,
+      "nmae": 0.9090608369772273,
+      "profile_square_error": 65.32142366912879
+    }
+  },
+  "studies": {
+    "v24": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6454223185596768,
+        "reach": 0.05866681383657335,
+        "jaccard": 0.05783373924497816,
+        "nmae": 0.8821608794680025,
+        "profile_square_error": 27.800098540989026
+      },
+      "Orion": {
+        "pds": 0.6583333333333334,
+        "fidelity": 0.5808315798994661,
+        "reach": 0.584026598754952,
+        "jaccard": 0.004105343125772947,
+        "nmae": 0.8746308169809358,
+        "profile_square_error": 38.294724046646245
+      },
+      "CD4": {
+        "pds": 0.6696428571428572,
+        "fidelity": 0.5224445108283962,
+        "reach": 0.013611159199708327,
+        "jaccard": 0.12330944297371836,
+        "nmae": 0.9732775588129802,
+        "profile_square_error": 132.57496143226672
+      }
+    },
+    "v63": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6490367494893355,
+        "reach": 0.049347341576666925,
+        "jaccard": 0.05521994369460409,
+        "nmae": 0.8819630600191992,
+        "profile_square_error": 26.7771140491802
+      },
+      "Orion": {
+        "pds": 0.6166666666666667,
+        "fidelity": 0.5845388714094105,
+        "reach": 0.6732173174872667,
+        "jaccard": 0.0042203937002285655,
+        "nmae": 0.8579568972313847,
+        "profile_square_error": 36.55997065434097
+      },
+      "CD4": {
+        "pds": 0.6517857142857144,
+        "fidelity": 0.5198134118803213,
+        "reach": 0.003368176077794926,
+        "jaccard": 0.12373234546152577,
+        "nmae": 0.9707596295669906,
+        "profile_square_error": 130.84359663390535
+      }
+    },
+    "closed75": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6491406062505792,
+        "reach": 0.046834228554296344,
+        "jaccard": 0.05291083939556594,
+        "nmae": 0.8835497400866988,
+        "profile_square_error": 26.70935112477662
+      },
+      "Orion": {
+        "pds": 0.6166666666666667,
+        "fidelity": 0.583433114117808,
+        "reach": 0.6223306923222034,
+        "jaccard": 0.004104247980213251,
+        "nmae": 0.8511564783842825,
+        "profile_square_error": 36.22783203103421
+      },
+      "CD4": {
+        "pds": 0.6607142857142856,
+        "fidelity": 0.5243104218558042,
+        "reach": 0.006531217610197361,
+        "jaccard": 0.12328525127581857,
+        "nmae": 0.9709486544665835,
+        "profile_square_error": 131.10098589609743
+      }
+    },
+    "closed75_shuffled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6492552467592037,
+        "reach": 0.04931485519558163,
+        "jaccard": 0.05666058284527879,
+        "nmae": 0.8834375560188625,
+        "profile_square_error": 27.046396663350052
+      },
+      "Orion": {
+        "pds": 0.6583333333333334,
+        "fidelity": 0.5790041906103759,
+        "reach": 0.6557470288624787,
+        "jaccard": 0.004011312174445501,
+        "nmae": 0.8699357031787103,
+        "profile_square_error": 37.12754495338033
+      },
+      "CD4": {
+        "pds": 0.6607142857142856,
+        "fidelity": 0.5182880650748932,
+        "reach": 0.005739842710280142,
+        "jaccard": 0.12350857433888104,
+        "nmae": 0.9738092517341088,
+        "profile_square_error": 131.79032939065598
+      }
+    }
+  },
+  "paired_equal_study_profile_error_ratio": 0.9967839206740373,
+  "selected": "closed75",
+  "unique_target_context_pairs": 30,
+  "seeds": [
+    0,
+    620000
+  ],
+  "comparisons": 240,
+  "D3_opened": false,
+  "private_score": null,
+  "scope": "Reused public cohorts; two seeds are technical repeats. Equal context/seed within study then equal studies; NMAE undefined studies omitted and explicitly visible in studies. No official anchors."
+}

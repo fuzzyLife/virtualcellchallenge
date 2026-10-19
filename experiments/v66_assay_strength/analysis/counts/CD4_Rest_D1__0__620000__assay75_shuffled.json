@@ -1,0 +1,23 @@
+{
+  "family": "CD4_Rest_D1",
+  "study": "CD4",
+  "target": "CYTH2",
+  "case_index": 0,
+  "seed_offset": 620000,
+  "arm": "assay75_shuffled",
+  "cells": 200,
+  "row_libraries_exact": true,
+  "fidelity": 0.5508130081300813,
+  "reach": 0.0,
+  "jaccard": 0.1118421052631579,
+  "nmae": 0.9883296185945191,
+  "predicted_calls": 492,
+  "reference_calls": 353,
+  "nmae_eligible": true,
+  "mean_probability_L1": 0.013411407768404243,
+  "bulk_probability_L1": 0.0015972615127807707,
+  "changed_transcript_fraction": 0.3589371847832286,
+  "global_moment_refit": true,
+  "arrays_sha256": "77c999ff04e74a2a68124ab9579fde5d5628ea63ec02d5d798606c2e05601100",
+  "seconds": 9.604825973510742
+}
