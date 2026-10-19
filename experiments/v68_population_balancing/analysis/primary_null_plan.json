@@ -1,0 +1,9 @@
+{
+  "original_plan_sha256": "3c239a0ef1ba1a8ecfba3a9b7ca7ed59fec09de5186a09e1326c8cb6670fbeee",
+  "helper_sha256": "6eb29d3565eed8fa817ab41d69e920bec83b7ba5e54672fbd6567779c6929fc9",
+  "timing": "After the two H1 treatment cases and while other treatment cases run, before any null outcomes are generated or opened. Source-review correction, not outcome-based model tuning.",
+  "reason": "The original uniform-real null tests the sampler, but does not exercise balancing on a zero-response target. Add the complete fitted zero-response pipeline as a stricter additional requirement; original methods, parameters and results unchanged.",
+  "protocol": "Five contexts,400cells, no own edit, same actual controls/reference/null seed as uniform-real null. Fit weights to the frozen real-control bulk with the same optimizer, axis, depth constraints and ridge; sample and score full Wilcoxon/BH. Require calls<=max(5,originalV63 null calls) in every context in addition to all original guards.",
+  "automatic_upload": false,
+  "D3_opened": false
+}
