@@ -1,0 +1,180 @@
+{
+  "summary": {
+    "hybrid25": {
+      "pds": 0.8222222222222223,
+      "fidelity": 0.5789271383013204,
+      "reach": 0.13736560402533515,
+      "jaccard": 0.061966151741849364,
+      "nmae": null,
+      "profile_square_error": 71.09596826165009
+    },
+    "shuffled_hybrid25": {
+      "pds": 0.8166666666666668,
+      "fidelity": 0.5773386089216058,
+      "reach": 0.13581295293152718,
+      "jaccard": 0.06179793417620638,
+      "nmae": null,
+      "profile_square_error": 71.09758980483343
+    },
+    "shuffled_shape": {
+      "pds": 0.7472222222222222,
+      "fidelity": 0.18277065788593827,
+      "reach": 0.14890946069697117,
+      "jaccard": 0.10244114225071184,
+      "nmae": null,
+      "profile_square_error": 84.85678769146641
+    },
+    "v66": {
+      "pds": 0.7555555555555555,
+      "fidelity": 0.5840201967963999,
+      "reach": 0.1513281964009352,
+      "jaccard": 0.06800200808843083,
+      "nmae": null,
+      "profile_square_error": 64.04213492605224
+    }
+  },
+  "studies": {
+    "hybrid25": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6223237652202018,
+        "reach": 0.03465050618100422,
+        "jaccard": 0.08290402654425706,
+        "nmae": 0.8909995463414172,
+        "profile_square_error": 37.18861418251884
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.6288802368405984,
+        "reach": 0.36744324970131426,
+        "jaccard": 0.013301785795635733,
+        "nmae": null,
+        "profile_square_error": 42.14115157766449
+      },
+      "CD4": {
+        "pds": 0.7166666666666667,
+        "fidelity": 0.4855774128431608,
+        "reach": 0.010003056193686955,
+        "jaccard": 0.0896926428856553,
+        "nmae": 0.9740233909509661,
+        "profile_square_error": 133.95813902476692
+      }
+    },
+    "shuffled_hybrid25": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6199707489980582,
+        "reach": 0.03465050618100422,
+        "jaccard": 0.08259738266389413,
+        "nmae": 0.8898614393580841,
+        "profile_square_error": 37.212228737582066
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.6318933197569232,
+        "reach": 0.36206690561529264,
+        "jaccard": 0.012836779448621554,
+        "nmae": null,
+        "profile_square_error": 42.216330753376866
+      },
+      "CD4": {
+        "pds": 0.7,
+        "fidelity": 0.480151758009836,
+        "reach": 0.010721446998284655,
+        "jaccard": 0.08995964041610346,
+        "nmae": 0.9741919743616936,
+        "profile_square_error": 133.86420992354135
+      }
+    },
+    "shuffled_shape": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.10167338607111971,
+        "reach": 0.034370707635956656,
+        "jaccard": 0.037794004183867455,
+        "nmae": 0.8892965652142617,
+        "profile_square_error": 38.44813842363954
+      },
+      "Orion": {
+        "pds": 0.625,
+        "fidelity": 0.4155498550659841,
+        "reach": 0.36451612903225805,
+        "jaccard": 0.2659089970257766,
+        "nmae": null,
+        "profile_square_error": 53.536319860469376
+      },
+      "CD4": {
+        "pds": 0.6166666666666666,
+        "fidelity": 0.03108873252071102,
+        "reach": 0.047841545422698736,
+        "jaccard": 0.0036204255424914645,
+        "nmae": 0.973390022202761,
+        "profile_square_error": 162.58590479029033
+      }
+    },
+    "v66": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6307472361538047,
+        "reach": 0.032606069084804394,
+        "jaccard": 0.0885783550547667,
+        "nmae": 0.8886546086967788,
+        "profile_square_error": 35.82825726856525
+      },
+      "Orion": {
+        "pds": 0.5833333333333334,
+        "fidelity": 0.5936881588907585,
+        "reach": 0.36206690561529264,
+        "jaccard": 0.0051629729089022885,
+        "nmae": null,
+        "profile_square_error": 35.98095417164061
+      },
+      "CD4": {
+        "pds": 0.6833333333333332,
+        "fidelity": 0.5276251953446365,
+        "reach": 0.05931161450270855,
+        "jaccard": 0.11026469630162351,
+        "nmae": 0.9643560507817581,
+        "profile_square_error": 120.31719333795083
+      }
+    }
+  },
+  "scope": "Raw reused-public metrics; not hosted anchor-scaled accuracy",
+  "ratios": {
+    "hybrid25": {
+      "H1": 1.0379688273352645,
+      "Orion": 1.171207171900939,
+      "CD4": 1.1133748661215939
+    },
+    "shuffled_hybrid25": {
+      "H1": 1.0386279315413722,
+      "Orion": 1.1732965877444919,
+      "CD4": 1.1125941871627543
+    },
+    "shuffled_shape": {
+      "H1": 1.0731233209429056,
+      "Orion": 1.4879071745869794,
+      "CD4": 1.3513106504538697
+    }
+  },
+  "selected": "hybrid25",
+  "checks": {
+    "profile": false,
+    "worst_study": false,
+    "pds": true,
+    "fidelity": false,
+    "reach": false,
+    "jaccard": false,
+    "nmae": false,
+    "three_gains": false,
+    "beats_shuffle": true,
+    "beats_matched_control": true
+  },
+  "release_supported": false,
+  "unresolved_metrics": [
+    "nmae"
+  ],
+  "assessment_note": "Before confirmation, diagnostic exposed an unavailable NMAE study. This separate assessor implements the original thresholds with undefined comparisons false, preserving the original evaluator. Additional matched-mixture shuffle guard can only make support stricter.",
+  "assessor_sha256": "e65878770f2055497f0084a3903d1462f763464efbacf57240d28877692090d9",
+  "frozen_evaluator_sha256": "2cf705b4f7c70dbb6e09c06ebae608f56d4a832213151b402eb65e7600fdcfa0"
+}

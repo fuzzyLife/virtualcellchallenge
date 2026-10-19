@@ -12,7 +12,8 @@ from run_v35_v36 import contexts
 
 def normalized(x):
     x=sparse.csr_matrix(x,dtype=float);d=x.sum(1).A1
-    return x.multiply((1e6/d)[:,None]).tocsr()
+    x.data=np.divide(x.data,np.repeat(d/1e6,np.diff(x.indptr)))
+    return x
 
 
 def audit_results():
@@ -21,7 +22,7 @@ def audit_results():
     d=data();genes=d['genes'];targets=d['targets'];verified=0;manual=0
     for stage in ('diagnostic','development','confirmation'):
         for ctx in contexts():
-            folder,_=checked_folder(ctx['family']);reference=sparse.load_npz(folder/'reference.npz');ref=normalized(reference);refmean=ref.mean(0).A1
+            folder,_=checked_folder(ctx['family']);reference=sparse.load_npz(folder/'reference.npz');ref=normalized(reference);refmean=ref.mean(0).A1;ref_columns=ref.tocsc()
             files=[p for p in (m.A/stage).glob(ctx['family']+'__*.json') if not p.name.endswith('__panel.json')]
             for path in files:
                 r=read(path);raw=path.with_suffix('.counts.npz');arr=path.with_suffix('.npz')
@@ -32,16 +33,29 @@ def audit_results():
                 own=int(np.flatnonzero(genes==r['target'])[0]);axis=np.arange(len(genes))!=own
                 pp=np.log1p(50000*c.sum(0).A1/c.sum());tt=np.log1p(50000*actual.sum(0).A1/actual.sum())
                 np.testing.assert_allclose(float(np.sum((pp[axis]-tt[axis])**2)),r['profile_square_error'],rtol=1e-12,atol=1e-10)
-                cn=normalized(c);lfc=np.log2((cn.mean(0).A1+1e-9)/(refmean+1e-9));eligible=refmean>5
+                cn=normalized(c);an=normalized(actual);cn_columns=cn.tocsc();lfc=np.log2((cn.mean(0).A1+1e-9)/(refmean+1e-9));truth_lfc=np.log2((an.mean(0).A1+1e-9)/(refmean+1e-9));eligible=refmean>5
                 with np.load(arr,allow_pickle=False) as z:
                     np.testing.assert_allclose(z['pred'],pp,rtol=1e-12,atol=1e-12);np.testing.assert_allclose(z['lfc'],lfc,rtol=1e-10,atol=1e-10)
+                    np.testing.assert_allclose(z['truth_lfc'],truth_lfc,rtol=1e-10,atol=1e-10)
                     p=z['p'].copy();q=z['q'].copy();cols=np.flatnonzero(eligible)
+                    valid=eligible&axis;real=valid&(z['truth_q']<.05);adjudicable=valid&np.isfinite(truth_lfc)&(truth_lfc!=0)
+                    called=adjudicable&(q<.05);correct=called&(np.sign(lfc)==np.sign(truth_lfc));budget=max(int(real.sum()),int(called.sum()))
+                    union=real|(valid&(q<.05));expected_fid=float(correct.sum()/budget) if budget else None
+                    expected_jac=float((real&(q<.05)).sum()/union.sum()) if union.any() else 1.
+                    pool=np.flatnonzero(real&adjudicable);order=np.lexsort((genes[pool],-abs(lfc[pool]),p[pool],q[pool],q[pool]>=.05));pool=pool[order]
+                    expected_reach=None
+                    if len(pool):
+                        precision=np.cumsum(np.sign(lfc[pool])==np.sign(truth_lfc[pool]))/np.arange(1,len(pool)+1);passing=np.flatnonzero(precision>=.9);expected_reach=float((passing[-1]+1)/int(real.sum())) if len(passing) else 0.
+                    denominator=float(abs(truth_lfc[real]).sum());expected_nmae=float(abs(lfc[real]-truth_lfc[real]).sum()/denominator) if real.sum()>=10 and denominator>0 else None
+                    for metric,value in [('fidelity',expected_fid),('reach',expected_reach),('jaccard',expected_jac),('nmae',expected_nmae)]:
+                        if value is None:assert r[metric] is None,(path,metric,r[metric])
+                        else:np.testing.assert_allclose(r[metric],value,rtol=1e-8,atol=1e-10,err_msg=str((path,metric)))
                     ordered=np.argsort(p[cols],kind='stable');rawq=p[cols][ordered]*len(cols)/np.arange(1,len(cols)+1);adjusted=np.minimum(1,np.minimum.accumulate(rawq[::-1])[::-1]);expected=np.empty(len(cols));expected[ordered]=adjusted
                     np.testing.assert_allclose(q[cols],expected,rtol=1e-12,atol=1e-12)
                     # A direct pooled-rank normal approximation, including ties.
                     choose=cols[np.linspace(0,len(cols)-1,8,dtype=int)]
                     for g in choose:
-                        a=np.log1p(cn[:,g].toarray().ravel());b=np.log1p(ref[:,g].toarray().ravel());v=np.concatenate([a,b]);n=len(a);k=len(b);N=n+k
+                        a=np.log1p(cn_columns[:,g].toarray().ravel());b=np.log1p(ref_columns[:,g].toarray().ravel());v=np.concatenate([a,b]);n=len(a);k=len(b);N=n+k
                         ranks=stats.rankdata(v);u=ranks[:n].sum()-n*(n+1)/2
                         _,sizes=np.unique(v,return_counts=True);variance=n*k/12*((N+1)-np.sum(sizes**3-sizes)/(N*(N-1)))
                         probability=1. if variance<=0 else min(1.,2*stats.norm.sf(abs(u-n*k/2)/np.sqrt(variance)))
@@ -54,7 +68,7 @@ def audit_results():
         assert all(m.study(name)!=m.study(ctx['family']) for name in trace['training_contexts'])
         assert np.isfinite(delta).all() and np.all(delta[:,np.isin(genes,targets)]==0)
     write(m.A/'results_audit.json',dict(passed=True,count_populations=verified,manual_rank_coordinates=manual,
-       checks=['count hashes/integer axes','independent normalized LFC and bulk profiles','independent BH','manual tied ranks','whole-study shape traces','panel-gene abstention'],oracle_cases_not_deployable=True,D3_opened=False))
+       checks=['count hashes/integer axes','independent normalized predicted/truth LFC and bulk profiles','independent four DE metrics','independent BH','manual tied ranks','whole-study shape traces','panel-gene abstention'],oracle_cases_not_deployable=True,D3_opened=False))
     print('V69 count result audit passed',verified,'populations',manual,'manual rank coordinates',flush=True)
 
 
@@ -92,10 +106,11 @@ def audit_payload():
                         changed=np.random.default_rng(seed+690069).permutation(400)[:100];keep=np.setdiff1d(np.arange(400),changed);assert (actual[keep]-old[keep]).nnz==0;unchanged+=len(keep)
                     if ti in (0,1,149,299):
                         own=int(np.flatnonzero(genes==target)[0]);delta=None if model['candidate']=='mean_bridge' else arrays['delta'][ti]
-                        expected,_=m.bridge(x[chosen],arrays['effects'][ci,ti],own,seed+690000,params,delta)
                         if model['candidate']=='hybrid25':
-                            from run_v69_experiment import hybrid
-                            expected=hybrid(old,expected,seed)
+                            selected_rows=np.random.default_rng(seed+690069).permutation(400)[:100]
+                            replacement,_=m.bridge(x[chosen[selected_rows]],arrays['effects'][ci,ti],own,seed+690000,params,delta)
+                            expected=old.tolil(copy=True);expected[selected_rows]=replacement;expected=expected.tocsr()
+                        else:expected,_=m.bridge(x[chosen],arrays['effects'][ci,ti],own,seed+690000,params,delta)
                         assert (actual-expected).nnz==0;replayed+=1
                     scanned+=400
                 del x;gc.collect();print('V69 payload audit passed context',context,flush=True)

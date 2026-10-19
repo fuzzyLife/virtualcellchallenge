@@ -1,0 +1,38 @@
+{
+  "stage": "development",
+  "family": "CD4_Stim48_D2",
+  "study": "CD4",
+  "case_index": 1,
+  "target": "FXYD5",
+  "arm": "shuffled_shape",
+  "cells": 400,
+  "seed": 24466,
+  "source_trace": {
+    "excluded_studies": [
+      "CD4"
+    ],
+    "training_contexts": [
+      "H1",
+      "HCT116",
+      "HEK293T"
+    ],
+    "shrinkage": "One zero-shift prior study; study-balanced reliability weights"
+  },
+  "template_sha256": "6a5aa50999d192ad6691fd5de60a0eb7e0e94f1e5bd8f7fdd673d260ea50b5c9",
+  "reference_sha256": "8d52deff5f7b56c3ab917bce6ec2af67e8b65f2749afac1ea4be407eaa279ccb",
+  "actual_sha256": "b7834c1107ab0c22292c2c9a1614edce798e4cf5f58a943b54d464b4b104cf5a",
+  "plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
+  "oracle": false,
+  "fidelity": 0.006369426751592357,
+  "reach": 0.0,
+  "jaccard": 0.002526847757422615,
+  "nmae": 0.996732344165601,
+  "predicted_calls": 17,
+  "reference_calls": 1570,
+  "nmae_eligible": true,
+  "profile_square_error": 206.78483471902675,
+  "calls": 18,
+  "mean_library": 9618.81,
+  "arrays_sha256": "9ee61f0b6ec4eeefe64e8c94dd5a7fff0d54b3a63aefacdb9ad21c066345b250",
+  "counts_sha256": "d440fd9a9e807f33f7b2f7d7494443f17042c497aa24a6bc1d48724937281fc9"
+}

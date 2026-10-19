@@ -26,3 +26,35 @@ Commands use the pinned scientific Python (`%SCIENCE_PY%`):
 ```
 
 Source counts, diagnostics and model arrays are regenerable ignored files; compact receipts, scripts and documentation are committed. No new leaderboard result is claimed.
+
+## Executed additions and production runtime
+
+The original scientific runner above remains byte-frozen. After the labelled diagnostic exposed undefined NMAE, `assess_v69_confirmation.py` was added to preserve unavailable values and fail their guards explicitly. Before development, `run_v69_matched_control.py` was frozen to add a quarter-mixture shuffled control. The original full shuffled population is not a matched comparator for hybrid25. The separate representative-control null plan preserves and explains the prefix-template sampling results.
+
+Actual deployable evaluation uses content-addressed memoization (`run_v69_cached.py`) through the bounded two-process `run_v69_parallel.py`, then the matched control and safe assessor. Memoization keys contain complete CSR values, indices, pointers, shape/dtype and gene axis; exact-statistic and mutation-key tests pass. The confirmation control may wait for completed input receipts via `run_v69_matched_wait.py`; no missing values are fabricated.
+
+The experimental fallback was locked before confirmation. Production parameters were fitted/generated while confirmation ran, with assessment explicitly pending and official packaging blocked until finalization. `finalize_v69_confirmation.py` updates assessment metadata only after all count generation and confirmation finish, preserving prior records and proving unchanged model-array bytes.
+
+Production hybrid25 samples the selected100 bridge rows directly. All Gamma/Beta/Binomial/Poisson transitions act independently across rows conditional on fixed per-row original library and external p/alpha/effect/dispersion parameters. Subsetting preserves their joint probability law with a new documented random-stream realization. The earlier400-row implementation, metadata and unused partial output are retained; source parameters, candidate and validation thresholds are unchanged. New preflight and deterministic regeneration check the actual deployed sampler. The frozen public evaluations retain their original400-row draws.
+
+```cmd
+"%SCIENCE_PY%" -X utf8 run_v69_parallel.py development
+"%SCIENCE_PY%" -X utf8 run_v69_matched_control.py development
+"%SCIENCE_PY%" -X utf8 run_v69_experiment.py select
+"%SCIENCE_PY%" -X utf8 run_v69_parallel.py confirmation
+"%SCIENCE_PY%" -X utf8 run_v69_matched_wait.py confirmation
+"%SCIENCE_PY%" -X utf8 assess_v69_confirmation.py
+"%SCIENCE_PY%" -X utf8 build_v69_submission.py fit
+"%SCIENCE_PY%" -X utf8 verify_v69_model.py
+"%SCIENCE_PY%" -X utf8 build_v69_submission.py preflight
+"%SCIENCE_PY%" -X utf8 build_v69_submission.py build
+"%SCIENCE_PY%" -X utf8 finalize_v69_confirmation.py
+"%SCIENCE_PY%" -X utf8 audit_v69_release.py results
+.\.competition_env\Scripts\python.exe package_v69_submission.py
+"%SCIENCE_PY%" -X utf8 audit_v69_release.py payload
+"%SCIENCE_PY%" -X utf8 document_v69_release.py
+"%SCIENCE_PY%" -X utf8 seal_v69_release.py
+"%SCIENCE_PY%" -X utf8 seal_v69_release.py --check
+```
+
+These stage commands refuse overwriting completed plans/models/artifacts. For the recorded parallel execution, production `fit` used `--allow-pending-confirmation` only after hybrid25 was locked as fallback. A sequential reproduction after confirmation does not need that flag. Historical code and addendum receipts live in `analysis/execution_history` and the corresponding named JSON records; the unused incomplete H5AD is ignored under `runtime_history`.

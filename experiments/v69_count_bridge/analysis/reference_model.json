@@ -1,0 +1,53 @@
+{
+  "candidate": "hybrid25",
+  "status": "experimental_pending_confirmation",
+  "confirmation_pending": true,
+  "available_public_guards_passed": false,
+  "confirmed_improvement": false,
+  "arrays_sha256": "a403bb2b7984e439b0d6ab507c9f79fcf7757b85c529e82b448bc721a6082d3f",
+  "plan_sha256": "aac05c05ae0fabc7d0bddce03e7bbea59d69831823a048ce27038c77c8bac064",
+  "selection_sha256": "d0eae151b8282ccd1af64d555d3bc01df99c53da80f964e5b1d1fc8ccbeb7036",
+  "assessment_sha256": null,
+  "source_trace": {
+    "excluded_studies": [],
+    "training_contexts": [
+      "H1",
+      "HCT116",
+      "HEK293T",
+      "CD4_Rest_D2",
+      "CD4_Stim48_D2"
+    ],
+    "shrinkage": "One zero-shift prior study; study-balanced reliability weights"
+  },
+  "parent_model_sha256": "0b29922737032007443a60a0ceb4b3c91f2f89e9ae8d65f4cb936565f3b2fec2",
+  "source_contexts": [
+    {
+      "context": "A",
+      "file": "context_A.h5ad",
+      "sha256": "f22e71968487d3da9402769dcd0c73a47851fad4cd7dd25510283c923031fe3e",
+      "cells": 18400
+    },
+    {
+      "context": "B",
+      "file": "context_B.h5ad",
+      "sha256": "41557555b3febf6db19fd930b4dd7db88941840077bf985d14dfff959c782380",
+      "cells": 18400
+    },
+    {
+      "context": "C",
+      "file": "context_C.h5ad",
+      "sha256": "e090e7c7cfdd0006f689214ba38ba0cd2669578e89c9bc325b65f0bd940c02e0",
+      "cells": 18400
+    }
+  ],
+  "dependencies": {
+    "v69_count_bridge.py": "61486f6c2205e9d985a5e8edab8f7db909fb2c8824751a2ee1fb008f2ba42db0",
+    "build_v69_submission.py": "1d530813ed6191042626f06cf39695217fc03300bee69162f801fbc2159b39ed",
+    "run_v69_experiment.py": "2cf705b4f7c70dbb6e09c06ebae608f56d4a832213151b402eb65e7600fdcfa0"
+  },
+  "full_bridge_null_passed": false,
+  "hybrid_null_identity": false,
+  "uploaded": false,
+  "D3_opened": false,
+  "generation_sampling": "Hybrid25 samples only selected100 of400 rows. Core bridge is independent across rows conditional on fixed original library, p, alpha and delta; same probability law with a documented new random realization."
+}

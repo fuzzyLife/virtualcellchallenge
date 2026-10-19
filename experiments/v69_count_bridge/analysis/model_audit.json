@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "all_V66_response_means_exactly_preserved": true,
+  "all_source_dispersion_parameters_recomputed": true,
+  "all_query_NTC_parameters_recomputed": true,
+  "contexts": [
+    {
+      "context": "A",
+      "cells": 18400,
+      "alpha_range": [
+        0.005,
+        20.0
+      ]
+    },
+    {
+      "context": "B",
+      "cells": 18400,
+      "alpha_range": [
+        0.005,
+        20.0
+      ]
+    },
+    {
+      "context": "C",
+      "cells": 18400,
+      "alpha_range": [
+        0.005,
+        20.0
+      ]
+    }
+  ],
+  "parent_arrays_sha256": "76be16202d83997828670bb954d7fe33e16fb94471ba1e02b2aaa13ce3684c08",
+  "model_arrays_sha256": "a403bb2b7984e439b0d6ab507c9f79fcf7757b85c529e82b448bc721a6082d3f",
+  "verifier_sha256": "a60abd08ae1fbebdc5cd20179e87f968fa4dc015646b4141d4d24393d6759eb3"
+}

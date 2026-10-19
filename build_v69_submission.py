@@ -23,8 +23,12 @@ def load():
     return manifest,genes,targets,r,arrays
 
 
-def fit():
-    m.check();selection=read(m.A/'selection.json');assessment=read(m.A/'confirmation_assessment.json')
+def fit(allow_pending_confirmation=False):
+    m.check();selection=read(m.A/'selection.json');pending=not (m.A/'confirmation_assessment.json').exists()
+    if pending:
+        assert allow_pending_confirmation and selection['experimental_fallback'] and selection['selected']=='hybrid25'
+        assessment=dict(selected=selection['selected'],release_supported=False)
+    else:assessment=read(m.A/'confirmation_assessment.json')
     assert assessment['selected']==selection['selected'];assert not (m.A/'reference_model.json').exists()
     from build_v66_submission import load as parent_load
     manifest,genes,targets,parent,effects=parent_load();delta,trace=m.pooled(())
@@ -40,9 +44,9 @@ def fit():
     null_ok=all(r['exact_count_identity'] and r['calls']<=5 for r in full_null) and all(r['calls']<=5 for r in near_null)
     supported=assessment['release_supported'] and null_ok and selection['selected']!='hybrid25'
     deps=['v69_count_bridge.py','build_v69_submission.py','run_v69_experiment.py']
-    write(m.A/'reference_model.json',dict(candidate=selection['selected'],status='public_supported' if supported else 'experimental_failed_public_guards',
+    write(m.A/'reference_model.json',dict(candidate=selection['selected'],status='experimental_pending_confirmation' if pending else ('public_supported' if supported else 'experimental_failed_public_guards'),confirmation_pending=pending,
         available_public_guards_passed=supported,confirmed_improvement=False,arrays_sha256=sha(path),plan_sha256=sha(m.A/'plan.json'),
-        selection_sha256=sha(m.A/'selection.json'),assessment_sha256=sha(m.A/'confirmation_assessment.json'),source_trace=trace,
+        selection_sha256=sha(m.A/'selection.json'),assessment_sha256=None if pending else sha(m.A/'confirmation_assessment.json'),source_trace=trace,
         parent_model_sha256=sha(m.ROOT/'experiments/v66_assay_strength/analysis/reference_model.json'),source_contexts=sources,
         dependencies={n:sha(m.ROOT/n) for n in deps},full_bridge_null_passed=null_ok,
         hybrid_null_identity=False,uploaded=False,D3_opened=False))
@@ -74,17 +78,18 @@ def generate(preflight=False,workers=2):
                 assert len(np.unique(rows))==400;np.testing.assert_array_equal(prov.source_control_cell_id.to_numpy(str),ids[rows]);np.testing.assert_array_equal(prov.original_total_counts.to_numpy(int),library[rows])
                 seed=SEED+ci*100000+ti;own=int(np.flatnonzero(genes==target)[0]);template=x[rows]
                 delta=None if choice=='mean_bridge' else model['delta'][ti]
-                new,diag=m.bridge(template,model['effects'][ci,ti],own,seed+690000,params,delta)
                 changed=400
                 if choice=='hybrid25':
                     lo,hi=int(ptr[start]),int(ptr[start+400]);old=sparse.csr_matrix((src['X/data'][lo:hi],src['X/indices'][lo:hi],ptr[start:start+401]-lo),shape=(400,len(genes)))
-                    from run_v69_experiment import hybrid
-                    new=hybrid(old,new,seed);changed=100
+                    selected_rows=np.random.default_rng(seed+690069).permutation(400)[:100]
+                    generated,diag=m.bridge(template[selected_rows],model['effects'][ci,ti],own,seed+690000,params,delta)
+                    new=old.tolil(copy=True);new[selected_rows]=generated;new=new.tocsr();changed=100
+                else:new,diag=m.bridge(template,model['effects'][ci,ti],own,seed+690000,params,delta)
                 totals=new.sum(1).A1;assert np.isfinite(new.data).all() and (new.data>0).all() and totals.min()>0 and totals.max()<=1000000
                 mean=(new.multiply(1/totals[:,None])).mean(0).A1;bulk=new.sum(0).A1/totals.sum()
                 factor=np.exp2(model['effects'][ci,ti]);factor[own]=.1;wanted=params['p']*factor;wanted/=wanted.sum()
                 wanted_cp=model['cp'][ci]*factor;wanted_cp/=wanted_cp.sum()
-                row=dict(mean_probability_L1=float(abs(mean-wanted_cp).sum()),context=context,target_gene=str(target),target_index=ti,nnz=int(new.nnz),bridge_cells=changed,mean_library=float(totals.mean()),maximum_library=int(totals.max()),mean_detected_genes=float(new.getnnz(1).mean()),bulk_probability_L1=float(abs(bulk-wanted).sum()),**{'full_bridge_'+k:v for k,v in diag.items()})
+                row=dict(mean_probability_L1=float(abs(mean-wanted_cp).sum()),context=context,target_gene=str(target),target_index=ti,nnz=int(new.nnz),bridge_cells=changed,mean_library=float(totals.mean()),maximum_library=int(totals.max()),mean_detected_genes=float(new.getnnz(1).mean()),bulk_probability_L1=float(abs(bulk-wanted).sum()),**{'sampled_bridge_'+k:v for k,v in diag.items()})
                 pp=pd.DataFrame(dict(context=context,target_gene=str(target),prediction_cell_offset=np.arange(400),source_control_row=rows,source_control_cell_id=ids[rows],ntc_id=guides[rows],original_total_counts=library[rows],predicted_total_counts=totals))
                 return new,row,pp
             with ThreadPoolExecutor(max_workers=workers) as pool:
@@ -106,9 +111,9 @@ def generate(preflight=False,workers=2):
 
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('stage',choices=['fit','preflight','build']);p.add_argument('--workers',type=int,default=2);a=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('stage',choices=['fit','preflight','build']);p.add_argument('--workers',type=int,default=2);p.add_argument('--allow-pending-confirmation',action='store_true');a=p.parse_args()
     assert 1<=a.workers<=4
     with threadpool_limits(limits=2):
-        if a.stage=='fit':fit()
+        if a.stage=='fit':fit(a.allow_pending_confirmation)
         else:generate(a.stage=='preflight',a.workers)
 if __name__=='__main__':main()

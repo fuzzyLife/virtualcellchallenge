@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "count_populations": 190,
+  "manual_rank_coordinates": 1520,
+  "checks": [
+    "count hashes/integer axes",
+    "independent normalized predicted/truth LFC and bulk profiles",
+    "independent four DE metrics",
+    "independent BH",
+    "manual tied ranks",
+    "whole-study shape traces",
+    "panel-gene abstention"
+  ],
+  "oracle_cases_not_deployable": true,
+  "D3_opened": false
+}

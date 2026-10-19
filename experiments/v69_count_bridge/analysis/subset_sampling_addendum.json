@@ -1,0 +1,16 @@
+{
+  "reason": "Performance optimization before completing a production artifact: sample100 selected bridge rows instead of400 and discarding300.",
+  "count_probability_model_unchanged": true,
+  "fitted_arrays_sha256_before_and_after": "a403bb2b7984e439b0d6ab507c9f79fcf7757b85c529e82b448bc721a6082d3f",
+  "candidate_unchanged": true,
+  "public_selection_or_guards_changed": false,
+  "new_random_realization": true,
+  "old_incomplete_output": "experiments\\v69_count_bridge\\runtime_history\\before_subset_generation.h5ad.partial",
+  "old_incomplete_bytes": 326144712,
+  "updated_dependencies": {
+    "build_v69_submission.py": "1d530813ed6191042626f06cf39695217fc03300bee69162f801fbc2159b39ed",
+    "audit_v69_release.py": "8333db2abaacb0e14714b354b4258b65db8aa7d0e94407aec4819162a088325c"
+  },
+  "row_independence_argument": "Bridge computes per-row library and conditional Gamma/Beta/Binomial/Poisson draws. p/alpha/effect/dispersion closure are fixed externally; no count transformation depends on other template rows. Only diagnostics aggregate across rows. Subsetting therefore preserves the joint law for selected rows, with a different RNG stream layout. Same quarter positions, parent rows and fitted response parameters. No seed search or validation-based model change.",
+  "old_sources_preserved_in": "experiments\\v69_count_bridge\\analysis\\execution_history"
+}

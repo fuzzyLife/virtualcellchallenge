@@ -15,6 +15,7 @@ from vcc.vccfile import validate_vcc,read_vcc_meta
 
 def main():
  manifest,genes,targets,model,effects=load();del effects
+ assert not model.get('confirmation_pending',False),'Finish confirmation status before official packaging'
  destination=OUT/'prediction.vcc';source=OUT/'prediction.h5ad'
  if destination.exists():raise FileExistsError('Preserve existing upload package')
  verification=json.loads((A/'prediction_validation.json').read_text())

@@ -1,0 +1,40 @@
+{
+  "candidate": "hybrid25",
+  "control": "shuffled_hybrid25",
+  "beats_matched_control_profile": true,
+  "summary": {
+    "hybrid25": {
+      "pds": 0.8222222222222223,
+      "fidelity": 0.5789271383013204,
+      "reach": 0.13736560402533515,
+      "jaccard": 0.061966151741849364,
+      "nmae": null,
+      "profile_square_error": 71.09596826165009
+    },
+    "shuffled_hybrid25": {
+      "pds": 0.8166666666666668,
+      "fidelity": 0.5773386089216058,
+      "reach": 0.13581295293152718,
+      "jaccard": 0.06179793417620638,
+      "nmae": null,
+      "profile_square_error": 71.09758980483343
+    },
+    "shuffled_shape": {
+      "pds": 0.7472222222222222,
+      "fidelity": 0.18277065788593827,
+      "reach": 0.14890946069697117,
+      "jaccard": 0.10244114225071184,
+      "nmae": null,
+      "profile_square_error": 84.85678769146641
+    },
+    "v66": {
+      "pds": 0.7555555555555555,
+      "fidelity": 0.5840201967963999,
+      "reach": 0.1513281964009352,
+      "jaccard": 0.06800200808843083,
+      "nmae": null,
+      "profile_square_error": 64.04213492605224
+    }
+  },
+  "selection_unchanged": true
+}

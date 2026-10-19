@@ -1,0 +1,11 @@
+{
+  "original_production_contract_sha256": "97bdbd7d714919e309616e3d00774b9b52194fb44339d528f3ad36a9341d20af",
+  "updated_dependencies": {
+    "build_v69_submission.py": "5abb7ffbf34385b9a128f3191c9ef6cd52176ff1576ecd774671bb850edb0102",
+    "package_v69_submission.py": "8ab5516a69c0ff0d765110b23dd75af4fc93e120f115560b2f6391291ab5cb95"
+  },
+  "reason": "Candidate hybrid25 is locked as experimental fallback before confirmation. Fit/generate its unchanged count parameters in parallel with confirmation; public assessment is explicitly pending, never fabricated. Finalize status only after all confirmation results, preserving original metadata. Official packaging refuses pending status.",
+  "scientific_counts_or_selection_changed": false,
+  "initial_sources_preserved_in": "experiments\\v69_count_bridge\\analysis\\execution_history",
+  "selection_sha256": "d0eae151b8282ccd1af64d555d3bc01df99c53da80f964e5b1d1fc8ccbeb7036"
+}

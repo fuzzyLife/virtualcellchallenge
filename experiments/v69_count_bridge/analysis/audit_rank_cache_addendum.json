@@ -1,0 +1,6 @@
+{
+  "previous_auditor_sha256": "8333db2abaacb0e14714b354b4258b65db8aa7d0e94407aec4819162a088325c",
+  "updated_auditor_sha256": "4638787e0b174eb71f0bfc7a00a4f09bd19a46673a3bf5101df20e336cba540f",
+  "purpose": "Cache CSC column views for manual ranks instead of rescanning full CSR matrices. Normalize independently with the documented division order x/(library/1e6), preserving floating ties used by the primary CPU metric. No score, candidate or release threshold changed.",
+  "previous_source_preserved": "experiments\\v69_count_bridge\\analysis\\execution_history\\before_sparse_rank_cache_audit_v69_release.py"
+}
