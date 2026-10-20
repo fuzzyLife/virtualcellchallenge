@@ -1,3 +1,11 @@
+<!-- v69-published:begin -->
+## V69 published: count mixture regressed; V66 remains best
+
+V69 entry `dj3mrGx3Md59leld1ZI3` scored **0.095262845**, versus V66 **0.150882188**: **-0.055619343 (-36.86%)**. All four reported component scores declined, led by discrimination and expression accuracy. FID and REACH were not included in the supplied receipt. Public confirmation guards had failed, and its PDS gain reversed on the leaderboard. **Retain V66 as the best published reference.**
+
+[Published scores and lessons](V69_LEADERBOARD_RESULTS.md) · [Reproducible result recorder](record_submission_result_69.py). Original sealed artifacts are preserved. Older blocks below describe historical pre-upload decisions.
+<!-- v69-published:end -->
+
 <!-- v69-release:begin -->
 ## V69 ready: probabilistic count bridge, experimental
 

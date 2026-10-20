@@ -1,0 +1,43 @@
+{
+  "source": "Published CLI receipt supplied by user; no independent API query.",
+  "entry_id": "dj3mrGx3Md59leld1ZI3",
+  "model_name": "V66 probability-coupled count mixture v69 experimental",
+  "final_status": "published",
+  "rank_at_user_report": 772,
+  "overall": 0.09526284481907588,
+  "exact_reported_values": {
+    "overall": "0.09526284481907588",
+    "pds": "0.4722661732603027",
+    "mse": "0.00966231669808748",
+    "nmae": "0.08325305971139878",
+    "jac": "0.008059922552236526"
+  },
+  "metrics": {
+    "pds": 0.4722661732603027,
+    "mse": 0.00966231669808748,
+    "nmae": 0.08325305971139878,
+    "fid": null,
+    "reach": null,
+    "jac": 0.008059922552236526
+  },
+  "unreported_metrics": [
+    "fid",
+    "reach"
+  ],
+  "raw_metrics": null,
+  "submitted_utc": null,
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "scoring_job": "projects/vcc-prod/locations/us-west1/jobs/vcc-metrics-prod-dj3mrgx3md59leld1zi3",
+  "local_package_sha256": "faf909db096d55d21e2fc1d0f194ea18dc94e3a8c42acd1c57673be9366e06b4",
+  "local_package_bytes": 3992545280,
+  "artifact_link_evidence": "User command identifies audited local package; server receipt has no checksum.",
+  "upload_duration_seconds": 910,
+  "comparison_entry_id": "x8V3fUSgFIoAzHbNx4eX",
+  "overall_change_from_v66": "-0.05561934273076904",
+  "relative_change_from_v66": "-0.3686276268522076234463518710",
+  "best_published_version": "V66",
+  "public_release_supported": false,
+  "public_mean_study_profile_error_ratio": 1.1075169551192658
+}
