@@ -1,0 +1,15 @@
+# V77: correct shared response bias without diluting distinctive programs
+
+V70–V76 demonstrate two different problems: replacing response teachers did not improve profiles, and uniform response dilution improved profiles while losing discrimination. V77 corrects only the shared trans-response component left in V66's final predictions. This revisits V62's common-program idea at a different stage: after query-specific V66 prediction and nonlinear assay conversion, rather than in individual source response banks.
+
+For each target and output gene, average other predicted responses, excluding all direct-own gene contributions. Subtract fixed quarter/half/full common components or half of the positively aligned common projection. Preserve the original own probability during mass closure, reanchor to the legacy factor0.1, bound LFC changes to0.375 and keep the old count emitter. Zero trans-response and unsupported coordinates are unchanged. The common component uses predictions for the known300-target panel, never recipient treatment measurements.
+
+Negative controls permute output-gene coordinates within ten bulk-expression strata and panel/nonpanel groups, preserving the input component norm; the recipient projection coefficient is retained. Decoder constraints can alter final norms. No shuffled model is separately trained.
+
+Selection is now explicitly discrimination-focused: PDS gain>=0.01, profile noninferiority ratio<=1.005, no study>2% worse, and superior genuine versus gene-shuffled evidence. Prefer larger PDS gain, tie lower error. These are prospectively different criteria for a different objective, not retrospective promotion of failed dilution candidates. Development PDS uses3 fixed targets plus8 metadata-only extra targets/context, selected by a fixed target-name hash and >=100 cells; all fixed cases are excluded from extra selection. Cohorts are saved before computing outcome profiles.
+
+A cached public profile bank covers655 target/context pairs. Held-target evaluation excludes all55 development-PDS targets, leaving600, and requires PDS gain>=0.005 with the same profile/worst-study/shuffle guards. All biological studies have been examined previously; this is exclusion from the present coefficient selection, not fresh independent biology or a hidden leaderboard forecast.
+
+Generated-count checks use30 distinct PDS cases,15 remaining profile/DE cases, original control templates/libraries and two technical seeds. Baselines replay exactly; raw p values support independent rank/BH/all-four-DE/PDS audits. Production requires both-seed critical gates and held-target support; other failed or unavailable DE metrics remain explicit. D3 remains unopened. Nothing uploads or pushes automatically.
+
+Reproduce with pinned V24 science Python: test, freeze/prepare, `prepare_v77_profiles.py`, `evaluate_v77.py development`, then held-target/count/audit/production stages only for a locked eligible candidate. Code stays in the root and all compact evidence in `experiments/v77_common_response/analysis`.

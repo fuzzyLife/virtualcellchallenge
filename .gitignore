@@ -785,3 +785,69 @@ __marimo__/
 /experiments/v73*/*.h5ad*
 /experiments/v73*/*.vcc*
 /experiments/v73*/analysis/prediction_control_rows.csv
+
+# V74 trusted-response assay calibration arrays/artifacts
+/experiments/v74*/**/*.npz
+/experiments/v74*/**/*.npy
+/experiments/v74*/*.log
+/experiments/v74*/*.h5ad*
+/experiments/v74*/*.vcc*
+/experiments/v74*/analysis/prediction_control_rows.csv
+
+# V75 conservative assay response calibration arrays/artifacts
+/experiments/v75*/**/*.npz
+/experiments/v75*/**/*.npy
+/experiments/v75*/*.log
+/experiments/v75*/*.h5ad*
+/experiments/v75*/*.vcc*
+/experiments/v75*/analysis/prediction_control_rows.csv
+
+# V76 composition-aware response dilution arrays/artifacts
+/experiments/v76*/**/*.npz
+/experiments/v76*/**/*.npy
+/experiments/v76*/*.log
+/experiments/v76*/*.h5ad*
+/experiments/v76*/*.vcc*
+/experiments/v76*/analysis/prediction_control_rows.csv
+
+# V77 common response correction arrays/artifacts
+/experiments/v77*/**/*.npz
+/experiments/v77*/**/*.npy
+/experiments/v77*/*.log
+/experiments/v77*/*.h5ad*
+/experiments/v77*/*.vcc*
+/experiments/v77*/analysis/prediction_control_rows.csv
+
+# V78 exact-margin variance models and artifacts
+/experiments/v78*/**/*.npz
+/experiments/v78*/**/*.npy
+/experiments/v78*/*.log
+/experiments/v78*/*.h5ad*
+/experiments/v78*/*.vcc*
+/experiments/v78*/analysis/prediction_control_rows.csv
+
+# V79 count innovation models and artifacts
+/experiments/v79*/**/*.npz
+/experiments/v79*/**/*.npy
+/experiments/v79*/*.log
+/experiments/v79*/*.h5ad*
+/experiments/v79*/*.vcc*
+/experiments/v79*/analysis/prediction_control_rows.csv
+
+# V80 experimental hurdle count populations
+experiments/v80_hurdle_controls/**/*.npz
+experiments/v80_hurdle_controls/**/*.npy
+experiments/v80_hurdle_controls/**/*.log
+experiments/v80_hurdle_controls/*.h5ad
+experiments/v80_hurdle_controls/*.vcc
+
+# V81 fixed-margin residual temperature
+experiments/v81_residual_temperature/**/*.npz
+experiments/v81_residual_temperature/**/*.npy
+experiments/v81_residual_temperature/**/*.log
+experiments/v81_residual_temperature/*.h5ad
+experiments/v81_residual_temperature/*.vcc
+
+# V82 byte-identical recovery artifact
+experiments/v82_v66_recovery/*.vcc
+experiments/v82_v66_recovery/*.partial

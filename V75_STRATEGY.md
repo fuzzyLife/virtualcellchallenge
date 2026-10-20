@@ -1,0 +1,11 @@
+# V75: conservative calibration of V66 assay responses
+
+V69's new count sampler regressed. V70–V73 source-response teachers failed, including a corrected batch aggregation that restored full source target coverage. V74's amplification also failed. V75 tests the opposite direction: gains **0.85, 0.70 and 0.50** on V66's bulk log1p(50000*p) response before own-target suppression. These are fixed hypotheses chosen after those public negative results, not a blind model search.
+
+The inverse assay transformation anchors fold factors at the target coordinate, caps each LFC correction at 0.375 and total LFC at +/-3, and preserves missing query coordinates and exact zero-response/gain-one identities. The existing V66 residual10 count generator, control templates, seeds and exact cell library sizes stay fixed. Own suppression is applied once as before. This differs from V64's source-derived LFC-norm multiplier and from V69's count redistribution.
+
+The negative control uses a cyclic permutation among active V66 target programs, rescaled to the recipient's nonpanel response norm before decoding; zero-response targets remain zero. At least two nonzero programs are required. Decoder clipping can change the final achieved norm, so this is norm matching of input response increments, not a claim of identical final cell distributions. No recipient outcomes determine the shuffle.
+
+The same >=0.5% development profile gain, no study >2% worse, and superiority to its shuffled increment are required. Choose once among the three gains before the remaining distinct target cases are scored. Production additionally requires generated-profile, worst-study, shuffled and **PDS** gates, and the fixed broad >=30-cell diagnostic. All other count/DE failures and missing metrics remain explicit. All public biology is repeatedly reused; there is no private score guarantee or new independent-study claim. D3 stays unopened. Nothing uploads or pushes automatically.
+
+Use the pinned V24 science runtime. Run `test_v75_assay_shrink.py`, then estimator `freeze`, `prepare`, `development`. Only a locked eligible candidate proceeds to `confirmation`, `run_v75_counts.py`, `evaluate_v75_broad.py`, independent audits and production. Root scripts and compact analysis receipts retain every result, including rejections. The original V66 and V69 artifacts remain unchanged.

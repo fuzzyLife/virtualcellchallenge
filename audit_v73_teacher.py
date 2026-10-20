@@ -1,4 +1,5 @@
 """Audit source exclusions and bounded V73 serialized predictions."""
+from pathlib import Path
 import numpy as np
 from threadpoolctl import threadpool_limits
 import v73_count_assay as m
@@ -9,7 +10,7 @@ def main():
  for excluded in ('H1','Orion','CD4'):
   m.teacher.cache_clear();accessed=[]
   def guarded(path):
-   p=m.Path(path)
+   p=Path(path)
    if p.parent.name=='sources':
     assert m.study(p.stem)!=excluded,('Recipient evidence touched',p)
     accessed.append(p.stem)

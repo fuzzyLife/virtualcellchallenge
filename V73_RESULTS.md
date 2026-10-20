@@ -1,0 +1,5 @@
+# V73 results: no release
+
+The unit-response-centered source likelihood, full source coverage and bulk assay transfer passed their numerical and source-exclusion audits, but none passed development. Profile-error ratios versus V66: raw25 **1.031681762**, assay25 **1.034579302**, assay_center25 **1.033142521**, assay_center50 **1.110131242**, assay_credible25 **0.999972208**. The tiny last decrease (0.0028%) misses the frozen 0.5% criterion and loses to its shuffled increment (**0.999365667**). No arm was selected; no count or confirmation trial, production artifact or upload was made.
+
+The source-estimator diagnostic compares weak/strong source coordinates without recipient outcomes and verifies matched bulk-profile closure. The prior change is numerically justified but does not establish transfer accuracy. More source information and a different representation did not improve this baseline. V74 instead tests bounded calibration of the already successful V66 programs directly in the assay space, with the same release thresholds. All development biology is repeatedly reused; V66 remains highest published.
