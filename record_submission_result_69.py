@@ -28,7 +28,7 @@ def sha(path):
 
 
 def write(path, value):
-    path.write_text(json.dumps(value, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    path.write_bytes((json.dumps(value, indent=2, allow_nan=False) + '\n').encode('utf-8'))
 
 
 def main(check=False):
@@ -135,10 +135,10 @@ V69 entry `{result['entry_id']}` scored **{overall:.9f}**, versus V66 **{baselin
     OUT.mkdir(parents=True, exist_ok=True)
     write(paths[0], result)
     with paths[1].open('w', encoding='utf-8', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
-    REPORT.write_text(report, encoding='utf-8')
+    REPORT.write_bytes(report.encode('utf-8'))
     assert readme.count(BEGIN) == readme.count(END)
     if BEGIN in readme:
         assert readme.count(BEGIN) == 1
