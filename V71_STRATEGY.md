@@ -1,0 +1,9 @@
+# V71: count-evidence correction without preserving a prediction's own geometry
+
+V70's guarded raw-count teacher failed the development profile test. Its raw25 proposal changed only 42–81 of 300 target responses per public context. The three development targets in H1 and both CD4 contexts remained unchanged. This motivates a bounded counterfactual: preserving the old predictor's target geometry might prevent useful corrections. It is not proof that removing the guard will help.
+
+V71 freezes four alternatives: the same raw quarter-strength correction without the identity guard, quarter/half-strength corrections from a raw-count teacher with leave-one-target-out common-program removal, and a quarter-strength projection that changes V66 only outside a source-evidence interval. No new cell generator or neural architecture is introduced. Per-coordinate changes stay bounded, own knockdown remains once, and unsupported coordinates abstain.
+
+The V70 source evidence and whole-study exclusions are reused exactly. Development has already been spent and is explicitly exploratory; remaining distinct target cases are still unopened at specification. The same mean gates, matched shuffled controls, confirmation-count evaluator and broad-response diagnostic apply. A mean failure blocks count generation. Production requires generated-profile, worst-study, shuffle and broad diagnostic gates. Other failures are disclosed; no full six-metric support is inferred from missing values. D3 remains unopened. Nothing uploads or pushes automatically.
+
+Root `v71_evidence_projection.py` contains the estimator; `analysis/plan.json` freezes code, inputs and decision rules. Fitting raw sources is reproduced by the V70 protocol. Run V71 `freeze`, `prepare`, `development`, then `confirmation` only for a selected candidate. Counts and production receive separate reviewed adapters. This is an experimental validation program, not a guaranteed leaderboard improvement.

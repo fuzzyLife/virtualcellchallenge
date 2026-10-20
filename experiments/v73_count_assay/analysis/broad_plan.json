@@ -1,0 +1,11 @@
+{
+  "evaluator_sha256": "71f7b54771626c4bedb6a335afc71b85614e59b1fd44dfdc40575f15bdde6e27",
+  "scope": "Same fixed broad >=30-cell diagnostic, frozen before V73 development outcomes; no reselection.",
+  "gates": {
+    "equal_study_profile_ratio_below": 1,
+    "worst_study_ratio_at_most": 1.02,
+    "pds_change_at_least": -0.005,
+    "beats_matched_shuffle": true
+  },
+  "release": "A broader failure blocks production; adds a stricter test, never relaxes original gates."
+}

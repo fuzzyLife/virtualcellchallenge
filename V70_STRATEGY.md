@@ -1,0 +1,11 @@
+# V70: raw-count response teacher
+
+V69 changed population sampling and failed both public profile guards and the leaderboard. V70 instead changes response means while keeping the V66 residual10 count generator fixed.
+
+The teacher estimates batch-matched raw count proportions with library-size offsets. Gene-specific quasi-Poisson overdispersion supplies moment-matched Gamma posterior log-rate uncertainty (a working approximation, not an exact NB likelihood). Each source study contributes at most one capped precision vote. A fixed Gaussian signal prior shrinks uncertain log responses. Source eligibility, priors, correction bounds and two strengths are frozen in `analysis/plan.json` before outcomes.
+
+Whole recipient studies are excluded from teacher fitting at prediction time; Orion includes both cell lines, and CD4 includes all donors/conditions. Predictions use query controls and V66 baseline effects. Recipient treatments and their support labels never enter the predictor. Each correction retains 80% of V66 intervention-identity margins. Own-gene knockdown is applied once by the unchanged emitter.
+
+Development uses the first three distinct targets in each pre-existing five-context panel. Select only a candidate with >=0.5% lower equal-study profile error, no study >2% worse, and improvement over its cyclic source-target shuffle. Selection is then locked before remaining cases. Confirmation evaluates desired means followed by integer counts and available DE metrics. Missing metrics remain missing. These public studies have been reused; this is not independent biological validation. The D3 reserve remains unopened. Full support requires the frozen gates, and any incompletely supported artifact must be identified as experimental. No automatic upload or push.
+
+Reproduction: use the pinned scientific Python described in `experiments/v24_cd4_response/analysis/runtime.json`. Run `v70_count_teacher.py freeze`, `fit --source NAME` for the six sources, `prepare --source NAME` for the five public contexts, then `development` and (only if selected) `confirmation`. New scripts and compact evidence remain in the root and `experiments/v70_count_teacher/analysis`. Source code, selection and input hashes accompany all results. Count generation and packaging are separate stages after a decision.

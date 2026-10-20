@@ -753,3 +753,35 @@ __marimo__/
 
 # Unused, preserved V69 runtime output history
 /experiments/v69*/runtime_history/
+
+# V70 regenerable teacher arrays and upload artifacts
+/experiments/v70*/**/*.npz
+/experiments/v70*/**/*.npy
+/experiments/v70*/*.log
+/experiments/v70*/*.h5ad*
+/experiments/v70*/*.vcc*
+/experiments/v70*/analysis/prediction_control_rows.csv
+
+# V71 regenerable evidence corrections and upload artifacts
+/experiments/v71*/**/*.npz
+/experiments/v71*/**/*.npy
+/experiments/v71*/*.log
+/experiments/v71*/*.h5ad*
+/experiments/v71*/*.vcc*
+/experiments/v71*/analysis/prediction_control_rows.csv
+
+# V72 corrected batch-offset teacher and upload artifacts
+/experiments/v72*/**/*.npz
+/experiments/v72*/**/*.npy
+/experiments/v72*/*.log
+/experiments/v72*/*.h5ad*
+/experiments/v72*/*.vcc*
+/experiments/v72*/analysis/prediction_control_rows.csv
+
+# V73 count-likelihood and assay-transfer arrays/artifacts
+/experiments/v73*/**/*.npz
+/experiments/v73*/**/*.npy
+/experiments/v73*/*.log
+/experiments/v73*/*.h5ad*
+/experiments/v73*/*.vcc*
+/experiments/v73*/analysis/prediction_control_rows.csv

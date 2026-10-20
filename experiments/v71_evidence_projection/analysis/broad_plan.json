@@ -1,0 +1,11 @@
+{
+  "evaluator_sha256": "0262998cdbf9a6b37e69877aaab767ed9528f199780edf8f779fd3d670d186c0",
+  "scope": "Same fixed broad diagnostic applied to V71. Frozen before its development outcomes; no strength reselection. All existing >=30-cell source responses; reused public biology.",
+  "gates": {
+    "equal_study_profile_ratio_below": 1,
+    "worst_study_ratio_at_most": 1.02,
+    "pds_change_at_least": -0.005,
+    "beats_matched_shuffle": true
+  },
+  "release": "A broader failure blocks production; adds a stricter test, never relaxes original gates."
+}

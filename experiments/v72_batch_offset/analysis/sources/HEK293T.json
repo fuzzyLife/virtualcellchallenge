@@ -1,0 +1,1994 @@
+{
+  "sha256": "6a2638f7ae5e52475f599e471667978d8531614da36c6151a4ab1e1c79a161a7",
+  "source": "HEK293T",
+  "study": "Orion",
+  "targets": [
+    {
+      "target": "ABCD1",
+      "cells": 179,
+      "batches": 104,
+      "supported_genes": 10431
+    },
+    {
+      "target": "ACLY",
+      "cells": 160,
+      "batches": 112,
+      "supported_genes": 10339
+    },
+    {
+      "target": "ADNP",
+      "cells": 400,
+      "batches": 179,
+      "supported_genes": 11552
+    },
+    {
+      "target": "AGO1",
+      "cells": 221,
+      "batches": 118,
+      "supported_genes": 10802
+    },
+    {
+      "target": "AKAP1",
+      "cells": 79,
+      "batches": 53,
+      "supported_genes": 9318
+    },
+    {
+      "target": "AKIRIN1",
+      "cells": 53,
+      "batches": 38,
+      "supported_genes": 7826
+    },
+    {
+      "target": "AKT2",
+      "cells": 199,
+      "batches": 114,
+      "supported_genes": 10710
+    },
+    {
+      "target": "ALG12",
+      "cells": 203,
+      "batches": 113,
+      "supported_genes": 10773
+    },
+    {
+      "target": "ANKRD52",
+      "cells": 43,
+      "batches": 31,
+      "supported_genes": 7121
+    },
+    {
+      "target": "ANKZF1",
+      "cells": 237,
+      "batches": 123,
+      "supported_genes": 10919
+    },
+    {
+      "target": "ANP32B",
+      "cells": 268,
+      "batches": 145,
+      "supported_genes": 11177
+    },
+    {
+      "target": "AP2A2",
+      "cells": 255,
+      "batches": 134,
+      "supported_genes": 11005
+    },
+    {
+      "target": "API5",
+      "cells": 183,
+      "batches": 111,
+      "supported_genes": 10540
+    },
+    {
+      "target": "ARL14EP",
+      "cells": 153,
+      "batches": 94,
+      "supported_genes": 10220
+    },
+    {
+      "target": "ASCC2",
+      "cells": 220,
+      "batches": 111,
+      "supported_genes": 11026
+    },
+    {
+      "target": "BCKDK",
+      "cells": 75,
+      "batches": 60,
+      "supported_genes": 8933
+    },
+    {
+      "target": "BCL6",
+      "cells": 265,
+      "batches": 141,
+      "supported_genes": 11062
+    },
+    {
+      "target": "BCL7C",
+      "cells": 126,
+      "batches": 88,
+      "supported_genes": 9894
+    },
+    {
+      "target": "BRD1",
+      "cells": 53,
+      "batches": 40,
+      "supported_genes": 7409
+    },
+    {
+      "target": "BRPF1",
+      "cells": 170,
+      "batches": 111,
+      "supported_genes": 10629
+    },
+    {
+      "target": "CAND1",
+      "cells": 171,
+      "batches": 116,
+      "supported_genes": 10665
+    },
+    {
+      "target": "CAPRIN2",
+      "cells": 131,
+      "batches": 83,
+      "supported_genes": 10317
+    },
+    {
+      "target": "CARM1",
+      "cells": 378,
+      "batches": 162,
+      "supported_genes": 11545
+    },
+    {
+      "target": "CAT",
+      "cells": 400,
+      "batches": 200,
+      "supported_genes": 11701
+    },
+    {
+      "target": "CCDC112",
+      "cells": 133,
+      "batches": 82,
+      "supported_genes": 10279
+    },
+    {
+      "target": "CHD3",
+      "cells": 393,
+      "batches": 172,
+      "supported_genes": 11598
+    },
+    {
+      "target": "CHD6",
+      "cells": 400,
+      "batches": 184,
+      "supported_genes": 11648
+    },
+    {
+      "target": "CHKB",
+      "cells": 347,
+      "batches": 162,
+      "supported_genes": 11387
+    },
+    {
+      "target": "CLCN6",
+      "cells": 332,
+      "batches": 162,
+      "supported_genes": 11365
+    },
+    {
+      "target": "COIL",
+      "cells": 258,
+      "batches": 128,
+      "supported_genes": 11191
+    },
+    {
+      "target": "COMMD8",
+      "cells": 40,
+      "batches": 34,
+      "supported_genes": 6806
+    },
+    {
+      "target": "COQ10B",
+      "cells": 400,
+      "batches": 181,
+      "supported_genes": 11537
+    },
+    {
+      "target": "CSNK2A1",
+      "cells": 189,
+      "batches": 114,
+      "supported_genes": 10805
+    },
+    {
+      "target": "CYTH2",
+      "cells": 209,
+      "batches": 122,
+      "supported_genes": 10955
+    },
+    {
+      "target": "DBF4B",
+      "cells": 199,
+      "batches": 118,
+      "supported_genes": 10801
+    },
+    {
+      "target": "DBN1",
+      "cells": 353,
+      "batches": 168,
+      "supported_genes": 11405
+    },
+    {
+      "target": "DCAF16",
+      "cells": 400,
+      "batches": 199,
+      "supported_genes": 11626
+    },
+    {
+      "target": "DCP2",
+      "cells": 91,
+      "batches": 55,
+      "supported_genes": 9820
+    },
+    {
+      "target": "DDHD1",
+      "cells": 400,
+      "batches": 180,
+      "supported_genes": 11512
+    },
+    {
+      "target": "DEAF1",
+      "cells": 387,
+      "batches": 178,
+      "supported_genes": 11585
+    },
+    {
+      "target": "DEK",
+      "cells": 188,
+      "batches": 125,
+      "supported_genes": 10714
+    },
+    {
+      "target": "DHRS1",
+      "cells": 229,
+      "batches": 132,
+      "supported_genes": 10857
+    },
+    {
+      "target": "DHX35",
+      "cells": 400,
+      "batches": 166,
+      "supported_genes": 11716
+    },
+    {
+      "target": "DLAT",
+      "cells": 210,
+      "batches": 119,
+      "supported_genes": 10879
+    },
+    {
+      "target": "DMTF1",
+      "cells": 400,
+      "batches": 167,
+      "supported_genes": 11668
+    },
+    {
+      "target": "DNTTIP1",
+      "cells": 260,
+      "batches": 145,
+      "supported_genes": 11035
+    },
+    {
+      "target": "DRG2",
+      "cells": 186,
+      "batches": 111,
+      "supported_genes": 10643
+    },
+    {
+      "target": "DTNBP1",
+      "cells": 218,
+      "batches": 121,
+      "supported_genes": 10870
+    },
+    {
+      "target": "DVL3",
+      "cells": 121,
+      "batches": 89,
+      "supported_genes": 10111
+    },
+    {
+      "target": "E2F1",
+      "cells": 185,
+      "batches": 103,
+      "supported_genes": 10690
+    },
+    {
+      "target": "E2F4",
+      "cells": 47,
+      "batches": 37,
+      "supported_genes": 8393
+    },
+    {
+      "target": "EAPP",
+      "cells": 295,
+      "batches": 145,
+      "supported_genes": 11280
+    },
+    {
+      "target": "EEF1A2",
+      "cells": 374,
+      "batches": 170,
+      "supported_genes": 11487
+    },
+    {
+      "target": "ELK1",
+      "cells": 85,
+      "batches": 70,
+      "supported_genes": 9607
+    },
+    {
+      "target": "EPC2",
+      "cells": 88,
+      "batches": 59,
+      "supported_genes": 9542
+    },
+    {
+      "target": "EPHB2",
+      "cells": 188,
+      "batches": 108,
+      "supported_genes": 10802
+    },
+    {
+      "target": "EPM2AIP1",
+      "cells": 382,
+      "batches": 163,
+      "supported_genes": 11608
+    },
+    {
+      "target": "EZH2",
+      "cells": 55,
+      "batches": 44,
+      "supported_genes": 8091
+    },
+    {
+      "target": "FAM120A",
+      "cells": 330,
+      "batches": 149,
+      "supported_genes": 11381
+    },
+    {
+      "target": "FCGRT",
+      "cells": 331,
+      "batches": 167,
+      "supported_genes": 11437
+    },
+    {
+      "target": "FHL3",
+      "cells": 108,
+      "batches": 71,
+      "supported_genes": 9816
+    },
+    {
+      "target": "FOXN2",
+      "cells": 302,
+      "batches": 140,
+      "supported_genes": 11155
+    },
+    {
+      "target": "FOXO4",
+      "cells": 236,
+      "batches": 139,
+      "supported_genes": 11085
+    },
+    {
+      "target": "FUBP3",
+      "cells": 293,
+      "batches": 148,
+      "supported_genes": 11377
+    },
+    {
+      "target": "FXYD5",
+      "cells": 76,
+      "batches": 55,
+      "supported_genes": 9363
+    },
+    {
+      "target": "FZD2",
+      "cells": 334,
+      "batches": 160,
+      "supported_genes": 11394
+    },
+    {
+      "target": "GIGYF2",
+      "cells": 104,
+      "batches": 79,
+      "supported_genes": 9794
+    },
+    {
+      "target": "GLI3",
+      "cells": 400,
+      "batches": 188,
+      "supported_genes": 11533
+    },
+    {
+      "target": "GMEB2",
+      "cells": 231,
+      "batches": 126,
+      "supported_genes": 10967
+    },
+    {
+      "target": "GPATCH8",
+      "cells": 342,
+      "batches": 162,
+      "supported_genes": 11400
+    },
+    {
+      "target": "GRAMD1A",
+      "cells": 226,
+      "batches": 124,
+      "supported_genes": 10847
+    },
+    {
+      "target": "GTF2IRD1",
+      "cells": 366,
+      "batches": 155,
+      "supported_genes": 11445
+    },
+    {
+      "target": "HDAC1",
+      "cells": 151,
+      "batches": 103,
+      "supported_genes": 10381
+    },
+    {
+      "target": "HDAC8",
+      "cells": 198,
+      "batches": 124,
+      "supported_genes": 10767
+    },
+    {
+      "target": "HEATR6",
+      "cells": 205,
+      "batches": 118,
+      "supported_genes": 10720
+    },
+    {
+      "target": "HMGN3",
+      "cells": 229,
+      "batches": 110,
+      "supported_genes": 10839
+    },
+    {
+      "target": "HMGN4",
+      "cells": 62,
+      "batches": 46,
+      "supported_genes": 8378
+    },
+    {
+      "target": "HMGXB3",
+      "cells": 188,
+      "batches": 115,
+      "supported_genes": 10604
+    },
+    {
+      "target": "HOMEZ",
+      "cells": 242,
+      "batches": 124,
+      "supported_genes": 10859
+    },
+    {
+      "target": "HSBP1",
+      "cells": 135,
+      "batches": 92,
+      "supported_genes": 10179
+    },
+    {
+      "target": "HSP90AB1",
+      "cells": 135,
+      "batches": 89,
+      "supported_genes": 10012
+    },
+    {
+      "target": "IFI27L2",
+      "cells": 321,
+      "batches": 151,
+      "supported_genes": 11459
+    },
+    {
+      "target": "IFNAR2",
+      "cells": 255,
+      "batches": 147,
+      "supported_genes": 11148
+    },
+    {
+      "target": "IFNGR2",
+      "cells": 151,
+      "batches": 92,
+      "supported_genes": 10393
+    },
+    {
+      "target": "IREB2",
+      "cells": 96,
+      "batches": 66,
+      "supported_genes": 9521
+    },
+    {
+      "target": "KDM5A",
+      "cells": 205,
+      "batches": 121,
+      "supported_genes": 10696
+    },
+    {
+      "target": "KHDRBS1",
+      "cells": 142,
+      "batches": 94,
+      "supported_genes": 10476
+    },
+    {
+      "target": "KHSRP",
+      "cells": 212,
+      "batches": 115,
+      "supported_genes": 10964
+    },
+    {
+      "target": "KIF21B",
+      "cells": 52,
+      "batches": 42,
+      "supported_genes": 8207
+    },
+    {
+      "target": "KIF2A",
+      "cells": 212,
+      "batches": 131,
+      "supported_genes": 10964
+    },
+    {
+      "target": "KMT2A",
+      "cells": 44,
+      "batches": 36,
+      "supported_genes": 7274
+    },
+    {
+      "target": "LDLR",
+      "cells": 149,
+      "batches": 97,
+      "supported_genes": 10291
+    },
+    {
+      "target": "LENG1",
+      "cells": 78,
+      "batches": 63,
+      "supported_genes": 9081
+    },
+    {
+      "target": "LMAN1",
+      "cells": 185,
+      "batches": 117,
+      "supported_genes": 10671
+    },
+    {
+      "target": "LMBRD2",
+      "cells": 67,
+      "batches": 53,
+      "supported_genes": 8197
+    },
+    {
+      "target": "LPCAT3",
+      "cells": 172,
+      "batches": 118,
+      "supported_genes": 10515
+    },
+    {
+      "target": "MAP2K2",
+      "cells": 191,
+      "batches": 114,
+      "supported_genes": 10726
+    },
+    {
+      "target": "MAPK12",
+      "cells": 45,
+      "batches": 43,
+      "supported_genes": 7365
+    },
+    {
+      "target": "MAPK7",
+      "cells": 172,
+      "batches": 114,
+      "supported_genes": 10543
+    },
+    {
+      "target": "MARCKSL1",
+      "cells": 127,
+      "batches": 77,
+      "supported_genes": 10236
+    },
+    {
+      "target": "MBD4",
+      "cells": 393,
+      "batches": 164,
+      "supported_genes": 11653
+    },
+    {
+      "target": "MED13",
+      "cells": 197,
+      "batches": 115,
+      "supported_genes": 10539
+    },
+    {
+      "target": "MED15",
+      "cells": 366,
+      "batches": 161,
+      "supported_genes": 11451
+    },
+    {
+      "target": "MED25",
+      "cells": 234,
+      "batches": 133,
+      "supported_genes": 10943
+    },
+    {
+      "target": "MLKL",
+      "cells": 317,
+      "batches": 154,
+      "supported_genes": 11402
+    },
+    {
+      "target": "MLLT10",
+      "cells": 96,
+      "batches": 61,
+      "supported_genes": 9567
+    },
+    {
+      "target": "MSANTD4",
+      "cells": 355,
+      "batches": 151,
+      "supported_genes": 11451
+    },
+    {
+      "target": "MSI2",
+      "cells": 202,
+      "batches": 118,
+      "supported_genes": 10836
+    },
+    {
+      "target": "MTA1",
+      "cells": 203,
+      "batches": 114,
+      "supported_genes": 10630
+    },
+    {
+      "target": "MTF1",
+      "cells": 387,
+      "batches": 163,
+      "supported_genes": 11616
+    },
+    {
+      "target": "MTHFSD",
+      "cells": 240,
+      "batches": 132,
+      "supported_genes": 11186
+    },
+    {
+      "target": "MTM1",
+      "cells": 126,
+      "batches": 80,
+      "supported_genes": 10038
+    },
+    {
+      "target": "MYD88",
+      "cells": 400,
+      "batches": 183,
+      "supported_genes": 11661
+    },
+    {
+      "target": "MYPOP",
+      "cells": 173,
+      "batches": 101,
+      "supported_genes": 10726
+    },
+    {
+      "target": "MYRF",
+      "cells": 400,
+      "batches": 206,
+      "supported_genes": 11661
+    },
+    {
+      "target": "NABP2",
+      "cells": 398,
+      "batches": 173,
+      "supported_genes": 11590
+    },
+    {
+      "target": "NAIF1",
+      "cells": 333,
+      "batches": 152,
+      "supported_genes": 11337
+    },
+    {
+      "target": "NCLN",
+      "cells": 178,
+      "batches": 106,
+      "supported_genes": 10560
+    },
+    {
+      "target": "NFE2L1",
+      "cells": 132,
+      "batches": 87,
+      "supported_genes": 9868
+    },
+    {
+      "target": "NGLY1",
+      "cells": 118,
+      "batches": 82,
+      "supported_genes": 9999
+    },
+    {
+      "target": "NICN1",
+      "cells": 178,
+      "batches": 121,
+      "supported_genes": 10498
+    },
+    {
+      "target": "NIPAL3",
+      "cells": 81,
+      "batches": 62,
+      "supported_genes": 9346
+    },
+    {
+      "target": "NIPSNAP3A",
+      "cells": 61,
+      "batches": 47,
+      "supported_genes": 8399
+    },
+    {
+      "target": "NT5DC1",
+      "cells": 52,
+      "batches": 44,
+      "supported_genes": 7821
+    },
+    {
+      "target": "NUP37",
+      "cells": 45,
+      "batches": 35,
+      "supported_genes": 7360
+    },
+    {
+      "target": "PAN2",
+      "cells": 138,
+      "batches": 98,
+      "supported_genes": 10198
+    },
+    {
+      "target": "PAPOLA",
+      "cells": 119,
+      "batches": 77,
+      "supported_genes": 9824
+    },
+    {
+      "target": "PARP3",
+      "cells": 391,
+      "batches": 168,
+      "supported_genes": 11527
+    },
+    {
+      "target": "PATL1",
+      "cells": 400,
+      "batches": 193,
+      "supported_genes": 11558
+    },
+    {
+      "target": "PBLD",
+      "cells": 379,
+      "batches": 174,
+      "supported_genes": 11476
+    },
+    {
+      "target": "PCGF1",
+      "cells": 342,
+      "batches": 147,
+      "supported_genes": 11350
+    },
+    {
+      "target": "PCGF6",
+      "cells": 332,
+      "batches": 161,
+      "supported_genes": 11400
+    },
+    {
+      "target": "PDCD4",
+      "cells": 181,
+      "batches": 114,
+      "supported_genes": 10836
+    },
+    {
+      "target": "PDE6D",
+      "cells": 83,
+      "batches": 60,
+      "supported_genes": 9301
+    },
+    {
+      "target": "PDK1",
+      "cells": 181,
+      "batches": 115,
+      "supported_genes": 10607
+    },
+    {
+      "target": "PDK3",
+      "cells": 220,
+      "batches": 118,
+      "supported_genes": 10853
+    },
+    {
+      "target": "PGLS",
+      "cells": 43,
+      "batches": 37,
+      "supported_genes": 7127
+    },
+    {
+      "target": "PHF11",
+      "cells": 51,
+      "batches": 44,
+      "supported_genes": 7780
+    },
+    {
+      "target": "PHF19",
+      "cells": 400,
+      "batches": 183,
+      "supported_genes": 11619
+    },
+    {
+      "target": "PHF23",
+      "cells": 52,
+      "batches": 42,
+      "supported_genes": 7593
+    },
+    {
+      "target": "PHF8",
+      "cells": 130,
+      "batches": 84,
+      "supported_genes": 10040
+    },
+    {
+      "target": "PI4KB",
+      "cells": 115,
+      "batches": 75,
+      "supported_genes": 9914
+    },
+    {
+      "target": "PIM2",
+      "cells": 115,
+      "batches": 80,
+      "supported_genes": 10012
+    },
+    {
+      "target": "PIN1",
+      "cells": 74,
+      "batches": 61,
+      "supported_genes": 8705
+    },
+    {
+      "target": "PINK1",
+      "cells": 304,
+      "batches": 149,
+      "supported_genes": 11154
+    },
+    {
+      "target": "PKN3",
+      "cells": 78,
+      "batches": 54,
+      "supported_genes": 9348
+    },
+    {
+      "target": "PLAGL2",
+      "cells": 211,
+      "batches": 129,
+      "supported_genes": 10784
+    },
+    {
+      "target": "PLCG1",
+      "cells": 148,
+      "batches": 104,
+      "supported_genes": 10289
+    },
+    {
+      "target": "PNP",
+      "cells": 319,
+      "batches": 139,
+      "supported_genes": 11354
+    },
+    {
+      "target": "POLD4",
+      "cells": 400,
+      "batches": 171,
+      "supported_genes": 11616
+    },
+    {
+      "target": "POR",
+      "cells": 89,
+      "batches": 63,
+      "supported_genes": 9507
+    },
+    {
+      "target": "PPIF",
+      "cells": 324,
+      "batches": 146,
+      "supported_genes": 11313
+    },
+    {
+      "target": "PPIP5K2",
+      "cells": 216,
+      "batches": 121,
+      "supported_genes": 10966
+    },
+    {
+      "target": "PQBP1",
+      "cells": 368,
+      "batches": 171,
+      "supported_genes": 11454
+    },
+    {
+      "target": "PRDX3",
+      "cells": 222,
+      "batches": 126,
+      "supported_genes": 10911
+    },
+    {
+      "target": "PRKAB2",
+      "cells": 400,
+      "batches": 179,
+      "supported_genes": 11519
+    },
+    {
+      "target": "PRKACA",
+      "cells": 289,
+      "batches": 146,
+      "supported_genes": 11250
+    },
+    {
+      "target": "PRMT2",
+      "cells": 207,
+      "batches": 116,
+      "supported_genes": 10829
+    },
+    {
+      "target": "PRMT6",
+      "cells": 209,
+      "batches": 123,
+      "supported_genes": 10698
+    },
+    {
+      "target": "PRMT7",
+      "cells": 161,
+      "batches": 107,
+      "supported_genes": 10472
+    },
+    {
+      "target": "PRNP",
+      "cells": 400,
+      "batches": 179,
+      "supported_genes": 11608
+    },
+    {
+      "target": "PSKH1",
+      "cells": 92,
+      "batches": 62,
+      "supported_genes": 9405
+    },
+    {
+      "target": "PSMB9",
+      "cells": 400,
+      "batches": 176,
+      "supported_genes": 11619
+    },
+    {
+      "target": "PTMS",
+      "cells": 400,
+      "batches": 185,
+      "supported_genes": 11570
+    },
+    {
+      "target": "PTOV1",
+      "cells": 102,
+      "batches": 76,
+      "supported_genes": 9561
+    },
+    {
+      "target": "PYCR1",
+      "cells": 152,
+      "batches": 103,
+      "supported_genes": 10196
+    },
+    {
+      "target": "R3HCC1L",
+      "cells": 65,
+      "batches": 50,
+      "supported_genes": 8881
+    },
+    {
+      "target": "RAB11FIP5",
+      "cells": 53,
+      "batches": 42,
+      "supported_genes": 8301
+    },
+    {
+      "target": "RAB5A",
+      "cells": 72,
+      "batches": 52,
+      "supported_genes": 8678
+    },
+    {
+      "target": "RABEP2",
+      "cells": 254,
+      "batches": 132,
+      "supported_genes": 10964
+    },
+    {
+      "target": "RBM18",
+      "cells": 107,
+      "batches": 73,
+      "supported_genes": 9498
+    },
+    {
+      "target": "RBM26",
+      "cells": 222,
+      "batches": 123,
+      "supported_genes": 10871
+    },
+    {
+      "target": "RBM4B",
+      "cells": 261,
+      "batches": 135,
+      "supported_genes": 11193
+    },
+    {
+      "target": "RBM5",
+      "cells": 213,
+      "batches": 118,
+      "supported_genes": 10842
+    },
+    {
+      "target": "RC3H2",
+      "cells": 197,
+      "batches": 122,
+      "supported_genes": 10690
+    },
+    {
+      "target": "REV1",
+      "cells": 71,
+      "batches": 55,
+      "supported_genes": 8796
+    },
+    {
+      "target": "RNF10",
+      "cells": 278,
+      "batches": 143,
+      "supported_genes": 11124
+    },
+    {
+      "target": "RNF141",
+      "cells": 400,
+      "batches": 196,
+      "supported_genes": 11518
+    },
+    {
+      "target": "RNF2",
+      "cells": 256,
+      "batches": 134,
+      "supported_genes": 11068
+    },
+    {
+      "target": "RSRC1",
+      "cells": 242,
+      "batches": 127,
+      "supported_genes": 11069
+    },
+    {
+      "target": "S100A11",
+      "cells": 143,
+      "batches": 87,
+      "supported_genes": 10265
+    },
+    {
+      "target": "SAP30L",
+      "cells": 203,
+      "batches": 115,
+      "supported_genes": 10747
+    },
+    {
+      "target": "SEMA4F",
+      "cells": 265,
+      "batches": 133,
+      "supported_genes": 11178
+    },
+    {
+      "target": "SFXN4",
+      "cells": 400,
+      "batches": 191,
+      "supported_genes": 11605
+    },
+    {
+      "target": "SH2D3A",
+      "cells": 390,
+      "batches": 172,
+      "supported_genes": 11606
+    },
+    {
+      "target": "SHPRH",
+      "cells": 71,
+      "batches": 57,
+      "supported_genes": 9648
+    },
+    {
+      "target": "SIN3B",
+      "cells": 44,
+      "batches": 34,
+      "supported_genes": 8477
+    },
+    {
+      "target": "SLC25A13",
+      "cells": 322,
+      "batches": 148,
+      "supported_genes": 11372
+    },
+    {
+      "target": "SLC39A1",
+      "cells": 367,
+      "batches": 162,
+      "supported_genes": 11497
+    },
+    {
+      "target": "SLC44A1",
+      "cells": 232,
+      "batches": 131,
+      "supported_genes": 11087
+    },
+    {
+      "target": "SLIRP",
+      "cells": 113,
+      "batches": 81,
+      "supported_genes": 9754
+    },
+    {
+      "target": "SMARCA5",
+      "cells": 395,
+      "batches": 167,
+      "supported_genes": 11635
+    },
+    {
+      "target": "SMARCC2",
+      "cells": 256,
+      "batches": 131,
+      "supported_genes": 11103
+    },
+    {
+      "target": "SMYD2",
+      "cells": 153,
+      "batches": 93,
+      "supported_genes": 10305
+    },
+    {
+      "target": "SND1",
+      "cells": 187,
+      "batches": 120,
+      "supported_genes": 10597
+    },
+    {
+      "target": "SNN",
+      "cells": 113,
+      "batches": 73,
+      "supported_genes": 9729
+    },
+    {
+      "target": "SNRK",
+      "cells": 159,
+      "batches": 103,
+      "supported_genes": 10498
+    },
+    {
+      "target": "SNX4",
+      "cells": 168,
+      "batches": 98,
+      "supported_genes": 10555
+    },
+    {
+      "target": "SOCS5",
+      "cells": 329,
+      "batches": 148,
+      "supported_genes": 11400
+    },
+    {
+      "target": "SRSF5",
+      "cells": 169,
+      "batches": 104,
+      "supported_genes": 10628
+    },
+    {
+      "target": "SSR4",
+      "cells": 259,
+      "batches": 138,
+      "supported_genes": 11107
+    },
+    {
+      "target": "STAT6",
+      "cells": 313,
+      "batches": 162,
+      "supported_genes": 11253
+    },
+    {
+      "target": "STK3",
+      "cells": 80,
+      "batches": 59,
+      "supported_genes": 9184
+    },
+    {
+      "target": "SUPT7L",
+      "cells": 141,
+      "batches": 93,
+      "supported_genes": 10193
+    },
+    {
+      "target": "SYVN1",
+      "cells": 400,
+      "batches": 199,
+      "supported_genes": 11619
+    },
+    {
+      "target": "TAF15",
+      "cells": 43,
+      "batches": 33,
+      "supported_genes": 6638
+    },
+    {
+      "target": "TAF4",
+      "cells": 323,
+      "batches": 151,
+      "supported_genes": 11268
+    },
+    {
+      "target": "TARBP2",
+      "cells": 297,
+      "batches": 150,
+      "supported_genes": 11221
+    },
+    {
+      "target": "TBC1D13",
+      "cells": 59,
+      "batches": 46,
+      "supported_genes": 8510
+    },
+    {
+      "target": "TBC1D19",
+      "cells": 293,
+      "batches": 144,
+      "supported_genes": 11298
+    },
+    {
+      "target": "TBCK",
+      "cells": 292,
+      "batches": 150,
+      "supported_genes": 11271
+    },
+    {
+      "target": "TDRD7",
+      "cells": 271,
+      "batches": 136,
+      "supported_genes": 11147
+    },
+    {
+      "target": "TEAD4",
+      "cells": 202,
+      "batches": 108,
+      "supported_genes": 10762
+    },
+    {
+      "target": "TESK2",
+      "cells": 148,
+      "batches": 96,
+      "supported_genes": 10166
+    },
+    {
+      "target": "TEX2",
+      "cells": 380,
+      "batches": 160,
+      "supported_genes": 11590
+    },
+    {
+      "target": "TFCP2",
+      "cells": 286,
+      "batches": 138,
+      "supported_genes": 11258
+    },
+    {
+      "target": "THAP3",
+      "cells": 236,
+      "batches": 122,
+      "supported_genes": 11007
+    },
+    {
+      "target": "THAP7",
+      "cells": 367,
+      "batches": 167,
+      "supported_genes": 11454
+    },
+    {
+      "target": "TIMM17B",
+      "cells": 276,
+      "batches": 135,
+      "supported_genes": 11205
+    },
+    {
+      "target": "TIMM50",
+      "cells": 380,
+      "batches": 157,
+      "supported_genes": 11502
+    },
+    {
+      "target": "TMCO6",
+      "cells": 150,
+      "batches": 95,
+      "supported_genes": 10317
+    },
+    {
+      "target": "TMED3",
+      "cells": 86,
+      "batches": 56,
+      "supported_genes": 9716
+    },
+    {
+      "target": "TMEM104",
+      "cells": 318,
+      "batches": 159,
+      "supported_genes": 11408
+    },
+    {
+      "target": "TMEM186",
+      "cells": 224,
+      "batches": 124,
+      "supported_genes": 11027
+    },
+    {
+      "target": "TMEM209",
+      "cells": 108,
+      "batches": 76,
+      "supported_genes": 9644
+    },
+    {
+      "target": "TMEM41B",
+      "cells": 163,
+      "batches": 102,
+      "supported_genes": 10517
+    },
+    {
+      "target": "TMEM79",
+      "cells": 208,
+      "batches": 114,
+      "supported_genes": 10836
+    },
+    {
+      "target": "TMF1",
+      "cells": 400,
+      "batches": 175,
+      "supported_genes": 11598
+    },
+    {
+      "target": "TRAPPC6A",
+      "cells": 394,
+      "batches": 170,
+      "supported_genes": 11523
+    },
+    {
+      "target": "TRIB3",
+      "cells": 123,
+      "batches": 81,
+      "supported_genes": 9997
+    },
+    {
+      "target": "TRIM35",
+      "cells": 253,
+      "batches": 136,
+      "supported_genes": 11079
+    },
+    {
+      "target": "TRIP4",
+      "cells": 370,
+      "batches": 166,
+      "supported_genes": 11526
+    },
+    {
+      "target": "TRMT1",
+      "cells": 113,
+      "batches": 80,
+      "supported_genes": 9878
+    },
+    {
+      "target": "TRPC4AP",
+      "cells": 282,
+      "batches": 142,
+      "supported_genes": 11229
+    },
+    {
+      "target": "TTBK2",
+      "cells": 139,
+      "batches": 85,
+      "supported_genes": 10254
+    },
+    {
+      "target": "TWF2",
+      "cells": 88,
+      "batches": 74,
+      "supported_genes": 9011
+    },
+    {
+      "target": "TXNDC16",
+      "cells": 258,
+      "batches": 143,
+      "supported_genes": 11114
+    },
+    {
+      "target": "UPF3B",
+      "cells": 247,
+      "batches": 133,
+      "supported_genes": 11009
+    },
+    {
+      "target": "USP28",
+      "cells": 192,
+      "batches": 120,
+      "supported_genes": 10615
+    },
+    {
+      "target": "VAPB",
+      "cells": 41,
+      "batches": 36,
+      "supported_genes": 7857
+    },
+    {
+      "target": "VIM",
+      "cells": 57,
+      "batches": 47,
+      "supported_genes": 8280
+    },
+    {
+      "target": "WBP4",
+      "cells": 88,
+      "batches": 68,
+      "supported_genes": 9501
+    },
+    {
+      "target": "YIPF6",
+      "cells": 250,
+      "batches": 140,
+      "supported_genes": 11045
+    },
+    {
+      "target": "ZBTB34",
+      "cells": 400,
+      "batches": 173,
+      "supported_genes": 11617
+    },
+    {
+      "target": "ZBTB41",
+      "cells": 251,
+      "batches": 128,
+      "supported_genes": 11005
+    },
+    {
+      "target": "ZBTB48",
+      "cells": 117,
+      "batches": 78,
+      "supported_genes": 9738
+    },
+    {
+      "target": "ZC2HC1A",
+      "cells": 399,
+      "batches": 177,
+      "supported_genes": 11634
+    },
+    {
+      "target": "ZC3HAV1",
+      "cells": 184,
+      "batches": 114,
+      "supported_genes": 10535
+    },
+    {
+      "target": "ZDHHC12",
+      "cells": 184,
+      "batches": 116,
+      "supported_genes": 10786
+    },
+    {
+      "target": "ZDHHC4",
+      "cells": 400,
+      "batches": 166,
+      "supported_genes": 11548
+    },
+    {
+      "target": "ZFP62",
+      "cells": 351,
+      "batches": 163,
+      "supported_genes": 11348
+    },
+    {
+      "target": "ZHX3",
+      "cells": 110,
+      "batches": 78,
+      "supported_genes": 9740
+    },
+    {
+      "target": "ZKSCAN1",
+      "cells": 179,
+      "batches": 104,
+      "supported_genes": 10653
+    },
+    {
+      "target": "ZKSCAN2",
+      "cells": 109,
+      "batches": 76,
+      "supported_genes": 9804
+    },
+    {
+      "target": "ZKSCAN3",
+      "cells": 347,
+      "batches": 154,
+      "supported_genes": 11490
+    },
+    {
+      "target": "ZNF16",
+      "cells": 168,
+      "batches": 106,
+      "supported_genes": 10379
+    },
+    {
+      "target": "ZNF174",
+      "cells": 178,
+      "batches": 114,
+      "supported_genes": 10627
+    },
+    {
+      "target": "ZNF22",
+      "cells": 185,
+      "batches": 109,
+      "supported_genes": 10750
+    },
+    {
+      "target": "ZNF25",
+      "cells": 283,
+      "batches": 139,
+      "supported_genes": 11216
+    },
+    {
+      "target": "ZNF251",
+      "cells": 128,
+      "batches": 91,
+      "supported_genes": 10002
+    },
+    {
+      "target": "ZNF280C",
+      "cells": 336,
+      "batches": 166,
+      "supported_genes": 11349
+    },
+    {
+      "target": "ZNF282",
+      "cells": 244,
+      "batches": 132,
+      "supported_genes": 10866
+    },
+    {
+      "target": "ZNF32",
+      "cells": 79,
+      "batches": 55,
+      "supported_genes": 9340
+    },
+    {
+      "target": "ZNF324",
+      "cells": 232,
+      "batches": 124,
+      "supported_genes": 11114
+    },
+    {
+      "target": "ZNF397",
+      "cells": 125,
+      "batches": 91,
+      "supported_genes": 10130
+    },
+    {
+      "target": "ZNF410",
+      "cells": 351,
+      "batches": 162,
+      "supported_genes": 11458
+    },
+    {
+      "target": "ZNF444",
+      "cells": 152,
+      "batches": 108,
+      "supported_genes": 10373
+    },
+    {
+      "target": "ZNF462",
+      "cells": 241,
+      "batches": 137,
+      "supported_genes": 11033
+    },
+    {
+      "target": "ZNF496",
+      "cells": 97,
+      "batches": 66,
+      "supported_genes": 9924
+    },
+    {
+      "target": "ZNF507",
+      "cells": 227,
+      "batches": 123,
+      "supported_genes": 10944
+    },
+    {
+      "target": "ZNF514",
+      "cells": 394,
+      "batches": 171,
+      "supported_genes": 11551
+    },
+    {
+      "target": "ZNF526",
+      "cells": 252,
+      "batches": 145,
+      "supported_genes": 11043
+    },
+    {
+      "target": "ZNF530",
+      "cells": 338,
+      "batches": 154,
+      "supported_genes": 11461
+    },
+    {
+      "target": "ZNF543",
+      "cells": 108,
+      "batches": 80,
+      "supported_genes": 9804
+    },
+    {
+      "target": "ZNF627",
+      "cells": 400,
+      "batches": 188,
+      "supported_genes": 11614
+    },
+    {
+      "target": "ZNF628",
+      "cells": 80,
+      "batches": 59,
+      "supported_genes": 9207
+    },
+    {
+      "target": "ZNF641",
+      "cells": 150,
+      "batches": 94,
+      "supported_genes": 10165
+    },
+    {
+      "target": "ZNF670",
+      "cells": 180,
+      "batches": 110,
+      "supported_genes": 10494
+    },
+    {
+      "target": "ZNF714",
+      "cells": 201,
+      "batches": 126,
+      "supported_genes": 10827
+    },
+    {
+      "target": "ZNF740",
+      "cells": 120,
+      "batches": 82,
+      "supported_genes": 9988
+    },
+    {
+      "target": "ZNF768",
+      "cells": 388,
+      "batches": 172,
+      "supported_genes": 11518
+    },
+    {
+      "target": "ZNF777",
+      "cells": 400,
+      "batches": 178,
+      "supported_genes": 11565
+    },
+    {
+      "target": "ZNF783",
+      "cells": 299,
+      "batches": 138,
+      "supported_genes": 11258
+    },
+    {
+      "target": "ZNF784",
+      "cells": 92,
+      "batches": 63,
+      "supported_genes": 9253
+    },
+    {
+      "target": "ZNF786",
+      "cells": 99,
+      "batches": 69,
+      "supported_genes": 9567
+    },
+    {
+      "target": "ZNF821",
+      "cells": 225,
+      "batches": 128,
+      "supported_genes": 10997
+    },
+    {
+      "target": "ZRANB3",
+      "cells": 45,
+      "batches": 34,
+      "supported_genes": 7708
+    }
+  ],
+  "source_record": {
+    "revision": "598aa5442a4ee9a8f1a383a843ab5ce142904d04",
+    "repo": "slaf-project/X-Atlas-Orion",
+    "cap": 400,
+    "cells": 70082,
+    "targets": 300,
+    "batches": 223,
+    "measured_genes": 18106,
+    "counts_sha256": "1c156934d237595a745848dcbf70d282fe6b317e420813d7e07f79a2327832c5",
+    "selected_sha256": "b6febac28e4a1044d3b6a75521be96a84e6c320f3ba0e595e0570da335a000e8",
+    "genes_sha256": "b1785463d1f659af8d63cdb07fa5fa5872702670da7353e6adc04a6484f496c9",
+    "source_genes_sha256": "57b4fbe4c5dc9db270e3bb391e9b94315e156d5e4442da4f8e8adfc42b0f7c83",
+    "script_sha256": "71dc3b83feace8cbfcc3dcb71b95b95f6d1fd58db87be2ab55fbabd5603010c8",
+    "offset_audit_sha256": "21e87a3034dc5b52fb937e36039c8bda51f021ca83035875691f24d572ea437b",
+    "selection_record": {
+      "revision": "598aa5442a4ee9a8f1a383a843ab5ce142904d04",
+      "repo": "slaf-project/X-Atlas-Orion",
+      "cap": 400,
+      "controls_per_batch": 32,
+      "selected_sha256": "b6febac28e4a1044d3b6a75521be96a84e6c320f3ba0e595e0570da335a000e8",
+      "available_passing_cells": 285127,
+      "selected_cells": 70082,
+      "batches": 223,
+      "targets": 300,
+      "partition_by_batch": {
+        "HEK293T_Batch195": 0,
+        "HEK293T_Batch99": 1,
+        "HEK293T_Batch86": 0,
+        "HEK293T_Batch160": 1,
+        "HEK293T_Batch201": 0,
+        "HEK293T_Batch28": 1,
+        "HEK293T_Batch181": 0,
+        "HEK293T_Batch220": 1,
+        "HEK293T_Batch37": 0,
+        "HEK293T_Batch75": 1,
+        "HEK293T_Batch72": 0,
+        "HEK293T_Batch52": 1,
+        "HEK293T_Batch107": 0,
+        "HEK293T_Batch4": 1,
+        "HEK293T_Batch209": 0,
+        "HEK293T_Batch81": 1,
+        "HEK293T_Batch85": 0,
+        "HEK293T_Batch131": 1,
+        "HEK293T_Batch45": 0,
+        "HEK293T_Batch154": 1,
+        "HEK293T_Batch130": 0,
+        "HEK293T_Batch108": 1,
+        "HEK293T_Batch178": 0,
+        "HEK293T_Batch98": 1,
+        "HEK293T_Batch117": 0,
+        "HEK293T_Batch23": 1,
+        "HEK293T_Batch137": 0,
+        "HEK293T_Batch95": 1,
+        "HEK293T_Batch8": 0,
+        "HEK293T_Batch140": 1,
+        "HEK293T_Batch217": 0,
+        "HEK293T_Batch218": 1,
+        "HEK293T_Batch126": 0,
+        "HEK293T_Batch210": 1,
+        "HEK293T_Batch54": 0,
+        "HEK293T_Batch7": 1,
+        "HEK293T_Batch179": 0,
+        "HEK293T_Batch141": 1,
+        "HEK293T_Batch200": 0,
+        "HEK293T_Batch136": 1,
+        "HEK293T_Batch182": 0,
+        "HEK293T_Batch180": 1,
+        "HEK293T_Batch109": 0,
+        "HEK293T_Batch40": 1,
+        "HEK293T_Batch163": 0,
+        "HEK293T_Batch3": 1,
+        "HEK293T_Batch142": 0,
+        "HEK293T_Batch174": 1,
+        "HEK293T_Batch125": 0,
+        "HEK293T_Batch168": 1,
+        "HEK293T_Batch133": 0,
+        "HEK293T_Batch47": 1,
+        "HEK293T_Batch24": 0,
+        "HEK293T_Batch147": 1,
+        "HEK293T_Batch18": 0,
+        "HEK293T_Batch9": 1,
+        "HEK293T_Batch44": 0,
+        "HEK293T_Batch123": 1,
+        "HEK293T_Batch94": 0,
+        "HEK293T_Batch60": 1,
+        "HEK293T_Batch25": 0,
+        "HEK293T_Batch169": 1,
+        "HEK293T_Batch132": 0,
+        "HEK293T_Batch103": 1,
+        "HEK293T_Batch214": 0,
+        "HEK293T_Batch78": 1,
+        "HEK293T_Batch29": 0,
+        "HEK293T_Batch162": 1,
+        "HEK293T_Batch30": 0,
+        "HEK293T_Batch120": 1,
+        "HEK293T_Batch64": 0,
+        "HEK293T_Batch191": 1,
+        "HEK293T_Batch144": 0,
+        "HEK293T_Batch83": 1,
+        "HEK293T_Batch223": 0,
+        "HEK293T_Batch145": 1,
+        "HEK293T_Batch84": 0,
+        "HEK293T_Batch161": 1,
+        "HEK293T_Batch175": 0,
+        "HEK293T_Batch62": 1,
+        "HEK293T_Batch22": 0,
+        "HEK293T_Batch12": 1,
+        "HEK293T_Batch43": 0,
+        "HEK293T_Batch93": 1,
+        "HEK293T_Batch31": 0,
+        "HEK293T_Batch173": 1,
+        "HEK293T_Batch172": 0,
+        "HEK293T_Batch68": 1,
+        "HEK293T_Batch10": 0,
+        "HEK293T_Batch58": 1,
+        "HEK293T_Batch119": 0,
+        "HEK293T_Batch41": 1,
+        "HEK293T_Batch48": 0,
+        "HEK293T_Batch79": 1,
+        "HEK293T_Batch203": 0,
+        "HEK293T_Batch90": 1,
+        "HEK293T_Batch146": 0,
+        "HEK293T_Batch50": 1,
+        "HEK293T_Batch202": 0,
+        "HEK293T_Batch152": 1,
+        "HEK293T_Batch34": 0,
+        "HEK293T_Batch164": 1,
+        "HEK293T_Batch156": 0,
+        "HEK293T_Batch15": 1,
+        "HEK293T_Batch177": 0,
+        "HEK293T_Batch204": 1,
+        "HEK293T_Batch170": 0,
+        "HEK293T_Batch33": 1,
+        "HEK293T_Batch49": 0,
+        "HEK293T_Batch57": 1,
+        "HEK293T_Batch213": 0,
+        "HEK293T_Batch128": 1,
+        "HEK293T_Batch77": 0,
+        "HEK293T_Batch36": 1,
+        "HEK293T_Batch55": 0,
+        "HEK293T_Batch32": 1,
+        "HEK293T_Batch122": 0,
+        "HEK293T_Batch187": 1,
+        "HEK293T_Batch13": 0,
+        "HEK293T_Batch20": 1,
+        "HEK293T_Batch96": 0,
+        "HEK293T_Batch113": 1,
+        "HEK293T_Batch188": 0,
+        "HEK293T_Batch111": 1,
+        "HEK293T_Batch127": 0,
+        "HEK293T_Batch11": 1,
+        "HEK293T_Batch61": 0,
+        "HEK293T_Batch155": 1,
+        "HEK293T_Batch221": 0,
+        "HEK293T_Batch65": 1,
+        "HEK293T_Batch186": 0,
+        "HEK293T_Batch106": 1,
+        "HEK293T_Batch211": 0,
+        "HEK293T_Batch190": 1,
+        "HEK293T_Batch143": 0,
+        "HEK293T_Batch215": 1,
+        "HEK293T_Batch198": 0,
+        "HEK293T_Batch112": 1,
+        "HEK293T_Batch199": 0,
+        "HEK293T_Batch206": 1,
+        "HEK293T_Batch166": 0,
+        "HEK293T_Batch151": 1,
+        "HEK293T_Batch87": 0,
+        "HEK293T_Batch135": 1,
+        "HEK293T_Batch56": 0,
+        "HEK293T_Batch197": 1,
+        "HEK293T_Batch150": 0,
+        "HEK293T_Batch89": 1,
+        "HEK293T_Batch157": 0,
+        "HEK293T_Batch118": 1,
+        "HEK293T_Batch138": 0,
+        "HEK293T_Batch149": 1,
+        "HEK293T_Batch16": 0,
+        "HEK293T_Batch91": 1,
+        "HEK293T_Batch5": 0,
+        "HEK293T_Batch171": 1,
+        "HEK293T_Batch219": 0,
+        "HEK293T_Batch183": 1,
+        "HEK293T_Batch110": 0,
+        "HEK293T_Batch6": 1,
+        "HEK293T_Batch116": 0,
+        "HEK293T_Batch70": 1,
+        "HEK293T_Batch121": 0,
+        "HEK293T_Batch222": 1,
+        "HEK293T_Batch35": 0,
+        "HEK293T_Batch74": 1,
+        "HEK293T_Batch73": 0,
+        "HEK293T_Batch167": 1,
+        "HEK293T_Batch76": 0,
+        "HEK293T_Batch66": 1,
+        "HEK293T_Batch92": 0,
+        "HEK293T_Batch1": 1,
+        "HEK293T_Batch82": 0,
+        "HEK293T_Batch205": 1,
+        "HEK293T_Batch184": 0,
+        "HEK293T_Batch153": 1,
+        "HEK293T_Batch27": 0,
+        "HEK293T_Batch208": 1,
+        "HEK293T_Batch14": 0,
+        "HEK293T_Batch100": 1,
+        "HEK293T_Batch212": 0,
+        "HEK293T_Batch19": 1,
+        "HEK293T_Batch17": 0,
+        "HEK293T_Batch69": 1,
+        "HEK293T_Batch67": 0,
+        "HEK293T_Batch46": 1,
+        "HEK293T_Batch51": 0,
+        "HEK293T_Batch2": 1,
+        "HEK293T_Batch189": 0,
+        "HEK293T_Batch59": 1,
+        "HEK293T_Batch196": 0,
+        "HEK293T_Batch139": 1,
+        "HEK293T_Batch102": 0,
+        "HEK293T_Batch39": 1,
+        "HEK293T_Batch148": 0,
+        "HEK293T_Batch165": 1,
+        "HEK293T_Batch192": 0,
+        "HEK293T_Batch97": 1,
+        "HEK293T_Batch129": 0,
+        "HEK293T_Batch80": 1,
+        "HEK293T_Batch114": 0,
+        "HEK293T_Batch53": 1,
+        "HEK293T_Batch115": 0,
+        "HEK293T_Batch216": 1,
+        "HEK293T_Batch88": 0,
+        "HEK293T_Batch158": 1,
+        "HEK293T_Batch26": 0,
+        "HEK293T_Batch159": 1,
+        "HEK293T_Batch193": 0,
+        "HEK293T_Batch185": 1,
+        "HEK293T_Batch134": 0,
+        "HEK293T_Batch194": 1,
+        "HEK293T_Batch176": 0,
+        "HEK293T_Batch207": 1,
+        "HEK293T_Batch104": 0,
+        "HEK293T_Batch101": 1,
+        "HEK293T_Batch21": 0,
+        "HEK293T_Batch124": 1,
+        "HEK293T_Batch63": 0,
+        "HEK293T_Batch38": 1,
+        "HEK293T_Batch42": 0,
+        "HEK293T_Batch105": 1,
+        "HEK293T_Batch71": 0
+      },
+      "selection": "Random within batch; round-robin across batches; cap/2 cells per target per disjoint batch partition; controls maximum 32 per batch.",
+      "expression_offsets_repaired": true,
+      "original_selected_sha256": "5e1d6e188f4a746299eebab2fe5c17c583d8a211984b56df21123f3ec0e8421a",
+      "missing_selected_cells": 0,
+      "expression_audit_sha256": "21e87a3034dc5b52fb937e36039c8bda51f021ca83035875691f24d572ea437b",
+      "offset_repair": "Exclude cells absent from expression fragments; subtract complete missing-cell expression record counts from later global offsets; verify 128 retained cell starts across full axis.",
+      "reused_verified_chunks": 0
+    },
+    "canonical_gene_metadata_sha256": "33900a0dbaeafb84601c7c8ba7c6642c440774fc3f49613dab11cf1f2bf0fdbf",
+    "canonical_gene_mapping": "Original gene token IDs mapped to original symbols; duplicate source symbols summed on challenge axis, never dropped because of converted suffixes.",
+    "normalization": "Full-source library verified before gene-axis projection; missing genes remain masked.",
+    "workers": 4,
+    "lance_io_threads": 8,
+    "scope": "Stratified target and control sample across full release batches, not every raw cell."
+  },
+  "plan_sha256": "06809e9b3c9d6a37718a0722cd9b74a1144731d6c9831569a081ab77aa509df7"
+}

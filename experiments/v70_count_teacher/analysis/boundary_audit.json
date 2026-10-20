@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "sources": [
+    {
+      "source": "H1",
+      "sha256": "2201659e527d59430f7495af715e810a233525c1578c2a99c5e14692e1fa9132",
+      "targets": 25,
+      "supported_coordinates": 104830
+    },
+    {
+      "source": "HCT116",
+      "sha256": "3203668eebdf30c9f97a0ab38d862349baba654eef55fcb8ba21eabdd8ed8f36",
+      "targets": 275,
+      "supported_coordinates": 16469
+    },
+    {
+      "source": "HEK293T",
+      "sha256": "c50e6d688c5b4fcf0806c8b274b2a1d49cbd90924aa26ab3f1f9fef081478200",
+      "targets": 287,
+      "supported_coordinates": 68324
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "sha256": "ed156fbabbd1f263baa7883fd72ed079bdabbbc9ae2afed8c5412a3049a27f6b",
+      "targets": 23,
+      "supported_coordinates": 81987
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "sha256": "9b2f793e43214bdd34cfda9fabbf286751873b031e9a448d40ea38ef8cdb8feb",
+      "targets": 34,
+      "supported_coordinates": 157184
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "sha256": "6b44b3f7faa25f3b3bc18a927e93070e190129a211ecd2664d1926a90e1f09e6",
+      "targets": 34,
+      "supported_coordinates": 160073
+    }
+  ],
+  "excluded_studies": [
+    "H1",
+    "Orion",
+    "CD4"
+  ],
+  "excluded_source_access_blocked": true,
+  "cyclic_shuffle_exact": true,
+  "recipient_outcomes_in_prediction_interface": false,
+  "script_sha256": "8285e7237adb07e31a76c3ed815d3baaba4da91f59a0afa73c2431db5d2370e9"
+}

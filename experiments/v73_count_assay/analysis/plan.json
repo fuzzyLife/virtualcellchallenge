@@ -1,0 +1,34 @@
+{
+  "version": 73,
+  "dependencies": {
+    "v73_count_assay.py": "62e78cbdfd338a3de9e6a4a22abf1e3314f6a3d503f18f142de3c309f73009f0",
+    "v72_batch_offset.py": "6ebe6ebab77e3f4ab616c6ce7eeda422ede6a9a83b86ac656846be9079372d00",
+    "v71_evidence_projection.py": "96e5eb6cdc17d9d9f5bccc8aa2e2001b700d089d7fb52b8abc80d24fbcc6f580",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "run_v70_counts.py": "929ad86dc1ecbed600bcdbb747133a6c4e9d70bdc23cd22124072f1ab804b601"
+  },
+  "sources": [
+    "H1",
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D1",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "arms": [
+    "raw25",
+    "assay25",
+    "assay_center25",
+    "assay_center50",
+    "assay_credible25"
+  ],
+  "hypothesis": "V72 restores source coverage but raw proportional transfer fails. Use a unit-response-centered log-normal prior on the count likelihood, then transfer source responses on the actual bulk log1p(50000*p) assay scale that motivated successful V63/V66. Retain raw-scale control and shuffled evidence.",
+  "estimator": "Same batch-matched expected count E, observed K, empirical overdispersion Fano and propagated NTC uncertainty. Optimize log response eta under quasi-Poisson(K;E*exp(eta))/Fano with Normal(0,(2*ln2)^2) prior; 20 bounded Newton steps. At K=E the posterior mode is exactly zero even with weak evidence. Curvature supplies working uncertainty; no exact Bayesian coverage claim. Source gene support and batch rules unchanged from V72.",
+  "assay": "Save matched baseline proportion E/sum(E) per source/target. Transform source LFC to delta log1p(50000*p), propagate variance by derivative, optionally subtract leave-one-target-out common response with >=20 other targets. Cap precision per study, shrink to zero, include between-study heterogeneity for uncertainty projection. Invert onto query BULK control proportions, apply fixed bounded quarter/half correction to V66, own zero; unchanged residual10 emitter.",
+  "selection": "Same first-three distinct cases/context and >=0.5% profile gain, no study >2% worse, genuine better than matched cyclic source shuffle. Development repeatedly reused. Lock selected arm before remaining cases. No failed-guard fallback.",
+  "confirmation": "Same unchanged paired count evaluator and broader >=30-cell diagnostic. Production requires generated-profile/worst-study/shuffle and broad gates. Other failures and unavailable metrics explicit; no hidden score forecast.",
+  "V72_result_sha256": "d71abec32173f61a5f5267278236bea18d712d033a021a86015a5c8193c99646",
+  "D3_opened": false,
+  "automatic_upload": false
+}

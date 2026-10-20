@@ -1,0 +1,24 @@
+{
+  "sha256": "5a1edb30c622685cf74e10ce4c87c0fb856afdc3dd3d437b18f311f128bb8ea0",
+  "excluded_study": "CD4",
+  "parent_sha256": "58f54e9d041894dc690cf1f09a5a6d3c72bc3a8606b57ead83a03ee5ba979b42",
+  "plan_sha256": "f286ebfc7f182e47c599964624e366590daa4a0050307b10dce84f60ff349f02",
+  "changes": {
+    "raw25": {
+      "changed_targets": 43,
+      "max_change": 0.18464899063110352
+    },
+    "center25": {
+      "changed_targets": 23,
+      "max_change": 0.1752866804599762
+    },
+    "center50": {
+      "changed_targets": 23,
+      "max_change": 0.3505733609199524
+    },
+    "credible25": {
+      "changed_targets": 43,
+      "max_change": 0.18047133088111877
+    }
+  }
+}

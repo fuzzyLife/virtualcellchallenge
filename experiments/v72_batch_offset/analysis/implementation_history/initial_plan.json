@@ -1,0 +1,33 @@
+{
+  "version": 72,
+  "dependencies": {
+    "v72_batch_offset.py": "d3de032693a5a9edf2e77cd0aad51a1284965717fa0c0851bf593027ff4938b2",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "v71_evidence_projection.py": "96e5eb6cdc17d9d9f5bccc8aa2e2001b700d089d7fb52b8abc80d24fbcc6f580",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "run_v70_counts.py": "929ad86dc1ecbed600bcdbb747133a6c4e9d70bdc23cd22124072f1ab804b601"
+  },
+  "sources": [
+    "H1",
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D1",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "arms": [
+    "raw25",
+    "center25",
+    "center50",
+    "credible25"
+  ],
+  "hypothesis": "V70/V71 source batch censoring left most Orion targets with no response evidence. Aggregate all eligible treated cells using matched per-batch control-rate/depth offsets before estimating response and uncertainty; do not require ten treated cells in each batch.",
+  "estimator": "Control Gamma/quasi-Poisson moments per sample with >=20 NTCs. Expected treatment molecules E=sum_b library_exposure_b*control_proportion_b. Aggregate counts K across every matched treatment batch with >=1 cell, requiring >=40 total cells. Estimate overdispersion around depth*control_proportion_b*(K/E). Posterior log response digamma(0.5+K/Fano)-log(E/Fano), variance trigamma plus propagated control-rate variance. Gene support requires >=20 observed and expected molecules. Fano clipped 1..1000; own coordinates excluded. Working approximate count likelihood, not exact independent-cell NB inference.",
+  "selection": "Same fixed first-three unique public cases/context; >=0.5% equal-study desired-profile error gain, no study >2% worse, better than cyclic label shuffle. Development is reused; lock before remaining cases. No failed-gate fallback.",
+  "confirmation": "Same paired count evaluator and broader diagnostic as V70/V71. Production requires generated-profile, worst-study, shuffle and broad gates; report all other failures and unavailable values. No change of selected arm after confirmation.",
+  "scope": "New estimator after failed V70/V71 development. Same public biology; no independent or hidden-test claim. D3 unopened.",
+  "V70_result_sha256": "4420b311a0aa14fd6d98edbaa1d887857a8e7c9ba65d36e8b0835fa190bd9549",
+  "V71_result_sha256": "ca44adbd379cbc65a8fe1640046bacc36f7ca997532e0ca27654def04fcb3024",
+  "D3_opened": false,
+  "automatic_upload": false
+}

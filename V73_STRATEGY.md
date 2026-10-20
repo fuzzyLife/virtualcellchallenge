@@ -1,0 +1,11 @@
+# V73: count likelihood calibrated at zero response, transferred in bulk assay space
+
+V70–V72 failed development and produced no upload. V72 corrected a source-coverage defect, but its proportional responses still did not improve prediction. V73 combines that corrected aggregation with two explicit hypotheses.
+
+First, use a prior centered on zero log response in the quasi-Poisson count likelihood, with library/batch offsets and observed overdispersion. Twenty bounded Newton steps give a posterior mode and curvature uncertainty. Matched observed/expected counts imply exactly zero estimated response even at low information/high dispersion. Tests also recover known gains and verify weak evidence shrinks toward zero. This is a working likelihood approximation and interval model, not exact Bayesian coverage or a fitted NB distribution.
+
+Second, preserve the source assay change in log1p(50000*bulk proportion), propagate its uncertainty, optionally subtract leave-one-target-out common programs, and invert onto the recipient's bulk control proportions. Per-target matched source control baselines are retained. This follows the representation lesson from V63/V66; it is not a claim that cell-mean CPM and bulk proportions are interchangeable.
+
+Five fixed arms compare raw25, assay25, centered assay quarter/half strength and an assay-interval projection. Corrections remain bounded and own knockdown is applied once by the unchanged V66 residual10 emitter. Source studies are excluded wholesale for public queries. Development is repeatedly reused and exploratory; remaining distinct confirmation cases stay unopened until an eligible arm is selected. The >=0.5% profile-gain, worst-study and shuffled-evidence gates are unchanged. Generated-count confirmation and the fixed broad >=30-cell diagnostic must support production; missing DE values stay missing. D3 remains unopened. No automatic upload or push.
+
+Use the pinned V24 science environment. Run `test_v73_count_assay.py`, `run_v73_teacher.py`, then the confirmation/count/broad/audit scripts only for a locked eligible candidate. Plans, source/prediction hashes, selections and compact evidence live in `experiments/v73_count_assay/analysis`; code remains in the root. No private improvement is guaranteed.

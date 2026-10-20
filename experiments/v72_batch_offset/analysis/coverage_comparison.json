@@ -1,0 +1,63 @@
+{
+  "rows": [
+    {
+      "source": "CD4_Rest_D1",
+      "nominal_targets": 23,
+      "V70_supported_targets": 23,
+      "V72_supported_targets": 23,
+      "targets_with_new_evidence": 0
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "nominal_targets": 34,
+      "V70_supported_targets": 34,
+      "V72_supported_targets": 34,
+      "targets_with_new_evidence": 0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "nominal_targets": 34,
+      "V70_supported_targets": 34,
+      "V72_supported_targets": 34,
+      "targets_with_new_evidence": 0
+    },
+    {
+      "source": "H1",
+      "nominal_targets": 25,
+      "V70_supported_targets": 12,
+      "V72_supported_targets": 25,
+      "targets_with_new_evidence": 13
+    },
+    {
+      "source": "HCT116",
+      "nominal_targets": 275,
+      "V70_supported_targets": 13,
+      "V72_supported_targets": 275,
+      "targets_with_new_evidence": 262
+    },
+    {
+      "source": "HEK293T",
+      "nominal_targets": 287,
+      "V70_supported_targets": 23,
+      "V72_supported_targets": 287,
+      "targets_with_new_evidence": 264
+    }
+  ],
+  "inputs_sha256": {
+    "experiments/v70_count_teacher/analysis/sources/CD4_Rest_D1.json": "8ec8713af374a5d4e3065a9f2c125608e1e1790598408da2e810e4dc1ace28fb",
+    "experiments/v72_batch_offset/analysis/sources/CD4_Rest_D1.json": "45a7f7dca05af88c61cd58b59d00ecb67c77ddd9783e9fa574f06a7106cd2b7c",
+    "experiments/v70_count_teacher/analysis/sources/CD4_Rest_D2.json": "616c125eae18bfd6c581c90280050f9b392d061ebe8a9221831013fba32fb720",
+    "experiments/v72_batch_offset/analysis/sources/CD4_Rest_D2.json": "188017ecfa49dd54f86a8c7fcf6ec5ace700f94d7263081c6072b3362873104a",
+    "experiments/v70_count_teacher/analysis/sources/CD4_Stim48_D2.json": "f42e8539e1d3aaf604afff6f53e62ba5c41f678cdbaef1254b29c6f44a2c4439",
+    "experiments/v72_batch_offset/analysis/sources/CD4_Stim48_D2.json": "f35bb79845c6ec2b60fec134fb232b39814e95aefcb3a1762795e2618b76a9f7",
+    "experiments/v70_count_teacher/analysis/sources/H1.json": "d0ce2d41b205320caec596b0f6c68d8b54e8ee955d9ab6ebc80d792464e4f113",
+    "experiments/v72_batch_offset/analysis/sources/H1.json": "75aa2e837f17ee65dc4538cc4e3eb99ffd6378462e77a6736660fbc12ac33f8e",
+    "experiments/v70_count_teacher/analysis/sources/HCT116.json": "f632a0bafa3737c7c4d5948edc6e2791d3ca5318a4ba1b0a3e6e0bed8366211a",
+    "experiments/v72_batch_offset/analysis/sources/HCT116.json": "e9895fe33f620fe1fa8cb57a054fb10ee2c90af75ff9eb9e6af55cd9f7b6297b",
+    "experiments/v70_count_teacher/analysis/sources/HEK293T.json": "bed17547038f8f8970536b778b4520d4b358e2d4a8713db9cbb219644e32ab8e",
+    "experiments/v72_batch_offset/analysis/sources/HEK293T.json": "1b8a27ae5337c38650e45d3dbf73df699193718e006f40bd8218e7c927837a9a"
+  },
+  "script_sha256": "29cd6120a688da0496e2d8ae54d97196ddcbd776883e935098ebeb8a8991582e",
+  "same_treated_cell_counts": true,
+  "explanation": "Pooling matched batch offsets before effect estimation removes the >=10-cells-per-batch censor. Eligibility still requires >=40 total matched treated cells."
+}

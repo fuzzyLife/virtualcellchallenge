@@ -1,0 +1,227 @@
+{
+  "sha256": "6b44b3f7faa25f3b3bc18a927e93070e190129a211ecd2664d1926a90e1f09e6",
+  "source": "CD4_Stim48_D2",
+  "study": "CD4",
+  "targets": [
+    {
+      "target": "AKAP1",
+      "cells": 278,
+      "batches": 19,
+      "supported_genes": 3429
+    },
+    {
+      "target": "ALG12",
+      "cells": 278,
+      "batches": 17,
+      "supported_genes": 3746
+    },
+    {
+      "target": "CCDC112",
+      "cells": 328,
+      "batches": 21,
+      "supported_genes": 4485
+    },
+    {
+      "target": "CHKB",
+      "cells": 315,
+      "batches": 20,
+      "supported_genes": 3899
+    },
+    {
+      "target": "DEK",
+      "cells": 341,
+      "batches": 22,
+      "supported_genes": 3979
+    },
+    {
+      "target": "DNTTIP1",
+      "cells": 699,
+      "batches": 24,
+      "supported_genes": 6007
+    },
+    {
+      "target": "DVL3",
+      "cells": 287,
+      "batches": 19,
+      "supported_genes": 3701
+    },
+    {
+      "target": "FXYD5",
+      "cells": 687,
+      "batches": 24,
+      "supported_genes": 5956
+    },
+    {
+      "target": "MED13",
+      "cells": 609,
+      "batches": 24,
+      "supported_genes": 5966
+    },
+    {
+      "target": "MED15",
+      "cells": 322,
+      "batches": 21,
+      "supported_genes": 4057
+    },
+    {
+      "target": "MSI2",
+      "cells": 489,
+      "batches": 24,
+      "supported_genes": 5909
+    },
+    {
+      "target": "NABP2",
+      "cells": 319,
+      "batches": 19,
+      "supported_genes": 4468
+    },
+    {
+      "target": "NAIF1",
+      "cells": 262,
+      "batches": 18,
+      "supported_genes": 2945
+    },
+    {
+      "target": "PCGF1",
+      "cells": 682,
+      "batches": 24,
+      "supported_genes": 6119
+    },
+    {
+      "target": "PIM2",
+      "cells": 313,
+      "batches": 21,
+      "supported_genes": 3247
+    },
+    {
+      "target": "PPIP5K2",
+      "cells": 717,
+      "batches": 24,
+      "supported_genes": 6125
+    },
+    {
+      "target": "PRKACA",
+      "cells": 267,
+      "batches": 16,
+      "supported_genes": 3702
+    },
+    {
+      "target": "PTMS",
+      "cells": 320,
+      "batches": 18,
+      "supported_genes": 3245
+    },
+    {
+      "target": "SLC39A1",
+      "cells": 582,
+      "batches": 24,
+      "supported_genes": 5875
+    },
+    {
+      "target": "SRSF5",
+      "cells": 862,
+      "batches": 24,
+      "supported_genes": 6576
+    },
+    {
+      "target": "SSR4",
+      "cells": 604,
+      "batches": 24,
+      "supported_genes": 5886
+    },
+    {
+      "target": "SUPT7L",
+      "cells": 825,
+      "batches": 24,
+      "supported_genes": 6616
+    },
+    {
+      "target": "THAP3",
+      "cells": 309,
+      "batches": 21,
+      "supported_genes": 4108
+    },
+    {
+      "target": "TMEM209",
+      "cells": 313,
+      "batches": 18,
+      "supported_genes": 3749
+    },
+    {
+      "target": "TWF2",
+      "cells": 332,
+      "batches": 21,
+      "supported_genes": 3906
+    },
+    {
+      "target": "VIM",
+      "cells": 1000,
+      "batches": 24,
+      "supported_genes": 7347
+    },
+    {
+      "target": "ZBTB41",
+      "cells": 263,
+      "batches": 16,
+      "supported_genes": 3835
+    },
+    {
+      "target": "ZC3HAV1",
+      "cells": 444,
+      "batches": 24,
+      "supported_genes": 5315
+    },
+    {
+      "target": "ZNF16",
+      "cells": 261,
+      "batches": 17,
+      "supported_genes": 3208
+    },
+    {
+      "target": "ZNF282",
+      "cells": 316,
+      "batches": 18,
+      "supported_genes": 4000
+    },
+    {
+      "target": "ZNF444",
+      "cells": 286,
+      "batches": 19,
+      "supported_genes": 3791
+    },
+    {
+      "target": "ZNF496",
+      "cells": 280,
+      "batches": 19,
+      "supported_genes": 4035
+    },
+    {
+      "target": "ZNF627",
+      "cells": 513,
+      "batches": 24,
+      "supported_genes": 5631
+    },
+    {
+      "target": "ZNF641",
+      "cells": 351,
+      "batches": 21,
+      "supported_genes": 5210
+    }
+  ],
+  "source_record": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+    "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+    "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+    "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 25054,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+    "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+  },
+  "plan_sha256": "4eb6f83577def13cabdac13dda354c1dd76dc2ec68c6b7dd3ffaaaa0ae43166e"
+}

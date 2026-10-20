@@ -1,0 +1,46 @@
+{
+  "version": 70,
+  "hypothesis": "Improve response means rather than count shape: infer batch-matched bulk proportions directly from raw counts, with depth offsets and moment-matched quasi-Poisson uncertainty. Pool evidence once per study and shrink uncertain responses; correct frozen V66 means at two prespecified strengths. Not an exact NB likelihood or independent biological replication.",
+  "sources": [
+    "H1",
+    "HCT116",
+    "HEK293T",
+    "CD4_Rest_D1",
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "arms": [
+    "raw25",
+    "raw50"
+  ],
+  "dependencies": {
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "run_v65_experiment.py": "1d7ac816fec0397431328005cbc638d996e1401abf3e9b5a0ad5b5857df8a3df",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "protocol": {
+    "min_treated": 40,
+    "min_batch_controls": 20,
+    "min_batch_treated": 10,
+    "min_total_molecules": 20,
+    "fano_floor": 1,
+    "fano_ceiling": 1000,
+    "gamma_shape_prior": 0.5,
+    "between_study_sd": 0.25,
+    "signal_prior_sd": 0.5,
+    "max_LFC": 3,
+    "max_correction": 0.75,
+    "identity_margin_fraction": 0.8
+  },
+  "selection": "Choose lowest equal-study desired-profile error ratio on first three unique fixed cases/context among raw25/raw50; require <=0.995 and no study >1.02 and genuine evidence better than cyclic target shuffle. If neither passes, report no supported candidate. Lock before remaining unique cases are scored. Reused public studies, not blind validation.",
+  "confirmation": "Remaining unique cases/context, evaluate desired means then actual integer counts versus V66 and matched shuffled correction using identical control templates and seeds. Profile ratio <=0.995, no study >1.02; PDS decrease <=.005, FID <=.002, REACH <=.005, JAC <=.0005, NMAE no worse 1%. Missing stays missing and fails complete support. Report all failed gates. No unsupported replacement promoted.",
+  "production": "Only a mean-eligible candidate can be considered; unchanged V66 residual10 generator, original control rows/library sizes and 80% identity margin against V66. Any incomplete count support must remain explicit and experimental.",
+  "source_exclusions": "Whole H1/Orion/CD4 study excluded from source teacher for recipient evaluation; no recipient treatments/support used by predictor.",
+  "D3_opened": false,
+  "automatic_upload": false,
+  "parent_model_sha256": "76be16202d83997828670bb954d7fe33e16fb94471ba1e02b2aaa13ce3684c08"
+}

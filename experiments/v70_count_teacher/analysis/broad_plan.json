@@ -1,0 +1,11 @@
+{
+  "evaluator_sha256": "0154445b193f6881b01ead04f6218b583e1925a9476eadbe2a25dc759e49ef59",
+  "scope": "Additional diagnostic frozen before development results; cannot reselect candidate. Uses all targets with >=30 cells from existing source extractions, expected 655 pairs. Overlaps spent panels; not blind.",
+  "gates": {
+    "equal_study_profile_ratio_below": 1,
+    "worst_study_ratio_at_most": 1.02,
+    "pds_change_at_least": -0.005,
+    "beats_matched_shuffle": true
+  },
+  "release": "A broader failure blocks production; adds a stricter test, never relaxes original gates."
+}

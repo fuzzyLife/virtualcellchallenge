@@ -1,0 +1,32 @@
+{
+  "version": 71,
+  "dependencies": {
+    "v71_evidence_projection.py": "96e5eb6cdc17d9d9f5bccc8aa2e2001b700d089d7fb52b8abc80d24fbcc6f580",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "run_v70_counts.py": "929ad86dc1ecbed600bcdbb747133a6c4e9d70bdc23cd22124072f1ab804b601"
+  },
+  "inputs": {
+    "experiments/v70_count_teacher/analysis/sources/H1.npz": "2201659e527d59430f7495af715e810a233525c1578c2a99c5e14692e1fa9132",
+    "experiments/v70_count_teacher/analysis/sources/HCT116.npz": "3203668eebdf30c9f97a0ab38d862349baba654eef55fcb8ba21eabdd8ed8f36",
+    "experiments/v70_count_teacher/analysis/sources/HEK293T.npz": "c50e6d688c5b4fcf0806c8b274b2a1d49cbd90924aa26ab3f1f9fef081478200",
+    "experiments/v70_count_teacher/analysis/sources/CD4_Rest_D1.npz": "ed156fbabbd1f263baa7883fd72ed079bdabbbc9ae2afed8c5412a3049a27f6b",
+    "experiments/v70_count_teacher/analysis/sources/CD4_Rest_D2.npz": "9b2f793e43214bdd34cfda9fabbf286751873b031e9a448d40ea38ef8cdb8feb",
+    "experiments/v70_count_teacher/analysis/sources/CD4_Stim48_D2.npz": "6b44b3f7faa25f3b3bc18a927e93070e190129a211ecd2664d1926a90e1f09e6"
+  },
+  "hypothesis": "V70 guarded raw25/raw50 fail development and leave many target responses unchanged. Test raw25 before that guard, count-derived leave-one-target-out common-program removal, and projection of V66 into a source-evidence credible interval. Correct means only, unchanged emitter. No assertion that original self-identity is biological ground truth.",
+  "arms": [
+    "raw25",
+    "center25",
+    "center50",
+    "credible25"
+  ],
+  "selection": "Same >=0.5% equal-study desired-profile error improvement, no study >2% worse, beats matched cyclic source-target shuffle on first three unique fixed cases/context. Development already reused in V70. Lock before remaining cases; no failed-guard fallback.",
+  "centering": "Within each raw source and output gene, subtract other eligible target responses only when >=20 other targets have measured evidence. No recipient outcomes or query target enters its own template.",
+  "credible_projection": "Move only when V66 lies outside mean +/-1.96*sqrt(posterior variance + between-study heterogeneity). This is a working model interval, not guaranteed cross-context coverage. Quarter-strength step and max 0.75 LFC discrepancy.",
+  "response_constraints": "Per-coordinate correction <=0.1875 (raw25/center25/credible25) or <=0.375 (center50), own zero, output clip +/-3, unavailable genes abstain. Original V66 identity-margin guard deliberately absent; validate against real held-out responses instead.",
+  "confirmation": "Reuse run_v70_counts unchanged by binding module to V71. Same paired templates/seeds, V66/shuffle, frozen count gates. Require generated-profile and worst-study/shuffle gates before production; report all remaining failures. Broader fixed all >=30-cell source diagnostic also must pass.",
+  "D3_opened": false,
+  "automatic_upload": false,
+  "V70_development_sha256": "4420b311a0aa14fd6d98edbaa1d887857a8e7c9ba65d36e8b0835fa190bd9549"
+}

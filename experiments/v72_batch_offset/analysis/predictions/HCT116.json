@@ -1,0 +1,24 @@
+{
+  "sha256": "52a74a26f9a1749c61eb6642ca1553ed95ec3185a9df9bcc1e80e6f02c1e6917",
+  "excluded_study": "Orion",
+  "parent_sha256": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+  "plan_sha256": "06809e9b3c9d6a37718a0722cd9b74a1144731d6c9831569a081ab77aa509df7",
+  "changes": {
+    "raw25": {
+      "changed_targets": 73,
+      "max_change": 0.1875000149011612
+    },
+    "center25": {
+      "changed_targets": 73,
+      "max_change": 0.1875000149011612
+    },
+    "center50": {
+      "changed_targets": 73,
+      "max_change": 0.3750000298023224
+    },
+    "credible25": {
+      "changed_targets": 73,
+      "max_change": 0.1875
+    }
+  }
+}
