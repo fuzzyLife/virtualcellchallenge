@@ -1,3 +1,15 @@
+<!-- v85-v86-new-mechanisms:begin -->
+## V85/V86: two different mechanisms tested
+
+V85 tested split-sample **guide-dose contrasts**. A permuted-guide null caught sparse-log bias before recipient scoring; the corrected linear estimator has no source target meeting both fixed dose-evidence requirements. It abstains exactly, so no duplicate V66 populations were generated.
+
+V86 tested a **multivariate Bayesian covariance-mixture model** with whole-study exclusion and posterior uncertainty. Its fixed primary lowered profile error by **0.37% across 655 reused public pairs**. On the 14-target D3 count test, profile error fell **0.29%**, five raw metrics improved and PDS stayed unchanged. However, the shuffled control achieved lower expression error, and the original development requirements failed. All six source fits also reached their planned 100-update limit before convergence. These are small pilot gains, not a demonstrated leaderboard improvement.
+
+The test emitted **42 new populations** and reused **14 verified identical V66 baseline populations**. Independent numerical and exclusion audits passed. No new upload package was generated; **V66/V82 remains best published at 0.1508821875498449**.
+
+[Complete V86 results](V86_RESULTS.md) · [V86 protocol and CMD reproduction](V86_STRATEGY.md) · [V85 source results and preserved correction](V85_GUIDE_CONTRAST.md) · [CPU requirements](requirements_v85_v86.txt). Earlier entries retain their historical status.
+<!-- v85-v86-new-mechanisms:end -->
+
 <!-- v84-research:begin -->
 ## V83/V84 tested: paired response transfer does not qualify
 

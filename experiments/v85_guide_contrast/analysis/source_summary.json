@@ -1,0 +1,2988 @@
+{
+  "records": [
+    {
+      "stage": "teachers",
+      "condition": "CD4_Rest_D2",
+      "full_trace_sha256": "19c9dcc52b087a0cf01a5e17842c80dc6433722c178cc74b97f680a9e1bb8cd1",
+      "arrays_sha256": "d31bb4d0008489cb6db97a86c0257a5c86f28a45dc53c4e6469cad84f927d5ec",
+      "statistics_sha256": "e7603e4b0e84401b5c064615c20a6cea56ae55de50de84a82377d8f7afae2013",
+      "source": {
+        "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v22_cd4\\Marson2025_D2_Rest_filtered.h5ad",
+        "source_md5": "md5:474833a3f246a748b8076cdcbdcf63e1",
+        "counts_sha256": "3f6acba5f4c65951c060b7413311ef7cceacf513695537620a0418f9d48da23e",
+        "cells_sha256": "d87cc661acb1a8dfaeeb94fe383b0912af9b34e1229e35b50cb7b7edac6de09f",
+        "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+        "raw_layer": "X",
+        "source_rows": 25281,
+        "source_genes": 18130,
+        "measured_competition_genes": 17772,
+        "label_column": "perturbation",
+        "symbol_column": null,
+        "study": "Marson2025 D2 Rest; existing CD4 study family, new raw-cell evaluation source",
+        "script_sha256": "ef5e6e3972ba3d914d6ed407b542569bde27bab69442e2275325a83b2c5c83fa"
+      },
+      "real": [
+        {
+          "target": "AKAP1",
+          "target_index": 4,
+          "guide_half_cells": [
+            29,
+            15
+          ],
+          "lanes": 5,
+          "strong": true,
+          "F": [
+            61.140461968553026,
+            33.67208544909123
+          ],
+          "dose": [
+            -2.7065708335230685,
+            -1.2182071574778754
+          ],
+          "active_outputs": 5049
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            56,
+            87
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            138,
+            48
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            3.3722351574582836,
+            21.381435851880617
+          ],
+          "dose": [
+            0.6063247518996092,
+            -1.7806976947747577
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            324,
+            122
+          ],
+          "lanes": 23,
+          "strong": true,
+          "F": [
+            21.28337419425356,
+            22.253049971150983
+          ],
+          "dose": [
+            1.1016914104377722,
+            1.0742799728570753
+          ],
+          "active_outputs": 7593
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            69,
+            52
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            1.7066629670547517,
+            9.40242738623396
+          ],
+          "dose": [
+            -0.4450153364438303,
+            0.7863187789324115
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            114,
+            114
+          ],
+          "lanes": 22,
+          "strong": true,
+          "F": [
+            34.92327893874326,
+            422.3503113303118
+          ],
+          "dose": [
+            1.8724595796037828,
+            5.059630046232547
+          ],
+          "active_outputs": 5540
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            46
+          ],
+          "lanes": 18,
+          "strong": true,
+          "F": [
+            58.97955212992073,
+            16.944387872663768
+          ],
+          "dose": [
+            2.7151116850306205,
+            1.4612466964794524
+          ],
+          "active_outputs": 8045
+        },
+        {
+          "target": "PIM2",
+          "target_index": 147,
+          "guide_half_cells": [
+            33,
+            15
+          ],
+          "lanes": 7,
+          "strong": false,
+          "F": [
+            2.9362980751293914,
+            3.7506002100107403
+          ],
+          "dose": [
+            -0.8693493470138991,
+            -0.8897961047626474
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            41,
+            72
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            33.62682076590069,
+            0.8023581418335338
+          ],
+          "dose": [
+            -1.57242703642996,
+            -0.3006814795910989
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            153,
+            118
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            4.8037295107137785,
+            6.795977597106005
+          ],
+          "dose": [
+            0.4568956118329528,
+            -0.5082568964354726
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            49,
+            328
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            767.4770573233861,
+            1459.673882756334
+          ],
+          "dose": [
+            -6.477630076181846,
+            -7.824674956136372
+          ],
+          "active_outputs": 8118
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            144,
+            213
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.22410508548747368,
+            10.757826565159961
+          ],
+          "dose": [
+            0.13233167630065312,
+            0.820218440285817
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            35,
+            56
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            223.63198727584248,
+            28.42153654836085
+          ],
+          "dose": [
+            -1.269193673821253,
+            0.4453462263818868
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TRAPPC6A",
+          "target_index": 238,
+          "guide_half_cells": [
+            33,
+            55
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            10.976644506355822,
+            10.963816810238388
+          ],
+          "dose": [
+            -1.120368774398788,
+            0.8104813464040932
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            75,
+            81
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            5.321800877442042,
+            18.327726453799436
+          ],
+          "dose": [
+            0.7139790500508063,
+            -1.4170242896465786
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            75,
+            105
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.03775626040773581,
+            0.449921918683122
+          ],
+          "dose": [
+            0.03293453866152869,
+            -0.10756349785221236
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            47,
+            58
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            104.57990828271083,
+            0.552162258661728
+          ],
+          "dose": [
+            1.2317653371982205,
+            -0.10430738641114184
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            66,
+            35
+          ],
+          "lanes": 14,
+          "strong": false,
+          "F": [
+            0.0,
+            17.64785969741405
+          ],
+          "dose": [
+            0.0,
+            0.40529164181544824
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            158,
+            78
+          ],
+          "lanes": 23,
+          "strong": true,
+          "F": [
+            21.17379917402508,
+            11.719411224794987
+          ],
+          "dose": [
+            -0.36035907208259266,
+            -0.4102744320097098
+          ],
+          "active_outputs": 7016
+        }
+      ],
+      "permuted": [
+        {
+          "target": "AKAP1",
+          "target_index": 4,
+          "guide_half_cells": [
+            29,
+            15
+          ],
+          "lanes": 5,
+          "strong": false,
+          "F": [
+            26.670740509589404,
+            1422.2480393357698
+          ],
+          "dose": [
+            1.4189688242643246,
+            -1.3312139199537778
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            56,
+            87
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            138,
+            48
+          ],
+          "lanes": 18,
+          "strong": true,
+          "F": [
+            470.57516824455035,
+            14.520923214824466
+          ],
+          "dose": [
+            6.648440554318071,
+            1.4079129302296987
+          ],
+          "active_outputs": 7909
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            324,
+            122
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.3526290965164576,
+            32.635343844947705
+          ],
+          "dose": [
+            0.14537013128237927,
+            1.207707724145686
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            69,
+            52
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            31.478145517678723,
+            289.1208229182323
+          ],
+          "dose": [
+            1.79021990715861,
+            5.137066333408678
+          ],
+          "active_outputs": 4712
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            114,
+            114
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.4204321262978625,
+            5.740893581108707
+          ],
+          "dose": [
+            0.20713972241081896,
+            0.6964277024797934
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            46
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            108.9917850418814,
+            5.129288818664824
+          ],
+          "dose": [
+            3.6481264675893756,
+            0.840159185545961
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PIM2",
+          "target_index": 147,
+          "guide_half_cells": [
+            33,
+            15
+          ],
+          "lanes": 7,
+          "strong": false,
+          "F": [
+            31.78502800198047,
+            1.8855333758132231
+          ],
+          "dose": [
+            2.3193629617933724,
+            0.7051168657495607
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            41,
+            72
+          ],
+          "lanes": 15,
+          "strong": true,
+          "F": [
+            43.90935761513541,
+            129.70228317084073
+          ],
+          "dose": [
+            -1.8572013184909721,
+            -3.6705999486524337
+          ],
+          "active_outputs": 5919
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            153,
+            118
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            71.92226592849305,
+            86.98362374100613
+          ],
+          "dose": [
+            -1.832736463687435,
+            1.8498924050208658
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            49,
+            328
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            303.0338885017478,
+            418.38878533771515
+          ],
+          "dose": [
+            -4.406111190220647,
+            -5.248592921401162
+          ],
+          "active_outputs": 8277
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            144,
+            213
+          ],
+          "lanes": 23,
+          "strong": true,
+          "F": [
+            53.2428464275691,
+            17.317605101763984
+          ],
+          "dose": [
+            -2.119937345965406,
+            -1.01857933298882
+          ],
+          "active_outputs": 5685
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            35,
+            56
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            0.043947608589345405,
+            28.81277843323835
+          ],
+          "dose": [
+            -0.03890088948161463,
+            -0.5606038851721176
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TRAPPC6A",
+          "target_index": 238,
+          "guide_half_cells": [
+            33,
+            55
+          ],
+          "lanes": 13,
+          "strong": true,
+          "F": [
+            22.031031655106105,
+            131.05790064483682
+          ],
+          "dose": [
+            -1.512663031510761,
+            -2.7996525821039424
+          ],
+          "active_outputs": 5588
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            75,
+            81
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.6066640641275095,
+            11.977249585286108
+          ],
+          "dose": [
+            -0.22695062587902423,
+            -1.1868168830177146
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            75,
+            105
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.8274367510224302,
+            1.7396865939485004
+          ],
+          "dose": [
+            -0.15255413576966553,
+            0.2022296034176532
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            47,
+            58
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            71.6085256045325,
+            2.89734634074157
+          ],
+          "dose": [
+            0.8903691643025803,
+            0.2394288716909
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            66,
+            35
+          ],
+          "lanes": 14,
+          "strong": false,
+          "F": [
+            17.64785969741405,
+            0.0
+          ],
+          "dose": [
+            0.40529164181544824,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            158,
+            78
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            23.856103390764034,
+            7.7930838029226805
+          ],
+          "dose": [
+            0.3835377973334507,
+            0.3336852699777043
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "active_targets": [
+        "AKAP1",
+        "DNTTIP1",
+        "MED15",
+        "PCGF1",
+        "SRSF5",
+        "ZNF627"
+      ],
+      "permuted_active_targets": [
+        "DEK",
+        "DVL3",
+        "PRKACA",
+        "SRSF5",
+        "SSR4",
+        "TRAPPC6A"
+      ]
+    },
+    {
+      "stage": "teachers",
+      "condition": "CD4_Stim48_D2",
+      "full_trace_sha256": "819839f206fb56fb40df1a33ca68e829b97303d4b05b246b384bf6f940cda20c",
+      "arrays_sha256": "576f8acfd4b9b6e1f25026ba7a9b5c74d543565a53c0a99edc02381d44a0bce8",
+      "statistics_sha256": "35d6191f1acaf6c17dad039e3a68a14ab81e3a628cec22099240fb172114ed72",
+      "source": {
+        "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+        "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+        "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+        "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+        "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+        "raw_layer": "X",
+        "source_rows": 25054,
+        "source_genes": 18130,
+        "measured_competition_genes": 17772,
+        "label_column": "perturbation",
+        "symbol_column": null,
+        "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+        "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+      },
+      "real": [
+        {
+          "target": "ALG12",
+          "target_index": 7,
+          "guide_half_cells": [
+            42,
+            40
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            133.95171666263454,
+            8.734693116303692
+          ],
+          "dose": [
+            -4.784758407607385,
+            -1.3750929561967737
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            49,
+            59
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            55,
+            25
+          ],
+          "lanes": 11,
+          "strong": true,
+          "F": [
+            15.124219591218719,
+            22.159942464717762
+          ],
+          "dose": [
+            -1.6785750751345256,
+            -2.087530188223286
+          ],
+          "active_outputs": 6292
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            257,
+            69
+          ],
+          "lanes": 23,
+          "strong": true,
+          "F": [
+            17.43179576617283,
+            13.666719199522891
+          ],
+          "dose": [
+            1.1293788102470939,
+            0.767045914255194
+          ],
+          "active_outputs": 8066
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            54,
+            46
+          ],
+          "lanes": 16,
+          "strong": true,
+          "F": [
+            29.462567444791194,
+            260.28670020346505
+          ],
+          "dose": [
+            -1.6594240642222935,
+            -4.653988257716862
+          ],
+          "active_outputs": 5106
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            74,
+            57
+          ],
+          "lanes": 19,
+          "strong": true,
+          "F": [
+            44.67795510289369,
+            100.92183070610108
+          ],
+          "dose": [
+            1.4763240466459193,
+            3.0056805744942485
+          ],
+          "active_outputs": 6475
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            54
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            524.3032555823945,
+            152.0030905335537
+          ],
+          "dose": [
+            6.451923255076625,
+            4.172566151768145
+          ],
+          "active_outputs": 8160
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            26,
+            40
+          ],
+          "lanes": 10,
+          "strong": true,
+          "F": [
+            19.355411956763092,
+            41.78742498352917
+          ],
+          "dose": [
+            1.439896357599193,
+            2.07766687522989
+          ],
+          "active_outputs": 5994
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            182,
+            97
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            12.157898081967708,
+            0.09824490528336538
+          ],
+          "dose": [
+            -0.9001805945804627,
+            -0.046086737524386134
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            61,
+            304
+          ],
+          "lanes": 20,
+          "strong": true,
+          "F": [
+            1096.3069912915275,
+            179.95506813695638
+          ],
+          "dose": [
+            -7.508918877879623,
+            -4.050741311078443
+          ],
+          "active_outputs": 8438
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            96,
+            196
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            3.814971067820233,
+            16.85291568841959
+          ],
+          "dose": [
+            0.4241254467709762,
+            1.0321277621301115
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            40,
+            45
+          ],
+          "lanes": 12,
+          "strong": false,
+          "F": [
+            63.35390883934333,
+            0.8730938622286485
+          ],
+          "dose": [
+            -2.4202392820377434,
+            -0.279103729049337
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            67,
+            75
+          ],
+          "lanes": 21,
+          "strong": true,
+          "F": [
+            92.9839609468208,
+            56.39263781080624
+          ],
+          "dose": [
+            -2.8362471865121495,
+            -2.1388355584755763
+          ],
+          "active_outputs": 5112
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            85,
+            111
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            1.705159397905466,
+            0.9510367903364465
+          ],
+          "dose": [
+            0.298870820671069,
+            0.1728768763992294
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            40,
+            52
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            0.0,
+            39.94306377043998
+          ],
+          "dose": [
+            0.0,
+            0.7277811524238278
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF444",
+          "target_index": 279,
+          "guide_half_cells": [
+            56,
+            45
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            96.73281518726775,
+            99.22763999575683
+          ],
+          "dose": [
+            1.7979785765640401,
+            2.174461848797552
+          ],
+          "active_outputs": 6577
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            37,
+            24
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            159,
+            75
+          ],
+          "lanes": 22,
+          "strong": true,
+          "F": [
+            94.93735268977817,
+            40.239535778787655
+          ],
+          "dose": [
+            1.8362333420175443,
+            0.9742819244711636
+          ],
+          "active_outputs": 7267
+        }
+      ],
+      "permuted": [
+        {
+          "target": "ALG12",
+          "target_index": 7,
+          "guide_half_cells": [
+            42,
+            40
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            32.54960171679617,
+            2.095200032409852
+          ],
+          "dose": [
+            2.3429248348208747,
+            0.5848177510037751
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            49,
+            59
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            55,
+            25
+          ],
+          "lanes": 11,
+          "strong": true,
+          "F": [
+            84.24365324264632,
+            34.849487203786666
+          ],
+          "dose": [
+            3.838988279525638,
+            2.989688031918423
+          ],
+          "active_outputs": 6366
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            257,
+            69
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            18.34137288947749,
+            224.99127591825882
+          ],
+          "dose": [
+            -1.125346615323625,
+            2.978744629133147
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            54,
+            46
+          ],
+          "lanes": 16,
+          "strong": true,
+          "F": [
+            79.4978274726368,
+            191.20850913758272
+          ],
+          "dose": [
+            3.440906239591055,
+            3.3903508900781185
+          ],
+          "active_outputs": 4300
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            74,
+            57
+          ],
+          "lanes": 19,
+          "strong": false,
+          "F": [
+            76.48455565990554,
+            10.237583046705568
+          ],
+          "dose": [
+            2.2623748700973603,
+            -0.930644277052938
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            54
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            16.990273549585996,
+            127.89444878501084
+          ],
+          "dose": [
+            1.5678268782455316,
+            3.8055360329299783
+          ],
+          "active_outputs": 7900
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            26,
+            40
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.3944195341125557,
+            2.307170507665769
+          ],
+          "dose": [
+            0.19222077179068764,
+            -0.306071624644754
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            182,
+            97
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            3.462847043212142e-06,
+            66.91472445713505
+          ],
+          "dose": [
+            -0.000472070549739495,
+            1.4103933373545956
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            61,
+            304
+          ],
+          "lanes": 20,
+          "strong": true,
+          "F": [
+            163.28752010868897,
+            58.82012469625259
+          ],
+          "dose": [
+            -3.6353580133785255,
+            -2.316144670370764
+          ],
+          "active_outputs": 8505
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            96,
+            196
+          ],
+          "lanes": 24,
+          "strong": true,
+          "F": [
+            14.45793308887596,
+            19.919230481867213
+          ],
+          "dose": [
+            -0.8083857967455228,
+            -0.8579943105143413
+          ],
+          "active_outputs": 7291
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            40,
+            45
+          ],
+          "lanes": 12,
+          "strong": false,
+          "F": [
+            40.63853458452681,
+            0.7428008024557088
+          ],
+          "dose": [
+            -1.4180682856226565,
+            0.2784609747602435
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            67,
+            75
+          ],
+          "lanes": 21,
+          "strong": false,
+          "F": [
+            4.880941845753147,
+            56.04935559589314
+          ],
+          "dose": [
+            -0.6257432642020303,
+            -2.2407440347442806
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            85,
+            111
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.0003203720436562417,
+            1.4691509693043185
+          ],
+          "dose": [
+            0.0036710709570090625,
+            -0.288735481907112
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            40,
+            52
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            2.255181360790455,
+            0.0
+          ],
+          "dose": [
+            -0.21095475987334283,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF444",
+          "target_index": 279,
+          "guide_half_cells": [
+            56,
+            45
+          ],
+          "lanes": 17,
+          "strong": true,
+          "F": [
+            13.612389305266278,
+            59.08691590629759
+          ],
+          "dose": [
+            -0.8083423172348501,
+            -1.8921351228414243
+          ],
+          "active_outputs": 4901
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            37,
+            24
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            159,
+            75
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            53.64163660535067,
+            0.00040704109969806027
+          ],
+          "dose": [
+            0.5623158736497449,
+            0.004153953597473836
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "active_targets": [
+        "DEK",
+        "DNTTIP1",
+        "DVL3",
+        "MED15",
+        "PCGF1",
+        "PRKACA",
+        "SRSF5",
+        "TWF2",
+        "ZNF444",
+        "ZNF627"
+      ],
+      "permuted_active_targets": [
+        "DEK",
+        "DVL3",
+        "PCGF1",
+        "SRSF5",
+        "SSR4",
+        "ZNF444"
+      ]
+    },
+    {
+      "stage": "linear_teachers",
+      "condition": "CD4_Rest_D2",
+      "full_trace_sha256": "a2e156dbbbaa05e966661fbd9e8989358c848ded9b55ac8e4d0793c7e306af5e",
+      "arrays_sha256": "5829b6b0e6658e9413dc07149cc12f7699a3dcb04a581e34df430bfab9c62f0b",
+      "statistics_sha256": "5338ef79dd38ce72c4d1c59472b8ebd1ee3a003791de855438a85553b7b2e086",
+      "source": {
+        "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v22_cd4\\Marson2025_D2_Rest_filtered.h5ad",
+        "source_md5": "md5:474833a3f246a748b8076cdcbdcf63e1",
+        "counts_sha256": "3f6acba5f4c65951c060b7413311ef7cceacf513695537620a0418f9d48da23e",
+        "cells_sha256": "d87cc661acb1a8dfaeeb94fe383b0912af9b34e1229e35b50cb7b7edac6de09f",
+        "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+        "raw_layer": "X",
+        "source_rows": 25281,
+        "source_genes": 18130,
+        "measured_competition_genes": 17772,
+        "label_column": "perturbation",
+        "symbol_column": null,
+        "study": "Marson2025 D2 Rest; existing CD4 study family, new raw-cell evaluation source",
+        "script_sha256": "ef5e6e3972ba3d914d6ed407b542569bde27bab69442e2275325a83b2c5c83fa"
+      },
+      "real": [
+        {
+          "target": "AKAP1",
+          "target_index": 4,
+          "guide_half_cells": [
+            29,
+            15
+          ],
+          "lanes": 5,
+          "strong": false,
+          "F": [
+            1.8933120716904983,
+            0.9982366048734609
+          ],
+          "dose": [
+            -0.20767652810595214,
+            -0.11225446282042038
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            56,
+            87
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            138,
+            48
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            3.766347158704867,
+            8.02630038072848
+          ],
+          "dose": [
+            -0.18003722849510978,
+            -0.22904255298793366
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            324,
+            122
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.3463827541352641,
+            0.05180383613111607
+          ],
+          "dose": [
+            0.020082255739404996,
+            -0.009657871715951153
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            69,
+            52
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            0.28275747286582154,
+            1.625435722023164
+          ],
+          "dose": [
+            0.11198735490429272,
+            0.1395726168924083
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            114,
+            114
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            6.80073653354958,
+            28.33911186941456
+          ],
+          "dose": [
+            0.15941044231697013,
+            0.3358198117330427
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            46
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            0.030300718600086242,
+            1.449655029119026
+          ],
+          "dose": [
+            -0.022528781198983154,
+            -0.15141171846119003
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PIM2",
+          "target_index": 147,
+          "guide_half_cells": [
+            33,
+            15
+          ],
+          "lanes": 7,
+          "strong": false,
+          "F": [
+            2.7228808454803866,
+            1.932599976321049
+          ],
+          "dose": [
+            -0.6778772068026224,
+            -0.622433871895683
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            41,
+            72
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.14810739499596864,
+            0.0395217776922171
+          ],
+          "dose": [
+            -0.027927428525087637,
+            -0.012576841138430076
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            153,
+            118
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.014764744425082119,
+            0.4929891267614607
+          ],
+          "dose": [
+            -0.01833335514215642,
+            -0.09596289544212369
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            49,
+            328
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            9.777340310258934,
+            50.451548947534725
+          ],
+          "dose": [
+            -0.4543051474710195,
+            -0.6047775200705258
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            144,
+            213
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            2.604384549336785,
+            3.1608272509805277
+          ],
+          "dose": [
+            0.04842401879022428,
+            0.03629039382092747
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            35,
+            56
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            5.90193523900316,
+            0.9989985183307569
+          ],
+          "dose": [
+            -0.23532374586072524,
+            0.044626663830219925
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TRAPPC6A",
+          "target_index": 238,
+          "guide_half_cells": [
+            33,
+            55
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            0.19681385619786212,
+            0.7887733910754612
+          ],
+          "dose": [
+            0.05662051780823652,
+            0.06711986508802531
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            75,
+            81
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.175070699803362,
+            6.452030460692506
+          ],
+          "dose": [
+            -0.017421597996932343,
+            -0.07490935677238547
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            75,
+            105
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.30336478530709304,
+            0.07911047415465272
+          ],
+          "dose": [
+            0.04915128264490126,
+            -0.024133079439203356
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            47,
+            58
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            2.8908946429384166,
+            0.17706351591873518
+          ],
+          "dose": [
+            0.48157576956535797,
+            0.07524638634310558
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            66,
+            35
+          ],
+          "lanes": 14,
+          "strong": false,
+          "F": [
+            0.0,
+            0.9949738771353651
+          ],
+          "dose": [
+            0.0,
+            0.09023107540713544
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            158,
+            78
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.9977820822216942,
+            0.6836077259073579
+          ],
+          "dose": [
+            -0.06408735748400568,
+            -0.11632527642771529
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "permuted": [
+        {
+          "target": "AKAP1",
+          "target_index": 4,
+          "guide_half_cells": [
+            29,
+            15
+          ],
+          "lanes": 5,
+          "strong": false,
+          "F": [
+            0.9982366048734607,
+            33.371482871391166
+          ],
+          "dose": [
+            0.0766213752623295,
+            -0.19222869882249002
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            56,
+            87
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            138,
+            48
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            1.6491554477479127,
+            0.09426743977795493
+          ],
+          "dose": [
+            0.09493218238870828,
+            -0.02582696354189188
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            324,
+            122
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.5286166478572226,
+            0.5452403162616231
+          ],
+          "dose": [
+            -0.036113235940947085,
+            -0.03655587239152473
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            69,
+            52
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            0.011640784676413812,
+            6.257816426026295
+          ],
+          "dose": [
+            -0.021710120193738507,
+            0.3431303862318551
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            114,
+            114
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.08587568156198117,
+            0.08248247442225058
+          ],
+          "dose": [
+            0.01980017566346786,
+            0.015635259459310904
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            46
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            0.9999219007160297,
+            1.297127592068215
+          ],
+          "dose": [
+            0.10617339083890526,
+            -0.12547513756529904
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PIM2",
+          "target_index": 147,
+          "guide_half_cells": [
+            33,
+            15
+          ],
+          "lanes": 7,
+          "strong": false,
+          "F": [
+            0.7782123518232753,
+            0.24446376218598526
+          ],
+          "dose": [
+            0.3054661716804873,
+            0.154785226049336
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            41,
+            72
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.388505031167249,
+            3.144662206362489
+          ],
+          "dose": [
+            -0.045670815346847075,
+            -0.07779483542904382
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            153,
+            118
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            3.2173750571946176,
+            0.07485643614271875
+          ],
+          "dose": [
+            -0.29133858648891414,
+            0.0412363583320083
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            49,
+            328
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            0.9060362105305844,
+            3.885448259705234
+          ],
+          "dose": [
+            -0.16720978988962049,
+            -0.2586407081359416
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            144,
+            213
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.9605899740037045,
+            0.8857284049414931
+          ],
+          "dose": [
+            -0.021690882436765684,
+            -0.030270861458706295
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            35,
+            56
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            0.13491639831511631,
+            0.9989985183307565
+          ],
+          "dose": [
+            0.06362859329141152,
+            -0.05791768883975048
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TRAPPC6A",
+          "target_index": 238,
+          "guide_half_cells": [
+            33,
+            55
+          ],
+          "lanes": 13,
+          "strong": false,
+          "F": [
+            0.03822065489684064,
+            3.7351875561606804
+          ],
+          "dose": [
+            0.02687364272500544,
+            -0.12732990820105544
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            75,
+            81
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.6898020185554329,
+            1.4132913555099036
+          ],
+          "dose": [
+            -0.03657662201661439,
+            -0.04163906035803068
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            75,
+            105
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.4803387260192228,
+            2.476827801849729
+          ],
+          "dose": [
+            -0.057242747654976285,
+            0.12855641821442002
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            47,
+            58
+          ],
+          "lanes": 18,
+          "strong": false,
+          "F": [
+            1.9921432007747866,
+            0.2232990126653855
+          ],
+          "dose": [
+            0.36155439675158524,
+            0.08698645544560679
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            66,
+            35
+          ],
+          "lanes": 14,
+          "strong": false,
+          "F": [
+            0.9949738771353651,
+            0.0
+          ],
+          "dose": [
+            0.09023107540713544,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            158,
+            78
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.9977820822216943,
+            0.1369207945583989
+          ],
+          "dose": [
+            0.08612522261907743,
+            0.04043112195184904
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "active_targets": [],
+      "permuted_active_targets": []
+    },
+    {
+      "stage": "linear_teachers",
+      "condition": "CD4_Stim48_D2",
+      "full_trace_sha256": "7e5710ee1a656f04e4243ebc9b0cb15888eff38d4be3ce38246d9fd3d2ee13d4",
+      "arrays_sha256": "bafde33b6825d908d118cc638851cf5fa8de8012077cda1db9b11a0ce9931343",
+      "statistics_sha256": "01926915da834e56298b01fd2995e16292766c8081ab33c163a86e1cea84df59",
+      "source": {
+        "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+        "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+        "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+        "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+        "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+        "raw_layer": "X",
+        "source_rows": 25054,
+        "source_genes": 18130,
+        "measured_competition_genes": 17772,
+        "label_column": "perturbation",
+        "symbol_column": null,
+        "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+        "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+      },
+      "real": [
+        {
+          "target": "ALG12",
+          "target_index": 7,
+          "guide_half_cells": [
+            42,
+            40
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            4.267982486433461,
+            0.07795261599814776
+          ],
+          "dose": [
+            -0.3353745280621306,
+            0.11614979214825898
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            49,
+            59
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            55,
+            25
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            4.5394656066996495,
+            2.8693568429198586
+          ],
+          "dose": [
+            -0.3521088547120017,
+            -0.2696484349926608
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            257,
+            69
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            0.9069284224322862,
+            6.017042870824216e-05
+          ],
+          "dose": [
+            -0.0733319007876077,
+            -0.0004357539539953501
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            54,
+            46
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            4.381172757497584,
+            4.016037141418151
+          ],
+          "dose": [
+            -0.3886000365518089,
+            -0.4379226382823194
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            74,
+            57
+          ],
+          "lanes": 19,
+          "strong": false,
+          "F": [
+            0.9685666542372136,
+            2.6936907776881527
+          ],
+          "dose": [
+            0.02664090373376992,
+            0.09277697643325489
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            54
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            14.861496363739207,
+            3.302050333682588
+          ],
+          "dose": [
+            0.4362410474028906,
+            0.22476603122208963
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            26,
+            40
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            1.5639766315748862,
+            2.963327668182377
+          ],
+          "dose": [
+            0.08536799175386163,
+            0.10137676125214976
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            182,
+            97
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            2.3456365811984776,
+            0.4478055896289074
+          ],
+          "dose": [
+            -0.11223248855715176,
+            -0.029144641733078156
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            61,
+            304
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            42.512131609396704,
+            0.4462258183905926
+          ],
+          "dose": [
+            -0.6008921323723099,
+            -0.13614524105127615
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            96,
+            196
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            0.30229606491394484,
+            2.8101952358786733
+          ],
+          "dose": [
+            0.012847678124390735,
+            0.045654056000706135
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            40,
+            45
+          ],
+          "lanes": 12,
+          "strong": false,
+          "F": [
+            1.9811685335904503,
+            0.32729872422792694
+          ],
+          "dose": [
+            -0.15086876809343158,
+            -0.10272334388643893
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            67,
+            75
+          ],
+          "lanes": 21,
+          "strong": false,
+          "F": [
+            5.676399674575383,
+            2.4293190806982605
+          ],
+          "dose": [
+            -0.09724500899982856,
+            -0.0704562830271034
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            85,
+            111
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.07468169720232685,
+            0.6589721015725147
+          ],
+          "dose": [
+            0.07763131556337735,
+            -0.129936175745046
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            40,
+            52
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            0.0,
+            0.9977686005503724
+          ],
+          "dose": [
+            0.0,
+            0.39534997837129926
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF444",
+          "target_index": 279,
+          "guide_half_cells": [
+            56,
+            45
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            0.22327203418343988,
+            2.862876594140739
+          ],
+          "dose": [
+            0.0868652971376529,
+            0.3996672020309272
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            37,
+            24
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            159,
+            75
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.0262414597804611,
+            0.024750614726668077
+          ],
+          "dose": [
+            0.0312777294129859,
+            -0.02557248931999183
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "permuted": [
+        {
+          "target": "ALG12",
+          "target_index": 7,
+          "guide_half_cells": [
+            42,
+            40
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            2.1349844009987833,
+            0.23184981452434417
+          ],
+          "dose": [
+            0.435939893642031,
+            0.16483884213882474
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "CCDC112",
+          "target_index": 25,
+          "guide_half_cells": [
+            49,
+            59
+          ],
+          "lanes": 15,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0,
+          "own_under_5CPM": true
+        },
+        {
+          "target": "DEK",
+          "target_index": 42,
+          "guide_half_cells": [
+            55,
+            25
+          ],
+          "lanes": 11,
+          "strong": false,
+          "F": [
+            1.3898366431483031,
+            1.0760589054235175
+          ],
+          "dose": [
+            0.1291037878374857,
+            -0.1829200614480283
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DNTTIP1",
+          "target_index": 47,
+          "guide_half_cells": [
+            257,
+            69
+          ],
+          "lanes": 23,
+          "strong": false,
+          "F": [
+            6.521894120207718,
+            9.493193810610451
+          ],
+          "dose": [
+            -0.2249586883007025,
+            0.09752110531908421
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "DVL3",
+          "target_index": 50,
+          "guide_half_cells": [
+            54,
+            46
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            2.0921076240206657,
+            4.110206788122002
+          ],
+          "dose": [
+            0.32854477957843425,
+            0.32513932223727593
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "MED15",
+          "target_index": 107,
+          "guide_half_cells": [
+            74,
+            57
+          ],
+          "lanes": 19,
+          "strong": false,
+          "F": [
+            3.526528987078565,
+            0.9794822712232898
+          ],
+          "dose": [
+            0.082217241586772,
+            -0.05102630359571312
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PCGF1",
+          "target_index": 135,
+          "guide_half_cells": [
+            193,
+            54
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            0.24261666433872453,
+            0.02175667023764577
+          ],
+          "dose": [
+            -0.07685571892811528,
+            -0.023460112817078323
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "PRKACA",
+          "target_index": 161,
+          "guide_half_cells": [
+            26,
+            40
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.24625732267239936,
+            0.024527190753294445
+          ],
+          "dose": [
+            0.031034749507955345,
+            0.0072557109102248905
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SLC39A1",
+          "target_index": 195,
+          "guide_half_cells": [
+            182,
+            97
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            0.46892818134704517,
+            1.1106576911793271
+          ],
+          "dose": [
+            -0.04538501327199048,
+            0.03151671702838008
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SRSF5",
+          "target_index": 207,
+          "guide_half_cells": [
+            61,
+            304
+          ],
+          "lanes": 20,
+          "strong": false,
+          "F": [
+            0.5820626043949156,
+            0.6662121770360566
+          ],
+          "dose": [
+            0.15754968785135887,
+            0.1805171567700679
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "SSR4",
+          "target_index": 208,
+          "guide_half_cells": [
+            96,
+            196
+          ],
+          "lanes": 24,
+          "strong": false,
+          "F": [
+            0.002144607831644261,
+            0.5554314957639443
+          ],
+          "dose": [
+            -0.0008641214244021017,
+            0.022799107109024032
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "THAP3",
+          "target_index": 225,
+          "guide_half_cells": [
+            40,
+            45
+          ],
+          "lanes": 12,
+          "strong": false,
+          "F": [
+            1.7278341963740163,
+            0.13830420792054632
+          ],
+          "dose": [
+            -0.1356136773105648,
+            0.06238214492242481
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "TWF2",
+          "target_index": 245,
+          "guide_half_cells": [
+            67,
+            75
+          ],
+          "lanes": 21,
+          "strong": false,
+          "F": [
+            0.10774941146283688,
+            3.2491070052549844
+          ],
+          "dose": [
+            -0.014790791948039499,
+            -0.08998854698279964
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZC3HAV1",
+          "target_index": 259,
+          "guide_half_cells": [
+            85,
+            111
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            0.012524788919978467,
+            0.886185150442153
+          ],
+          "dose": [
+            -0.03185305231141264,
+            -0.11121422594627385
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF16",
+          "target_index": 267,
+          "guide_half_cells": [
+            40,
+            52
+          ],
+          "lanes": 16,
+          "strong": false,
+          "F": [
+            0.0709501058753187,
+            0.0
+          ],
+          "dose": [
+            -0.09543582173876972,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF444",
+          "target_index": 279,
+          "guide_half_cells": [
+            56,
+            45
+          ],
+          "lanes": 17,
+          "strong": false,
+          "F": [
+            1.0596900310796789,
+            3.411992462293024
+          ],
+          "dose": [
+            -0.1596078642081654,
+            -0.832251918678953
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF496",
+          "target_index": 281,
+          "guide_half_cells": [
+            37,
+            24
+          ],
+          "lanes": 10,
+          "strong": false,
+          "F": [
+            0.0,
+            0.0
+          ],
+          "dose": [
+            0.0,
+            0.0
+          ],
+          "active_outputs": 0
+        },
+        {
+          "target": "ZNF627",
+          "target_index": 287,
+          "guide_half_cells": [
+            159,
+            75
+          ],
+          "lanes": 22,
+          "strong": false,
+          "F": [
+            1.993456243811243,
+            0.37203245493115916
+          ],
+          "dose": [
+            0.07074053228209073,
+            -0.09440422465794535
+          ],
+          "active_outputs": 0
+        }
+      ],
+      "active_targets": [],
+      "permuted_active_targets": []
+    }
+  ],
+  "strict_guide_contrast_active_targets": 0,
+  "source_only_negative_control_correction": true,
+  "all_corrected_nulls_abstain": true,
+  "query_checks": [
+    {
+      "recipient": "H1",
+      "source_sha256": "dddda3eeadc2477e0e4654f635781aded840e5c9459ed7a84f0683863cb88b16",
+      "all_arms_bitwise_V66": true
+    },
+    {
+      "recipient": "CD4_D3_Rest",
+      "source_sha256": "c6fd99a61c06c8e5f8f87325709a6e191d5e7000f781c82590a181ca659c3619",
+      "all_arms_bitwise_V66": true
+    }
+  ],
+  "new_populations_emitted": 0,
+  "new_submission_generated": false,
+  "reason": "Every corrected source target fails at least one prespecified strong-dose condition. No confidence available for any gene; all candidate corrections are exactly zero. Generating or uploading identical populations would not test a new prediction.",
+  "source_audit_sha256": "e2541b21f5459eb1c03e48e54f7c17fea9c4a8fcca186efa55398d5cb54c1b47",
+  "script_sha256": "ca6a3ae6f9157f06b716746c83d337ae2a25def9f27cadc5397e0f3f0a5fb361"
+}

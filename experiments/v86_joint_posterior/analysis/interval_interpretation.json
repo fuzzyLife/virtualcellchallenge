@@ -1,0 +1,8 @@
+{
+  "formula": "mixture_mean +/- 1.2815515655446004 * sqrt(mixture_variance)",
+  "interpretation": "Nominal80% normal-moment approximation, not exact central mixture quantiles and not calibrated coverage. Mixture weights are plug-in empirical-Bayes estimates.",
+  "original_plan_wording": "central80% posterior interval",
+  "clarification_only": true,
+  "code_parameters_predictions_and_decision_gates_unchanged": true,
+  "recorded_before_recipient_score_summary": true
+}

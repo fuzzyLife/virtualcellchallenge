@@ -1,0 +1,5 @@
+{
+  "reason": "The estimator uses log2(mean+0.1); the initial synthetic fixture generated an exact unshifted log relationship. Generate the specified shifted-log relationship instead; retain the original tolerance and estimator. No real source fit or recipient metric existed.",
+  "estimator_unchanged": true,
+  "thresholds_unchanged": true
+}

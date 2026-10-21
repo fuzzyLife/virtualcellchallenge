@@ -1,0 +1,40 @@
+{
+  "version": 86,
+  "primary": "interval25",
+  "hypothesis": "Learn a mixture of shared and context-dependent multivariate response priors, condition on each available measured source response and uncertainty, and project V66 toward a posterior interval for an unseen context.",
+  "novelty": "First covariance-mixture GP conditional response model in this project. Earlier scalar pooling/shrinkage averaged effects; V84 fitted a mean response operator on different essential targets. This model learns sharing patterns across the actual panel response coordinates and propagates conditional uncertainty. Independent mash-inspired adaptation, not mashr or a published CRISPR predictor reproduction.",
+  "sources": "Legacy measured K562,CD4,H1,HCT116,HEK293T responses and masks; same bounded90%-dose cube as V66. Convert to log1p(50000*proportion) response with derivative-propagated sampling variance floor0.0025. Every panel gene excluded as an output.",
+  "kernel": "Fixed common expressed nonpanel rank axis (>5CPM and finite in every allowed source), centered unit rank vectors. Source kernel0.8*exp(-(1-inner_product)/length)+0.2I; length0.05,0.2,1,4 or all-ones shared base. Query ranks use finite observed values with missing embedding coordinates zero (unknown centered-rank feature, not imputed RNA); >=90% measured required. Positive-semidefinite RBF embedding; query-specific0.2 variance remains unobserved.",
+  "mixture": "Null component plus four signal SDs0.025,0.1,0.4,1.0 times five kernels =21 covariance components. Fit mixture weights to20000 deterministic source target/output coordinates with>=2 valid sources, using exact small Gaussian marginal likelihood,100 EM updates or max weight change<1e-7,0.5 component pseudocount. Gene coordinates are dependent working-likelihood units, not independent biological replicates.",
+  "boundaries": "Whole H1,Orion(HCT116+HEK293T),or CD4(all states/donors) excluded from every training response, covariance fitting and conditioning. Query NTCs only for embedding, original V66 baseline, and inversion. D3 is reused after V84, not blind.",
+  "arms": "Primary interval25: project V66 assay response into central80% posterior interval, invert to LFC and apply quarter of bounded+/-0.5LFC correction. posterior25 uses posterior mean instead. shared25 independently fits mixture weights restricted to shared-kernel/null components and uses interval correction. interval25_shuffled refits the full prior with independently shifted source target labels and conditions on those shifted responses.",
+  "guard": "Original80% V66 identity-margin guard. Own/panel effects unchanged. Missing measured source entries abstain; entirely unsupported coordinates and insufficient query rank coverage return baseline exactly.",
+  "development": "All655 reused public pairs. Primary must lower equal-study profile error>=0.5%, worst-study<=1.03, PDS loss<=0.005, and beat both shared-only and refitted target-shuffled control profile error. All arms reported; no recipient-based selection or hyperparameter tuning.",
+  "counts": "Always test fixed primary, shared and refitted-shuffled control on original14-target D3 cohort, seed0, unchanged residual10 and matched400-cell templates/libraries/reference. Reuse14 previously validated V84 V66 baseline populations only after exact predictor/CPM/cohort/code equality checks. Emit42 new populations, independently replay all56. No duplicated cells or treated inputs for inference.",
+  "count_gates": "Profile error must not increase; PDS loss<=.005,FID loss<=.002,reach loss<=.005,JAC loss<=.0005,NMAE<=1.01baseline; >=3 endpoints improve and profile beats both controls. A second unchanged seed620000 only if development and first count gates all pass. No package otherwise.",
+  "automatic_upload": false,
+  "literature": [
+    {
+      "url": "https://www.nature.com/articles/s41588-018-0268-8",
+      "idea": "Multivariate adaptive shrinkage learns heterogeneous effect sharing; its genomic association benchmarks do not establish VCC performance."
+    },
+    {
+      "url": "https://stephenslab.github.io/mashr/",
+      "idea": "Author method documentation; software not executed."
+    }
+  ],
+  "code_sha256": {
+    "v86_joint_posterior.py": "f10e67affdf69930a7a72f04a24b93ee57466013e249ddda4d2effef68a966f9",
+    "run_v86_experiment.py": "295f50c17b5e1fd5707cead0693d73ddc5a6b88a89897eada82ed2db6e97d350",
+    "run_v86_counts.py": "fdcdb0e2f82d7faf1c8159a8d52b54e01942ad3cc24c87aa14be8dc4c2e7c824",
+    "test_v86_posterior.py": "db0c29ef64e6f7f754142e96894771029a7f403f48bacedcb0856f895f970614",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v66_assay_strength.py": "58641e4fbff478d76d7bb8582a680b5de20d4e08771cb98ebf9a654ac263fbcf",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321"
+}

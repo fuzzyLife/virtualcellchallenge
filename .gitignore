@@ -867,3 +867,21 @@ experiments/v84_intervention_operator/**/*.npy
 experiments/v84_intervention_operator/**/*.log
 experiments/v84_intervention_operator/**/*.h5ad
 experiments/v84_intervention_operator/**/*.vcc
+
+# V85 guide-dose contrasts
+experiments/v85_guide_contrast/**/*.npz
+experiments/v85_guide_contrast/**/*.npy
+experiments/v85_guide_contrast/**/*.log
+experiments/v85_guide_contrast/**/*.h5ad
+experiments/v85_guide_contrast/**/*.vcc
+
+# Regenerable V85 full cell-index fitting traces; compact summaries are tracked
+experiments/v85_guide_contrast/analysis/teachers/*.json
+experiments/v85_guide_contrast/analysis/linear_teachers/*.json
+
+# V86 covariance-mixture posterior
+experiments/v86_joint_posterior/**/*.npz
+experiments/v86_joint_posterior/**/*.npy
+experiments/v86_joint_posterior/**/*.log
+experiments/v86_joint_posterior/**/*.h5ad
+experiments/v86_joint_posterior/**/*.vcc

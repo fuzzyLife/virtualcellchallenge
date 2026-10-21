@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "interval25": {
+      "profile_ratio": 0.9962658392240081,
+      "pds_change": -0.0005362216827882923
+    },
+    "posterior25": {
+      "profile_ratio": 0.9896000071601826,
+      "pds_change": -0.011180625048269924
+    },
+    "shared25": {
+      "profile_ratio": 0.9959870930492585,
+      "pds_change": -0.0007526743073941004
+    },
+    "interval25_shuffled": {
+      "profile_ratio": 0.9933577466665237,
+      "pds_change": -0.009481509816564019
+    }
+  },
+  "studies": {
+    "interval25": {
+      "H1": {
+        "profile_ratio": 0.9947590825392032,
+        "pds_change": 0.0
+      },
+      "Orion": {
+        "profile_ratio": 0.9973072399471372,
+        "pds_change": -0.0016086650483648768
+      },
+      "CD4": {
+        "profile_ratio": 0.996731195185684,
+        "pds_change": 0.0
+      }
+    },
+    "posterior25": {
+      "H1": {
+        "profile_ratio": 0.9874325964516727,
+        "pds_change": -0.016666666666666496
+      },
+      "Orion": {
+        "profile_ratio": 0.9904101769499041,
+        "pds_change": -0.007032536231378894
+      },
+      "CD4": {
+        "profile_ratio": 0.9909572480789712,
+        "pds_change": -0.009842672246764383
+      }
+    },
+    "shared25": {
+      "H1": {
+        "profile_ratio": 0.9946901797551986,
+        "pds_change": 0.0
+      },
+      "Orion": {
+        "profile_ratio": 0.9964128296004917,
+        "pds_change": -0.002258022922182301
+      },
+      "CD4": {
+        "profile_ratio": 0.9968582697920851,
+        "pds_change": 0.0
+      }
+    },
+    "interval25_shuffled": {
+      "H1": {
+        "profile_ratio": 0.9924771279214452,
+        "pds_change": -0.015000000000000013
+      },
+      "Orion": {
+        "profile_ratio": 0.9922759020105021,
+        "pds_change": -0.009240080871841916
+      },
+      "CD4": {
+        "profile_ratio": 0.9953202100676237,
+        "pds_change": -0.004204448577850128
+      }
+    }
+  },
+  "records": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "pairs": 25,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.0036538292212062308,
+          "pds": 0.725
+        },
+        "interval25": {
+          "profile_MSE": 0.0036346798038420416,
+          "pds": 0.725
+        },
+        "posterior25": {
+          "profile_MSE": 0.0036079100748866617,
+          "pds": 0.7083333333333335
+        },
+        "shared25": {
+          "profile_MSE": 0.003634428044836423,
+          "pds": 0.725
+        },
+        "interval25_shuffled": {
+          "profile_MSE": 0.0036263419313782106,
+          "pds": 0.71
+        }
+      }
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "pairs": 282,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.005349075917751429,
+          "pds": 0.5888670149668105
+        },
+        "interval25": {
+          "profile_MSE": 0.005337972307349469,
+          "pds": 0.5872138512405037
+        },
+        "posterior25": {
+          "profile_MSE": 0.005308860277776349,
+          "pds": 0.582077686075566
+        },
+        "shared25": {
+          "profile_MSE": 0.005334055579759506,
+          "pds": 0.5867090684233108
+        },
+        "interval25_shuffled": {
+          "profile_MSE": 0.005315469969989922,
+          "pds": 0.580020696095505
+        }
+      }
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "pairs": 291,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.004174897363511345,
+          "pds": 0.6192913852352174
+        },
+        "interval25": {
+          "profile_MSE": 0.004161079620684587,
+          "pds": 0.6177272188647944
+        },
+        "posterior25": {
+          "profile_MSE": 0.004126212192619325,
+          "pds": 0.6120156416637041
+        },
+        "shared25": {
+          "profile_MSE": 0.004156668442481949,
+          "pds": 0.6169332859343525
+        },
+        "interval25_shuffled": {
+          "profile_MSE": 0.004136631818799477,
+          "pds": 0.6096575423628391
+        }
+      }
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "pairs": 23,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.005273287815358413,
+          "pds": 0.5869565217391305
+        },
+        "interval25": {
+          "profile_MSE": 0.005254863584924321,
+          "pds": 0.5869565217391305
+        },
+        "posterior25": {
+          "profile_MSE": 0.005220956274072887,
+          "pds": 0.5770750988142292
+        },
+        "shared25": {
+          "profile_MSE": 0.005255641464476434,
+          "pds": 0.5869565217391305
+        },
+        "interval25_shuffled": {
+          "profile_MSE": 0.005245482451389122,
+          "pds": 0.58300395256917
+        }
+      }
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "pairs": 34,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.008333432144909513,
+          "pds": 0.5320855614973262
+        },
+        "interval25": {
+          "profile_MSE": 0.008308067423631285,
+          "pds": 0.5320855614973262
+        },
+        "posterior25": {
+          "profile_MSE": 0.00826541791041459,
+          "pds": 0.5222816399286987
+        },
+        "shared25": {
+          "profile_MSE": 0.008308956067620901,
+          "pds": 0.5320855614973262
+        },
+        "interval25_shuffled": {
+          "profile_MSE": 0.008299375830053739,
+          "pds": 0.5276292335115864
+        }
+      }
+    }
+  ],
+  "checks": {
+    "profile": false,
+    "worst_study": true,
+    "pds": true,
+    "beats_shared": false,
+    "beats_shuffle": false
+  },
+  "passes": false,
+  "primary": "interval25",
+  "pairs": 655,
+  "scope": "655 reused public target/context pairs. Equal-study means, no private score or independent biology claim."
+}

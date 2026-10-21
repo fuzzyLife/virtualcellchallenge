@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "outer": "H1",
+      "shuffled": false,
+      "model_sha256": "27e7a7bc9f36ea3c2c400b3941379ccd949e58d6399f702ffcef323a73333c9a",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.003621662500125633
+    },
+    {
+      "outer": "H1",
+      "shuffled": true,
+      "model_sha256": "1fb70be2f4a4594752609dd49e6a6480d8672a1522909d78dc9984d5c1e7b233",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.003626738614615377
+    },
+    {
+      "outer": "Orion",
+      "shuffled": false,
+      "model_sha256": "5f5075178a69393fce7a631b857de0614b65bb6d86503d7febf5798a95bd8da8",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.0031008758361765754
+    },
+    {
+      "outer": "Orion",
+      "shuffled": true,
+      "model_sha256": "4c44b1eaabccc0c968a2aa1307c0bc65fa9be0f9b49f93e6524a8af4eae25ba1",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.003193599204238118
+    },
+    {
+      "outer": "CD4",
+      "shuffled": false,
+      "model_sha256": "0270c69dc5714f9f24f9f51ac554ee49b69e2a42ac3210edd667f5ef6517ab36",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.0011520106787505924
+    },
+    {
+      "outer": "CD4",
+      "shuffled": true,
+      "model_sha256": "784c263b890657b4bc75ba56ad9ed9cf22ddbcee7cc7433ebdbff5cf562c8cc4",
+      "fitting_coordinates": 20000,
+      "likelihood_coordinates_checked": 24,
+      "posterior_coordinates_checked": 8,
+      "EM_iterations": 100,
+      "final_weight_change": 0.0011929718845125614
+    }
+  ],
+  "predictions": [
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/CD4_D3_Rest.npz",
+      "sha256": "e6f34713d7fa7a591bde8fc2709e23b6ab51aef8710147741646e1198b54970e"
+    },
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/CD4_Rest_D1.npz",
+      "sha256": "c2dce6c3bec1e04c797741efbdaf3508995ce1f14250a25537476eb5fbf2c6ad"
+    },
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/CD4_Stim48_D2.npz",
+      "sha256": "6c2ebc4cc50fa8259315ad1039c787d5aa58810c62891a9c38e6da0bf4f72cac"
+    },
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/H1.npz",
+      "sha256": "3b242ea57f65f6e0c02fbf9e3391fcb43c45fed19ec24505107c3c18ce8913d7"
+    },
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/HCT116.npz",
+      "sha256": "bf50bc27191cc2418ce7f2e3317dcce33aa1b35b9e98c72e7919a5bacb932f88"
+    },
+    {
+      "path": "experiments/v86_joint_posterior/analysis/predictions/HEK293T.npz",
+      "sha256": "536c132afb70dcce930794cb89c812562a5f2fa14ae0dd9345d425079e635c4e"
+    }
+  ],
+  "whole_recipient_study_poison_has_no_effect": true,
+  "all_source_covariances_PSD": true,
+  "Gaussian_likelihoods_checked_against_scipy": true,
+  "conditional_posterior_checked_by_direct_solves": true,
+  "unseen_context_idiosyncratic_variance_retained": true,
+  "all_realized_identity_margins_replayed": true,
+  "auditor_sha256": "099d7c4575cd534cacd26f7dda725a20eaaacbfe634668b2ffdedfa0934f63cc"
+}

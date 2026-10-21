@@ -371,3 +371,15 @@
 /experiments/v83*/analysis/author_code/** -text -whitespace
 /experiments/v83*/analysis/engineering_history/** -text -whitespace
 /experiments/v84*/analysis/engineering_history/** -text -whitespace
+
+# V85 frozen scientific bytes
+/*v85*.py -text whitespace=cr-at-eol
+/V85*.md -text whitespace=cr-at-eol
+/experiments/v85*/analysis/** -text whitespace=cr-at-eol
+/experiments/v85*/analysis/engineering_history/** -text -whitespace
+
+# V86 frozen scientific bytes
+/*v86*.py -text whitespace=cr-at-eol
+/V86*.md -text whitespace=cr-at-eol
+/experiments/v86*/analysis/** -text whitespace=cr-at-eol
+/experiments/v86*/analysis/engineering_history/** -text -whitespace

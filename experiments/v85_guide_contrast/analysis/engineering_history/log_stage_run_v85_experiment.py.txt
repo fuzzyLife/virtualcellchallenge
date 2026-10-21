@@ -1,0 +1,60 @@
+"""Fixed V85 source fitting, donor-aware prediction and broad public response test."""
+import argparse,gc
+import numpy as np
+from threadpoolctl import threadpool_limits
+import v85_guide_contrast as m
+from v57_pie import read,write,sha
+from evaluate_v77 import profiles
+from audit_transfer_validation import pds
+
+CONTEXTS=('H1','HCT116','HEK293T','CD4_Rest_D1')
+
+def freeze():
+    assert not (m.A/'plan.json').exists()
+    names=['v85_guide_contrast.py','run_v85_experiment.py','run_v85_counts.py','test_v85_contrast.py','v25_methods.py','v66_assay_strength.py','v63_identity_guard.py','v16_methods.py','v12_cpu_metrics.py','v8_methods.py']
+    write(m.A/'plan.json',dict(version=85,hypothesis='Between-guide contrasts at the same targeted gene and lane remove guide-shared response components. Split-sample dose ratios estimate an on-target response slope rather than averaging complete treatment effects.',novelty='V31 pooled guide effects and uncertainties; V85 uses guide-to-guide response differences, an independent own-RNA first stage, an intercept-cancelling contrast, weak-dose abstention and conservative ratio uncertainty. This is an independent two-sample Wald-inspired predictor, not an identified causal effect or a reproduction of inspre/RICE.',sources=list(m.CONDITIONS),source_eligibility='Exactly two assigned guide identities, >=2 shared lanes with >=4 cells each guide and >=20 NTCs; >=15 cells per guide per half across retained lanes. Within guide/lane, deterministic random halves of equal size; odd leftover cells omitted. Same harmonic cell-count lane weights for dose, response and both halves.',estimator='Aggregate within-lane guide1-minus-guide2 log2CPM differences with0.1 offset. Own-RNA dose estimated in opposite cell half to each trans-response contrast. Require both dose signs equal, each abs>=0.25log2 and F>=10, own control>5CPM. Average log2(.1)*response_B/dose_A and reverse. Delta-method variances use disjoint halves; maximal covariance bound plus split disagreement and0.0025 variance floor. Fixed0.25log2 signal-SD reliability. Nonpanel outputs expressed>5CPM only.',uncertainty_scope='Approximate finite-sample uncertainty and heuristic F screen, not a calibrated weak-IV test. Shared control/lane biology and off-target guide effects can violate exclusion. Binary assignment is not assumed randomized after cell survival.',prediction='Fixed quarter-strength reliability-weighted bounded+/-0.5log2 correction to study-excluded V66; own/panel effects unchanged. Existing80% identity guard; inactive rows exact baseline. Two source conditions weighted by nonpanel pairwise-valid NTC Spearman exp4rho. No query treatment values used.',controls='Pooled guide mean with original bounded dose normalization and exactly the primary output confidence; guide labels permuted within target/lane and re-estimated; cyclic target derangement restricted to supported targets.',recipient_boundaries='H1 excluded, HCT116+HEK293T jointly excluded from V66 baseline; D1/D3 baseline excludes all CD4 summaries, while new teacher explicitly uses D2 and is donor transfer, NOT unseen-lineage/whole-CD4 exclusion. D2 query recipients abstain. D3 is now a reused donor after V84, not blind.',development='621 existing broad pairs (655 minus34 training-donor stimulated pairs). Require >=0.5% lower equal-study profile error, >=1% lower changed-target profile error, worst-study<=1.02, PDS loss<=0.005 on both full/affected panels, and better full/affected profile error than pooled and target-permuted controls. No tuning or model/strength selection from these outcomes.',counts='Primary diagnostic always: up to2 hash-first active targets per H1,HCT116,HEK293T,D1,D3 from metadata with>=200 actual cells and matching distinct NTC templates. Use400 if possible, otherwise available>=200; never duplicate cells. Count cohort frozen before scoring. Same seed/templates/library totals/residual10 for V66, contrast25, pooled25,target_permuted25. Guide-permuted response evaluated in means. One seed; a second seed only if original mean and count requirements all pass.',count_gates='Profile error must not rise; PDS loss<=0.005,FID loss<=0.002,reach loss<=0.005,JAC loss<=0.0005,NMAE<=1.01 when available; >=3 endpoints improve, beats pooled and target-permuted profile error. Every tested context reported; insufficient/undefined endpoints fail qualification. No hidden anchor conversion.',release='No package or upload unless both development and count gates pass and a separately confirmed second seed supports them. Novelty alone does not qualify.',literature=[dict(url='https://pmc.ncbi.nlm.nih.gov/articles/PMC12579002/',idea='Guide interventions as instruments; proposed transfer adaptation does not fit the paper causal network.'),dict(url='https://github.com/HowardGech/RICE',idea='Instrument/control-function motivation only; no RICE model or checkpoint executed.')],code_sha256={n:sha(m.ROOT/n) for n in names},automatic_upload=False))
+    print('V85 protocol frozen',flush=True)
+
+def prepare():
+    m.check();dest=m.A/'predictions';dest.mkdir(exist_ok=True)
+    for name in CONTEXTS:
+        p=m.ROOT/'experiments/v66_assay_strength/analysis/predictions'/(name+'.npz');assert sha(p)==read(p.with_suffix('.json'))['sha256']
+        with np.load(p,allow_pickle=False) as z:query=z['query'].copy();bulk=z['bulk'].copy();base=z['assay75'].copy()
+        prediction,trace=m.predict(query,base,bulk,name);path=dest/(name+'.npz');assert not path.exists();np.savez_compressed(path,query=query,bulk=bulk,v66=base,**prediction)
+        write(path.with_suffix('.json'),dict(sha256=sha(path),trace=trace,V66_source_sha256=sha(p),script_sha256=sha(__file__),recipient=name,scope='CD4 D1 is donor transfer with D2 teacher; H1/Orion are cross-study.'))
+        print('V85 predicted',name,len(trace['contrast25']['changed_targets']),flush=True);gc.collect()
+    p=m.ROOT/'experiments/v84_intervention_operator/analysis/donor_predictions.npz';assert sha(p)==read(p.with_suffix('.json'))['sha256']
+    with np.load(p,allow_pickle=False) as z:query=z['query'].copy();bulk=z['bulk'].copy();base=z['v66'].copy()
+    prediction,trace=m.predict(query,base,bulk,'CD4_D3_Rest');path=dest/'CD4_D3_Rest.npz';assert not path.exists();np.savez_compressed(path,query=query,bulk=bulk,v66=base,**prediction)
+    write(path.with_suffix('.json'),dict(sha256=sha(path),trace=trace,V66_source_sha256=sha(p),script_sha256=sha(__file__),recipient='CD4_D3_Rest',scope='Reused D3 donor transfer using D2 teacher; no new blind claim.'))
+
+def means():
+    m.check();d=m.data();genes=d['genes'];targets=d['targets'];own=np.array([list(genes).index(t) for t in targets]);arms=('v66',)+m.ARMS;records=[]
+    for name in CONTEXTS:
+        p=m.A/'predictions'/(name+'.npz');assert sha(p)==read(p.with_suffix('.json'))['sha256']
+        with np.load(p,allow_pickle=False) as z:
+            base=z['v66'].copy();bulk=z['bulk'].copy();effect={a:z[a].copy() for a in arms};pred={a:profiles(effect[a],bulk,own) for a in arms}
+        path=m.ROOT/'experiments/v77_common_response/analysis/truth_bank'/(name+'.npz');assert sha(path)==read(path.with_suffix('.json'))['sha256']
+        with np.load(path,allow_pickle=False) as z:bank={k:z[k].copy() for k in z.files}
+        ti=bank['target_indices'];changed=np.any(effect['contrast25'][ti]!=base[ti],axis=1);scores={};axis=bank['measured']&~np.isin(genes,targets)
+        for arm in arms:
+            errors=[]
+            for i,t in enumerate(ti):
+                mask=bank['measured'].copy();mask[own[t]]=False;errors.append(float(np.mean((pred[arm][t,mask]-bank['truth'][i,mask])**2)))
+            scores[arm]=dict(profile_MSE=float(np.mean(errors)),affected_profile_MSE=float(np.mean(np.array(errors)[changed])) if changed.any() else None,pds=pds(pred[arm][ti][:,axis],bank['truth'][:,axis],bank['control'][axis]),affected_pds=pds(pred[arm][ti[changed]][:,axis],bank['truth'][changed][:,axis],bank['control'][axis]) if changed.sum()>=2 else None)
+        records.append(dict(source=name,study='Orion' if name in ['HCT116','HEK293T'] else 'CD4' if name.startswith('CD4') else 'H1',pairs=len(ti),affected=int(changed.sum()),scores=scores));print('V85 mean',name,'affected',int(changed.sum()),flush=True)
+    studies={};summary={}
+    for arm in arms[1:]:
+        studies[arm]={}
+        for group in ['H1','Orion','CD4']:
+            rows=[r for r in records if r['study']==group];valid=[r for r in rows if r['scores']['v66']['affected_profile_MSE'] is not None];pd=[r for r in rows if r['scores']['v66']['affected_pds'] is not None]
+            studies[arm][group]=dict(profile_ratio=float(np.mean([r['scores'][arm]['profile_MSE']/r['scores']['v66']['profile_MSE'] for r in rows])),affected_profile_ratio=float(np.mean([r['scores'][arm]['affected_profile_MSE']/r['scores']['v66']['affected_profile_MSE'] for r in valid])) if valid else None,pds_change=float(np.mean([r['scores'][arm]['pds']-r['scores']['v66']['pds'] for r in rows])),affected_pds_change=float(np.mean([r['scores'][arm]['affected_pds']-r['scores']['v66']['affected_pds'] for r in pd])) if pd else None)
+        summary[arm]={key:float(np.mean([v[key] for v in studies[arm].values()])) if all(v[key] is not None for v in studies[arm].values()) else None for key in ['profile_ratio','affected_profile_ratio','pds_change','affected_pds_change']}
+    primary=summary['contrast25'];checks=dict(profile=primary['profile_ratio']<=.995,affected_profile=primary['affected_profile_ratio'] is not None and primary['affected_profile_ratio']<=.99,worst_study=max(v['profile_ratio'] for v in studies['contrast25'].values())<=1.02,pds=primary['pds_change']>=-.005,affected_pds=primary['affected_pds_change'] is not None and primary['affected_pds_change']>=-.005)
+    for control in ['pooled25','target_permuted25']:checks['beats_'+control]=all(primary[k] is not None and summary[control][k] is not None and primary[k]<summary[control][k] for k in ['profile_ratio','affected_profile_ratio'])
+    write(m.A/'mean_results.json',dict(records=records,studies=studies,summary=summary,checks=checks,passes=all(checks.values()),pairs=sum(r['pairs'] for r in records),primary='contrast25',no_candidate_selection=True,scope='Reused public biology; CD4 D1 donor transfer is explicitly different from whole-lineage exclusion. D2 treatment validation is omitted.'))
+    print('V85 mean checks',checks,flush=True)
+
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('stage',choices=['freeze','fit','prepare','means']);a=p.parse_args()
+    with threadpool_limits(limits=2):{'freeze':freeze,'fit':m.fit,'prepare':prepare,'means':means}[a.stage]()

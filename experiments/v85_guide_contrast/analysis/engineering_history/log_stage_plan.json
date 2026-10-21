@@ -1,0 +1,42 @@
+{
+  "version": 85,
+  "hypothesis": "Between-guide contrasts at the same targeted gene and lane remove guide-shared response components. Split-sample dose ratios estimate an on-target response slope rather than averaging complete treatment effects.",
+  "novelty": "V31 pooled guide effects and uncertainties; V85 uses guide-to-guide response differences, an independent own-RNA first stage, an intercept-cancelling contrast, weak-dose abstention and conservative ratio uncertainty. This is an independent two-sample Wald-inspired predictor, not an identified causal effect or a reproduction of inspre/RICE.",
+  "sources": [
+    "CD4_Rest_D2",
+    "CD4_Stim48_D2"
+  ],
+  "source_eligibility": "Exactly two assigned guide identities, >=2 shared lanes with >=4 cells each guide and >=20 NTCs; >=15 cells per guide per half across retained lanes. Within guide/lane, deterministic random halves of equal size; odd leftover cells omitted. Same harmonic cell-count lane weights for dose, response and both halves.",
+  "estimator": "Aggregate within-lane guide1-minus-guide2 log2CPM differences with0.1 offset. Own-RNA dose estimated in opposite cell half to each trans-response contrast. Require both dose signs equal, each abs>=0.25log2 and F>=10, own control>5CPM. Average log2(.1)*response_B/dose_A and reverse. Delta-method variances use disjoint halves; maximal covariance bound plus split disagreement and0.0025 variance floor. Fixed0.25log2 signal-SD reliability. Nonpanel outputs expressed>5CPM only.",
+  "uncertainty_scope": "Approximate finite-sample uncertainty and heuristic F screen, not a calibrated weak-IV test. Shared control/lane biology and off-target guide effects can violate exclusion. Binary assignment is not assumed randomized after cell survival.",
+  "prediction": "Fixed quarter-strength reliability-weighted bounded+/-0.5log2 correction to study-excluded V66; own/panel effects unchanged. Existing80% identity guard; inactive rows exact baseline. Two source conditions weighted by nonpanel pairwise-valid NTC Spearman exp4rho. No query treatment values used.",
+  "controls": "Pooled guide mean with original bounded dose normalization and exactly the primary output confidence; guide labels permuted within target/lane and re-estimated; cyclic target derangement restricted to supported targets.",
+  "recipient_boundaries": "H1 excluded, HCT116+HEK293T jointly excluded from V66 baseline; D1/D3 baseline excludes all CD4 summaries, while new teacher explicitly uses D2 and is donor transfer, NOT unseen-lineage/whole-CD4 exclusion. D2 query recipients abstain. D3 is now a reused donor after V84, not blind.",
+  "development": "621 existing broad pairs (655 minus34 training-donor stimulated pairs). Require >=0.5% lower equal-study profile error, >=1% lower changed-target profile error, worst-study<=1.02, PDS loss<=0.005 on both full/affected panels, and better full/affected profile error than pooled and target-permuted controls. No tuning or model/strength selection from these outcomes.",
+  "counts": "Primary diagnostic always: up to2 hash-first active targets per H1,HCT116,HEK293T,D1,D3 from metadata with>=200 actual cells and matching distinct NTC templates. Use400 if possible, otherwise available>=200; never duplicate cells. Count cohort frozen before scoring. Same seed/templates/library totals/residual10 for V66, contrast25, pooled25,target_permuted25. Guide-permuted response evaluated in means. One seed; a second seed only if original mean and count requirements all pass.",
+  "count_gates": "Profile error must not rise; PDS loss<=0.005,FID loss<=0.002,reach loss<=0.005,JAC loss<=0.0005,NMAE<=1.01 when available; >=3 endpoints improve, beats pooled and target-permuted profile error. Every tested context reported; insufficient/undefined endpoints fail qualification. No hidden anchor conversion.",
+  "release": "No package or upload unless both development and count gates pass and a separately confirmed second seed supports them. Novelty alone does not qualify.",
+  "literature": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12579002/",
+      "idea": "Guide interventions as instruments; proposed transfer adaptation does not fit the paper causal network."
+    },
+    {
+      "url": "https://github.com/HowardGech/RICE",
+      "idea": "Instrument/control-function motivation only; no RICE model or checkpoint executed."
+    }
+  ],
+  "code_sha256": {
+    "v85_guide_contrast.py": "a0364d405a8f1d8758d94f14317b0962a235f28947d1b466703389b4c1e5b7d4",
+    "run_v85_experiment.py": "65f04974e79b4f46dcc54048b7314da72d537b055404518ccb00f0586a8dd3c3",
+    "run_v85_counts.py": "5998f016721762cd3d6c34a76f23166cebf5ba57623341ebe5ab153c07b2d38f",
+    "test_v85_contrast.py": "7c9f818dfc52ee1b81817dafb0a5859e8f591eae126e4b911ed805e20a6de363",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v66_assay_strength.py": "58641e4fbff478d76d7bb8582a680b5de20d4e08771cb98ebf9a654ac263fbcf",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "automatic_upload": false
+}

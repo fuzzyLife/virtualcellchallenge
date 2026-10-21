@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "frozen_code_paths": [
+    "run_v85_counts.py",
+    "run_v85_experiment.py",
+    "run_v86_counts.py",
+    "run_v86_experiment.py",
+    "test_v85_contrast.py",
+    "test_v86_posterior.py",
+    "v12_cpu_metrics.py",
+    "v15_ensemble_methods.py",
+    "v16_methods.py",
+    "v25_methods.py",
+    "v62_conserved_response.py",
+    "v63_identity_guard.py",
+    "v66_assay_strength.py",
+    "v85_guide_contrast.py",
+    "v86_joint_posterior.py",
+    "v8_methods.py"
+  ],
+  "staged_paths": 115,
+  "large_generated_arrays_and_repeated_full_traces_excluded": true,
+  "root_script_syntax_checked": true,
+  "README_history_bytes_preserved": true,
+  "whitespace_check_passed": true,
+  "auditor_sha256": "f59f2424e2436df2b2dc2121e4b46b774582cbe902bd19ecb78368aae15210e2"
+}

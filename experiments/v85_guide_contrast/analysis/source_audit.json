@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "condition": "CD4_Rest_D2",
+      "source_sha256": "5829b6b0e6658e9413dc07149cc12f7699a3dcb04a581e34df430bfab9c62f0b",
+      "targets": 19,
+      "active_targets": [],
+      "permuted_active_targets": [],
+      "raw_statistic_replay_targets": [
+        "TRAPPC6A",
+        "TWF2"
+      ]
+    },
+    {
+      "condition": "CD4_Stim48_D2",
+      "source_sha256": "bafde33b6825d908d118cc638851cf5fa8de8012077cda1db9b11a0ce9931343",
+      "targets": 18,
+      "active_targets": [],
+      "permuted_active_targets": [],
+      "raw_statistic_replay_targets": [
+        "TWF2",
+        "ZNF444"
+      ]
+    }
+  ],
+  "all_ratio_estimates_replayed": true,
+  "raw_count_normalization_replayed": true,
+  "all_source_cell_halves_disjoint": true,
+  "original_source_and_plan_preserved": true,
+  "auditor_sha256": "e296e624a9eafc0c3ddaf0b23f9be06eecbfbec03a5310c9f182120784609a0f"
+}

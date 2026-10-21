@@ -1,0 +1,148 @@
+"""V85: split-sample guide-dose contrasts; independent predictive pilot, not identified causality."""
+from pathlib import Path
+from functools import lru_cache
+import hashlib, gc
+import numpy as np
+from scipy import sparse
+from v57_pie import read, write, sha
+from fit_v7_response import read_cache
+from v25_methods import raw
+from v63_identity_guard import guard
+from analyze_target_rank_correlations import pairwise_spearman
+
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/'experiments/v85_guide_contrast'
+A=OUT/'analysis'
+CONDITIONS=('CD4_Rest_D2','CD4_Stim48_D2')
+ARMS=('contrast25','pooled25','guide_permuted25','target_permuted25')
+
+@lru_cache(1)
+def data():
+    return read_cache()
+
+def seed(name):
+    return int(hashlib.sha256(('v85:'+name).encode()).hexdigest()[:8],16)
+
+def aggregate(norm, ids):
+    z=norm[ids]
+    mean=np.asarray(z.mean(0)).ravel()
+    variance=np.maximum(np.asarray(z.power(2).mean(0)).ravel()-mean*mean,0)/max(len(ids)-1,1)
+    return mean,variance
+
+def estimate(dose, dose_variance, response, response_variance):
+    """Two-sample Wald ratios, conservative uncertainty, and weak-dose abstention."""
+    dose=np.asarray(dose,float)
+    dose_variance=np.asarray(dose_variance,float)
+    response=np.asarray(response,float)
+    response_variance=np.asarray(response_variance,float)
+    f=dose*dose/np.maximum(dose_variance,1e-12)
+    strong=bool(np.isfinite(dose).all() and np.sign(dose[0])==np.sign(dose[1]) and np.min(abs(dose))>=.15 and np.min(f)>=10)
+    if not strong:
+        return np.zeros(response.shape[1]),np.zeros(response.shape[1]),dict(strong=False,F=f.tolist(),dose=dose.tolist())
+    goal=-.9
+    # Dose and trans response in each ratio use disjoint cell halves.
+    effects=np.array([goal*response[1]/dose[0],goal*response[0]/dose[1]])
+    variance=np.array([goal**2*(np.sqrt(response_variance[1])/abs(dose[0])+abs(response[1])*np.sqrt(dose_variance[0])/dose[0]**2)**2,goal**2*(np.sqrt(response_variance[0])/abs(dose[1])+abs(response[0])*np.sqrt(dose_variance[1])/dose[1]**2)**2])
+    # Ratios can correlate. Use the maximal covariance bound rather than SE/sqrt(2).
+    fraction=effects.mean(0)
+    derivative=1/(np.log(2)*np.maximum(1+fraction,.125))
+    uncertainty=(.25*(np.sqrt(variance[0])+np.sqrt(variance[1]))**2+.25*(effects[0]-effects[1])**2)*derivative**2+.0025
+    confidence=.25**2/(.25**2+uncertainty)
+    confidence*=np.sign(effects[0])==np.sign(effects[1])
+    effect=np.clip(np.log2(np.maximum(1+fraction,.125)),-3,3)
+    return effect,confidence,dict(strong=True,F=f.tolist(),dose=dose.tolist())
+
+def fit_groups(norm,meta,measured,permuted=False):
+    d=data();genes=d['genes'];targets=d['targets'];label=meta.gene_target.to_numpy(str);lane=meta['sample'].to_numpy(str);guide=meta.guide_id.to_numpy(str).copy()
+    if permuted:
+        for target in sorted(set(label)-{'Non-Targeting'}):
+            for name in sorted(set(lane[label==target])):
+                ids=np.flatnonzero((label==target)&(lane==name))
+                guide[ids]=guide[np.random.default_rng(seed(target+name+'shuffle')).permutation(ids)]
+    controls={}
+    for name in sorted(set(lane[label=='Non-Targeting'])):
+        ids=np.flatnonzero((label=='Non-Targeting')&(lane==name))
+        if len(ids)>=20:controls[name]=(aggregate(norm,ids),ids)
+    ntc=np.concatenate([r[1] for r in controls.values()]);profile=aggregate(norm,ntc)[0];profile[~measured]=np.nan
+    effect=np.zeros((len(targets),len(genes)),np.float32);confidence=np.zeros_like(effect);pooled=np.zeros_like(effect);records=[];statistics={};nonpanel=~np.isin(genes,targets)
+    for ti,target in enumerate(targets):
+        gids=sorted(g for g in set(guide[label==target]) if g not in ['', 'nan','None','<NA>'])
+        if len(gids)!=2:continue
+        own=list(genes).index(target);parts=[];row_records=[];halfn=np.zeros(2,int)
+        for name in sorted(controls):
+            ids=[np.flatnonzero((label==target)&(guide==g)&(lane==name)) for g in gids]
+            if min(map(len,ids))<4:continue
+            half=[];used=[]
+            for gi,rows in enumerate(ids):
+                rows=np.random.default_rng(seed(target+name+gids[gi])).permutation(rows);n=len(rows)//2
+                halves=[rows[:n],rows[n:2*n]];half.append([aggregate(norm,r) for r in halves]);used.append([r.tolist() for r in halves]);halfn[gi]+=n
+            n1=len(used[0][0]);n2=len(used[1][0]);weight=n1*n2/(n1+n2)
+            baseline,control_var=controls[name][0]
+            yy=[];vv=[];pm=[];pv=[]
+            for h in range(2):
+                u,vu=half[0][h];v,vv0=half[1][h]
+                yy.append(u-v)
+                vv.append(vu+vv0)
+                mu=(n1*u+n2*v)/(n1+n2);var=(n1*n1*vu+n2*n2*vv0)/(n1+n2)**2
+                pm.append(mu);pv.append(var)
+            parts.append(dict(weight=weight,y=np.array(yy),v=np.array(vv),base=baseline,pooled=np.mean(pm,axis=0),pooled_var=.25*(np.sqrt(pv[0])+np.sqrt(pv[1]))**2,control_var=control_var))
+            row_records.append(dict(lane=name,guides=gids,halves=used,NTC_rows=controls[name][1].tolist()))
+        if len(parts)<2 or halfn.min()<15:continue
+        w=np.array([p['weight'] for p in parts]);w/=w.sum()
+        y=np.einsum('l,lhg->hg',w,np.array([p['y'] for p in parts]));var=np.einsum('l,lhg->hg',w*w,np.array([p['v'] for p in parts]));base=np.einsum('l,lg->g',w,np.array([p['base'] for p in parts]));pm=np.einsum('l,lg->g',w,np.array([p['pooled'] for p in parts]))
+        raw_y=y.copy();raw_var=var.copy();control_var=np.einsum('l,lg->g',w*w,np.array([p['control_var'] for p in parts]))
+        y=np.divide(raw_y,base[None,:],out=np.zeros_like(raw_y),where=base[None,:]>0)
+        var=np.divide(raw_var,base[None,:]**2,out=np.zeros_like(raw_var),where=base[None,:]>0)+np.divide(raw_y**2*control_var[None,:],base[None,:]**4,out=np.zeros_like(raw_y),where=base[None,:]>0)
+        e,c,diag=estimate(y[:,own],var[:,own],y,var)
+        eligible=measured&nonpanel&(base>5);c[~eligible]=0
+        if base[own]<=5:c[:]=0;diag['own_under_5CPM']=True
+        kd=float(np.clip(1-(pm[own]+.1)/(base[own]+.1),0,.99));gain=float(np.clip(.9/max(kd,.35),.8,1.8))
+        pe=np.clip(gain*np.log2((pm+.1)/(base+.1)),-3,3);e[~eligible]=0;pe[~eligible]=0
+        effect[ti]=e;confidence[ti]=c;pooled[ti]=pe
+        statistics[str(ti)+'_raw_y']=raw_y;statistics[str(ti)+'_raw_variance']=raw_var;statistics[str(ti)+'_control_variance']=control_var;statistics[str(ti)+'_y']=y;statistics[str(ti)+'_variance']=var;statistics[str(ti)+'_base']=base;statistics[str(ti)+'_pooled_mean']=pm
+        records.append(dict(target=str(target),target_index=ti,own=own,guide_half_cells=halfn.tolist(),lanes=len(parts),lane_weights=w.tolist(),rows=row_records,**diag,active_outputs=int((c>0).sum()),dose_gain_for_pooled=gain))
+    return dict(effect=effect,confidence=confidence,pooled=pooled,profile=profile),records,statistics
+
+def fit():
+    check();dest=A/'linear_teachers';dest.mkdir(exist_ok=True)
+    for ci,condition in enumerate(CONDITIONS):
+        path=dest/(condition+'.npz');assert not path.exists()
+        x,meta,measured,receipt=raw(condition,data()['genes']);depth=np.asarray(x.sum(1)).ravel();assert (depth>0).all();norm=x.astype(float).multiply((1e6/depth)[:,None]).tocsr()
+        real,records,statistics=fit_groups(norm,meta,measured);fake,fake_records,fake_statistics=fit_groups(norm,meta,measured,True)
+        np.savez_compressed(path,**real,permuted_effect=fake['effect'],permuted_confidence=fake['confidence'])
+        stats_path=dest/(condition+'_statistics.npz');np.savez_compressed(stats_path,**statistics,**{'permuted_'+k:v for k,v in fake_statistics.items()})
+        write(path.with_suffix('.json'),dict(sha256=sha(path),statistics_sha256=sha(stats_path),source=receipt,records=records,permuted_records=fake_records,script_sha256=sha(__file__),source_condition=condition,active_targets=[r['target'] for r in records if r['active_outputs']],permuted_active_targets=[r['target'] for r in fake_records if r['active_outputs']]))
+        print('V85 teacher',condition,'eligible',len(records),'strong',sum(r['active_outputs']>0 for r in records),'permuted strong',sum(r['active_outputs']>0 for r in fake_records),flush=True);del x,norm;gc.collect()
+
+@lru_cache(1)
+def teachers():
+    out=[]
+    for condition in CONDITIONS:
+        p=A/'linear_teachers'/(condition+'.npz');assert sha(p)==read(p.with_suffix('.json'))['sha256']
+        with np.load(p,allow_pickle=False) as z:out.append({k:z[k].copy() for k in z.files})
+    return out
+
+def predict(query,base,bulk,recipient):
+    if recipient in CONDITIONS:
+        return {a:base.copy() for a in ARMS},dict(abstained_training_donor=True)
+    bank=teachers();d=data();genes=d['genes'];targets=d['targets'];axis=~np.isin(genes,targets);own=np.array([list(genes).index(t) for t in targets]);rho=[]
+    for t in bank:
+        r,_,status=pairwise_spearman(query[axis],t['profile'][axis],min_pairs=100);rho.append(r if status=='ok' else np.nan)
+    rho=np.array(rho);w=np.zeros(2);valid=np.isfinite(rho)
+    if not valid.any():return {a:base.copy() for a in ARMS},dict(abstained_no_context=True)
+    w[valid]=np.exp(4*(rho[valid]-np.nanmax(rho)));w/=w.sum();outputs={};trace={}
+    for arm in ARMS:
+        value=np.zeros_like(base,dtype=float);conf=np.zeros_like(base,dtype=float)
+        for weight,t in zip(w,bank):
+            c=t['permuted_confidence'] if arm=='guide_permuted25' else t['confidence'];e=t['permuted_effect'] if arm=='guide_permuted25' else t['pooled'] if arm=='pooled25' else t['effect'];conf+=weight*c;value+=weight*c*e
+        mu=np.divide(value,conf,out=np.zeros_like(value),where=conf>0)
+        if arm=='target_permuted25':
+            ids=np.flatnonzero(conf.sum(1)>0);order=np.arange(len(targets));order[ids]=np.roll(ids,1);mu=mu[order];conf=conf[order]
+        correction=.25*conf*np.clip(mu-base,-.5,.5);correction[:,~axis]=0;proposal=np.clip(base+correction,-3,3).astype(np.float32);proposal[np.arange(len(own)),own]=0
+        out,diag=guard(base,proposal,bulk,own,~axis);inactive=~np.any(correction!=0,axis=1);out[inactive]=base[inactive];outputs[arm]=out;trace[arm]=dict(diag,changed_targets=[str(t) for t,z in zip(targets,np.any(out!=base,axis=1)) if z],source_rho=rho.tolist(),source_weights=w.tolist(),source_donor='D2',recipient=recipient,donor_transfer=recipient.startswith('CD4'))
+    return outputs,trace
+
+def check():
+    p=read(A/'plan.json')
+    for name,h in p['code_sha256'].items():assert sha(ROOT/name)==h,name
+    return p

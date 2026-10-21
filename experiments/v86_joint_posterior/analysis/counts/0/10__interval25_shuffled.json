@@ -1,0 +1,32 @@
+{
+  "target": "ZC3HAV1",
+  "case_index": 10,
+  "arm": "interval25_shuffled",
+  "seed_offset": 0,
+  "seed": 93083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "3830abc1f4a8891417470dfbd4663e216a07b953a4e5f978d1365e59958aeac7",
+  "profile_MSE": 0.0036154677136804206,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.5811126694717158,
+  "reach": 0.025,
+  "jaccard": 0.10646387832699619,
+  "nmae": 0.9546904390565513,
+  "predicted_calls": 2139,
+  "reference_calls": 480,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011625075830416028,
+    "bulk_probability_L1": 0.0008583599047213455,
+    "changed_transcript_fraction": 0.36400778695620517,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "7b5b11d34c310aa58ef047e2f6cdbbf103adafb34688d1b319d7c2c385973ee7",
+  "seconds": 16.26886820793152
+}
