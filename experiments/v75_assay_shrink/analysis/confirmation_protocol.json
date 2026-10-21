@@ -1,0 +1,11 @@
+{
+  "selected": "profile050",
+  "selection_sha256": "f10bec641918c3663da5890d6649899ca60fc8402a08615235993a8dd72672e3",
+  "sha256": {
+    "run_v75_verified_counts.py": "f77bec33d7a2541099a55b8edb741eac361998bf7b7a6b58ff888cc5d7cb8bae",
+    "run_v75_repeat_counts.py": "be8393511b66517c06750d7d9caee20d0a4a48b0189a50978d639e9092e5c3b2",
+    "audit_v75_counts.py": "0f43633ee9d8bfb562988293dba58b25517beb33bed95890fe546edd3069bc6a",
+    "finish_v75_validation.py": "b15c7c103699485f3fca1e51b5d5c1eb1d843de798cf9ecda08447b6fc3b6ca0"
+  },
+  "scope": "Frozen after development selection, before confirmation: numerically same V70 evaluator; regenerate every V66 baseline and compare cached arrays; retain raw p values and independently check ranks/BH/all four DE metrics/PDS. Second technical seed +620000, unchanged biology. Require primary and repeat profile/worst-study/PDS/shuffle plus broad gates for production."
+}

@@ -1,0 +1,33 @@
+{
+  "version": 75,
+  "dependencies": {
+    "v75_assay_shrink.py": "243993f7b6c5ad3ef2777cb2a3350745580e5a2642c40b19f4e982c383b37e28",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "run_v70_counts.py": "929ad86dc1ecbed600bcdbb747133a6c4e9d70bdc23cd22124072f1ab804b601"
+  },
+  "inputs": {
+    "experiments/v66_assay_strength/analysis/predictions/H1.npz": "dddda3eeadc2477e0e4654f635781aded840e5c9459ed7a84f0683863cb88b16",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.npz": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.npz": "756d763ab8f44ceaaa35a26a48c69d7556612a21043f840c76fcc7b77db80c1b",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.npz": "401b1e46e4d82c4f8cba826a183d4bbbc275c6876714a703c6ca994ec363c5ca",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.npz": "58f54e9d041894dc690cf1f09a5a6d3c72bc3a8606b57ead83a03ee5ba979b42"
+  },
+  "arms": [
+    "profile085",
+    "profile070",
+    "profile050"
+  ],
+  "gains": [
+    0.85,
+    0.7,
+    0.5
+  ],
+  "hypothesis": "V70-V73 replacement response teachers fail. Retain V66 direction/program evidence and test fixed conservative reductions of its bulk log1p(50000*p) response, with the existing cell emitter. Different from V64 source/V24 LFC norm-ratio scaling. Motivated by spent development outcomes; no novelty or blind-validation claim.",
+  "calibration": "Compute closed profile from V66 effects before own suppression; subtract bulk control profile. Multiply residual by 0.85/0.70/0.50. Negative control adds gain-1 times a cyclic donor residual among active targets, rescaled to the recipient nonpanel response norm; zero-response targets stay zero. At least two active targets are needed for a label derangement. Invert expm1; anchor fold factors at target coordinate to retain stored own effect zero. Unexpressed own uses mean log-factor anchor. Clip change from V66 to +/-0.375 LFC, final +/-3. Exact gain-one and zero-response identities. Own 0.1 applied once by unchanged emitter.",
+  "selection": "Same first-three distinct cases/context, >=0.5% equal-study profile gain, no study >2% worse, beats corresponding shuffled response increment. Choose smallest profile ratio then lock before remaining cases. No failed-gate fallback.",
+  "confirmation": "Same paired count and broad all >=30-cell tests, same gates. Production only if generated-profile/worst-study/shuffle/PDS and broad gates pass. Other failed/missing metrics remain explicit. Reused public biology; no hidden overall forecast.",
+  "V74_result_sha256": "bd649777889e10a04b53f8894fa57775938462893946e6d14c8c062a2636b2e0",
+  "D3_opened": false,
+  "automatic_upload": false
+}

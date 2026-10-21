@@ -34,7 +34,7 @@ def main():
  (A/'comparison.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
  text='''# After V69: tests, failures and a transparent recovery release
 
-V69 fell from V66's published0.150882188 to0.095262845. Its intended mean effects were frozen, but the emitted count profiles were not protected; discrimination and expression accuracy both regressed. This run tested twelve hypothesis families (V70-V81) rather than changing one mixture and uploading immediately. No new predictor met its frozen public requirements.
+V69 fell from V66's published 0.150882188 to 0.095262845. Its intended mean effects were frozen, but the emitted count profiles were not protected; discrimination and expression accuracy both regressed. This run tested twelve hypothesis families (V70-V81) rather than changing one mixture and uploading immediately. No new predictor met its frozen public requirements.
 
 ## What the experiments showed
 
@@ -43,10 +43,10 @@ V69 fell from V66's published0.150882188 to0.095262845. Its intended mean effect
 |V70-V71|Batch-matched raw-count teacher; remove identity cap; center or confidence-project response|No material expression gain.|
 |V72|Recover small batches by aggregating batch-offset count likelihoods|Source coverage improves; predictive error does not.|
 |V73|Null-centered count MAP and separate assay/bulk inversion|No material gain; strongest confidence-filtered correction loses to shuffled evidence.|
-|V74|Amplify downstream responses in assay space|Expression error worsens by2.5%-8.3%.|
-|V75|Shrink downstream responses while retaining own knockdown|Broader expression error improves2.36%, PDS falls0.04781. Rejected.|
-|V76|Dilute the whole normalized response, including own knockdown|Broader expression improves1.73%, PDS falls0.02682; generated count PDS/reach/Jaccard also worsen.|
-|V77|Remove the shared response across targets|No discrimination gain on55 metadata-selected cases. Remaining600-pair confirmation not run.|
+|V74|Amplify downstream responses in assay space|Expression error worsens by 2.5%-8.3%.|
+|V75|Shrink downstream responses while retaining own knockdown|Broader expression error improves 2.36%, PDS falls 0.04781. Rejected.|
+|V76|Dilute the whole normalized response, including own knockdown|Broader expression improves 1.73%, PDS falls 0.02682; generated count PDS/reach/Jaccard also worsen.|
+|V77|Remove the shared response across targets|No discrimination gain on 55 metadata-selected cases. Remaining600-pair confirmation not run.|
 |V78|Restore control variance at exact V66 gene and cell totals|Small changes give weak gains below thresholds; large changes damage DE precision/overlap.|
 |V79|Signed-underdispersion-aware molecule thinning plus innovations|Original prospective criteria fail.|
 |V80|Empirical zero/detection hurdle and positive count calibration|Original prospective criteria fail.|
@@ -62,11 +62,11 @@ V78-V81 retain every realized V66 row library and every gene total, hence bitwis
 |---|---:|---:|---:|---|
 '''+ '\n'.join(shape_tables)+f'''
 
-Independent audits replayed **{count_records} completed baseline/candidate/control count comparisons** and **{rank_coordinates} raw tied-rank coordinates**, plus all stored BH arrays, four DE metrics and PDS. These are repeated configurations of reused public cases, not{count_records} independent biological samples. V76 uses a different primary cohort from V78-V81, so differences across their tables are not comparative estimates. Plans, selections, failures, source exclusions and exact input/code hashes are preserved. The individual model criteria were frozen before their outcomes; none was relaxed to promote a failed candidate. Remaining-target tests and second seeds were conditional on success and were not run for failed development arms. V81's control-only guard was specified but not claimed as passed without execution.
+Independent audits replayed **{count_records} completed baseline/candidate/control count comparisons** and **{rank_coordinates} raw tied-rank coordinates**, plus all stored BH arrays, four DE metrics and PDS. These are repeated configurations of reused public cases, not {count_records} independent biological samples. V76 uses a different primary cohort from V78-V81, so differences across their tables are not comparative estimates. Plans, selections, failures, source exclusions and exact input/code hashes are preserved. The individual model criteria were frozen before their outcomes; none was relaxed to promote a failed candidate. Remaining-target tests and second seeds were conditional on success and were not run for failed development arms. V81's control-only guard was specified but not claimed as passed without execution.
 
 ## What is ready to upload
 
-`experiments/v82_v66_recovery/prediction.vcc` is a **byte-identical copy of V66**, our best published model. It is4,073,666,560bytes, SHA-256`{recovery['sha256']}`. The official container validator passes; equality to the previously fully audited payload protects all360000cells and900groups. This is a recovery release after V69, **not a new model, new prediction experiment or improvement beyond V66**. The prior V66 public guards were also imperfect and remain recorded as failed. Its published score is evidence for recovery, not a guarantee of current rank or final-test performance. Re-uploading uses an allowance and is only useful if restoring the current leaderboard entry is desired.
+`experiments/v82_v66_recovery/prediction.vcc` is a **byte-identical copy of V66**, our best published model. It is 4,073,666,560 bytes, SHA-256 `{recovery['sha256']}`. The official container validator passes; equality to the previously fully audited payload protects all 360,000 cells and 900 groups. This is a recovery release after V69, **not a new model, new prediction experiment or improvement beyond V66**. The prior V66 public guards were also imperfect and remain recorded as failed. Its published score is evidence for recovery, not a guarantee of current rank or final-test performance. Re-uploading uses an allowance and is only useful if restoring the current leaderboard entry is desired.
 
 ```cmd
 cd /d L:\\promec\\Animesh\\Download\\Virtual
@@ -77,7 +77,7 @@ Nothing was uploaded automatically. All original sealed artifacts were preserved
 
 ## Reproduction and next evidence
 
-`summarize_post69_trials.py` regenerates this report from saved result/audit records. `prepare_v82_recovery.py` refuses to copy the champion unless all twelve pilots have completed and failed release, verifies both copies by SHA-256 and calls the official validator. Run it with the official CLI environment. Run numerical experiments/audits with the separately pinned scientific environment; see`MARGIN_VARIANCE_STRATEGY.md` and the per-version strategies/results for commands. Large arrays remain local and ignored by Git; code and compact provenance are committed locally.
+`summarize_post69_trials.py` regenerates this report from saved result/audit records. `prepare_v82_recovery.py` refuses to copy the champion unless all twelve pilots have completed and failed release, verifies both copies by SHA-256 and calls the official validator. Run it with the official CLI environment. Run numerical experiments/audits with the separately pinned scientific environment; see `MARGIN_VARIANCE_STRATEGY.md` and the per-version strategies/results for commands. Large arrays remain local and ignored by Git; code and compact provenance are committed locally.
 
 The remaining gap is transferable intervention information and validation transfer, not finding another arbitrary temperature. A useful next test needs genuinely unused response data: for example a new CD4 donor with **all CD4 evidence excluded from fitting**, a fixed target/cohort selection, and a mean/decoder crossed comparison fixed before seeing its treatment values. That donor was not downloaded or tested during this run. Reusing the current cases for further tuning cannot establish that a tiny public improvement will transfer to the challenge. This is a recommendation for new evidence, not a claimed successful model or an implemented future experiment.
 '''

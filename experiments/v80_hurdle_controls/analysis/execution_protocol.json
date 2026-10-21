@@ -1,0 +1,12 @@
+{
+  "version": 80,
+  "development": "First two unique cases per context, 10 populations",
+  "confirmation": "Remaining 20 populations at seeds 0 and 620000",
+  "scripts": {
+    "run_v80_variance.py": "63095e9924141941d2d6984c219ebf49774d8938397f5e70c39b49714f1542ed",
+    "run_v80_development.py": "1d22b24ef79e1ae1c2942923f435a51e7f7f32af7ec8a0e55e1320a9ef82b488",
+    "test_v80_hurdle.py": "a43ccea851f7c1ab7b8d9c1f1818587472b3c6a7e03b45ee2ef3cb8db7380e05"
+  },
+  "negative_control": "Expression-bin gene shuffled control shape",
+  "release": "Both confirmations must pass original precision gates; exact V66 raw profiles/PDS; official uncertainty-corrected MSE can change"
+}

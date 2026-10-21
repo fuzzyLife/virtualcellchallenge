@@ -1,0 +1,839 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__control10.json",
+      "sha256": "b56c8d04068b6de7c9b829904bd019569c7cd36dd66bda36dafe489a1fd024f1",
+      "arrays_sha256": "1ef6b35a0e31b37a03a1406414000784851973a6423fa3f91fd214a11e0ff916"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__control10_shuffled.json",
+      "sha256": "a32745747a94ecc1a75e1176bbeb1f158515d7dfc9863082a3c31d5648fadd8e",
+      "arrays_sha256": "2e1fb0437cd3979e0ea7f4a256c1f5b9a3c48d08596001f1e68fec1d9cb1a5e5"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__control25.json",
+      "sha256": "27b44ce8bc8e2b60b95dc3c30074eb65f050ede3e4ffb588544a69d05a6d2c75",
+      "arrays_sha256": "eefadadf19d1e3c728d1e61ce2f83859a2edea37fd0120e91d89c29a16153aa3"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__control25_shuffled.json",
+      "sha256": "e429d06612d446a93a75303439c3b593c6c6460e066881aa9e90ebd73122022a",
+      "arrays_sha256": "5034158df12554f6bff9906fcce4ad03bd855db0c9c2c4016f0df51fa131f0c6"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__learned25.json",
+      "sha256": "7d551f98192423cbdae7627331d6ffe13de50788e225a39333665c7255e483a4",
+      "arrays_sha256": "2c42cfc49af79c35ac64619dc66a1099408498c01e0f2114db0c51cdc3804d9d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__learned25_shuffled.json",
+      "sha256": "a33be876cd08734067d272720de2bcb4c151361ce407b2e1b9b46ff429a6f812",
+      "arrays_sha256": "81e0be8f4acfbd865d7a965fa3ffe03fd87731daf35f984222de97aff2cea7dd"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__query100.json",
+      "sha256": "7c05ca6371762e0a2cb4bee177da6199266fb54285520cb399324631629df751",
+      "arrays_sha256": "6a2e601d8cd48fbae3cec647623ec3f2b4ef9ea99b3ea00a4ee59ecd6a4d6fd6"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__query100_shuffled.json",
+      "sha256": "67779d9afaa354d01da21a3031376749935fa32de6d861f9db394454643f0687",
+      "arrays_sha256": "943c788db2d617d2e339ede36491a85bc9f892c58d6cb0de8277765378f6cb5b"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__query50.json",
+      "sha256": "04c1a53444d9290ac27ae74da5ca4008d3f0454a2e66b73bc9d6f867fb2f81b2",
+      "arrays_sha256": "3e154afa226fd4faba38b64589f203524daddcfb0c9ebcd996741959c8f05fdb"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__query50_shuffled.json",
+      "sha256": "4779e35c4071d65a4aba35fd48345c3a294394a47fc30287f9c5b30082022100",
+      "arrays_sha256": "b085b2e74415ea96e5fd595c1d5c65b21c91539c32a5fb83c56b91ff9ed50c86"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__0__v66.json",
+      "sha256": "20302fc5cebff234dd04b87229ed90c421db362b87b92f4a58e6bf610dddad9f",
+      "arrays_sha256": "67948d01f771db448ab80e6244532ead8c7b7fecb82dbeaea5e2453ffc6394b4"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__control10.json",
+      "sha256": "900e77ffb6b02280b74145ef09d9db2946bd35a7c329ee34bf653e06652ff849",
+      "arrays_sha256": "83d4d4f18a796d935f49acce38ccaff0d965ae7782e1ef2716d0f3ac0ce54138"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__control10_shuffled.json",
+      "sha256": "503114ed04b9f17ce0c51d91cfee4562920f59064307046a31be9885c0abf8f7",
+      "arrays_sha256": "218c39011107613b05b1a5e4f157de73c5bbf62c89a2bf9cfa1e50119dbe9438"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__control25.json",
+      "sha256": "d337481a20efa5fe5073e899995628f34b693ce07662cd073d14cd00523a08cb",
+      "arrays_sha256": "bd1fff227e56818d1b79636f788581550d4370f1b9ae998560037e57817325a2"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__control25_shuffled.json",
+      "sha256": "418ac5c28dd6418bf645401c8eafada571e6f78b907cb3aad2e7dd6600539789",
+      "arrays_sha256": "2d31ab6a2beba792b3a972e0a7d9bafdb6aca34283d54a6ea0529e5e5c9f1bd0"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__learned25.json",
+      "sha256": "601ab62611c6672477135ae82fa929e4fcaf023b80c5e7a61ddac9235ebf8393",
+      "arrays_sha256": "04a4703e9290872b0ba851c6bcdf6729c88f5a3e0bf9d0a1a2423ad1ade1cb74"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__learned25_shuffled.json",
+      "sha256": "5b168b2048d6087c32f2dfaeba1726c3cdd8813a02ff854f16b180a240489387",
+      "arrays_sha256": "21f70ed72064e5a3cc57af4c11a9aeaeaacc54583d1781336b0f7a3f5088f823"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__query100.json",
+      "sha256": "e16aefb65204404dbebdf86329abf6dd1c174f61a7b5c14718e84012f4d5401f",
+      "arrays_sha256": "bfa9408c9d07f31ecb1b3bfb1475c2de867fa2d4bafd3ca4471b16df8a71b41a"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__query100_shuffled.json",
+      "sha256": "ed0450d132e57b1486cccb89ab08013408bcfc13638401a55451df6c1dc3b221",
+      "arrays_sha256": "fe7c44ed07f8cc09e2af8ab1c2054bf833c817f178eb2e88c9370b941b91169b"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__query50.json",
+      "sha256": "186cdcbc820771d8a8c52d3e0c71a0ee7edd4d0884d4affb7ee0889ccba3e101",
+      "arrays_sha256": "90e714d15eb5c729a63f5d1958180b6a04f42a298b422e161a9933d89fc3992a"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__query50_shuffled.json",
+      "sha256": "e2cbfc4c8f90a0d002ffe8b2595af53714feab79e82e2112b4d9dea4812e335f",
+      "arrays_sha256": "9610ab7c2063ae3960ebd303107b2191b374ae87b38b4f6d64a8644d66fd6eee"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Rest_D1__1__v66.json",
+      "sha256": "41bea612322ff189636b84f3997a470ab1cf97de9aeaad214a504e52fb7ba77b",
+      "arrays_sha256": "ab8caf2156bd11553193ed9fa5e88fbc73a5aeb472637b92c840fe4c81687176"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__control10.json",
+      "sha256": "39d88504c2be59da61a02aaf0debcc5842a10094c27e84ae77ec383edb6ce472",
+      "arrays_sha256": "fceaef131d9a46e73f3f7bfc6f50bde493b3331c3c10a8ce4565f3c4750eadf2"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__control10_shuffled.json",
+      "sha256": "d012c1745e7f33b4cf144dab0d9530311504173720ede274ac9c0a3696981df4",
+      "arrays_sha256": "5bc8a6ed21d5135152b30e269cc0bc75a8651cc8b4de265bfc41daf56b663bd0"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__control25.json",
+      "sha256": "0e119a5842e073e4c3960c608703d171dcfee75af8ebb05017a5dfa67b8e860f",
+      "arrays_sha256": "670953c3380e5cda4f0397634d76feb6e07d10241c07879ef701ac72a442aa02"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__control25_shuffled.json",
+      "sha256": "a0f30065158cd88c3dc4c973fb7e82a5e6e208465933642010e6de51d6854308",
+      "arrays_sha256": "67d5e583a9a869a9234195d4c9d5c522c3b112d01cf39f2e405623e2f0b47276"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__learned25.json",
+      "sha256": "06bf2f85f22a74c711caeae00386f4f1d9efc781ff540f27270f786dd8b2ffcb",
+      "arrays_sha256": "b26e91b13cf181328e0f7afc39722e4e59c4b95bc27b31d9a443b4b0c292e993"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__learned25_shuffled.json",
+      "sha256": "f229f9f1caf16a472d870933a53fe6b5e62714fc5bc120d2f04efbb88c486d6d",
+      "arrays_sha256": "f1239190160bcba6601b84dc1ac96ce8965f25e0794425402942df8acfe4da7e"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__query100.json",
+      "sha256": "e146da72bb77433cbf625f7940e78eb39767efc93a59f873c709bbc0da8ce4ae",
+      "arrays_sha256": "55fc47ee1fbd6e8c8c3ea9baafdf94afe8d49dee55dcec9a4689cf35c3730047"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__query100_shuffled.json",
+      "sha256": "9d4b06708fa9524e36fa66970514d2cfbff251daa79e0d9729ef509d0b087eb7",
+      "arrays_sha256": "4df70fb62ceb45e3977d9787bc785a22cc620ca3113d88acf2d93fbc7388a087"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__query50.json",
+      "sha256": "5f7be6052ea483effee7793b67de7e0ab9028756d4a8042d4a6df3e8e42d495c",
+      "arrays_sha256": "1cb7a89686ca1eb1ac0fac9b162dc9764283fb4fa951c77a4e163d113499dc62"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__query50_shuffled.json",
+      "sha256": "aa716ab9190915a45a64867aceb662fc5ba8d5e23cfffd28bc7b6b2be96b6d88",
+      "arrays_sha256": "ce9475f892129e253edfe07169963916663d9a38b52692b93148b1f5cc27ba69"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__0__v66.json",
+      "sha256": "9c4ba00ac8156e9f5234bcae8c5733d26ed2c1d6d9bd45e6b11ae681181345ba",
+      "arrays_sha256": "ea4e044fb6749ae9d3c2f087bd5f81c560419296e7666b103dc7cd6d12c5731f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__control10.json",
+      "sha256": "e445d89635f2b698f22cc22a4c48504c2abe8dbae631a2f6a8b31f1a65865ce1",
+      "arrays_sha256": "a2b1cdc9787c86c8907eef04f8bd8cb1a5c52dae88377fe2aef6cb66f4e2a5c3"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__control10_shuffled.json",
+      "sha256": "191874f98c52a4ba0beda90dd48751c7fa7d7805e867deda759d89288a022bda",
+      "arrays_sha256": "e67a7eb782776ac1ab2c43979469ac6cdaef6443a4317ca5e6e8e8c8c1daba6d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__control25.json",
+      "sha256": "765fd0be3fbb65a99ca51c6860d034e4f17a00dcc8af73a62132687db096a3c2",
+      "arrays_sha256": "df6082384bd5204644cbc2f01ae638d53034057a0d9599d2334b5113f924cedc"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__control25_shuffled.json",
+      "sha256": "83742891c92034e6529b76784d5ac7551fe5e67f85a0fcebb5aadad1c228286a",
+      "arrays_sha256": "db333a9734fc7e43573ea015d3297deba04461cb4b856acf3bb958ac9da50e7f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__learned25.json",
+      "sha256": "fb857752d330fd4ed01a4711b96994a60c670801e5caf25c26c5e418f3eeace6",
+      "arrays_sha256": "d87367670580ad4a055be4e692c466990d91a00d02a31da3a391919fc7d09828"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__learned25_shuffled.json",
+      "sha256": "7489f9482e15b16860b205d3e6e36d981b02ff04d7d1e13ba03aa8768a769f66",
+      "arrays_sha256": "c38ee829f1c96e041c4394f27480bf9d93bc98f6e280cf325edd4a3d4eb9656e"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__query100.json",
+      "sha256": "34ad22449c7791108fdf88db8a36b6086caf146bb3c0e0a6b589c9de9d990e19",
+      "arrays_sha256": "91ef24284ac41396c397055c2cd337f67b49c437cb0d02b33326433243340e8c"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__query100_shuffled.json",
+      "sha256": "7dbe8cfad2bcfa3f917ad357efe45501dcf6dc6e790e8f79de3bcba25a443fd0",
+      "arrays_sha256": "55146950bc188da08a76d904df41ac07f1008525462bfcf6252adebb4a1a11ff"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__query50.json",
+      "sha256": "98de96f2a3b383328bd0f452e0d82ace8094213cf17eb72b6236374a873f343e",
+      "arrays_sha256": "fcb90a94b7b0151f678ec03c510f63c7e7fd6045cacd007fa2cf41631d18c36d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__query50_shuffled.json",
+      "sha256": "a990a6c718ffdef6dad41d3d0cd4fcc307c3a0626d9ae4ef5c5d00708ee23887",
+      "arrays_sha256": "0871fc83191566b369cc86048cdf4b5c6f5005098aefa830eba9ac06e8780bb9"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/CD4_Stim48_D2__1__v66.json",
+      "sha256": "1814f9efccfaa1061943b1998a4a49159a9c47da539c0cea2fa606b461526e50",
+      "arrays_sha256": "2de7475d2a785099bbd8bee9c509da0f7373eb32c6c841d5c32d35ca24199f2c"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__control10.json",
+      "sha256": "6a301365932e47676e14913df86585ab1f303d6a1482411c0d05f86d036f1541",
+      "arrays_sha256": "eeac990c6b333885d494fc23f98a08215c62d33aa05bae55073e761da681d2e0"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__control10_shuffled.json",
+      "sha256": "9bf741ab3f9c1ad7ce697be75af2944dab2708383d9b3cc19bcc0d2fae60416b",
+      "arrays_sha256": "9055be56642b6f875651096c7622a4cfbca7cef8c3205b4fc177ecfc63beceee"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__control25.json",
+      "sha256": "7a0a4d3ccc490842fc40933ea81ae31f2c0c08f1bde3af553b0b9fa98baa8af0",
+      "arrays_sha256": "abdefb3e2fb572925036d928a15134a1462459a775207b0ea22b75501d465f55"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__control25_shuffled.json",
+      "sha256": "fa19fa154c5b0a7d353cf31c2e8e2eb5670d1ca5c17f0e4d7277600f1816e421",
+      "arrays_sha256": "1b95d6cf2bb522114f1548bb91483a2635cd4e33a5671e4468ac92882bdacb09"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__learned25.json",
+      "sha256": "d3476efbda885e4b4c09476d45ad52919ca137c332bd62ad18e2ef03c9e7fb65",
+      "arrays_sha256": "059d66f833a960b093666d807b429d3abb7ebd360bed131620b4754f751975b1"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__learned25_shuffled.json",
+      "sha256": "d0450936fb718761af20e8fb7103fa3b869d983591df8f4a8615a76367f707d1",
+      "arrays_sha256": "aa17f4cecf64783a4976456d93c0c6efc3acee7ed50b0306c0e7cde6443ff95c"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__query100.json",
+      "sha256": "265518282638e646b268a2fd4a13c813954e533e4bdecbba51b811d188f33275",
+      "arrays_sha256": "e8e4cc557792b74915f122c907aae5319d9fdec25e9ab69c6ab5e678cc6f647f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__query100_shuffled.json",
+      "sha256": "03f8b9a6ba5c5120a53f73682ab65508a6d44570c26cc1afdad8d838c652a61f",
+      "arrays_sha256": "1ff2361081d10dd7a8b4c1b08b2813a97325028ac3440a10532ad515d9682c74"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__query50.json",
+      "sha256": "f4483de8a4b1eb09ce3156ca8914118460316f36ce99b6eb6f6bf059a28a65d2",
+      "arrays_sha256": "5e384cf80fe51c78c55df3a86f79d65f538e772102fe369e893449b7a95c8e43"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__query50_shuffled.json",
+      "sha256": "9e932e8985812a176c0cc6fdcd032a41903b94de268b1f676bf985e7fedb1a95",
+      "arrays_sha256": "f11c41b474f6818c1409b6175bedcccc331620b52cbe9128f847a55b6fdce982"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__0__v66.json",
+      "sha256": "e34e1d362918122118beda6e3393a439882c8fdc8ec45952591267a504836a4e",
+      "arrays_sha256": "1484551f5d8a7b88d94330a118ee7887e830fd92c9e277fc9ff639a815041bb7"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__control10.json",
+      "sha256": "d23c86ea01503f5d9ee047e4c7656729598c259396f13a92aa31275adb108933",
+      "arrays_sha256": "4df0769c3428152b4932a607a9808732241ea332e258c27dc0505f5fc74ad148"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__control10_shuffled.json",
+      "sha256": "97af130d2dc9e730dc26afd4fb5331528c58b83ae2071596e8b46cfb93b8206d",
+      "arrays_sha256": "2d435c71145ec0d4b1c00713e92dd84dad8c235aa6af6009b7c694957b786295"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__control25.json",
+      "sha256": "c8b97768f1d9d2e4dc582988328fc28f713e462c264955191ba698c28cbceb7f",
+      "arrays_sha256": "4b9fb2cb9a6ba9101dfaf46cd90704beeaf6adfd25e8ae6b4083375031ce52f6"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__control25_shuffled.json",
+      "sha256": "af9acde200563accb0a222dfb995854052b7d789da42367d283265623b5d7b87",
+      "arrays_sha256": "9ab65df871c6117f00f66696f118a44ced40810c149034aa881ba8a23706723a"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__learned25.json",
+      "sha256": "68db178af0f1a979114387b9a52aa76f83ad3259cc769346c29e08709f914d5f",
+      "arrays_sha256": "1d2ba1550e6ea398cf0abb90f481380f2e9949ff12c23cab675ab7eed4fdf190"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__learned25_shuffled.json",
+      "sha256": "4ffcfa52d6fd3024d077500f5c936c86a83b6d43d41574cf365e589e0adde9ba",
+      "arrays_sha256": "64c118f9c2f6e4abdcdeac784ba44dd8cd7e07d6414b12074faeee9173f32ed5"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__query100.json",
+      "sha256": "76e57a8fca33f9a6c699088b868c35feca544732f4d0f6c0947979923cb00032",
+      "arrays_sha256": "be50e40b21c122519b0d607326b43365f270356985a931f03f779dc2c4acbcf2"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__query100_shuffled.json",
+      "sha256": "857bcc0f80124e251e2082bce715a80a6dacd3c5b4624d57ae76f15d1e487f34",
+      "arrays_sha256": "365df01ff3ba7a03270df3411eb2f762e2538926d2ee93d399575ca1aaaa2822"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__query50.json",
+      "sha256": "85e93eff376f23d919d58244544732bb67c0fb55b1825f2d6d9e947ec4f8076e",
+      "arrays_sha256": "d75dfd0a1542b1b37e68dca85612f6093f58a521d5f828b23fde09c602f230f8"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__query50_shuffled.json",
+      "sha256": "b6f6cdbbef0ca5f7445a5c47d0926dd6f291a4e5aed59e40e071e558313c7477",
+      "arrays_sha256": "03ac48cd0928cf4b5c0c8b1b379d16a4fd7f426dc848443c33ff20b2a079d53d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/H1__1__v66.json",
+      "sha256": "29782f2fe4fdb26220b679e904ebea83151e34413ba706f91f7087daed1c76ba",
+      "arrays_sha256": "5c33f5b061aa629293fd0b72c717bf4d3fbd26f1a6b16e0a792d326e75ece42d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__control10.json",
+      "sha256": "5789b60813219b8438f02d988d55181bdaadfc25ac9d593f1343d45a657bb72f",
+      "arrays_sha256": "cf9a3ae2eba80fd9d3aeea03a58bf454f1aa0d369f8a0f38b860b334963d1d6d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__control10_shuffled.json",
+      "sha256": "62280c5ad0c8a19a67341220bbed737f67e88a898f51cca32f9603f7c73d126b",
+      "arrays_sha256": "705ce070ebd8560f018992a116bd99ae81d8a22f8c5f6773e06c774ccacbb75a"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__control25.json",
+      "sha256": "41c6ee951d28d505bae6c02ba527f7af7454e30243df334d028558d3fb69ca9c",
+      "arrays_sha256": "efb0a2cf1251e3c8fd531fdd648bc8d756fca57fc9016d04ad864ffc10faf64f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__control25_shuffled.json",
+      "sha256": "320e8c6bcc7226eae1bfcbbd841a31e9446852d6aa5d629a3aa185a97be48a79",
+      "arrays_sha256": "ff23f50da8f1167aa3600f735c60e008942591eb573c98ddad8c9a869217a9e7"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__learned25.json",
+      "sha256": "6a67d1b6489beda3347fb29a02de7c83554aab34ffb1a86b6cb46d7a5b24ae5f",
+      "arrays_sha256": "efb0a2cf1251e3c8fd531fdd648bc8d756fca57fc9016d04ad864ffc10faf64f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__learned25_shuffled.json",
+      "sha256": "00a0869d0687473a8856c74e37962afbd51d8ba04252ce1a2bdf3a7ba7ee2efb",
+      "arrays_sha256": "efb0a2cf1251e3c8fd531fdd648bc8d756fca57fc9016d04ad864ffc10faf64f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__query100.json",
+      "sha256": "da83defec6fe8a7e02ad05fee06c76b2c6d5ac3ffd1dbdcd6b2216be0a595158",
+      "arrays_sha256": "e646aa0bc0606b0bcf5b4f335fc34ce71a30b194a58262365b26a7f94bc671f7"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__query100_shuffled.json",
+      "sha256": "888dd370996fb6edad382bcad9954d5965d38f2f44f1c3575bcdefd7cab4d960",
+      "arrays_sha256": "d7372f45b05a385c1f069a8ac0bff1168e5791d6411bdad8fef97bb40ac74949"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__query50.json",
+      "sha256": "cbe4dc32bc1f181c77c955ad4e976d7485be8085bd8d063ead1fec3e888a539b",
+      "arrays_sha256": "fddd78e665185360fe50a9230209d96df8496098c8eab583bf8a7e135ded876c"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__query50_shuffled.json",
+      "sha256": "da866e603a801559ca7e02de3e96be44ab7fbcb8d3ee6cf9b0c8352c2232928c",
+      "arrays_sha256": "6f5dbd0f2b2220f7f9129d28ed01e13136d6d4db1da7de00e86748ab65061fa4"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__0__v66.json",
+      "sha256": "8b8d9b28e17d783350c274fcf691aece954451bfa8247df5249272766bf43b28",
+      "arrays_sha256": "4775fc54760dcd72abfb4ab29297d7c5ecc3c480b2af01396b2ad4888a302cb8"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__control10.json",
+      "sha256": "da3ac121a69ead6b8a5c4e09a9eff4cbdec5797f27ebc02b898e3ab50c1c66a2",
+      "arrays_sha256": "a44556c5755d8e326aede1dca3509e09d8450109acef11d60ee3bc43419c186b"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__control10_shuffled.json",
+      "sha256": "3b14f2f193b22a22acb66da35f7abcb932ff6aff8ad161de4ea3faec5bf64667",
+      "arrays_sha256": "5cfeddda8e67406e6de96b8e0234be4d4c43822fbb95bbfd6420504c690662ab"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__control25.json",
+      "sha256": "433a867fdb63f5e4ceaa585941be345e7ffd3bc685a2166e976a9a98b2aa08b3",
+      "arrays_sha256": "f44c6cf3c5827196c87812fa3224a97bb2505628eab28f48d31698517b25eb13"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__control25_shuffled.json",
+      "sha256": "d4df8979fb62b4970db9f47ba38556a4fa2e53edd6585c0b6493f712f6e4ed90",
+      "arrays_sha256": "5482099d0ef0c6f9dd5e7ec9fb29beb6672955bebd9ca6a1cb62ca1daf99fbca"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__learned25.json",
+      "sha256": "3d493cd16ffe27f9297aafb48169573ed313ad6fdd1abb3c6ec22061ee01ca71",
+      "arrays_sha256": "f44c6cf3c5827196c87812fa3224a97bb2505628eab28f48d31698517b25eb13"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__learned25_shuffled.json",
+      "sha256": "c7484e932cd088fca564e453da2bfcb75b48551c5c23d4913994042fa2ea8cee",
+      "arrays_sha256": "f44c6cf3c5827196c87812fa3224a97bb2505628eab28f48d31698517b25eb13"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__query100.json",
+      "sha256": "bed68ae071aa59dc9ccf485d7698ba33131aaec5fc9280cc47800133044c0d35",
+      "arrays_sha256": "07c289390ab54cb2ff25b6385c58c46e8afb1a807a592b2804a5c49027d24051"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__query100_shuffled.json",
+      "sha256": "432f056b2b40d5726f972764f62bd306c66df5c3ac136f02ec079aa3b146537d",
+      "arrays_sha256": "034d358d6624c9d423d8543598d66a02aa8a035489ed6f24a3fae1e687b4f0fa"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__query50.json",
+      "sha256": "4c27bb1c92e0a79fc47213c0dd8e78cca601fa57a3c0f73e252e2c83abb8c1b0",
+      "arrays_sha256": "bc608ec971966417591f3c901f4f0c0fb75b60165a286b6465b8757a365b1668"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__query50_shuffled.json",
+      "sha256": "48c46542b1e70713dd1636f2d5b6c030a34af4189fe083f443d88c9f64d06327",
+      "arrays_sha256": "9881c9dc635e91ea1653c0ad80732ba4bbd7f5ea6cbb2bd53f5a74245d5bf375"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HCT116__1__v66.json",
+      "sha256": "1dc902e128166683c660438ca07e3d2ff9fef7610a3094cdb61859922803f141",
+      "arrays_sha256": "f5e297eaa2481bfb3634143860ac30dc9a37f499aa11db98b82f7b55d6e644e7"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__control10.json",
+      "sha256": "c0ab9c7500fd1e1f84647c941b58a207b03b23a25514cf6e1bea2e50247cd13d",
+      "arrays_sha256": "fe822e9954c515e4d5b8f197e26d652bba0b6df6f251ad09f6e86e799ff92e64"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__control10_shuffled.json",
+      "sha256": "416b5d21b40bc4d5c967737b621cd41132a47bd1446dd8f81a50f0569bc18d66",
+      "arrays_sha256": "aef5b51a4e093267051c5d35cac43bf2f409663205c677685a4f2abe6ddc94c4"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__control25.json",
+      "sha256": "ec8702fd41938f6b1e1873f4a2b4e3250307d4493481955bcf942429ddd7a124",
+      "arrays_sha256": "ce09ead0108d80e651c3db5281094ae4f899e086cc7a8c91bb67e1f27eee065d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__control25_shuffled.json",
+      "sha256": "cc969cd38929cdd18590f732ce144949bd208d3ce89d32b7a8f80b901e2c2d31",
+      "arrays_sha256": "260471307bc9ae1ed6a395b183227ce265d40a5c36235393af71b4ee798ed4bf"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__learned25.json",
+      "sha256": "98560cd12df90ccd008fa973ca5005b6856b826c29a5b3e61546d13ea5254314",
+      "arrays_sha256": "ce09ead0108d80e651c3db5281094ae4f899e086cc7a8c91bb67e1f27eee065d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__learned25_shuffled.json",
+      "sha256": "5a1f7e87b59f6349f766ec633d54ef9ba419ab4ab0c11e8f70e926b1e6319a87",
+      "arrays_sha256": "ce09ead0108d80e651c3db5281094ae4f899e086cc7a8c91bb67e1f27eee065d"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__query100.json",
+      "sha256": "c05f857971a6c1d00c41bbd187ee181b34f1ab98e64772d802cd478d13534b50",
+      "arrays_sha256": "5ff0fd0570e20681d4cddc563308c686fc562425f2bb06fa37768dd2a59cb5f4"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__query100_shuffled.json",
+      "sha256": "17ecf35cda70d0cdb36629d0776ec698adc1b23af0591f9ef1cf0c1013b37bc7",
+      "arrays_sha256": "62e2f869ae92724deaae2ca18db8a368c662aa08ba4a1c8928eaaed95e9d90f9"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__query50.json",
+      "sha256": "5bf8bfc8aa28f5aff1ae4e444600275c0f1565735cd741919b46ce27ff94a4e2",
+      "arrays_sha256": "b7e1be698e1716ae122396a06324675ee558569ef4560ae4cdaea4cd73359bcc"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__query50_shuffled.json",
+      "sha256": "89a3bc8463ed107798d9faad28055f3e19ad5b9a6f4d9c5391830ce633e7fcc4",
+      "arrays_sha256": "63f337312a09486f4669aba6f10a44813cbc4c3b32d69d75fa1da8d26a602a3e"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__0__v66.json",
+      "sha256": "25ec9824a629a310063796ace62787c0d73d5d11eeed71a0cf9ec13c65ac3136",
+      "arrays_sha256": "725590642754d0fd5510a9ca71e6e5d291f4d47ebda7c135a4282b7d078a1a29"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__control10.json",
+      "sha256": "cf9700e7059ac6e841807e152fc1d4ad59861122927947b71bb1c4994e1f2eae",
+      "arrays_sha256": "d56fddf5ff78fd4d7ee6149af73506bccf5a3ec8469648261e599d04b4b3cbac"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__control10_shuffled.json",
+      "sha256": "2e71fa2bd2708ea3be8b7f7db61c4556ac11fe44a4b6e0d1f4313727f24511f1",
+      "arrays_sha256": "f44f1fab8499d95eba3d175bc4e730034fc23b07335731dce5c3de059e34be6f"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__control25.json",
+      "sha256": "49a63590300f68fad0b022c9680b18f553e101c85ca28a69f8a7725910b21eeb",
+      "arrays_sha256": "294c3d25baebb4a540e22aa6818e993e7e3f68307fe49df9895936307c99ce30"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__control25_shuffled.json",
+      "sha256": "3b351e059c3d804ff2cd00de5b5dccdaf203c86f26e46b0c7f709c478ea4c775",
+      "arrays_sha256": "dfc42e6099f79dcf355be57a61ce93ee7b1a66f7479a6ddcfaea24918fdae3db"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__learned25.json",
+      "sha256": "a8902d522ecca3cd1910238ef2c6fa17407ba1da779b5ae7046c9538584cc3e8",
+      "arrays_sha256": "294c3d25baebb4a540e22aa6818e993e7e3f68307fe49df9895936307c99ce30"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__learned25_shuffled.json",
+      "sha256": "b7329c4edff8a89fc5e5ed97780c99313c21c2e793147b2c0f7dd831f080d01e",
+      "arrays_sha256": "294c3d25baebb4a540e22aa6818e993e7e3f68307fe49df9895936307c99ce30"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__query100.json",
+      "sha256": "260c2db7eede2afa74c46b9f3434a39e5c7a09950086ab66e59c1e1fa6e2e4e8",
+      "arrays_sha256": "d2eba35c8523b838b74696cf0a9ba2b2cb0a06f6d62a17a8e7b929c4797d6f55"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__query100_shuffled.json",
+      "sha256": "335f85af319dcd88f79be334f991448f3920f3ca7d9e0be36e26da9681a2d674",
+      "arrays_sha256": "8e0a45d37e0c969acd6e139862b90984420b558c01fa529aaea0f1eebcb27293"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__query50.json",
+      "sha256": "63c7aa0cd7c15529e28e48d765f6e0c6d36826e4c765941e417446db21dd59d2",
+      "arrays_sha256": "f79662ce2d0f4a56492abd35b99d0367f30c2bba0b3957543ea9e662fbfa7a8c"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__query50_shuffled.json",
+      "sha256": "3a6f29f4131b9f02e011e7aafcc63ce95235619ec0d0f381e7974bbd22df316a",
+      "arrays_sha256": "f6fdfe263a41724808c70148eb28fc3775c9c44d3393d332ea99cf9c966f6dee"
+    },
+    {
+      "path": "experiments/v78_margin_variance/analysis/development/0/HEK293T__1__v66.json",
+      "sha256": "140b954fdf6a60bdc6459b681d2c3870e334ec8be1a0255d8a34cd6ae19a2db9",
+      "arrays_sha256": "8d4bac702e2e41350e79f7875212fe6810f7c06d2c84e029a0618be44a693a0a"
+    }
+  ],
+  "panels": [
+    {
+      "source": "H1",
+      "arm": "v66",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "control10",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "control25",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "learned25",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "query50",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "query100",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "control10_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "control25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "learned25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "query50_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "arm": "query100_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "HCT116",
+      "arm": "v66",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "control10",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "control25",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "learned25",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "query50",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "query100",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "control10_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "control25_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "learned25_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "query50_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "arm": "query100_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "HEK293T",
+      "arm": "v66",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "control10",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "control25",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "learned25",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "query50",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "query100",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "control10_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "control25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "learned25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "query50_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "arm": "query100_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "v66",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "control10",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "control25",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "learned25",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "query50",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "query100",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "control10_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "control25_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "learned25_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "query50_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "arm": "query100_shuffled",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "v66",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "control10",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "control25",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "learned25",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "query50",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "query100",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "control10_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "control25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "learned25_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "query50_shuffled",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "arm": "query100_shuffled",
+      "pds": 1.0
+    }
+  ],
+  "comparison_records": 110,
+  "all_four_DE_metrics_independently_replayed": true,
+  "all_BH_arrays_verified": true,
+  "manual_rank_coordinates": 880,
+  "all_frozen_V66_baselines_replayed": true,
+  "auditor_sha256": "4a9f00bdbcacb699ae3133af42e64594be91853c3ca0b0f775fc068101aa95ab",
+  "scope": "Raw public metric and arithmetic integrity; repeated biology and two seeds are not independent biological replication."
+}

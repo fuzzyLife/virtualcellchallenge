@@ -1,0 +1,405 @@
+{
+  "stage": "development",
+  "seed_offset": 0,
+  "summary": {
+    "v66": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5795033408996161,
+      "reach": 0.21477041842133812,
+      "jaccard": 0.06235181486851842,
+      "nmae": 0.9327835434440107,
+      "CPM_L1": 0.0,
+      "changed_fraction": 0.0,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327835434440107
+    },
+    "hurdle_coupled": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.3546837427676463,
+      "reach": 0.28465988358781097,
+      "jaccard": 0.06645164426324227,
+      "nmae": 0.9327511846937102,
+      "CPM_L1": 6.66556561874435e-05,
+      "changed_fraction": 0.18053260451283726,
+      "fallback_fraction": 0.3333333333333333,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327511846937102
+    },
+    "hurdle_independent": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.3862471071679267,
+      "reach": 0.24433943604186906,
+      "jaccard": 0.05697768171171372,
+      "nmae": 0.9327569656280357,
+      "CPM_L1": 3.3318091744302126e-05,
+      "changed_fraction": 0.06713956439982764,
+      "fallback_fraction": 0.6666666666666666,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327569656280357
+    },
+    "empirical": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.28120933554998295,
+      "reach": 0.3341738365393702,
+      "jaccard": 0.0669136218925727,
+      "nmae": 0.932656997487184,
+      "CPM_L1": 6.664325475765039e-05,
+      "changed_fraction": 0.17072870557173467,
+      "fallback_fraction": 0.3333333333333333,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.932656997487184
+    },
+    "hurdle_coupled_shuffled": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.555433382912745,
+      "reach": 0.20472811055021442,
+      "jaccard": 0.06267473436451786,
+      "nmae": 0.9327628922069918,
+      "CPM_L1": 6.664929354986059e-05,
+      "changed_fraction": 0.18115829158519095,
+      "fallback_fraction": 0.3333333333333333,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327628922069918
+    },
+    "hurdle_independent_shuffled": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5537760357599538,
+      "reach": 0.2057896816754798,
+      "jaccard": 0.062407163712319025,
+      "nmae": 0.9327541266871396,
+      "CPM_L1": 3.332522489087913e-05,
+      "changed_fraction": 0.06717989644648327,
+      "fallback_fraction": 0.6666666666666666,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327541266871396
+    },
+    "empirical_shuffled": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5406013752594675,
+      "reach": 0.20457313666331434,
+      "jaccard": 0.06296158475177617,
+      "nmae": 0.9327592673047569,
+      "CPM_L1": 3.33225370948601e-05,
+      "changed_fraction": 0.06731791832317681,
+      "fallback_fraction": 0.6666666666666666,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327592673047569
+    }
+  },
+  "studies": {
+    "v66": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6655002554281797,
+        "reach": 0.07836254591101399,
+        "jaccard": 0.022352989532525895,
+        "nmae": 0.8808394257454628,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0011567302727733936
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5790678077927746,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0015213027711074296,
+        "nmae": 0.9358538125570085,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301744
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "hurdle_coupled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.08984611093030824,
+        "reach": 0.17336928727509415,
+        "jaccard": 0.006173780487804878,
+        "nmae": 0.88071752047467,
+        "CPM_L1": 9.999664097601338e-05,
+        "changed_fraction": 0.19813614264305784,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.48026315789473684,
+        "reach": 0.6804511278195489,
+        "jaccard": 0.03,
+        "nmae": 0.9358786415769003,
+        "CPM_L1": 9.997032758631709e-05,
+        "changed_fraction": 0.3434616708954539,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301746
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "hurdle_independent": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.08573155423311171,
+        "reach": 0.1670695987726068,
+        "jaccard": 0.006230590062111801,
+        "nmae": 0.8807596922975385,
+        "CPM_L1": 9.995427523290637e-05,
+        "changed_fraction": 0.2014186931994829,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5790678077927746,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0015213027711074296,
+        "nmae": 0.9358538125570085,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.0010168054684301744
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "empirical": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.06429866567483379,
+        "reach": 0.335069040866614,
+        "jaccard": 0.006309713375796179,
+        "nmae": 0.8808356094840579,
+        "CPM_L1": 9.995962287875492e-05,
+        "changed_fraction": 0.18597662274471616,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.2853873814972213,
+        "reach": 0.6672932330827068,
+        "jaccard": 0.03125,
+        "nmae": 0.9354779909479336,
+        "CPM_L1": 9.997014139419627e-05,
+        "changed_fraction": 0.3262094939704878,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301746
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "hurdle_coupled_shuffled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.5822192091820647,
+        "reach": 0.04823562229764285,
+        "jaccard": 0.02261090793448879,
+        "nmae": 0.8806367203177878,
+        "CPM_L1": 9.997262318615089e-05,
+        "changed_fraction": 0.19853819263937778,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5901389800782766,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.002232142857142857,
+        "nmae": 0.9359945642736275,
+        "CPM_L1": 9.997525746343088e-05,
+        "changed_fraction": 0.3449366821161951,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301746
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "hurdle_independent_shuffled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.5883183400091929,
+        "reach": 0.05142033567343903,
+        "jaccard": 0.022519036063927706,
+        "nmae": 0.88075117547485,
+        "CPM_L1": 9.99756746726374e-05,
+        "changed_fraction": 0.2015396893394498,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5790678077927746,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0015213027711074296,
+        "nmae": 0.9358538125570085,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.0010168054684301744
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "empirical_shuffled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.5487943585077343,
+        "reach": 0.04777070063694268,
+        "jaccard": 0.02418229918229918,
+        "nmae": 0.8807665973277019,
+        "CPM_L1": 9.99676112845803e-05,
+        "changed_fraction": 0.20195375496953044,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5790678077927746,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0015213027711074296,
+        "nmae": 0.9358538125570085,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.0010168054684301744
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 1.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    }
+  },
+  "checks": {
+    "hurdle_coupled": {
+      "profile_identity": true,
+      "CPM_bound": true,
+      "fidelity": false,
+      "jaccard": true,
+      "reach": true,
+      "nmae_available": true,
+      "beats_shuffle": false
+    },
+    "hurdle_independent": {
+      "profile_identity": true,
+      "CPM_bound": true,
+      "fidelity": false,
+      "jaccard": false,
+      "reach": true,
+      "nmae_available": true,
+      "beats_shuffle": false
+    },
+    "empirical": {
+      "profile_identity": true,
+      "CPM_bound": true,
+      "fidelity": false,
+      "jaccard": true,
+      "reach": true,
+      "nmae_available": true,
+      "beats_shuffle": false
+    }
+  },
+  "eligible": [],
+  "selected": null,
+  "complete_six_metric_support": false,
+  "scope": "Exact raw profile/PDS identity; DE and cell-normalized means may change; partial NMAE guard uses only stated available studies. Reused public biology."
+}

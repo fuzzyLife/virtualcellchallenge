@@ -1,0 +1,20 @@
+{
+  "version": 81,
+  "dependencies": {
+    "v81_residual_temperature.py": "58eee18aad1e0fc4ec000360e4223b9540605e3f037b07a9efcc010756cec219",
+    "v78_margin_variance.py": "9e3fb2990762572b86e8582f544eceb1e8e15b2ecc3d348b38bc6072ac25ecdb",
+    "v29_methods.py": "ba9d2bfc97d58cad7a5b9dac507366e4a634e90514428029702eab8f38cd0ad9",
+    "v29_pairwise_repair.py": "123ba9befdd1763e7ad63dfa1921f0de6807670fab25e4964a5f702e192dbdc8",
+    "v26_methods.py": "b8732abc946c1a36178e849137db35a1a9cd3a2887731e9638a8c15dd42b8b57",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+  },
+  "arms": [
+    "contract25",
+    "contract50"
+  ],
+  "hypothesis": "V78 and partial V79/V80 results show restoring control variance can remove correct DE calls. Test the opposite decoder direction: contract V66 residuals toward the library-scaled bulk expectation, then enforce exact parent row/gene sums and CPM mean. Related to earlier dispersion tuning, but controls actual published V66 margins. This is a noise-calibration diagnostic, not a claim that low biological variance is realistic.",
+  "proposal": "Initial=(1-gamma)*X+gamma*library*bulk; gamma .25/.50. Negative control uses gamma -.25/-.50 and clips negative proposals before the same projection. No treatment values fitted; no learned source coefficients. All genes receive the same global temperature. Fixed count sums protect raw bulk/PDS; uncertainty-corrected MSE may change.",
+  "selection": "First2 unique cases/context. Exact profiles/PDS and CPM<=.0005; FID gain>=.002, JAC>=baseline-.0005, REACH>=baseline-.005, available-study NMAE<=1.01; genuine FID/JAC better than opposite noise expansion. Highest FID, tie JAC. This separately specified opposite-direction hypothesis does not promote failed V78/V79/V80 candidates.",
+  "confirmation": "Remaining20 cases both seeds0/620000; no reselection, same guards. A zero-response null test must additionally show no material increase in false DE calls before any production release. All reused public biology; no hidden overall forecast.",
+  "automatic_upload": false
+}

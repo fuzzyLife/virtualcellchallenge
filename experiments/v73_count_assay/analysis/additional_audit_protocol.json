@@ -1,7 +1,8 @@
 {
   "sha256": {
-    "audit_v73_teacher.py": "927e0473bb7b4e8790a92108a598a5f2954af03530e689b95960721f9b2f5b36",
+    "audit_v73_teacher.py": "4519f06eaae27baef9601c5789aff29c99a231418914063e42c14000963e1bd5",
     "V73_STRATEGY.md": "bc4084fe922a9ceeddeb2b799f8c8ec0ba5ba004ec2e4da2295d4fac235e1f8d"
   },
-  "scope": "Audit/doc added before V73 development outcomes."
+  "scope": "Audit/doc added before V73 development outcomes.",
+  "audit_only_correction": "Import pathlib.Path in auditor directly; estimator, candidates, data and thresholds unchanged."
 }

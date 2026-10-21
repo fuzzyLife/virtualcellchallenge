@@ -1,0 +1,35 @@
+{
+  "sha256": "b2bae6ae3b33b5aebaf760234139189c7fdaf74153e7a8161565a740dd0572d1",
+  "cohort_sha256": "c5d8aeaecbfd9ea3a8c89b49eb50a8bf63e81b01c1becb223107c221ff88794e",
+  "source": "CD4_Stim48_D2",
+  "targets": 34,
+  "development_pds_targets": [
+    "DNTTIP1",
+    "FXYD5",
+    "MED13",
+    "ZNF641",
+    "PTMS",
+    "ZNF282",
+    "PRKACA",
+    "NABP2",
+    "AKAP1",
+    "SUPT7L",
+    "ZNF444"
+  ],
+  "script_sha256": "855d3955c4356a5170a6b22370d5c7ac60b0101cfb40781d0da089c4b7701786",
+  "source_record": {
+    "source": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\reference\\v24_cd4\\Marson2025_D2_Stim48hr_filtered.h5ad",
+    "source_md5": "md5:24bcb324497d813a73fe85dfc559b8f5",
+    "counts_sha256": "fbd1bc437fba8126f8bf4c469feef65e4d5fe0f8692881e696c48ff35b19257c",
+    "cells_sha256": "a58135be1292f31e434aa6f1ce525c66e2031efb40244c1dcc301aaa7beee86a",
+    "genes_sha256": "45974f3de42780549b21c8d970e273a0e485470934c5d9af7917751bd5fdb8d8",
+    "raw_layer": "X",
+    "source_rows": 25054,
+    "source_genes": 18130,
+    "measured_competition_genes": 17772,
+    "label_column": "perturbation",
+    "symbol_column": null,
+    "study": "Marson2025 D2 Stim48hr; condition response rows withheld, existing public study",
+    "script_sha256": "35cce44eaba87ba6baf9c4eba99bd4c7f57c367471690a79e9a06f4d454fb9ce"
+  }
+}

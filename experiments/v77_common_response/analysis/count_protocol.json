@@ -1,0 +1,8 @@
+{
+  "sha256": {
+    "run_v77_counts.py": "7bc47d0f460df414fdb4d52ad69e2630d75be9e4c544b814ab7a32e1497d9fca",
+    "run_v77_repeat_counts.py": "1d4e79ce8daac50457add3b9d2ef55c29edaf0bce90732b7e35fa4b869493a4d",
+    "audit_v77_counts.py": "2423818b6d626a9ffbcf0db6079f5c199d54cccb569ce4c4f999b554680a41f3"
+  },
+  "scope": "PDS-focused thresholds: count gain >=.01, profile noninferiority<=1.005, worst-study<=1.02, beats gene-shuffled control. Full30 PDS panels; remaining15 profile/DE; two fixed seeds. Legacy own argument used for all arms. Frozen before any V77 count outcome."
+}

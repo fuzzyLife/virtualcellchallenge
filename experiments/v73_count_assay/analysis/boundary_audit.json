@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "excluded_study": "H1",
+      "source_access_guard_passed": true
+    },
+    {
+      "excluded_study": "Orion",
+      "source_access_guard_passed": true
+    },
+    {
+      "excluded_study": "CD4",
+      "source_access_guard_passed": true
+    }
+  ],
+  "predictions": [
+    {
+      "source": "H1",
+      "prediction_sha256": "c2bbc0dd70af73bc4d12587e5daf07c4bed12b36b76bfaef305b45e09e03c873"
+    },
+    {
+      "source": "HCT116",
+      "prediction_sha256": "879c3cf2bea77413039c9dabfba9e28a75b03fe40f0df4297ba9b974ea03c2e1"
+    },
+    {
+      "source": "HEK293T",
+      "prediction_sha256": "ec291df6951593eac778fb2d9230921ba53d9a27ea9f29829775aa3e17b54706"
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "prediction_sha256": "e1a3189d3e5309b8b514c8bb52c5a01dfb45ece00636d2ebeeb403eb3ad70fd0"
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "prediction_sha256": "581fcdb1e2e60e7b920dfd47e1b19475c0237a278111bad80a0a731e784e3847"
+    }
+  ],
+  "all_correction_bounds_verified": true,
+  "all_own_effects_zero": true,
+  "unsupported_query_genes_unchanged": true,
+  "auditor_sha256": "4519f06eaae27baef9601c5789aff29c99a231418914063e42c14000963e1bd5"
+}

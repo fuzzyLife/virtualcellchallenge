@@ -1,0 +1,11 @@
+{
+  "evaluator_sha256": "8d9b9214cf05c0213da861618b8b81d07f160fa9f192352e891ddcaf602cca7c",
+  "scope": "Same broad >=30-cell diagnostic; candidate own suppression is explicitly encoded, legacy override only on V66. No reselection after confirmation.",
+  "gates": {
+    "equal_study_profile_ratio_below": 1,
+    "worst_study_ratio_at_most": 1.02,
+    "pds_change_at_least": -0.005,
+    "beats_matched_shuffle": true
+  },
+  "release": "A broader failure blocks production; adds a stricter test, never relaxes original gates."
+}

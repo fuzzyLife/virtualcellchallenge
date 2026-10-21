@@ -4,11 +4,16 @@ V69's published regression showed that frozen intended effects do not protect re
 
 ## Invariants and limitation
 
+The official metric specification distinguishes bulk expression profiles from per-cell normalized rank tests and expression sampling correction: [Arc cell-eval2 VCC2026 metrics](https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.md). This motivates separate profile and distribution checks.
+
+
 The V29 projection first fits probabilities, integerizes with exact row and column totals, then uses integer checkerboard swaps to repair the cell-normalized mean. Every returned population must have exactly the same row libraries and gene totals as its V66 parent. Raw bulk expression profiles and PDS are therefore exactly protected for any true response, not merely approximately fitted on public cases. The cell-normalized mean must have L1 difference at most0.0005, otherwise the parent is returned. Movement limits and fallback counts are recorded.
 
 Official expression accuracy includes a sampling correction; changing cell distributions can change that correction even at identical bulk profiles. Differential-expression means, raw rank p values, FID, JAC and REACH may also change. These quantities require tests. Exact bulk identity is not a guarantee of identical official MSE or improved leaderboard score.
 
 ## Three distinct proposals
+
+V78 was extended from three to five arms before any biological endpoint was consulted; the initial plan/code and unexecuted implementation correction remain in`pre_development_history`. The active plan and hashes reflect the executed extension.
 
 - V78: control-based Gamma-Poisson shape coupling at10%/25%, a study-excluded learned shape at25%, and stronger50%/100% query-shape proposals. All300 panel genes are excluded from the direct proposal. Smaller arms cap alpha changes; full-query arms do not. Existing V69 shape machinery is read only; no sealed V69 artifact is modified.
 - V79: integer molecule thinning plus negative-binomial innovations. For retention rho and signed parent excess variance a0, innovation excess variance is `(a_target-rho^2*a0)/(1-rho)^2`. Unlike a positive NB floor, this can account for an underdispersed parent. The algebra and stochastic moments are tested independently. Only the current own gene is excluded from the proposal.

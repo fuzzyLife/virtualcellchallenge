@@ -1,0 +1,25 @@
+{
+  "version": 80,
+  "dependencies": {
+    "v80_hurdle_controls.py": "a9c7c821607c3605387be1c06e001fcea81a3b006627d0385de6b801f598f2d3",
+    "v78_margin_variance.py": "9e3fb2990762572b86e8582f544eceb1e8e15b2ecc3d348b38bc6072ac25ecdb",
+    "v29_methods.py": "ba9d2bfc97d58cad7a5b9dac507366e4a634e90514428029702eab8f38cd0ad9",
+    "v29_pairwise_repair.py": "123ba9befdd1763e7ad63dfa1921f0de6807670fab25e4964a5f702e192dbdc8",
+    "v26_methods.py": "b8732abc946c1a36178e849137db35a1a9cd3a2887731e9638a8c15dd42b8b57",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+  },
+  "arms": [
+    "hurdle_coupled",
+    "hurdle_independent",
+    "empirical"
+  ],
+  "hypothesis": "Rank tests depend on cell CDFs and zero fractions, not only moments. Fit query NTC detection and positive-count shape; calibrate a relative NB detection response around empirical zeros, retaining binary control-cell dependence or testing independent detection. Empirical-scaled control transport is a comparator related to old V29, now at exact V66 realized margins. Specified without consulting V78/V79 DE summaries.",
+  "fit": "Fit per-gene detection hazard against library offsets to observed average fraction nonzero (10 Newton moment iterations). Fit overdispersion of positive excess counts (X-1) conditional on positive cells/depth; shrink toward NTC alpha with npositive/(npositive+20). Use observed control bulk rate, alpha and median/mean depths; no query treatment input.",
+  "generation": "Detection target uses logit empirical control detection plus logit NB-detection(mu_target,alpha)-logit NB-detection(mu_control,alpha). Cap detection<=mu_target to permit positive integer counts. Couple uniforms to actual control-template detection for coupled arm, independent uniforms otherwise. Given detection, sample1+NB(excess mean=mu_target/detection-1, fitted positive alpha). Condition at least one positive for a gene whose fixed parent total is positive. Exact V29 row/gene/CPM projection then enforces published V66 margins. Unsupported and current own genes receive no direct proposal; repair may affect carrier genes.",
+  "negative": "Shuffle hazard, control alpha and positive alpha jointly among eligible genes within10 baseline-expression bins; couple against genuine template/control detection. Empirical arm permutes template gene columns within expression bins then rescales and projects. Norm matching of final cells not claimed.",
+  "constraints": "Exact original row and gene counts => exact raw bulk profiles/PDS. Revert if CPM L1>.0005 or moved fraction>.35. Jackknife expression correction/DE means may change and are explicitly not protected.",
+  "selection": "Same precision-focused V79 criterion, frozen before outcomes: development first2 unique cases/context; fidelity>=baseline+.01, Jaccard>=baseline+.001, reach>=baseline-.02, available-study NMAE<=1.01 and fidelity/Jaccard better than shuffled. Highest fidelity, tie Jaccard; no failed-guard fallback.",
+  "confirmation": "Remaining20 cases, two seeds0/+620000, unchanged model. Both must pass critical criteria before production, exact profile/PDS and independent raw-p/rank checks. All public biology reused; not a hidden overall forecast or proof of true RNA kinetics.",
+  "D3_opened": false,
+  "automatic_upload": false
+}

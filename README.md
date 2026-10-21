@@ -1,3 +1,13 @@
+<!-- post69-tests:begin -->
+## V70-V81 tested; V82 is a transparent V66 recovery
+
+Completed **12 follow-up hypothesis families** after V69's regression. None met its original public requirements. Independent raw-statistic replay covers **410 completed count comparisons and 3,280 tied-rank coordinates**; these reuse public biological cases and are not independent replicates. Smaller profile error could hide lost discrimination; preserving all V66 gene/cell totals protected bulk profiles but did not guarantee better DE.
+
+**V82 is a byte-identical copy of V66**, the best published project model (overall **0.150882188**, versus V69 **0.095262845**). It is **not a new predictor or an improvement beyond V66**. The 4,073,666,560-byte recovery package passes SHA-256 equality and the official container validator. No new model qualified, no V70-V81 production file was generated, and nothing was uploaded automatically.
+
+[Complete results and recovery command](POST_V69_RESULTS.md) · [Fixed-margin experiment protocols](MARGIN_VARIANCE_STRATEGY.md) · [Prepare/verify the recovery](prepare_v82_recovery.py). Earlier release blocks below are historical.
+<!-- post69-tests:end -->
+
 <!-- v69-published:begin -->
 ## V69 published: count mixture regressed; V66 remains best
 

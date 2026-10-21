@@ -1,0 +1,6 @@
+{
+  "criterion": "Every context candidate false-DE calls <=1.10*paired V66 null calls+10, with exact V66 gene/row sums and CPM<=.0005",
+  "case": "Original V34 null splits, disjoint query-fit/reference/actual NTCs; selected model only, not model selection on null truth",
+  "script_sha256": "22bf8e922a2d0c12bed7696ad0b0ebb215b70786ade9c6481406b2b4201926a5",
+  "frozen_before_null_outcomes": true
+}

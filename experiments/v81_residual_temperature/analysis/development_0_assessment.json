@@ -1,0 +1,292 @@
+{
+  "stage": "development",
+  "seed_offset": 0,
+  "summary": {
+    "v66": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5795033408996161,
+      "reach": 0.21477041842133812,
+      "jaccard": 0.06235181486851842,
+      "nmae": 0.9327835434440107,
+      "CPM_L1": 0.0,
+      "changed_fraction": 0.0,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327835434440107
+    },
+    "contract25": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5796943413818386,
+      "reach": 0.21948142524772976,
+      "jaccard": 0.06303654651162509,
+      "nmae": 0.9327945758079313,
+      "CPM_L1": 9.993494944599271e-05,
+      "changed_fraction": 0.014720624073488836,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327945758079313
+    },
+    "contract50": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5667928082801925,
+      "reach": 0.21716552402971653,
+      "jaccard": 0.057294357868033635,
+      "nmae": 0.9327135726180984,
+      "CPM_L1": 9.998353040903525e-05,
+      "changed_fraction": 0.06104888229240007,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9327135726180984
+    },
+    "contract25_opposite": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5761150817286688,
+      "reach": 0.2137241407717536,
+      "jaccard": 0.06091732782289163,
+      "nmae": 0.9326927578706199,
+      "CPM_L1": 9.99373379553889e-05,
+      "changed_fraction": 0.013563781727899684,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9326927578706199
+    },
+    "contract50_opposite": {
+      "pds": 0.8333333333333334,
+      "fidelity": 0.5431388477344354,
+      "reach": 0.22094708620544803,
+      "jaccard": 0.0566741739793461,
+      "nmae": 0.9326858266513218,
+      "CPM_L1": 9.995111550478563e-05,
+      "changed_fraction": 0.03950577222574121,
+      "fallback_fraction": 0.0,
+      "common_expression_numerator": 0.004977350447956712,
+      "nmae_available_studies": [
+        "H1",
+        "Orion",
+        "CD4"
+      ],
+      "nmae_available_mean": 0.9326858266513218
+    }
+  },
+  "studies": {
+    "v66": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6655002554281797,
+        "reach": 0.07836254591101399,
+        "jaccard": 0.022352989532525895,
+        "nmae": 0.8808394257454628,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0011567302727733936
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5790678077927746,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0015213027711074296,
+        "nmae": 0.9358538125570085,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301744
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.49394195947789377,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.16318115230192193,
+        "nmae": 0.9816573920295604,
+        "CPM_L1": 0.0,
+        "changed_fraction": 0.0,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "contract25": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.659912650339651,
+        "reach": 0.07882746757171416,
+        "jaccard": 0.0223592485696329,
+        "nmae": 0.8806546229321008,
+        "CPM_L1": 9.994550547955081e-05,
+        "changed_fraction": 0.015434512233530172,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5795448910076597,
+        "reach": 0.5789473684210527,
+        "jaccard": 0.0016069667316742004,
+        "nmae": 0.9361065421286974,
+        "CPM_L1": 9.993198449443754e-05,
+        "changed_fraction": 0.014440008154296979,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301746
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.4996254827982049,
+        "reach": 0.000669439750422462,
+        "jaccard": 0.16514342423356818,
+        "nmae": 0.9816225623629958,
+        "CPM_L1": 9.992735836398978e-05,
+        "changed_fraction": 0.014287351832639359,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "contract50": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6202769463678555,
+        "reach": 0.08519689432330652,
+        "jaccard": 0.016015371589941308,
+        "nmae": 0.8808969771478385,
+        "CPM_L1": 9.99901985683108e-05,
+        "changed_fraction": 0.04437229274097666,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0011567302727733938
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.5614121405578852,
+        "reach": 0.5657894736842105,
+        "jaccard": 0.0007177973850462452,
+        "nmae": 0.9355819084906991,
+        "CPM_L1": 9.998609083490698e-05,
+        "changed_fraction": 0.06433851687297239,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301748
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.5186893379148367,
+        "reach": 0.0005102040816326531,
+        "jaccard": 0.15514990462911335,
+        "nmae": 0.9816618322157575,
+        "CPM_L1": 9.997430182388793e-05,
+        "changed_fraction": 0.07443583726325115,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666567
+      }
+    },
+    "contract25_opposite": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.6723293117252422,
+        "reach": 0.0883816076991027,
+        "jaccard": 0.021942356646312097,
+        "nmae": 0.8807820633594028,
+        "CPM_L1": 9.996300670770555e-05,
+        "changed_fraction": 0.015224044842172928,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.582196326905144,
+        "reach": 0.5526315789473684,
+        "jaccard": 0.001546254211288474,
+        "nmae": 0.9356247633917498,
+        "CPM_L1": 9.995168661128603e-05,
+        "changed_fraction": 0.01353894579736999,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301748
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.47381960655561994,
+        "reach": 0.0001592356687898089,
+        "jaccard": 0.15926337261107432,
+        "nmae": 0.9816714468607071,
+        "CPM_L1": 9.98973205471751e-05,
+        "changed_fraction": 0.011928354544156137,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666566
+      }
+    },
+    "contract50_opposite": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.692021297776362,
+        "reach": 0.11020967966897577,
+        "jaccard": 0.03197687846014768,
+        "nmae": 0.8805223687291946,
+        "CPM_L1": 9.995717191298056e-05,
+        "changed_fraction": 0.03961485544051316,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.001156730272773394
+      },
+      "Orion": {
+        "pds": 0.75,
+        "fidelity": 0.600305023246583,
+        "reach": 0.5526315789473684,
+        "jaccard": 0.00510204081632653,
+        "nmae": 0.9358424132900671,
+        "CPM_L1": 9.992904159334534e-05,
+        "changed_fraction": 0.03971804240936456,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.0010168054684301746
+      },
+      "CD4": {
+        "pds": 0.75,
+        "fidelity": 0.3370902221803613,
+        "reach": 0.0,
+        "jaccard": 0.13294360266156408,
+        "nmae": 0.9816926979347038,
+        "CPM_L1": 9.996713300803098e-05,
+        "changed_fraction": 0.039184418827345927,
+        "fallback_fraction": 0.0,
+        "common_expression_numerator": 0.012758515602666566
+      }
+    }
+  },
+  "checks": {
+    "contract25": {
+      "profile_identity": true,
+      "CPM_bound": true,
+      "fidelity": false,
+      "jaccard": true,
+      "reach": true,
+      "nmae_available": true,
+      "beats_opposite": true
+    },
+    "contract50": {
+      "profile_identity": true,
+      "CPM_bound": true,
+      "fidelity": false,
+      "jaccard": false,
+      "reach": true,
+      "nmae_available": true,
+      "beats_opposite": true
+    }
+  },
+  "eligible": [],
+  "selected": null,
+  "complete_six_metric_support": false,
+  "scope": "Exact raw profile/PDS identity; DE and cell-normalized means may change; partial NMAE guard uses only stated available studies. Reused public biology."
+}

@@ -1,0 +1,31 @@
+{
+  "selected": "profile050",
+  "studies": {
+    "H1": {
+      "profile_ratio": 0.9761193902798971,
+      "pds_change": -0.08833333333333326,
+      "shuffle_ratio": 1.0172600629308446
+    },
+    "Orion": {
+      "profile_ratio": 0.9747545016355985,
+      "pds_change": -0.033290297143823755,
+      "shuffle_ratio": 1.0086342633003746
+    },
+    "CD4": {
+      "profile_ratio": 0.9783096453098756,
+      "pds_change": -0.021797256451988045,
+      "shuffle_ratio": 1.007293812092774
+    }
+  },
+  "profile_ratio": 0.9763945124084571,
+  "pds_change": -0.04780696230971502,
+  "checks": {
+    "profile": true,
+    "worst_study": true,
+    "pds": false,
+    "beats_shuffle": true
+  },
+  "passes": false,
+  "target_context_pairs": 655,
+  "scope": "All existing eligible >=30-cell source responses; repeated public biology, intended means only. No strength reselection or final-test guarantee."
+}

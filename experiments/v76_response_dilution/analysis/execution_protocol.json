@@ -1,0 +1,10 @@
+{
+  "sha256": {
+    "run_v76_counts.py": "8725ce7168e3c6d80d04c179f2370b964f59afbce8c484bb29f3754d053ae5e2",
+    "run_v76_repeat_counts.py": "58fcc21602612feb47ccb1bb7ed0f05bab52de1846ab08f0ddb53d6d4e73e0fa",
+    "audit_v76_counts.py": "9f32dde179071736044f7b0c03fa9f6efef471d15872773e944cbddd1148a947",
+    "evaluate_v76_broad.py": "8d9b9214cf05c0213da861618b8b81d07f160fa9f192352e891ddcaf602cca7c",
+    "select_v76_joint.py": "2f428891f88a86c67565a4d26eafeadc0f461542e863b0f6aef4ecd567a1dd97"
+  },
+  "scope": "V76 numeric counts preserve original emit code; encoded candidate own effects use own=None. PDS uses all canonical unique targets; heldout subset only for profile/DE means. Joint development selector tightens mean-only preselection with PDS before new-model confirmation; initial preselection is preserved. No model coefficient or old threshold is relaxed."
+}

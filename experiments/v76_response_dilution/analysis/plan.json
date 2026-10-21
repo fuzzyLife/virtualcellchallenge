@@ -1,0 +1,31 @@
+{
+  "version": 76,
+  "dependencies": {
+    "v76_response_dilution.py": "ef5758f783d3e723d5700b30eeced70e31d6b8c059026d5d9afac927bb37273d",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "run_v75_verified_counts.py": "f77bec33d7a2541099a55b8edb741eac361998bf7b7a6b58ff888cc5d7cb8bae"
+  },
+  "inputs": {
+    "experiments/v66_assay_strength/analysis/predictions/H1.npz": "dddda3eeadc2477e0e4654f635781aded840e5c9459ed7a84f0683863cb88b16",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.npz": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.npz": "756d763ab8f44ceaaa35a26a48c69d7556612a21043f840c76fcc7b77db80c1b",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.npz": "401b1e46e4d82c4f8cba826a183d4bbbc275c6876714a703c6ca994ec363c5ca",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.npz": "58f54e9d041894dc690cf1f09a5a6d3c72bc3a8606b57ead83a03ee5ba979b42"
+  },
+  "arms": [
+    "mixture075",
+    "mixture050",
+    "dose030",
+    "dose055"
+  ],
+  "hypothesis": "V75 improves means but degrades broad PDS: shrinking downstream responses while retaining fixed direct own knockdown changes response composition. Test convex mixtures of the COMPLETE V66 bulk profile and control (response fractions .75/.50), and direct-own-factor .30/.55 controls. No new cellular sampler. Partial-response mixture interpretation is a working biological hypothesis, not identified responder fractions.",
+  "representation": "Build V66 closed profile with old own factor .1 exactly once. A mixture p=(1-gain)*control+gain*parent is closed and nonnegative before bounds, and jointly dilutes direct knockdown and downstream response. Encode FULL log2(p/control), including the own coordinate. Nonown corrections bounded +/-0.375 versus the closed V66 log-ratio; own allowed to change. All encoded values clipped +/-3, unexpressed query coordinates abstain. Candidate count emission calls the original V16 emitter with own=None so no second suppression is applied. V66 baseline uses its original own argument.",
+  "negative_controls": "Mixture: cyclic active-target proportion residuals with recipient nonpanel norm; preserve genuine recipient own probability before reclosure. Dose: apply the own-factor change to a cyclic wrong target gene. Decoder constraints can alter exact norm matching; measure final profiles. No outcome-based shuffle choice.",
+  "selection": "Same first-three distinct development cases/context, >=0.5% profile gain, worst study <=2% worse, beats its shuffled control. Lock before scoring new-model remaining cases. Every public cohort has been used in earlier experiments, including V75 confirmation: no blind claim.",
+  "confirmation": "PDS requires >=2 distinct targets. Fixed PDS panels use ALL 4/4/6/8/8 unique cases/context (30 total); profile/DE primary summaries use only remaining 1/1/3/5/5 (15 total). This repairs V75 singleton-PDS infeasibility, without dropping the PDS gate. Two seeds 0/+620000; fresh V66 replays and raw-p audits; fixed broad >=30-cell profile/PDS/shuffle gates. Production requires primary/repeat profile/worst-study/PDS/shuffle and broad checks. All other failures/missing remain explicit.",
+  "V75_development_sha256": "3174ab12040f2b849bd51aac0adcb791f568cbbe4499d7172a7799b51f048536",
+  "V75_remaining_mean_sha256": "fa0bfd7808db52052e36492eb0344f164dc8bb608bf790ca5d52d47602d042b7",
+  "D3_opened": false,
+  "automatic_upload": false
+}

@@ -1,0 +1,132 @@
+{
+  "records": [
+    {
+      "source": "H1",
+      "statistics": {
+        "weak": {
+          "coordinates": 0,
+          "previous_mean": null,
+          "new_mean": null,
+          "previous_mean_absolute": null,
+          "new_mean_absolute": null
+        },
+        "strong": {
+          "coordinates": 175351,
+          "previous_mean": 0.006303498055785894,
+          "new_mean": 0.006298158783465624,
+          "previous_mean_absolute": 0.08058645576238632,
+          "new_mean_absolute": 0.08051180839538574
+        }
+      },
+      "previous_sha256": "e85f104e0afa5f671f05ec35863785c0a2148e7ee6657cd38d80ce8a9b3cb944",
+      "new_sha256": "00a40dabd8a3ff10daaee2188752caae037524dcd1693c75319974bb547bf64f"
+    },
+    {
+      "source": "HCT116",
+      "statistics": {
+        "weak": {
+          "coordinates": 54,
+          "previous_mean": 1.5762345790863037,
+          "new_mean": 1.1320937871932983,
+          "previous_mean_absolute": 1.630081295967102,
+          "new_mean_absolute": 1.181181788444519
+        },
+        "strong": {
+          "coordinates": 422030,
+          "previous_mean": 7.596000796183944e-05,
+          "new_mean": 7.487837865483016e-05,
+          "previous_mean_absolute": 0.06520584970712662,
+          "new_mean_absolute": 0.06510897725820541
+        }
+      },
+      "previous_sha256": "d13cd4db687a0ae46d6c459795591eee01432661d9ae95615fc8835775b5ac14",
+      "new_sha256": "f3cf755b9339f686db93bbe4303d82403cd9215afffd65a72bd08f81f3d23bef"
+    },
+    {
+      "source": "HEK293T",
+      "statistics": {
+        "weak": {
+          "coordinates": 26,
+          "previous_mean": 1.133881688117981,
+          "new_mean": 0.8133082985877991,
+          "previous_mean_absolute": 1.2879948616027832,
+          "new_mean_absolute": 0.9592214226722717
+        },
+        "strong": {
+          "coordinates": 890808,
+          "previous_mean": 0.0032944108825176954,
+          "new_mean": 0.0032903377432376146,
+          "previous_mean_absolute": 0.06991177797317505,
+          "new_mean_absolute": 0.06981009989976883
+        }
+      },
+      "previous_sha256": "6a2638f7ae5e52475f599e471667978d8531614da36c6151a4ab1e1c79a161a7",
+      "new_sha256": "e7f04ed6f04be8cc798000cb4ec2ad45888bfd94254f55769810e53390b90a76"
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "statistics": {
+        "weak": {
+          "coordinates": 6,
+          "previous_mean": 0.05898205563426018,
+          "new_mean": 0.006516417022794485,
+          "previous_mean_absolute": 1.4993082284927368,
+          "new_mean_absolute": 1.1170507669448853
+        },
+        "strong": {
+          "coordinates": 66526,
+          "previous_mean": 0.005644519813358784,
+          "new_mean": 0.005637260153889656,
+          "previous_mean_absolute": 0.08858446031808853,
+          "new_mean_absolute": 0.08845186978578568
+        }
+      },
+      "previous_sha256": "f39fe742dc9adb31448bb7922a68e136dd261e3ab05af0e795332cb614d33e9e",
+      "new_sha256": "849dc7f8a574a5114d79939ace3904638930c331fa64c4c65a238a8a9d22f81d"
+    },
+    {
+      "source": "CD4_Rest_D2",
+      "statistics": {
+        "weak": {
+          "coordinates": 5,
+          "previous_mean": -0.7074745893478394,
+          "new_mean": -0.6220746040344238,
+          "previous_mean_absolute": 1.9074745178222656,
+          "new_mean_absolute": 1.451830506324768
+        },
+        "strong": {
+          "coordinates": 135263,
+          "previous_mean": 0.0045286971144378185,
+          "new_mean": 0.004527219105511904,
+          "previous_mean_absolute": 0.1117977499961853,
+          "new_mean_absolute": 0.1116538792848587
+        }
+      },
+      "previous_sha256": "2fb796cef1d03f073573b2d0a7f928773791031dd73a31eb2ef70c44f2039278",
+      "new_sha256": "7bee6da060c36c79bd6735befc59dbc54fb61994d544facd1504f7ad1564406d"
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "statistics": {
+        "weak": {
+          "coordinates": 55,
+          "previous_mean": 0.3434874415397644,
+          "new_mean": 0.19884641468524933,
+          "previous_mean_absolute": 1.2235058546066284,
+          "new_mean_absolute": 0.9050651788711548
+        },
+        "strong": {
+          "coordinates": 139693,
+          "previous_mean": 0.010624345391988754,
+          "new_mean": 0.010614569298923016,
+          "previous_mean_absolute": 0.11887852847576141,
+          "new_mean_absolute": 0.11872212588787079
+        }
+      },
+      "previous_sha256": "6a8b7cb34251d255a9aca64ed0516911cf2c91202f8b323e2f275cb600c1deff",
+      "new_sha256": "83a8c5f963dc04be2ae461a8e09d04b2420f23e957bda28d7c71823e272a7e98"
+    }
+  ],
+  "scope": "Source estimator outputs only; no independent truth, recipient outcome or accuracy evidence.",
+  "script_sha256": "d7f8960901f0fb70280b09fe521596b36504d780456bdc59b56c61e19cf45b89"
+}

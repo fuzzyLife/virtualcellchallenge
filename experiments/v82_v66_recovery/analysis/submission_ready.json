@@ -1,0 +1,129 @@
+{
+  "file": "\\\\it-promecfarm01.win.ntnu.no\\promec\\promec\\Animesh\\Download\\Virtual\\experiments\\v82_v66_recovery\\prediction.vcc",
+  "sha256": "be899434d81eac45bb8312077fe789088fe49b9b772971d589dcf5414e8f22f1",
+  "bytes": 4073666560,
+  "official_container_validated": true,
+  "byte_identical_to_V66": true,
+  "new_predictor": false,
+  "new_hidden_score": false,
+  "uploaded": false,
+  "created_utc": "2026-10-21T07:53:14.293600+00:00",
+  "parent_entry": "x8V3fUSgFIoAzHbNx4eX",
+  "parent_published_overall": 0.15088218754984492,
+  "parent_rank_is_historical": true,
+  "parent_full_payload_audit_sha256": "93e9ef5b9bad97f41e52c71b3af355277ce735d571564fec9840b6c6532f62c6",
+  "prior_public_guards_passed": false,
+  "new_methods": [
+    {
+      "version": 70,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v70_count_teacher\\analysis\\selection.json": "d862190fc3b39551d2e263e46a0ee63fa8a67d195bd75160221f10d937e3a473"
+      }
+    },
+    {
+      "version": 71,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v71_evidence_projection\\analysis\\selection.json": "df91d0198d82e469307269f0588e8f1da4a621c279a18cbf76cda1c5e279630d"
+      }
+    },
+    {
+      "version": 72,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v72_batch_offset\\analysis\\selection.json": "bb38bf6f60ed7c753e7f3ac11c028b32cfcf22c8a50fb5a74e2270590070fbff"
+      }
+    },
+    {
+      "version": 73,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v73_count_assay\\analysis\\selection.json": "0f8cb80b6742718b82bf31026d809594e31bca24c8bba5bca085ff198cb9b784"
+      }
+    },
+    {
+      "version": 74,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v74_assay_gain\\analysis\\selection.json": "421d110ee8f993cf544e502574abf86f57880fce683a3e0e890ad13871d80e68"
+      }
+    },
+    {
+      "version": 75,
+      "selected": "profile050",
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v75_assay_shrink\\analysis\\selection.json": "f10bec641918c3663da5890d6649899ca60fc8402a08615235993a8dd72672e3",
+        "experiments\\v75_assay_shrink\\analysis\\broader_assessment.json": "6d3ebf70f6ee5b8931efdc0252f2b930c99fc232a7b6b7ca36671e3e3bbc0020"
+      }
+    },
+    {
+      "version": 76,
+      "selected": "mixture075",
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v76_response_dilution\\analysis\\selection.json": "66198ebe83c1f17ec41d91d3a2b584362b1aa69435c392814790ca1c3d022e7d",
+        "experiments\\v76_response_dilution\\analysis\\validation_complete.json": "f0c2b8081eab4ed640d362b798ae767fec8e59805807879108556df2d938425c"
+      }
+    },
+    {
+      "version": 77,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v77_common_response\\analysis\\selection.json": "33bc992573dc4e09865a249418b629ba4a20ce43f62e8a1e81a3050752c4e148"
+      }
+    },
+    {
+      "version": 78,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v78_margin_variance\\analysis\\selection.json": "5eef3ffe1804945f01614633b5c03751b7ef94ee27f54d91c5e968a208edb865",
+        "experiments\\v78_margin_variance\\analysis\\development_0_independent_audit.json": "267f744930b2f8b02a4a067d2260969209a2caae38b66bb9adb352c67b213100"
+      }
+    },
+    {
+      "version": 79,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v79_count_innovations\\analysis\\selection.json": "6003ca2cb5842a0fc4d1f52130f774d356664f51d195ea90b779648892b908f3",
+        "experiments\\v79_count_innovations\\analysis\\development_0_independent_audit.json": "22c9b73ecfb17af52a6df14772a3439ecb09ac696b8d751d126d3cef9ceeda46"
+      }
+    },
+    {
+      "version": 80,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v80_hurdle_controls\\analysis\\selection.json": "ed6f16cae03dced3571da52142e867736b1ec07e08c5b4d1c3d045e37e3d1cd3",
+        "experiments\\v80_hurdle_controls\\analysis\\development_0_independent_audit.json": "ed43a7b615bf3a46e1b627aa8483ef2a263012517ab00d22b05d669370beb09f"
+      }
+    },
+    {
+      "version": 81,
+      "selected": null,
+      "qualified_for_release": false,
+      "evidence": {
+        "experiments\\v81_residual_temperature\\analysis\\selection.json": "0481ee1681bc0014ce3ce6707e0339bee316d58e08c9ba38dfdfcdc038420af2",
+        "experiments\\v81_residual_temperature\\analysis\\development_0_independent_audit.json": "cb26dcd8826621cdbb345b0994a3c737e61ec55deaa2aa220d76e1889041357b"
+      }
+    }
+  ],
+  "package_meta": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2368753922,
+    "schema": 1
+  },
+  "script_sha256": "168c25933177faea2b504227edd6d20c07949d072ab66e410e4dc2f83c62c5d4",
+  "interpretation": "Recovery of best published project model after V69 regression. No new model met its frozen public guards. This copy does not establish improvement beyond V66 and resubmitting consumes an allowance."
+}

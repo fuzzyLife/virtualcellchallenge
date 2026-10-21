@@ -1,0 +1,30 @@
+{
+  "version": 77,
+  "dependencies": {
+    "v77_common_response.py": "5417296297d17af81fa52606b2320043d5b224350feb8384921e38186d45f71c",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v70_count_teacher.py": "f04b42389888ffea7bc68512fc1cc73436ea3dd4584339211d6e4bea7ffd29af",
+    "v76_response_dilution.py": "ef5758f783d3e723d5700b30eeced70e31d6b8c059026d5d9afac927bb37273d"
+  },
+  "inputs": {
+    "experiments/v66_assay_strength/analysis/predictions/H1.npz": "dddda3eeadc2477e0e4654f635781aded840e5c9459ed7a84f0683863cb88b16",
+    "experiments/v66_assay_strength/analysis/predictions/HCT116.npz": "90721191f670c5faab923c13b818734d491087065886bec814c9e6a91ca57f32",
+    "experiments/v66_assay_strength/analysis/predictions/HEK293T.npz": "756d763ab8f44ceaaa35a26a48c69d7556612a21043f840c76fcc7b77db80c1b",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Rest_D1.npz": "401b1e46e4d82c4f8cba826a183d4bbbc275c6876714a703c6ca994ec363c5ca",
+    "experiments/v66_assay_strength/analysis/predictions/CD4_Stim48_D2.npz": "58f54e9d041894dc690cf1f09a5a6d3c72bc3a8606b57ead83a03ee5ba979b42"
+  },
+  "arms": [
+    "common25",
+    "common50",
+    "common100",
+    "projection50"
+  ],
+  "hypothesis": "Global dilution trades lower error for worse PDS. Instead shrink only the common predicted trans-response component across the query target panel. Related to V62 source centering, but applied after full V66 prediction in the scoring assay; no source teacher replacement or new sampler.",
+  "estimator": "LOO average of other predicted log1p(50000*p) responses; exclude every source intervention own coordinate from its output-gene template. Subtract fixed .25/.5/1 times this common component, or half the positively aligned common projection (coefficient clipped0..2). Preserve each target original own probability before nonown mass reclosure. Reanchor with original V66 closure to retain own factor.1, bound changes +/-0.375 LFC and total +/-3, preserve unsupported/zero-trans-response targets. All cells use original emitter with its legacy own argument.",
+  "control": "Fixed cyclic gene-coordinate permutation of common component within ten bulk-expression strata, separately for panel/nonpanel genes; recipient coefficient reused. Input common-component norms preserved. Final decoder constraints may change achieved norms. No score-based permutation choice.",
+  "development": "Profile first3 distinct fixed cases/context. PDS first3 plus8 metadata-selected extra targets with >=100 cells, excluding ALL fixed cases from extras, sorted by SHA256(v77-pds:+target). Freeze cohort before computing truth. Joint rank-focused eligibility: PDS gain >=0.01, mean profile ratio <=1.005 (noninferiority), worst study <=1.02, and profile better than gene-shuffled control. Prefer larger PDS gain, tie lower profile error.",
+  "validation": "Remaining fixed cases for profile/DE; PDS all30 distinct fixed cases to avoid singleton panels; two seeds with fresh V66 replay and raw-p/BH/rank audits. Held-target point check excludes every development-PDS target from all >=30-cell source targets (about600); require PDS gain>=.005, profile ratio<=1.005, worst study<=1.02 and beats gene shuffle. Count production requires PDS gain>=.01, same profile/worst-study/shuffle gates in BOTH seeds. Other DE failures and missing values explicit.",
+  "scope": "PDS-focused joint experiment with prespecified different objective, not a relaxation/promotion of failed V75/V76 mean candidates. All public biological data were used previously; held targets are new to this coefficient selection, not new biological studies. No hidden scaled-score forecast.",
+  "D3_opened": false,
+  "automatic_upload": false
+}

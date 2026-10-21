@@ -1,0 +1,131 @@
+{
+  "selected": "mixture075",
+  "checks": {
+    "profile": true,
+    "worst_study": true,
+    "pds": false,
+    "fidelity": true,
+    "reach": false,
+    "jaccard": false,
+    "nmae": false,
+    "beats_shuffle": true
+  },
+  "release_supported": false,
+  "summary": {
+    "v66": {
+      "pds": 0.7591269841269841,
+      "fidelity": 0.5684441615258914,
+      "reach": 0.11170781643674425,
+      "jaccard": 0.08468808723757104,
+      "nmae": null,
+      "profile_square_error": 70.45553144123797
+    },
+    "mixture075": {
+      "pds": 0.6886904761904763,
+      "fidelity": 0.5759402656443797,
+      "reach": 0.06928828442571813,
+      "jaccard": 0.08132937618739057,
+      "nmae": null,
+      "profile_square_error": 67.8533984226864
+    },
+    "mixture075_shuffled": {
+      "pds": 0.7591269841269842,
+      "fidelity": 0.5693963229803843,
+      "reach": 0.10420864819655166,
+      "jaccard": 0.08516461099555177,
+      "nmae": null,
+      "profile_square_error": 71.26825137506034
+    }
+  },
+  "studies": {
+    "v66": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.5916190476190476,
+        "reach": 0.008393956351426972,
+        "jaccard": 0.14746423927178154,
+        "nmae": 0.892740594542086,
+        "profile_square_error": 54.11822996610452
+      },
+      "Orion": {
+        "pds": 0.6166666666666667,
+        "fidelity": 0.5853628011431515,
+        "reach": 0.25555555555555554,
+        "jaccard": 0.0004619455299125317,
+        "nmae": null,
+        "profile_square_error": 37.761977822660995
+      },
+      "CD4": {
+        "pds": 0.6607142857142857,
+        "fidelity": 0.5283506358154748,
+        "reach": 0.07117393740325026,
+        "jaccard": 0.10613807691101906,
+        "nmae": 0.9583554034563244,
+        "profile_square_error": 119.48638653494841
+      }
+    },
+    "mixture075": {
+      "H1": {
+        "pds": 0.8333333333333334,
+        "fidelity": 0.5967458223394899,
+        "reach": 0.003357582540570789,
+        "jaccard": 0.13753501400560225,
+        "nmae": 0.8972116800211728,
+        "profile_square_error": 51.11251676820068
+      },
+      "Orion": {
+        "pds": 0.6166666666666667,
+        "fidelity": 0.6030759942845554,
+        "reach": 0.2,
+        "jaccard": 0.0004968423818870156,
+        "nmae": null,
+        "profile_square_error": 34.056041745918684
+      },
+      "CD4": {
+        "pds": 0.6160714285714286,
+        "fidelity": 0.5279989803090939,
+        "reach": 0.004507270736583599,
+        "jaccard": 0.10595627217468245,
+        "nmae": 0.9676385895183646,
+        "profile_square_error": 118.39163675393986
+      }
+    },
+    "mixture075_shuffled": {
+      "H1": {
+        "pds": 1.0,
+        "fidelity": 0.5937169078715143,
+        "reach": 0.006715165081141578,
+        "jaccard": 0.14982578397212543,
+        "nmae": 0.8899270491320703,
+        "profile_square_error": 54.52105146565383
+      },
+      "Orion": {
+        "pds": 0.6166666666666667,
+        "fidelity": 0.5854004524036314,
+        "reach": 0.3,
+        "jaccard": 0.0002882596445470697,
+        "nmae": null,
+        "profile_square_error": 39.74437497934768
+      },
+      "CD4": {
+        "pds": 0.6607142857142858,
+        "fidelity": 0.5290716086660072,
+        "reach": 0.005910779508513424,
+        "jaccard": 0.10537978936998282,
+        "nmae": 0.9619981325262356,
+        "profile_square_error": 119.53932768017953
+      }
+    }
+  },
+  "profile_ratios": {
+    "H1": 0.9444602456549966,
+    "Orion": 0.9018606468616065,
+    "CD4": 0.9908378702147098
+  },
+  "paired_profile_ratio": 0.9457195875771044,
+  "missing_metrics": [
+    "nmae"
+  ],
+  "D3_opened": false,
+  "scope": "Reused public biological cohorts; fixed remaining unique targets, one technical seed; no private score forecast."
+}

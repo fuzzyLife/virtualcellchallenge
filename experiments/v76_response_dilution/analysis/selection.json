@@ -1,0 +1,167 @@
+{
+  "selected": "mixture075",
+  "eligible": [
+    "mixture075"
+  ],
+  "pds_changes": {
+    "mixture075": 0.0,
+    "mixture050": -0.027777777777777752,
+    "dose030": 0.0,
+    "dose055": 0.0
+  },
+  "records": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "arm": "v66",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "arm": "mixture075",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "arm": "mixture050",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "arm": "dose030",
+      "pds": 1.0
+    },
+    {
+      "source": "H1",
+      "study": "H1",
+      "arm": "dose055",
+      "pds": 1.0
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "arm": "v66",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "arm": "mixture075",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "arm": "mixture050",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "arm": "dose030",
+      "pds": 0.5
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "arm": "dose055",
+      "pds": 0.5
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "arm": "v66",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "arm": "mixture075",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "arm": "mixture050",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "arm": "dose030",
+      "pds": 1.0
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "arm": "dose055",
+      "pds": 1.0
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "v66",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "mixture075",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "mixture050",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "dose030",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "arm": "dose055",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "v66",
+      "pds": 0.6666666666666666
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "mixture075",
+      "pds": 0.6666666666666666
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "mixture050",
+      "pds": 0.5
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "dose030",
+      "pds": 0.6666666666666666
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "arm": "dose055",
+      "pds": 0.6666666666666666
+    }
+  ],
+  "development_sha256": "2840e0285c938a56f422c09712b5ceeed000b54af622b94d2c7970008c4715c1",
+  "criterion": "All original development mean/worst-study/shuffle criteria plus PDS >= baseline-.005, tightened before new-model confirmation. Original MSE-only ranking retained separately.",
+  "scope": "Repeated public development, three targets/context; broad test remains mandatory."
+}

@@ -1,0 +1,43 @@
+{
+  "version": 78,
+  "dependencies": {
+    "v78_margin_variance.py": "9e3fb2990762572b86e8582f544eceb1e8e15b2ecc3d348b38bc6072ac25ecdb",
+    "v69_count_bridge.py": "61486f6c2205e9d985a5e8edab8f7db909fb2c8824751a2ee1fb008f2ba42db0",
+    "v29_methods.py": "ba9d2bfc97d58cad7a5b9dac507366e4a634e90514428029702eab8f38cd0ad9",
+    "v29_pairwise_repair.py": "123ba9befdd1763e7ad63dfa1921f0de6807670fab25e4964a5f702e192dbdc8",
+    "v29_swap_kernel.py": "24a61b6506b21dde74410e48866f355625605a1512876b943b9cbafc6f1befb6",
+    "v26_methods.py": "b8732abc946c1a36178e849137db35a1a9cd3a2887731e9638a8c15dd42b8b57",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613"
+  },
+  "inputs": {
+    "experiments/v66_assay_strength/analysis/independent_validation.json": "93e9ef5b9bad97f41e52c71b3af355277ce735d571564fec9840b6c6532f62c6",
+    "experiments/v66_assay_strength/analysis/reference_model_arrays.npz": "76be16202d83997828670bb954d7fe33e16fb94471ba1e02b2aaa13ce3684c08",
+    "experiments/v69_count_bridge/analysis/source_shapes/H1.npz": "088c77d78560c1144b4f94f878a0713d8addef40d60018be085fab7ef38bbc5b",
+    "experiments/v69_count_bridge/analysis/source_shapes/H1.json": "9ad301a7110511fcc0dbe6902b0ce457bdc5b34efcf6dd44b863b2f2646a8a1c",
+    "experiments/v69_count_bridge/analysis/source_shapes/HCT116.npz": "c27d90c4577ef150c0f2f7c7c4f63744edad633e7bfafb4db04245ae6cbff5e8",
+    "experiments/v69_count_bridge/analysis/source_shapes/HCT116.json": "75dbd978d632c34aba3889913b6ced4124e1abf1d593eb71da9a3a67f3d89eb2",
+    "experiments/v69_count_bridge/analysis/source_shapes/HEK293T.npz": "d2b3186b34f0d9fc2de159f9dd4b86117818fdd0e64265b4e55145dc5a38b1a7",
+    "experiments/v69_count_bridge/analysis/source_shapes/HEK293T.json": "abdcaf47c515a279d15f8f5f104cc0d1ca6efe05fee688d1220ee8c44afeffc4",
+    "experiments/v69_count_bridge/analysis/source_shapes/CD4_Rest_D2.npz": "a984a5767854d24bdd60691273808080dfed1798859ed67212d4f6e887f6f475",
+    "experiments/v69_count_bridge/analysis/source_shapes/CD4_Rest_D2.json": "93e92efe56d19350f1aca1acd3177c1b3c1f05198be5c9e60b103d68fdddc317",
+    "experiments/v69_count_bridge/analysis/source_shapes/CD4_Stim48_D2.npz": "c1e66477dd6b916f05801434a9c649910c551c44ea43658f4624b4cb1a828f77",
+    "experiments/v69_count_bridge/analysis/source_shapes/CD4_Stim48_D2.json": "ca84b851b2c600c16a8c60f68b01566262a2acc9435d211fc54428cd4226d37e"
+  },
+  "arms": [
+    "control10",
+    "control25",
+    "learned25",
+    "query50",
+    "query100"
+  ],
+  "hypothesis": "V69 changed means and regressed. V70-V77 response mean corrections fail discrimination. Keep every realized V66 row total and every gene total EXACTLY, learn only cell variance. NB moment-matched shape bridge at zero mean effect, followed by reviewed V29 exact-margin projection and CPM repair. Related to old fixed-mean variation tests, but protects actual published V66 profiles and uses a count-shape proposal rather than latent neural residuals.",
+  "shape": "Fit depth-conditioned NB alpha on V66 population and full query NTC controls. Reliable nonpanel genes require >=80 molecules in both. Restore query alpha; learned arm adds quarter of study-balanced V69 source dispersion shift with whole-study exclusion. Shape log-ratio clipped +/-ln4. Mix proposed counts with original at10%/25% before projection. Other genes receive zero shape change. Project to exact original row and column counts; retain original if global CPM drift>0.0005 or movement>15% of original molecules. Undefined alpha uses original; no target treatment input.",
+  "controls": "Each arm uses the same shaping/rounding seed. Control arms compare alpha shuffled among reliable genes within ten expression bins. Learned arm compares cyclic target-shuffled V69 dispersion evidence at same strength. Zero shape is exact count identity. Existing V29 projector unchanged, including5% CPM repair budget.",
+  "development": "First TWO unique fixed cases/context (10 populations, PDS>=2). Three arms versus V66 and respective shuffled controls. Profile/PDS must be bitwise identical, CPM bound passes. Select highest fidelity among candidates with fidelity gain>=.002, Jaccard gain>=.0005, reach no worse .005, NMAE available-study error no worse1%, and fidelity/Jaccard better than its shuffled control. Missing studies explicitly remain missing; available NMAE is a partial guard, never full six-metric support.",
+  "confirmation": "Remaining unique cases after first2 (2/2/4/6/6,20 populations), two seeds0/+620000. No promotion after confirmation. Critical release requires exact raw profiles/PDS, mean CPM bound, fidelity/Jaccard favorable versus V66 and shuffle, reach no material regression, available-study NMAE<=1.01. Corrected expression numerator/jackknife may change and is NOT protected by bulk identity. All public biological data reused; no hidden-score forecast.",
+  "D3_opened": false,
+  "automatic_upload": false,
+  "pre_development_addendum": "Baseline residual10 uses25% expected+65%Poisson+10%empirical counts, strongly attenuating biological variation. Before any real treatment-shape outcome, add query50/query100: independent Gamma shape coupling to full observed query alpha range.005..20 (no fourfold cap), mixed50%/100%, with35% movement cap instead of15%. Exact row/column and CPM safeguards unchanged. NTC parameter fitting code/arrays unchanged; original source/plan preserved.",
+  "implementation_note": "Indentation/replacement issue in unexecuted pre-development extension fixed before any real treatment-shape outcome; initial and intermediate sources retained.",
+  "query_shape_support_note": "Before real variance outcomes: query50/query100 require20 parent molecules (rather than80), keeping80 query-NTC molecules. Accurate variance is learned from NTCs; parent means are exact constraints, and otherwise the low-expression DE universe would be excluded. Capped/learned arms retain80 parent molecules."
+}
