@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "submission_sha256": "e042294a250ba151d533edb360c036d36522568240b4986438860ec000f78f81",
+  "prediction_sha256": "e147c277633615a41d74adb931661cc2e769a87a3312ffd4a4054ff096515cc3",
+  "all_packaged_counts_and_indices_compared": 2368816339,
+  "cells_with_original_libraries_verified": 360000,
+  "exact_original_template_identities": true,
+  "full_groups_regenerated": [
+    {
+      "context": "A",
+      "target": "ABCD1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "A",
+      "target": "DVL3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "A",
+      "target": "PKN3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "A",
+      "target": "ZRANB3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "B",
+      "target": "ABCD1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "B",
+      "target": "DVL3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "B",
+      "target": "PKN3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "B",
+      "target": "ZRANB3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "C",
+      "target": "ABCD1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "C",
+      "target": "DVL3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "C",
+      "target": "PKN3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "C",
+      "target": "ZRANB3",
+      "full_cells": 400,
+      "exact_count_replay": true
+    }
+  ],
+  "official_package_metadata": {
+    "cli_version": "0.2.2",
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2368816339,
+    "schema": 1
+  },
+  "accuracy_claim": "No hidden-score improvement established; see frozen release decision and public tradeoffs.",
+  "auditor_sha256": "6171ace492ce75726884642e3266f5718f7f217a08b079b482cef8d2e7c6742f"
+}

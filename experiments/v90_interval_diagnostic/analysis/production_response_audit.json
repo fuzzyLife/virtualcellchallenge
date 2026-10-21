@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "parent_V66_effects_exact": true,
+  "not_identical_to_V66": true,
+  "own_effect_zero": true,
+  "quarter_strength_response_bounds_passed": true,
+  "records": [
+    {
+      "context": "A",
+      "changed_target_groups": 300,
+      "maximum_absolute_LFC_change": 0.125,
+      "mean_absolute_LFC_change": 0.0002445225836709142,
+      "changed_gene_coordinates": 4166835
+    },
+    {
+      "context": "B",
+      "changed_target_groups": 300,
+      "maximum_absolute_LFC_change": 0.125,
+      "mean_absolute_LFC_change": 0.00021235224267002195,
+      "changed_gene_coordinates": 4081082
+    },
+    {
+      "context": "C",
+      "changed_target_groups": 300,
+      "maximum_absolute_LFC_change": 0.125,
+      "mean_absolute_LFC_change": 0.00025771421496756375,
+      "changed_gene_coordinates": 4145942
+    }
+  ],
+  "script_sha256": "3a44ce9e48fc392d2da56f1c59e85f415dfa4edf59afb38653641883291070c9",
+  "scope": "Response integrity and genuine change, not a hosted accuracy prediction."
+}

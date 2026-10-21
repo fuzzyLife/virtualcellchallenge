@@ -1,0 +1,46 @@
+{
+  "groups": 900,
+  "contexts": {
+    "A": {
+      "groups": 300,
+      "mean_probability_L1": {
+        "mean": 0.0064966273684241285,
+        "maximum": 0.007513403730700804,
+        "minimum": 0.005728877001613524
+      },
+      "bulk_probability_L1": {
+        "mean": 0.00043451865310437397,
+        "maximum": 0.00044203450326444255,
+        "minimum": 0.00042662897403069526
+      }
+    },
+    "B": {
+      "groups": 300,
+      "mean_probability_L1": {
+        "mean": 0.012646256314659982,
+        "maximum": 0.016790092582576136,
+        "minimum": 0.008548420879853502
+      },
+      "bulk_probability_L1": {
+        "mean": 0.0004942583298384151,
+        "maximum": 0.000538525536329269,
+        "minimum": 0.00046341082608941094
+      }
+    },
+    "C": {
+      "groups": 300,
+      "mean_probability_L1": {
+        "mean": 0.005978348778823981,
+        "maximum": 0.006713892163658208,
+        "minimum": 0.005291847196281398
+      },
+      "bulk_probability_L1": {
+        "mean": 0.00045003549396544515,
+        "maximum": 0.00045735638174365455,
+        "minimum": 0.00044025718028319104
+      }
+    }
+  },
+  "scope": "All900 requested-versus-realized probability-moment diagnostics. This measures decoder fidelity, not correctness against hidden treatment profiles.",
+  "script_sha256": "a050b1f66077de598fde51f85e7f608f1df6cf609495244dfd003358973b91ba"
+}

@@ -1,3 +1,11 @@
+<!-- v90-diagnostic:begin -->
+## V90 diagnostic submission
+
+An officially packaged and independently validated diagnostic is ready at `experiments/v90_interval_diagnostic/prediction.vcc`. It uses the earlier V86 interval projection with the unchanged V66 count generator. Both donor seeds improved profile error, fidelity and NMAE with unchanged PDS; Jaccard declined on the second seed. The broad 655-pair profile improvement was 0.3734%. **This is post hoc experimental selection, not a validated improvement or a predicted leaderboard score.** V66/V82 remains the best published reference.
+
+V88/V89 failed their original research gates and were not packaged. Their negative evidence is retained. See [V90_RESULTS.md](V90_RESULTS.md) for the exact file/hash, tradeoffs and upload command; [V90_STRATEGY.md](V90_STRATEGY.md) for reproduction; and [V88_RESULTS.md](V88_RESULTS.md)/[V89_RESULTS.md](V89_RESULTS.md) for full rejected comparisons. No upload or GitHub push occurs automatically.
+<!-- v90-diagnostic:end -->
+
 <!-- v87-bolero:begin -->
 ## BOLERO paper review and conditional-weight experiment (V87)
 
