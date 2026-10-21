@@ -1,0 +1,6 @@
+{
+  "reason": "pandas3 returns a read-only array; request a copy before masking source own coordinates. Reuse unchanged metadata cohort without overwriting. Legacy response extraction explicitly fits K562 only, excluding all other legacy families. No paired-effect or recipient test score existed.",
+  "before_sha256": "2e2fadfd464e91bf8b94e98dd49b113b71636b1b9bf32b3f24fb5d7079cdf434",
+  "after_sha256": "278a08ed074c43dcdb70700b9fb0217a7b65fc991331082013f8b1a438378ba7",
+  "model_parameters_unchanged": true
+}

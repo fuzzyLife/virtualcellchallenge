@@ -1,0 +1,65 @@
+{
+  "version": 83,
+  "hypothesis": "Add measured interventions from missing HepG2/Jurkat contexts and RPE1; test new biological information rather than another decoder or blend of the same legacy five-source bank.",
+  "literature": [
+    "https://proceedings.mlr.press/v306/sung26a.html",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919078/",
+    "https://www.nature.com/articles/s41588-025-02169-3",
+    "https://arxiv.org/html/2603.13051v1"
+  ],
+  "facts": {
+    "existing_hepg2_and_jurkat_mean_files_each_have_zero_rows": true,
+    "V66_families": [
+      "K562",
+      "CD4",
+      "H1",
+      "HCT116",
+      "HEK293T"
+    ],
+    "new_source_genes": 6642,
+    "new_means_are_linear_CP10k_over_released_axis": true,
+    "pretrained_scDEBART_not_executed": true,
+    "C3TL_context_embedding_requires_target_context_response_information": true
+  },
+  "arms": [
+    "routed25",
+    "conserved25"
+  ],
+  "primary": "routed25",
+  "source_filter": "Measured competition genes, target>=30 cells and reference>=400; positive finite control mean; source control expression>=5CPM on released axis; actual source FDR<.05 and finite nonzero LFC with concordant Ueffect sign. Non-significance/absent features are abstention, never credible biological zero. Own target is masked from predicted downstream effects.",
+  "source_effect": "Use released linear normalized means and measured LFC, clipped +/-3; knockdown rescale0.9/max(observed suppression,0.35), bounded0.8..1.8, if own evidence exists; otherwise no additional dose rescaling. Query-source pairwise-valid nonpanel Spearman on the shared released axis weights contexts exp(4*(rho-maxrho)). Total prior weights Nadig1 split across2contexts, RPE1/Replogle1; no independence claim for two Nadig contexts.",
+  "routed": "Weighted mean of valid measured effects. Confidence=min(ncells/100,1)*min(abs(Ueffect)/.2,1). Source weight includes this confidence. Add0.25*pooled-confidence*clip(newLFC-V66,-1,1); own zero. Coordinates with no measured evidence unchanged.",
+  "conserved": "Same proposal but requires same-direction significant evidence in RPE1 and at least one Nadig context. The opposite direction never counts as an independent vote for zero.",
+  "identity_guard": "Apply unchanged V63 80% identity-margin guard around the fold-specific V66 predictions using query bulk proportions and excluding all panel genes, not around V24; no query treated values.",
+  "negative": "Derange supported source target rows cyclically before recipient correction, preserving own mask and honest norm differences. Refit no model against recipient treatment labels.",
+  "development": "Reuse655-pair public mean truth bank, whole H1/Orion/CD4 recipient exclusion. Compare against fold-specific V66; macro study profile error, target-identification PDS and cell-mean LFC. Frozen arm selection among candidates with profile ratio<=.995, worst-study<=1.03, PDS>=baseline-.005, lower profile error than target derangement. Primary routed25 is independently tested on donor even if development rejects all arms; such test cannot waive development failure.",
+  "fresh_donor": {
+    "file": "Marson2025_D3_Rest_filtered.h5ad",
+    "expected_md5": "md5:e8c066b72f12caea34d26985f49474ea",
+    "targets": [
+      "ADNP",
+      "AKAP1",
+      "MAP2K2",
+      "MARCKSL1",
+      "MYRF",
+      "PCGF1",
+      "PRDX3",
+      "SLC39A1",
+      "SUPT7L",
+      "USP28",
+      "ZC3HAV1",
+      "ZNF25",
+      "ZNF280C",
+      "ZNF514"
+    ],
+    "selection": "ALL metadata targets>=400, before treatment expression; use matched-control-supported targets only and record exclusions by metadata. No outcome-based target choice.",
+    "excluded_response_family": "Entire CD4, including merged donor summaries; Jurkat is allowed distinct-study T lineage.",
+    "task": "Fresh donor, previously seen study; not a wholly independent study, final-test proxy or a perfectly blind target set.",
+    "fit_controls": "Within-lane deterministic half split of NTCs; reference distinct half; template400 selected by lane/depth only; actual400 distinct cells per target when available. Recipient treatment cannot fit, select or calibrate any deployable model.",
+    "counts": "V66, fixed primary routed25, its derangement; any different dev-selected arm is additional only if eligible. Use unchanged residual10 and identical template/depth/seed for all arms. Independent tied-rank/BH/DE/PDS audits; source exclusion audit. Frozen second seed620000 after first-case cohort fit, never tune on donor.",
+    "guards": "Both mean development and fresh donor required for recommending a new model: profile ratio<=1, no metric materially worse (PDS-.005,FID-.002,REACH-.005,JAC-.0005,NMAE+1%), at least3 of6 favorable; beat deranged response on profile and FID or JAC. Missing metric stays unavailable; no complete-six-metric claim without all six.",
+    "oracle": "If frozen primary fails fresh donor, assess split-half target reproducibility and a clearly labeled mean-oracle using disjoint treated halves. Diagnostics never become inference inputs and cannot select a new candidate."
+  },
+  "automatic_upload": false,
+  "claim_of_better_score": false
+}

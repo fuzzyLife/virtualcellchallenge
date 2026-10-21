@@ -1,0 +1,1310 @@
+{
+  "revision": "3d9ba7f3eeb639675f5e6bf44ce61c8cc707dd5a",
+  "cardData": {
+    "license": "apache-2.0"
+  },
+  "files": [
+    {
+      "type": "directory",
+      "oid": "19ffc799b5e8151103cc1a1840d4fec5476ec95d",
+      "size": 0,
+      "path": "cellxgene"
+    },
+    {
+      "type": "directory",
+      "oid": "d568d86999aa100257dd756c811a9702982b95ca",
+      "size": 0,
+      "path": "cellxgene/concat_de"
+    },
+    {
+      "type": "directory",
+      "oid": "d6be4615d66ea4f356a01cb4cc5615b34da6b888",
+      "size": 0,
+      "path": "cellxgene/pretrain_output"
+    },
+    {
+      "type": "directory",
+      "oid": "4248dced7cf14ca9c69b4f93dcd600edfcdcd30c",
+      "size": 0,
+      "path": "data"
+    },
+    {
+      "type": "directory",
+      "oid": "05466d520e496ed21bb92cd4eccab229db9ea8b6",
+      "size": 0,
+      "path": "perturb_seq"
+    },
+    {
+      "type": "directory",
+      "oid": "a2d44f4909702fc56900afc10f41398d945a6af5",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2"
+    },
+    {
+      "type": "directory",
+      "oid": "ce6830e7752c0935c5ae2c09a08c51ae0c50fa43",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/DE_results"
+    },
+    {
+      "type": "directory",
+      "oid": "39db12d710eb1863287fd90e4675bd8c67bc3a04",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/PS_score"
+    },
+    {
+      "type": "directory",
+      "oid": "fc48a1080646f1ef5d107de9b15b91666c2b0e5f",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/export_for_seurat"
+    },
+    {
+      "type": "directory",
+      "oid": "0dfd9f3d01346d9a24f4dde67c9dda5b234c157c",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model"
+    },
+    {
+      "type": "directory",
+      "oid": "c2b1bd8e4656de92a4626127e2acc08dfbccf1d7",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_30"
+    },
+    {
+      "type": "directory",
+      "oid": "ae4a6c3fdbb0820171c0927ce051b0eaac801508",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_40"
+    },
+    {
+      "type": "directory",
+      "oid": "a73dc9c8fc392b7555915247664eba86f729a5ff",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_50"
+    },
+    {
+      "type": "directory",
+      "oid": "8e7870ba4bcf986c91ed5e0a84435b56af30d379",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat"
+    },
+    {
+      "type": "directory",
+      "oid": "2b5c6236f62570a488fa1eeae56d01ab74fce54f",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/DE_results"
+    },
+    {
+      "type": "directory",
+      "oid": "8c04b0eb74010f3235165ee6f970175bfb3d4af9",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/PS_score"
+    },
+    {
+      "type": "directory",
+      "oid": "42efe9039f1253fe8a0625b7866dfadcdc81335c",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model"
+    },
+    {
+      "type": "directory",
+      "oid": "6790f9cf780088c377129bc3ede5c562eb00966e",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_30"
+    },
+    {
+      "type": "directory",
+      "oid": "c929491eb7355f1770359fe2faa4ba43f500a026",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_40"
+    },
+    {
+      "type": "directory",
+      "oid": "34222a080572f9d1e2c9108d9598cec37621695e",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_50"
+    },
+    {
+      "type": "directory",
+      "oid": "4f2989a945bf76ca3f3a87ebc550377bd17930d5",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562"
+    },
+    {
+      "type": "directory",
+      "oid": "ce2abbc6a3aa2153613ff68957fe75b3c1b79881",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/DE_results"
+    },
+    {
+      "type": "directory",
+      "oid": "3779b7b75d64dec770c89015342f50616dbb1f0d",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/PS_score"
+    },
+    {
+      "type": "directory",
+      "oid": "7885a82b6e02e5c012008aa17040aea3e61669aa",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/export_for_seurat"
+    },
+    {
+      "type": "directory",
+      "oid": "06c7be6302e9f58399164489aed732f933fe0c47",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/finetuned_model"
+    },
+    {
+      "type": "directory",
+      "oid": "cc3487765b4413ccfa1b57744c42cd5f23a8b558",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_30"
+    },
+    {
+      "type": "directory",
+      "oid": "231308e2a0a30f769380fffecc24a4d345bce60e",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_40"
+    },
+    {
+      "type": "directory",
+      "oid": "bef6f203a618ac67ff64d6c684d3f4353399b3b5",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_50"
+    },
+    {
+      "type": "directory",
+      "oid": "d414b8f73c651927c02553237c28ea90794adcbb",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1"
+    },
+    {
+      "type": "directory",
+      "oid": "30670ce19abf69b2987d70a9b3405fec75a34546",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/DE_results"
+    },
+    {
+      "type": "directory",
+      "oid": "43c9c531ad60a9149d8d134c89b0b812b0acd437",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/PS_score"
+    },
+    {
+      "type": "directory",
+      "oid": "95207949cf73add8bcfe5fae4a3997fbdd86e7fa",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/export_for_seurat"
+    },
+    {
+      "type": "directory",
+      "oid": "2ee9c5ff291ff2221db242f3c95c7ce2fc3efb14",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model"
+    },
+    {
+      "type": "directory",
+      "oid": "c9910848dd6ed2eb267c8255185e6f46ce967db0",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_30"
+    },
+    {
+      "type": "directory",
+      "oid": "b75380582328ecc4e591b4fe56bbf89a6ca2be73",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_40"
+    },
+    {
+      "type": "directory",
+      "oid": "2505cec94d9c5ecfabd6e4e38864421f3fb8d0f8",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_50"
+    },
+    {
+      "type": "directory",
+      "oid": "58ef351038c1cf173d7ee1aaf4163dd6ecb2154a",
+      "size": 0,
+      "path": "perturb_seq/norman"
+    },
+    {
+      "type": "directory",
+      "oid": "88a59a1a47ee424de62c8c63c1257f6f6fbb2bd6",
+      "size": 0,
+      "path": "perturb_seq/norman/DE_results"
+    },
+    {
+      "type": "directory",
+      "oid": "7288e751aa5265764976880e04a8c7e1ccb01e6a",
+      "size": 0,
+      "path": "perturb_seq/norman/PS_score"
+    },
+    {
+      "type": "directory",
+      "oid": "fd48f5770a6a29efde2f62194255189ddf2181dc",
+      "size": 0,
+      "path": "perturb_seq/norman/finetuned_model"
+    },
+    {
+      "type": "directory",
+      "oid": "758667e231fd8a09c06d63500fd4d1f0e8ad9112",
+      "size": 0,
+      "path": "perturb_seq/norman/finetuned_model/seed_30"
+    },
+    {
+      "type": "directory",
+      "oid": "39e1a7b2e6f43ea1d066d0307e378726e39c9f33",
+      "size": 0,
+      "path": "perturb_seq/norman/finetuned_model/seed_40"
+    },
+    {
+      "type": "directory",
+      "oid": "fe294587bc0c033b96ccb9d8c6a3c217bcebac39",
+      "size": 0,
+      "path": "perturb_seq/norman/finetuned_model/seed_50"
+    },
+    {
+      "type": "file",
+      "oid": "d68e051cecaf6a7ff03f5b17965ce7500b97b8b3",
+      "size": 4280,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "7b95401dc46245ac339fc25059d4a56d90b4cde5",
+      "size": 31,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "cellxgene/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "cellxgene/concat_de/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "54678b23bc4e179264f1923b991e0b65a732556a",
+      "size": 46090608485,
+      "lfs": {
+        "oid": "1f5f10703f6a7140ed804f759d09524e529a811e9878586fc60af6af6b327675",
+        "size": 46090608485,
+        "pointerSize": 136
+      },
+      "xetHash": "b35b9516611741aa38188be069b7291eec697ba9b6e6036076148f70499cfa1e",
+      "path": "cellxgene/concat_de/all_processed_de_profiles_top1024_chunked_compressed.h5"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "cellxgene/pretrain_output/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "4f6ee463cc5498f053314997f121131f31f350c0",
+      "size": 539163578,
+      "lfs": {
+        "oid": "195962f5774a79922df454013dad5825124616a1c88266074e67d3e09e57935f",
+        "size": 539163578,
+        "pointerSize": 134
+      },
+      "xetHash": "a3501327ae31d57a718924b03b212f500caacccac5856a8e385ca260e235bfe7",
+      "path": "cellxgene/pretrain_output/best_pretrained_scDEBART_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "data/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "0043c63bf516308fe35a1e7ca69ca4e7a78071d2",
+      "size": 62498102,
+      "lfs": {
+        "oid": "13d757e31f8d65a5a42b3a5eaf2ff01ba979d7bccbc5cf36d68996c752599719",
+        "size": 62498102,
+        "pointerSize": 133
+      },
+      "xetHash": "04dd6a98a8bc2e33f65b638b665829c1d49083a67634f92e39323a8c17404f1b",
+      "path": "data/BioBERT_gene_embedding_dict.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "e79e5dd06d241752751af5552cdf5969d71987fe",
+      "size": 316189224,
+      "lfs": {
+        "oid": "8e0fcedaad98f40c3ec7aaee22b3c7aa00d2380ef4f6a82401f198e521dfb9b6",
+        "size": 316189224,
+        "pointerSize": 134
+      },
+      "xetHash": "52e671258ae0d120d62eff39163f00ebd3e78ad3b3556e862f170663b7991032",
+      "path": "data/c2_all_2024_1_membership_ens2pathway.tsv"
+    },
+    {
+      "type": "file",
+      "oid": "995e67fda250ca01416757c1310d692dec97513b",
+      "size": 419917,
+      "lfs": {
+        "oid": "2c5b0de98c0d3b0facc56bc4254a970e2bb43004e9e95a36d948f40c256c5fb5",
+        "size": 419917,
+        "pointerSize": 131
+      },
+      "xetHash": "ffe743ce2df461e9b981fb0c7a31061668af07104f26d84ae974d44c857ec342",
+      "path": "data/ens2geneid.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "perturb_seq/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "perturb_seq/Nadig_HepG2/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "fa7a882bc86e19b2981a5918556b51fd73c0a830",
+      "size": 96271145,
+      "lfs": {
+        "oid": "fdf3c83aa8f943765fba00ed5ac7ac8daea354c2a9317d1985a5e3dcd81bdc06",
+        "size": 96271145,
+        "pointerSize": 133
+      },
+      "xetHash": "d005cf6532fabf5efadb48ea2b3b0f6478a87c9c15b31809c8dbcc206f429819",
+      "path": "perturb_seq/Nadig_HepG2/DE_results/DE_true_logFC_dataframe_masked_low_nonzero_to_zero_dataframe.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "4bd2e78838b5303443f2ec6d7c2e26f9bce34433",
+      "size": 10172829366,
+      "lfs": {
+        "oid": "aa9b53367e4de3c596e9178f10f240427488ae8b35620c2d49ad4c62f6f51c27",
+        "size": 10172829366,
+        "pointerSize": 136
+      },
+      "xetHash": "737e199a49bf82b5f9961de2565a6005393626577b9a7266c2c6e3d4a2923e33",
+      "path": "perturb_seq/Nadig_HepG2/DE_results/de_masked_high_zero_logfc_to_zero.h5"
+    },
+    {
+      "type": "file",
+      "oid": "b8cf493ad99f0ee870d739811fcda6485a78f196",
+      "size": 5613132766,
+      "lfs": {
+        "oid": "8e7f057c93935ee90e883d97b08c6288cec38750a6925cd4109c69bfe5dd7ae3",
+        "size": 5613132766,
+        "pointerSize": 135
+      },
+      "xetHash": "cb9f1a1ebced12f25fc7dae1f32e545cff8e4a6ca63d8062d3db75868bb087c7",
+      "path": "perturb_seq/Nadig_HepG2/Nadig_HepG2_perturb_processed.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "ea88064170b245bba835267e1fff78abb66b9531",
+      "size": 6015784,
+      "path": "perturb_seq/Nadig_HepG2/PS_score/perturb_score_per_cell_per_gene.csv"
+    },
+    {
+      "type": "file",
+      "oid": "969befecb02d8de63d976ced1145893c3fd88d7a",
+      "size": 1100131,
+      "path": "perturb_seq/Nadig_HepG2/export_for_seurat/features.csv"
+    },
+    {
+      "type": "file",
+      "oid": "60b1548261f88d3e46a91a3f242048fd7e9076e3",
+      "size": 8084251909,
+      "lfs": {
+        "oid": "441f638be812944dc344783495c77938db1e03840ceebc9d83c97c7cae152a73",
+        "size": 8084251909,
+        "pointerSize": 135
+      },
+      "xetHash": "3b2fe1e7eb1508e5a9f1ab7590abfe7db2927ce22ddf268411c42239eb5a68a9",
+      "path": "perturb_seq/Nadig_HepG2/export_for_seurat/matrix.mtx"
+    },
+    {
+      "type": "file",
+      "oid": "6ad9319f94d1963559a6eaff6cbeeae50472a68c",
+      "size": 17008802,
+      "lfs": {
+        "oid": "73f9eb9892334e6ab461cd3fc38d07cc6a3204ffcb55556483ad0e4c7ad4f5a7",
+        "size": 17008802,
+        "pointerSize": 133
+      },
+      "xetHash": "d8f562f6df6eaa64702ad209a211eee9661ed445c3ba623a9d992b8a84805384",
+      "path": "perturb_seq/Nadig_HepG2/export_for_seurat/metadata.csv"
+    },
+    {
+      "type": "file",
+      "oid": "25965dd8e7c5b78da5f6358def5d95b1c634b117",
+      "size": 46128,
+      "lfs": {
+        "oid": "9d078a205f5b1e55b80c985a382aa160ea2c7037d3f655cfcde062ae7ac6ec63",
+        "size": 46128,
+        "pointerSize": 130
+      },
+      "xetHash": "4e800435b3e88925b96224400874e7ca2ae8061002cea5fa35130ab941cdd7d6",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_30/Nadig_HepG2_GEARS_split_30_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "114cc1e5cdea3c55de6a6bbf8c384f4ae5232c36",
+      "size": 750987203,
+      "lfs": {
+        "oid": "efab79849de3ff00d86a1aad9f4f7d96a352ae7b9fc91a9d4eb4f9cc5aa95f17",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "4445637e1974b0f69229cf7580c31a05d71037a81cfa24944d86b1f9fcd8e792",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_30/Nadig_HepG2_seed30_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "a96cd78f4a0168fb86597581f1762e3cc907f22b",
+      "size": 270057962,
+      "lfs": {
+        "oid": "0e0cc9a50f3c7f1b306916e13709575cc24def0fe977f39c946a3f113ed4570f",
+        "size": 270057962,
+        "pointerSize": 134
+      },
+      "xetHash": "f1fbd64772aec8a15f2e4652e9b5e0700785aa534a3d19a131f3af5a2823ecff",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_30/Nadig_HepG2_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "88728124f07e2eb87b8ac22eac6de2e83a3d6e3e",
+      "size": 46128,
+      "lfs": {
+        "oid": "4de33c53a584c1f50ef24acf602a55cec79acaac603178820a87511f2b2073b5",
+        "size": 46128,
+        "pointerSize": 130
+      },
+      "xetHash": "261ecc3117bbf29217aa147f2d241cc004544b2fde9a732df33cb33c88c7dde5",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_40/Nadig_HepG2_GEARS_split_40_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "b145570f73abb9078cb951978a3740e3cb2b1cc7",
+      "size": 750987203,
+      "lfs": {
+        "oid": "10028dbc9887dec4d227c0540fb3bd1b48c605754ec93ec5408363bc171da8f0",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "0d96755527a43053e15c65aa19cc96a33f9460b64087110fd48442150f50dbff",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_40/Nadig_HepG2_seed40_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "f9b5256b487155e76574a8c20f4eee43493218ca",
+      "size": 66194602,
+      "lfs": {
+        "oid": "e9ebb215bcf93af3ad8c12c670c07237ef4221c7ed78a492f36cf582bfc13522",
+        "size": 66194602,
+        "pointerSize": 133
+      },
+      "xetHash": "31d621ca2dfb15bd8a8cf02d4c887f659047b07dc66701ce263048db3f4914b9",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_40/Nadig_HepG2_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "96b631195e6c98f9f8ec0c1ce7b7c6858306cde0",
+      "size": 46128,
+      "lfs": {
+        "oid": "6a8efd26dc0af920fc11d88b02ebf9dec98c0306bf37c3bc624ee034f56448ad",
+        "size": 46128,
+        "pointerSize": 130
+      },
+      "xetHash": "c528b67d8161128bcfdb40718b16f54cd06fff6f51df9e5899b418994f91d9ee",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_50/Nadig_HepG2_GEARS_split_50_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "5703daddb5c2c20c76153dd97e998c7349f1d36e",
+      "size": 750987203,
+      "lfs": {
+        "oid": "5287c83339a15b3c2b72b18e11c0127a822157b6c01cfb41d2485c4682a08ce2",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "53b932798d8925cbd28b9559cfe8c3372d2e32bce23a0df3b9f284197ecb2b51",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_50/Nadig_HepG2_seed50_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "0f9b715a73f50cf2e3fae43b988b610414b319e6",
+      "size": 234518106,
+      "lfs": {
+        "oid": "5bb027cffd988c251227dd1097d76968520d6d32b5d18aece8b682c1ccda3917",
+        "size": 234518106,
+        "pointerSize": 134
+      },
+      "xetHash": "d8ad7e1634047bf519ae4c0d39ebc61b117a68ec38b7bf93a5bd51681e517490",
+      "path": "perturb_seq/Nadig_HepG2/finetuned_model/seed_50/Nadig_HepG2_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "b66bb227e10aa392f6a03edd8755af05f2b2b336",
+      "size": 3084927674,
+      "lfs": {
+        "oid": "53f284283a013dea51c423c5f95315ba64a061dd08d7e73a174d7eb75a8562bd",
+        "size": 3084927674,
+        "pointerSize": 135
+      },
+      "xetHash": "74eab2f9a6a31f26458adec8afb09b6a2886d4470863379fb7487578c71b4188",
+      "path": "perturb_seq/Nadig_HepG2/rawcount_adata_final_selected_cells_only.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "perturb_seq/Nadig_Jurkat/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "cf472024c19cdb27932e11bc418507388e2f1434",
+      "size": 60247430,
+      "lfs": {
+        "oid": "90e944b9649f5019cc78340e53c90ab00a2df13575ec034cca84fa027494d478",
+        "size": 60247430,
+        "pointerSize": 133
+      },
+      "xetHash": "5dba470695d8e8228a2d82a743d7ac8df3cbef4da37fd363ae7de60d6911d6c5",
+      "path": "perturb_seq/Nadig_Jurkat/DE_results/DE_true_logFC_dataframe_masked_low_nonzero_to_zero_dataframe.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "d151db79bcff8087d46f0351b992f600da538fa0",
+      "size": 6248582475,
+      "lfs": {
+        "oid": "76498d4c641ff6ce0b2b6b9d0a2ce623446aaf978227686283fe7bd56250f2aa",
+        "size": 6248582475,
+        "pointerSize": 135
+      },
+      "xetHash": "34246466fd56027d7cc02b7ac6eab9834b26e9418db99ead95b9744969b38012",
+      "path": "perturb_seq/Nadig_Jurkat/DE_results/de_masked_high_zero_logfc_to_zero.h5"
+    },
+    {
+      "type": "file",
+      "oid": "a18dbfcd03441e35984b9794bc93b7b728b191d6",
+      "size": 9364372652,
+      "lfs": {
+        "oid": "a659af462d418891edf48f507220ef9d9087b48f265b8570c28a24b01173f277",
+        "size": 9364372652,
+        "pointerSize": 135
+      },
+      "xetHash": "1ea7954ee78bde420315ca428fe57d454776fc7d0c060de1480f28811a9275ce",
+      "path": "perturb_seq/Nadig_Jurkat/Nadig_Jurkat_perturb_processed.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "b66aa8b1d8d60f45f55f315323d1866c5946eea6",
+      "size": 7343022,
+      "path": "perturb_seq/Nadig_Jurkat/PS_score/perturb_score_per_cell_per_gene.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d9d08ed373ac79a093930dc6bfa46c5c8c4f69c9",
+      "size": 31350,
+      "lfs": {
+        "oid": "54bf9026019f67a4d1b96850d27fabef3c04da2d16cb66bde5e4d44dda931a8a",
+        "size": 31350,
+        "pointerSize": 130
+      },
+      "xetHash": "d0dc45ea562c350b89e4c87509045fde39437c446b1bb0df294e3a4e88f54f23",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_30/Nadig_Jurkat_GEARS_split_30_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "33ba9f3ef3a1b4a4f2be9601e8f64b0ac4a3863c",
+      "size": 750987203,
+      "lfs": {
+        "oid": "b4b4e1c30c47300b2cba3b0efcd867a1b4136a4b1165c735f23a403090a06969",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "e4a2056a697195e46bff5cd85a2721d379baffc9d67d0736a3cad3a4bbc15e5f",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_30/Nadig_Jurkat_seed30_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "6c0872ec365dc979cd41cd2ede4bdc623a7baa89",
+      "size": 45398871,
+      "lfs": {
+        "oid": "f7c1c78abc1af05bc1e744f2c54046ddf41f6a3d784c56cead1d51f4c27e0440",
+        "size": 45398871,
+        "pointerSize": 133
+      },
+      "xetHash": "2424896a0074b60ef5ece02bdfb2ce4f1ba4a4b34b1ca008986dc2f6bde4e11f",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_30/Nadig_Jurkat_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "8f4869f3b3dda3c676270d2a053907a61d161d73",
+      "size": 31350,
+      "lfs": {
+        "oid": "82279e12e7c797dd0ab7e25021dc4cf00a56180bb441009e8608ae8dd263fabf",
+        "size": 31350,
+        "pointerSize": 130
+      },
+      "xetHash": "94dd18603962c17bca0d60130308b08c774931865f947d96d6eb06974f8e34f7",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_40/Nadig_Jurkat_GEARS_split_40_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "b92a4e3ff6507e9d61ada78ee08dd480f66d96fc",
+      "size": 750987203,
+      "lfs": {
+        "oid": "f1811a2b0c1d912fed2383fa8268a43250ead4ba5eb99d10ea3cd9a3f9276a3a",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "15942209babd04610b7b435a19516b7e0a64c94f94ed40a1d60b7c6477b0fbd0",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_40/Nadig_Jurkat_seed40_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "7503564d177e5f03beb48e2f8e13f5d8fd39deeb",
+      "size": 48274660,
+      "lfs": {
+        "oid": "be80f88a59963ca4c7e49680a4bf8e33dfb70070bc2a527eb802a46ccc6688ed",
+        "size": 48274660,
+        "pointerSize": 133
+      },
+      "xetHash": "0fdb1bef74f84a304fdaec4bf2bac2ef509c6e38a6d882f9373a8faec4091529",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_40/Nadig_Jurkat_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "0cd3cb9906a2810eaec37eca7e9b2db55c0f1f8b",
+      "size": 31350,
+      "lfs": {
+        "oid": "fb99b037b5d561c74703ca9bbdb45d92bafb72cf63c502c3e324d697c27fd75e",
+        "size": 31350,
+        "pointerSize": 130
+      },
+      "xetHash": "27a5dc54b31fad7bef0360547fc9f1dff94547133632f868f5c17fb8bd0959b1",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_50/Nadig_Jurkat_GEARS_split_50_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "b9fbc0bda3ccb6a01c21ff7624a0b00f37bb3c4f",
+      "size": 750987203,
+      "lfs": {
+        "oid": "b7f0e80a00150baa93667958ffbec05ff402fc6cfbf44789d332685316a197c2",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "f7465dfdc9e3f4a79bac71b121c6e8ec2670aa60dfc9815e070fe7e3e85fb771",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_50/Nadig_Jurkat_seed50_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "1bddecbebcdd72f297bc0e4d7acebccacd3beb60",
+      "size": 51882351,
+      "lfs": {
+        "oid": "09dd6b67984be95c1488e2d67490c15b8a49b41d29a2a76806eb337e4fa52a33",
+        "size": 51882351,
+        "pointerSize": 133
+      },
+      "xetHash": "afd649e52d343daa8bf0e9f9a43fc2e81b1f211f043c7baf4f8813589a68e4f9",
+      "path": "perturb_seq/Nadig_Jurkat/finetuned_model/seed_50/Nadig_Jurkat_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "d49bd4870e09c2756b7735717dae414044ce6091",
+      "size": 3643017166,
+      "lfs": {
+        "oid": "f2a40324b8a95094b71d274f80c93ed3145019b1d393b97f99d421bc8269b4f1",
+        "size": 3643017166,
+        "pointerSize": 135
+      },
+      "xetHash": "ce583bac40276fa35da1414ed7476f34802490bbe424264ea5e34ffb38bfccad",
+      "path": "perturb_seq/Nadig_Jurkat/rawcount_adata_final_selected_cells_only.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "perturb_seq/Replogle_K562/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "fd55ef5da11fd172a2fb0826737a0144928924a8",
+      "size": 68567172,
+      "lfs": {
+        "oid": "5e18fd4870bb908e3336e417c2f5a876b65279b6efa71d9105a2ff22934a5314",
+        "size": 68567172,
+        "pointerSize": 133
+      },
+      "xetHash": "e4102d6ce10e33c8291bb26b53e8d4be65bfd3acc42513f1a7fa841a9541753f",
+      "path": "perturb_seq/Replogle_K562/DE_results/DE_true_logFC_dataframe_masked_low_nonzero_to_zero_dataframe.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "3525f10b1396cb7fc7f76a31854da0c3f696cb12",
+      "size": 7373933269,
+      "lfs": {
+        "oid": "f24b11065fa3b129c815e85a89b68f3df3248d91d46ff68dc325bd257cb4d2e8",
+        "size": 7373933269,
+        "pointerSize": 135
+      },
+      "xetHash": "1b359a8a96ffa7d9dadc02ff823852639fab54d5e15205d89a8d025e428d7fba",
+      "path": "perturb_seq/Replogle_K562/DE_results/de_masked_high_zero_logfc_to_zero.h5"
+    },
+    {
+      "type": "file",
+      "oid": "53e8f21031b39ab26498e907c76fa128bfd590a2",
+      "size": 12281595,
+      "lfs": {
+        "oid": "f1eab31637d9af50bf2b9234abfbf90d02b11309f66ca570f3ad452ebc29a8cd",
+        "size": 12281595,
+        "pointerSize": 133
+      },
+      "xetHash": "966f1e4697e88c1d052d15a5384fee71b300704e069cc1bed4b435586d1fe794",
+      "path": "perturb_seq/Replogle_K562/PS_score/perturb_score_per_cell_per_gene.csv"
+    },
+    {
+      "type": "file",
+      "oid": "fea753fb348af9a68ab187dea9b1457473f45656",
+      "size": 10656987636,
+      "lfs": {
+        "oid": "1c7e3efcf94f1c0e47094cab50d7386c8c7a5d260006ad4a33276fb69ac3e02b",
+        "size": 10656987636,
+        "pointerSize": 136
+      },
+      "xetHash": "35933d423dca7ba53e746f5f7107fdcc10857f135cdbd245d22ffe4564728eba",
+      "path": "perturb_seq/Replogle_K562/Replogle_K562_perturb_processed.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "ab5d95cd8b5b231fc64813431bfa3a489e8cf29b",
+      "size": 980602,
+      "path": "perturb_seq/Replogle_K562/export_for_seurat/features.csv"
+    },
+    {
+      "type": "file",
+      "oid": "5f70d975d5fe6c3881862ef6f8a22c3f90cdb976",
+      "size": 15377226243,
+      "lfs": {
+        "oid": "a055cc7764a35e19afe52769a32f19ec426c226ff50cf34ef2b380380eb9f236",
+        "size": 15377226243,
+        "pointerSize": 136
+      },
+      "xetHash": "87bb5a769d8f38faaab10a500e010cf4e9f8123c62799d5e7b19ecc1bb8eae30",
+      "path": "perturb_seq/Replogle_K562/export_for_seurat/matrix.mtx"
+    },
+    {
+      "type": "file",
+      "oid": "86c7d0c90a08232289f08547960598071b1b9060",
+      "size": 36474903,
+      "lfs": {
+        "oid": "d028f69f4e5b487a8f227e440fb1886d08c41e02964535fa66d2a9b189f05a34",
+        "size": 36474903,
+        "pointerSize": 133
+      },
+      "xetHash": "99282bbd86327e551d4c9add235ab168376e1fe4352640792ec13aa4f722b043",
+      "path": "perturb_seq/Replogle_K562/export_for_seurat/metadata.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3f8cb2344a683e68ed0f3ca320f5395d99a1de1c",
+      "size": 37227,
+      "lfs": {
+        "oid": "d424c8c8256b3847bd02e481e4a527c2912dab198b21afd7e31aae60115de51e",
+        "size": 37227,
+        "pointerSize": 130
+      },
+      "xetHash": "84d535b1d5d79d2f7ab2486ae60ae3d5a983c276e596323e6094e09b496bd79a",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_30/Replogle_K562_GEARS_split_30_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "8bc7c95c5dc3bad4d418d9b0485bcbf3bf58a46b",
+      "size": 750987203,
+      "lfs": {
+        "oid": "8c71a76228fc38ce7a1bffd201848fa03cc04e7a17eb78fb8a95f39914b47840",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "08ee10d1a993a7cc59bccd1c9e23ad26e788b6a930be85c758e5eb20380a8823",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_30/Replogle_K562_seed30_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "477fa97d10e1de153c9a6df22527bfecbb2164fd",
+      "size": 257894430,
+      "lfs": {
+        "oid": "a62c3f404352cf820ad196ab234628542b6e9a5b52ff3ee526992b1c45b5ea61",
+        "size": 257894430,
+        "pointerSize": 134
+      },
+      "xetHash": "92aeb890e08916666f6896a38bd278ba0fd2fb756c6fb11a3503b8582bab29ab",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_30/Replogle_K562_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "17b9b7644ba1d8ce7db4e21fa557ebe1d9490727",
+      "size": 37236,
+      "lfs": {
+        "oid": "48368981b05cb5242b8cea2f858a6d846ee58932bc1f68c46e9e5ab421d60608",
+        "size": 37236,
+        "pointerSize": 130
+      },
+      "xetHash": "114924ff6ff1a80b8e92cfdafa24ddbd6338adaf75c8d1e4eee7982c4f2902f9",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_40/Replogle_K562_GEARS_split_40_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "f640adb717b37a18e09ed7f01dc3b04d08e615e9",
+      "size": 750987203,
+      "lfs": {
+        "oid": "ed2b3c6d7dca60c1e9690e554962ecaf100d3c1bbd4be0a16886800933a7ffa7",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "c4f2575bb9d8443676c1e082c373d55a7c8213f687dc30c952caacdfb04eba44",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_40/Replogle_K562_seed40_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "730c96d3d3cb6f907f73af2788605dc79ef9fea9",
+      "size": 245914819,
+      "lfs": {
+        "oid": "cf4453044eb7385261953a653067ad1518c2ef94903294b44327a3bda3209f2d",
+        "size": 245914819,
+        "pointerSize": 134
+      },
+      "xetHash": "62d591218a73e0e83f728a5b10a879b6085053b92dbd4fe650e46d128a0f130b",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_40/Replogle_K562_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "1f2aeb32cb70d2cabf736b0ff48e07e16ef9d9e4",
+      "size": 37236,
+      "lfs": {
+        "oid": "a0ec37429cae4311cb155818ee22caa2b1e7d5ebb2081e91b22b5c2d97ae5754",
+        "size": 37236,
+        "pointerSize": 130
+      },
+      "xetHash": "7a41bf6462c461fd9a6d700d86922585b6d6b31ac66da2b2502b9b214bf15b13",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_50/Replogle_K562_GEARS_split_50_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "88a275eb0ddb64a08c1a6f7a5b4023a752262246",
+      "size": 750987460,
+      "lfs": {
+        "oid": "4fcfaa00ef7f5b326ded89ca18641e04eaa1e3cf6bd2bda6e2c7d2d0c47637e6",
+        "size": 750987460,
+        "pointerSize": 134
+      },
+      "xetHash": "d2ef1a45f6d6bd356740207d23f719eec7176c4c6d15265f4f7b6c81afb86ba6",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_50/Replogle_K562_seed50_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "cc5f6ab02ab1a7ec52f6fdb1123edbe1901f8b05",
+      "size": 252057585,
+      "lfs": {
+        "oid": "72a0f727b0fd8e8eeb5f79e1c818cd25e2be012c05e2902bdb9761824b28468c",
+        "size": 252057585,
+        "pointerSize": 134
+      },
+      "xetHash": "46f040220d0c6654bd0de068962fcf6d06577a0345794bb323abab8e282eff65",
+      "path": "perturb_seq/Replogle_K562/finetuned_model/seed_50/Replogle_K562_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "3e5d6d1906a6e6c31dceeb3f1bd948a63b904359",
+      "size": 5415724242,
+      "lfs": {
+        "oid": "f3a7a47afdd19b5ef48c84a1dac2c106e87b738cc5431b376d57f806dbc16766",
+        "size": 5415724242,
+        "pointerSize": 135
+      },
+      "xetHash": "ee0fc43f09ea1da20f22a20f0a4322740004361a4e47c7989d7ef2dc0a6a64af",
+      "path": "perturb_seq/Replogle_K562/rawcount_adata_final_selected_cells_only.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "path": "perturb_seq/Replogle_RPE1/.gitkeep"
+    },
+    {
+      "type": "file",
+      "oid": "7d2e34ec48181717e729fb0f41fff701d42f7188",
+      "size": 53967022,
+      "lfs": {
+        "oid": "3215d59b5ee341d2fd15a7744f5ee9d26d3e6b71e8eaaa894451298ef1e604cc",
+        "size": 53967022,
+        "pointerSize": 133
+      },
+      "xetHash": "b8e25c874ad50a0772ca6dea1ab3c5a417d21c3f0cdc67386b57c61ecec4a926",
+      "path": "perturb_seq/Replogle_RPE1/DE_results/DE_true_logFC_dataframe_masked_low_nonzero_to_zero_dataframe.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "9017c1513e21af4aee2175066b1c5f2989af0b97",
+      "size": 5563325698,
+      "lfs": {
+        "oid": "a0a6eaf83a286780a7d634a789008a8f9ed2f8f364add259113b751022286864",
+        "size": 5563325698,
+        "pointerSize": 135
+      },
+      "xetHash": "54f95ff224ba9853a59ec09b1446b3202aeb22f010a4e036bd463fbc9de5c886",
+      "path": "perturb_seq/Replogle_RPE1/DE_results/de_masked_high_zero_logfc_to_zero.h5"
+    },
+    {
+      "type": "file",
+      "oid": "55fa1abcb1aa53f9de3d36390ef0818c4b5e9478",
+      "size": 6444765,
+      "path": "perturb_seq/Replogle_RPE1/PS_score/perturb_score_per_cell_per_gene.csv"
+    },
+    {
+      "type": "file",
+      "oid": "3711edb19d6524ffa13910f188feebdce6bbde9e",
+      "size": 8696877682,
+      "lfs": {
+        "oid": "f88f9fda45a5d3f6190d6584f5b495249b43aacf7867f2fba513769508e6e2bb",
+        "size": 8696877682,
+        "pointerSize": 135
+      },
+      "xetHash": "005dd97095c56ff6562916b9e80036ef1f626e4f78c7d11a6bc371752b05cbe3",
+      "path": "perturb_seq/Replogle_RPE1/Replogle_RPE1_perturb_processed.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "bf2eeb08a4d3b2be0f2f30ca8bfb7ae05db03147",
+      "size": 1001563,
+      "path": "perturb_seq/Replogle_RPE1/export_for_seurat/features.csv"
+    },
+    {
+      "type": "file",
+      "oid": "d823a2828d764240c28494f324579017ae84ee4b",
+      "size": 11837401236,
+      "lfs": {
+        "oid": "bdfe8ccb0249900eb497420289c12940c4a675661aff052d97734ed1449f8ce7",
+        "size": 11837401236,
+        "pointerSize": 136
+      },
+      "xetHash": "9b8a066e3bad053387499e5a9f9f5d5a0d84b93e279ca828d969bb094dee0e9f",
+      "path": "perturb_seq/Replogle_RPE1/export_for_seurat/matrix.mtx"
+    },
+    {
+      "type": "file",
+      "oid": "a4e10496a6b32e4cc3910c71e892b765b225368a",
+      "size": 29273744,
+      "lfs": {
+        "oid": "639270d7dd6c046798156d1f87e52f06b216d87091742b11e57c20f4c1503a0f",
+        "size": 29273744,
+        "pointerSize": 133
+      },
+      "xetHash": "021c11b6d029c993a8c0ea419dbf4b4121830b567b9a4abdc7820fd7ec3c91f9",
+      "path": "perturb_seq/Replogle_RPE1/export_for_seurat/metadata.csv"
+    },
+    {
+      "type": "file",
+      "oid": "dba859aa02fac7c434c351405ea0d2bc1a330ece",
+      "size": 28209,
+      "lfs": {
+        "oid": "29bb1bf0ff448a4ac0da76c415e1107c2844c7a7a854e03aba960db8f38c111c",
+        "size": 28209,
+        "pointerSize": 130
+      },
+      "xetHash": "f94060c688889af93f1a0782aa8331a0a20eb63018d9d81361c86af7bb26d4db",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_30/Replogle_RPE1_GEARS_split_30_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "975c640c3a455c9d2309cf3fd70de7052c1cafd5",
+      "size": 750987203,
+      "lfs": {
+        "oid": "6bbf22b7c884deaf9ea0c87e4416f477e90fa0aa9a651326449266bd9393364b",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "e24733c7c8f32f0605ca44657c085a6af9bc4416a4a8633eaf3d978a4fcb42ef",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_30/Replogle_RPE1_seed30_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "3fa9baf92ef1060f907ab2587c4bd85a58df9aa2",
+      "size": 39569784,
+      "lfs": {
+        "oid": "2f331cab1757c874b4cf4f9c021ef994ed1608efafddc0963cf84604fd51c50f",
+        "size": 39569784,
+        "pointerSize": 133
+      },
+      "xetHash": "578c6b1d6f146a33dd855e54ece280a55ac8585ceab62895e63bde0606944183",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_30/Replogle_RPE1_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "f8a4847ec9590b5b990289b4d1e1a8245246aa68",
+      "size": 28218,
+      "lfs": {
+        "oid": "610743a6fc6e1954bf6edaeab3a9f43a86ac5da439d451a0274d17a6a2d663c6",
+        "size": 28218,
+        "pointerSize": 130
+      },
+      "xetHash": "43ed3166c94334b29491bcad5d619f24a00d0e7485e6b5778ecbb5a157394e63",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_40/Replogle_RPE1_GEARS_split_40_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "26f849f670877a2bfd9a9977da65e4f5b1299f80",
+      "size": 750987203,
+      "lfs": {
+        "oid": "a818dfa4a859a137ec1ffddda75e804e3d5de7a2981471da026fa4ec1887a1d4",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "2b86ce0c56f470ba7ea717ade091fdfd4d5f3d33b39fe26bd0d40ddf3e940f27",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_40/Replogle_RPE1_seed40_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "446a7c0c9391fa29ec902e996b45a6e4bcc05cc5",
+      "size": 40210796,
+      "lfs": {
+        "oid": "6f1ec33b8447d525b539a3d32e63c5de6299e648e2efb2edeb7917d4fd29ee48",
+        "size": 40210796,
+        "pointerSize": 133
+      },
+      "xetHash": "dd0e14e5324d34f2d92880a1f30c5d53ad33d991deb6c228180b2253472ed61f",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_40/Replogle_RPE1_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "13380a1847c7eac87467cdbce914d8de18a53343",
+      "size": 28218,
+      "lfs": {
+        "oid": "cfd26051da17a6f170636d4a561884cf18ed1704da70a0d9e1c57fd83a3c7ac0",
+        "size": 28218,
+        "pointerSize": 130
+      },
+      "xetHash": "c0812044ecc7a774b8491c4299775b3b348e52e887f5210e34ec1b57010c1ba6",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_50/Replogle_RPE1_GEARS_split_50_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "69a0c720ce0754500280a4a326069097fe913bd2",
+      "size": 750987203,
+      "lfs": {
+        "oid": "c64276fa75dea7fe03c257e9d90f442e5cc9ab764547769538fdb6a29e9628be",
+        "size": 750987203,
+        "pointerSize": 134
+      },
+      "xetHash": "f7b852d6181477a0a77b3ae32466e92882310516a5ab5a4d37c33c086dbe11ca",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_50/Replogle_RPE1_seed50_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "1403f1ec805e228206c4afbe48e306e8205934de",
+      "size": 43660259,
+      "lfs": {
+        "oid": "7538b116195c6769fd5939cbada8ea795ddf5d6c35e515182b2cabe94c2316f7",
+        "size": 43660259,
+        "pointerSize": 133
+      },
+      "xetHash": "59c3dd1712d479c5a45b0b0210bc133f906df42342a4f12dd917a92fff5eb9e7",
+      "path": "perturb_seq/Replogle_RPE1/finetuned_model/seed_50/Replogle_RPE1_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "de32a58baf63c280c6670c9a89f44e706ba4d2e8",
+      "size": 2724262530,
+      "lfs": {
+        "oid": "b6dac4aa1a3a9b9eda789c055c5312c6ae5c62fc1527a261a2c4ba4060ccaae1",
+        "size": 2724262530,
+        "pointerSize": 135
+      },
+      "xetHash": "90de573508bd1f9c4ba98b1ca8b3bdd0d825f9b2457c7790a9284cb1d50b8b98",
+      "path": "perturb_seq/Replogle_RPE1/rawcount_adata_final_selected_cells_only.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "2a4e0e3cf230c33cdf14e7fb0c6ee5ce716fa551",
+      "size": 2841697,
+      "lfs": {
+        "oid": "f6e4d96dae28ed3c6278be17caaa77f4eec93a8aa4e8ef9782436c352cde8f8d",
+        "size": 2841697,
+        "pointerSize": 132
+      },
+      "xetHash": "0d4e484ad514efb7dd92db7cc1e2d1355c847e7f040103716ebce957fc9c9788",
+      "path": "perturb_seq/norman/DE_results/DE_true_logFC_dataframe_masked_low_nonzero_to_zero_dataframe.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "2a62f65f668f11e8293b87e8ac4ddce014412eef",
+      "size": 466131238,
+      "lfs": {
+        "oid": "359f280fcd71a480579c56fb6f927dcdd7b8214d966247f0134c5f040ca1f619",
+        "size": 466131238,
+        "pointerSize": 134
+      },
+      "xetHash": "6474e8e251e46b46270e728b4bddbf9859b21cfad4b26c4ba07e66eb1c6c7231",
+      "path": "perturb_seq/norman/DE_results/de_masked_high_zero_logfc_to_zero.h5"
+    },
+    {
+      "type": "file",
+      "oid": "b9185ad0904d46932c5449658bf6d658c5119681",
+      "size": 9215,
+      "lfs": {
+        "oid": "b6122e030d83b11c80fd8d17812535687a016af3ea983fc30769b0e742db1c8f",
+        "size": 9215,
+        "pointerSize": 129
+      },
+      "xetHash": "4d340f24a6e98b417c5555d4862fef0bebaa4b89960280a9e489bbe29cf6249c",
+      "path": "perturb_seq/norman/DE_results/hvg_geneids_3079.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "0fa2ef87dcb52faddc2f0b8a1b1fca2ee1e6ee90",
+      "size": 2498115,
+      "path": "perturb_seq/norman/PS_score/perturb_score_per_cell_per_gene.csv"
+    },
+    {
+      "type": "file",
+      "oid": "1a9d454113a1e571992ed8c59eb79b045845cdb8",
+      "size": 5906,
+      "lfs": {
+        "oid": "7b201fca8b17c9ee164548077fc95b90d0728bb40aaf56fdd876badeda258f5b",
+        "size": 5906,
+        "pointerSize": 129
+      },
+      "xetHash": "5ccb7e38ea9bb1e0f5a0eda60f90a11920655e420b4039ca6d693ae27dd28f67",
+      "path": "perturb_seq/norman/finetuned_model/seed_30/norman_GEARS_split_30_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "2c9ffc514232ba9344cd6645ce2d94a50f1f79aa",
+      "size": 750987460,
+      "lfs": {
+        "oid": "0c954166b638b390f52810a675615c17f61fb268983ed7ffd11a61e0f2ac859b",
+        "size": 750987460,
+        "pointerSize": 134
+      },
+      "xetHash": "ad417aa23eb52d990454d4017741884a2f9027e9a50d28f045893df76b4f5607",
+      "path": "perturb_seq/norman/finetuned_model/seed_30/norman_seed30_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "b1ef7a241bd91cebd75d0c99d7712e56386665f8",
+      "size": 33303016,
+      "lfs": {
+        "oid": "3696272d98b14a4427bcf71a4b727f7342afcfe0691df8723506c209c21d5047",
+        "size": 33303016,
+        "pointerSize": 133
+      },
+      "xetHash": "00c155d7a16f5f556a2dc6918f1bba85eb0f4718fe5d6a20c5b6757a3117e7fe",
+      "path": "perturb_seq/norman/finetuned_model/seed_30/norman_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "150f1ebfdbef13d9751c6b54b2f5e2e703525c2a",
+      "size": 5906,
+      "lfs": {
+        "oid": "40fd24a3019483a3e1c0c557d668ac3cd9a27a8a18c1e18281a994b44159ce2a",
+        "size": 5906,
+        "pointerSize": 129
+      },
+      "xetHash": "d67cbb661302f0435953e46c12deffb58f3f8c876b04418e11f4339a0c17b6c2",
+      "path": "perturb_seq/norman/finetuned_model/seed_40/norman_GEARS_split_40_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "d1bba4d0ebda4d0763d9a52389e47427953ccf09",
+      "size": 750987460,
+      "lfs": {
+        "oid": "fbc91fd8375f1206f11b733e05d502428b64b42b57b4867cc4c2433e2224e6b1",
+        "size": 750987460,
+        "pointerSize": 134
+      },
+      "xetHash": "db8a7a2b8cf9e537fc4d06530fbf8540798ccace860ea47798e6c8d189546fc8",
+      "path": "perturb_seq/norman/finetuned_model/seed_40/norman_seed40_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "58884942c6c7e16f57400991ae39486e9769f3da",
+      "size": 16472085,
+      "lfs": {
+        "oid": "ed726877b8205a79e2bd084c1ab1cfb63bcd66b31bbfd00ad76b6e55e5e25c19",
+        "size": 16472085,
+        "pointerSize": 133
+      },
+      "xetHash": "ce74de4daf8508dc2efd52aab9661d83c0f83948e7a3b9f6e61b4617b45d45cb",
+      "path": "perturb_seq/norman/finetuned_model/seed_40/norman_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "eb1df232ce062d641ddbc3c10908c2e5e8e9f936",
+      "size": 5906,
+      "lfs": {
+        "oid": "23d08709f622212aa68c4e8fdd0c66705d3ed43e23dc81a38c0b74f45472145f",
+        "size": 5906,
+        "pointerSize": 129
+      },
+      "xetHash": "089fc2cd18db67e177ffc9e76f2078e71caa957bdcdf2e1fc278284383df0a01",
+      "path": "perturb_seq/norman/finetuned_model/seed_50/norman_GEARS_split_50_0.8_ensemble.pkl"
+    },
+    {
+      "type": "file",
+      "oid": "d285bdd1d19c3b680fdc9312d38c2b386dbcee2d",
+      "size": 750987460,
+      "lfs": {
+        "oid": "f374775b0f0dc463dd154bbc25c3ddede93adb6f87392cffa3709cfa33a2567e",
+        "size": 750987460,
+        "pointerSize": 134
+      },
+      "xetHash": "61100d8d62df08957a5d6e9c4d55defc53e74b54fe3a4c76484bc4021895781c",
+      "path": "perturb_seq/norman/finetuned_model/seed_50/norman_seed50_finetuned_model_weights.pt"
+    },
+    {
+      "type": "file",
+      "oid": "6ecb69a77df6de61fb1ec48bf081558505f67929",
+      "size": 33683895,
+      "lfs": {
+        "oid": "c2c320e8495dd9d15a7e7a40222524e3db8809a93b2d0fbf512decac7f3c495c",
+        "size": 33683895,
+        "pointerSize": 133
+      },
+      "xetHash": "7331187b65a7064c575e8f5a1c2b2255c2c1a736f9834382aa428624eecf0b1d",
+      "path": "perturb_seq/norman/finetuned_model/seed_50/norman_test_gene_perturb_predictions.npz"
+    },
+    {
+      "type": "file",
+      "oid": "08b4995fd9c0a3d8230a07966c2fe88d0d8bae10",
+      "size": 2228849977,
+      "lfs": {
+        "oid": "a0630bba9e8842f9eef560c0107bb020f98e51c354589993908ad37bdf4d7e22",
+        "size": 2228849977,
+        "pointerSize": 135
+      },
+      "xetHash": "3fd36b261e412cd33eca1eabdffb687d8fb514763535a30901d452416c7cccb0",
+      "path": "perturb_seq/norman/norman_perturb_processed.h5ad"
+    },
+    {
+      "type": "file",
+      "oid": "64d1c6dc3495c2907b351fd6406b1d26b56ec899",
+      "size": 1037558870,
+      "lfs": {
+        "oid": "8a439ae35381cf1d461d804866bce00f6711294b9a3fdbc84350338da6ffebd9",
+        "size": 1037558870,
+        "pointerSize": 135
+      },
+      "xetHash": "fc68214e5e4e03c3195e933338916984411ba6578b82094d939aca67b135d0b7",
+      "path": "perturb_seq/norman/rawcount_adata_final_selected_cells_only.h5ad"
+    }
+  ]
+}

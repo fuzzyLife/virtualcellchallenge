@@ -1,0 +1,21 @@
+{
+  "target": "ADNP",
+  "arm": "baseline",
+  "fidelity": 0.5977229601518027,
+  "reach": 0.0,
+  "jaccard": 0.08762886597938144,
+  "nmae": 0.9633839066482289,
+  "predicted_calls": 527,
+  "reference_calls": 317,
+  "nmae_eligible": true,
+  "profile_MSE": 0.008516401155216069,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "3fc9f749280657e82458dbc2b327b24367498c786201011d264ad87313af0826",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

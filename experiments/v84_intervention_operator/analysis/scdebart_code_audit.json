@@ -1,0 +1,15 @@
+{
+  "pinned_repository_commit": "8996c7ca8c336d636de4ba06a4d5d97b2bbe2ce8",
+  "author_source_sha256": "eeecac47ff6ec20b23c224f860538cb60b2fa496fb2f5d112c7a6e722679eae5",
+  "torch_version": "2.10.0+cu126",
+  "tests_passed": true,
+  "encoder_off_token_effect_with_all_false_padding": 0.0,
+  "decoder_memory_effect_with_all_false_padding": 0.0,
+  "first_token_to_later_decoder_token_effect": 0.0,
+  "last_token_to_earlier_decoder_token_effect": 0.38032883405685425,
+  "explanation": "The released code applies masked_fill(-inf) to boolean masks, leaving boolean dtype. PyTorch SDPA treats True as allowed. Thus all-false encoder/cross masks block all attention; upper-triangular decoder masks allow later tokens. This verifies the inspected branch behavior, not the architecture used to train published checkpoints or the validity of the paper.",
+  "missing_architecture_configuration": "Training parser never declares embedding_dim,nhead,num_encoder_layer,num_decoder_layer,dropout; checked DeepSpeed configs do not define them either.",
+  "checkpoint_executed": false,
+  "claim_about_paper_benchmark": false,
+  "code_sha256": "9e44c050a128bbfa2cf9c5eec7fd99f2482a6064fc0ed5b1126a18a0084bab54"
+}

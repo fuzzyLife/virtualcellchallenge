@@ -1,0 +1,21 @@
+{
+  "target": "ZNF25",
+  "arm": "baseline",
+  "fidelity": 0.5752032520325203,
+  "reach": 0.005649717514124294,
+  "jaccard": 0.09672131147540984,
+  "nmae": 0.9840907062461448,
+  "predicted_calls": 492,
+  "reference_calls": 177,
+  "nmae_eligible": true,
+  "profile_MSE": 0.006427867259386066,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "078cf1ea58e0ceeb493b078bbe569164434988792dfc7b848195f06c96a61979",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

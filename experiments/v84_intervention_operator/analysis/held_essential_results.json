@@ -1,0 +1,114 @@
+{
+  "records": [
+    {
+      "destination": "RPE1",
+      "arm": "program25",
+      "targets": 125,
+      "MSE": 0.2089021644604989,
+      "identity_MSE": 0.2905904948711395,
+      "constant_MSE": 0.1856403648853302,
+      "ratio_to_identity": 0.7188884982391981
+    },
+    {
+      "destination": "hepg2",
+      "arm": "program25",
+      "targets": 125,
+      "MSE": 0.18264101581314585,
+      "identity_MSE": 0.2301165759563446,
+      "constant_MSE": 0.1649145483970642,
+      "ratio_to_identity": 0.7936890902104968
+    },
+    {
+      "destination": "jurkat",
+      "arm": "program25",
+      "targets": 125,
+      "MSE": 0.14000211087466347,
+      "identity_MSE": 0.15327218174934387,
+      "constant_MSE": 0.10105983167886734,
+      "ratio_to_identity": 0.913421530748601
+    },
+    {
+      "destination": "RPE1",
+      "arm": "diagonal25",
+      "targets": 125,
+      "MSE": 0.23352464043808874,
+      "identity_MSE": 0.2905904948711395,
+      "constant_MSE": 0.1856403648853302,
+      "ratio_to_identity": 0.803621056296572
+    },
+    {
+      "destination": "hepg2",
+      "arm": "diagonal25",
+      "targets": 125,
+      "MSE": 0.17441701651973657,
+      "identity_MSE": 0.2301165759563446,
+      "constant_MSE": 0.1649145483970642,
+      "ratio_to_identity": 0.7579506856247731
+    },
+    {
+      "destination": "jurkat",
+      "arm": "diagonal25",
+      "targets": 125,
+      "MSE": 0.10086153368676297,
+      "identity_MSE": 0.15327218174934387,
+      "constant_MSE": 0.10105983167886734,
+      "ratio_to_identity": 0.6580550530148289
+    },
+    {
+      "destination": "RPE1",
+      "arm": "program25_shuffled",
+      "targets": 125,
+      "MSE": 0.21746219599685787,
+      "identity_MSE": 0.2905904948711395,
+      "constant_MSE": 0.1856403648853302,
+      "ratio_to_identity": 0.7483458675869288
+    },
+    {
+      "destination": "hepg2",
+      "arm": "program25_shuffled",
+      "targets": 125,
+      "MSE": 0.19452351441404075,
+      "identity_MSE": 0.2301165759563446,
+      "constant_MSE": 0.1649145483970642,
+      "ratio_to_identity": 0.8453259553581389
+    },
+    {
+      "destination": "jurkat",
+      "arm": "program25_shuffled",
+      "targets": 125,
+      "MSE": 0.14451098023956405,
+      "identity_MSE": 0.15327218174934387,
+      "constant_MSE": 0.10105983167886734,
+      "ratio_to_identity": 0.9428389326113489
+    },
+    {
+      "destination": "RPE1",
+      "arm": "diagonal25_shuffled",
+      "targets": 125,
+      "MSE": 0.2354049016656964,
+      "identity_MSE": 0.2905904948711395,
+      "constant_MSE": 0.1856403648853302,
+      "ratio_to_identity": 0.8100915405718455
+    },
+    {
+      "destination": "hepg2",
+      "arm": "diagonal25_shuffled",
+      "targets": 125,
+      "MSE": 0.1770688394957749,
+      "identity_MSE": 0.2301165759563446,
+      "constant_MSE": 0.1649145483970642,
+      "ratio_to_identity": 0.7694745098648027
+    },
+    {
+      "destination": "jurkat",
+      "arm": "diagonal25_shuffled",
+      "targets": 125,
+      "MSE": 0.10169312669045419,
+      "identity_MSE": 0.15327218174934387,
+      "constant_MSE": 0.10105983167886734,
+      "ratio_to_identity": 0.663480649455096
+    }
+  ],
+  "parameters_selected_on_held_targets": false,
+  "scope": "Predict different essential interventions in observed source contexts. This is not the controls-only new-context task; no production refit on held20%."
+}

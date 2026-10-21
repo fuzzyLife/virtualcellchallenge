@@ -1,0 +1,158 @@
+{
+  "passed": true,
+  "comparison_records": 24,
+  "manual_rank_coordinates": 192,
+  "independent_DE_BH_profile_replay": true,
+  "within_mean_pair_profiles_exact": true,
+  "fit_scoring_halves_disjoint": true,
+  "all_CPM_contracts_passed": false,
+  "records": [
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ADNP__baseline.json",
+      "sha256": "0ce2b96ae1e2c1a8cc6833d2ec6e012b9ae088fa498f9b316833bd42d138d45a",
+      "arrays_sha256": "3fc9f749280657e82458dbc2b327b24367498c786201011d264ad87313af0826",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ADNP__predicted_mean_fitted_shape.json",
+      "sha256": "761a6942d2d88e6fa980983b96889058abbadfd0ae3260c2a90c7e54830f5f54",
+      "arrays_sha256": "7eb68d65f088096bc2b637e852df890e67a964726f0fd9fdfcd7d92f3dbe6f55",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ADNP__fitted_mean_old_shape.json",
+      "sha256": "dc68c62dddc3bc2459610c7b71843e274a9258eb757365a9b0655253798aec67",
+      "arrays_sha256": "a218eb346b5694a62ba90704ee9990b993626aa19f9b1c4a26542f02f0482af5",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ADNP__real_fit.json",
+      "sha256": "9d41773a3a6c8799ed25717ed59a8d661829ed3f92d425250b2fbca7aae38bfb",
+      "arrays_sha256": "5af2d05f7b86e010dd5ecf458c8c81e3310d34e44abeb17cb1d7ec8d9b74d627",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MAP2K2__baseline.json",
+      "sha256": "f11e5f5959dfb274712c8df9d90ced0c695b1b344706dac46a7204e87952fe80",
+      "arrays_sha256": "7193efe600db67ba02b77019cb4957dc93841fe6ce73ef224b3d9767f46b182c",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MAP2K2__predicted_mean_fitted_shape.json",
+      "sha256": "6d17e904107d7f58a1dfe51e3e225ee39155259d148f08b9b46a9c08a58f806d",
+      "arrays_sha256": "f82edde8103a26889fb2527bfef083b826f286d8ca0517c7c489bc7ff4dade45",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MAP2K2__fitted_mean_old_shape.json",
+      "sha256": "84b1fa5391d3e0f422303a26c644434285013a658145facf4a1a6ad78efce99b",
+      "arrays_sha256": "14e6869d6e8f8f938c10c4c9edc9b0e95591f2f6288472bbc586d2e7a1649c0f",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MAP2K2__real_fit.json",
+      "sha256": "818a1ff0329c791aa95278c2998842819f541d444b63826d7a04d2cbdec5a913",
+      "arrays_sha256": "78c78ac6d8341fe65e4770cb90fabadfed71921056d3d6f27d298ee3f4ad1c22",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MYRF__baseline.json",
+      "sha256": "d52490c475377dbdcdd354201ab5f09a3a5575dfea659ed7836aa9d31ec19d8e",
+      "arrays_sha256": "84e607cb4838a31db68a4f5e3f85c803008ef3f00e1b4882227c3bc2cf44256f",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MYRF__predicted_mean_fitted_shape.json",
+      "sha256": "e27b22e42dfefab23e840a70013f00a984b490439464283f84dd0c8594730748",
+      "arrays_sha256": "79c9d2834abbc61719dedb7aef3e64c9d0f187887eacb3091d1eed7da0d4d74f",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MYRF__fitted_mean_old_shape.json",
+      "sha256": "3e26dba6248871f97d47ce6ef9092297ea97f7bb75f3c08b3c72176f29f8c300",
+      "arrays_sha256": "b3c3ef698364c9de9e459784be7bbdd27dbeeaae2cdcca45a8d0bdcc20a74b40",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/MYRF__real_fit.json",
+      "sha256": "1ac6fa7f8581cd19dc468cd1346e58d651083620ebfcdfa8264e35457a08d3e5",
+      "arrays_sha256": "bb0b709a6d533701189f9e25cc4221cc991b437d419f58ca4481970a1a77f592",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/PCGF1__baseline.json",
+      "sha256": "909dd49895fbc83780eb62d9cf36ad5b76977a7d880761493393fab04dd185a2",
+      "arrays_sha256": "d3758440a6db8a80f6714554a4ea6b32c4f2a61a6635acc6eb36da0cc755db37",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/PCGF1__predicted_mean_fitted_shape.json",
+      "sha256": "63c004e227b12727ceb44c470ba55d731e795f615174d7980897e60c756fb30e",
+      "arrays_sha256": "420ece78b8d13242a679cebc3aad134a9c2107cc495aeb7e2a579c913230cbf5",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/PCGF1__fitted_mean_old_shape.json",
+      "sha256": "a80ded35485f68b5ea3c7bf9e98acfc609af6436a11f47c199f7b18f98753338",
+      "arrays_sha256": "ca45b7e8e492961621c87c3880bca55a23c69ecb54421bc9bd47da35e5af7927",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/PCGF1__real_fit.json",
+      "sha256": "f86bc60ddcf3c24a82b0d3f14c29bac75a276b760559a7efac28e80f5ebc59f0",
+      "arrays_sha256": "b136bf3568cfcf8cfed993b96b2ea300003669439153d432b79397673ef57474",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/USP28__baseline.json",
+      "sha256": "5b982b87dc1e51e8d2b368e590144d248b6189284cecaefa6feeedaa683bc8a5",
+      "arrays_sha256": "48dfdeddab77eb15254416067b68d43dff79182b5c6a4395156c360d9150ea5d",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/USP28__predicted_mean_fitted_shape.json",
+      "sha256": "995173f2ab87fe43c3e9e2dbbd0c0cda6f298b5917563eacca38384736feccf6",
+      "arrays_sha256": "2184c3f7e6a2c5214a1c2095f49bc5c816bba768d764161eacf3003259f3121e",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/USP28__fitted_mean_old_shape.json",
+      "sha256": "2cd9930c80773325b93e711d70c587f128b5e0c812004a464c7133dd9fd24b51",
+      "arrays_sha256": "738b91d72401ba690d5206794aede579cf9122289d09225bc221b97c2334fb89",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/USP28__real_fit.json",
+      "sha256": "e8ac185af2a62468bc2c95633034d4c6ab1e2b8932a837c436ef593942e14efa",
+      "arrays_sha256": "51dc9c69e10714c2e2156b8e0d9f5d8e74bd17b294809c2163e6bb0c905c7b0f",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ZNF25__baseline.json",
+      "sha256": "14c570eec58604d7e5f62e6d1e56cf602ba50eca7d0c1d1b1c6475bfb16cd5fc",
+      "arrays_sha256": "078cf1ea58e0ceeb493b078bbe569164434988792dfc7b848195f06c96a61979",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ZNF25__predicted_mean_fitted_shape.json",
+      "sha256": "f73ccb5f25a0fe988f5e0f8facc30f0dd59d42586fcde49eee441e9dd3ec9822",
+      "arrays_sha256": "058f7590757cca51e92a95d4d17523ab968226f14aaaabd194ca9fe62b40bc10",
+      "CPM_contract_valid": false
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ZNF25__fitted_mean_old_shape.json",
+      "sha256": "652ea5fb025eebf42805dcd5535e0b245b235824242742199e4f5f3568d0d02c",
+      "arrays_sha256": "39f2672650ed0ebed00736108dad99934faa8bd063fb3aacdeea52128b58f03b",
+      "CPM_contract_valid": true
+    },
+    {
+      "path": "experiments/v84_intervention_operator/analysis/oracle/ZNF25__real_fit.json",
+      "sha256": "db6014683d6f21da019ee40638017077ddef85cfba77461cf2941404f54c149d",
+      "arrays_sha256": "f91d99ece342ae94e3081e7dc52c43a5c71c802a909ce3f7293763297bc23aa9",
+      "CPM_contract_valid": true
+    }
+  ],
+  "auditor_sha256": "2cad84e6387f19ce127c22603440ff41696a3905bad8b2b227c6b6f251e229ff",
+  "oracle_protocol_sha256": "722d72dc293453713b544cb512983987c01c61fa16df19ae4be0cb720a1caf1c",
+  "non_deployable": true
+}

@@ -851,3 +851,19 @@ experiments/v81_residual_temperature/*.vcc
 # V82 byte-identical recovery artifact
 experiments/v82_v66_recovery/*.vcc
 experiments/v82_v66_recovery/*.partial
+
+# V83 new-context response evidence and donor tests
+reference/v83_sources/
+experiments/v83_context_expansion/**/*.npz
+experiments/v83_context_expansion/**/*.npy
+experiments/v83_context_expansion/**/*.log
+experiments/v83_context_expansion/**/*.bin
+experiments/v83_context_expansion/**/*.h5ad
+experiments/v83_context_expansion/**/*.vcc
+
+# V84 intervention-response operator
+experiments/v84_intervention_operator/**/*.npz
+experiments/v84_intervention_operator/**/*.npy
+experiments/v84_intervention_operator/**/*.log
+experiments/v84_intervention_operator/**/*.h5ad
+experiments/v84_intervention_operator/**/*.vcc

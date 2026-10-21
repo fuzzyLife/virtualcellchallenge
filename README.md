@@ -1,3 +1,15 @@
+<!-- v84-research:begin -->
+## V83/V84 tested: paired response transfer does not qualify
+
+Reviewed Systema, scDEBART and C3TL, then trained a new context-response operator on **638 shared interventions across four contexts** (513 fitting, 125 held out). The newer essential-screen release has **zero direct target overlap** with our 300-gene panel; V83 stopped at that coverage check. V84 tested transfer from other paired interventions instead. This is an independent prototype, not a reproduction of a published foundation model.
+
+V84 failed the original development requirements on 655 reused public pairs and the separate donor requirements in both technical seeds (**84 count comparisons**). The refitted shuffled model was competitive. **No new upload file was generated; V66/V82 remains best published at 0.1508821875498449.**
+
+A prespecified, non-deployable six-target diagnostic found substantial mean-related headroom: supplying measured treatment means raised raw fidelity from **0.498 to 0.829** and reduced profile error by **34.7%**. Real treatment cells still gave better DE overlap. This uses treatment labels only for diagnosis; it is not a new predictor or a hosted-score forecast. One projected shape branch failed its CPM constraint, which limits interpretation.
+
+[Complete results and tests](V84_RESULTS.md) · [Frozen strategy and reproduction](V84_STRATEGY.md) · [Literature and gaps](POST_V82_RESEARCH.md) · [Coverage correction](V83_COVERAGE_AUDIT.md). Earlier blocks retain their historical status.
+<!-- v84-research:end -->
+
 <!-- v82-published:begin -->
 ## V82 published: V66 score reproduced
 

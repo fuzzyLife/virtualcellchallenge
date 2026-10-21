@@ -1,0 +1,232 @@
+{
+  "records": [
+    {
+      "source": "H1",
+      "study": "H1",
+      "target_context_pairs": 25,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.0036538292212062308,
+          "pds": 0.725
+        },
+        "program25": {
+          "profile_MSE": 0.0036586640978738282,
+          "pds": 0.725
+        },
+        "diagonal25": {
+          "profile_MSE": 0.0036807047800475052,
+          "pds": 0.695
+        },
+        "program25_shuffled": {
+          "profile_MSE": 0.003660242951237305,
+          "pds": 0.7233333333333334
+        },
+        "diagonal25_shuffled": {
+          "profile_MSE": 0.0036830496703789094,
+          "pds": 0.6916666666666668
+        }
+      }
+    },
+    {
+      "source": "HCT116",
+      "study": "Orion",
+      "target_context_pairs": 282,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.005349075917751429,
+          "pds": 0.5888670149668105
+        },
+        "program25": {
+          "profile_MSE": 0.005346902910724445,
+          "pds": 0.5907347113904242
+        },
+        "diagonal25": {
+          "profile_MSE": 0.005323653728244196,
+          "pds": 0.5829105777239343
+        },
+        "program25_shuffled": {
+          "profile_MSE": 0.005346812150994403,
+          "pds": 0.589195123797986
+        },
+        "diagonal25_shuffled": {
+          "profile_MSE": 0.005321682313289205,
+          "pds": 0.5819767295121274
+        }
+      }
+    },
+    {
+      "source": "HEK293T",
+      "study": "Orion",
+      "target_context_pairs": 291,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.004174897363511345,
+          "pds": 0.6192913852352174
+        },
+        "program25": {
+          "profile_MSE": 0.0041785188328906505,
+          "pds": 0.6159853063159142
+        },
+        "diagonal25": {
+          "profile_MSE": 0.0041479460958023335,
+          "pds": 0.6112217087332622
+        },
+        "program25_shuffled": {
+          "profile_MSE": 0.0041810014361065755,
+          "pds": 0.6116601493067899
+        },
+        "diagonal25_shuffled": {
+          "profile_MSE": 0.004145693531296163,
+          "pds": 0.6103566773314374
+        }
+      }
+    },
+    {
+      "source": "CD4_Rest_D1",
+      "study": "CD4",
+      "target_context_pairs": 23,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.005273287815358413,
+          "pds": 0.5869565217391305
+        },
+        "program25": {
+          "profile_MSE": 0.005256034281866861,
+          "pds": 0.6086956521739131
+        },
+        "diagonal25": {
+          "profile_MSE": 0.005280660233744857,
+          "pds": 0.5849802371541502
+        },
+        "program25_shuffled": {
+          "profile_MSE": 0.005264030269012077,
+          "pds": 0.5948616600790514
+        },
+        "diagonal25_shuffled": {
+          "profile_MSE": 0.005272301571414413,
+          "pds": 0.592885375494071
+        }
+      }
+    },
+    {
+      "source": "CD4_Stim48_D2",
+      "study": "CD4",
+      "target_context_pairs": 34,
+      "scores": {
+        "v66": {
+          "profile_MSE": 0.008333432144909513,
+          "pds": 0.5320855614973262
+        },
+        "program25": {
+          "profile_MSE": 0.008337198594878336,
+          "pds": 0.5249554367201426
+        },
+        "diagonal25": {
+          "profile_MSE": 0.008330677628203473,
+          "pds": 0.5213903743315508
+        },
+        "program25_shuffled": {
+          "profile_MSE": 0.008336377704846052,
+          "pds": 0.5303030303030303
+        },
+        "diagonal25_shuffled": {
+          "profile_MSE": 0.008322561006079674,
+          "pds": 0.5258467023172906
+        }
+      }
+    }
+  ],
+  "studies": {
+    "program25": {
+      "H1": {
+        "profile_ratio": 1.0013232355358965,
+        "pds_change": 0.0
+      },
+      "Orion": {
+        "profile_ratio": 1.000230599717199,
+        "pds_change": -0.0007191912478447526
+      },
+      "CD4": {
+        "profile_ratio": 0.9985900473001541,
+        "pds_change": 0.007304502828799464
+      }
+    },
+    "diagonal25": {
+      "H1": {
+        "profile_ratio": 1.007355450190527,
+        "pds_change": -0.030000000000000027
+      },
+      "Orion": {
+        "profile_ratio": 0.994395907905897,
+        "pds_change": -0.007013056872415713
+      },
+      "CD4": {
+        "profile_ratio": 1.000533765283185,
+        "pds_change": -0.00633573587537789
+      }
+    },
+    "program25_shuffled": {
+      "H1": {
+        "profile_ratio": 1.0017553447746954,
+        "pds_change": -0.0016666666666665941
+      },
+      "Orion": {
+        "profile_ratio": 1.0005194410938159,
+        "pds_change": -0.0036515635486260023
+      },
+      "CD4": {
+        "profile_ratio": 0.9992989540427508,
+        "pds_change": 0.0030613035728124793
+      }
+    },
+    "diagonal25_shuffled": {
+      "H1": {
+        "profile_ratio": 1.0079972126237011,
+        "pds_change": -0.033333333333333215
+      },
+      "Orion": {
+        "profile_ratio": 0.9939418568519841,
+        "pds_change": -0.007912496679231551
+      },
+      "CD4": {
+        "profile_ratio": 0.9992542262130661,
+        "pds_change": -0.00015500271254753617
+      }
+    }
+  },
+  "summary": {
+    "program25": {
+      "profile_ratio": 1.0000479608510833,
+      "pds_change": 0.002195103860318237
+    },
+    "diagonal25": {
+      "profile_ratio": 1.0007617077932032,
+      "pds_change": -0.014449597582597876
+    },
+    "program25_shuffled": {
+      "profile_ratio": 1.0005245799704208,
+      "pds_change": -0.0007523088808267057
+    },
+    "diagonal25_shuffled": {
+      "profile_ratio": 1.000397765229584,
+      "pds_change": -0.013800277575037434
+    }
+  },
+  "checks": {
+    "program25": {
+      "profile": false,
+      "worst_study": true,
+      "pds": true,
+      "beats_shuffled": true
+    },
+    "diagonal25": {
+      "profile": false,
+      "worst_study": true,
+      "pds": false,
+      "beats_shuffled": false
+    }
+  },
+  "eligible": [],
+  "selected": null,
+  "scope": "655 reused public pairs; recipient studies excluded from legacy response estimation. New paired operator uses only Nadig/Replogle. No hosted-score forecast."
+}

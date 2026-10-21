@@ -1,0 +1,28 @@
+{
+  "release_supported": false,
+  "reason": "No competition-target overlap in the publisher essential-only response tables. No direct target-specific response can be copied; the original empty means files were correct abstentions for this target panel, not failed ingestion.",
+  "sources": [
+    {
+      "source": "hepg2",
+      "supported_targets": 0,
+      "mapped_features": 0,
+      "eligible_coordinates": 0
+    },
+    {
+      "source": "jurkat",
+      "supported_targets": 0,
+      "mapped_features": 0,
+      "eligible_coordinates": 0
+    },
+    {
+      "source": "RPE1",
+      "supported_targets": 0,
+      "mapped_features": 0,
+      "eligible_coordinates": 0
+    }
+  ],
+  "publication_statements_corrected": true,
+  "V66_not_changed": true,
+  "recipient_outcomes_used": false,
+  "next": "Learn an essential-response context operator that can transfer legacy K562 panel responses, rather than pretending the new studies observed our targets."
+}

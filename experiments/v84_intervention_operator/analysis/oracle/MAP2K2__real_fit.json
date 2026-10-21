@@ -1,0 +1,21 @@
+{
+  "target": "MAP2K2",
+  "arm": "real_fit",
+  "fidelity": 0.9455782312925171,
+  "reach": 1.0,
+  "jaccard": 0.271356783919598,
+  "nmae": 0.5000176797151288,
+  "predicted_calls": 147,
+  "reference_calls": 106,
+  "nmae_eligible": true,
+  "profile_MSE": 0.006109775077397462,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "78c78ac6d8341fe65e4770cb90fabadfed71921056d3d6f27d298ee3f4ad1c22",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

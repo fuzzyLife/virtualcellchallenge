@@ -1,0 +1,73 @@
+"""V83: measured new-context responses, with source masks and V66 identity anchors."""
+from pathlib import Path
+from functools import lru_cache
+import argparse,gc,json
+import numpy as np,pandas as pd
+from threadpoolctl import threadpool_limits
+from analyze_target_rank_correlations import pairwise_spearman
+from v57_pie import read,write,sha
+from v63_identity_guard import guard
+from v62_conserved_response import data
+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'experiments/v83_context_expansion';A=OUT/'analysis';R=ROOT/'reference/v83_sources'
+SOURCES=('hepg2','jurkat','RPE1');GROUP=('Nadig','Nadig','Replogle');ARMS=('routed25','conserved25')
+
+def build_bank():
+ d=data();genes=d['genes'];targets=d['targets'];gp={str(g):i for i,g in enumerate(genes)};tp={str(t):i for i,t in enumerate(targets)};shape=(3,len(targets),len(genes));effects=np.zeros(shape,np.float32);confidence=np.zeros(shape,np.float32);valid=np.zeros(shape,bool);profiles=np.full((3,len(genes)),np.nan);counts=np.zeros((3,len(targets)),np.int32);records=[]
+ for si,name in enumerate(SOURCES):
+  p=R/(name+'.parquet');receipt=read(p.with_suffix('.json'));assert sha(p)==receipt['sha256'] and receipt['publisher_digest_verified'];columns=['target','feature','target_mean','ref_mean','target_ncells','ref_ncells','log2_fold_change','Ueffect','p_adj'];df=pd.read_parquet(p,columns=columns,filters=[('target','in',list(map(str,targets)))]);assert not df.duplicated(['target','feature']).any()
+  ref=df.groupby('feature',sort=False).ref_mean.agg(['min','max','mean']);reference_max_difference=float(np.max(abs(ref['max']-ref['min'])))
+  for feature,row in ref.iterrows():
+   if str(feature) in gp:profiles[si,gp[str(feature)]]=float(row['mean'])*100
+  per=[]
+  for target,rows in df.groupby('target',sort=True):
+   ti=tp[str(target)];assert rows.target_ncells.nunique()==rows.ref_ncells.nunique()==1;n=int(rows.target_ncells.iloc[0]);nr=int(rows.ref_ncells.iloc[0]);counts[si,ti]=n
+   own=rows[rows.feature==target];gain=1.;kd=None
+   if len(own):
+    lf=float(own.log2_fold_change.iloc[0])
+    if np.isfinite(lf):kd=float(np.clip(1-2**min(lf,0),0,.99));gain=float(np.clip(.9/max(kd,.35),.8,1.8))
+   mapped=rows.feature.astype(str).map(gp).to_numpy();lf=rows.log2_fold_change.to_numpy(float);u=rows.Ueffect.to_numpy(float);q=rows.p_adj.to_numpy(float);base=rows.ref_mean.to_numpy(float)
+   ok=pd.notna(mapped)&np.isfinite(lf)&np.isfinite(base)&(base>=.05)&np.isfinite(q)&(q<.05)&(lf!=0)&np.isfinite(u)&(np.sign(u)==np.sign(lf))&(n>=30)&(nr>=400)
+   src=np.flatnonzero(ok);dest=mapped[ok].astype(int);effects[si,ti,dest]=np.clip(lf[src]*gain,-3,3);confidence[si,ti,dest]=min(n/100,1)*np.minimum(abs(u[src])/.2,1);valid[si,ti,dest]=True;oi=gp[str(target)];effects[si,ti,oi]=0;confidence[si,ti,oi]=0;valid[si,ti,oi]=False;per.append(dict(target=str(target),cells=n,reference_cells=nr,knockdown=kd,dose_gain=gain,supported_outputs=int(valid[si,ti].sum())))
+  records.append(dict(source=name,study=GROUP[si],receipt=receipt,target_rows=per,supported_targets=int(valid[si].any(1).sum()),supported_coordinates=int(valid[si].sum()),mapped_features=int(np.isfinite(profiles[si]).sum()),source_axis_features=len(ref),target_specific_control_reference_max_difference=reference_max_difference,reference_profile_aggregation='Arithmetic mean over source target-specific control references; not independent replicate evidence',source_control_mean_sum=float(ref['mean'].sum()),scale='Linear normalized expression summing10000 over released6642-gene source axis. Restriction/closure differ from full competition axis; missing outputs abstain.'))
+  print('V83 source',name,'supported targets',valid[si].any(1).sum(),'coordinates',valid[si].sum(),flush=True);del df;gc.collect()
+ p=A/'source_bank.npz';assert not p.exists();np.savez_compressed(p,genes=genes,targets=targets,effects=effects,confidence=confidence,valid=valid,profiles=profiles,cell_counts=counts);write(p.with_suffix('.json'),dict(sha256=sha(p),sources=records,script_sha256=sha(__file__),plan_sha256=sha(A/'plan.json')))
+
+@lru_cache(1)
+def bank():
+ p=A/'source_bank.npz';assert sha(p)==read(p.with_suffix('.json'))['sha256']
+ with np.load(p,allow_pickle=False) as z:return {k:z[k].copy() for k in z.files}
+
+def proposals(query,baseline,bulk,excluded=(),shuffle=False):
+ b=bank();genes=b['genes'];targets=b['targets'];own=np.array([list(genes).index(t) for t in targets]);panel=np.isin(genes,targets);rho=[]
+ allow=np.array([g not in excluded and n not in excluded and not(g=='Replogle' and 'K562' in excluded) for n,g in zip(SOURCES,GROUP)])
+ for s in range(3):
+  r,_,status=pairwise_spearman(np.asarray(query)[~panel],b['profiles'][s,~panel],min_pairs=100);rho.append(float(r) if status=='ok' else np.nan)
+ rho=np.asarray(rho);allow&=np.isfinite(rho);prior=np.array([.5,.5,1.]);weight=np.zeros(3)
+ if allow.any():weight[allow]=prior[allow]*np.exp(4*(rho[allow]-rho[allow].max()))
+ active=np.flatnonzero(b['valid'][allow].any(axis=(0,2))) if allow.any() else np.array([],int);order=np.arange(len(targets))
+ if shuffle and len(active)>1:order[active]=np.roll(active,1)
+ y=b['effects'][:,order].copy();conf=b['confidence'][:,order].copy();ok=b['valid'][:,order].copy();ok&=allow[:,None,None];w=weight[:,None,None]*conf*ok;den=w.sum(0);pooled=np.divide((w*y).sum(0),den,out=np.zeros_like(baseline,dtype=float),where=den>0)
+ prior_den=(weight[:,None,None]*ok).sum(0);pooled_conf=np.divide(den,prior_den,out=np.zeros_like(den),where=prior_den>0);new_evidence=den>0
+ nadig_pos=(ok[:2]&(y[:2]>0)).any(0);nadig_neg=(ok[:2]&(y[:2]<0)).any(0);conserved=(ok[2]&(y[2]>0)&nadig_pos)|(ok[2]&(y[2]<0)&nadig_neg)
+ conserved&=(np.sign(pooled)==np.sign(y[2]));outputs={};traces={}
+ for arm,mask in [('routed25',new_evidence),('conserved25',new_evidence&conserved)]:
+  delta=.25*pooled_conf*np.clip(pooled-baseline,-1,1)*mask;delta[np.arange(len(own)),own]=0;proposal=np.clip(np.asarray(baseline,float)+delta,-3,3).astype(np.float32);proposal[np.arange(len(own)),own]=0
+  if not np.any(delta):out=np.asarray(baseline,np.float32).copy();trace=dict(no_supported_correction=True)
+  else:out,trace=guard(baseline,proposal,bulk,own,panel)
+  out[~np.any(delta,axis=1)]=baseline[~np.any(delta,axis=1)];outputs[arm]=out;traces[arm]=dict(trace,source_rho=rho.tolist(),source_weights=weight.tolist(),source_target_derangement=order.tolist() if shuffle else None,allowed_sources=[n for n,yes in zip(SOURCES,allow) if yes],changed_targets=int(np.any(out!=baseline,axis=1).sum()),supported_correction_coordinates=int(mask.sum()),maximum_LFC_step=float(abs(out-baseline).max()))
+ return outputs,traces
+
+def prepare_public():
+ from run_v35_v36 import contexts,key
+ dest=A/'predictions';dest.mkdir(exist_ok=True)
+ for ctx in contexts():
+  name=ctx['family'];path=dest/(name+'.npz')
+  if path.exists():assert sha(path)==read(path.with_suffix('.json'))['sha256'];continue
+  source=ROOT/'experiments/v66_assay_strength/analysis/predictions'/(name+'.npz');assert sha(source)==read(source.with_suffix('.json'))['sha256']
+  with np.load(source,allow_pickle=False) as z:q=z['query'].copy();base=z['assay75'].copy();bulk=z['bulk'].copy()
+  pred,trace=proposals(q,base,bulk,(key(name),));fake,faketrace=proposals(q,base,bulk,(key(name),),True)
+  np.savez_compressed(path,genes=bank()['genes'],targets=bank()['targets'],query=q,bulk=bulk,v66=base,**pred,**{a+'_shuffled':v for a,v in fake.items()});write(path.with_suffix('.json'),dict(sha256=sha(path),traces=trace,shuffled_traces=faketrace,source_V66_prediction_sha256=sha(source),excluded_recipient_study=key(name),code_sha256=sha(__file__)));print('V83 public predictions',name,{a:t['changed_targets'] for a,t in trace.items()},flush=True)
+
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('stage',choices=['sources','prepare']);args=p.parse_args()
+ with threadpool_limits(limits=2):(build_bank if args.stage=='sources' else prepare_public)()

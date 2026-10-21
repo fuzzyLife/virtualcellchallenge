@@ -1,0 +1,21 @@
+{
+  "target": "MYRF",
+  "arm": "baseline",
+  "fidelity": 0.6565217391304348,
+  "reach": 0.0,
+  "jaccard": 0.13154362416107382,
+  "nmae": 0.9901342614682798,
+  "predicted_calls": 460,
+  "reference_calls": 383,
+  "nmae_eligible": true,
+  "profile_MSE": 0.006923184712994914,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "84e607cb4838a31db68a4f5e3f85c803008ef3f00e1b4882227c3bc2cf44256f",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

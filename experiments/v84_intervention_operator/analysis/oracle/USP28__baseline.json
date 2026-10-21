@@ -1,0 +1,21 @@
+{
+  "target": "USP28",
+  "arm": "baseline",
+  "fidelity": 0.2382639503985828,
+  "reach": 0.0,
+  "jaccard": 0.13085399449035812,
+  "nmae": 0.9904694966321486,
+  "predicted_calls": 513,
+  "reference_calls": 1129,
+  "nmae_eligible": true,
+  "profile_MSE": 0.016052467327642296,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "48dfdeddab77eb15254416067b68d43dff79182b5c6a4395156c360d9150ea5d",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

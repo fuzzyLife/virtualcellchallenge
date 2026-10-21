@@ -1,0 +1,6 @@
+{
+  "before_source_reader_sha256": "934220736de77aeb066d4751bb22f838719bf44088f8070815746248376cd072",
+  "corrected_sha256": "65377c827bfb55f376bcca4af3d26b27a2940b91c1a03a0fe0aa9de1cd604df0",
+  "reason": "Training-source ref_mean varies by target/control cohort, so a common-reference assertion is invalid. Retain each paired LFC and use an explicit average profile only for context routing; record variation. Conserved proposal additionally requires pooled direction to match its corroborated RPE1 direction.",
+  "before_any_recipient_treatment_evaluation": true
+}

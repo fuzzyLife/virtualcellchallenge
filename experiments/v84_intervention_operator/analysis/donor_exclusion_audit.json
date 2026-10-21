@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "controls_fit": 5006,
+  "controls_reference": 4994,
+  "cohort_views": 28,
+  "views": [
+    {
+      "target": "ADNP",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "ADNP",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "AKAP1",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "AKAP1",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "MAP2K2",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "MAP2K2",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "MARCKSL1",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "MARCKSL1",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "MYRF",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "MYRF",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "PCGF1",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "PCGF1",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "PRDX3",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "PRDX3",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "SLC39A1",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "SLC39A1",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "SUPT7L",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "SUPT7L",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "USP28",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "USP28",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZC3HAV1",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZC3HAV1",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF25",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF25",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF280C",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF280C",
+      "offset": 620000,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF514",
+      "offset": 0,
+      "matched_lanes": true
+    },
+    {
+      "target": "ZNF514",
+      "offset": 620000,
+      "matched_lanes": true
+    }
+  ],
+  "excluded_rows_poisoned": 604,
+  "excluded_contexts": [
+    1,
+    2,
+    3
+  ],
+  "CD4_teacher_access_forbidden": true,
+  "poisoned_outcomes_uncertainties_doses_masks_and_profiles_leave_V24_V66_V84_exact": true,
+  "cohort_sha256": "b097fc2d156321a936d2adea4c8501dba248c3ac327ad3f91fa11ad9814be208",
+  "prediction_sha256": "c6fd99a61c06c8e5f8f87325709a6e191d5e7000f781c82590a181ca659c3619",
+  "auditor_sha256": "ca21ec938fc8cae047b49a107d3bc35f3469b727891fb866573449128b01d9e1",
+  "scope": "Exclusion and metadata integrity only; does not create an independent study or prove hidden-panel generalization."
+}

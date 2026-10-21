@@ -356,3 +356,18 @@
 /*v69*.py -text whitespace=cr-at-eol,-blank-at-eof
 /V69*.md -text whitespace=cr-at-eol
 /experiments/v69*/analysis/** -text whitespace=cr-at-eol
+
+# V83/V84 scientific provenance: preserve hashed bytes on every checkout.
+/*v83*.py -text whitespace=cr-at-eol
+/*v84*.py -text whitespace=cr-at-eol
+/V83*.md -text whitespace=cr-at-eol
+/V84*.md -text whitespace=cr-at-eol
+/experiments/v83*/analysis/** -text whitespace=cr-at-eol
+/experiments/v84*/analysis/** -text whitespace=cr-at-eol
+# These frozen sources retain the exact original line endings; do not normalize
+# them after scoring. Author code and engineering snapshots are byte evidence.
+/v83_context_expansion.py -text -whitespace
+/v84_intervention_operator.py -text -whitespace
+/experiments/v83*/analysis/author_code/** -text -whitespace
+/experiments/v83*/analysis/engineering_history/** -text -whitespace
+/experiments/v84*/analysis/engineering_history/** -text -whitespace

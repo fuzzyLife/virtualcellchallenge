@@ -1,0 +1,216 @@
+{
+  "revision": "91f86154aa1761a2dd0d885b979b9169f3b9983f",
+  "cardData": {
+    "pretty_name": "PIE Replogle-Nadig essential Perturb-seq (4 cell lines)",
+    "tags": [
+      "biology",
+      "single-cell",
+      "perturb-seq",
+      "crispri",
+      "differential-expression"
+    ],
+    "size_categories": [
+      "10M<n<100M"
+    ],
+    "configs": [
+      {
+        "config_name": "k562",
+        "data_files": "de/K562.parquet"
+      },
+      {
+        "config_name": "rpe1",
+        "data_files": "de/RPE1.parquet"
+      },
+      {
+        "config_name": "hepg2",
+        "data_files": "de/hepg2.parquet"
+      },
+      {
+        "config_name": "jurkat",
+        "data_files": "de/jurkat.parquet"
+      }
+    ]
+  },
+  "files": [
+    {
+      "type": "directory",
+      "oid": "73dcbb5c0a1664d1455b71e3037d74ecefbdb456",
+      "size": 0,
+      "path": "de"
+    },
+    {
+      "type": "directory",
+      "oid": "ab196b28ea57cbb8765d3a0ed00106cf48e8c70f",
+      "size": 0,
+      "path": "preprocessed"
+    },
+    {
+      "type": "file",
+      "oid": "789843cef95e47848af55a9998af6588ff4badc6",
+      "size": 2585,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "6bd23b4c06c8a34bf4ca72140be98f1980c82436",
+      "size": 4701,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "f69ff38c679792224f8d8d3c06a16f036c3d904f",
+      "size": 295093449,
+      "lfs": {
+        "oid": "36f0844469c08f66a859d57ac6d2b5927fd29d5adfe1f221260e0ab24029886c",
+        "size": 295093449,
+        "pointerSize": 134
+      },
+      "xetHash": "272fe13293cfa2a3d811b0151e6f4f67bbec559fc8a5f97410b5d2d359c9a412",
+      "path": "de/K562.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "27d080504ae3c6d00fbc4ef32f97ba6349058f68",
+      "size": 330585250,
+      "lfs": {
+        "oid": "bcbbeaf8d7603fc2621086fadf21f6bec95e16105b0d2c223666d238bdf8a8a7",
+        "size": 330585250,
+        "pointerSize": 134
+      },
+      "xetHash": "ba57bb4eb8998b2debd2e8e7ea8d7fedbbed6028ec0135212e69d5eaaa7d826d",
+      "path": "de/RPE1.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "2a1db26558199d4cb6d5e34a065e84711e31737b",
+      "size": 270954797,
+      "lfs": {
+        "oid": "e7aa41777c2edb717983203802179bf8eca3760696259a0365b9f04ab94d7b89",
+        "size": 270954797,
+        "pointerSize": 134
+      },
+      "xetHash": "d45a1d00ce949642d9dc30b0bf790a37de789214cc177bd2d838403689aeca4c",
+      "path": "de/hepg2.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "9d4d7dd75d12bf5395f2f73addd5fd180a6bcf97",
+      "size": 322822645,
+      "lfs": {
+        "oid": "4be98f03d7cce54aa4fce46552df08d7b52e31e8632eb01254356de48689b442",
+        "size": 322822645,
+        "pointerSize": 134
+      },
+      "xetHash": "31a917bf3e639cde7d690c53c17aca6111be907438e38cb3bbdeca22c6bf7ccb",
+      "path": "de/jurkat.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "dabe314da335b0d1dd44378c445276c8c2789607",
+      "size": 200,
+      "path": "preprocessed/contexts.yaml"
+    },
+    {
+      "type": "file",
+      "oid": "5be872c8fd8849a225d027334533c2f050392aaf",
+      "size": 106400,
+      "lfs": {
+        "oid": "357c029fb64ee5d96da2fb199e2ad5336b7f869543a50cdd070dfb653b5e94be",
+        "size": 106400,
+        "pointerSize": 131
+      },
+      "xetHash": "40d4c6bdca3edd6b942a4016fb7907fd7a60dda1c34c02c71ff2700e466b713c",
+      "path": "preprocessed/ctrl_means.npy"
+    },
+    {
+      "type": "file",
+      "oid": "967610e28a131bb671f674de25b227465044e2c8",
+      "size": 21964,
+      "lfs": {
+        "oid": "dd47654a7a31a9acf71da568fc66a037e41b413ed4bea309c5db724005090504",
+        "size": 21964,
+        "pointerSize": 130
+      },
+      "xetHash": "b9a6312d6db9d58beea3abeeaa6951f23743f27e981573d80cce1d78d6041bae",
+      "path": "preprocessed/ctx_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "4390af553de075c40430a49ad49b0f22825d6edd",
+      "size": 145034840,
+      "lfs": {
+        "oid": "fd00d4b856c696b2267f54d3559bbe5871ffb6c877682af80752cbc25e5e925a",
+        "size": 145034840,
+        "pointerSize": 134
+      },
+      "xetHash": "5942ad4716ac01be0ad2a2f77287cc23267a05fb6afac2db3ff38da8430a5454",
+      "path": "preprocessed/delta_p.npy"
+    },
+    {
+      "type": "file",
+      "oid": "010617ab09c87f1d7093fbb5948727629021a8de",
+      "size": 145034840,
+      "lfs": {
+        "oid": "c492c671295894dd33e26aaa2f2bf22cf97246d4c9bf412285a56c2da978c6c8",
+        "size": 145034840,
+        "pointerSize": 134
+      },
+      "xetHash": "86f69d15db8652ec6c6d9ce6bd94325f6175a6fff742ea50c27acac1e2feeab7",
+      "path": "preprocessed/fdr.npy"
+    },
+    {
+      "type": "file",
+      "oid": "1e5277ae878b2cd7916effe3387b11453f5de9ef",
+      "size": 145034840,
+      "lfs": {
+        "oid": "820f82225c3a4fdad11d8912dc974a6f3f2e16ae4bb89891d710293845dfa749",
+        "size": 145034840,
+        "pointerSize": 134
+      },
+      "xetHash": "5950c0ad8dddc384c88fce2e8c807959662693c0df4d0b979091bc7f3a35bba1",
+      "path": "preprocessed/fold_changes.npy"
+    },
+    {
+      "type": "file",
+      "oid": "39d8b5958fd3eb6f9d7cd286d2559aa2dd5970c8",
+      "size": 290069552,
+      "lfs": {
+        "oid": "b8d66de5fef2a531d133282264f80cbb958a6e1157fd9c0c7e8a892e355bd66e",
+        "size": 290069552,
+        "pointerSize": 134
+      },
+      "xetHash": "28c98716d6498a86c1bcf3da068ddf91309377382776c36c59c57222c60567aa",
+      "path": "preprocessed/lfc_true.npy"
+    },
+    {
+      "type": "file",
+      "oid": "dccb7747e295bf49736efa28f886b47a3a32c862",
+      "size": 162999,
+      "path": "preprocessed/meta.json"
+    },
+    {
+      "type": "file",
+      "oid": "4d799d8bab8549df960b5ed10fed47e5df807b39",
+      "size": 21964,
+      "lfs": {
+        "oid": "1eabe1b47d63abfac389f92bfa339623b46ba257a807756832e5c1af40a81a7a",
+        "size": 21964,
+        "pointerSize": 130
+      },
+      "xetHash": "7f6f5a001c292d2cc3e22d529a85a4bb5353f1ec568cea9577e8357b123f14eb",
+      "path": "preprocessed/pert_ids.npy"
+    },
+    {
+      "type": "file",
+      "oid": "be0b490a3c1fe0bcb4dcb13e9163c2bf2df21413",
+      "size": 36258806,
+      "lfs": {
+        "oid": "3f4f00fe1dcd17e78c68ce79c5999ca97c5cc3db1668994b7a7f4c131a025eaa",
+        "size": 36258806,
+        "pointerSize": 133
+      },
+      "xetHash": "6d891f8e5192b8dc39f53930d74a43b957c2e0011245c3a8420e6c2e79951719",
+      "path": "preprocessed/tested.npy"
+    }
+  ]
+}

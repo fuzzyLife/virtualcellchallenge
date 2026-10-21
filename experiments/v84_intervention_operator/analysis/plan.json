@@ -1,0 +1,28 @@
+{
+  "version": 84,
+  "hypothesis": "Use paired measured essential perturbations across K562,RPE1,HepG2,Jurkat to learn how response programs change with context. Transfer a legacy measured K562 response for each competition target through those operators; route contexts only from unperturbed rank profiles. Adds information even though target identities have zero overlap.",
+  "scope": "Independent reduced-rank response-transfer prototype inspired by context-diversity and response-representation literature; not a reproduction of scDEBART or C3TL. Released scDEBART inference has missing architecture settings and attention-mask semantics requiring separate verification; no pretrained model result claimed.",
+  "sources": [
+    "K562",
+    "RPE1",
+    "hepg2",
+    "jurkat"
+  ],
+  "training_target_rule": "Shared essential targets with>=30 cells each and>=400reference, before outcomes. Exclude own readout per row. Shared output axis control>=5CPM all4 sources, mapped competition genes, excluding all300 competition panel genes. Unknown/unmeasured outputs abstain.",
+  "representation": "Measured log2FC clipped+/-3, own suppression dose-normalized asV83 if observed. Subtract row median over the shared output axis to remove within-axis compositional offset. Source coordinate scales=max(training K562 gene SD,0.1). No query treatment enters representation.",
+  "operator": "Fixed rank32 SVD of standardized training K562 responses, no intercept. Predict standardized destination-minus-K562 difference using ridge with penalty0.1*mean(diag(score.T@score)). Unstandardize only after prediction. Exact zero input gives zero correction. Constant-mean and identity baselines in held-essential evaluation.",
+  "secondary": "Per-gene zero-intercept ridge difference slope with same relative0.1 penalty; simple diagonal response-transfer comparator, not another strength search.",
+  "training_split": "Deterministic sha256(v84-essential:+target)%5:20% held-targets. Train all model parameters and scales on80%; evaluate20% once per destination before any full-data refit. No hyperparameter/arm re-selection using these scores.",
+  "contexts": "Source control profiles on shared readouts are averaged over released target-specific reference cohorts. Pairwise-valid nonpanel Spearman with query, priorweightsK5621,RPE1=1,HepG2=.5,Jurkat=.5;softmaxexp4rho. K562 operator is identity (delta0). Basal similarity is routing only and is not claimed to guarantee response similarity.",
+  "candidates": [
+    "program25",
+    "diagonal25"
+  ],
+  "primary": "program25",
+  "correction": "Use whole-recipient-study-excluded legacy K562 panel effects from immutable V15 cube (CD4 response entirely excluded on D3). Center on same axis, project/operator-delta, mix routed destination corrections. Add0.25*clip(delta,-1,1) to folded V66. All own genes0; unchanged V63 identity-margin guard anchored at V66.",
+  "negative": "Refit the same operator with source training destination target rows cyclically deranged. Same PCA/ridge/routing/strength. Never evaluate true held-target rows during fitting.",
+  "development": "All655 existing public target/context pairs. Profile error<=.995V66, worst-study<=1.03, PDS>=baseline-.005, beat fitted row-deranged operator. Lock selected arm; primaryprogram25 still tested on project-unseen D3 if noneeligible, with failure status retained.",
+  "D3": "Reuse metadata-only 14-target V83 donor cohort and checksum-verified integer extraction; no D3 outcome has been scored before this freeze. ALL CD4 response data and donor summaries excluded. No donor training/selection. Pinned primary evaluated regardless of development outcome to expose validation-transfer gaps. Previous study and possible observational-pretraining overlap are limitations.",
+  "count_endpoints": "Final emitted counts with unchangedV66 residual10, matched templates/libraries/seed, independent raw ranks,BH,FID/JAC/REACH/NMAE,profile/PDS. Include V66 and fitted-deranged primary. Seed0 and620000 technicalrepeats. No new submission automatically. Original mean-dev and count guards both required before a recommendation.",
+  "automatic_upload": false
+}

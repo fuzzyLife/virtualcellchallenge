@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "training_targets": 513,
+  "held_targets": 125,
+  "paired_sources": [
+    "K562",
+    "RPE1",
+    "hepg2",
+    "jurkat"
+  ],
+  "competition_targets_in_operator_training": 0,
+  "normal_equations_verified": true,
+  "held_MSE_independently_replayed": true,
+  "zero_input_identity": true,
+  "code_input_hashes_verified": true,
+  "original_fit_source_retained": true,
+  "records": [
+    {
+      "destination": "RPE1",
+      "arm": "program25",
+      "MSE": 0.2089021644604989
+    },
+    {
+      "destination": "hepg2",
+      "arm": "program25",
+      "MSE": 0.18264101581314585
+    },
+    {
+      "destination": "jurkat",
+      "arm": "program25",
+      "MSE": 0.14000211087466347
+    },
+    {
+      "destination": "RPE1",
+      "arm": "diagonal25",
+      "MSE": 0.23352464043808874
+    },
+    {
+      "destination": "hepg2",
+      "arm": "diagonal25",
+      "MSE": 0.17441701651973657
+    },
+    {
+      "destination": "jurkat",
+      "arm": "diagonal25",
+      "MSE": 0.10086153368676297
+    },
+    {
+      "destination": "RPE1",
+      "arm": "program25_shuffled",
+      "MSE": 0.21746219599685787
+    },
+    {
+      "destination": "hepg2",
+      "arm": "program25_shuffled",
+      "MSE": 0.19452351441404075
+    },
+    {
+      "destination": "jurkat",
+      "arm": "program25_shuffled",
+      "MSE": 0.14451098023956405
+    },
+    {
+      "destination": "RPE1",
+      "arm": "diagonal25_shuffled",
+      "MSE": 0.2354049016656964
+    },
+    {
+      "destination": "hepg2",
+      "arm": "diagonal25_shuffled",
+      "MSE": 0.1770688394957749
+    },
+    {
+      "destination": "jurkat",
+      "arm": "diagonal25_shuffled",
+      "MSE": 0.10169312669045419
+    }
+  ],
+  "auditor_sha256": "61d15212aae0c501fe5b5386512128ab582ead59fe4520b521f29b02e118f7b7"
+}

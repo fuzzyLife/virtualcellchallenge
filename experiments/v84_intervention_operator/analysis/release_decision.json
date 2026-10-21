@@ -1,0 +1,59 @@
+{
+  "release_allowed": false,
+  "selected_on_development": null,
+  "primary": "program25",
+  "development_passed": false,
+  "donor_primary_passes": {
+    "0": false,
+    "620000": false
+  },
+  "new_upload_artifact_generated": false,
+  "source_results": [
+    {
+      "arm": "program25",
+      "destination": "RPE1",
+      "ratio_to_identity": 0.7188884982391981,
+      "ratio_to_constant": 1.1253057199577121
+    },
+    {
+      "arm": "program25",
+      "destination": "hepg2",
+      "ratio_to_identity": 0.7936890902104968,
+      "ratio_to_constant": 1.107488803070313
+    },
+    {
+      "arm": "program25",
+      "destination": "jurkat",
+      "ratio_to_identity": 0.913421530748601,
+      "ratio_to_constant": 1.385338848767738
+    },
+    {
+      "arm": "diagonal25",
+      "destination": "RPE1",
+      "ratio_to_identity": 0.803621056296572,
+      "ratio_to_constant": 1.2579410764589727
+    },
+    {
+      "arm": "diagonal25",
+      "destination": "hepg2",
+      "ratio_to_identity": 0.7579506856247731,
+      "ratio_to_constant": 1.057620556918928
+    },
+    {
+      "arm": "diagonal25",
+      "destination": "jurkat",
+      "ratio_to_identity": 0.6580550530148289,
+      "ratio_to_constant": 0.9980378159273559
+    }
+  ],
+  "existing_best_published_overall": 0.1508821875498449,
+  "hosted_score_forecast": null,
+  "audits": {
+    "operator_audit.json": "647c87a5a9bde587b18d8351b8b174e3bbc19a5351726b24c602ee862385c479",
+    "donor_exclusion_audit.json": "e6282bc94d27a920ac7dca4153cd703bf382f693d61a413478dfdd1b45d1b27b",
+    "donor_audit_0.json": "1bc504aaa0322ad97dca68432c09f39710ef419be7693c6c8b4710696ac96098",
+    "donor_audit_620000.json": "f47508ac011769a6ccf3fd1b70159eb1ab71e6d12d20bab45bca84eac07fe8d4"
+  },
+  "script_sha256": "d9ad3cd1ecca1df5f01473d449dffc54c6d078b821ce578c925476d5ec69c71d",
+  "oracle_audit_sha256": "d8658d3382c204178c8c604368a47a34c12cb185cc8123a552cac05bc1595997"
+}

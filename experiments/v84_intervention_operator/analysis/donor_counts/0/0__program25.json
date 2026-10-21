@@ -1,0 +1,32 @@
+{
+  "target": "ADNP",
+  "case_index": 0,
+  "arm": "program25",
+  "seed_offset": 0,
+  "seed": 83083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "1f91016e787b8058f4d23af414706360a434c94c391e8aa26b9216e340ae733a",
+  "profile_MSE": 0.006619500266004537,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.536015574302401,
+  "reach": 0.0,
+  "jaccard": 0.1432651118514993,
+  "nmae": 0.9588847026384717,
+  "predicted_calls": 1541,
+  "reference_calls": 861,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.012180683702171334,
+    "bulk_probability_L1": 0.000966164771248059,
+    "changed_transcript_fraction": 0.37043809313073345,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "39a24578105c0c885f26e1073a527bd04555976ad43a3aac71fc3ec3aea3d391",
+  "seconds": 16.059038162231445
+}

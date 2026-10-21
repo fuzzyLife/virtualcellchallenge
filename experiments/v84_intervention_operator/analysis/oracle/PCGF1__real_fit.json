@@ -1,0 +1,21 @@
+{
+  "target": "PCGF1",
+  "arm": "real_fit",
+  "fidelity": 0.9047619047619048,
+  "reach": 1.0,
+  "jaccard": 0.4344186046511628,
+  "nmae": 0.40313213863415004,
+  "predicted_calls": 744,
+  "reference_calls": 798,
+  "nmae_eligible": true,
+  "profile_MSE": 0.006320234833466423,
+  "projection_diagnostics": {},
+  "CPM_contract_valid": true,
+  "manual_rank_coordinates_checked": 8,
+  "arrays_sha256": "b136bf3568cfcf8cfed993b96b2ea300003669439153d432b79397673ef57474",
+  "fit_cells": 200,
+  "actual_cells": 200,
+  "fit_and_actual_cells_disjoint": true,
+  "oracle_only": true,
+  "deployable": false
+}

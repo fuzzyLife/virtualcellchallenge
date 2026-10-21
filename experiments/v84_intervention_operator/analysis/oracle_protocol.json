@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "ADNP",
+    "MAP2K2",
+    "MYRF",
+    "PCGF1",
+    "USP28",
+    "ZNF25"
+  ],
+  "selection": "First6 by fixed target-name hash from metadata-qualified14; before donor scores.",
+  "condition": "Only if fixed primary fails donor seed0 guards.",
+  "fit_test": "Disjoint halves of frozen seed0 actual400. Same independent NTC reference. No oracle output can be used in a submission or training.",
+  "arms": [
+    "baseline",
+    "predicted_mean_fitted_shape",
+    "fitted_mean_old_shape",
+    "real_fit"
+  ],
+  "constraints": "Use original V29 projector: exact gene sums and row libraries. Fitted-shape-at-predicted-means has exactly baseline profiles; old-shape-at-fitted-means has exactly real-fit profiles. Cell-mean CPM<=.0005 is audited and failure retained, not silently dropped.",
+  "limitations": "Six reused donor target groups,200 fitting/200 scoring cells, not full400-cell power. Mean comparisons also change row-depth margins (NTC versus treated); within-mean shape comparisons match original row/gene margins exactly, but projection alters shape. Oracle means are noisy sample estimates; real-fit is only a split-half replicate. No causal attribution to one mechanism, independence between technical seeds, or hidden-score forecast.",
+  "source_sha256": "8e01233aafd4146c8496ef13bdda6121775b1509741fa45354337e9f81aff944",
+  "outcomes_opened_at_freeze": false
+}

@@ -1,0 +1,39 @@
+"""Independent operator normal-equation, held-target and source-exclusion audits."""
+import json,ast
+import numpy as np
+from pathlib import Path
+from threadpoolctl import threadpool_limits
+from v57_pie import read,write,sha
+import v84_intervention_operator as m
+
+def main():
+ b=m.pairs();cohort=read(m.A/'essential_cohort.json');train=np.array([i for i,t in enumerate(b['targets']) if m.split(t)!=0]);test=np.array([i for i,t in enumerate(b['targets']) if m.split(t)==0]);assert set(b['targets'][train]).isdisjoint(b['targets'][test]);assert not set(b['targets'])&set(m.data()['targets']);records=[]
+ x=np.asarray(b['effects'][0,train],float);scale=np.maximum(x.std(0),.1);z=x/scale
+ for shuffled in [False,True]:
+  model=m.model(shuffled);np.testing.assert_array_equal(model['scale'],scale);v=model['basis'];np.testing.assert_allclose(v.T@v,np.eye(v.shape[1]),rtol=0,atol=1e-10);scores=z@v;gram=scores.T@scores;pen=.1*np.trace(gram)/len(gram);np.testing.assert_allclose(model['ridge'],pen,rtol=0,atol=1e-9)
+  for j in range(3):
+   y=np.asarray(b['effects'][j+1,train],float)
+   if shuffled:y=np.roll(y,1,axis=0)
+   residual=(y-x)/scale;beta=model['coef'][j];equation=(gram+pen*np.eye(len(gram)))@beta-scores.T@residual;relative=float(np.max(abs(equation))/(1+np.max(abs(scores.T@residual))));assert relative<1e-10;manual_diag=(z*residual).sum(0)/((z*z).sum(0)+.1*np.mean((z*z).sum(0)));np.testing.assert_allclose(model['diagonal'][j],manual_diag,rtol=0,atol=1e-12)
+  for kind in m.ARMS:
+   changes=m.transform(b['effects'][0,test],model,kind);np.testing.assert_array_equal(m.transform(np.zeros((3,len(scale))),model,kind),np.zeros((3,3,len(scale))))
+   for j in range(3):
+    truth=b['effects'][j+1,test];prediction=b['effects'][0,test]+changes[j];records.append(dict(destination=m.SOURCES[j+1],arm=kind+('_shuffled' if shuffled else ''),MSE=float(np.mean((prediction-truth)**2))))
+ existing=read(m.A/'held_essential_results.json')['records']
+ for r in records:
+  old=next(o for o in existing if o['destination']==r['destination'] and o['arm']==r['arm']);np.testing.assert_allclose(r['MSE'],old['MSE'],rtol=0,atol=1e-12)
+ history=m.A/'engineering_history/before_inference_abstention.py.txt'
+ current=m.ROOT/'v84_intervention_operator.py';recorded=read(m.A/'operator_genuine.json')['script_sha256']
+ assert recorded in [sha(history),sha(current)]
+ # Only inference abstention changed after fitting. Verify fitting/preparation ASTs
+ # are identical, so a fresh reproduction can use the final reviewed source.
+ before={n.name:ast.dump(n,include_attributes=False) for n in ast.parse(history.read_text(encoding='utf-8-sig')).body if isinstance(n,ast.FunctionDef)}
+ after={n.name:ast.dump(n,include_attributes=False) for n in ast.parse(current.read_text(encoding='utf-8-sig')).body if isinstance(n,ast.FunctionDef)}
+ for name in ['split','prepare_pairs','pairs','fit','transform','train']:assert before[name]==after[name],name
+ protocol=read(m.A/'execution_protocol.json')
+ for n,h in protocol['code_sha256'].items():assert sha(m.ROOT/n)==h,n
+ for n,h in protocol['inputs_sha256'].items():assert sha(m.ROOT/n)==h,n
+ write(m.A/'operator_audit.json',dict(passed=True,training_targets=len(train),held_targets=len(test),paired_sources=list(m.SOURCES),competition_targets_in_operator_training=0,normal_equations_verified=True,held_MSE_independently_replayed=True,zero_input_identity=True,code_input_hashes_verified=True,original_fit_source_retained=True,records=records,auditor_sha256=sha(__file__)))
+ print('V84 independent operator/source audit passed',len(train),len(test),len(scale),flush=True)
+if __name__=='__main__':
+ with threadpool_limits(limits=2):main()

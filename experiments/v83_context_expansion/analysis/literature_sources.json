@@ -1,0 +1,32 @@
+{
+  "context_diversity": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12919078/",
+    "status": "2026 preprint version inspected",
+    "idea": "More cells from a few contexts do not establish transfer to new biological contexts.",
+    "task_caveat": "A position/research argument, not evidence of any leaderboard leader architecture or a promised score."
+  },
+  "scdebart": {
+    "url": "https://proceedings.mlr.press/v306/sung26a.html",
+    "status": "ICML2026 proceedings abstract and pinned author source inspected; full PDF not successfully retrieved",
+    "idea": "Pretrain on basal-conditioned expression changes rather than static expression reconstruction.",
+    "task_caveat": "Reported fine-tuned Perturb-seq benchmarks are not the VCC controls-only unseen-context task. No checkpoint run here; pinned released code audit has reproducibility findings."
+  },
+  "systema": {
+    "url": "https://www.nature.com/articles/s41587-025-02777-8",
+    "status": "Peer-reviewed primary paper excerpts and author project inspected",
+    "idea": "Compare against average response and measure perturbation-specific identity, not only shared systematic response.",
+    "task_caveat": "Source-context MSE gains against identity can be trivial if a constant mean is stronger."
+  },
+  "c3tl": {
+    "url": "https://arxiv.org/html/2603.13051v1",
+    "status": "Primary preprint HTML methods inspected",
+    "idea": "Encode shared perturbation effects and context, predict quantitative response from paired evidence.",
+    "task_caveat": "Its displayed context encoder aggregates measured context responses; arbitrary unseen contexts are not identifiable without assumptions. Not treated as a ready controls-only zero-shot predictor."
+  },
+  "trade": {
+    "url": "https://www.nature.com/articles/s41588-025-02169-3",
+    "status": "Peer-reviewed primary abstract/method snippets and author data description inspected",
+    "idea": "Noisy measured DE hides weaker effects; response signal and dosage differ across perturbations and contexts.",
+    "task_caveat": "Does not show that every competition target is nonessential or establish their effects in anonymous A/B/C."
+  }
+}

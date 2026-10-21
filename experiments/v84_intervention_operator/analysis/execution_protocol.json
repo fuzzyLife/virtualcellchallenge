@@ -1,0 +1,32 @@
+{
+  "code_sha256": {
+    "v84_intervention_operator.py": "7713ac80c7fbb13a534dcc7bb007b2c6bda4edfc7b66af48e35a310c715c8c09",
+    "run_v84_experiment.py": "c1987dad06c9687cef9b813c87ebd54d95d3d63e6cc4372ffe74bb297ceb54c7",
+    "run_v84_donor.py": "05db13077ed8a22dbe18e96567508efdda18fee522af3306bdd7323b2e75f4b4",
+    "test_v84_operator.py": "f3e8361a4f671fd0d753d3ae11cc4561c5b13aa4690df43c581e4181f0fa4f9e",
+    "extract_v83_donor.py": "ab959f3e823811540ce163da58e3291c6276bf056ff03ec3fea95eaa2997a29b",
+    "v66_assay_strength.py": "58641e4fbff478d76d7bb8582a680b5de20d4e08771cb98ebf9a654ac263fbcf",
+    "v25_methods.py": "7d9bbf438c289aca3706e642fa49671e5f3168a96249f89b98ebeb229f121f00",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93"
+  },
+  "inputs_sha256": {
+    "experiments/v84_intervention_operator/analysis/plan.json": "e9b59501ca16e9362b6936ae8055ff0ee9bf1bfe91607906947ed61d76aeecd5",
+    "experiments/v84_intervention_operator/analysis/operator_genuine.npz": "91c15d428d56e82ef5ab3da4a47eb84a053857997251aaf72b42f00ac719008c",
+    "experiments/v84_intervention_operator/analysis/operator_shuffled.npz": "88a8722d4b671dec4326132567ad63937f0f5118ddb164f82990500a4416b9cf",
+    "experiments/v83_context_expansion/analysis/donor/cohort.json": "b097fc2d156321a936d2adea4c8501dba248c3ac327ad3f91fa11ad9814be208",
+    "experiments/v83_context_expansion/analysis/donor/extraction.json": "699d2fe33e262e5993f51947bdfc789cfe7ad35b50728f9c7e931fc029d64a60"
+  },
+  "source_held_scores_already_visible": true,
+  "source_held_scores_used_to_change_hyperparameters": false,
+  "recipient_public_mean_results_exist": false,
+  "donor_outcome_scores_exist": false,
+  "primary_always_tested": "program25",
+  "technical_seed_offsets": [
+    0,
+    620000
+  ],
+  "complete_new_submission_qualification_requires_both_development_and_donor": true
+}

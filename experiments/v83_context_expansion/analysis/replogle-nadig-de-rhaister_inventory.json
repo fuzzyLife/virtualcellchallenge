@@ -1,0 +1,149 @@
+{
+  "revision": "6fbb5f721c7ed8bef23fa8e5d2a08bc47470db83",
+  "cardData": {
+    "license": "cc-by-4.0",
+    "tags": [
+      "biology",
+      "single-cell",
+      "perturbation",
+      "differential-expression",
+      "CRISPR"
+    ],
+    "size_categories": [
+      "1B<n<10B"
+    ],
+    "configs": [
+      {
+        "config_name": "pdex",
+        "data_files": "pdex/*.parquet",
+        "default": true
+      },
+      {
+        "config_name": "cell_eval",
+        "data_files": "cell_eval/*.parquet"
+      }
+    ]
+  },
+  "files": [
+    {
+      "type": "directory",
+      "oid": "0ca8ef9f6103b31e81e1d5603e8d3866510577b9",
+      "size": 0,
+      "path": "cell_eval"
+    },
+    {
+      "type": "directory",
+      "oid": "78bc2020f04bfa6452f8affc4a85af229e955d7b",
+      "size": 0,
+      "path": "definition"
+    },
+    {
+      "type": "directory",
+      "oid": "086477bc41499120fcc74c607f443b70e40f6d44",
+      "size": 0,
+      "path": "definition/split_0"
+    },
+    {
+      "type": "directory",
+      "oid": "e0f4d88bc452864de9096dd197dbf0e57377eff8",
+      "size": 0,
+      "path": "definition/split_1"
+    },
+    {
+      "type": "directory",
+      "oid": "6ccefed08e2cb8f6aba7e6a8e466903f0d67a6e2",
+      "size": 0,
+      "path": "definition/split_2"
+    },
+    {
+      "type": "directory",
+      "oid": "6e0647afe139fe5a325a6bb756fdf7e45efaf6df",
+      "size": 0,
+      "path": "definition/split_3"
+    },
+    {
+      "type": "directory",
+      "oid": "3a916b3414605120d21bf860567770cb54d10be8",
+      "size": 0,
+      "path": "pdex"
+    },
+    {
+      "type": "file",
+      "oid": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504,
+      "path": ".gitattributes"
+    },
+    {
+      "type": "file",
+      "oid": "b04eaf721a7e990bf638287e23e154858ee470a0",
+      "size": 2963,
+      "path": "README.md"
+    },
+    {
+      "type": "file",
+      "oid": "b283c698cf7e4263c5a0f8bbed6e6dfc2a3fd96a",
+      "size": 6503169186,
+      "lfs": {
+        "oid": "b7407b5a403a028e1112f198e8ee8f68f48d829e29ade79cfeac39332f2f4c70",
+        "size": 6503169186,
+        "pointerSize": 135
+      },
+      "xetHash": "283bab311e15ac8d2b24d9cc6f8bad8425ecba2df39fd4930edae95b0e3b820a",
+      "path": "cell_eval/all_delta.parquet"
+    },
+    {
+      "type": "file",
+      "oid": "30f6d66ba6d2be8a393431af8c3295418c8fe295",
+      "size": 1132,
+      "path": "definition/dataset.toml"
+    },
+    {
+      "type": "file",
+      "oid": "6538802c0f3b27ecc8213d411e81ed3ffff97e37",
+      "size": 61061,
+      "path": "definition/feature_names.json"
+    },
+    {
+      "type": "file",
+      "oid": "75ecce5dc1257bdc1b5085ec95664963c6c7a68f",
+      "size": 18633,
+      "path": "definition/hvg_2k_genes.json"
+    },
+    {
+      "type": "file",
+      "oid": "246c30cbdc0877351e8e9597b04f6c02910e06b6",
+      "size": 9122,
+      "path": "definition/split_0/split.toml"
+    },
+    {
+      "type": "file",
+      "oid": "03ef5b4d97442f280bedd173cd1bb5463c5a09df",
+      "size": 10393,
+      "path": "definition/split_1/split.toml"
+    },
+    {
+      "type": "file",
+      "oid": "04f232ee0d9372d5c5c5f82992c44716554f1c17",
+      "size": 9333,
+      "path": "definition/split_2/split.toml"
+    },
+    {
+      "type": "file",
+      "oid": "580022a5b4ddb5a5fed6185b7f14898c2a6c29e3",
+      "size": 10158,
+      "path": "definition/split_3/split.toml"
+    },
+    {
+      "type": "file",
+      "oid": "c928fe977b4cb6ca2e5486f2b94126c4377fd09c",
+      "size": 29761952282,
+      "lfs": {
+        "oid": "2e933aa9415265bdfe4e8850893fb59ef778d1912d111d67fef267d0271a904f",
+        "size": 29761952282,
+        "pointerSize": 136
+      },
+      "xetHash": "105649e82ce6a30505ffca9471735116be169bd04e353e83e7efd47d43d1958b",
+      "path": "pdex/all_pdex.parquet"
+    }
+  ]
+}

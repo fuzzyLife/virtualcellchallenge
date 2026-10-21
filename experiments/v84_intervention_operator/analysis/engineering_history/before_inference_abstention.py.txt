@@ -1,0 +1,91 @@
+"""V84: transfer response programs learned from paired, different interventions."""
+from pathlib import Path
+from functools import lru_cache
+import argparse,gc,json,hashlib
+import numpy as np,pandas as pd
+from sklearn.utils.extmath import randomized_svd
+from threadpoolctl import threadpool_limits
+from v57_pie import read,write,sha
+from v62_conserved_response import data
+from v63_identity_guard import guard
+from analyze_target_rank_correlations import pairwise_spearman
+ROOT=Path(__file__).resolve().parent;OUT=ROOT/'experiments/v84_intervention_operator';A=OUT/'analysis';R=ROOT/'reference/v83_sources';SOURCES=('K562','RPE1','hepg2','jurkat');ARMS=('program25','diagonal25')
+def split(target):return int(hashlib.sha256(('v84-essential:'+str(target)).encode()).hexdigest()[:8],16)%5
+
+def prepare_pairs():
+ d=data();genes=d['genes'];targets=d['targets'];metadata=[];receipts=[]
+ for name in SOURCES:
+  p=R/(name+'.parquet');rec=read(p.with_suffix('.json'));assert sha(p)==rec['sha256'];receipts.append(rec);frame=pd.read_parquet(p,columns=['target','target_ncells','ref_ncells']);n=frame.groupby('target',sort=True)[['target_ncells','ref_ncells']].first();eligible=set(n.index[(n.target_ncells>=30)&(n.ref_ncells>=400)]);metadata.append(eligible);del frame;gc.collect()
+ names=sorted(set.intersection(*metadata));assert not set(names)&set(targets) and len(names)>100
+ cohort=dict(targets=names,train=[t for t in names if split(t)!=0],test=[t for t in names if split(t)==0],selected_from_metadata_only=True,source_receipts=receipts,script_sha256=sha(__file__),plan_sha256=sha(A/'plan.json'));cohort_path=A/'essential_cohort.json'
+ if cohort_path.exists():
+  previous=read(cohort_path);assert previous['targets']==cohort['targets'] and previous['train']==cohort['train'] and previous['test']==cohort['test'] and previous['plan_sha256']==cohort['plan_sha256']
+ else:write(cohort_path,cohort)
+ allgenes=[];effects=[];controls=[];dose=[]
+ for name in SOURCES:
+  df=pd.read_parquet(R/(name+'.parquet'),columns=['target','feature','log2_fold_change','ref_mean'],filters=[('target','in',names)]);assert not df.duplicated(['target','feature']).any();ref=df.groupby('feature').ref_mean.mean();tab=df.pivot(index='target',columns='feature',values='log2_fold_change').reindex(names);symbols=tab.columns.to_numpy(str);vals=tab.to_numpy(float,copy=True);assert np.isfinite(vals).mean()>.95
+  gains=[]
+  for i,t in enumerate(names):
+   idx=np.flatnonzero(symbols==t);gain=1.
+   if len(idx) and np.isfinite(vals[i,idx[0]]):kd=float(np.clip(1-2**min(vals[i,idx[0]],0),0,.99));gain=float(np.clip(.9/max(kd,.35),.8,1.8))
+   gains.append(gain)
+   if len(idx):vals[i,idx[0]]=0
+  vals=np.clip(vals*np.asarray(gains)[:,None],-3,3);allgenes.append(symbols);effects.append(vals);controls.append(ref.reindex(symbols).to_numpy(float)*100);dose.append(gains);del df,tab;gc.collect();print('V84 paired source',name,len(names),len(symbols),flush=True)
+ shared=set(map(str,genes))-set(map(str,targets))
+ for g,c in zip(allgenes,controls):shared&=set(g[np.isfinite(c)&(c>=5)])
+ axis=np.array([g for g in genes if g in shared],str);assert len(axis)>=1000;values=[];profile=[]
+ for sy,v,c in zip(allgenes,effects,controls):
+  mp={g:i for i,g in enumerate(sy)};ix=np.array([mp[g] for g in axis]);y=v[:,ix];assert np.isfinite(y).all(),'Missing paired output: do not fill absence with biological zero';y-=np.median(y,axis=1,keepdims=True);values.append(y.astype(np.float32));profile.append(c[ix])
+ path=A/'paired_effects.npz';np.savez_compressed(path,targets=np.asarray(names,str),genes=axis,effects=np.asarray(values),profiles=np.asarray(profile),dose_gains=np.asarray(dose));write(path.with_suffix('.json'),dict(sha256=sha(path),cohort_sha256=sha(A/'essential_cohort.json'),source_receipts=receipts,script_sha256=sha(__file__),training_interventions=len(cohort['train']),held_interventions=len(cohort['test']),competition_readouts=len(axis),source_axis_closure='Each paired LFC row median centered on shared nonpanel readouts. Does not identify causal mechanisms.'))
+
+@lru_cache(1)
+def pairs():
+ p=A/'paired_effects.npz';assert sha(p)==read(p.with_suffix('.json'))['sha256']
+ with np.load(p,allow_pickle=False) as z:return {k:z[k].copy() for k in z.files}
+
+def fit(rows,shuffle=False):
+ b=pairs();x=np.asarray(b['effects'][0,rows],float);scale=np.maximum(x.std(0),.1);z=x/scale;_,s,basis=randomized_svd(z,n_components=min(32,len(rows)-1),n_iter=5,random_state=84084);v=basis.T;scores=z@v;gram=scores.T@scores;pen=.1*np.trace(gram)/len(gram);coefs=[];diags=[]
+ for k in range(1,4):
+  y=np.asarray(b['effects'][k,rows],float)
+  if shuffle:y=np.roll(y,1,axis=0)
+  residual=(y-x)/scale;coefs.append(np.linalg.solve(gram+pen*np.eye(len(gram)),scores.T@residual));den=(z*z).sum(0);diags.append((z*residual).sum(0)/(den+.1*np.mean(den)))
+ return dict(scale=scale,basis=v,coef=np.asarray(coefs),diagonal=np.asarray(diags),ridge=np.asarray(pen))
+
+def transform(x,model,kind):
+ z=np.asarray(x,float)/model['scale'];input_score=z@model['basis']
+ if kind=='program25':return np.array([input_score@c*model['scale'] for c in model['coef']])
+ return np.array([z*c*model['scale'] for c in model['diagonal']])
+
+def train():
+ b=pairs();train=np.array([i for i,t in enumerate(b['targets']) if split(t)!=0]);test=np.array([i for i,t in enumerate(b['targets']) if split(t)==0]);records=[]
+ for shuffled in [False,True]:
+  model=fit(train,shuffled);x=b['effects'][0,test]
+  for kind in ARMS:
+   changes=transform(x,model,kind)
+   for j in range(3):
+    actual=b['effects'][j+1,test];prediction=x+changes[j];identity=np.mean((x-actual)**2);constant=np.mean((b['effects'][j+1,train].mean(0)-actual)**2);records.append(dict(destination=SOURCES[j+1],arm=kind+('_shuffled' if shuffled else ''),targets=len(test),MSE=float(np.mean((prediction-actual)**2)),identity_MSE=float(identity),constant_MSE=float(constant),ratio_to_identity=float(np.mean((prediction-actual)**2)/identity)))
+  path=A/('operator_shuffled.npz' if shuffled else 'operator_genuine.npz');assert not path.exists();np.savez_compressed(path,**model);write(path.with_suffix('.json'),dict(sha256=sha(path),fitting_targets=b['targets'][train].tolist(),held_targets=b['targets'][test].tolist(),shuffled_training_pairing=shuffled,source_effects_sha256=sha(A/'paired_effects.npz'),script_sha256=sha(__file__)))
+ write(A/'held_essential_results.json',dict(records=records,parameters_selected_on_held_targets=False,scope='Predict different essential interventions in observed source contexts. This is not the controls-only new-context task; no production refit on held20%.'))
+ print(json.dumps(records),flush=True)
+
+@lru_cache(2)
+def model(shuffle):
+ p=A/('operator_shuffled.npz' if shuffle else 'operator_genuine.npz');assert sha(p)==read(p.with_suffix('.json'))['sha256']
+ with np.load(p,allow_pickle=False) as z:return {k:z[k].copy() for k in z.files}
+
+def predict(query,base,bulk,excluded=(),shuffle=False):
+ from v15_ensemble_methods import cube
+ d=data();b=pairs();genes=d['genes'];targets=d['targets'];own=np.array([list(genes).index(t) for t in targets]);axis=np.array([list(genes).index(g) for g in b['genes']]);panel=np.isin(genes,targets);y,_,valid,_=cube(d,['CD4','H1','HCT116','HEK293T'])
+ # Explicit NumPy advanced-indexing axis order; source is target-by-output.
+ source=np.asarray(y[0][:,axis],float);source-=np.median(source,axis=1,keepdims=True);source[~valid[0][:,axis]]=0
+ rho=[]
+ for p in b['profiles']:
+  r,_,status=pairwise_spearman(query[axis],p,min_pairs=100);rho.append(r if status=='ok' else np.nan)
+ rho=np.array(rho);weights=np.zeros(4);available=np.isfinite(rho);priors=np.array([1.,1.,.5,.5]);weights[available]=priors[available]*np.exp(4*(rho[available]-np.nanmax(rho)));weights/=weights.sum();outputs={};traces={}
+ for kind in ARMS:
+  changes=transform(source,model(shuffle),kind);delta=np.einsum('c,ctg->tg',weights[1:],changes);proposal=base.copy();proposal[:,axis]=np.clip(proposal[:,axis]+.25*np.clip(delta,-1,1),-3,3);proposal[np.arange(len(own)),own]=0;out,diag=guard(base,proposal,bulk,own,panel);outputs[kind]=out;traces[kind]=dict(diag,source_weights=weights.tolist(),source_rho=rho.tolist(),shuffled_model=shuffle,legacy_response_studies_excluded=list(excluded),new_operator_training_studies=['Replogle','Nadig'],legacy_K562_supported_input_genes_per_target=valid[0][:,axis].sum(1).tolist(),changed_targets=int(np.any(out!=base,axis=1).sum()))
+ return outputs,traces
+
+if __name__=='__main__':
+ p=argparse.ArgumentParser();p.add_argument('stage',choices=['pairs','train']);args=p.parse_args()
+ with threadpool_limits(limits=2):(prepare_pairs if args.stage=='pairs' else train)()
