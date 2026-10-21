@@ -1,3 +1,13 @@
+<!-- v87-bolero:begin -->
+## BOLERO paper review and conditional-weight experiment (V87)
+
+Reviewed the supplied paper and cloned code, verified public checkpoints/configurations, and tested a compact conditional low-rank response operator. This is an independent adaptation of conditional weight generation; the full DNA model was not executed.
+
+Across 655 reused public target/context pairs, the fixed primary reduced profile error by only **0.1510%** and lowered raw PDS by **0.010996**. Both constant-condition and fully refitted shuffled-response controls had lower profile error. The frozen criteria failed: **no new cells or submission package were generated**. V66/V82 remains the best published prediction (overall 0.1508821875498449).
+
+Root code, frozen protocol, all training traces/output metadata and numerical/study-exclusion/metric audits are retained. Read [BOLERO_REVIEW_V87.md](BOLERO_REVIEW_V87.md) for the paper, release requirements and reproduction commands, and [V87_RESULTS.md](V87_RESULTS.md) for the actual comparisons and limitations. V85/V86 were committed locally as `5f59360`.
+<!-- v87-bolero:end -->
+
 <!-- v85-v86-new-mechanisms:begin -->
 ## V85/V86: two different mechanisms tested
 

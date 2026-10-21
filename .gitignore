@@ -885,3 +885,12 @@ experiments/v86_joint_posterior/**/*.npy
 experiments/v86_joint_posterior/**/*.log
 experiments/v86_joint_posterior/**/*.h5ad
 experiments/v86_joint_posterior/**/*.vcc
+
+# V87 conditional response adaptation
+experiments/v87_conditional_adapter/**/*.npz
+experiments/v87_conditional_adapter/**/*.npy
+experiments/v87_conditional_adapter/**/*.pt
+experiments/v87_conditional_adapter/**/*.log
+experiments/v87_conditional_adapter/**/*.h5ad
+experiments/v87_conditional_adapter/**/*.vcc
+tmp/pdfs/v87/

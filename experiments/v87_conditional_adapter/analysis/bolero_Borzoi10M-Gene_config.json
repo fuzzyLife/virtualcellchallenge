@@ -1,0 +1,403 @@
+{
+  "mode": "lora",
+  "fold_split_id": 0,
+  "output_dir": null,
+  "savename": null,
+  "wandb_project": null,
+  "wandb_job_type": null,
+  "wandb_group": null,
+  "wandb_name": null,
+  "max_epochs": 200,
+  "use_amp": true,
+  "scheduler": true,
+  "lr": 5e-05,
+  "lr_total_steps": 4000000,
+  "optimizer": "adamw",
+  "weight_decay": 1e-08,
+  "global_clipnorm": 0.5,
+  "train_batches": 5000,
+  "val_batches": 300,
+  "plot_example_per_epoch": 9,
+  "accumulate_grad": 2,
+  "shuffle_rows": 300,
+  "dataloader_concurrency": 8,
+  "downsample_train_region": null,
+  "downsample_valid_region": null,
+  "downsample_test_region": null,
+  "grad_norm_collector": false,
+  "save_state_every_n_epoch": 25,
+  "validation_batch_fold": 3,
+  "warmup_steps": 500,
+  "train_dataset_specific_only": false,
+  "lora_checkpoint_path": "model/251103-Bolero10M_atac_fold0-final.lora.best_checkpoint.pt",
+  "_expm1_gene_count_y_true": true,
+  "_gene_loss_weight": 0.1,
+  "dataset_records": {
+    "Zu2023Nature+NonN": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+NonN/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+NonN/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+CNU": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+CNU/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+CNU/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+IB": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+IB/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+IB/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+CTXGlut": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+CTXGlut/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+CTXGlut/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+CTXGaba": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+CTXGaba/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+CTXGaba/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+CB": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+CB/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+CB/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+HB": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+HB/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+HB/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Zu2023Nature+MB": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zu2023Nature+MB/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zu2023Nature+MB/Zu2023Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "Li2023Science+Exc": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Li2023Science+Exc/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Li2023Science+Exc/Li2023Science-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanFirstTriBrain+None.top15000_hvg.joblib"
+    },
+    "Li2023Science+Inh": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Li2023Science+Inh/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Li2023Science+Inh/Li2023Science-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanFirstTriBrain+None.top15000_hvg.joblib"
+    },
+    "Li2023Science+NonN": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Li2023Science+NonN/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Li2023Science+NonN/Li2023Science-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanFirstTriBrain+None.top15000_hvg.joblib"
+    },
+    "EE+Control": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/control_only/EE.pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/EE/EE-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/EE+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/EE+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "KA+Control": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/control_only/KA.pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/KA/KA-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/KA+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/KA+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "Fear+Control": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/control_only/Fear.pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Fear/Fear-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 2,
+      "deg_list": "standard/gene_data/gene_data/Fear+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/Fear+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "Stress+Control": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/control_only/Stress.pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Stress/Stress-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/Stress+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/Stress+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MultipleSclerosis+Control": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/control_only/MultipleSclerosis.pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MultipleSclerosis/MultipleSclerosis-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/MultipleSclerosis+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/MultipleSclerosis+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "AIBSDev": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/AIBSDev/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/AIBSDev/AIBSDev-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/AIBSDev+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "Harris2025Nature": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Harris2025Nature/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Harris2025Nature/Harris2025Nature-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/Harris2025Nature+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/Harris2025Nature+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HumanBrainDev": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HumanBrainDev/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HumanBrainDev/HumanBrainDev-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanBrainDev+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HumanBrainDev+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HumanCBDev": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HumanCBDev/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HumanCBDev/HumanCBDev-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanCBDev+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HumanCBDev+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HumanFirstTriBrain": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HumanFirstTriBrain/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HumanFirstTriBrain/HumanFirstTriBrain-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanFirstTriBrain+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HumanFirstTriBrain+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MouseAging": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MouseAging/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MouseAging/MouseAging-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "HumanBrainAging": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HumanBrainAging/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HumanBrainAging/HumanBrainAging-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanBrainAging+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HumanBrainAging+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "EncodeHumanAtlas": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/EncodeHumanAtlas/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/EncodeHumanAtlas/EncodeHumanAtlas-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/EncodeHumanAtlas+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/EncodeHumanAtlas+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "Zhang2021Cell": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/Zhang2021Cell/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/Zhang2021Cell/Zhang2021Cell-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/EncodeHumanAtlas+None.top15000_hvg.joblib"
+    },
+    "HumanBodyDev": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HumanBodyDev/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HumanBodyDev/HumanBodyDev-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanBodyDev+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HumanBodyDev+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MultiSpeciesMouse": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MultiSpeciesMouse/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MultiSpeciesMouse/MultiSpeciesMouse-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/MultiSpeciesMouse+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/MultiSpeciesMouse+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MultiSpeciesHuman": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MultiSpeciesHuman/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MultiSpeciesHuman/MultiSpeciesHuman-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/MultiSpeciesHuman+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/MultiSpeciesHuman+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MultiSpeciesMacaque": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MultiSpeciesMacaque/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MultiSpeciesMacaque/MultiSpeciesMacaque-MetaCell-32bp",
+      "genome": "rheMac10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/MultiSpeciesMacaque+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/MultiSpeciesMacaque+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MultiSpeciesMarmoset": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MultiSpeciesMarmoset/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MultiSpeciesMarmoset/MultiSpeciesMarmoset-MetaCell-32bp",
+      "genome": "calJac4",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/MultiSpeciesMarmoset+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/MultiSpeciesMarmoset+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HMBABasalGangliaHuman": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HMBABasalGangliaHuman/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HMBABasalGangliaHuman/HMBABasalGangliaHuman-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HMBABasalGangliaHuman+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HMBABasalGangliaHuman+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HMBABasalGangliaMacaque": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HMBABasalGangliaMacaque/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HMBABasalGangliaMacaque/HMBABasalGangliaMacaque-MetaCell-32bp",
+      "genome": "rheMac10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HMBABasalGangliaMacaque+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HMBABasalGangliaMacaque+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "HMBABasalGangliaMarmoset": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/HMBABasalGangliaMarmoset/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/HMBABasalGangliaMarmoset/HMBABasalGangliaMarmoset-MetaCell-32bp",
+      "genome": "mCalJac1.pat.X",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HMBABasalGangliaMarmoset+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/HMBABasalGangliaMarmoset+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "CBDevEvoHuman": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/CBDevEvoHuman/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/CBDevEvoHuman/CBDevEvoHuman-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/HumanFirstTriBrain+None.top15000_hvg.joblib"
+    },
+    "CBDevEvoMacaque": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/CBDevEvoMacaque/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/CBDevEvoMacaque/CBDevEvoMacaque-MetaCell-32bp",
+      "genome": "rheMac10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/CBDevEvoMacaque+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/CBDevEvoMacaque+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "CBDevEvoMarmoset": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/CBDevEvoMarmoset/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/CBDevEvoMarmoset/CBDevEvoMarmoset-MetaCell-32bp",
+      "genome": "calJac4",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/CBDevEvoMarmoset+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/CBDevEvoMarmoset+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "CBDevEvoMouse": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/CBDevEvoMouse/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/CBDevEvoMouse/CBDevEvoMouse-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "CBDevEvoBonobo": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/CBDevEvoBonobo/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/CBDevEvoBonobo/CBDevEvoBonobo-MetaCell-32bp",
+      "genome": "panPan3",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/CBDevEvoBonobo+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/CBDevEvoBonobo+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "MouseBodyAtlas": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/MouseBodyAtlas/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/MouseBodyAtlas/MouseBodyAtlas-MetaCell-32bp",
+      "genome": "mm10",
+      "dataset_sample_weight": 1,
+      "deg_list": "standard/gene_data/gene_data/AIBSDev+None.top15000_hvg.joblib"
+    },
+    "NeurIPSBMMC": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/NeurIPSBMMC/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/NeurIPSBMMC/NeurIPSBMMC-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 2,
+      "deg_list": "standard/gene_data/gene_data/NeurIPSBMMC+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/NeurIPSBMMC+None.cond_pseudobulk.log1pCPM.feather"
+    },
+    "ChromiumPBMC": {
+      "pseudobulk_path": "standard/embedding/coverage_pseudobulk_with_condition/ChromiumPBMC/pseudobulk_records_and_cond.cov5000000.joblib",
+      "data_path": "standard/metacell_dataset/parquet/ChromiumPBMC/ChromiumPBMC-MetaCell-32bp",
+      "genome": "hg38",
+      "dataset_sample_weight": 2,
+      "deg_list": "standard/gene_data/gene_data/ChromiumPBMC+None.top15000_hvg.joblib",
+      "gene_data_path": "standard/gene_data/gene_data/ChromiumPBMC+None.cond_pseudobulk.log1pCPM.feather"
+    }
+  },
+  "dna_window": 524288,
+  "train_region_step_sample": true,
+  "use_regions": "borzoi_gene",
+  "n_pseudobulks": 10,
+  "paired_mode": "ensemble",
+  "reverse_complement": true,
+  "max_jitter": 3,
+  "batch_size": 4,
+  "output_prefix": "pseudobulk",
+  "shared_data_paths": null,
+  "_genomes": [
+    "calJac4",
+    "hg38",
+    "mCalJac1.pat.X",
+    "mm10",
+    "monDom5.split",
+    "panPan3",
+    "rheMac10"
+  ],
+  "transformer_attn_dropout": 0.0,
+  "transformer_pos_dropout": 0.0,
+  "transformer_ff_dropout": 0.0,
+  "final_conv_dropout": 0.0,
+  "loss_total_weight": 0.16,
+  "loss_chunks": 1,
+  "power": null,
+  "soft_clamp": null,
+  "soft_clamp_bool": null,
+  "crop_to_length": 16352,
+  "flash_attn": true,
+  "base_checkpoint_path": "wmb/model/Borzoi/flashzoi_checkpoints/fold_0.renamed.pt",
+  "output_head_type": "gene_count",
+  "output_head_kwargs": null,
+  "out_channels": 1,
+  "emb_input_features": null,
+  "signal_model": true,
+  "nosignal_prob": 0.2,
+  "cond_emb_dim": null,
+  "cond_module_kwargs": null,
+  "lora_preset": "all_conditional",
+  "hidden_dim": 256,
+  "hidden_layers": 1,
+  "lora_dropout": 0.01,
+  "embedding_dropout": 0,
+  "lora_scale": 0.02,
+  "lora_alpha": null,
+  "lora_norm": "layer",
+  "emb_attn_pooling": false,
+  "_multihead_model": false,
+  "_disable_cond_module": false,
+  "_predict_delta": false,
+  "_lora_scaling_factor": 1,
+  "_include_cond_lora_patterns": null,
+  "_exclude_cond_lora_patterns": null
+}

@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "context": "H1",
+      "arm": "conditional25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "H1",
+      "arm": "constant25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "H1",
+      "arm": "conditional25_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "HCT116",
+      "arm": "conditional25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HCT116",
+      "arm": "constant25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HCT116",
+      "arm": "conditional25_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 277
+    },
+    {
+      "context": "HEK293T",
+      "arm": "conditional25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HEK293T",
+      "arm": "constant25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HEK293T",
+      "arm": "conditional25_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 277
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "conditional25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 297
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "constant25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 297
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "conditional25_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "conditional25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "constant25",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "conditional25_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 299
+    }
+  ],
+  "own_knockdown_applied_once_in_profile_replay": true,
+  "V66_inputs_exact": true,
+  "script_sha256": "a7323bdcf33834f85ac968a640dcfa64c96d37717805abda2d3b06def386344f"
+}

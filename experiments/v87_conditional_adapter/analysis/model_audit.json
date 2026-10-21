@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "whole_recipient_study_poisoning_exact": true,
+  "records": [
+    {
+      "outer": "H1",
+      "shuffled": false,
+      "complete_output_genes": 5928,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    },
+    {
+      "outer": "H1",
+      "shuffled": true,
+      "complete_output_genes": 5928,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    },
+    {
+      "outer": "Orion",
+      "shuffled": false,
+      "complete_output_genes": 5922,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    },
+    {
+      "outer": "Orion",
+      "shuffled": true,
+      "complete_output_genes": 5922,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    },
+    {
+      "outer": "CD4",
+      "shuffled": false,
+      "complete_output_genes": 6507,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    },
+    {
+      "outer": "CD4",
+      "shuffled": true,
+      "complete_output_genes": 6507,
+      "training_targets": 240,
+      "held_targets": 60,
+      "all_selection_histories_replayed": true,
+      "conditional_matrix_equations_replayed": true
+    }
+  ],
+  "code_sha256": "c0319c5fa325fb37186be4416d2dfe98c4f8eceb85e57e302c21671d31af8d87"
+}

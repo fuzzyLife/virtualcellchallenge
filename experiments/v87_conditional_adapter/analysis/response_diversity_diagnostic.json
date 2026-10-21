@@ -1,0 +1,186 @@
+{
+  "records": [
+    {
+      "context": "H1",
+      "study": "H1",
+      "metrics": {
+        "v66": {
+          "average_response_energy": 6.600203387877868,
+          "between_target_energy": 6.221333515255027
+        },
+        "conditional25": {
+          "average_response_energy": 6.257228350793744,
+          "between_target_energy": 5.857774769553388
+        },
+        "constant25": {
+          "average_response_energy": 6.231444817727205,
+          "between_target_energy": 5.848841639599348
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 6.09491456893293,
+          "between_target_energy": 5.701954878507015
+        }
+      },
+      "ratio_to_V66": {
+        "conditional25": {
+          "average_response_energy": 0.9480356866404992,
+          "between_target_energy": 0.9415625693735638
+        },
+        "constant25": {
+          "average_response_energy": 0.944129211104625,
+          "between_target_energy": 0.9401266826891197
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 0.9234434472317979,
+          "between_target_energy": 0.9165165096077121
+        }
+      }
+    },
+    {
+      "context": "HCT116",
+      "study": "Orion",
+      "metrics": {
+        "v66": {
+          "average_response_energy": 3.6212010271880652,
+          "between_target_energy": 3.604560781464162
+        },
+        "conditional25": {
+          "average_response_energy": 3.4052036605742755,
+          "between_target_energy": 3.3792497323230273
+        },
+        "constant25": {
+          "average_response_energy": 3.4063545262601433,
+          "between_target_energy": 3.3803102271350363
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 3.00992723340106,
+          "between_target_energy": 2.987925191422526
+        }
+      },
+      "ratio_to_V66": {
+        "conditional25": {
+          "average_response_energy": 0.9403520089075209,
+          "between_target_energy": 0.9374927868327929
+        },
+        "constant25": {
+          "average_response_energy": 0.9406698221626336,
+          "between_target_energy": 0.9377869959962124
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 0.8311958410489927,
+          "between_target_energy": 0.8289290630879137
+        }
+      }
+    },
+    {
+      "context": "HEK293T",
+      "study": "Orion",
+      "metrics": {
+        "v66": {
+          "average_response_energy": 3.8277900991696217,
+          "between_target_energy": 3.8110917579200683
+        },
+        "conditional25": {
+          "average_response_energy": 3.6435210503829984,
+          "between_target_energy": 3.617054272063025
+        },
+        "constant25": {
+          "average_response_energy": 3.641644357648747,
+          "between_target_energy": 3.615479189694776
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 3.211632795640825,
+          "between_target_energy": 3.1888151361592048
+        }
+      },
+      "ratio_to_V66": {
+        "conditional25": {
+          "average_response_energy": 0.9518602002689235,
+          "between_target_energy": 0.9490861154277375
+        },
+        "constant25": {
+          "average_response_energy": 0.951369919275026,
+          "between_target_energy": 0.9486728264102333
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 0.839030540451405,
+          "between_target_energy": 0.8367195907924097
+        }
+      }
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "study": "CD4",
+      "metrics": {
+        "v66": {
+          "average_response_energy": 5.398075567122424,
+          "between_target_energy": 5.101980865124145
+        },
+        "conditional25": {
+          "average_response_energy": 5.064284064329157,
+          "between_target_energy": 4.761154978016087
+        },
+        "constant25": {
+          "average_response_energy": 5.075337473916768,
+          "between_target_energy": 4.763159004596525
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 4.97021943533553,
+          "between_target_energy": 4.661358959676111
+        }
+      },
+      "ratio_to_V66": {
+        "conditional25": {
+          "average_response_energy": 0.9381647221046217,
+          "between_target_energy": 0.9331973411664756
+        },
+        "constant25": {
+          "average_response_energy": 0.9402123795429379,
+          "between_target_energy": 0.93359013499174
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 0.9207391362964981,
+          "between_target_energy": 0.9136370917303877
+        }
+      }
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "study": "CD4",
+      "metrics": {
+        "v66": {
+          "average_response_energy": 7.16142630427553,
+          "between_target_energy": 6.665242849838596
+        },
+        "conditional25": {
+          "average_response_energy": 6.7547439075216165,
+          "between_target_energy": 6.24517112934312
+        },
+        "constant25": {
+          "average_response_energy": 6.7569920732991235,
+          "between_target_energy": 6.244268043776935
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 6.660276885538984,
+          "between_target_energy": 6.148423469811805
+        }
+      },
+      "ratio_to_V66": {
+        "conditional25": {
+          "average_response_energy": 0.9432120949829345,
+          "between_target_energy": 0.9369757816842865
+        },
+        "constant25": {
+          "average_response_energy": 0.9435260220809715,
+          "between_target_energy": 0.9368402899120389
+        },
+        "conditional25_shuffled": {
+          "average_response_energy": 0.9300210045536113,
+          "between_target_energy": 0.9224605326962233
+        }
+      }
+    }
+  ],
+  "scope": "Descriptive finite-dimensional predicted response variation on measured nonpanel genes. Lower variation is not inherently wrong; this is not a biological heterogeneity or single-cell variance measurement.",
+  "script_sha256": "ed73969fe7cdb0e1f90e17b398a6677153a16a91bcbf940dfbd80bba6e627416"
+}

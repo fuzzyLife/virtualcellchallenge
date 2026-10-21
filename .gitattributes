@@ -383,3 +383,9 @@
 /V86*.md -text whitespace=cr-at-eol
 /experiments/v86*/analysis/** -text whitespace=cr-at-eol
 /experiments/v86*/analysis/engineering_history/** -text -whitespace
+
+# V87 frozen conditional-adapter provenance
+/*v87*.py -text whitespace=cr-at-eol
+/V87*.md -text whitespace=cr-at-eol
+/BOLERO_REVIEW_V87.md -text whitespace=cr-at-eol
+/experiments/v87*/analysis/** -text whitespace=cr-at-eol

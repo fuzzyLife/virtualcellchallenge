@@ -1,0 +1,78 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\animeshs\\AppData\\Local\\Temp\\vcc_v20_stack\\env\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.22635-SP0",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "torch": "2.10.0+cu126",
+    "scikit-learn": "1.9.1",
+    "threadpoolctl": "3.7.0"
+  },
+  "models": {
+    "CD4": {
+      "output_genes": 6507,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 15,
+        "constant": 100
+      },
+      "base_validation_start": 0.2934752106666565,
+      "base_validation_final": 0.22000649571418762,
+      "base_stopped_at_budget": true
+    },
+    "CD4_shuffled": {
+      "output_genes": 6507,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 72
+      },
+      "base_validation_start": 0.2859523892402649,
+      "base_validation_final": 0.18789346516132355,
+      "base_stopped_at_budget": true
+    },
+    "H1": {
+      "output_genes": 5928,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 54,
+        "constant": 100
+      },
+      "base_validation_start": 0.4966086745262146,
+      "base_validation_final": 0.3147813677787781,
+      "base_stopped_at_budget": true
+    },
+    "H1_shuffled": {
+      "output_genes": 5928,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 95
+      },
+      "base_validation_start": 0.41600632667541504,
+      "base_validation_final": 0.24838657677173615,
+      "base_stopped_at_budget": true
+    },
+    "Orion": {
+      "output_genes": 5922,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 17,
+        "constant": 42
+      },
+      "base_validation_start": 0.42553484439849854,
+      "base_validation_final": 0.3281172811985016,
+      "base_stopped_at_budget": true
+    },
+    "Orion_shuffled": {
+      "output_genes": 5922,
+      "base_selected_epoch": 100,
+      "adapter_selected_epochs": {
+        "conditional": 25
+      },
+      "base_validation_start": 0.2822886109352112,
+      "base_validation_final": 0.1929185539484024,
+      "base_stopped_at_budget": true
+    }
+  },
+  "scope": "All six source backbones choose the epoch-100 budget boundary. This is a fixed-budget pilot, not a demonstrated converged optimization or definitive test of conditional neural models."
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "context": "H1",
+      "pairs": 25,
+      "profile_errors_replayed": true,
+      "pds_replayed": true
+    },
+    {
+      "context": "HCT116",
+      "pairs": 282,
+      "profile_errors_replayed": true,
+      "pds_replayed": true
+    },
+    {
+      "context": "HEK293T",
+      "pairs": 291,
+      "profile_errors_replayed": true,
+      "pds_replayed": true
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "pairs": 23,
+      "profile_errors_replayed": true,
+      "pds_replayed": true
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "pairs": 34,
+      "profile_errors_replayed": true,
+      "pds_replayed": true
+    }
+  ],
+  "equal_study_aggregation_replayed": true,
+  "qualification_replayed": true,
+  "scope": "Profile errors independently recomputed; PDS independently replayed with explicit tied-distance ranks. No anchored-score equivalence claim.",
+  "script_sha256": "a7323bdcf33834f85ac968a640dcfa64c96d37717805abda2d3b06def386344f"
+}
