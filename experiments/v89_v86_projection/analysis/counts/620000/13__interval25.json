@@ -1,0 +1,32 @@
+{
+  "target": "ZNF514",
+  "case_index": 13,
+  "arm": "interval25",
+  "seed_offset": 620000,
+  "seed": 716083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "38a78bb5f1e8f233d8257d6c9d43f868c0077b6955e04881ed07a02220ce534a",
+  "profile_MSE": 0.00426958401613001,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.5084905660377359,
+  "reach": 0.0,
+  "jaccard": 0.108,
+  "nmae": 0.9936665473848348,
+  "predicted_calls": 1060,
+  "reference_calls": 325,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011682119202955112,
+    "bulk_probability_L1": 0.0009314005992236531,
+    "changed_transcript_fraction": 0.3732657258162492,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "995d6dbd9b15125b75c6a6ef5be5b9c87554382e9b69da36e4d5ae2517fd88bc",
+  "seconds": 15.788879871368408
+}

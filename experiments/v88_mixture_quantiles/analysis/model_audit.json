@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "outer": "H1",
+      "shuffled": false,
+      "KKT_relative_residuals": [
+        1.1359182267081488e-09,
+        2.764518328598627e-14
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    },
+    {
+      "outer": "H1",
+      "shuffled": true,
+      "KKT_relative_residuals": [
+        8.122761926303152e-11,
+        1.0641576803046426e-11
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    },
+    {
+      "outer": "Orion",
+      "shuffled": false,
+      "KKT_relative_residuals": [
+        5.556504532519075e-09,
+        1.7227714343762162e-10
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    },
+    {
+      "outer": "Orion",
+      "shuffled": true,
+      "KKT_relative_residuals": [
+        1.1453620091790706e-14,
+        4.938295465616894e-10
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    },
+    {
+      "outer": "CD4",
+      "shuffled": false,
+      "KKT_relative_residuals": [
+        3.5862557131851342e-12,
+        6.292690285802197e-09
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    },
+    {
+      "outer": "CD4",
+      "shuffled": true,
+      "KKT_relative_residuals": [
+        1.0035552842330905e-13,
+        3.0274804032721633e-10
+      ],
+      "likelihood_coordinates": 24,
+      "actual_Brent_quantiles": 48,
+      "source_objective_noninferior_to_V86": true
+    }
+  ],
+  "all_weights_converged": true,
+  "actual_mixture_quantiles_checked": true,
+  "whole_recipient_study_poison_has_no_effect": true,
+  "script_sha256": "33108a32c311722035d50f83e59379047f9a82b46f8f9072dac2a230a5126a40"
+}

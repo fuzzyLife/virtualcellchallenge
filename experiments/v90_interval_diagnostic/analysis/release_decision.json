@@ -1,0 +1,30 @@
+{
+  "candidate": "interval25",
+  "strong_support": false,
+  "experimental_release_allowed": true,
+  "diagnostic_only": true,
+  "post_hoc_selection": true,
+  "prior_V88_V89_gates_failed": true,
+  "all_known_tradeoffs": {
+    "0": {
+      "profile_ratio": 0.9970930187524467,
+      "PDS_change": 0.0,
+      "FID_change": 0.0025047369880754067,
+      "JAC_change": 0.0008922282362183453,
+      "reach_change": 0.0019325135700582708,
+      "NMAE_change": -0.0018440800508614519
+    },
+    "620000": {
+      "profile_ratio": 0.9969779476116394,
+      "PDS_change": 0.0,
+      "FID_change": 0.0003252477605273363,
+      "JAC_change": -0.0016265257453106918,
+      "reach_change": 0.0,
+      "NMAE_change": -0.0007824210430557033
+    }
+  },
+  "known_best_V66_overall": 0.15088218754984492,
+  "predicted_leaderboard_score": null,
+  "reason": "Stable gains in three donor metrics and unchanged PDS warrant a user-requested leaderboard diagnostic; JAC and weak shuffled controls prevent a validated-superiority claim.",
+  "automatic_upload": false
+}

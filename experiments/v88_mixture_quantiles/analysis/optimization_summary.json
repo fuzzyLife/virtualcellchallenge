@@ -1,0 +1,47 @@
+{
+  "records": [
+    {
+      "fit": "CD4",
+      "steps": 22,
+      "KKT": 3.5857103027045727e-12,
+      "objective_gain": 25.76086613798725,
+      "max_weight_change": 0.3932888614174877
+    },
+    {
+      "fit": "CD4_shuffled",
+      "steps": 18,
+      "KKT": 9.890110047514514e-14,
+      "objective_gain": 28.65743235730315,
+      "max_weight_change": 0.42669874863456436
+    },
+    {
+      "fit": "H1",
+      "steps": 21,
+      "KKT": 1.1359204083500711e-09,
+      "objective_gain": 82.1178538544118,
+      "max_weight_change": 0.2937882133668748
+    },
+    {
+      "fit": "H1_shuffled",
+      "steps": 23,
+      "KKT": 8.122761926303152e-11,
+      "objective_gain": 83.06179110304038,
+      "max_weight_change": 0.3083327685690995
+    },
+    {
+      "fit": "Orion",
+      "steps": 23,
+      "KKT": 5.556507986785452e-09,
+      "objective_gain": 59.81032466468287,
+      "max_weight_change": 0.11985515872352914
+    },
+    {
+      "fit": "Orion_shuffled",
+      "steps": 23,
+      "KKT": 1.3089851533475092e-14,
+      "objective_gain": 61.73534994732836,
+      "max_weight_change": 0.11979193995013138
+    }
+  ],
+  "scope": "Source-only numerical optimization diagnostics, not recipient or competition accuracy."
+}

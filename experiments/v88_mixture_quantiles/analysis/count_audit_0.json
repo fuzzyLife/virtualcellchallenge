@@ -1,0 +1,314 @@
+{
+  "passed": true,
+  "comparison_records": 56,
+  "manual_tied_rank_coordinates": 448,
+  "independent_DE_BH_profile_and_PDS_replay": true,
+  "records": [
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/0__exact125.json",
+      "sha256": "4db2844923f9df7038812d9868b37e43c52431bd6cb2ce1cf98a6044b3852773",
+      "arrays_sha256": "67cb4d5be843aad0c06150bea74db7dabcd28fa15a3d508cc57b300ef042818b"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/0__exact125_shuffled.json",
+      "sha256": "d4b57d07a5ff72034415df48e14c77c8a6f01e18734c84079b424d76fce00f0b",
+      "arrays_sha256": "4f00a0585a6d22a0d674b7ee6512296f742bbd7136b343ebca4dfdfdc8412931"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/0__shared125.json",
+      "sha256": "f43528d3ef3e3c0370e4237dda7491749863e85475d1559c0fbaaee57cc400ed",
+      "arrays_sha256": "4132dae2fb319ef5ef28ac3874c9dad96f7957a55662b2e88953d717277b8f36"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/0__v66.json",
+      "sha256": "371d292eb840f506a5f499406b8bf66d026ec2e84e8c580d7194a8797ff6b4f9",
+      "arrays_sha256": "78548c407274cb2e5190f8f3e90c0351889fee724a03558a450197421ac2e072"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/10__exact125.json",
+      "sha256": "bad772001fc90e92150383fa594f44d0c582d4e56f98df0a150c6ab491d0f9f1",
+      "arrays_sha256": "91a669691c7197ac78f9d50c8475dcdb195a8389839546f904625125f7ddc9b6"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/10__exact125_shuffled.json",
+      "sha256": "6bed5211b8c979e06746080ff7121299bb9cb827843ecd01679f066a13b8ac90",
+      "arrays_sha256": "d8118d7517b2c077008ef0a774cadd05f43507a091ade3f846ec6fa3035bd7cd"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/10__shared125.json",
+      "sha256": "84854898977a3652675ca03689e4092ad22544b29db6501a81d33fa1be455195",
+      "arrays_sha256": "1bdf4bc36a0387a106207e1a1f233b42830cb39e824581cef7eb3af8c7e5a422"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/10__v66.json",
+      "sha256": "af48c01024d638e0cddec5c4a1808078e8740c344bd9e911f98bc626737e7eeb",
+      "arrays_sha256": "8a9bf192eb5b62d88254ad9d7eafd46e34af38012e16f0b5040d5c7de384e9fb"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/11__exact125.json",
+      "sha256": "5cbb87261a9813d722823230613a17c5cf9c1580b56c018dddd5650e269974e6",
+      "arrays_sha256": "6bab846e830c5b1ae53a82c1c9aab154570030522c6835e572666364fe2a0be7"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/11__exact125_shuffled.json",
+      "sha256": "0ec343af20cec1e87b265918b999fae6e39ba93b0fc02d762af84ed91deccb14",
+      "arrays_sha256": "cdb64a20d2c3900a8e7a50b58325fd73ae2892a50a65fa73f62caeffae0628e3"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/11__shared125.json",
+      "sha256": "71b37d776ae5355dba323368232db29d09b0ebaf945571a26161dfe7f8c5276d",
+      "arrays_sha256": "f3b0e2bb2197443e919685b6aa4aa61ceddd89a90702172746fd1c4b09532705"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/11__v66.json",
+      "sha256": "8154adfd3d1dc4deff14a9a2cf477837e57fb282e0970f8ec6d22c0b9fd2e58d",
+      "arrays_sha256": "231fd79294a777d6368432ab746c8b473aaac68f7d8432c59158df193adc72e4"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/12__exact125.json",
+      "sha256": "c77e2e71b232a656541934652890715d5928e9c4e3a6e77720c5b6d376341c20",
+      "arrays_sha256": "0eec2692f2ffa37989596484e0e35ab7a1afe36021c983e9e630c9215c83b62b"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/12__exact125_shuffled.json",
+      "sha256": "167da5332823c6aa2e87c82ec5fc277e0f890252e1a29445d920e3ec28a99aa2",
+      "arrays_sha256": "5fc4134c6c98b9bd10d4235591819eef21c312f70bef2235c8611df3671e8008"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/12__shared125.json",
+      "sha256": "a42244e27db69a46f89ec128513be5a19a7782e001e81b5508a4db77def28181",
+      "arrays_sha256": "235644b5a5ed0b021d3397758bff05dc405639904c68013cb512f4c51863b3ad"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/12__v66.json",
+      "sha256": "36ac7047a11d30dc02b16b00ad700ce06e40a97821bd4cee096a9edcfdeb97ea",
+      "arrays_sha256": "919c14dd6dcfa78612622a6a9efc8e63a32462453134b170d509d61be10f8706"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/13__exact125.json",
+      "sha256": "d83ecbd9e24907fa757af8346050197ef6d6fd94a767538aa300f01a07e59115",
+      "arrays_sha256": "fc3184c5c75122a032cf0a238090b9e72791cff3fb6a2e2775a96a5be1f4cd0a"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/13__exact125_shuffled.json",
+      "sha256": "bb18818be4354cf3e0c9e8e3bd36c6f9292ef5d7ccc1708b1f777af37d9767e5",
+      "arrays_sha256": "03c8fc2fe8e56edfd058a7305c14ad41f40fe13f490256f05f9f1e54ef7bfd93"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/13__shared125.json",
+      "sha256": "d6c47d0fd0d5a26bdd8b175ee5663ad5cbf4075b61781154019634f2fc87fbc7",
+      "arrays_sha256": "b5a2de3a00c1a6178c87052c60abe16cdaee87c819140efc5544de9c9ad771a7"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/13__v66.json",
+      "sha256": "32cf7345e890bf1b8d8cfbd09bd5860c07cd19b181731b03b674b2a3a02c9dcd",
+      "arrays_sha256": "ea568e3df1de365bda088d0900b6ebcf43de8a62ec144187ef65deb8af7842ca"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/1__exact125.json",
+      "sha256": "b481f9db940505d8a6e38dc67738b9df10634e0bbb795ae154ab9d3d5f8c907b",
+      "arrays_sha256": "3e57eb5d7dab494316feb53df3049a392fa9bb46ab99ad8328bc5ca79e427230"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/1__exact125_shuffled.json",
+      "sha256": "77b758ea1dd7ea7ea1ab202ff8a33ba84b4c1d4bc718f8ceef3db35f50401ce3",
+      "arrays_sha256": "f47267c980e8224adb21667db9c1994d4aa26874e9a8f65cfbc198024462813c"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/1__shared125.json",
+      "sha256": "8d6f1c5da191dda741f68454ec020a1628f9ea756ac2641b173fd9258db3eea9",
+      "arrays_sha256": "dabba8757ae6873833419bfaf9369839ca72dbbceae67dfbe26285c42475cfe6"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/1__v66.json",
+      "sha256": "316a4383402f4e37453df1551e81973e4579cfd9877d7ff4d4188f8d3a22af96",
+      "arrays_sha256": "4d1f2ff8c3ba1de3b3b50d9d8a69f0c3bf954cf0d3804dd1866b7376a7c4a5ec"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/2__exact125.json",
+      "sha256": "4ffbc780dfe0bf06016d471a32ae41e2f408f3f30437ad176c50f1a8c0f6b5e9",
+      "arrays_sha256": "1972a241ae9ff1a5bd49db182b2e4ea50e019d32959ab621e973a96d41cd08d2"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/2__exact125_shuffled.json",
+      "sha256": "fda50ff2eb5168d4f20ad6915c038166a6746678365663b152eaa424bb2cd58e",
+      "arrays_sha256": "eeda1b40897af30196133a676cd19c161ef3938ff29ced702a5d95366e2a0016"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/2__shared125.json",
+      "sha256": "b0ee56a8783cf36ab33030efa439b90468ac5db28bce8517ff41aa86efa98f39",
+      "arrays_sha256": "9eabba76568ebd54b908bc9a57e9d13ec9c3f488bfa25570698f8de823c575e6"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/2__v66.json",
+      "sha256": "a68630a33824cfc3e01258c3c0dca6c36e25269dc0eb4546d09dd595e29afd72",
+      "arrays_sha256": "54a65e628d7eff883203cefdd6fdff4fc31b71edd26c1fe50386a33f195800cf"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/3__exact125.json",
+      "sha256": "1fd9921b9aad18608ceff70239cf163381a9e55ac931934c1aab158a2bc3d2d1",
+      "arrays_sha256": "44493b0a8c3d524602ff6a327adaf0c16e60a9dcbd89c9bf6f94589302c84f83"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/3__exact125_shuffled.json",
+      "sha256": "e69fc06f0dfae96d2d51aafa9c9ad647d434807e386300a345308c706ea0811f",
+      "arrays_sha256": "df8ff763846334039836fddeaf8a8baf0f019d2d6fc4e381a5a7e9daf51b1375"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/3__shared125.json",
+      "sha256": "ce07ce5ecae389aa197c93295ca310af5a52350ba761916f4b898ac53c66a8a9",
+      "arrays_sha256": "7f0736e5d417c166069f3741f6bfaa006bc5cdf912893cbf4ae195812d0bf3e6"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/3__v66.json",
+      "sha256": "e96f1043a8e2182923f36087c7c77ff68e763859d432391346d7d2061082e0aa",
+      "arrays_sha256": "e50951f85accf383744b7c31b6aa9f7f981fb8f6bc36e072f1784de1349dd064"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/4__exact125.json",
+      "sha256": "7ec88e40fc0f9368feb004b0bea28ea12692a8afbd46fcb5327804a25a2f7421",
+      "arrays_sha256": "696727045ebb6acdd83790a813dd00fc7ce5123f45ba7ba30fb1dc9134e9b2f4"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/4__exact125_shuffled.json",
+      "sha256": "8e995d6b37feae73eb8dec6b5c2c2cb6b1b9f621484cacb86341f5de10ac4d09",
+      "arrays_sha256": "8db34b82b41f01cc9aaf56620dbe002a035900216fc88decddab55439e6705cd"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/4__shared125.json",
+      "sha256": "d655d44fe4184465bf331df42892d3db71a3a53ae09737bf350bd5ab06ca2d76",
+      "arrays_sha256": "de017ec568c4728e6fbb342276fd042c3ce252d9ead80cbd66ab0cf200a4cfe5"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/4__v66.json",
+      "sha256": "19bc260e863ac730f5687cda6d67432557a07188bf580e064176e4e9ff62383c",
+      "arrays_sha256": "1156fca4c327d9942c92434f88b16446f033e7156b6fe71f5c342d9dc1ba5c6f"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/5__exact125.json",
+      "sha256": "6792903c23ee449dc27f658753cae4ebe8f55eb0c7a40973113f3d092b0420de",
+      "arrays_sha256": "9f727ebe1e3be9183536b9ede7f2f34ef8e0a2af09113fe9686cec14ce0b5a03"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/5__exact125_shuffled.json",
+      "sha256": "29ca28dbb3ee43fd4c3ce31e72fb39bb5d77bc1a8927f817c96db97d99654893",
+      "arrays_sha256": "cf1ddd866c0b57d606482948af3852fccf8eab690e96601afafe23ff55754cf3"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/5__shared125.json",
+      "sha256": "2806ba3e7dcb012116de96828f0274e83be42da70c8ac35a11afc9f48b8f4584",
+      "arrays_sha256": "135767337a7666254f91a93091e07cbefd1c9e3bb30529f965e2c95d160db8eb"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/5__v66.json",
+      "sha256": "068ce3f638734546d12c5c606be101a8ed53ec2b8b3ccdcd2a2956dc05fc8240",
+      "arrays_sha256": "69dd4d2873e39def5afafb970ea4176fa4bde2667e72614180f430e83c0fb8c0"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/6__exact125.json",
+      "sha256": "70a2e2daa0db64884c0dcb53cd58ad7f15aa677fa7be34ebdcdd5ff27feb09e0",
+      "arrays_sha256": "7b4ee82f1f76edba810b70c82d82147df420e6c4de240d5f70506aba9a9ef96e"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/6__exact125_shuffled.json",
+      "sha256": "31438df4529f6d72de5c868c5aae1f33c6064778a7517088d345ba072dc88df0",
+      "arrays_sha256": "b68f804c7f1d6d190d86c79478c39ff840af90cef8a402855157edd8600b580a"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/6__shared125.json",
+      "sha256": "59294fef89f712e7c6b022c420251e261ac5a43071aa1a105188ce8b8283d959",
+      "arrays_sha256": "2147092481381c64e810dbc41ec018aae34eb9938068cef930a97706896f0694"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/6__v66.json",
+      "sha256": "2dc0fd64ac38aadb030784566a380db6d41ee47e6cf1306b44455348152613a5",
+      "arrays_sha256": "9b248e9846abb980b9c1f99aea773aa79875f3c651ceb2aec1330f1e0aa2722c"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/7__exact125.json",
+      "sha256": "b2bb24fc1290ac2bb5e737c63cc6f560cf8b495f3e3399304d9b004a3c7d3269",
+      "arrays_sha256": "232485bc39f4299dbe567bd026a6318f1afeb38592cd8ba4ef42b58d4f4a0ad9"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/7__exact125_shuffled.json",
+      "sha256": "6fc647a78305102a674c56d3cf04cc8f5b036fdc716db2dfe9768aa606041055",
+      "arrays_sha256": "6bcc3f71f81ced554df2b172aedf8a006f423d491582ba97dc57dc8519beb0bd"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/7__shared125.json",
+      "sha256": "88e1ca2e04b6a09edf07fb7f95c2a85f25e4da017b5b4132b93b9955d47ddb24",
+      "arrays_sha256": "d6f19be46b1c15fd29c8cd3add0eb1443a581638e6379c8e76afb33027921d14"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/7__v66.json",
+      "sha256": "5272ce6208cd92f7b87993ac3515fc357a00aeb912e25a1ee5a2cda67a2d6c05",
+      "arrays_sha256": "22aa7a81ee2c23dfa6423f4d34965a27599af03fca9c4eaee9c03776f0f95258"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/8__exact125.json",
+      "sha256": "59d53b763860a4d7d01facd0321aba3374714e4ea9120786d392fa80e7ec0ee3",
+      "arrays_sha256": "c59df28d18d81c344739835eda539e26f80f2c681940b721ba9fce94a665415c"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/8__exact125_shuffled.json",
+      "sha256": "adc47e657acf3fb4590904194e238a01e1e4558fde52054feb4369e8244c7634",
+      "arrays_sha256": "c85e5fc1f6c3c3bb534828b46c3741548a5283a30c66aeac0068a7bc53653b17"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/8__shared125.json",
+      "sha256": "30282756b34dc265378e1fd6ddf4427bee1b9ae17ed88bab028b738b631953a0",
+      "arrays_sha256": "b5b40a6ec48696c65496a2891db805c4ea0af33480d85257f6a4b25a8048c88a"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/8__v66.json",
+      "sha256": "fa61ed498d88acd2c7217bde76b37482ef7655a62136594c712926b0fcfc0bfc",
+      "arrays_sha256": "97a150a24d5f347d3e3a47bfae83d862bb72fe2cde6d2a0d7e892ae4cc74f8cd"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/9__exact125.json",
+      "sha256": "204434d89d8f0ced0f785c02e7e6b57afa97636e803224317d26d60b5edd0565",
+      "arrays_sha256": "9b4211321f51f3990930145da2431e4d771d5faded1bd9e6cc875490e73c0737"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/9__exact125_shuffled.json",
+      "sha256": "6bb488e61e5b1755cca0172df57c3d57bc36932674d1e21c5cf59fdfd49f0921",
+      "arrays_sha256": "40fb50e228381c6fa3811b04b3afc2f605c8d8f2e9d4169c7f65a06e8b17b102"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/9__shared125.json",
+      "sha256": "b392a0b3724ba2e6717f7d709b9e334a8cf064ac6ccdf7828074caef9f4f2320",
+      "arrays_sha256": "0ace695a7fb6474bb7ac7704ffcffc36670f943916e696e8e8b7cfeb4714b4b2"
+    },
+    {
+      "path": "experiments/v88_mixture_quantiles/analysis/counts/0/9__v66.json",
+      "sha256": "bfd3ed600d16a1710bc6076f426fbdedf06ee8817d5d1147f1e4281d7017fa74",
+      "arrays_sha256": "30380089c9704c3b901521a4fda44d49b59585fb710d399246347586004dc158"
+    }
+  ],
+  "panels": [
+    {
+      "arm": "v66",
+      "pds": 0.5659340659340658
+    },
+    {
+      "arm": "exact125",
+      "pds": 0.5604395604395603
+    },
+    {
+      "arm": "shared125",
+      "pds": 0.5659340659340658
+    },
+    {
+      "arm": "exact125_shuffled",
+      "pds": 0.5714285714285714
+    }
+  ],
+  "current_donor_outcomes_not_used_for_postfreeze_fitting_or_hyperparameter_selection": true,
+  "donor_previously_used_and_informed_followup": true,
+  "new_populations_emitted": 42,
+  "reused_baseline_populations": 14,
+  "new_tied_rank_coordinates": 336,
+  "reused_tied_rank_coordinates": 112,
+  "auditor_sha256": "30fbb282edd8988381d9520de38b695c5d6211975636d317dd16cfdd00b0536c",
+  "scope": "Numerical replay of42 new and14 verified reused baseline populations. D3 was used in V84; it is not independent or blind biology. The112 baseline raw-rank coordinates were previously checked;336 new coordinates were checked during V88 emission."
+}

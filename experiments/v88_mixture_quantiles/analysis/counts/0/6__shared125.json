@@ -1,0 +1,32 @@
+{
+  "target": "PRDX3",
+  "case_index": 6,
+  "arm": "shared125",
+  "seed_offset": 0,
+  "seed": 89083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "868b1214322e86d6224276ab329b91433132a12ef570832864f7c1e0c4c984e8",
+  "profile_MSE": 0.007935016267442634,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.319537658463833,
+  "reach": 0.0,
+  "jaccard": 0.21336020731356176,
+  "nmae": 0.9735059816174686,
+  "predicted_calls": 1532,
+  "reference_calls": 2682,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011994560789575465,
+    "bulk_probability_L1": 0.000966046902601542,
+    "changed_transcript_fraction": 0.36929436824153467,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "2147092481381c64e810dbc41ec018aae34eb9938068cef930a97706896f0694",
+  "seconds": 14.393952131271362
+}

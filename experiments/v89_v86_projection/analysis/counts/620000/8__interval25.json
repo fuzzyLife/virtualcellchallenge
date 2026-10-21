@@ -1,0 +1,32 @@
+{
+  "target": "SUPT7L",
+  "case_index": 8,
+  "arm": "interval25",
+  "seed_offset": 620000,
+  "seed": 711083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "bc996147407ce93b212c501bf6cba6e044464eef5650049ede27eaa15d13213f",
+  "profile_MSE": 0.007965144208525255,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.6223484848484848,
+  "reach": 0.0,
+  "jaccard": 0.22992900054614965,
+  "nmae": 0.9738124282258694,
+  "predicted_calls": 2640,
+  "reference_calls": 1864,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.01177790959204238,
+    "bulk_probability_L1": 0.0008801204737246104,
+    "changed_transcript_fraction": 0.35922586745560003,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "b22b2d050b2c57f8bdff070b71c4fdd718c5d1f6accf5d86012b26a345c01b30",
+  "seconds": 17.436006784439087
+}

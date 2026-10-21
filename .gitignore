@@ -894,3 +894,27 @@ experiments/v87_conditional_adapter/**/*.log
 experiments/v87_conditional_adapter/**/*.h5ad
 experiments/v87_conditional_adapter/**/*.vcc
 tmp/pdfs/v87/
+
+# V88 converged mixture response experiment
+experiments/v88_mixture_quantiles/**/*.npz
+experiments/v88_mixture_quantiles/**/*.npy
+experiments/v88_mixture_quantiles/**/*.log
+experiments/v88_mixture_quantiles/*.h5ad*
+experiments/v88_mixture_quantiles/*.vcc*
+experiments/v88_mixture_quantiles/analysis/prediction_control_rows.csv
+
+# V89 release test of the audited V86 projection
+experiments/v89_v86_projection/**/*.npz
+experiments/v89_v86_projection/**/*.npy
+experiments/v89_v86_projection/**/*.log
+experiments/v89_v86_projection/*.h5ad*
+experiments/v89_v86_projection/*.vcc*
+experiments/v89_v86_projection/analysis/prediction_control_rows.csv
+
+# V90 explicit diagnostic submission
+experiments/v90_interval_diagnostic/**/*.npz
+experiments/v90_interval_diagnostic/**/*.npy
+experiments/v90_interval_diagnostic/**/*.log
+experiments/v90_interval_diagnostic/*.h5ad*
+experiments/v90_interval_diagnostic/*.vcc*
+experiments/v90_interval_diagnostic/analysis/prediction_control_rows.csv

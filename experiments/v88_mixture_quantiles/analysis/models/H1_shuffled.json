@@ -1,0 +1,247 @@
+{
+  "sha256": "4af3993f167cc9cbc3d0df5c4d50ef83667a5ae2b4b0deb01e5b53463e741d84",
+  "outer": "H1",
+  "shuffled": true,
+  "source_names": [
+    "K562",
+    "CD4",
+    "HCT116",
+    "HEK293T"
+  ],
+  "weights": [
+    0.9396344657400784,
+    0.002008101651556541,
+    0.002189391900455309,
+    0.0023532233905233526,
+    0.002349256257718821,
+    0.002336488471443819,
+    0.0450828854910293,
+    0.002060807479091261,
+    0.00036149920476286307,
+    0.0002530988762875871,
+    0.00022282759177309546,
+    0.0004391776598963671,
+    0.00023742884109844605,
+    0.00010808006655733401,
+    8.144521702671239e-05,
+    7.11946363849986e-05,
+    4.218113946491413e-05,
+    4.182963276736824e-05,
+    4.1754401734123764e-05,
+    4.233800513482566e-05,
+    4.252434521433964e-05
+  ],
+  "shared_weights": [
+    0.9705477257109145,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.006194754639251535,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.01918134988978188,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.00388190942742525,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.00019426033262660367
+  ],
+  "optimization": [
+    {
+      "iteration": 0,
+      "objective_shifted": -19039.016420483396,
+      "kkt_relative_residual": 1.2938052480610518
+    },
+    {
+      "iteration": 1,
+      "objective_shifted": -14802.982465379906,
+      "kkt_relative_residual": 0.9651099692480204
+    },
+    {
+      "iteration": 2,
+      "objective_shifted": -12082.676901596593,
+      "kkt_relative_residual": 0.9491219099536334
+    },
+    {
+      "iteration": 3,
+      "objective_shifted": -10075.572170151961,
+      "kkt_relative_residual": 0.9413590867303934
+    },
+    {
+      "iteration": 4,
+      "objective_shifted": -8203.344590553768,
+      "kkt_relative_residual": 0.9093641012364342
+    },
+    {
+      "iteration": 5,
+      "objective_shifted": -7560.5569451490765,
+      "kkt_relative_residual": 0.8675655475952654
+    },
+    {
+      "iteration": 6,
+      "objective_shifted": -7233.908712881988,
+      "kkt_relative_residual": 0.8411345780239807
+    },
+    {
+      "iteration": 7,
+      "objective_shifted": -6590.087799270068,
+      "kkt_relative_residual": 0.74944660325124
+    },
+    {
+      "iteration": 8,
+      "objective_shifted": -6070.496253078896,
+      "kkt_relative_residual": 0.6739401819686189
+    },
+    {
+      "iteration": 9,
+      "objective_shifted": -5151.914909517815,
+      "kkt_relative_residual": 0.3113186205183724
+    },
+    {
+      "iteration": 10,
+      "objective_shifted": -4833.137760994766,
+      "kkt_relative_residual": 0.2115331093972549
+    },
+    {
+      "iteration": 11,
+      "objective_shifted": -4735.586536212609,
+      "kkt_relative_residual": 0.1653769022999169
+    },
+    {
+      "iteration": 12,
+      "objective_shifted": -4694.337576819933,
+      "kkt_relative_residual": 0.13033993072065694
+    },
+    {
+      "iteration": 13,
+      "objective_shifted": -4679.004164186055,
+      "kkt_relative_residual": 0.3074121397869194
+    },
+    {
+      "iteration": 14,
+      "objective_shifted": -4673.574641434136,
+      "kkt_relative_residual": 0.15050111574489433
+    },
+    {
+      "iteration": 15,
+      "objective_shifted": -4673.137640444175,
+      "kkt_relative_residual": 0.07251244215421086
+    },
+    {
+      "iteration": 16,
+      "objective_shifted": -4672.882627475336,
+      "kkt_relative_residual": 0.03360690505699099
+    },
+    {
+      "iteration": 17,
+      "objective_shifted": -4672.698194080137,
+      "kkt_relative_residual": 0.014359916284423414
+    },
+    {
+      "iteration": 18,
+      "objective_shifted": -4672.599952310961,
+      "kkt_relative_residual": 0.005134219710211582
+    },
+    {
+      "iteration": 19,
+      "objective_shifted": -4672.571785119936,
+      "kkt_relative_residual": 0.0012136996294926496
+    },
+    {
+      "iteration": 20,
+      "objective_shifted": -4672.56933349401,
+      "kkt_relative_residual": 0.00010610645984620432
+    },
+    {
+      "iteration": 21,
+      "objective_shifted": -4672.569312122758,
+      "kkt_relative_residual": 9.647854028993443e-07
+    },
+    {
+      "iteration": 22,
+      "objective_shifted": -4672.569312120968,
+      "kkt_relative_residual": 8.122761926303152e-11
+    }
+  ],
+  "shared_optimization": [
+    {
+      "iteration": 0,
+      "objective_shifted": -13934.376623608956,
+      "kkt_relative_residual": 0.954083440828256
+    },
+    {
+      "iteration": 1,
+      "objective_shifted": -10438.388023136222,
+      "kkt_relative_residual": 0.8985366477544576
+    },
+    {
+      "iteration": 2,
+      "objective_shifted": -5885.040299605438,
+      "kkt_relative_residual": 0.6931021263425199
+    },
+    {
+      "iteration": 3,
+      "objective_shifted": -3987.473801982102,
+      "kkt_relative_residual": 8.069028544411987
+    },
+    {
+      "iteration": 4,
+      "objective_shifted": -3741.50719094344,
+      "kkt_relative_residual": 5.681177326303642
+    },
+    {
+      "iteration": 5,
+      "objective_shifted": -3600.995998054813,
+      "kkt_relative_residual": 2.9389270608652245
+    },
+    {
+      "iteration": 6,
+      "objective_shifted": -3587.2482829543537,
+      "kkt_relative_residual": 1.3233675662578996
+    },
+    {
+      "iteration": 7,
+      "objective_shifted": -3574.500966354389,
+      "kkt_relative_residual": 0.5514608059129131
+    },
+    {
+      "iteration": 8,
+      "objective_shifted": -3571.5733516781183,
+      "kkt_relative_residual": 0.17561656766375994
+    },
+    {
+      "iteration": 9,
+      "objective_shifted": -3571.4292239505558,
+      "kkt_relative_residual": 0.030803345257105527
+    },
+    {
+      "iteration": 10,
+      "objective_shifted": -3571.4264741986162,
+      "kkt_relative_residual": 0.0013213034774519111
+    },
+    {
+      "iteration": 11,
+      "objective_shifted": -3571.4264689626066,
+      "kkt_relative_residual": 2.645151718312318e-06
+    },
+    {
+      "iteration": 12,
+      "objective_shifted": -3571.4264689625907,
+      "kkt_relative_residual": 1.0641576803046426e-11
+    }
+  ],
+  "comparison_to_V86": {
+    "V86_shifted_objective": -4755.631103224008,
+    "converged_shifted_objective": -4672.569312120968,
+    "maximum_weight_difference": 0.3083327685690995
+  },
+  "plan_sha256": "8557d183e7d958fb4569867688968eca934716d27cfa5b7977dfc78767daa28d"
+}

@@ -1,0 +1,27 @@
+{
+  "version": 89,
+  "candidate": "interval25",
+  "hypothesis": "Release-test the previously unsubmitted V86 projection after V88 converged mixture quantiles failed donor PDS and JAC. No new response method is claimed. Original V86 seed0 improved5of6 metrics with unchanged PDS; V89 explicitly reuses that known result and prospectively tests candidate seed620000.",
+  "method": "Exact V86 component kernels,100fixed EM updates and normal-moment interval25 projection,original quarter-strength bounded correction and80%V66 guard. The finite-iteration fit and normal interval are retained as an empirically conservative regularizer, not claimed converged or calibrated. V88 numerical optimization improved likelihood, not guaranteed transfer accuracy. Fast Cholesky is used solely for source likelihood arithmetic after parity checks.",
+  "public": "Reuse all655 V86 public predictions and recompute the3arm summary. Whole study exclusions inherited and verified. Broad bound profile<=1.01,worststudy<=1.03,PDSloss<=.01. Strong support still requires original .5%profile gain and superiority to both controls; known V86 fails those. Nothing is called independently validated.",
+  "donor": "Reuse all56 audited V86 seed0 records without new cells. Generate42 new primary/shared/shuffled populations for original14targets at offset620000; reuse14 identical V84 baseline populations. Same old donor/cohort/controls/libraries. Two seeds share biology; previous donor results motivated selection.",
+  "experimental_release": "Sole candidate interval25, never promote controls. Both seeds must have profile<=1.005baseline,PDSloss<=.005,FIDloss<=.002,JAC loss<=.0005,NMAE<=1.01baseline and at least2of6 endpoints improve. Broad bounds also required. No threshold changed after second-seed result. Other failures and weak shuffled controls disclosed. No private gain forecast.",
+  "production": "Only after release decision permits: fit same finite-iteration prior on all source families in a separate module namespace/output folder; retain original V66 A/B/C baseline effects,control templates,libraries andseeds; unchanged residual10countgenerator. Generate360000cells,18533genes,official prep and independent full payload/source/library checks and12fullgroup replays. No automatic upload or push.",
+  "code_sha256": {
+    "v89_projection_release.py": "08de3782cea5ce8f7cd99849f8fd497a60602be77a1b4c6fecc35ac4060eb5da",
+    "run_v89_counts.py": "e1cc51d97c11b91a2c2257614c678a369469f46a237cd4e19748938e363fbcca",
+    "audit_v89_counts.py": "8a0b514dda6cd82dc3effb78cb222e17b0b7670386a7f96875046d38e5eba1fe",
+    "v86_joint_posterior.py": "f10e67affdf69930a7a72f04a24b93ee57466013e249ddda4d2effef68a966f9",
+    "v88_mixture_quantiles.py": "cc638a114d1c9a153453ffe8226c57bcb0d1d0caac345501f390e39a59add335",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "V86_records_sha256": {
+    "experiments/v86_joint_posterior/analysis/plan.json": "aaeda0d1c8aef367ca4bc3673f1413948c163246b4398ce768736f17f5daa0f5",
+    "experiments/v86_joint_posterior/analysis/model_audit.json": "03240cd0aa777daf62c63d215333d2e86d94b160e997840f7e2817164f47808b",
+    "experiments/v86_joint_posterior/analysis/mean_results.json": "f034b25628f7fb935568294627fd07bbc1dfc12166d0e7821b1e2eac5c062b82",
+    "experiments/v86_joint_posterior/analysis/count_assessment_0.json": "4b99b03799d923f36d9943ffaa712df0ccd3b4c7a76fa5e91a42aea06137740e"
+  },
+  "known_V88_seed0": "PDS.56043956 versusV66.56593407;JAC.15151987 versus.15241833;release bounds fail. This motivated choosing the already known V86 candidate, not claiming fresh discovery."
+}

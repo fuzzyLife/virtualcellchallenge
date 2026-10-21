@@ -389,3 +389,18 @@
 /V87*.md -text whitespace=cr-at-eol
 /BOLERO_REVIEW_V87.md -text whitespace=cr-at-eol
 /experiments/v87*/analysis/** -text whitespace=cr-at-eol
+
+# V88 scientific protocol bytes
+/*v88*.py -text whitespace=cr-at-eol
+/V88*.md -text whitespace=cr-at-eol
+/experiments/v88*/analysis/** -text whitespace=cr-at-eol
+
+# V89 scientific release bytes
+/*v89*.py -text whitespace=cr-at-eol
+/V89*.md -text whitespace=cr-at-eol
+/experiments/v89*/analysis/** -text whitespace=cr-at-eol
+
+# V90 diagnostic provenance bytes
+/*v90*.py -text whitespace=cr-at-eol
+/V90*.md -text whitespace=cr-at-eol
+/experiments/v90*/analysis/** -text whitespace=cr-at-eol

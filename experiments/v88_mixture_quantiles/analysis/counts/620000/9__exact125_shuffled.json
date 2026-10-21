@@ -1,0 +1,32 @@
+{
+  "target": "USP28",
+  "case_index": 9,
+  "arm": "exact125_shuffled",
+  "seed_offset": 620000,
+  "seed": 712083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "7d16452aa94c5a68f9b3c6af4f1a7d1fe5b44c6efd9181eec63b42fe564e09bf",
+  "profile_MSE": 0.014643372382428495,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.5157593123209169,
+  "reach": 0.0005099439061703213,
+  "jaccard": 0.2465326917633739,
+  "nmae": 0.9839277965236389,
+  "predicted_calls": 2443,
+  "reference_calls": 1961,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011643412985368907,
+    "bulk_probability_L1": 0.0008567090745264674,
+    "changed_transcript_fraction": 0.36180190558475533,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "66416525b09484951d128647e7b6f1692dc769105b3e6a4834e59041d1e63ef8",
+  "seconds": 14.689498901367188
+}

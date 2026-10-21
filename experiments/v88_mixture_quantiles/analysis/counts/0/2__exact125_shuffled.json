@@ -1,0 +1,32 @@
+{
+  "target": "MAP2K2",
+  "case_index": 2,
+  "arm": "exact125_shuffled",
+  "seed_offset": 0,
+  "seed": 85083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "64babca34a018fdd15f782b72264cfae4416b58d8503c5de7f38a7810e1eeac1",
+  "profile_MSE": 0.004401547722316313,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.547731700528806,
+  "reach": 0.02680965147453083,
+  "jaccard": 0.06785137318255251,
+  "nmae": 0.9850329890558914,
+  "predicted_calls": 3593,
+  "reference_calls": 373,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011286074867941101,
+    "bulk_probability_L1": 0.000816382426074358,
+    "changed_transcript_fraction": 0.35434269674737523,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "eeda1b40897af30196133a676cd19c161ef3938ff29ced702a5d95366e2a0016",
+  "seconds": 15.087665319442749
+}

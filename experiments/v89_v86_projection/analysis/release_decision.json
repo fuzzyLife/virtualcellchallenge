@@ -1,0 +1,187 @@
+{
+  "candidate": "interval25",
+  "strong_support": false,
+  "experimental_release_allowed": false,
+  "experimental": true,
+  "broad_strong_checks": {
+    "profile": false,
+    "worst_study": true,
+    "pds": true,
+    "beats_shared": false,
+    "beats_shuffle": false
+  },
+  "broad_safety_checks": {
+    "profile": true,
+    "worst_study": true,
+    "pds": true
+  },
+  "seeds": {
+    "0": {
+      "summary": {
+        "v66": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.06378897711718182,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031855602973047,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24509245508807967,
+          "fidelity": 0.5188649749158789,
+          "reach": 0.006449254641267387,
+          "jaccard": 0.15241832798764388,
+          "nmae": 0.9837223361450409,
+          "profile_MSE": 0.006497001828636831
+        },
+        "interval25": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.0637622649805335,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.0314235053111371,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22919813826873275,
+          "fidelity": 0.5213697119039543,
+          "reach": 0.008381768211325658,
+          "jaccard": 0.15331055622386222,
+          "nmae": 0.9818782560941794,
+          "profile_MSE": 0.006478115166155664
+        },
+        "shared25": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.06375240514181091,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031264011770245,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.23069748446170318,
+          "fidelity": 0.5165494487468815,
+          "reach": 0.006998597650876278,
+          "jaccard": 0.15231760520630422,
+          "nmae": 0.983218425516479,
+          "profile_MSE": 0.006478977602428493
+        },
+        "interval25_shuffled": {
+          "pds": 0.5604395604395603,
+          "common_expression_numerator": 0.06378210473829912,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031744434821803,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.2175473660901355,
+          "fidelity": 0.5188891083642558,
+          "reach": 0.007353236051046439,
+          "jaccard": 0.15247053074451386,
+          "nmae": 0.9839202717607265,
+          "profile_MSE": 0.006467136401744998
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "jaccard": true,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity",
+        "reach",
+        "jaccard",
+        "nmae"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "three_gains": true,
+        "beats_shared25": true,
+        "beats_interval25_shuffled": false
+      }
+    },
+    "620000": {
+      "summary": {
+        "v66": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.0630218598794856,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0338837472917763,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24471949995365014,
+          "fidelity": 0.5358808571748919,
+          "reach": 0.0072164574512809335,
+          "jaccard": 0.1463249035145322,
+          "nmae": 0.983286875755663,
+          "profile_MSE": 0.0064442557419016906
+        },
+        "interval25": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.062992055306957,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0333947984858984,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22849983906795854,
+          "fidelity": 0.5362061049354192,
+          "reach": 0.0072164574512809335,
+          "jaccard": 0.1446983777692215,
+          "nmae": 0.9825044547126073,
+          "profile_MSE": 0.00642478086344567
+        },
+        "shared25": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.06298723372239537,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.033315699615697,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22982686124065935,
+          "fidelity": 0.5390989237255748,
+          "reach": 0.006839837043105089,
+          "jaccard": 0.1453628708155315,
+          "nmae": 0.9826981209074032,
+          "profile_MSE": 0.0064258269486738686
+        },
+        "interval25_shuffled": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.06301848465268016,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0338283761531868,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.21692372270513408,
+          "fidelity": 0.5348460778513597,
+          "reach": 0.007535618308743505,
+          "jaccard": 0.14526780783495655,
+          "nmae": 0.9830862837700552,
+          "profile_MSE": 0.00641428099821114
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "jaccard": false,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity",
+        "nmae"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "three_gains": true,
+        "beats_shared25": true,
+        "beats_interval25_shuffled": false
+      }
+    }
+  },
+  "known_best_V66_overall": 0.15088218754984492,
+  "predicted_leaderboard_score": null,
+  "automatic_upload": false,
+  "decision": "Candidate fails prospective experimental safety checks; do not package this candidate.",
+  "script_sha256": "986c349bd4198e04695553a3d53845c9601b8458b3705dd2dfe9d2dd47e9af86"
+}

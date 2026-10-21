@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "context": "H1",
+      "arm": "exact125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "H1",
+      "arm": "shared125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "H1",
+      "arm": "exact125_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 300
+    },
+    {
+      "context": "HCT116",
+      "arm": "exact125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HCT116",
+      "arm": "shared125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HCT116",
+      "arm": "exact125_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 289
+    },
+    {
+      "context": "HEK293T",
+      "arm": "exact125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HEK293T",
+      "arm": "shared125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 284
+    },
+    {
+      "context": "HEK293T",
+      "arm": "exact125_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 289
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "exact125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 297
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "shared125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 297
+    },
+    {
+      "context": "CD4_Rest_D1",
+      "arm": "exact125_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "exact125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "shared125",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 298
+    },
+    {
+      "context": "CD4_Stim48_D2",
+      "arm": "exact125_shuffled",
+      "all_90000_margin_constraints_passed": true,
+      "changed_targets": 299
+    }
+  ],
+  "own_knockdown_applied_once_in_profile_replay": true,
+  "V66_inputs_exact": true,
+  "script_sha256": "682898936767a1b7d82699a8a60a7cc905c039044119ddac16f9d05543ebc7ed"
+}

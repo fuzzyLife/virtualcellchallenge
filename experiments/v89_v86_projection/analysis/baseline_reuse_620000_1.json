@@ -1,0 +1,33 @@
+{
+  "reused": [
+    {
+      "case_index": 1,
+      "source": "experiments/v84_intervention_operator/analysis/donor_counts/620000/1__v66.json",
+      "source_sha256": "ac6bc9c359881a2b53e8bc6362ed9c5e0da6ed85f29a077194407cbb27261970",
+      "arrays_sha256": "1f23a01198dcd4fc0cc140aa2ca18a986921b69a9b1c3e723d0d39e0dd0c813f"
+    },
+    {
+      "case_index": 5,
+      "source": "experiments/v84_intervention_operator/analysis/donor_counts/620000/5__v66.json",
+      "source_sha256": "de6ec6fbee5cea46166a1f33b825b71ad67fee63d630837759008454ecc92fbb",
+      "arrays_sha256": "ac5f8de9c027608e96fa109de4cd88e9d96200fd2050d4defa8c69f214bcf9c2"
+    },
+    {
+      "case_index": 9,
+      "source": "experiments/v84_intervention_operator/analysis/donor_counts/620000/9__v66.json",
+      "source_sha256": "584c91a4060c4cf5a872856908505569678ab2bb0b77ce5a88380282a8c4b33f",
+      "arrays_sha256": "23f41c39bd0c61fdbe6ad5c3a00976e4e27edf7fc01bdf6144431ee5d5323869"
+    },
+    {
+      "case_index": 13,
+      "source": "experiments/v84_intervention_operator/analysis/donor_counts/620000/13__v66.json",
+      "source_sha256": "59edfc3ec693682ab260a239bb041d76bde3e5940f61672a7e6cebc1d231452b",
+      "arrays_sha256": "0211879da5c50a6d5c582539fd6ad2e04095488e17634a940862ddaf4b05db3b"
+    }
+  ],
+  "exact_V66_effect_CP_bulk_axis_and_cohort_match": true,
+  "original_emitter_and_metrics_code_match": true,
+  "truth_and_reference_profiles_exactly_replayed": true,
+  "new_baseline_cells_emitted": false,
+  "scope": "Previously audited baseline counts reused; these are not new independent comparisons."
+}

@@ -1,0 +1,32 @@
+{
+  "target": "MYRF",
+  "case_index": 4,
+  "arm": "v66",
+  "seed_offset": 0,
+  "seed": 87083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "ba031d9e8179c5a238bc28a2ef0f9df49f889b47cbaa2c78842bc30f511a6042",
+  "profile_MSE": 0.005721320928761283,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.5479666319082378,
+  "reach": 0.016863406408094434,
+  "jaccard": 0.23028141101862862,
+  "nmae": 0.9706064428097573,
+  "predicted_calls": 1918,
+  "reference_calls": 1186,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011944657361113584,
+    "bulk_probability_L1": 0.0008989004074859057,
+    "changed_transcript_fraction": 0.35946667207841626,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "1156fca4c327d9942c92434f88b16446f033e7156b6fe71f5c342d9dc1ba5c6f",
+  "seconds": 15.180392980575562
+}

@@ -1,0 +1,33 @@
+{
+  "targets": 14,
+  "summary": {
+    "profile_ratio": {
+      "both_seed_improvements": 13,
+      "both_seed_regressions": 0
+    },
+    "fidelity_change": {
+      "both_seed_improvements": 5,
+      "both_seed_regressions": 3
+    },
+    "jaccard_change": {
+      "both_seed_improvements": 4,
+      "both_seed_regressions": 2
+    },
+    "nmae_change": {
+      "both_seed_improvements": 6,
+      "both_seed_regressions": 3
+    }
+  },
+  "worst_second_seed_JAC_case": {
+    "seed": 620000,
+    "target": "PRDX3",
+    "profile_ratio": 0.998304349173409,
+    "profile_MSE_change": -1.2567293816501297e-05,
+    "fidelity_change": -0.01263973114315775,
+    "reach_change": 0.0,
+    "jaccard_change": -0.011594464282007111,
+    "nmae_change": 0.000540066623161306
+  },
+  "scope": "Descriptive analysis after candidate selection. Same reused donor; no effect on production method, target routing, thresholds or claimed accuracy.",
+  "script_sha256": "edf5a88a44d8a95134f74c46ea16c1c08747de611e690cbad9df6425e81cbbf8"
+}

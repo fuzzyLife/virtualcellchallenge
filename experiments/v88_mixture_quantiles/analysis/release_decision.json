@@ -1,0 +1,185 @@
+{
+  "candidate": "exact125",
+  "strong_support": false,
+  "experimental_release_allowed": false,
+  "experimental": true,
+  "broad_strong_checks": {
+    "profile": false,
+    "worst_study": true,
+    "pds": true,
+    "beats_shared": true,
+    "beats_shuffle": false
+  },
+  "broad_safety_checks": {
+    "profile": true,
+    "worst_study": true,
+    "pds": true
+  },
+  "seeds": {
+    "0": {
+      "summary": {
+        "v66": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.06378897711718182,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031855602973047,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24509245508807967,
+          "fidelity": 0.5188649749158789,
+          "reach": 0.006449254641267387,
+          "jaccard": 0.15241832798764388,
+          "nmae": 0.9837223361450409,
+          "profile_MSE": 0.006497001828636831
+        },
+        "exact125": {
+          "pds": 0.5604395604395603,
+          "common_expression_numerator": 0.06377937935530621,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.0317003488082224,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.23359935896962397,
+          "fidelity": 0.5203166031247272,
+          "reach": 0.006732848433820146,
+          "jaccard": 0.15151987188656313,
+          "nmae": 0.9804171419423432,
+          "profile_MSE": 0.006484046896153484
+        },
+        "shared125": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.0637723688572753,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.0315869464305742,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.23691077002930291,
+          "fidelity": 0.5194415768735776,
+          "reach": 0.004008354336012389,
+          "jaccard": 0.15101104579071165,
+          "nmae": 0.9845965530674988,
+          "profile_MSE": 0.006487074408717096
+        },
+        "exact125_shuffled": {
+          "pds": 0.5714285714285714,
+          "common_expression_numerator": 0.063792862050893,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.0319184459719197,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.21942629863900348,
+          "fidelity": 0.5199791293390152,
+          "reach": 0.007176654544259205,
+          "jaccard": 0.15290749854534516,
+          "nmae": 0.9817634859618999,
+          "profile_MSE": 0.006469920773570727
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": false,
+        "fidelity": true,
+        "jaccard": false,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity",
+        "reach",
+        "nmae"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": false,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "three_gains": true,
+        "beats_shared125": true,
+        "beats_exact125_shuffled": false
+      }
+    },
+    "620000": {
+      "summary": {
+        "v66": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.0630218598794856,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0338837472917763,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24471949995365014,
+          "fidelity": 0.5358808571748919,
+          "reach": 0.0072164574512809335,
+          "jaccard": 0.1463249035145322,
+          "nmae": 0.983286875755663,
+          "profile_MSE": 0.0064442557419016906
+        },
+        "exact125": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.0629914280851356,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0333845088110405,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.2331534551246569,
+          "fidelity": 0.5380728788870516,
+          "reach": 0.0057915834507860624,
+          "jaccard": 0.14543839263046326,
+          "nmae": 0.9841325993342196,
+          "profile_MSE": 0.006429654783833771
+        },
+        "shared125": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.06300752425190884,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0336485690157435,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.23625288498954272,
+          "fidelity": 0.5371182231604185,
+          "reach": 0.007135886753140843,
+          "jaccard": 0.14619795335577068,
+          "nmae": 0.9816081657175878,
+          "profile_MSE": 0.006434266812870846
+        },
+        "exact125_shuffled": {
+          "pds": 0.554945054945055,
+          "common_expression_numerator": 0.06299801190715083,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0334925174700935,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.2190841277298527,
+          "fidelity": 0.5371756701652773,
+          "reach": 0.006313292840335798,
+          "jaccard": 0.14662579044797744,
+          "nmae": 0.9837572263923986,
+          "profile_MSE": 0.0064150938670734185
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "jaccard": false,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "three_gains": false,
+        "beats_shared125": true,
+        "beats_exact125_shuffled": false
+      }
+    }
+  },
+  "known_best_V66_overall": 0.15088218754984492,
+  "predicted_leaderboard_score": null,
+  "automatic_upload": false,
+  "decision": "Candidate fails prospective experimental safety checks; do not package this candidate.",
+  "script_sha256": "9e9946314b50c36e121130c96057ba9227b5d8aa6a4756f705e001ca2b274a48"
+}

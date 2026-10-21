@@ -1,0 +1,32 @@
+{
+  "target": "SLC39A1",
+  "case_index": 7,
+  "arm": "shared125",
+  "seed_offset": 0,
+  "seed": 90083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "db917c3a20bc1e3a62c869dce75f5e5855df3c23200d0ba5c3d658024b2cb5bc",
+  "profile_MSE": 0.005445155656625838,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.5264021887824898,
+  "reach": 0.0,
+  "jaccard": 0.14253619570644033,
+  "nmae": 0.9840482234083402,
+  "predicted_calls": 3655,
+  "reference_calls": 922,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011909633132323374,
+    "bulk_probability_L1": 0.0008186678609663574,
+    "changed_transcript_fraction": 0.3526457352974047,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "d6f19be46b1c15fd29c8cd3add0eb1443a581638e6379c8e76afb33027921d14",
+  "seconds": 13.70282793045044
+}

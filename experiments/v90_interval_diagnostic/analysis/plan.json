@@ -1,0 +1,216 @@
+{
+  "version": 90,
+  "candidate": "interval25",
+  "status": "POST_HOC_DIAGNOSTIC_NOT_VALIDATED_IMPROVEMENT",
+  "purpose": "The user explicitly requests another leaderboard test. Release the unchanged V86 interval25 method on its stable profile/FID/NMAE improvements and unchanged donor PDS, despite known overlap tradeoffs. This is not a new model, prospective validation, passed V88/V89 research gate or a forecast of hidden-score improvement. Original failed protocols remain intact.",
+  "selection": "Post hoc choice using both known donor seeds and broad public means; no independent accuracy claim. No new candidate/strength or count decoder is selected. Public evidence does not reliably rank hidden-context predictions.",
+  "method": "Original V86 finite100-update covariance-mixture source prior and normal-moment interval25 projection with boundedquarter correction and80%V66 identity guard. Fit all five measured source families for production in an isolated module namespace. Fast float64 Cholesky only, after actual-source parity checks. Normal-moment intervals and finite optimization remain approximations.",
+  "known_tradeoffs": {
+    "0": {
+      "profile_ratio": 0.9970930187524467,
+      "PDS_change": 0.0,
+      "FID_change": 0.0025047369880754067,
+      "JAC_change": 0.0008922282362183453,
+      "reach_change": 0.0019325135700582708,
+      "NMAE_change": -0.0018440800508614519
+    },
+    "620000": {
+      "profile_ratio": 0.9969779476116394,
+      "PDS_change": 0.0,
+      "FID_change": 0.0003252477605273363,
+      "JAC_change": -0.0016265257453106918,
+      "reach_change": 0.0,
+      "NMAE_change": -0.0007824210430557033
+    }
+  },
+  "strong_support": false,
+  "known_V89_failed_checks": {
+    "0": {
+      "summary": {
+        "v66": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.06378897711718182,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031855602973047,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24509245508807967,
+          "fidelity": 0.5188649749158789,
+          "reach": 0.006449254641267387,
+          "jaccard": 0.15241832798764388,
+          "nmae": 0.9837223361450409,
+          "profile_MSE": 0.006497001828636831
+        },
+        "interval25": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.0637622649805335,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.0314235053111371,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22919813826873275,
+          "fidelity": 0.5213697119039543,
+          "reach": 0.008381768211325658,
+          "jaccard": 0.15331055622386222,
+          "nmae": 0.9818782560941794,
+          "profile_MSE": 0.006478115166155664
+        },
+        "shared25": {
+          "pds": 0.5659340659340658,
+          "common_expression_numerator": 0.06375240514181091,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031264011770245,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.23069748446170318,
+          "fidelity": 0.5165494487468815,
+          "reach": 0.006998597650876278,
+          "jaccard": 0.15231760520630422,
+          "nmae": 0.983218425516479,
+          "profile_MSE": 0.006478977602428493
+        },
+        "interval25_shuffled": {
+          "pds": 0.5604395604395603,
+          "common_expression_numerator": 0.06378210473829912,
+          "common_expression_denominator": 0.06181967412241502,
+          "common_expression_ratio": 1.031744434821803,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.2175473660901355,
+          "fidelity": 0.5188891083642558,
+          "reach": 0.007353236051046439,
+          "jaccard": 0.15247053074451386,
+          "nmae": 0.9839202717607265,
+          "profile_MSE": 0.006467136401744998
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "jaccard": true,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity",
+        "reach",
+        "jaccard",
+        "nmae"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": true,
+        "nmae": true,
+        "three_gains": true,
+        "beats_shared25": true,
+        "beats_interval25_shuffled": false
+      }
+    },
+    "620000": {
+      "summary": {
+        "v66": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.0630218598794856,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0338837472917763,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.24471949995365014,
+          "fidelity": 0.5358808571748919,
+          "reach": 0.0072164574512809335,
+          "jaccard": 0.1463249035145322,
+          "nmae": 0.983286875755663,
+          "profile_MSE": 0.0064442557419016906
+        },
+        "interval25": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.062992055306957,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0333947984858984,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22849983906795854,
+          "fidelity": 0.5362061049354192,
+          "reach": 0.0072164574512809335,
+          "jaccard": 0.1446983777692215,
+          "nmae": 0.9825044547126073,
+          "profile_MSE": 0.00642478086344567
+        },
+        "shared25": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.06298723372239537,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.033315699615697,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.22982686124065935,
+          "fidelity": 0.5390989237255748,
+          "reach": 0.006839837043105089,
+          "jaccard": 0.1453628708155315,
+          "nmae": 0.9826981209074032,
+          "profile_MSE": 0.0064258269486738686
+        },
+        "interval25_shuffled": {
+          "pds": 0.5494505494505495,
+          "common_expression_numerator": 0.06301848465268016,
+          "common_expression_denominator": 0.06095642768789937,
+          "common_expression_ratio": 1.0338283761531868,
+          "common_expression_denominator_resolved": true,
+          "common_expression_rho": 0.21692372270513408,
+          "fidelity": 0.5348460778513597,
+          "reach": 0.007535618308743505,
+          "jaccard": 0.14526780783495655,
+          "nmae": 0.9830862837700552,
+          "profile_MSE": 0.00641428099821114
+        }
+      },
+      "experimental_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "jaccard": false,
+        "nmae": true,
+        "two_gains": true
+      },
+      "improved_endpoints": [
+        "profile_MSE",
+        "fidelity",
+        "nmae"
+      ],
+      "strong_checks": {
+        "profile_MSE": true,
+        "pds": true,
+        "fidelity": true,
+        "reach": true,
+        "jaccard": false,
+        "nmae": true,
+        "three_gains": true,
+        "beats_shared25": true,
+        "beats_interval25_shuffled": false
+      }
+    }
+  },
+  "integrity": "Keep V66 A/B/C baseline,originalcontroltemplates/libraries/seeds,unchangedresidual10generator. Only complete official prep plus independent full payload/source/library and12group regeneration checks establish file readiness. These do not establish biological accuracy.",
+  "automatic_upload": false,
+  "code_sha256": {
+    "v90_diagnostic_release.py": "a7387f9fece1af15ec2a7dad0b1640e6b6f91d60e9eb3dbc969f14e5ea728017",
+    "fit_v90_submission.py": "bf12f305513acf8f22e355a737d22e48e712a7815a26a758b8a18b9b96bb8e97",
+    "build_v90_submission.py": "06067d6ec86b17f32f236d50da2e9a2315b6dbe17804ea6f05a26e7029129dc4",
+    "package_v90_submission.py": "40ded96a14c4550c282afb02d3927662b5604c3c2e4f81122f82df67b14b5c2c",
+    "validate_v90_submission.py": "6171ace492ce75726884642e3266f5718f7f217a08b079b482cef8d2e7c6742f",
+    "audit_v90_production.py": "7ecb8273fec07d77b12f2e9d1391be9b044b30bb6f4da9f6fd7bddc81ac08aae",
+    "v86_joint_posterior.py": "f10e67affdf69930a7a72f04a24b93ee57466013e249ddda4d2effef68a966f9",
+    "v88_mixture_quantiles.py": "cc638a114d1c9a153453ffe8226c57bcb0d1d0caac345501f390e39a59add335",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93"
+  },
+  "known_evidence_sha256": {
+    "experiments/v86_joint_posterior/analysis/plan.json": "aaeda0d1c8aef367ca4bc3673f1413948c163246b4398ce768736f17f5daa0f5",
+    "experiments/v86_joint_posterior/analysis/model_audit.json": "03240cd0aa777daf62c63d215333d2e86d94b160e997840f7e2817164f47808b",
+    "experiments/v89_v86_projection/analysis/mean_results.json": "6e88e54cf3590064d449e853401328cd6fc13c253aa96baa97121fa494a42415",
+    "experiments/v89_v86_projection/analysis/count_assessment_0.json": "4b99b03799d923f36d9943ffaa712df0ccd3b4c7a76fa5e91a42aea06137740e",
+    "experiments/v89_v86_projection/analysis/count_assessment_620000.json": "8bad85a5a2895dbcbfac69942d541b4567606d73a374d27944e2107a40989d1e",
+    "experiments/v89_v86_projection/analysis/count_audit_0.json": "99c4d4512c69aeb28c7265bfbb78a330634bbe06d11f41a99facfd5360f2c4ff",
+    "experiments/v89_v86_projection/analysis/count_audit_620000.json": "127437da1ce668b51b22109c5fa367b1a29055aa74b72e881b382bb002aeaa21",
+    "experiments/v89_v86_projection/analysis/release_decision.json": "15c6fef86aee7252ee4b94e1fb3b8c3a19c5bfed5335f99707e8557f411383de",
+    "experiments/v88_mixture_quantiles/analysis/release_decision.json": "2e4dc1dddffa98542c3c3fe92487e4018a53063a63126a3987a2ddf0843c0bfe"
+  }
+}

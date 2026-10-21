@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "shuffled": false,
+      "iterations": 100,
+      "final_weight_change": 0.003585835910149493,
+      "generic_likelihood_parity": true,
+      "convergence_claim": false
+    },
+    {
+      "shuffled": true,
+      "iterations": 100,
+      "final_weight_change": 0.0035334282570617104,
+      "generic_likelihood_parity": true,
+      "convergence_claim": false
+    }
+  ],
+  "source_families": [
+    "K562",
+    "CD4",
+    "H1",
+    "HCT116",
+    "HEK293T"
+  ],
+  "all_five_measured_source_families_used": true,
+  "script_sha256": "7ecb8273fec07d77b12f2e9d1391be9b044b30bb6f4da9f6fd7bddc81ac08aae"
+}

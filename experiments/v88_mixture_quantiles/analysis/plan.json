@@ -1,0 +1,30 @@
+{
+  "version": 88,
+  "primary": "exact125",
+  "hypothesis": "Repair V86 source-prior underoptimization and normal-moment posterior interval approximation, then test a conservative one-eighth correction to V66. The old V86 interval25 donor result improved5of6 metrics but failed broad/shuffled criteria; its scientific records remain unchanged.",
+  "prior": "Same21 covariance components, source bank, masks, variance floor, rank kernel and20000deterministic fitting coordinates as V86. Strictly concave mixture MAP sum log(Lw)+0.5sum logw, solved with positive-simplex damped Newton to relative KKT<1e-8. Shared-only control independently solved. Old training samples exactly matched; source objective compared against old100iteration EM. Production fit uses all allowed sources.",
+  "interval": "Use numerical generalized-inverse mixture CDF at0.1/0.9, retaining the null point mass,32bisections with12SD finite bounds. Project V66 response onto the resulting mixture interval. This is a plug-in posterior-model interval, not demonstrated biological coverage. V86 normal moments are no longer used for bounds.",
+  "arms": "Sole release candidate exact125: one-eighth of LFC difference capped+/-0.5, then unchanged80%V66 identity-margin guard. Shared125 uses independently converged shared-only prior. Exact125_shuffled independently refits full prior after source-specific target shifts and uses shifted responses at inference. Controls are never promoted. No response-specific strength search.",
+  "boundaries": "Whole H1,Orion(both cell lines),or CD4(all donors/states) excluded before fitting and conditioning. Query NTCs only. No output panel genes proposed; guard closure can change non-own factors. Own effects remain0; legacy emitter applies knockdown once. Existing studies and D3 are reused, not blind.",
+  "broad_test": "All655 reused public pairs. Strong support requires equal-study profile ratio<=.995,worststudy<=1.03,PDSloss<=.005,and lower profile error than both controls. All fixed outputs retained. No candidate or strength selected from these outcomes.",
+  "counts": "Always evaluate sole primary and both controls on original14target400cellD3cohort and both offsets0/620000, unchanged V66 residual10. Reuse previously audited identical V84 V66 baselines only after effect/queryCP/bulk/axis/cohort/code equality.42new populations/seed;14reused baselines/seed. Full raw-p/BH/direction/profile/PDS replay.",
+  "strict_count": "Original V86 noninferiority limits and >=3 improved endpoints; candidate must beat both controls on profile error on both technical seeds. Both seeds share biology. Missing metrics never counted as gains.",
+  "experimental_release": "User explicitly requests another upload test. The sole candidate may be packaged as EXPERIMENTAL even if strong support fails, only if broad profile<=1.01,worststudy<=1.03,PDSloss<=.01 and BOTH donor seeds have profile<=1.005baseline,PDSloss<=.005,FIDloss<=.002,JAC loss<=.0005,NMAE<=1.01baseline and>=2of6 endpoints improve. All failures disclosed; no better-score claim. Severe regressions block this release. Selection is frozen before outcomes; no postfailure alternate control/strength promotion.",
+  "production": "Fit converged all-source prior, transform the immutable V66 A/B/C effects using only original controls, keep exact V66 template identities, libraries and seeds. Generate360000integer-countcells on18533orderedgenes; unchanged residual10, official prep and full payload/provenance/integer/library and repeated full-group regeneration checks. Nothing uploaded or pushed automatically.",
+  "code_sha256": {
+    "v88_mixture_quantiles.py": "cc638a114d1c9a153453ffe8226c57bcb0d1d0caac345501f390e39a59add335",
+    "run_v88_experiment.py": "4c0899bca70440858097480539141f6c1537ccec2a0a4900b819729a9efe7c46",
+    "run_v88_counts.py": "be907b77abc8a2af5a7025b8b356022d08b91f3015094ce43fa93f88528f9eed",
+    "test_v88_mixture.py": "e0030171e7ae278eaba0ab5406de4e664feb2c5bb854efb529ada4b79db180f5",
+    "audit_v88_models.py": "33108a32c311722035d50f83e59379047f9a82b46f8f9072dac2a230a5126a40",
+    "v86_joint_posterior.py": "f10e67affdf69930a7a72f04a24b93ee57466013e249ddda4d2effef68a966f9",
+    "v15_ensemble_methods.py": "9ca30c1c1a7ef60ae87601b5a1db9536ce953f9baef0440da10c252b27a8f9e5",
+    "v62_conserved_response.py": "6b46770d770761bea1cb767c73aad78ea8bf6db9db467aa34a30f476771f82f3",
+    "v63_identity_guard.py": "656e0b4d0745032a16fc480a612eacd5e482f87fec3457955054f287c9a23d93",
+    "v16_methods.py": "74e681df3ff2e42675f8794d34159b4c2eb649f7db982501e7c43a3c14473613",
+    "v12_cpu_metrics.py": "8496c1764b958362b1fc828527b8204df25a99c6555e2a4ca72c16951978a275",
+    "v8_methods.py": "831517bfa241fcde9ee45806f4825500090abdac41d61fed36475795c1eb9109"
+  },
+  "source_cache_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "known_results": "V66 overall.15088218755; V86 public ratio.99626584,PDSchange-.00053622; V86 D3seed0 profile-.2907%,5of6gains but shuffled better. V87 primary-.151%profile,PDS-.010996,failed. These outcomes motivated this prospectively frozen follow-up."
+}

@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "gaussian_dimensions_checked": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "independent_SLSQP_weight_check": true,
+  "weight_KKT_residual": 1.7823978370118277e-09,
+  "independent_Brent_quantile_checks": 80,
+  "null_atom_projection_exact": true,
+  "scope": "Numerical implementation tests, not biological or leaderboard validation."
+}

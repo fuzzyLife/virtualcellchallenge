@@ -1,0 +1,32 @@
+{
+  "target": "AKAP1",
+  "case_index": 1,
+  "arm": "shared125",
+  "seed_offset": 0,
+  "seed": 84083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "ae5352f363143310961c686c319dca10b7eba75d81875f69e7452a24b3151f53",
+  "profile_MSE": 0.004654160029666772,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.560077519379845,
+  "reach": 0.03759398496240601,
+  "jaccard": 0.06472128694350916,
+  "nmae": 1.0253386002198235,
+  "predicted_calls": 2580,
+  "reference_calls": 266,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.010733150826810894,
+    "bulk_probability_L1": 0.0008962067009693658,
+    "changed_transcript_fraction": 0.36478211152894396,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "dabba8757ae6873833419bfaf9369839ca72dbbceae67dfbe26285c42475cfe6",
+  "seconds": 15.073677062988281
+}

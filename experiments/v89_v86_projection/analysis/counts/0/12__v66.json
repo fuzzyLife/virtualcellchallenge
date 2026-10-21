@@ -1,0 +1,32 @@
+{
+  "target": "ZNF280C",
+  "case_index": 12,
+  "arm": "v66",
+  "seed_offset": 0,
+  "seed": 95083,
+  "prediction_cells": 400,
+  "actual_cells": 400,
+  "reference_cells": 4994,
+  "unique_prediction_control_cells": 400,
+  "original_control_library_totals_exact": true,
+  "whole_CD4_response_family_excluded": true,
+  "query_treated_cells_used_for_inference": false,
+  "count_sha256": "7d78aaeebb903327dc1122b11808757689d9cf932aa2a9e9fdea4c987be82b4f",
+  "profile_MSE": 0.004333961999031165,
+  "manual_rank_coordinates_checked": 8,
+  "fidelity": 0.4698855151816824,
+  "reach": 0.0,
+  "jaccard": 0.06971267074894018,
+  "nmae": 1.0007347392599033,
+  "predicted_calls": 2009,
+  "reference_calls": 262,
+  "nmae_eligible": true,
+  "emitter_diagnostics": {
+    "mean_probability_L1": 0.011644463187079492,
+    "bulk_probability_L1": 0.0009165440601019492,
+    "changed_transcript_fraction": 0.36625665359638104,
+    "global_moment_refit": true
+  },
+  "arrays_sha256": "919c14dd6dcfa78612622a6a9efc8e63a32462453134b170d509d61be10f8706",
+  "seconds": 13.161633729934692
+}
