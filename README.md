@@ -1,3 +1,11 @@
+<!-- v82-published:begin -->
+## V82 published: V66 score reproduced
+
+Recovery entry `sMObaQ7bhzac3RfNINSv` is **published**, overall **0.1508821875498449**, rank **550** at the user-supplied receipt. All six component scores match V66 within floating-point precision on the same panel and anchors. **These are the same V66 predictions, not a new model or an improvement beyond V66.** The old rank 518 and current 550 are different leaderboard snapshots; the score stayed the same.
+
+[Published receipt, exact score comparison and provenance](V82_LEADERBOARD_RESULTS.md). Older preparation blocks retain their historical status and are superseded by this publication record.
+<!-- v82-published:end -->
+
 <!-- post69-tests:begin -->
 ## V70-V81 tested; V82 is a transparent V66 recovery
 

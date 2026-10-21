@@ -81,5 +81,11 @@ Nothing was uploaded automatically. All original sealed artifacts were preserved
 
 The remaining gap is transferable intervention information and validation transfer, not finding another arbitrary temperature. A useful next test needs genuinely unused response data: for example a new CD4 donor with **all CD4 evidence excluded from fitting**, a fixed target/cohort selection, and a mean/decoder crossed comparison fixed before seeing its treatment values. That donor was not downloaded or tested during this run. Reusing the current cases for further tuning cannot establish that a tiny public improvement will transfer to the challenge. This is a recommendation for new evidence, not a claimed successful model or an implemented future experiment.
 '''
+ publication_path=ROOT/'analysis/v82_published/leaderboard_result.json'
+ if publication_path.exists():
+  published=read(publication_path);result['latest_recovery_publication']=published
+  (A/'comparison.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+  notice=f"**Publication update:** V82 entry `{published['entry_id']}` is published with overall **{published['exact_reported_values']['overall']}**, rank **{published['rank_at_user_report']}** at the supplied receipt. All scores reproduce V66 within floating-point precision. [Exact receipt and comparison](V82_LEADERBOARD_RESULTS.md). Preparation statuses below are historical.\n\n"
+  text=notice+text
  (ROOT/'POST_V69_RESULTS.md').write_text(text,encoding='utf-8');print('Report complete',len(rows),'families',count_records,'comparisons',rank_coordinates,'raw-rank coordinates')
 if __name__=='__main__':main()

@@ -1,3 +1,5 @@
+**Publication update:** V82 entry `sMObaQ7bhzac3RfNINSv` is published with overall **0.1508821875498449**, rank **550** at the supplied receipt. All scores reproduce V66 within floating-point precision. [Exact receipt and comparison](V82_LEADERBOARD_RESULTS.md). Preparation statuses below are historical.
+
 # After V69: tests, failures and a transparent recovery release
 
 V69 fell from V66's published 0.150882188 to 0.095262845. Its intended mean effects were frozen, but the emitted count profiles were not protected; discrimination and expression accuracy both regressed. This run tested twelve hypothesis families (V70-V81) rather than changing one mixture and uploading immediately. No new predictor met its frozen public requirements.

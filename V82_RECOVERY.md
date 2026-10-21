@@ -1,3 +1,11 @@
+<!-- v82-published:begin -->
+## V82 published: V66 score reproduced
+
+Recovery entry `sMObaQ7bhzac3RfNINSv` is **published**, overall **0.1508821875498449**, rank **550** at the user-supplied receipt. All six component scores match V66 within floating-point precision on the same panel and anchors. **These are the same V66 predictions, not a new model or an improvement beyond V66.** The old rank 518 and current 550 are different leaderboard snapshots; the score stayed the same.
+
+[Published receipt, exact score comparison and provenance](V82_LEADERBOARD_RESULTS.md). Older preparation blocks retain their historical status and are superseded by this publication record.
+<!-- v82-published:end -->
+
 # V82 recovery: exactly the V66 predictions
 
 This release restores the strongest published project model after V69's regression. **It contains no newly learned predictions.** V70-V81 all failed their original public requirements; their results and strict rejections are retained. See `POST_V69_RESULTS.md` for the evidence and `MARGIN_VARIANCE_STRATEGY.md` for reproducible protocols.

@@ -1103,5 +1103,46 @@
     "experiments\\v81_residual_temperature\\analysis\\development_0_assessment.json": "6d5ab57d086b182ec6929da3448596f902a2615f53d38f442f138bb0a8dc7618",
     "experiments\\v81_residual_temperature\\analysis\\development_0_independent_audit.json": "cb26dcd8826621cdbb345b0994a3c737e61ec55deaa2aa220d76e1889041357b"
   },
-  "scope": "Public raw statistics differ from hosted anchor-scaled metrics. Repeated populations/configurations are not independent biological samples. No new hosted score or final-test gain is predicted."
+  "scope": "Public raw statistics differ from hosted anchor-scaled metrics. Repeated populations/configurations are not independent biological samples. No new hosted score or final-test gain is predicted.",
+  "latest_recovery_publication": {
+    "source": "Exact published CLI receipt supplied by user; no API query.",
+    "entry_id": "sMObaQ7bhzac3RfNINSv",
+    "model_name": "V66 recovery after V69 - identical predictions",
+    "final_status": "published",
+    "rank_at_user_report": 550,
+    "overall": 0.1508821875498449,
+    "metrics": {
+      "pds": 0.6517009514165119,
+      "mse": 0.09657486167945828,
+      "nmae": 0.08527061361861947,
+      "fid": -0.02260859548432163,
+      "reach": 0.07962563498187135,
+      "jac": 0.014729659086930079
+    },
+    "exact_reported_values": {
+      "overall": "0.1508821875498449",
+      "pds": "0.6517009514165119",
+      "mse": "0.09657486167945828",
+      "nmae": "0.08527061361861947",
+      "fid": "-0.02260859548432163",
+      "reach": "0.07962563498187135",
+      "jac": "0.014729659086930079"
+    },
+    "partition": "val",
+    "panel": "vcc2026-val-1",
+    "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+    "scoring_job": "projects/vcc-prod/locations/us-west1/jobs/vcc-metrics-prod-smobaq7bhzac3rfninsv",
+    "upload_duration_seconds": 965,
+    "local_package_bytes": 4073666560,
+    "local_package_sha256": "be899434d81eac45bb8312077fe789088fe49b9b772971d589dcf5414e8f22f1",
+    "artifact_link_evidence": "User command identifies the audited local recovery file; server receipt provides no checksum.",
+    "same_predictions_as_v66": true,
+    "new_predictor": false,
+    "all_reported_scores_match_v66_within_1e_15": true,
+    "comparison_entry_id": "x8V3fUSgFIoAzHbNx4eX",
+    "previous_v66_rank_snapshot": 518,
+    "rank_change_is_not_a_score_change": true,
+    "submitted_utc": null,
+    "raw_metrics": null
+  }
 }
