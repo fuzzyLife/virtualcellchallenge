@@ -410,3 +410,6 @@
 /experiments/final_v91/analysis/** -text whitespace=cr-at-eol
 /final/*.csv -text whitespace=cr-at-eol
 /final/manifest.json -text whitespace=cr-at-eol
+# Persist the exact legacy helper bytes used in the frozen final-source protocol.
+/prepare_v7_sources.py -text whitespace=cr-at-eol
+/audit_v7_source_offsets.py -text whitespace=cr-at-eol

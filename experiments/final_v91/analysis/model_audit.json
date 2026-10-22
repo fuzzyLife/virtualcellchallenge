@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "gaussian_actual_source_parity_cases": 128,
+  "gaussian_absolute_tolerance": 1e-10,
+  "priors": [
+    {
+      "shuffled": false,
+      "iterations": 100,
+      "last_maximum_weight_change": 0.003548354466640591,
+      "weights_sum": 0.9999999999999987,
+      "finite_update_budget": 100,
+      "convergence_claim": false
+    },
+    {
+      "shuffled": true,
+      "iterations": 100,
+      "last_maximum_weight_change": 0.0036190857726653425,
+      "weights_sum": 0.9999999999999958,
+      "finite_update_budget": 100,
+      "convergence_claim": false
+    }
+  ],
+  "all_effects_finite": true,
+  "all_own_transfer_effects_zero": true,
+  "own_factor_applied_once_in_emitter": 0.1,
+  "maximum_interval_correction": 0.125,
+  "identity_margin_guards_passed": true,
+  "source_cache_sha256": "1cf421075d72252f244fbd063da7cc10841530d667925f3af1d56131de810ccc",
+  "model_sha256": "c1ad3d4f64ebe50266d5cb37b3e8b092c2bc5c8dc2de2c89b14a3716c833ae50",
+  "final_accuracy_claim": false,
+  "auditor_sha256": "a8673a9525b13c313b5c6fc1a50c6a0144d30aa9fbe07f79bea5e07ca78bca21"
+}

@@ -1,3 +1,9 @@
+<!-- final-v91-ready:begin -->
+## Final D/E/F submission ready
+
+The V90 method has been refit for all 300 final targets using genuine public responses and original D/E/F controls. The final file `experiments/final_v91/prediction.vcc` passed official CLI 0.3.0 prep and independent full-payload, cell-library and regeneration checks. **Final accuracy remains blind; no upload was performed.** [File, hash and CMD submission command](FINAL_V91_RESULTS.md).
+<!-- final-v91-ready:end -->
+
 <!-- final-phase:begin -->
 ## Final phase and V90 publication
 

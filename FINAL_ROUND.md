@@ -22,7 +22,7 @@ The new public response sources must be audited before model fitting. Unsupporte
 
 The old temporary Python3.12 scientific environment is currently incomplete. This preparation uses the working project-local Python3.14 runtime, with versions recorded in the input audit. Validation replay is required before releasing adapted response/count predictions; exact regeneration must not be assumed across runtimes.
 
-**No final submission has been uploaded. A final-ready prediction file is not yet declared.** Large controls, extracted sources and generated arrays remain local and ignored by Git. Root scripts and compact audit evidence are versioned.
+**The final upload file is ready at `experiments/final_v91/prediction.vcc`. Official prep and independent full-payload validation passed. No final submission has been uploaded.** See [FINAL_V91_RESULTS.md](FINAL_V91_RESULTS.md) for the checksum and CMD submission command. Large controls, extracted sources and generated arrays remain local and ignored by Git. Root scripts and compact audit evidence are versioned.
 
 ## Completed source work and basal diagnostics
 
@@ -41,3 +41,5 @@ Source-family row counts are K562 260, CD4 625 (three correlated conditions), H1
 The added H1 evidence comprises **8,463 treated cells** for 12 newly required targets across the public 2025 train/validation/test splits. Byte-range identities and checksum checks were retained. Parallel verified-page loading accelerated shared-drive reads without changing sample selection or counts.
 
 The scientific method was frozen before final response inference in `experiments/final_v91/analysis/plan.json`. Both original finite-update source priors were fitted and saved, including the shuffled diagnostic. Full diagnostic response outputs are retained for inspection; only the preselected V90 interval25 output is used for cells.
+
+Completed: `summarize_final_generation.py` reproduces both preflight and all-900-group moment diagnostics. `report_final_results.py` writes the readiness report only after both official and independent receipts pass. `audit_final_repository.py` checks frozen code/index hashes, final input integrity and preservation of earlier protocols.

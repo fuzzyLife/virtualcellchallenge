@@ -1,0 +1,57 @@
+{
+  "groups": 900,
+  "contexts": {
+    "D": {
+      "mean_probability_L1": {
+        "mean": 0.009303975720377647,
+        "max": 0.0125812160122826
+      },
+      "bulk_probability_L1": {
+        "mean": 0.0004183464749993547,
+        "max": 0.0004274738575923
+      },
+      "changed_transcript_fraction": {
+        "mean": 0.2840426169293937,
+        "max": 0.3102097994020035
+      },
+      "groups": 300,
+      "stored_nonzeros": 782330828
+    },
+    "E": {
+      "mean_probability_L1": {
+        "mean": 0.006240542699210278,
+        "max": 0.0072892057098279
+      },
+      "bulk_probability_L1": {
+        "mean": 0.0004350704310668783,
+        "max": 0.0004427126650299
+      },
+      "changed_transcript_fraction": {
+        "mean": 0.2771323985423533,
+        "max": 0.2914279212924706
+      },
+      "groups": 300,
+      "stored_nonzeros": 753446394
+    },
+    "F": {
+      "mean_probability_L1": {
+        "mean": 0.006312419885954862,
+        "max": 0.0071857939267392
+      },
+      "bulk_probability_L1": {
+        "mean": 0.0004486215715313743,
+        "max": 0.0004561424701914
+      },
+      "changed_transcript_fraction": {
+        "mean": 0.27618796287152253,
+        "max": 0.2867728115708711
+      },
+      "groups": 300,
+      "stored_nonzeros": 747786422
+    }
+  },
+  "stored_nonzeros": 2283563644,
+  "source_statistics_sha256": "6431b50a928965fa30ecd87e7800dec412a794022f055ec2961f4f5cbf192d00",
+  "summarizer_sha256": "be919071464bbb2b88e4faa0aa50092809a13663f5942a2700dbc3359bb5fd60",
+  "scope": "Requested versus realized count-construction moments only; no held-out final biological accuracy is available."
+}

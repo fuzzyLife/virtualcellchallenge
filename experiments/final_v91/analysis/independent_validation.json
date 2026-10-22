@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "submission_sha256": "7595e024a9a4ceac08937e0b673dd056be58bb005afc8fbfe2b7f35f7565bb88",
+  "prediction_sha256": "aed6330b7716c08bc92f24b1ff667b470847bdce9584a37b0ad70a8faf0ab662",
+  "all_packaged_counts_and_indices_compared": 2283563644,
+  "cells_with_original_libraries_verified": 360000,
+  "exact_original_template_identities": true,
+  "full_groups_regenerated": [
+    {
+      "context": "D",
+      "target": "ABCC1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "D",
+      "target": "CWC27",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "D",
+      "target": "PAN2",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "D",
+      "target": "ZNF805",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "E",
+      "target": "ABCC1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "E",
+      "target": "CWC27",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "E",
+      "target": "PAN2",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "E",
+      "target": "ZNF805",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "F",
+      "target": "ABCC1",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "F",
+      "target": "CWC27",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "F",
+      "target": "PAN2",
+      "full_cells": 400,
+      "exact_count_replay": true
+    },
+    {
+      "context": "F",
+      "target": "ZNF805",
+      "full_cells": 400,
+      "exact_count_replay": true
+    }
+  ],
+  "official_package_metadata": {
+    "cli_version": "0.3.0",
+    "contexts": [
+      "D",
+      "E",
+      "F"
+    ],
+    "n_obs": 360000,
+    "n_vars": 18533,
+    "nnz": 2283563644,
+    "panel_id": "vcc2026-test-1",
+    "perts_fingerprint": "sha256:36d399522bd0878f8039784bf6569e08ff06f341a94758b352cd8869b224e537",
+    "schema": 1
+  },
+  "accuracy_claim": "Final biological accuracy is blind and is not established by file validation; see the frozen final plan.",
+  "auditor_sha256": "9610ce76b6b700846e910a72cb67836d6f92f4a1c362a92172739cc819d5c417"
+}
