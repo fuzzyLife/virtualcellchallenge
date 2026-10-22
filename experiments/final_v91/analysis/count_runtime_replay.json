@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "context": "A",
+      "target": "ABCD1",
+      "cells": 400,
+      "bitwise_count_values_equal": true,
+      "runtime_changed_transcript_fraction": 0.0,
+      "maximum_absolute_count_change": 0,
+      "mean_probability_L1": 0.006430621006646844,
+      "bulk_probability_L1": 0.0004330365672904895,
+      "changed_transcript_fraction": 0.2854684411579873,
+      "global_moment_refit": true
+    },
+    {
+      "context": "B",
+      "target": "ABCD1",
+      "cells": 400,
+      "bitwise_count_values_equal": true,
+      "runtime_changed_transcript_fraction": 0.0,
+      "maximum_absolute_count_change": 0,
+      "mean_probability_L1": 0.011865121400805295,
+      "bulk_probability_L1": 0.0005034738497828795,
+      "changed_transcript_fraction": 0.27924434029220774,
+      "global_moment_refit": true
+    },
+    {
+      "context": "C",
+      "target": "ABCD1",
+      "cells": 400,
+      "bitwise_count_values_equal": true,
+      "runtime_changed_transcript_fraction": 0.0,
+      "maximum_absolute_count_change": 0,
+      "mean_probability_L1": 0.006008292661283203,
+      "bulk_probability_L1": 0.00045414479937139814,
+      "changed_transcript_fraction": 0.2854163558815847,
+      "global_moment_refit": true
+    }
+  ],
+  "tolerance_changed_transcript_fraction": 1e-05,
+  "scope": "Three full archived populations verify numerical/count compatibility; technical replay is not biological accuracy validation.",
+  "script_sha256": "2aa8f1ab3e81afd2ac8dc1f393b5195e285eaccc3b1e12bd6ab9d9f8ab5f55ea"
+}

@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "cli_version": "0.3.0",
+  "automatic_manifest_context_inference": true,
+  "metadata": {
+    "cli_version": "0.3.0",
+    "contexts": [
+      "D",
+      "E",
+      "F"
+    ],
+    "n_obs": 3,
+    "n_vars": 3,
+    "nnz": 9,
+    "panel_id": "local-final-smoke",
+    "perts_fingerprint": "sha256:e32e3d7c28140da923de75ee772ef56ee22f8d44148c5dcff41890059e2ce076",
+    "schema": 1
+  },
+  "uploaded": false,
+  "production_prediction": false,
+  "scope": "Offline metadata round-trip only; toy file is deleted and must never be submitted.",
+  "script_sha256": "4abfdf66223116c7d619ef3d0a0f7984494b9b6b244042ddd7492eec47219ba3"
+}

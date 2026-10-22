@@ -1,0 +1,31 @@
+{
+  "entry": "Fholtkq6MAMAifZSXZlR",
+  "model": "Conservative interval projection v90 diagnostic",
+  "status": "published",
+  "source": "User-pasted CLI receipt; resumed after FileNotFoundError",
+  "rank_snapshot": 551,
+  "overall": 0.15214377976638518,
+  "scaled_metrics": {
+    "pds": 0.6542179228155035,
+    "mse": 0.09572270480857992,
+    "nmae": 0.08600057484213723,
+    "fid": -0.02200589821017791,
+    "reach": 0.08399308779101305,
+    "jac": 0.014934286551255357
+  },
+  "partition": "val",
+  "panel": "vcc2026-val-1",
+  "anchor_set": "vcc2026-valA-r4+vcc2026-valB-r4+vcc2026-valC-r4",
+  "baseline_overall": 0.15088218754984492,
+  "overall_change": 0.0012615922165402638,
+  "metric_changes": {
+    "pds": 0.002516971398991652,
+    "mse": -0.0008521568708783622,
+    "nmae": 0.0007299612235176223,
+    "fid": 0.0006026972741437209,
+    "reach": 0.004367452809141706,
+    "jac": 0.0002046274643252785
+  },
+  "local_file_sha256": "e042294a250ba151d533edb360c036d36522568240b4986438860ec000f78f81",
+  "server_checksum_verified": false
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "context": "B",
+  "comparisons": [
+    {
+      "version": 24,
+      "maximum_absolute_LFC_error": 0.0,
+      "bitwise_equal": true,
+      "tolerance": 1e-05
+    },
+    {
+      "version": 66,
+      "maximum_absolute_LFC_error": 0.0,
+      "bitwise_equal": true,
+      "tolerance": 1e-05
+    },
+    {
+      "version": 90,
+      "maximum_absolute_LFC_error": 0.0,
+      "bitwise_equal": true,
+      "tolerance": 1e-05
+    }
+  ],
+  "script_sha256": "a2272718fc680c7356f7a45f9ea2b26e4d7033ec6f3c3806d8c75460508863ae",
+  "scope": "Numerical response replay under the working final runtime; no new biological accuracy evidence."
+}

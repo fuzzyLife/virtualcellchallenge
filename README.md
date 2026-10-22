@@ -1,3 +1,11 @@
+<!-- final-phase:begin -->
+## Final phase and V90 publication
+
+V90 is published at **0.15214377976638518**, up **0.00126159221654026** versus V66/V82 on the same validation panel and anchors. Five scaled metrics improved; expression accuracy slipped slightly. [Receipt and comparison](V90_LEADERBOARD_RESULTS.md). Older preparation blocks below retain their historical status.
+
+Final data are under `final/`: new contexts D/E/F, 300 targets (129 overlap the validation panel), and the unchanged 18,533-gene axis. The project-local CLI was upgraded to 0.3.0. Final preparation must rebuild responses and use the final manifest and perturbation list. Final scores remain hidden; the latest final entry counts. See [final preparation notes](FINAL_ROUND.md).
+<!-- final-phase:end -->
+
 <!-- v90-diagnostic:begin -->
 ## V90 diagnostic submission
 

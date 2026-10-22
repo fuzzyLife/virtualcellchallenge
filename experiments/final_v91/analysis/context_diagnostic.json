@@ -1,0 +1,26 @@
+{
+  "pairwise_finite_values_only": true,
+  "pseudocount_added": false,
+  "cell_identity_claim": false,
+  "scope": "Basal compatibility is descriptive and does not validate perturbation transfer or identify an anonymous cell line.",
+  "nearest_external": {
+    "D": {
+      "final_context": "D",
+      "reference": "CD4_Stim48hr",
+      "finite_gene_pairs": 17771,
+      "spearman": 0.8505879570316722
+    },
+    "E": {
+      "final_context": "E",
+      "reference": "H1",
+      "finite_gene_pairs": 18077,
+      "spearman": 0.7767444453240796
+    },
+    "F": {
+      "final_context": "F",
+      "reference": "H1",
+      "finite_gene_pairs": 18077,
+      "spearman": 0.8020423048431569
+    }
+  }
+}

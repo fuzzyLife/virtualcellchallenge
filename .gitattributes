@@ -404,3 +404,9 @@
 /*v90*.py -text whitespace=cr-at-eol
 /V90*.md -text whitespace=cr-at-eol
 /experiments/v90*/analysis/** -text whitespace=cr-at-eol
+# Final-round provenance bytes
+/*final*.py -text whitespace=cr-at-eol
+/FINAL*.md -text whitespace=cr-at-eol
+/experiments/final_v91/analysis/** -text whitespace=cr-at-eol
+/final/*.csv -text whitespace=cr-at-eol
+/final/manifest.json -text whitespace=cr-at-eol

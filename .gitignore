@@ -918,3 +918,12 @@ experiments/v90_interval_diagnostic/**/*.log
 experiments/v90_interval_diagnostic/*.h5ad*
 experiments/v90_interval_diagnostic/*.vcc*
 experiments/v90_interval_diagnostic/analysis/prediction_control_rows.csv
+# Final-round local inputs and regenerable artifacts
+/final/*.h5ad
+/experiments/final_v91/**/*.npz
+/experiments/final_v91/**/*.npy
+/experiments/final_v91/**/*.log
+/experiments/final_v91/*.h5ad*
+/experiments/final_v91/*.vcc*
+/experiments/final_v91/analysis/prediction_control_rows.csv
+/reference/final_v91/
