@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 R=Path(__file__).resolve().parent;A=R/'experiments/final_v91/analysis'
 def main():
- read=lambda n:json.loads((A/n).read_text());ready=read('submission_ready.json');ind=read('independent_validation.json');assert ind['passed'] and ready['official_prep_passed'];assert ind['submission_sha256']==ready['sha256'];coverage=read('source_audit.json')['coverage'];model=read('model_audit.json');assert model['passed'];src=read('source_provenance.json');ctx=read('context_diagnostic.json')['nearest_external'];sizes=ready['prediction_validation'];g=coverage['all'];new=coverage['new'];rows='\n'.join(f"| {c} | {v['reference']} | {v['spearman']:.6f} |" for c,v in ctx.items());command='''cd /d L:\\promec\\Animesh\\Download\\Virtual
+ read=lambda n:json.loads((A/n).read_text());ready=read('submission_ready.json');ind=read('independent_validation.json');assert ind['passed'] and ready['official_prep_passed'];assert ind['submission_sha256']==ready['sha256'];coverage=read('source_audit.json')['coverage'];model=read('model_audit.json');assert model['passed'];src=read('source_provenance.json');ctx=read('context_diagnostic.json')['nearest_external'];sizes=ready['prediction_validation'];g=coverage['all'];new=coverage['new'];unsupported=', '.join(src['unsupported_targets']);rows='\n'.join(f"| {c} | {v['reference']} | {v['spearman']:.6f} |" for c,v in ctx.items());command='''cd /d L:\\promec\\Animesh\\Download\\Virtual
 .\\.competition_env\\Scripts\\python.exe -m vcc submit .\\experiments\\final_v91\\prediction.vcc -m "V90 source-refit D E F final v91" --wait'''
  text=f'''# Final V91 submission ready
 
@@ -22,7 +22,7 @@ The first final-round candidate is officially packaged with **VCC CLI 0.3.0** an
 
 ## What changed for the final round
 
-There are 171 new targets and 129 targets shared with validation. We reused {src['reused_rows']} genuine public target/context response rows bitwise and added {src['new_rows']} newly extracted public rows. All {g['with_any_response']} of {g['targets']} final targets have at least one usable source response; among new targets, {new['with_any_response']} of {new['targets']} do. Full family coverage and missing masks are in `target_coverage.csv` and `source_audit.json`. A target with one measured source is not equivalent to a target measured in several lineages.
+There are 171 new targets and 129 targets shared with validation. We reused {src['reused_rows']} genuine public target/context response rows bitwise and added {src['new_rows']} newly extracted public rows. {g['with_any_response']} of {g['targets']} final targets have at least one usable source response; among new targets, {new['with_any_response']} of {new['targets']} do. Full family coverage and missing masks are in `target_coverage.csv` and `source_audit.json`. A target with one measured source is not equivalent to a target measured in several lineages. Unsupported targets: **{unsupported}**. Their downstream response stays at the control-based baseline; the fixed on-target factor remains an assumption. All targets still have the required prediction cells.
 
 The source estimator choices, correction strengths, 80% identity guards, on-target factor and residual10 count emitter remain fixed from V90. Source response pooling/centering, the donor-supported CD4 teacher, rank axes and finite-update covariance priors were refit for the actual final target panel. New D/E/F controls supply basal profiles, original cell templates and library totals. We did not relabel A/B/C predictions or predict only the shared targets.
 

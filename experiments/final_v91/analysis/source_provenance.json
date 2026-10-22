@@ -1,0 +1,20 @@
+{
+  "cache_sha256": "1cf421075d72252f244fbd063da7cc10841530d667925f3af1d56131de810ccc",
+  "original_source_sha256": "104855ae3fe54752a8489649a12d0c9ad5790540fb37b7ffb7e0f78a62f6e321",
+  "reused_rows": 638,
+  "reused_rows_bitwise_unchanged": true,
+  "new_rows": 849,
+  "script_sha256": "5f6d79837af01596c526a7c293acdb3759ea584064076d7437ec8f63522ed057",
+  "rows_by_family": {
+    "CD4": 625,
+    "H1": 28,
+    "HCT116": 282,
+    "HEK293T": 292,
+    "K562": 260
+  },
+  "unsupported_targets": [
+    "ANG",
+    "DPY30"
+  ],
+  "complete_treatment_truth_for_final": false
+}

@@ -26,12 +26,12 @@ def assay():
  m=isolated('final_assay_isolated','v62_conserved_response.py');m.data=data;return m
 @lru_cache(1)
 def posterior():
- m=isolated('final_posterior_isolated','v86_joint_posterior.py',lambda s:s.replace("ROOT/'experiments/v7_multisource_adaptive/analysis/source_cache.npz'","A/'source_cache.npz'"));m.A=A;m.OUT=O;m.data=data;m.check=check;m.component_likelihood=gaussian;return m
+ m=isolated('final_posterior_isolated','v86_joint_posterior.py',lambda s:s.replace("ROOT/'experiments/v7_multisource_adaptive/analysis/source_cache.npz'","A/'source_cache.npz'").replace('Whole recipient study excluded.','All public source families retained for blind final inference; no final treatment outcomes supplied.'));m.A=A;m.OUT=O;m.data=data;m.check=check;m.component_likelihood=gaussian;return m
 @lru_cache(1)
 def teacher():
  rec=read(A/'cd4_collection.json')
  for name,h in rec['combined'].items():assert sha(R/'reference/final_v91/cd4'/name)==h,name
- m=isolated('final_cd4_isolated','v24_methods.py');m.A=A;m.read_cache=data;m.load_plan=check;original=m.load_subset
+ m=isolated('final_cd4_isolated','v24_methods.py',lambda s:s.replace('Within-condition donor evidence; Rest development overlaps public summary biology and is calibration, not blind donor validation. Fresh-condition response rows excluded.','All public conditions retained for blind final production; donor evidence is reused public biology, not independent final validation.'));m.A=A;m.read_cache=data;m.load_plan=check;original=m.load_subset
  def subset(directory,name):return original(R/'reference/final_v91/cd4',name)
  m.load_subset=subset;return m,m.make_teacher(True)
 def predict(query,bulk):

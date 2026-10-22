@@ -31,3 +31,13 @@ The full-release Orion extension contains **30,795 HCT116 cells across 109 batch
 Pairwise finite-value Spearman correlations of final control mean CPM, without pseudocounts, give nearest available external controls: D–CD4 Stim48hr **0.850588**, E–H1 **0.776744**, F–H1 **0.802042**. These are basal similarities, **not cell-line identities or validation of intervention-response transfer**. See `basal_rank_correlations.csv` and `context_diagnostic.json`.
 
 The source-only final model retains the exact published method choices (V24 `cdf50_de`, V66 `assay75`, V90 `interval25`, residual10 count emitter). It refits the CD4 teacher, source centering, rank axes and finite-update covariance prior for the actual final panel. Missing source observations stay masked. Final treatment outcomes remain unavailable; public validation rank cannot forecast the final rank.
+
+## Frozen final response source audit
+
+The final cache contains **1,487** public target/context response rows: **638 reused bitwise** and **849 newly extracted**. It covers **298/300 final targets**. **ANG and DPY30 have no eligible source response** and keep a control-based downstream baseline with the same preset 90% on-target suppression assumption; all 400 predicted cells per context are still required for these targets. No source response is invented for missing evidence.
+
+Source-family row counts are K562 260, CD4 625 (three correlated conditions), H1 28, HCT116 282 and HEK293T 292. Family coverage per final target is: 19 targets with five families, 180 with four, 82 with three, 14 with two, 3 with one and 2 with none. These are measurement-coverage counts, not performance estimates. Source masks and own-coordinate exclusions passed independent checks.
+
+The added H1 evidence comprises **8,463 treated cells** for 12 newly required targets across the public 2025 train/validation/test splits. Byte-range identities and checksum checks were retained. Parallel verified-page loading accelerated shared-drive reads without changing sample selection or counts.
+
+The scientific method was frozen before final response inference in `experiments/final_v91/analysis/plan.json`. Both original finite-update source priors were fitted and saved, including the shuffled diagnostic. Full diagnostic response outputs are retained for inspection; only the preselected V90 interval25 output is used for cells.

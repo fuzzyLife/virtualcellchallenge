@@ -1,0 +1,5018 @@
+{
+  "sha256": "3373053f160f511ae2c0ff173940b7de5aacd9c7cb338e4408d67444fdcdc099",
+  "plan_sha256": "891e5da7296d0abb22209b398be631ef4e082ccc37e43e56e2903f1534ec14fe",
+  "training_conditions": [
+    "Rest",
+    "Stim8hr",
+    "Stim48hr"
+  ],
+  "withheld_response_condition": null,
+  "donor_pair_ids": [
+    "CE0006864_CE0008162",
+    "CE0008678_CE0010866"
+  ],
+  "supported_targets": 230,
+  "source_rows": [
+    {
+      "source_row": 0,
+      "target": "ABCC1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 37,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1,
+      "target": "ABCC1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 67,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 2,
+      "target": "ABCC1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 5,
+      "credible_null_genes": 96,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 3,
+      "target": "ACLY",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 4,
+      "target": "ACLY",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 241,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 5,
+      "target": "ACLY",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 61,
+      "credible_null_genes": 26,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 6,
+      "target": "ADNP",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 68,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 7,
+      "target": "ADNP",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 195,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 8,
+      "target": "ADNP",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 420,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 9,
+      "target": "AGO1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 10,
+      "target": "AGO1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 11,
+      "target": "AGO1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 21,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 12,
+      "target": "AKAP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 154,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 13,
+      "target": "AKAP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 338,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 14,
+      "target": "AKAP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 560,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 15,
+      "target": "AKIRIN1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 16,
+      "target": "AKIRIN1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 17,
+      "target": "AKIRIN1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 28,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 18,
+      "target": "AKT2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 11,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 19,
+      "target": "AKT2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 87,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 20,
+      "target": "AKT2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 86,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 24,
+      "target": "AMPD3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 156,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 25,
+      "target": "AMPD3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 364,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 26,
+      "target": "AMPD3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 459,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 33,
+      "target": "ANP32B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 34,
+      "target": "ANP32B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 35,
+      "target": "ANP32E",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 75,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 36,
+      "target": "ANP32E",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 244,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 37,
+      "target": "ANP32E",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 327,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 38,
+      "target": "AP2A2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 39,
+      "target": "AP2A2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 40,
+      "target": "AP2A2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 48,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 41,
+      "target": "AP5Z1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 105,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 42,
+      "target": "AP5Z1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 293,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 43,
+      "target": "AP5Z1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 367,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 47,
+      "target": "API5",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 48,
+      "target": "API5",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 49,
+      "target": "API5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 50,
+      "target": "ARFIP2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 121,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 51,
+      "target": "ARFIP2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 476,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 52,
+      "target": "ARFIP2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 447,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 53,
+      "target": "ARL14EP",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 54,
+      "target": "ARL14EP",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 21,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 55,
+      "target": "ARL14EP",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 56,
+      "target": "ARL8B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 75,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 57,
+      "target": "ARL8B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 141,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 58,
+      "target": "ARL8B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 286,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 59,
+      "target": "ARSA",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 60,
+      "target": "ARSA",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 61,
+      "target": "ARSA",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 65,
+      "target": "ASF1A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 39,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 66,
+      "target": "ASF1A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 112,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 67,
+      "target": "ASF1A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 215,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 68,
+      "target": "ASPM",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 74,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 69,
+      "target": "ASPM",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 285,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 70,
+      "target": "ASPM",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 363,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 71,
+      "target": "ATP10D",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 72,
+      "target": "ATP10D",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 206,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 74,
+      "target": "ATP13A3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 75,
+      "target": "ATP13A3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 99,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 76,
+      "target": "ATP13A3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 156,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 80,
+      "target": "BCKDK",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 81,
+      "target": "BCKDK",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 82,
+      "target": "BCKDK",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 47,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 89,
+      "target": "BID",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 90,
+      "target": "BID",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 63,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 91,
+      "target": "BID",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 34,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 95,
+      "target": "BRPF1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 24,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 96,
+      "target": "BRPF1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 97,
+      "target": "BRPF1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 74,
+      "credible_null_genes": 74,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 101,
+      "target": "C11orf58",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 34,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 102,
+      "target": "C11orf58",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 146,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 103,
+      "target": "C11orf58",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 215,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 104,
+      "target": "C1RL",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 107,
+      "target": "CAND1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 10,
+      "credible_null_genes": 52,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 108,
+      "target": "CAND1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 9,
+      "credible_null_genes": 104,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 109,
+      "target": "CAND1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 17,
+      "credible_null_genes": 194,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 113,
+      "target": "CARM1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 11,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 114,
+      "target": "CARM1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 115,
+      "target": "CARM1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 50,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 119,
+      "target": "CCDC106",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 119,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 120,
+      "target": "CCDC106",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 164,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 121,
+      "target": "CCDC106",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 353,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 125,
+      "target": "CCDC71",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 126,
+      "target": "CCDC71",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 31,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 127,
+      "target": "CCDC71",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 37,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 129,
+      "target": "CCNE2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 140,
+      "target": "CHIC2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 6,
+      "credible_null_genes": 227,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 141,
+      "target": "CHIC2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 336,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 142,
+      "target": "CHIC2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 414,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 152,
+      "target": "CLN5",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 91,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 153,
+      "target": "CLN5",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 191,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 154,
+      "target": "CLN5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 326,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 155,
+      "target": "CNOT6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 34,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 156,
+      "target": "CNOT6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 109,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 157,
+      "target": "CNOT6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 146,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 161,
+      "target": "COMMD1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 162,
+      "target": "COMMD1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 29,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 163,
+      "target": "COMMD1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 70,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 164,
+      "target": "COMMD7",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 13,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 165,
+      "target": "COMMD7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 40,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 166,
+      "target": "COMMD7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 76,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 167,
+      "target": "COMMD8",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 168,
+      "target": "COMMD8",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 169,
+      "target": "COMMD8",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 61,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 170,
+      "target": "COQ10B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 11,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 171,
+      "target": "COQ10B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 35,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 172,
+      "target": "COQ10B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 70,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 175,
+      "target": "CPSF7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 177,
+      "target": "CREB3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 182,
+      "target": "CUX1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 76,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 183,
+      "target": "CUX1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 338,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 184,
+      "target": "CUX1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 272,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 190,
+      "target": "CXXC5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 349,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 205,
+      "target": "DCP2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 207,
+      "target": "DCP2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 67,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 217,
+      "target": "DEK",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 218,
+      "target": "DEK",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 47,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 219,
+      "target": "DEK",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 72,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 221,
+      "target": "DHRS1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 8,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 223,
+      "target": "DHX32",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 21,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 224,
+      "target": "DHX32",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 174,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 225,
+      "target": "DHX32",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 176,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 229,
+      "target": "DIAPH3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 230,
+      "target": "DIAPH3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 32,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 231,
+      "target": "DIAPH3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 27,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 238,
+      "target": "DNAJC14",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 239,
+      "target": "DNAJC14",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 11,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 240,
+      "target": "DNAJC14",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 18,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 241,
+      "target": "DNTTIP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 5,
+      "credible_null_genes": 229,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 242,
+      "target": "DNTTIP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 38,
+      "credible_null_genes": 155,
+      "opposed_donor_genes": 1
+    },
+    {
+      "source_row": 243,
+      "target": "DNTTIP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 348,
+      "credible_null_genes": 261,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 247,
+      "target": "DTNBP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 248,
+      "target": "DTNBP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 50,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 249,
+      "target": "DTNBP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 97,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 253,
+      "target": "DYM",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 42,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 254,
+      "target": "DYM",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 122,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 255,
+      "target": "DYM",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 164,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 256,
+      "target": "E2F1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 257,
+      "target": "E2F1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 258,
+      "target": "E2F1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 264,
+      "target": "EIF4ENIF1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 265,
+      "target": "EIF4ENIF1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 266,
+      "target": "EIF4ENIF1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 271,
+      "target": "EME1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 272,
+      "target": "EME1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 273,
+      "target": "EMP3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 274,
+      "target": "EMP3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 39,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 276,
+      "target": "EPC2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 277,
+      "target": "EPC2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 59,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 278,
+      "target": "EPC2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 93,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 282,
+      "target": "ERGIC2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 283,
+      "target": "ERGIC2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 67,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 284,
+      "target": "ERGIC2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 84,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 288,
+      "target": "FADS1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 294,
+      "target": "FAM200B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 295,
+      "target": "FAM200B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 296,
+      "target": "FAM200B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 33,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 297,
+      "target": "FBXW4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 298,
+      "target": "FBXW4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 55,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 299,
+      "target": "FBXW4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 82,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 306,
+      "target": "FOXK1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 307,
+      "target": "FOXK1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 308,
+      "target": "FOXK1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 47,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 1
+    },
+    {
+      "source_row": 309,
+      "target": "FOXN2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 64,
+      "credible_null_genes": 132,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 310,
+      "target": "FOXN2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 31,
+      "credible_null_genes": 329,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 311,
+      "target": "FOXN2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 70,
+      "credible_null_genes": 401,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 315,
+      "target": "FUBP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 8,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 316,
+      "target": "FUBP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 40,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 317,
+      "target": "FUBP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 43,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 321,
+      "target": "FXYD5",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 60,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 322,
+      "target": "FXYD5",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 184,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 323,
+      "target": "FXYD5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 276,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 324,
+      "target": "GATAD2B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 325,
+      "target": "GATAD2B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 326,
+      "target": "GATAD2B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 338,
+      "target": "GPATCH8",
+      "condition": "Rest",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 339,
+      "target": "GPATCH8",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 7,
+      "credible_null_genes": 43,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 340,
+      "target": "GPATCH8",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 6,
+      "credible_null_genes": 87,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 341,
+      "target": "GPBP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 138,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 342,
+      "target": "GPBP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 286,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 343,
+      "target": "GPBP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 405,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 347,
+      "target": "GRAMD1A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 348,
+      "target": "GRAMD1A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 13,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 349,
+      "target": "GRAMD1A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 12,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 353,
+      "target": "HCFC2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 354,
+      "target": "HCFC2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 25,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 355,
+      "target": "HCFC2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 43,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 356,
+      "target": "HDAC1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 357,
+      "target": "HDAC1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 62,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 358,
+      "target": "HDAC1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 94,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 359,
+      "target": "HDAC8",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 360,
+      "target": "HDAC8",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 28,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 361,
+      "target": "HDAC8",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 69,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 362,
+      "target": "HEATR6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 62,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 363,
+      "target": "HEATR6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 207,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 364,
+      "target": "HEATR6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 233,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 365,
+      "target": "HMGB2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 366,
+      "target": "HMGB2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 79,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 367,
+      "target": "HMGB2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 90,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 371,
+      "target": "HMGN4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 372,
+      "target": "HMGN4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 103,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 373,
+      "target": "HMGN4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 151,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 375,
+      "target": "HMGXB3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 376,
+      "target": "HMGXB3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 14,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 377,
+      "target": "HMGXB4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 378,
+      "target": "HMGXB4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 53,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 379,
+      "target": "HMGXB4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 81,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 387,
+      "target": "HSD3B7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 168,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 392,
+      "target": "IFI27L2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 28,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 393,
+      "target": "IFI27L2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 101,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 394,
+      "target": "IFI27L2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 88,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 395,
+      "target": "IFNAR2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 396,
+      "target": "IFNAR2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 397,
+      "target": "IFNAR2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 399,
+      "target": "IFNGR2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 103,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 400,
+      "target": "IFNGR2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 9,
+      "credible_null_genes": 97,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 401,
+      "target": "IKBKE",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 402,
+      "target": "IKBKE",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 33,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 403,
+      "target": "IKBKE",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 91,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 410,
+      "target": "ITPRIPL1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 411,
+      "target": "ITPRIPL1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 63,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 412,
+      "target": "ITPRIPL1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 69,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 419,
+      "target": "JUND",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 420,
+      "target": "JUND",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 37,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 421,
+      "target": "JUND",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 67,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 422,
+      "target": "KDM3A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 48,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 423,
+      "target": "KDM3A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 102,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 424,
+      "target": "KDM3A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 190,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 425,
+      "target": "KDM5A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 426,
+      "target": "KDM5A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 427,
+      "target": "KDM5A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 437,
+      "target": "KLF6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 58,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 439,
+      "target": "KLF6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 353,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 442,
+      "target": "KMT2E",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 443,
+      "target": "KMT2E",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 444,
+      "target": "KMT2E",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 445,
+      "target": "KNTC1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 446,
+      "target": "KNTC1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 447,
+      "target": "KNTC1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 448,
+      "target": "L3MBTL2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 20,
+      "credible_null_genes": 135,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 449,
+      "target": "L3MBTL2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 57,
+      "credible_null_genes": 367,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 450,
+      "target": "L3MBTL2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 58,
+      "credible_null_genes": 453,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 451,
+      "target": "LCOR",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 452,
+      "target": "LCOR",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 466,
+      "target": "LSM14B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 467,
+      "target": "LSM14B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 468,
+      "target": "LSM14B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 469,
+      "target": "LYSMD4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 47,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 470,
+      "target": "LYSMD4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 250,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 471,
+      "target": "LYSMD4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 215,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 472,
+      "target": "M6PR",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 473,
+      "target": "M6PR",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 110,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 474,
+      "target": "M6PR",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 159,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 475,
+      "target": "MAN2A1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 30,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 476,
+      "target": "MAN2A1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 105,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 477,
+      "target": "MAN2A1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 168,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 478,
+      "target": "MAP2K2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 57,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 479,
+      "target": "MAP2K2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 158,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 480,
+      "target": "MAP2K2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 220,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 481,
+      "target": "MAP2K3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 116,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 482,
+      "target": "MAP2K3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 162,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 483,
+      "target": "MAP2K3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 265,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 484,
+      "target": "MAP3K11",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 485,
+      "target": "MAP3K11",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 75,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 486,
+      "target": "MAP3K11",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 113,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 487,
+      "target": "MAP3K3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 79,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 488,
+      "target": "MAP3K3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 212,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 489,
+      "target": "MAP3K3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 263,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 491,
+      "target": "MAPK12",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 98,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 492,
+      "target": "MAPK12",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 268,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 494,
+      "target": "MAPK7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 495,
+      "target": "MAPK7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 49,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 496,
+      "target": "MARCKSL1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 497,
+      "target": "MARCKSL1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 88,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 498,
+      "target": "MARCKSL1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 102,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 502,
+      "target": "MED13",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 82,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 503,
+      "target": "MED13",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 299,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 504,
+      "target": "MED13",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 267,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 508,
+      "target": "MED25",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 509,
+      "target": "MED25",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 247,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 511,
+      "target": "MLKL",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 66,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 512,
+      "target": "MLKL",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 137,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 513,
+      "target": "MLKL",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 296,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 514,
+      "target": "MLLT1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 515,
+      "target": "MLLT1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 516,
+      "target": "MLLT1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 525,
+      "target": "MSANTD4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 529,
+      "target": "MTA1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 26,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 530,
+      "target": "MTA1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 77,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 531,
+      "target": "MTA1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 119,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 544,
+      "target": "MYNN",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 545,
+      "target": "MYNN",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 40,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 546,
+      "target": "MYNN",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 61,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 553,
+      "target": "N4BP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 554,
+      "target": "N4BP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 555,
+      "target": "N4BP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 37,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 559,
+      "target": "NAGK",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 560,
+      "target": "NAGK",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 42,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 561,
+      "target": "NAGK",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 568,
+      "target": "NDUFS6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 238,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 569,
+      "target": "NDUFS6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 551,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 570,
+      "target": "NDUFS6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 582,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 572,
+      "target": "NEK3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 573,
+      "target": "NEK3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 39,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 578,
+      "target": "NGLY1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 579,
+      "target": "NGLY1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 590,
+      "target": "NPRL2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 87,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 592,
+      "target": "NR2C2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 9,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 593,
+      "target": "NR2C2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 8,
+      "credible_null_genes": 21,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 594,
+      "target": "NR2C2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 24,
+      "credible_null_genes": 45,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 595,
+      "target": "NSD1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 131,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 1
+    },
+    {
+      "source_row": 596,
+      "target": "NSD1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 120,
+      "credible_null_genes": 34,
+      "opposed_donor_genes": 3
+    },
+    {
+      "source_row": 597,
+      "target": "NSD1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 112,
+      "credible_null_genes": 79,
+      "opposed_donor_genes": 2
+    },
+    {
+      "source_row": 607,
+      "target": "PA2G4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 608,
+      "target": "PA2G4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 616,
+      "target": "PAPOLA",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 617,
+      "target": "PAPOLA",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 618,
+      "target": "PAPOLA",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 643,
+      "target": "PDK1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 644,
+      "target": "PDK1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 24,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 645,
+      "target": "PDK3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 90,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 646,
+      "target": "PDK3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 219,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 647,
+      "target": "PDK3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 376,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 648,
+      "target": "PGLS",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 654,
+      "target": "PHF14",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 655,
+      "target": "PHF14",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 41,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 656,
+      "target": "PHF14",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 97,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 663,
+      "target": "PHF6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 666,
+      "target": "PHF8",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 667,
+      "target": "PHF8",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 18,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 668,
+      "target": "PHF8",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 46,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 672,
+      "target": "PIGO",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 206,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 673,
+      "target": "PIGO",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 272,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 674,
+      "target": "PIGO",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 396,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 679,
+      "target": "PIM3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 709,
+      "target": "PQBP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 710,
+      "target": "PQBP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 711,
+      "target": "PRCP",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 712,
+      "target": "PRCP",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 130,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 714,
+      "target": "PRDM15",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 715,
+      "target": "PRDM15",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 8,
+      "credible_null_genes": 72,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 716,
+      "target": "PRDM15",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 11,
+      "credible_null_genes": 71,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 726,
+      "target": "PRMT2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 727,
+      "target": "PRMT2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 728,
+      "target": "PRMT2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 8,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 733,
+      "target": "PRNP",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 734,
+      "target": "PRNP",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 187,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 735,
+      "target": "PRNP",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 217,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 740,
+      "target": "PSMB9",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 70,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 742,
+      "target": "PTBP2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 13,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 743,
+      "target": "PTBP2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 117,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 744,
+      "target": "PTBP2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 81,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 751,
+      "target": "PUM2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 45,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 752,
+      "target": "PUM2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 123,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 753,
+      "target": "PUM2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 113,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 757,
+      "target": "R3HCC1L",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 758,
+      "target": "R3HCC1L",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 5,
+      "credible_null_genes": 56,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 759,
+      "target": "R3HCC1L",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 53,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 763,
+      "target": "RAB5A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 764,
+      "target": "RAB5A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 107,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 765,
+      "target": "RAB5A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 142,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 766,
+      "target": "RAB8A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 105,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 767,
+      "target": "RAB8A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 177,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 768,
+      "target": "RAB8A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 179,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 781,
+      "target": "RBM27",
+      "condition": "Rest",
+      "donor_corroborated_genes": 12,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 782,
+      "target": "RBM27",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 783,
+      "target": "RBM27",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 17,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 784,
+      "target": "RBM4B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 151,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 785,
+      "target": "RBM4B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 406,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 786,
+      "target": "RBM4B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 437,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 787,
+      "target": "RBM5",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 42,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 788,
+      "target": "RBM5",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 61,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 789,
+      "target": "RBM5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 5,
+      "credible_null_genes": 89,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 790,
+      "target": "RBM6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 791,
+      "target": "RBM6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 22,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 792,
+      "target": "RBM6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 18,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 793,
+      "target": "RBM7",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 794,
+      "target": "RBM7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 795,
+      "target": "RBM7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 799,
+      "target": "REL",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 800,
+      "target": "REL",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 801,
+      "target": "REL",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 802,
+      "target": "RELB",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 803,
+      "target": "RELB",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 8,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 804,
+      "target": "RELB",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 808,
+      "target": "RLF",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 809,
+      "target": "RLF",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 29,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 810,
+      "target": "RLF",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 39,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 814,
+      "target": "RNF115",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 815,
+      "target": "RNF115",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 816,
+      "target": "RNF115",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 28,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 817,
+      "target": "RNF126",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 818,
+      "target": "RNF126",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 139,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 819,
+      "target": "RNF126",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 247,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 829,
+      "target": "RPP25L",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 830,
+      "target": "RPP25L",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 31,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 831,
+      "target": "RPP25L",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 41,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 835,
+      "target": "S100A11",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 836,
+      "target": "S100A11",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 44,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 837,
+      "target": "S100A11",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 49,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 839,
+      "target": "SCAF8",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 840,
+      "target": "SCAF8",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 841,
+      "target": "SCAF8",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 8,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 845,
+      "target": "SERPINH1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 846,
+      "target": "SERPINH1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 53,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 847,
+      "target": "SERPINH1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 62,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 856,
+      "target": "SHPRH",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 857,
+      "target": "SHPRH",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 119,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 858,
+      "target": "SHPRH",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 105,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 860,
+      "target": "SIK2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 861,
+      "target": "SIK2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 862,
+      "target": "SIN3B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 73,
+      "credible_null_genes": 58,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 863,
+      "target": "SIN3B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 194,
+      "credible_null_genes": 45,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 864,
+      "target": "SIN3B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 133,
+      "credible_null_genes": 142,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 868,
+      "target": "SLC25A51",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 869,
+      "target": "SLC25A51",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 82,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 870,
+      "target": "SLC25A51",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 139,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 871,
+      "target": "SLC30A1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 35,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 872,
+      "target": "SLC30A1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 130,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 873,
+      "target": "SLC30A1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 180,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 874,
+      "target": "SLC39A1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 288,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 875,
+      "target": "SLC39A1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 444,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 876,
+      "target": "SLC39A1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 550,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 889,
+      "target": "SMARCC2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 890,
+      "target": "SMARCC2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 24,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 891,
+      "target": "SMARCC2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 892,
+      "target": "SMARCD1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 893,
+      "target": "SMARCD1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 894,
+      "target": "SMARCD1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 898,
+      "target": "SND1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 899,
+      "target": "SND1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 900,
+      "target": "SND1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 919,
+      "target": "SPOP",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 920,
+      "target": "SPOP",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 921,
+      "target": "SPOP",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 27,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 922,
+      "target": "SRSF5",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 142,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 923,
+      "target": "SRSF5",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 220,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 924,
+      "target": "SRSF5",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 469,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 928,
+      "target": "STAT6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 29,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 929,
+      "target": "STAT6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 76,
+      "credible_null_genes": 80,
+      "opposed_donor_genes": 1
+    },
+    {
+      "source_row": 930,
+      "target": "STAT6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 14,
+      "credible_null_genes": 150,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 931,
+      "target": "STAU2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 932,
+      "target": "STAU2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 107,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 933,
+      "target": "STAU2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 209,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 934,
+      "target": "STK10",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 935,
+      "target": "STK10",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 77,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 936,
+      "target": "STK10",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 65,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 938,
+      "target": "STRN",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 939,
+      "target": "STRN",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 225,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 940,
+      "target": "STRN",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 333,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 941,
+      "target": "STT3A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 942,
+      "target": "STT3A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 943,
+      "target": "STT3A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 59,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 944,
+      "target": "STUB1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 945,
+      "target": "STUB1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 952,
+      "target": "SURF2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 961,
+      "target": "TAF9B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 962,
+      "target": "TAF9B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 963,
+      "target": "TAF9B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 24,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 971,
+      "target": "TBC1D19",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 19,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 972,
+      "target": "TBC1D19",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 37,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 976,
+      "target": "TBK1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 977,
+      "target": "TBK1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 978,
+      "target": "TBK1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 979,
+      "target": "TCIRG1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 31,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 980,
+      "target": "TCIRG1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 153,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 981,
+      "target": "TCIRG1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 146,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 988,
+      "target": "TESK2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 127,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 989,
+      "target": "TESK2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 176,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 990,
+      "target": "TESK2",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 296,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 997,
+      "target": "THAP3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 52,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 998,
+      "target": "THAP3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 105,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 999,
+      "target": "THAP3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 192,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1003,
+      "target": "THAP7",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 55,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1004,
+      "target": "THAP7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 116,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1005,
+      "target": "THAP7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 170,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1009,
+      "target": "TIMM17A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 21,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1010,
+      "target": "TIMM17A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 9,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1011,
+      "target": "TIMM17A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 76,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1017,
+      "target": "TM2D3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1018,
+      "target": "TM2D3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 66,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1019,
+      "target": "TM2D3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 119,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1026,
+      "target": "TMED4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 12,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1027,
+      "target": "TMED4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 49,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1028,
+      "target": "TMED4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 60,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1029,
+      "target": "TMED7",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1030,
+      "target": "TMED7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1031,
+      "target": "TMED7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 52,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1035,
+      "target": "TMEM106B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1036,
+      "target": "TMEM106B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 12,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1037,
+      "target": "TMEM106B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 18,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1038,
+      "target": "TMEM147",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1039,
+      "target": "TMEM147",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 30,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1040,
+      "target": "TMEM147",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 62,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1043,
+      "target": "TMEM167A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 6,
+      "credible_null_genes": 171,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1050,
+      "target": "TMEM41B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1051,
+      "target": "TMEM41B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1052,
+      "target": "TMEM41B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 23,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1053,
+      "target": "TMEM43",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1054,
+      "target": "TMEM43",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 81,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1055,
+      "target": "TMEM43",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 93,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1056,
+      "target": "TMEM79",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1057,
+      "target": "TMEM79",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 12,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1058,
+      "target": "TMEM79",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 2,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1061,
+      "target": "TOP3B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 38,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1062,
+      "target": "TOP3B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 139,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1063,
+      "target": "TOP3B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 222,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1064,
+      "target": "TRAM2",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 11,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1065,
+      "target": "TRAM2",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 44,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1073,
+      "target": "TRIM27",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 26,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1074,
+      "target": "TRIM27",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 137,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1075,
+      "target": "TRIM27",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 162,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1100,
+      "target": "U2AF1L4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 55,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1101,
+      "target": "U2AF1L4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 151,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1102,
+      "target": "U2AF1L4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 221,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1114,
+      "target": "UROS",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1120,
+      "target": "USP45",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 81,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1121,
+      "target": "USP45",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 203,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1122,
+      "target": "USP45",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 291,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1123,
+      "target": "VAPB",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1124,
+      "target": "VAPB",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 294,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1125,
+      "target": "VAPB",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 414,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1126,
+      "target": "VEZF1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1127,
+      "target": "VEZF1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 13,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1128,
+      "target": "VEZF1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 43,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1129,
+      "target": "VIM",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 134,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1130,
+      "target": "VIM",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 238,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1131,
+      "target": "VIM",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 373,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1132,
+      "target": "VTA1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1133,
+      "target": "VTA1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 27,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1134,
+      "target": "VTA1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 40,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1135,
+      "target": "WBP4",
+      "condition": "Rest",
+      "donor_corroborated_genes": 3,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1136,
+      "target": "WBP4",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1137,
+      "target": "WBP4",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1140,
+      "target": "WDR62",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 280,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1141,
+      "target": "XPO7",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 132,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1142,
+      "target": "XPO7",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 253,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1143,
+      "target": "XPO7",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 308,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1144,
+      "target": "YIPF6",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 29,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1145,
+      "target": "YIPF6",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 126,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1146,
+      "target": "YIPF6",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 174,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1150,
+      "target": "ZBTB34",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1151,
+      "target": "ZBTB34",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1152,
+      "target": "ZBTB34",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1153,
+      "target": "ZBTB37",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 42,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1154,
+      "target": "ZBTB37",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 91,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1155,
+      "target": "ZBTB37",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 142,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1159,
+      "target": "ZBTB48",
+      "condition": "Rest",
+      "donor_corroborated_genes": 8,
+      "credible_null_genes": 53,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1160,
+      "target": "ZBTB48",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 180,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1161,
+      "target": "ZBTB48",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 218,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1162,
+      "target": "ZBTB7B",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 130,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1163,
+      "target": "ZBTB7B",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 359,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1164,
+      "target": "ZBTB7B",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 494,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1168,
+      "target": "ZC3H7A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1169,
+      "target": "ZC3H7A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 6,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1170,
+      "target": "ZC3H7A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1171,
+      "target": "ZC3HAV1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 207,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1173,
+      "target": "ZC3HAV1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 617,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1177,
+      "target": "ZDHHC13",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1178,
+      "target": "ZDHHC13",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 51,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1179,
+      "target": "ZDHHC13",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 24,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1183,
+      "target": "ZFAT",
+      "condition": "Rest",
+      "donor_corroborated_genes": 6,
+      "credible_null_genes": 40,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1184,
+      "target": "ZFAT",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 4,
+      "credible_null_genes": 96,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1185,
+      "target": "ZFAT",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 11,
+      "credible_null_genes": 195,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1186,
+      "target": "ZFP1",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 129,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1187,
+      "target": "ZFP1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 230,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1188,
+      "target": "ZFP1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 304,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1189,
+      "target": "ZFP62",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 15,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1190,
+      "target": "ZFP62",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 135,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1191,
+      "target": "ZFP62",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 130,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1192,
+      "target": "ZHX3",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 5,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1193,
+      "target": "ZHX3",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1194,
+      "target": "ZHX3",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1196,
+      "target": "ZKSCAN1",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 32,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1197,
+      "target": "ZKSCAN1",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 39,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1203,
+      "target": "ZNF121",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1204,
+      "target": "ZNF121",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 59,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1205,
+      "target": "ZNF121",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 56,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1224,
+      "target": "ZNF263",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1225,
+      "target": "ZNF263",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1226,
+      "target": "ZNF263",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 4,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1227,
+      "target": "ZNF264",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 26,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1228,
+      "target": "ZNF264",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 123,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1229,
+      "target": "ZNF264",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 156,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1233,
+      "target": "ZNF280D",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 75,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1234,
+      "target": "ZNF280D",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 166,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1235,
+      "target": "ZNF280D",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 214,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1261,
+      "target": "ZNF48",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1262,
+      "target": "ZNF48",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1263,
+      "target": "ZNF496",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 144,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1264,
+      "target": "ZNF496",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 250,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1265,
+      "target": "ZNF496",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 354,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1266,
+      "target": "ZNF507",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 0,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1267,
+      "target": "ZNF507",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 22,
+      "credible_null_genes": 41,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1268,
+      "target": "ZNF507",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 16,
+      "credible_null_genes": 52,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1272,
+      "target": "ZNF526",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 3,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1273,
+      "target": "ZNF526",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1274,
+      "target": "ZNF526",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 17,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1275,
+      "target": "ZNF530",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 20,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1276,
+      "target": "ZNF530",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 155,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1277,
+      "target": "ZNF530",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 200,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1281,
+      "target": "ZNF619",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 2,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1282,
+      "target": "ZNF619",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 10,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1283,
+      "target": "ZNF619",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 16,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1284,
+      "target": "ZNF627",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 152,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1285,
+      "target": "ZNF627",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 311,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1286,
+      "target": "ZNF627",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 458,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1288,
+      "target": "ZNF628",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 1,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1290,
+      "target": "ZNF641",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 7,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1292,
+      "target": "ZNF641",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 59,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1293,
+      "target": "ZNF653",
+      "condition": "Rest",
+      "donor_corroborated_genes": 1,
+      "credible_null_genes": 14,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1294,
+      "target": "ZNF653",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 206,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1295,
+      "target": "ZNF653",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 220,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1314,
+      "target": "ZNF780A",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 64,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1315,
+      "target": "ZNF780A",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 214,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1316,
+      "target": "ZNF780A",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 276,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1317,
+      "target": "ZNF783",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 25,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1318,
+      "target": "ZNF783",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 91,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1319,
+      "target": "ZNF783",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 76,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1320,
+      "target": "ZNF784",
+      "condition": "Rest",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 108,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1321,
+      "target": "ZNF784",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 282,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1322,
+      "target": "ZNF784",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 332,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1327,
+      "target": "ZNF805",
+      "condition": "Stim48hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 193,
+      "opposed_donor_genes": 0
+    },
+    {
+      "source_row": 1328,
+      "target": "ZNF805",
+      "condition": "Stim8hr",
+      "donor_corroborated_genes": 0,
+      "credible_null_genes": 123,
+      "opposed_donor_genes": 0
+    }
+  ],
+  "scope": "All public conditions retained for blind final production; donor evidence is reused public biology, not independent final validation."
+}
