@@ -1,3 +1,11 @@
+<!-- project-progress-20261023:begin -->
+## Current status: final V91 uploading (23 October 2026)
+
+The user reports that the validated D/E/F submission is uploading. Completion and entry ID have not yet been received; final scores remain hidden. **V90 remains our best published validation score: 0.15214377976638518.**
+
+[Complete project progress and all 22 validation results](PROJECT_PROGRESS.md) covers the data analyses, models, rejected experiments, final source reconstruction, validation and reproducibility. [Upload status snapshot](analysis/project_progress_20261023/upload_status.json) records the user report separately from frozen pre-upload receipts. Older readiness/status blocks below retain their historical meaning. Do not regenerate the active uploading file.
+<!-- project-progress-20261023:end -->
+
 # Final-round preparation
 
 The final bundle was inspected on October 22, 2026. It has 18,400 non-targeting controls in each of **D, E and F**, 300 perturbation targets with 400 predicted cells each, and the same 18,533-gene axis as validation. Only **129 targets overlap** the old list; **171 are new**. Keep labels exactly as provided. Validation predictions must not be relabelled D/E/F.

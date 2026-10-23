@@ -1,3 +1,11 @@
+<!-- project-progress-20261023:begin -->
+## Current status: final V91 uploading (23 October 2026)
+
+The user reports that the validated D/E/F submission is uploading. Completion and entry ID have not yet been received; final scores remain hidden. **V90 remains our best published validation score: 0.15214377976638518.**
+
+[Complete project progress and all 22 validation results](PROJECT_PROGRESS.md) covers the data analyses, models, rejected experiments, final source reconstruction, validation and reproducibility. [Upload status snapshot](analysis/project_progress_20261023/upload_status.json) records the user report separately from frozen pre-upload receipts. Older readiness/status blocks below retain their historical meaning. Do not regenerate the active uploading file.
+<!-- project-progress-20261023:end -->
+
 # Final V91 submission ready
 
 The first final-round candidate is officially packaged with **VCC CLI 0.3.0** and independently validated. It applies the method of our best published validation submission (V90, Overall 0.15214377976638518) to the actual final contexts and targets. **Final biological accuracy and ranking remain unknown.** No final upload occurred automatically.

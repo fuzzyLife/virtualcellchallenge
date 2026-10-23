@@ -413,3 +413,7 @@
 # Persist the exact legacy helper bytes used in the frozen final-source protocol.
 /prepare_v7_sources.py -text whitespace=cr-at-eol
 /audit_v7_source_offsets.py -text whitespace=cr-at-eol
+# Dated project documentation and reproducibility records retain exact bytes.
+/document_project_progress.py -text whitespace=cr-at-eol
+/PROJECT_PROGRESS.md -text whitespace=cr-at-eol
+/analysis/project_progress_20261023/** -text whitespace=cr-at-eol
