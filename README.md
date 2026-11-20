@@ -6,6 +6,12 @@ The user reports that the validated D/E/F submission is uploading. Completion an
 [Complete project progress and all 22 validation results](PROJECT_PROGRESS.md) covers the data analyses, models, rejected experiments, final source reconstruction, validation and reproducibility. [Upload status snapshot](analysis/project_progress_20261023/upload_status.json) records the user report separately from frozen pre-upload receipts. Older readiness/status blocks below retain their historical meaning. Do not regenerate the active uploading file.
 <!-- project-progress-20261023:end -->
 
+<!-- cellularai-review-20261120:begin -->
+## CellularAI and the first-place strategy (20 November 2026)
+
+Reviewed the local public release against the Illumina article, our V90/V91 pipeline and Arc Institute's final wrap-up. The key gap was evidence breadth and DE-aware population construction; reference transfer itself was already central to our work. [Read the detailed comparison](CELLULARAI_REVIEW.md).
+<!-- cellularai-review-20261120:end -->
+
 <!-- final-v91-ready:begin -->
 ## Final D/E/F submission ready
 
