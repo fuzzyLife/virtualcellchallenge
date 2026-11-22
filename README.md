@@ -12,6 +12,10 @@ The user reports that the validated D/E/F submission is uploading. Completion an
 Reviewed the local public release against the Illumina article, our V90/V91 pipeline and Arc Institute's final wrap-up. The key gap was evidence breadth and DE-aware population construction; reference transfer itself was already central to our work. [Read the detailed comparison](CELLULARAI_REVIEW.md).
 <!-- cellularai-review-20261120:end -->
 
+## Training-data provenance and complete methods audit (22 November 2026)
+
+[Read the full training-data provenance and method audit](TRAINING_DATA_PROVENANCE_AND_METHOD_AUDIT.md). It traces all five response-source families to their collectors and transformations, separates perturbation evidence from controls and exploratory data, documents the final V91 D/E/F pipeline and reproducibility receipts, compares our method with CellularAI, reviews the Claude toy analysis, and records all 22 published validation scores. It also states the limits of the available evidence and the unverified final-upload status.
+
 <!-- final-v91-ready:begin -->
 ## Final D/E/F submission ready
 
